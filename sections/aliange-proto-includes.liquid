@@ -1,0 +1,143 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #proto-includes-{{ section.id }} { background-color: var(--lp-bg); }
+  #proto-includes-{{ section.id }} .proto-includes-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--lp-space-2xl);
+  }
+  #proto-includes-{{ section.id }} .proto-includes-list {
+    max-width: var(--lp-container-sm);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  #proto-includes-{{ section.id }} .proto-includes-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--lp-space-md);
+    padding: var(--lp-space-lg) 0;
+    border-bottom: 1px solid var(--lp-border);
+  }
+  #proto-includes-{{ section.id }} .proto-includes-item:first-child {
+    border-top: 1px solid var(--lp-border);
+  }
+  #proto-includes-{{ section.id }} .proto-includes-name {
+    font-family: var(--lp-font-heading);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--lp-ink);
+    margin: 0;
+  }
+  #proto-includes-{{ section.id }} .proto-includes-size {
+    font-family: var(--lp-font-body);
+    font-size: 13px;
+    color: var(--lp-body);
+    margin: 2px 0 0;
+  }
+  #proto-includes-{{ section.id }} .proto-includes-price {
+    font-family: var(--lp-font-heading);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--lp-body);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  #proto-includes-{{ section.id }} .proto-includes-bundle {
+    max-width: var(--lp-container-sm);
+    margin: var(--lp-space-2xl) auto 0;
+    background-color: var(--lp-bg-muted);
+    border: 1px solid var(--lp-border);
+    border-radius: var(--lp-radius-lg);
+    padding: var(--lp-space-xl);
+    text-align: center;
+  }
+  #proto-includes-{{ section.id }} .proto-includes-bundle-price {
+    font-family: var(--lp-font-heading);
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    color: var(--lp-ink);
+    margin: 0 0 var(--lp-space-xs);
+  }
+  #proto-includes-{{ section.id }} .proto-includes-savings {
+    font-family: var(--lp-font-body);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--lp-accent, #6D5C3E);
+    margin: 0 0 var(--lp-space-lg);
+  }
+{%- endstyle -%}
+
+<section id="proto-includes-{{ section.id }}" class="lp-section">
+  <div class="lp-container">
+    <div class="proto-includes-header lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+    </div>
+
+    <div class="proto-includes-list lp-reveal">
+      {%- for block in section.blocks -%}
+        <div class="proto-includes-item" {{ block.shopify_attributes }}>
+          <div>
+            <p class="proto-includes-name">{{ block.settings.name }}</p>
+            {%- if block.settings.size != blank -%}
+              <p class="proto-includes-size">{{ block.settings.size }}</p>
+            {%- endif -%}
+          </div>
+          {%- if block.settings.price != blank -%}
+            <span class="proto-includes-price">{{ block.settings.price }}</span>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    {%- if section.settings.bundle_price != blank -%}
+      <div class="proto-includes-bundle lp-reveal">
+        <p class="proto-includes-bundle-price">{{ section.settings.bundle_price }}</p>
+        {%- if section.settings.savings_line != blank -%}
+          <p class="proto-includes-savings">{{ section.settings.savings_line }}</p>
+        {%- endif -%}
+        {%- if section.settings.cta_text != blank -%}
+          <a href="{{ section.settings.cta_url | default: '#' }}" class="lp-btn">
+            {{ section.settings.cta_text }}
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "Protocol — What's Included",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "What's Included" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Your Protocol Includes" },
+    { "type": "text", "id": "bundle_price", "label": "Bundle price text", "default": "Protocol Price: $599" },
+    { "type": "text", "id": "savings_line", "label": "Savings line", "default": "Save $90 when you buy the complete protocol." },
+    { "type": "text", "id": "cta_text", "label": "CTA button text", "default": "Order the Protocol" },
+    { "type": "url", "id": "cta_url", "label": "CTA button link" }
+  ],
+  "blocks": [
+    {
+      "type": "product_item",
+      "name": "Product",
+      "limit": 8,
+      "settings": [
+        { "type": "text", "id": "name", "label": "Product name", "default": "Jellyfish Peptide X Serum" },
+        { "type": "text", "id": "size", "label": "Size", "default": "50ml" },
+        { "type": "text", "id": "price", "label": "Individual price", "default": "$225" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Protocol — What's Included" }]
+}
+{% endschema %}

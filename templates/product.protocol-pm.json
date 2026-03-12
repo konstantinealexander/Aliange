@@ -1,0 +1,380 @@
+{
+  "sections": {
+    "lp_hero": {
+      "type": "aliange-lp-hero",
+      "settings": {
+        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
+        "headline": "Unlock Overnight Skin Renewal",
+        "subheadline": "A three-step system that works while you sleep to exfoliate, brighten, and regenerate your skin.",
+        "cta_text": "Start the PM Protocol",
+        "cta_url": "",
+        "trust_line": "90-Day Results Guarantee Or Your Money Back",
+        "align": "left",
+        "min_height": 620,
+        "content_width": 720
+      },
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Visibly improves skin texture and clarity."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Reduces fine lines and pigmentation."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Maximises overnight regenerative power."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Problem",
+        "headline": "The Overnight Imperative",
+        "body": "<p>Your skin\u2019s repair is most active at night, but accumulated damage can overwhelm this cycle.</p><p><strong>Dull, uneven tone</strong> from dead cell accumulation.</p><p><strong>Fine lines</strong> from declining collagen.</p><p><strong>Compromised barrier</strong> leads to moisture loss.</p>",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_routine": {
+      "type": "aliange-lp-routine",
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 3-Step Evening Protocol",
+        "cta_text": "Start the PM Protocol",
+        "cta_url": ""
+      },
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Daily Devotion Cleanser",
+            "price": "$55",
+            "why": "Removes makeup, sunscreen, and pollutants without stripping.",
+            "key_active": "Coconut Surfactants",
+            "step": "PM"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "Exfoliating and brightening powerhouse targeting pigmentation.",
+            "key_active": "Oligopeptide-68 + AHAs",
+            "step": "PM"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "price": "$130",
+            "why": "Micro-encapsulated Retinol accelerates renewal and collagen production.",
+            "key_active": "Retinol + Bakuchiol",
+            "step": "PM"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3"
+      ]
+    },
+    "proto_synergy": {
+      "type": "aliange-proto-synergy",
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step enhances the efficacy of the next for complete overnight renewal."
+      },
+      "blocks": {
+        "s1": {
+          "type": "point",
+          "settings": {
+            "title": "Prepare & Purify",
+            "description": "Cleanser removes barriers while respecting moisture balance."
+          }
+        },
+        "s2": {
+          "type": "point",
+          "settings": {
+            "title": "Exfoliate & Brighten",
+            "description": "Brightening Serum clears dead cells and makes skin receptive to repair."
+          }
+        },
+        "s3": {
+          "type": "point",
+          "settings": {
+            "title": "Renew & Rebuild",
+            "description": "Night Cream\u2019s Retinol and peptides work at maximum efficiency overnight."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    "lp_stats": {
+      "type": "aliange-lp-stats",
+      "settings": {},
+      "blocks": {
+        "st1": {
+          "type": "stat",
+          "settings": {
+            "value": "3",
+            "label": "Synergistic Steps"
+          }
+        },
+        "st2": {
+          "type": "stat",
+          "settings": {
+            "value": "25+",
+            "label": "Active Ingredients"
+          }
+        },
+        "st3": {
+          "type": "stat",
+          "settings": {
+            "value": "4 Weeks",
+            "label": "Visibly Brighter"
+          }
+        },
+        "st4": {
+          "type": "stat",
+          "settings": {
+            "value": "90",
+            "label": "Days Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ]
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "A Random Routine",
+        "col_us": "The PM Protocol"
+      },
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Efficacy",
+            "them": "Ingredient conflicts",
+            "us": "Synergistic formulas enhance each step"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Logic",
+            "them": "No sequential logic",
+            "us": "Doctor-designed biological sequencing"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Completeness",
+            "them": "Gaps in treatment",
+            "us": "Cleansing, exfoliation, and renewal"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Timing",
+            "them": "Generic application",
+            "us": "Optimised for overnight repair"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    "proto_ritual": {
+      "type": "aliange-proto-ritual",
+      "settings": {
+        "label": "Your Daily Ritual",
+        "headline": "Your Daily Ritual",
+        "am_note": "",
+        "pm_note": "In the morning, follow with a cleanser and Day Cream SPF 15."
+      },
+      "blocks": {
+        "rit1": {
+          "type": "step",
+          "settings": {
+            "text": "Cleanse with Daily Devotion Cleanser",
+            "time": "pm"
+          }
+        },
+        "rit2": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Brightening Serum to dry face",
+            "time": "pm"
+          }
+        },
+        "rit3": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Ultimate A Night Cream",
+            "time": "pm"
+          }
+        }
+      },
+      "block_order": [
+        "rit1",
+        "rit2",
+        "rit3"
+      ]
+    },
+    "proto_includes": {
+      "type": "aliange-proto-includes",
+      "settings": {
+        "label": "What's Included",
+        "headline": "Your Protocol Includes",
+        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
+        "savings_line": "Save $30 when you buy the complete protocol.",
+        "cta_text": "Start the PM Protocol",
+        "cta_url": ""
+      },
+      "blocks": {
+        "i1": {
+          "type": "product_item",
+          "settings": {
+            "name": "Daily Devotion Cleanser",
+            "size": "200ml",
+            "price": "$55"
+          }
+        },
+        "i2": {
+          "type": "product_item",
+          "settings": {
+            "name": "Brightening Serum",
+            "size": "50ml",
+            "price": "$100"
+          }
+        },
+        "i3": {
+          "type": "product_item",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "size": "50ml",
+            "price": "$130"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3"
+      ]
+    },
+    "lp_faq": {
+      "type": "aliange-lp-faq",
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      },
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How long before I see results?",
+            "answer": "<p>Improved brightness within weeks. Fine line reduction after 90 days.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this with other products?",
+            "answer": "<p>Complete evening system. No additional actives in PM. Use SPF in the morning.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Is this suitable for sensitive skin?",
+            "answer": "<p>Contains AHAs and Retinol. Start with alternate nights and introduce gradually.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Is this safe during pregnancy?",
+            "answer": "<p>Contains Retinol; not recommended during pregnancy or breastfeeding.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How long does the protocol last?",
+            "answer": "<p>Approximately 3 months with nightly use.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "headline": "Don\u2019t Just Sleep. Regenerate.",
+        "subheadline": "Turn every night into profound skin renewal. Risk-free.",
+        "cta_text": "Experience the PM Protocol",
+        "cta_url": "",
+        "guarantee": "90-Day Results Guarantee Or Your Money Back"
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_routine",
+    "proto_synergy",
+    "lp_stats",
+    "lp_comparison",
+    "proto_ritual",
+    "proto_includes",
+    "lp_faq",
+    "lp_cta"
+  ]
+}

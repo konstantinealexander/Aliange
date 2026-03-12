@@ -1,0 +1,118 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #proto-synergy-{{ section.id }} { background-color: var(--lp-bg); }
+  #proto-synergy-{{ section.id }} .proto-synergy-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--lp-space-xl);
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-intro {
+    font-family: var(--lp-font-body);
+    font-size: 15px;
+    color: var(--lp-body);
+    line-height: 1.7;
+    max-width: 720px;
+    margin: 0 auto var(--lp-space-2xl);
+    text-align: center;
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-md);
+    max-width: var(--lp-container-sm);
+    margin: 0 auto;
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-card {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: var(--lp-space-lg);
+    align-items: start;
+    background-color: var(--lp-bg-muted);
+    border: 1px solid var(--lp-border);
+    border-radius: var(--lp-radius-lg);
+    padding: var(--lp-space-xl);
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-num {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--lp-ink);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--lp-font-heading);
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+    letter-spacing: 0.05em;
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-title {
+    font-family: var(--lp-font-heading);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--lp-ink);
+    margin: 0 0 4px;
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-desc {
+    font-family: var(--lp-font-body);
+    font-size: 14px;
+    color: var(--lp-body);
+    line-height: 1.65;
+    margin: 0;
+  }
+{%- endstyle -%}
+
+<section id="proto-synergy-{{ section.id }}" class="lp-section">
+  <div class="lp-container">
+    <div class="proto-synergy-header lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+    </div>
+
+    {%- if section.settings.body != blank -%}
+      <p class="proto-synergy-intro lp-reveal">{{ section.settings.body }}</p>
+    {%- endif -%}
+
+    <div class="proto-synergy-grid">
+      {%- for block in section.blocks -%}
+        <div class="proto-synergy-card lp-reveal" {{ block.shopify_attributes }}>
+          <div class="proto-synergy-num" aria-hidden="true">0{{ forloop.index }}</div>
+          <div>
+            <h3 class="proto-synergy-title">{{ block.settings.title }}</h3>
+            <p class="proto-synergy-desc">{{ block.settings.description }}</p>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "Protocol — Synergy",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "Why It Works" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Engineered to Work as One System" },
+    { "type": "textarea", "id": "body", "label": "Body paragraph" }
+  ],
+  "blocks": [
+    {
+      "type": "point",
+      "name": "Synergy Point",
+      "limit": 4,
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "Preparation is key" },
+        { "type": "textarea", "id": "description", "label": "Description", "default": "Each step prepares the skin for the next, creating a powerful cascade of effects." }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Protocol — Synergy" }]
+}
+{% endschema %}

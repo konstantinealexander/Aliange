@@ -1,0 +1,438 @@
+{
+  "sections": {
+    "lp_hero": {
+      "type": "aliange-lp-hero",
+      "settings": {
+        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
+        "headline": "Achieve Clear, Calm, and Congestion-Free Skin",
+        "subheadline": "A complete 5-step clinical system designed by Dr. Alison Jamieson to target breakouts, balance oil production, and restore skin health.",
+        "cta_text": "Start the Acne Protocol",
+        "cta_url": "",
+        "trust_line": "90-Day Results Guarantee Or Your Money Back",
+        "align": "left",
+        "min_height": 620,
+        "content_width": 720
+      },
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Repairs & Strengthens: Fortifies your skin\u2019s natural barrier."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Clarifies & Refines: Gently exfoliates to decongest pores."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Balances & Soothes: Probiotics and clinical actives calm inflammation."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Problem",
+        "headline": "Tired of the Breakout-Congestion Cycle?",
+        "body": "<p>Managing acne-prone skin can feel like a frustrating battle. Many treatments strip skin, making breakouts worse.</p><p><strong>A Damaged Barrier Leads to More Breakouts.</strong> Over-stripping weakens the skin\u2019s defence system.</p><p><strong>An Unbalanced Microbiome Fuels Acne.</strong> Disrupted bacteria leads to persistent pimples.</p><p><strong>Congestion is the Starting Point.</strong> Clogged pores create the perfect environment for acne.</p>",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_routine": {
+      "type": "aliange-lp-routine",
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 5-Step Acne Protocol",
+        "cta_text": "Start the Acne Protocol",
+        "cta_url": ""
+      },
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Daily Devotion Cleanser",
+            "price": "$55",
+            "why": "Gently purifies without stripping essential moisture.",
+            "key_active": "Coconut Surfactants",
+            "step": "AM & PM"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Transforming Exfoliator",
+            "price": "$55",
+            "why": "Dual-action exfoliation clears dead cells to prevent congestion.",
+            "key_active": "AHA Blend",
+            "step": "2-3x/week"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Probiotic Masque",
+            "price": "$50",
+            "why": "Detoxifies, balances the microbiome, and calms inflammation.",
+            "key_active": "Lactococcus Ferment",
+            "step": "2-3x/week"
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Biocinamide Serum",
+            "price": "$90",
+            "why": "Rebuilds barrier, regulates sebum, minimises pores.",
+            "key_active": "Niacinamide",
+            "step": "AM & PM"
+          }
+        },
+        "p5": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "Non-comedogenic hydration and UV protection.",
+            "key_active": "Matrixyl 3000",
+            "step": "AM"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ]
+    },
+    "proto_synergy": {
+      "type": "aliange-proto-synergy",
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity."
+      },
+      "blocks": {
+        "s1": {
+          "type": "point",
+          "settings": {
+            "title": "Prepare & Decongest",
+            "description": "The Cleanser and Exfoliator purify skin and clear pores for treatment products."
+          }
+        },
+        "s2": {
+          "type": "point",
+          "settings": {
+            "title": "Balance & Treat",
+            "description": "The Masque and Serum rebalance the microbiome and deliver clinical Niacinamide."
+          }
+        },
+        "s3": {
+          "type": "point",
+          "settings": {
+            "title": "Hydrate & Protect",
+            "description": "The Day Cream locks in benefits with a non-comedogenic shield."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    "lp_stats": {
+      "type": "aliange-lp-stats",
+      "settings": {},
+      "blocks": {
+        "st1": {
+          "type": "stat",
+          "settings": {
+            "value": "41%",
+            "label": "Wrinkle Reduction in 8 Weeks"
+          }
+        },
+        "st2": {
+          "type": "stat",
+          "settings": {
+            "value": "5",
+            "label": "Synergistic Products"
+          }
+        },
+        "st3": {
+          "type": "stat",
+          "settings": {
+            "value": "12+",
+            "label": "Key Active Ingredients"
+          }
+        },
+        "st4": {
+          "type": "stat",
+          "settings": {
+            "value": "90",
+            "label": "Days to Results"
+          }
+        }
+      },
+      "block_order": [
+        "st1",
+        "st2",
+        "st3",
+        "st4"
+      ]
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "A Random Routine",
+        "col_us": "The Aliange Protocol"
+      },
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Design",
+            "them": "Guesswork and marketing",
+            "us": "Doctor-designed synergistic system"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Focus",
+            "them": "Risk of barrier damage",
+            "us": "Focus on barrier repair"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Approach",
+            "them": "Symptom-focused",
+            "us": "Addresses root causes"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Safety",
+            "them": "Ingredient conflicts",
+            "us": "Guaranteed compatibility"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    "proto_ritual": {
+      "type": "aliange-proto-ritual",
+      "settings": {
+        "label": "Your Daily Ritual",
+        "headline": "Your Daily Ritual",
+        "am_note": "",
+        "pm_note": "On non-treatment nights, proceed from cleansing to serum."
+      },
+      "blocks": {
+        "rit1": {
+          "type": "step",
+          "settings": {
+            "text": "Cleanse with Daily Devotion Cleanser",
+            "time": "both"
+          }
+        },
+        "rit2": {
+          "type": "step",
+          "settings": {
+            "text": "Exfoliate with Transforming Exfoliator",
+            "time": "pm",
+            "frequency": "2-3x/week"
+          }
+        },
+        "rit3": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Probiotic Masque 15-20 min",
+            "time": "pm",
+            "frequency": "2-3x/week"
+          }
+        },
+        "rit4": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Biocinamide Serum",
+            "time": "both"
+          }
+        },
+        "rit5": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Day Cream SPF 15",
+            "time": "am"
+          }
+        }
+      },
+      "block_order": [
+        "rit1",
+        "rit2",
+        "rit3",
+        "rit4",
+        "rit5"
+      ]
+    },
+    "proto_includes": {
+      "type": "aliange-proto-includes",
+      "settings": {
+        "label": "What's Included",
+        "headline": "Your Protocol Includes",
+        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
+        "savings_line": "Save $40 when you buy the complete protocol.",
+        "cta_text": "Start the Acne Protocol",
+        "cta_url": ""
+      },
+      "blocks": {
+        "i1": {
+          "type": "product_item",
+          "settings": {
+            "name": "Daily Devotion Cleanser",
+            "size": "200ml",
+            "price": "$55"
+          }
+        },
+        "i2": {
+          "type": "product_item",
+          "settings": {
+            "name": "Transforming Exfoliator",
+            "size": "200ml",
+            "price": "$55"
+          }
+        },
+        "i3": {
+          "type": "product_item",
+          "settings": {
+            "name": "Probiotic Masque",
+            "size": "50ml",
+            "price": "$50"
+          }
+        },
+        "i4": {
+          "type": "product_item",
+          "settings": {
+            "name": "Biocinamide Serum",
+            "size": "50ml",
+            "price": "$90"
+          }
+        },
+        "i5": {
+          "type": "product_item",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "size": "50ml",
+            "price": "$90"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ]
+    },
+    "lp_faq": {
+      "type": "aliange-lp-faq",
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      },
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How long before I see results?",
+            "answer": "<p>4-8 weeks for significant improvements. Full benefits at the 90-day mark.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Is this suitable for sensitive skin?",
+            "answer": "<p>Yes. The protocol focuses on barrier repair. We recommend a patch test.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use other actives with this?",
+            "answer": "<p>We recommend the protocol exclusively for the first 90 days.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "What skin types is this for?",
+            "answer": "<p>Acne-prone, oily, combination, and congested skin.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How long does the protocol last?",
+            "answer": "<p>Approximately 3 months with recommended use.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "headline": "Your Journey to Clear, Healthy Skin Starts Here.",
+        "subheadline": "Invest in a doctor-designed system for balanced, beautiful skin.",
+        "cta_text": "Order the Acne Protocol Now",
+        "cta_url": "",
+        "guarantee": "90-Day Results Guarantee Or Your Money Back"
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_routine",
+    "proto_synergy",
+    "lp_stats",
+    "lp_comparison",
+    "proto_ritual",
+    "proto_includes",
+    "lp_faq",
+    "lp_cta"
+  ]
+}
