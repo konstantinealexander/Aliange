@@ -1,0 +1,181 @@
+{% comment %}
+  Aliangé PDP Doctor's Note Section
+  Authority module featuring Dr. Jamieson's credentials and prescriptive quote.
+  New section not in original Ecomwize design.
+{% endcomment %}
+
+{%- style -%}
+  #pdp-doctor-{{ section.id }} {
+    background-color: var(--pdp-bg);
+    padding: var(--pdp-space-2xl) var(--pdp-space-md);
+    border-top: 1px solid var(--pdp-border);
+    border-bottom: 1px solid var(--pdp-border);
+  }
+
+  @media (min-width: 768px) {
+    #pdp-doctor-{{ section.id }} {
+      padding: var(--pdp-space-3xl) var(--pdp-space-xl);
+    }
+  }
+
+  #pdp-doctor-{{ section.id }} .doctor-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--pdp-space-xl);
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-doctor-{{ section.id }} .doctor-container {
+      grid-template-columns: auto 1fr;
+      gap: var(--pdp-space-2xl);
+    }
+  }
+
+  #pdp-doctor-{{ section.id }} .doctor-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--pdp-bg-muted);
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-doctor-{{ section.id }} .doctor-avatar {
+      width: 120px;
+      height: 120px;
+      margin: 0;
+    }
+  }
+
+  #pdp-doctor-{{ section.id }} .doctor-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  #pdp-doctor-{{ section.id }} .doctor-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pdp-space-md);
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-doctor-{{ section.id }} .doctor-content {
+      text-align: left;
+    }
+  }
+
+  #pdp-doctor-{{ section.id }} .doctor-name {
+    font-family: var(--pdp-font-heading);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--pdp-ink);
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  #pdp-doctor-{{ section.id }} .doctor-credentials {
+    font-family: var(--pdp-font-body);
+    font-size: 13px;
+    color: var(--pdp-body);
+    margin: -8px 0 0 0;
+    line-height: 1.5;
+  }
+
+  #pdp-doctor-{{ section.id }} .doctor-quote {
+    font-family: var(--pdp-font-heading);
+    font-size: clamp(15px, 1.8vw, 18px);
+    font-style: italic;
+    color: var(--pdp-body);
+    line-height: 1.7;
+    margin: 0;
+    position: relative;
+    padding-left: 0;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-doctor-{{ section.id }} .doctor-quote {
+      padding-left: 20px;
+      border-left: 3px solid var(--pdp-ink);
+    }
+  }
+{%- endstyle -%}
+
+<section id="pdp-doctor-{{ section.id }}" class="pdp-reveal" aria-label="Doctor's note">
+  <div class="doctor-container">
+    {% if section.settings.doctor_image != blank %}
+      <div class="doctor-avatar">
+        <img
+          src="{{ section.settings.doctor_image | image_url: width: 240 }}"
+          alt="{{ section.settings.doctor_name | default: 'Doctor' | escape }}"
+          width="120"
+          height="120"
+          loading="lazy"
+        >
+      </div>
+    {% endif %}
+
+    <div class="doctor-content">
+      {% if section.settings.doctor_name != blank %}
+        <h3 class="doctor-name">{{ section.settings.doctor_name }}</h3>
+      {% endif %}
+
+      {% if section.settings.credentials != blank %}
+        <p class="doctor-credentials">{{ section.settings.credentials }}</p>
+      {% endif %}
+
+      {% if section.settings.quote != blank %}
+        <blockquote class="doctor-quote">
+          &ldquo;{{ section.settings.quote }}&rdquo;
+        </blockquote>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-pdp-scripts' %}
+
+{% schema %}
+{
+  "name": "PDP Doctor Note",
+  "tag": "section",
+  "class": "aliange-pdp-doctor-note",
+  "settings": [
+    {
+      "type": "text",
+      "id": "doctor_name",
+      "label": "Doctor name",
+      "default": "Dr. Alison Jamieson"
+    },
+    {
+      "type": "text",
+      "id": "credentials",
+      "label": "Credentials",
+      "default": "MBBS, FACCSM — 40+ Years in Clinical Dermatology"
+    },
+    {
+      "type": "image_picker",
+      "id": "doctor_image",
+      "label": "Doctor photo"
+    },
+    {
+      "type": "textarea",
+      "id": "quote",
+      "label": "Quote",
+      "default": "I developed this formula specifically for the unique challenges of Australian skin. The combination of advanced peptides and broad-spectrum protection is what I prescribe to my own patients."
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDP Doctor Note"
+    }
+  ]
+}
+{% endschema %}

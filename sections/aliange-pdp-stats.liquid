@@ -1,0 +1,247 @@
+{% comment %}
+  Aliangé PDP Stats Section
+  Animated stat counters with CSS conic-gradient progress rings.
+{% endcomment %}
+
+{%- style -%}
+  #pdp-stats-{{ section.id }} .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--pdp-space-xl);
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-stats-{{ section.id }} .stats-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--pdp-space-2xl);
+    }
+  }
+
+  #pdp-stats-{{ section.id }} .stats-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pdp-space-lg);
+  }
+
+  #pdp-stats-{{ section.id }} .stats-header .pdp-heading {
+    margin-bottom: var(--pdp-space-sm);
+  }
+
+  #pdp-stats-{{ section.id }} .stats-numbers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--pdp-space-md);
+  }
+
+  @media (min-width: 768px) {
+    #pdp-stats-{{ section.id }} .stats-numbers {
+      grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
+    }
+  }
+
+  #pdp-stats-{{ section.id }} .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--pdp-space-sm);
+  }
+
+  #pdp-stats-{{ section.id }} .stat-ring {
+    position: relative;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #pdp-stats-{{ section.id }} .stat-ring-bg {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 4px solid var(--pdp-border);
+  }
+
+  #pdp-stats-{{ section.id }} .stat-ring-fill {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    --ring-pct: 0;
+    background: conic-gradient(var(--pdp-ink) calc(var(--ring-pct) * 1%), transparent 0);
+    mask: radial-gradient(farthest-side, transparent calc(100% - 4px), #000 calc(100% - 4px));
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 4px), #000 calc(100% - 4px));
+    transition: --ring-pct 1.2s var(--pdp-ease);
+  }
+
+  #pdp-stats-{{ section.id }} .stat-value {
+    position: relative;
+    z-index: 1;
+    font-family: var(--pdp-font-heading);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--pdp-ink);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  #pdp-stats-{{ section.id }} .stat-label {
+    font-family: var(--pdp-font-body);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--pdp-body);
+    line-height: 1.4;
+    max-width: 120px;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-stats-{{ section.id }} .stat-label {
+      font-size: 13px;
+    }
+  }
+
+  #pdp-stats-{{ section.id }} .stats-image {
+    position: relative;
+    border-radius: var(--pdp-radius-xl);
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background-color: var(--pdp-bg-muted);
+  }
+
+  #pdp-stats-{{ section.id }} .stats-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+{%- endstyle -%}
+
+<section id="pdp-stats-{{ section.id }}" class="pdp-section pdp-reveal" aria-label="Proven results">
+  <div class="pdp-container">
+    <div class="stats-grid">
+      <div class="stats-content">
+        {% if section.settings.heading != blank %}
+          <div class="stats-header">
+            <h2 class="pdp-heading pdp-heading--lg">{{ section.settings.heading }}</h2>
+            {% if section.settings.subheading != blank %}
+              <p class="pdp-body pdp-body--md">{{ section.settings.subheading }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% assign stats = section.blocks | where: "type", "stat" %}
+        {% if stats.size > 0 %}
+          <div class="stats-numbers">
+            {% for block in stats %}
+              <div class="stat-item" {{ block.shopify_attributes }}>
+                <div class="stat-ring">
+                  <div class="stat-ring-bg"></div>
+                  <div class="stat-ring-fill" style="--ring-pct: {{ block.settings.ring_percent | default: 50 }};"></div>
+                  <span class="stat-value" data-pdp-stat-counter data-stat-value="{{ block.settings.value }}">{{ block.settings.value }}</span>
+                </div>
+                {% if block.settings.label != blank %}
+                  <span class="stat-label">{{ block.settings.label }}</span>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+
+      {% if section.settings.image != blank %}
+        <div class="stats-image">
+          <img
+            src="{{ section.settings.image | image_url: width: 800 }}"
+            alt="{{ section.settings.image.alt | default: 'Clinical results' | escape }}"
+            width="800"
+            height="800"
+            loading="lazy"
+          >
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-pdp-scripts' %}
+
+{% schema %}
+{
+  "name": "PDP Stats",
+  "tag": "section",
+  "class": "aliange-pdp-stats",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Proven Efficacy."
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Our clinically proven results tell the story:"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Side image"
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "label": "Desktop columns",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 4
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Statistic",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Value",
+          "info": "e.g. \"24%\" or \"5.5x\"",
+          "default": "24%"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Less Visible Ageing"
+        },
+        {
+          "type": "range",
+          "id": "ring_percent",
+          "label": "Ring fill percentage",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 50,
+          "info": "Visual fill of the progress ring"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDP Stats",
+      "blocks": [
+        { "type": "stat", "settings": { "value": "24%", "label": "Less Visible Ageing", "ring_percent": 24 } },
+        { "type": "stat", "settings": { "value": "93%", "label": "UVB Protection", "ring_percent": 93 } },
+        { "type": "stat", "settings": { "value": "41%", "label": "Wrinkle Reduction", "ring_percent": 41 } },
+        { "type": "stat", "settings": { "value": "15%", "label": "More UV in Australia", "ring_percent": 15 } }
+      ]
+    }
+  ]
+}
+{% endschema %}

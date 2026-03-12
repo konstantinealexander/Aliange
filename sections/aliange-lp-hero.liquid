@@ -1,0 +1,194 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-hero-{{ section.id }} {
+    position: relative;
+    min-height: {{ section.settings.min_height | default: 560 }}px;
+    display: flex;
+    align-items: center;
+    background-color: var(--lp-bg-muted);
+    overflow: hidden;
+  }
+  #lp-hero-{{ section.id }} .lp-hero-bg {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  #lp-hero-{{ section.id }} .lp-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: {{ section.settings.overlay_color | default: 'rgba(26,24,20,0.45)' }};
+  }
+  #lp-hero-{{ section.id }} .lp-hero-inner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: var(--lp-space-3xl) var(--lp-space-xl);
+    max-width: {{ section.settings.content_width | default: 720 }}px;
+    {% if section.settings.align == 'center' %}margin: 0 auto; text-align: center;{% endif %}
+  }
+  #lp-hero-{{ section.id }} .lp-hero-headline {
+    font-family: var(--lp-font-heading);
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    font-weight: 600;
+    line-height: 1.08;
+    color: {% if section.settings.image %}#fff{% else %}var(--lp-ink){% endif %};
+    margin: 0 0 var(--lp-space-lg);
+    text-wrap: balance;
+  }
+  #lp-hero-{{ section.id }} .lp-hero-sub {
+    font-family: var(--lp-font-body);
+    font-size: clamp(15px, 1.5vw, 18px);
+    line-height: 1.65;
+    color: {% if section.settings.image %}rgba(255,255,255,0.85){% else %}var(--lp-body){% endif %};
+    margin: 0 0 var(--lp-space-xl);
+    max-width: 600px;
+    {% if section.settings.align == 'center' %}margin-left: auto; margin-right: auto;{% endif %}
+  }
+  #lp-hero-{{ section.id }} .lp-hero-bullets {
+    list-style: none;
+    margin: 0 0 var(--lp-space-xl);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    {% if section.settings.align == 'center' %}align-items: center;{% endif %}
+  }
+  #lp-hero-{{ section.id }} .lp-hero-bullet {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--lp-font-body);
+    font-size: 15px;
+    color: {% if section.settings.image %}rgba(255,255,255,0.9){% else %}var(--lp-body){% endif %};
+  }
+  #lp-hero-{{ section.id }} .lp-hero-bullet-icon {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    color: var(--lp-accent);
+  }
+  #lp-hero-{{ section.id }} .lp-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--lp-space-md);
+    {% if section.settings.align == 'center' %}justify-content: center;{% endif %}
+  }
+  #lp-hero-{{ section.id }} .lp-hero-trust {
+    margin-top: var(--lp-space-xl);
+    font-family: var(--lp-font-body);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: {% if section.settings.image %}rgba(255,255,255,0.6){% else %}var(--lp-body){% endif %};
+  }
+  @media (max-width: 767px) {
+    #lp-hero-{{ section.id }} .lp-hero-inner { padding: var(--lp-space-2xl) var(--lp-space-md); }
+  }
+{%- endstyle -%}
+
+<section id="lp-hero-{{ section.id }}" aria-label="{{ section.settings.headline | escape }}">
+  {%- if section.settings.image -%}
+    <img
+      class="lp-hero-bg"
+      src="{{ section.settings.image | image_url: width: 1600 }}"
+      alt="{{ section.settings.image.alt | default: section.settings.headline | escape }}"
+      width="1600"
+      height="{{ 1600 | divided_by: section.settings.image.aspect_ratio | round }}"
+      loading="eager"
+      fetchpriority="high"
+    >
+    <div class="lp-hero-overlay"></div>
+  {%- endif -%}
+
+  <div class="lp-hero-inner">
+    {%- if section.settings.label != blank -%}
+      <span class="lp-section-label">{{ section.settings.label }}</span>
+    {%- endif -%}
+
+    <h1 class="lp-hero-headline">{{ section.settings.headline }}</h1>
+
+    {%- if section.settings.subheadline != blank -%}
+      <p class="lp-hero-sub">{{ section.settings.subheadline }}</p>
+    {%- endif -%}
+
+    {%- assign bullets = section.blocks | where: 'type', 'bullet' -%}
+    {%- if bullets.size > 0 -%}
+      <ul class="lp-hero-bullets">
+        {%- for block in bullets -%}
+          <li class="lp-hero-bullet" {{ block.shopify_attributes }}>
+            <svg class="lp-hero-bullet-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/></svg>
+            <span>{{ block.settings.text }}</span>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    <div class="lp-hero-actions">
+      {%- if section.settings.cta_text != blank -%}
+        <a
+          href="{{ section.settings.cta_url | default: '/collections/all' }}"
+          class="lp-btn {% if section.settings.image %}lp-btn--white{% endif %}"
+        >{{ section.settings.cta_text }}</a>
+      {%- endif -%}
+      {%- if section.settings.secondary_cta_text != blank -%}
+        <a
+          href="{{ section.settings.secondary_cta_url | default: '#' }}"
+          class="lp-btn lp-btn--outline {% if section.settings.image %}lp-btn--white{% endif %}"
+          style="{% if section.settings.image %}background:transparent;color:#fff;border-color:rgba(255,255,255,0.6);{% endif %}"
+        >{{ section.settings.secondary_cta_text }}</a>
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.trust_line != blank -%}
+      <p class="lp-hero-trust">{{ section.settings.trust_line }}</p>
+    {%- endif -%}
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Hero",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "Aliangé Clinical" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Rediscover Your Skin's Youthful Resilience." },
+    { "type": "textarea", "id": "subheadline", "label": "Subheadline", "default": "A doctor-developed, multi-pathway approach to visibly rejuvenate your skin." },
+    { "type": "image_picker", "id": "image", "label": "Background image" },
+    { "type": "text", "id": "overlay_color", "label": "Overlay colour (rgba)", "default": "rgba(26,24,20,0.45)" },
+    { "type": "range", "id": "min_height", "label": "Min height (px)", "min": 400, "max": 900, "step": 20, "default": 600 },
+    { "type": "range", "id": "content_width", "label": "Content max-width (px)", "min": 480, "max": 900, "step": 20, "default": 720 },
+    { "type": "select", "id": "align", "label": "Alignment", "options": [{"value":"left","label":"Left"},{"value":"center","label":"Centre"}], "default": "left" },
+    { "type": "text", "id": "cta_text", "label": "Primary CTA text", "default": "Find Your Solution" },
+    { "type": "url", "id": "cta_url", "label": "Primary CTA URL" },
+    { "type": "text", "id": "secondary_cta_text", "label": "Secondary CTA text" },
+    { "type": "url", "id": "secondary_cta_url", "label": "Secondary CTA URL" },
+    { "type": "text", "id": "trust_line", "label": "Trust badge line", "default": "Doctor-Developed | Science-Backed | Australian-Made" }
+  ],
+  "blocks": [
+    {
+      "type": "bullet",
+      "name": "Bullet point",
+      "limit": 5,
+      "settings": [
+        { "type": "text", "id": "text", "label": "Text", "default": "Clinically proven ingredients" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "LP — Hero",
+      "blocks": [
+        { "type": "bullet", "settings": { "text": "Understand the science behind your skin concern." } },
+        { "type": "bullet", "settings": { "text": "Discover a clinical, multi-pathway routine." } },
+        { "type": "bullet", "settings": { "text": "See real, measurable results backed by science." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

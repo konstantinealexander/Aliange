@@ -1,0 +1,285 @@
+{% comment %}
+  Aliangé PDP Comparison Section
+  A high-impact comparison table vs "Generic Creams".
+  Elevated middle column for Aliangé to draw focus.
+{% endcomment %}
+
+{% render 'aliange-pdp-styles' %}
+
+{%- style -%}
+  #pdp-comparison-{{ section.id }} {
+    background-color: var(--pdp-bg);
+    padding: var(--pdp-space-xl) var(--pdp-space-md);
+    overflow: hidden;
+  }
+  #pdp-comparison-{{ section.id }} .section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--pdp-space-xl);
+  }
+  #pdp-comparison-{{ section.id }} .comparison-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* Table Style */
+  #pdp-comparison-{{ section.id }} .comparison-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr 1.5fr;
+  }
+
+  @media (max-width: 767px) {
+    #pdp-comparison-{{ section.id }} .comparison-table {
+      grid-template-columns: 1fr 1fr 1fr;
+      font-size: 13px;
+    }
+  }
+
+  #pdp-comparison-{{ section.id }} .table-cell {
+    padding: var(--pdp-space-md);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--pdp-border);
+    min-height: 60px;
+  }
+
+  /* Headers */
+  #pdp-comparison-{{ section.id }} .header-cell {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    border-bottom: none;
+    padding-bottom: var(--pdp-space-lg);
+  }
+  #pdp-comparison-{{ section.id }} .header-image {
+    width: 60px;
+    height: 60px;
+    background: var(--pdp-bg-muted);
+    border-radius: var(--pdp-radius-sm);
+    margin-bottom: var(--pdp-space-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #pdp-comparison-{{ section.id }} .header-image img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
+  #pdp-comparison-{{ section.id }} .header-title {
+    font-family: var(--pdp-font-body);
+    font-weight: 600;
+    color: var(--pdp-ink);
+    font-size: 14px;
+    margin: 0;
+  }
+
+  /* Columns */
+  #pdp-comparison-{{ section.id }} .column-feature {
+    color: var(--pdp-ink);
+    font-weight: 500;
+    font-family: var(--pdp-font-body);
+  }
+  #pdp-comparison-{{ section.id }} .column-aliange {
+    background: #ffffff;
+    justify-content: flex-start;
+    gap: 12px;
+    font-weight: 500;
+  }
+  #pdp-comparison-{{ section.id }} .column-competitor {
+    color: var(--pdp-body);
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  /* Elevated Column Trick */
+  #pdp-comparison-{{ section.id }} .column-aliange-elevated {
+    position: relative;
+    z-index: 2;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border-radius: var(--pdp-radius-lg);
+    border: 1px solid rgba(0,0,0,0.03);
+    margin: 0 -4px;
+  }
+  #pdp-comparison-{{ section.id }} .column-aliange.first-row {
+    border-top-left-radius: var(--pdp-radius-lg);
+    border-top-right-radius: var(--pdp-radius-lg);
+  }
+  #pdp-comparison-{{ section.id }} .column-aliange.last-row {
+    border-bottom-left-radius: var(--pdp-radius-lg);
+    border-bottom-right-radius: var(--pdp-radius-lg);
+    border-bottom: none;
+  }
+
+  /* Icons */
+  #pdp-comparison-{{ section.id }} .cell-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+  }
+  #pdp-comparison-{{ section.id }} .icon-check { color: var(--pdp-success); }
+  #pdp-comparison-{{ section.id }} .icon-cross { color: #E57373; }
+
+  /* CTA */
+  #pdp-comparison-{{ section.id }} .section-cta {
+    margin-top: var(--pdp-space-xl);
+    text-align: center;
+  }
+{%- endstyle -%}
+
+<section id="pdp-comparison-{{ section.id }}" class="scroll-reveal">
+  <div class="section-header">
+    <h2 class="h2" style="margin-bottom:12px;">{{ section.settings.heading }}</h2>
+    <p class="p-lg">{{ section.settings.subheading }}</p>
+  </div>
+
+  <div class="comparison-container">
+    <div class="comparison-table">
+      <!-- Row 1: Headers -->
+      <div class="table-cell"></div>
+      <div class="table-cell header-cell column-aliange first-row">
+        <div class="header-image">
+          {% if section.settings.aliange_image != blank %}
+            <img src="{{ section.settings.aliange_image | image_url: width: 120 }}" alt="{{ section.settings.aliange_label }}" width="60" height="60" loading="lazy">
+          {% else %}
+            <svg width="32" height="32" viewBox="0 0 256 256" fill="var(--pdp-border)"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-5.66,160H45.66l64-64,32,32,64-64,4.68,4.69Z"/></svg>
+          {% endif %}
+        </div>
+        <p class="header-title">{{ section.settings.aliange_label }}</p>
+      </div>
+      <div class="table-cell header-cell column-competitor">
+         <div class="header-image">
+          {% if section.settings.competitor_image != blank %}
+            <img src="{{ section.settings.competitor_image | image_url: width: 120 }}" alt="{{ section.settings.competitor_label }}" width="60" height="60" loading="lazy">
+          {% else %}
+             <svg width="32" height="32" viewBox="0 0 256 256" fill="var(--pdp-border)"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm-5.66,160H45.66l64-64,32,32,64-64,4.68,4.69Z"/></svg>
+          {% endif %}
+        </div>
+        <p class="header-title">{{ section.settings.competitor_label }}</p>
+      </div>
+
+      <!-- Data Rows -->
+      {% for block in section.blocks %}
+        {%- assign is_last = forloop.last -%}
+        <div class="table-cell column-feature" {{ block.shopify_attributes }}>
+          {{ block.settings.feature }}
+        </div>
+        <div class="table-cell column-aliange {% if is_last %}last-row{% endif %}">
+          <svg class="cell-icon icon-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/></svg>
+          <span>{{ block.settings.aliange_value }}</span>
+        </div>
+        <div class="table-cell column-competitor">
+          <svg class="cell-icon icon-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>
+          <span>{{ block.settings.competitor_value }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {% if section.settings.button_text != blank %}
+    <div class="section-cta">
+      <a href="{{ section.settings.button_url | default: '#' }}" class="btn btn-primary">
+        {{ section.settings.button_text }}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" width="18" height="18" style="margin-left:8px;"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L204.69,128,138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg>
+      </a>
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Comparison Table",
+  "tag": "section",
+  "class": "aliange-pdp-comparison",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Ditch The Generic Creams"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Standard luxury creams provide moisture. CellRevive provides cellular instructions."
+    },
+    {
+      "type": "image_picker",
+      "id": "aliange_image",
+      "label": "Aliangé Image"
+    },
+    {
+      "type": "text",
+      "id": "aliange_label",
+      "label": "Aliangé Label",
+      "default": "CellRevive Exosome"
+    },
+    {
+      "type": "image_picker",
+      "id": "competitor_image",
+      "label": "Competitor Image"
+    },
+    {
+      "type": "text",
+      "id": "competitor_label",
+      "label": "Competitor Label",
+      "default": "Other 'Stem Cell' Creams"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Upgrade Your Skincare"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "comparison_row",
+      "name": "Comparison Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "feature",
+          "label": "Feature",
+          "default": "Mechanism"
+        },
+        {
+          "type": "text",
+          "id": "aliange_value",
+          "label": "Aliangé Value",
+          "default": "4 Billion Exosomes"
+        },
+        {
+          "type": "text",
+          "id": "competitor_value",
+          "label": "Competitor Value",
+          "default": "Surface Hydration"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comparison Table",
+      "blocks": [
+        { "type": "comparison_row", "settings": { "feature": "Mechanism", "aliange_value": "4 Billion Exosomes", "competitor_value": "Surface Hydration" } },
+        { "type": "comparison_row", "settings": { "feature": "Cellular Impact", "aliange_value": "Instructs DNA Repair", "competitor_value": "Temporary Plumping" } },
+        { "type": "comparison_row", "settings": { "feature": "Collagen Growth", "aliange_value": "100% Boost Confirmed", "competitor_value": "Negligible Change" } },
+        { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

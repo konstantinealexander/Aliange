@@ -1,0 +1,151 @@
+{% comment %}
+  Aliangé PDP Trust Bar
+  Scrolling ticker of trust badges — pure CSS animation, no dependencies.
+{% endcomment %}
+
+{%- style -%}
+  #pdp-trust-{{ section.id }} {
+    background-color: {{ section.settings.bg_color }};
+    padding: 14px 0;
+    overflow: hidden;
+    letter-spacing: normal;
+  }
+
+  #pdp-trust-{{ section.id }} .trust-label {
+    font-family: var(--pdp-font-body);
+    font-weight: 500;
+    font-size: 11px;
+    color: var(--pdp-body);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #pdp-trust-{{ section.id }} .trust-track-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #pdp-trust-{{ section.id }} .trust-track {
+    display: flex;
+    gap: 48px;
+    white-space: nowrap;
+    animation: pdp-ticker-{{ section.id }} {{ section.settings.speed }}s linear infinite;
+    will-change: transform;
+  }
+
+  @keyframes pdp-ticker-{{ section.id }} {
+    from { transform: translateX(0); }
+    to { transform: translateX(-33.333%); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #pdp-trust-{{ section.id }} .trust-track {
+      animation: none;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+  }
+
+  #pdp-trust-{{ section.id }} .trust-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  #pdp-trust-{{ section.id }} .trust-badge-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--pdp-ink);
+    opacity: 0.3;
+  }
+
+  #pdp-trust-{{ section.id }} .trust-badge-text {
+    font-family: var(--pdp-font-body);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--pdp-ink);
+    white-space: nowrap;
+  }
+{%- endstyle -%}
+
+<div id="pdp-trust-{{ section.id }}" data-pdp-ticker>
+  {% if section.settings.label != blank %}
+    <div class="trust-label">{{ section.settings.label }}</div>
+  {% endif %}
+
+  <div class="trust-track-wrapper">
+    <div class="trust-track" data-pdp-ticker-track>
+      {% for block in section.blocks %}
+        <span class="trust-badge" {{ block.shopify_attributes }}>
+          <span class="trust-badge-dot" aria-hidden="true"></span>
+          <span class="trust-badge-text">{{ block.settings.text }}</span>
+        </span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% render 'aliange-pdp-scripts' %}
+
+{% schema %}
+{
+  "name": "PDP Trust Bar",
+  "tag": "section",
+  "class": "aliange-pdp-trust-bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Section label",
+      "default": "Dermatologist Authored"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "label": "Scroll speed (seconds)",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "default": 25
+    }
+  ],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Trust Badge",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Badge text",
+          "default": "Clinically Proven"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDP Trust Bar",
+      "blocks": [
+        { "type": "badge", "settings": { "text": "Clinically Proven" } },
+        { "type": "badge", "settings": { "text": "Doctor Developed" } },
+        { "type": "badge", "settings": { "text": "Australian Made" } },
+        { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

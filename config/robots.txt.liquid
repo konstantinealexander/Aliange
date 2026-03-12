@@ -1,0 +1,41 @@
+{% for group in robots.default_groups %}
+  {% assign robots_group = group %}
+  {{ robots_group }}
+{% endfor %}
+
+# AI Search Crawlers — allowed for GEO / llms.txt indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Gemini-Bot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+# Explicitly allow LLM index files
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+Sitemap: {{ shop.url }}/sitemap.xml

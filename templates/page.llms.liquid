@@ -1,0 +1,64 @@
+{%- layout none -%}
+{%- assign store_url = shop.url -%}
+# Aliangé
+
+> Aliangé is an Australian clinical skincare brand developed by Dr. Alison Jamieson, bringing over 40 years of dermatological expertise to evidence-based formulations. Specialising in cellular regeneration, anti-ageing, pigmentation correction, and barrier repair, every product is doctor-led, Australian made, and designed for the demands of the Queensland sun. Shop at {{ store_url }}.
+
+## About
+
+- [About Aliangé]({{ store_url }}/pages/about-us): The story of Aliangé, founded by Dr. Alison Jamieson, and the medical philosophy behind our doctor-led, evidence-based clinical skincare protocols.
+- [Contact Us]({{ store_url }}/pages/contact): Reach the Aliangé team via email or enquiry form for skincare advice, order support, and wholesale questions.
+- [FAQ]({{ store_url }}/pages/faq): Frequently asked questions on Aliangé products, ingredients, skincare protocols, shipping, and returns.
+- [How to Use]({{ store_url }}/pages/how-to-use): Step-by-step instructions for applying Aliangé products in the correct protocol order for maximum clinical efficacy.
+- [Rewards Program]({{ store_url }}/pages/rewards): Aliangé loyalty rewards — earn points on every purchase and redeem for discounts on future orders.
+- [Skincare for Mature Skin]({{ store_url }}/pages/mature-skin): Doctor-led guide to skincare for mature and ageing skin, featuring targeted Aliangé protocols for deep regeneration.
+- [Collaborations]({{ store_url }}/pages/collabs): Aliangé brand partnerships, influencer and professional collaborations, and stockist enquiries.
+
+## Shop
+
+- [All Products]({{ store_url }}/collections/all): The complete Aliangé clinical skincare range — serums, masques, cleansers, day and night creams, and protocol systems. Formulated by Dr. Alison Jamieson. Australian made.
+- [Skincare Protocols]({{ store_url }}/collections/protocols): Complete doctor-designed skincare systems targeting ageing, pigmentation, breakouts, and more. Each protocol sequences products in three phases — Prepare & Purify, Stimulate & Communicate, Protect & Fortify — for histological skin change.
+- [Clinical Serums]({{ store_url }}/collections/serums): Highly concentrated serums featuring exosomes, jellyfish peptides, sphingolipids, and Oligopeptide-68. Targets cellular repair, collagen synthesis, pigmentation, and hydration. Applied after cleansing, before creams.
+- [Skincare Masques]({{ store_url }}/collections/masques): Intensive treatment masques using probiotic complexes and antioxidant blends to purify, restore the skin microbiome, and deeply hydrate. Recommended 2–3 times per week.
+- [Cleansers & Exfoliators]({{ store_url }}/collections/cleanse): Amino acid and coconut-derived cleansers and AHA/BHA exfoliators that prepare a balanced cellular canvas without disrupting the skin's acid mantle or lipid barrier.
+- [Gift Cards]({{ store_url }}/collections/gift-cards): Aliangé digital gift cards — the perfect introduction to doctor-led clinical skincare. Delivered by email, no expiry.
+
+## Featured Products
+
+{%- assign featured = collections['frontpage'].products | default: collections.all.products %}
+{%- for product in featured limit: 12 %}
+- [{{ product.title }}]({{ store_url }}/products/{{ product.handle }}): {{ product.description | strip_html | truncate: 160 | default: product.title }}.{%- if product.price_min %} From {{ product.price_min | money }}.{%- endif %}
+{%- endfor %}
+
+## All Products
+
+{%- for product in collections.all.products limit: 100 %}
+{%- unless collections['frontpage'].products contains product %}
+- [{{ product.title }}]({{ store_url }}/products/{{ product.handle }}): {{ product.description | strip_html | truncate: 130 | default: product.title }}.{%- if product.price_min %} From {{ product.price_min | money }}.{%- endif %}
+{%- endunless %}
+{%- endfor %}
+
+## Policies & Trust
+
+- [Shipping Policy]({{ store_url }}/policies/shipping-policy): Aliangé shipping rates, estimated delivery times within Australia, and international shipping information.
+- [Returns & Refunds]({{ store_url }}/policies/refund-policy): Aliangé returns and refund policy — eligibility criteria, process, and timeframes for exchanges or refunds.
+- [Privacy Policy]({{ store_url }}/policies/privacy-policy): How Aliangé collects, uses, and protects customer data in accordance with Australian Privacy Law.
+- [Terms of Service]({{ store_url }}/policies/terms-of-service): Terms and conditions governing purchases and use of aliange.com.au.
+
+## Blog & Content
+
+{%- for blog in blogs %}
+- [{{ blog.title }}]({{ store_url }}/blogs/{{ blog.handle }}): Skincare science, ingredient guides, protocol advice, and clinical insights from Aliangé and Dr. Alison Jamieson.
+{%- for article in blog.articles limit: 10 %}
+  - [{{ article.title }}]({{ store_url }}/blogs/{{ blog.handle }}/{{ article.handle }}): {{ article.excerpt | strip_html | truncate: 130 | default: article.title }}.
+{%- endfor %}
+{%- endfor %}
+
+## Optional
+
+{%- for blog in blogs %}
+{%- for article in blog.articles limit: 50 offset: 10 %}
+- [{{ article.title }}]({{ store_url }}/blogs/{{ blog.handle }}/{{ article.handle }}): {{ article.excerpt | strip_html | truncate: 120 | default: article.title }}.
+{%- endfor %}
+{%- endfor %}
+- [Sitemap]({{ store_url }}/sitemap.xml): Full XML sitemap of all Aliangé pages, products, collections, and articles.

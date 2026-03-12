@@ -1,0 +1,119 @@
+{{ 'aliange-quiz.css' | asset_url | stylesheet_tag }}
+<div class="quiz-wrapper" style="background-color: {{ section.settings.bg_color }};">
+    <!-- Trigger Button (Optional, if you want it embedded) -->
+    <div style="text-align: center; padding: 40px;">
+        <button id="start-quiz-btn" class="btn btn-primary">
+            {{ section.settings.btn_text | default: 'Start Expert Diagnosis' }}
+        </button>
+    </div>
+    <!-- QUIZ DRAWER STRUCTURE -->
+    <div id="quiz-drawer" class="quiz-drawer" aria-hidden="true">
+        <div class="quiz-overlay" id="close-quiz-btn"></div>
+        <div class="quiz-panel">
+            <header class="quiz-header">
+                <div class="logo">ALIANGÉ</div>
+                <button class="close-btn" id="close-quiz-btn">×</button>
+            </header>
+            <div class="quiz-content" id="quiz-content">
+                <!-- Dynamic Content Injected Here -->
+            </div>
+            <footer class="quiz-footer">
+                <button id="prev-btn" class="btn-text" disabled>←</button>
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <!-- Next button hidden by CSS for auto-pagination -->
+                <button id="next-btn" class="btn-text next">Next</button>
+            </footer>
+        </div>
+    </div>
+</div>
+<script>
+    // Pass Liquid Settings to JS if needed (Optional)
+    window.AliangeSettings = {
+        klaviyoListId: "{{ section.settings.klaviyo_list_id }}",
+        products: {
+            essential: "{{ section.settings.product_essential }}",
+            the_protocol: "{{ section.settings.product_the_protocol }}",
+            pm: "{{ section.settings.product_pm }}",
+            anti_ageing: "{{ section.settings.product_anti_ageing }}",
+            acne: "{{ section.settings.product_acne }}",
+            am: "{{ section.settings.product_am }}"
+        }
+    };
+</script>
+<script src="{{ 'bundled-quiz.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "Aliangé Skin Quiz",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Appearance"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Section Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Start Button Text",
+      "default": "Begin Analysis"
+    },
+    {
+      "type": "header",
+      "content": "Integrations"
+    },
+    {
+      "type": "text",
+      "id": "klaviyo_list_id",
+      "label": "Klaviyo List ID",
+      "default": "YOUR_LIST_ID",
+      "info": "Enter your 6-character Klaviyo List ID here. Do NOT change the 'id' field above."
+    },
+    {
+      "type": "header",
+      "content": "Product Handles",
+      "info": "Map the protocol results to Shopify Product Handles."
+    },
+    {
+      "type": "product",
+      "id": "product_essential",
+      "label": "Essential Protocol"
+    },
+    {
+      "type": "product",
+      "id": "product_the_protocol",
+      "label": "The Protocol"
+    },
+    {
+      "type": "product",
+      "id": "product_pm",
+      "label": "PM Protocol"
+    },
+    {
+      "type": "product",
+      "id": "product_anti_ageing",
+      "label": "Anti-Ageing Protocol"
+    },
+    {
+      "type": "product",
+      "id": "product_acne",
+      "label": "Acne Protocol"
+    },
+    {
+      "type": "product",
+      "id": "product_am",
+      "label": "AM Protocol"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Aliangé Skin Quiz"
+    }
+  ]
+}
+{% endschema %}

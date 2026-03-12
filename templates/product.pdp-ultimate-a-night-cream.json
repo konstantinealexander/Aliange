@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "hero": {
+      "type": "aliange-pdp-hero",
+      "settings": {
+        "description": "Experience the future of retinol. Our groundbreaking Ultimate A Night Cream combines clinically-proven Bakuchiol with micro-encapsulated Retinol to visibly reduce wrinkles and pigmentation while you sleep.",
+        "atc_text": "SHOP NOW & TRANSFORM — $130"
+      },
+      "blocks": {
+        "bullet_1": {
+          "type": "bullet_point",
+          "settings": { "text": "Reduces wrinkle depth by 20% and fades pigmentation." }
+        },
+        "bullet_2": {
+          "type": "bullet_point",
+          "settings": { "text": "9x more stable Retinol: Deeper penetration, fewer side effects." }
+        },
+        "bullet_3": {
+          "type": "bullet_point",
+          "settings": { "text": "Clinically proven to be as effective as retinol with less irritation." }
+        },
+        "trust_1": {
+          "type": "trust_box",
+          "settings": { "icon": "truck", "title": "Free Shipping", "description": "On all orders worldwide" }
+        },
+        "trust_2": {
+          "type": "trust_box",
+          "settings": { "icon": "shield", "title": "Money Back", "description": "90-day satisfaction promise" }
+        },
+        "trust_3": {
+          "type": "trust_box",
+          "settings": { "icon": "drop", "title": "Nightly Repair", "description": "Active transformation" }
+        },
+        "faq_1": {
+          "type": "mini_faq",
+          "settings": { "question": "Why Bakuchiol?", "answer": "Bakuchiol is a natural powerhouse that matched retinol's efficacy in landmark trials while being significantly better tolerated, reducing the risk of 'retinol burn'." }
+        },
+        "faq_2": {
+          "type": "mini_faq",
+          "settings": { "question": "Will I peel?", "answer": "While our micro-encapsulation is gentler, some mild flaking is a sign of renewal. We recommend starting slow (2x weekly) and increasing as tolerance builds." }
+        },
+        "faq_3": {
+          "type": "mini_faq",
+          "settings": { "question": "What if it doesn’t work for me?", "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle." }
+        }
+      },
+      "block_order": ["bullet_1", "bullet_2", "bullet_3", "trust_1", "trust_2", "trust_3", "faq_1", "faq_2", "faq_3"]
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      },
+      "blocks": {
+        "press_1": { "type": "logo", "settings": { "alt_text": "SHAPE" } },
+        "press_2": { "type": "logo", "settings": { "alt_text": "REFINERY29" } },
+        "press_3": { "type": "logo", "settings": { "alt_text": "VOGUE" } },
+        "press_4": { "type": "logo", "settings": { "alt_text": "People" } }
+      },
+      "block_order": ["press_1", "press_2", "press_3", "press_4"]
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "settings": {
+        "label": "Retinoid Revolution",
+        "bg_color": "#ffffff",
+        "speed": 25
+      },
+      "blocks": {
+        "badge_1": { "type": "badge", "settings": { "text": "Micro-Encapsulated Retinol" } },
+        "badge_2": { "type": "badge", "settings": { "text": "Bakuchiol Infused" } },
+        "badge_3": { "type": "badge", "settings": { "text": "Clinically Proven" } },
+        "badge_4": { "type": "badge", "settings": { "text": "Australian Made" } },
+        "badge_5": { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+      },
+      "block_order": ["badge_1", "badge_2", "badge_3", "badge_4", "badge_5"]
+    },
+    "doctor_note": {
+      "type": "aliange-pdp-doctor-note",
+      "settings": {
+        "doctor_name": "Dr. Alison Jamieson",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "quote": "When first introducing retinol, I recommend starting with twice-weekly application for the first two weeks, then gradually increasing to nightly use as your skin builds tolerance. This adaptivity ensures maximum long-term benefits."
+      }
+    },
+    "benefits": {
+      "type": "aliange-pdp-benefits",
+      "settings": {
+        "heading": "Reverse Wrinkles Overnight",
+        "subheading": "Experience the power of gold-standard rejuvenation without compromise.",
+        "header_align": "left",
+        "button_text": "Shop Ultimate A Night Cream"
+      },
+      "blocks": {
+        "b1": { "type": "benefit", "settings": { "title": "Reduces Visible Wrinkles", "description": "Retinol and Bakuchiol work synergistically to smooth fine lines and reduce wrinkle depth by 20% in 12 weeks." } },
+        "b2": { "type": "benefit", "settings": { "title": "Fades Hyperpigmentation", "description": "Clinically proven to significantly improve pigmentation, helping to diminish dark spots and even out skin tone." } },
+        "b3": { "type": "benefit", "settings": { "title": "Rejuvenates Without Irritation", "description": "Experience retinol power without common side effects; Bakuchiol ensures significant tolerance compared to standard Vitamin A." } },
+        "b4": { "type": "benefit", "settings": { "title": "Stimulates New Collagen", "description": "Matrixyl® synthe'6™ peptide mimics injectable fillers, rebuilding skin from within for a firmer, plumper look." } },
+        "b5": { "type": "benefit", "settings": { "title": "Delivers Deep Hydration", "description": "Amazonian Cupuacu Butter absorbs 440% of its weight in water to provide intense, long-lasting moisture." } },
+        "b6": { "type": "benefit", "settings": { "title": "Maximises Potency & Stability", "description": "Micro-encapsulated delivery extends retinol's active life by 9 times, ensuring maximum results from every dose." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "stats": {
+      "type": "aliange-pdp-stats",
+      "settings": {
+        "heading": "Retinoid Rejuvenation Stats.",
+        "subheading": "Proven clinical results for overnight transformation:",
+        "columns": 4
+      },
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "20%", "label": "Wrinkle Severity Reduction", "ring_percent": 20 } },
+        "s2": { "type": "stat", "settings": { "value": "59%", "label": "Hyperpigmentation Improvement", "ring_percent": 59 } },
+        "s3": { "type": "stat", "settings": { "value": "9x", "label": "Greater Retinol Stability", "ring_percent": 100 } },
+        "s4": { "type": "stat", "settings": { "value": "440%", "label": "Hydration (Cupuacu)", "ring_percent": 100 } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "comparison": {
+      "type": "aliange-pdp-comparison",
+      "settings": {
+        "heading": "Stability vs. Sensitivity",
+        "subheading": "Traditional retinols degrade and irritate. Aliangé transforms and soothes.",
+        "aliange_label": "Ultimate A Night Cream",
+        "competitor_label": "Generic Retinol Cream",
+        "button_text": "Upgrade Your Nightly Routine"
+      },
+      "blocks": {
+        "r1": { "type": "comparison_row", "settings": { "feature": "Irritation Risk", "aliange_value": "Minimal (Bakuchiol)", "competitor_value": "High (Retinol Burn)" } },
+        "r2": { "type": "comparison_row", "settings": { "feature": "Stability", "aliange_value": "9x longer half-life", "competitor_value": "Degrades quickly" } },
+        "r3": { "type": "comparison_row", "settings": { "feature": "Wrinkle Depth", "aliange_value": "20% Reduction", "competitor_value": "Inconsistent" } },
+        "r4": { "type": "comparison_row", "settings": { "feature": "Technology", "aliange_value": "Micro-Encapsulation", "competitor_value": "Free/Active Retinol" } },
+        "r5": { "type": "comparison_row", "settings": { "feature": "Expertise", "aliange_value": "Doctor Developed", "competitor_value": "Consumer Brand" } },
+        "r6": { "type": "comparison_row", "settings": { "feature": "Hydration", "aliange_value": "Amazonian Cupuacu", "competitor_value": "Silicone Fillers" } },
+        "r7": { "type": "comparison_row", "settings": { "feature": "Barrier Support", "aliange_value": "Sodium Hyaluronate Mesh", "competitor_value": "Strips Barrier" } },
+        "r8": { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"]
+    },
+    "ingredients": {
+      "type": "aliange-pdp-ingredients",
+      "settings": {
+        "heading": "Micro-Encapsulated Actives.",
+        "subheading": "Dual-action Vitamin A combined with protective Amazonian butters.",
+        "columns": 3
+      },
+      "blocks": {
+        "i1": { "type": "ingredient", "settings": { "category": "Gold Standard", "name": "Micro-retinol", "bullets": "Accelerates turnover|9x more stable|Deeper penetration|Minimal irritation", "evidence": "Advanced technology allows it to penetrate deeper while significantly reducing risk of 'retinol burn'." } },
+        "i2": { "type": "ingredient", "settings": { "category": "Natural Alternative", "name": "Bakuchiol", "bullets": "Matched retinol's efficacy|Significantly better tolerated|Anti-inflammatory|Fights pigmentation", "evidence": "Landmark study in British Journal of Dermatology found Bakuchiol matched retinol's efficacy." } },
+        "i3": { "type": "ingredient", "settings": { "category": "Structure", "name": "Matrixyl® synthe'6®", "bullets": "Collagan & Elastin architect|Stimulates 6 major markers|Rebuilds from within|Firms & plumps", "evidence": "Clinical studies show it effectively rebuilds the skin matrix, visibly reducing wrinkle volume." } },
+        "i4": { "type": "ingredient", "settings": { "category": "Hydration Hero", "name": "Cupuaçu Butter", "bullets": "Absorbs 440% weight in water|Restores elasticity|Soothes during renewal|Amazonian superfruit", "evidence": "Capable of holding over 400% of its weight in water to deeply moisturise and restore skin." } },
+        "i5": { "type": "ingredient", "settings": { "category": "Barrier Mesh", "name": "HA Crosspolymer", "bullets": "Advanced Hyaluronic mesh|Continuous hydration|Locks in moisture|Plump complexion", "evidence": "Forms a 'mesh' on the surface for long-lasting hydration that helps buffer active ingredients." } }
+      },
+      "block_order": ["i1", "i2", "i3", "i4", "i5"]
+    },
+    "howtouse": {
+      "type": "aliange-pdp-howtouse",
+      "settings": {
+        "heading": "The Transformation Ritual",
+        "subheading": "Your nightly sequence for cellular rejuvenation.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "When first introducing retinol, start with twice-weekly application... then gradually increase to nightly use as your skin builds tolerance."
+      },
+      "blocks": {
+        "step1": { "type": "step", "settings": { "title": "Cleanse", "description": "Begin by thoroughly cleansing with the Daily Devotion Cleanser." } },
+        "step2": { "type": "step", "settings": { "title": "Apply Serums", "description": "Apply your Aliangé Brightening or Jellyfish Serum and allow it to fully absorb." } },
+        "step3": { "type": "step", "settings": { "title": "Target", "description": "Apply a pea-sized amount of Ultimate A to your face, neck, and décolletage." } },
+        "step4": { "type": "step", "settings": { "title": "Build Tolerance", "description": "Use 2x weekly to start, increasing frequency once skin adapts." } }
+      },
+      "block_order": ["step1", "step2", "step3", "step4"]
+    },
+    "faq": {
+      "type": "aliange-pdp-faq",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Scientific answers to your Vitamin A concerns.",
+        "button_text": "Shop Ultimate A Night Cream"
+      },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "What makes this different from other retinol?", "answer": "<p>Scientific combination of micro-encapsulated Retinol and Bakuchiol. This pairing delivers results with significantly less irritation.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "Will I experience redness?", "answer": "<p>Some initial sensitivity or mild flaking can occur as skin adapts. The formula includes Amazonian butters specifically to help counteract this.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "Is it suitable for sensitive skin?", "answer": "<p>Yes, many sensitive types tolerate this well due to the Bakuchiol inclusion. We always recommend patch testing first.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "How long until I see results?", "answer": "<p>Texture improves in weeks, but significant wrinkle and pigmentation reduction is best seen after 8-12 weeks of consistent use.</p>" } },
+        "q5": { "type": "question", "settings": { "question": "Can I use it with other products?", "answer": "<p>Yes, apply after water-based serums. Avoid using in the same routine as strong exfoliants like high-concentration AHAs.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Your Journey to Visibly Younger Skin Starts Tonight",
+        "subheading": "Wake up to a smoother, clearer, and more youthful complexion.",
+        "button_text": "ADD TO CART - 90-DAY GUARANTEE",
+        "trust_line": "Love your results in 90 days, or your money back.",
+        "bg_color": "#F4F7F9"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "press_ticker",
+    "trust_bar",
+    "doctor_note",
+    "benefits",
+    "stats",
+    "comparison",
+    "ingredients",
+    "howtouse",
+    "faq",
+    "final_cta"
+  ]
+}

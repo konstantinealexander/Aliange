@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "lp_hero": {
+      "type": "aliange-lp-hero",
+      "settings": {
+        "label": "Our Story",
+        "headline": "Dr. Alison Jamieson & Aliangé Clinical Skincare.",
+        "subheadline": "Aliangé is a premium Australian clinical skincare brand founded by Dr. Alison Jamieson (MBBS, FRACGP, Dip Derm), a pioneer in aesthetic medicine with over 40 years of clinical experience. Born from decades of real-world patient outcomes. Built for results, not trends.",
+        "cta_text": "Explore the Aliangé Protocols",
+        "cta_url": "/collections/protocols",
+        "trust_line": "Doctor-Led | Australian-Made | Cruelty-Free | Woman-Owned",
+        "align": "left",
+        "min_height": 640
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_doctor": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "Meet the Founder",
+        "headline": "Dr. Alison Jamieson — MBBS, FRACGP, Dip Derm",
+        "body": "<p>Dr. Alison Jamieson is one of Australia's most respected authorities in non-surgical cosmetic dermatology. She has dedicated her life to aesthetic medicine, working full-time in the specialty for more than three decades.</p><p>After graduating with a Bachelor of Medicine and Bachelor of Surgery (MBBS) from the University of Queensland in 1985, Dr. Jamieson spent four years training at the Royal Brisbane and Wesley hospitals before obtaining her Fellowship in General Practice (FRACGP). She further specialised her expertise by completing a Graduate Diploma in Dermatology at Monash University.</p><p>Dr. Jamieson attended the very first laser conference in Melbourne in 1994, positioning her at the forefront of what would become a rapidly expanding medical field. She has been a faculty member of the Allergan Medical Institute for over 15 years, training other medical professionals in advanced injectable techniques.</p>",
+        "bg": "white",
+        "width": "narrow"
+      },
+      "blocks": {
+        "q1": { "type": "quote", "settings": { "quote_text": "Operating from her flagship practice, Aliangé Skin Clinics in Maroochydore, Queensland, Dr. Jamieson observed a consistent gap in the market: consumers were mixing and matching products without a biological strategy, leading to compromised skin barriers and underwhelming results. Aliangé exists to bridge that gap.", "attribution": "— The Aliangé Story" } }
+      },
+      "block_order": ["q1"]
+    },
+    "lp_stats": {
+      "type": "aliange-lp-stats",
+      "settings": {},
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "40+", "label": "Years of Clinical Dermatology Experience" } },
+        "s2": { "type": "stat", "settings": { "value": "1994", "label": "Year Dr. Jamieson began laser medicine" } },
+        "s3": { "type": "stat", "settings": { "value": "15+", "label": "Years Allergan Medical Institute Faculty" } },
+        "s4": { "type": "stat", "settings": { "value": "100%", "label": "Australian Made & Formulated" } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "lp_philosophy": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "Our Philosophy",
+        "headline": "Three Uncompromising Core Principles",
+        "body": "",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {
+        "s1": { "type": "subheading", "settings": { "text": "1. Clinical Credibility Over Trends" } },
+        "t1": { "type": "rich_text", "settings": { "body": "<p>We do not formulate based on social media hype. Every ingredient—from our Endexome-EXO™ API to our immortal jellyfish peptides—is selected based on rigorous histological evidence and clinical trials.</p>" } },
+        "s2": { "type": "subheading", "settings": { "text": "2. Protocol-Based Systems Over Random Routines" } },
+        "t2": { "type": "rich_text", "settings": { "body": "<p>Skincare is not about a single miracle cream; it is about cellular communication. Aliangé is designed as a protocol-based system where products work sequentially within structured AM and PM routines. This reflects how skin is treated in clinical practice—conservatively, consistently, and with biological logic.</p>" } },
+        "s3": { "type": "subheading", "settings": { "text": "3. Long-Term Skin Health Over Short-Term Fixes" } },
+        "t3": { "type": "rich_text", "settings": { "body": "<p>Harsh, stripping treatments ultimately damage the skin matrix. Our formulations prioritize the integrity of the lipid barrier and the skin microbiome, ensuring cumulative, sustainable skin health over a lifetime.</p>" } }
+      },
+      "block_order": ["s1", "t1", "s2", "t2", "s3", "t3"]
+    },
+    "lp_benefits": {
+      "type": "aliange-lp-benefits",
+      "settings": { "label": "Proudly Australian", "headline": "The Aliangé Commitment" },
+      "blocks": {
+        "ben1": { "type": "benefit", "settings": { "title": "Doctor-Developed", "description": "Every formulation is developed through a clinical lens by Dr. Alison Jamieson, informed by 40+ years of real patient outcomes." } },
+        "ben2": { "type": "benefit", "settings": { "title": "Australian Made", "description": "All formulations are developed and manufactured in Australia, specifically engineered to withstand and repair the effects of the harsh Australian climate." } },
+        "ben3": { "type": "benefit", "settings": { "title": "Cruelty-Free", "description": "We never test on animals. Full stop." } },
+        "ben4": { "type": "benefit", "settings": { "title": "Consciously Formulated", "description": "Free from harmful fillers, harsh chemicals, parabens, and synthetic dyes." } },
+        "ben5": { "type": "benefit", "settings": { "title": "Woman-Owned", "description": "Founded and led by a female medical pioneer dedicated to evidence-based skincare." } },
+        "ben6": { "type": "benefit", "settings": { "title": "Environmentally Sustainable", "description": "Utilising non-genetically modified ingredients and sustainable practices throughout our supply chain." } }
+      },
+      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "headline": "Experience the Frontier of Clinical Skin Regeneration.",
+        "subheadline": "Explore the Aliangé Protocols today — doctor-developed, science-backed systems designed to deliver measurable, lasting results.",
+        "cta_text": "Explore the Aliangé Protocols",
+        "cta_url": "/collections/protocols",
+        "secondary_cta_text": "Take the Skin Assessment",
+        "secondary_cta_url": "/pages/quiz",
+        "guarantee": "Aliangé Skin Clinics, Maroochydore Queensland | Shipping Australia-wide"
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": ["lp_hero", "lp_doctor", "lp_stats", "lp_philosophy", "lp_benefits", "lp_cta"]
+}

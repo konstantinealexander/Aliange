@@ -1,0 +1,294 @@
+<style>
+  #shopify-section-{{ section.id }} {
+    --before-after-initial-cursor-position: {{ section.settings.cursor_initial_position }}%;
+    --before-after-cursor-background: {{ section.settings.cursor_background.rgb }};
+  }
+
+  /* Grid Layout for Dual View */
+  .dual-before-after-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: {{ section.settings.gap }}px;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 990px) {
+    .dual-before-after-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  /* Ensure the nested components fill the grid cells */
+  .dual-before-after-grid before-after {
+    height: 100%;
+    min-height: 400px; /* Safety height */
+  }
+  
+  /* Image object fit adjustments to ensure alignment */
+  .dual-before-after-grid img {
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+<div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  <div class="container container--lg">
+    <div class="section-stack">
+      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content -%}
+
+      <div class="dual-before-after-grid">
+        {%- for block in section.blocks -%}
+          <before-after class="before-after before-after--{{ section.settings.cursor_direction }}" {% if section.settings.cursor_direction == 'vertical' %}vertical{% endif %} {{ block.shopify_attributes }}>
+            
+            {%- comment -%}
+            ----------------------------------------------------------------------------------------------------------------
+            BEFORE IMAGE (Left/Top)
+            ----------------------------------------------------------------------------------------------------------------
+            {%- endcomment -%}
+            <div class="before-after__before-image color-scheme color-scheme--{{ block.settings.color_scheme.id }}">
+              {%- capture sizes -%}(max-width: 999px) 100vw, 50vw{%- endcapture -%}
+
+              {%- if block.settings.image_before != blank -%}
+                <picture>
+                  {%- if block.settings.mobile_image_before -%}
+                    <source
+                        media="(max-width: 699px)"
+                        srcset="{{ block.settings.mobile_image_before | image_url: width: 400 }} 400w, {{ block.settings.mobile_image_before | image_url: width: 600 }} 600w, {{ block.settings.mobile_image_before | image_url: width: 800 }} 800w"
+                        width="{{ block.settings.mobile_image_before.width }}"
+                        height="{{ block.settings.mobile_image_before.height }}"
+                    >
+                  {%- endif -%}
+                  {{- block.settings.image_before | image_url: width: block.settings.image_before.width | image_tag: sizes: sizes, widths: '300,400,500,600,800,1000,1200', class: 'w-full', draggable: false -}}
+                </picture>
+              {%- else -%}
+                {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+              {%- endif -%}
+
+              {%- if block.settings.text_before != blank -%}
+                <div class="before-after__content-wrapper v-stack gap-4">
+                  <p class="h6 sm:h5">{{ block.settings.text_before }}</p>
+                </div>
+              {%- endif -%}
+            </div>
+
+            {%- comment -%}
+            ----------------------------------------------------------------------------------------------------------------
+            AFTER IMAGE (Right/Bottom)
+            ----------------------------------------------------------------------------------------------------------------
+            {%- endcomment -%}
+            <div class="before-after__after-image color-scheme color-scheme--{{ block.settings.color_scheme.id }}">
+              {%- if block.settings.image_after != blank -%}
+                <picture>
+                  {%- if block.settings.mobile_image_after -%}
+                    <source
+                        media="(max-width: 699px)"
+                        srcset="{{ block.settings.mobile_image_after | image_url: width: 400 }} 400w, {{ block.settings.mobile_image_after | image_url: width: 600 }} 600w, {{ block.settings.mobile_image_after | image_url: width: 800 }} 800w"
+                        width="{{ block.settings.mobile_image_after.width }}"
+                        height="{{ block.settings.mobile_image_after.height }}"
+                    >
+                  {%- endif -%}
+                  {{- block.settings.image_after | image_url: width: block.settings.image_after.width | image_tag: sizes: sizes, widths: '300,400,500,600,800,1000,1200', class: 'image-background', draggable: false -}}
+                </picture>
+              {%- else -%}
+                {{- 'lifestyle-2' | placeholder_svg_tag: 'placeholder placeholder--invert' | replace: '<svg', '<svg preserveAspectRatio="xMinYMin slice"' -}}
+              {%- endif -%}
+
+              {%- if block.settings.text_after != blank -%}
+                <div class="before-after__content-wrapper v-stack gap-4">
+                  <p class="h6 sm:h5">{{ block.settings.text_after }}</p>
+                </div>
+              {%- endif -%}
+            </div>
+
+            {%- comment -%}
+            ----------------------------------------------------------------------------------------------------------------
+            CURSOR (Shared settings)
+            ----------------------------------------------------------------------------------------------------------------
+            {%- endcomment -%}
+            <div class="before-after__cursor" tabindex="0">
+              <span class="sr-only">{{ 'sections.before_after.cursor_accessibility_text' | t }}</span>
+              <svg role="presentation" focusable="false" fill="none" width="50" height="50" viewBox="0 0 50 50">
+                <g {% if section.settings.cursor_direction == 'vertical' %}transform="rotate(90, 25, 25)"{% endif %}>
+                  <rect width="50" height="50" rx="25" fill="{{ section.settings.cursor_background }}"/>
+                  <path d="m19.25 19-6 6 6 6m11.5 0 6-6-6-6" stroke="{{ section.settings.cursor_arrows_color }}" stroke-width=".75" stroke-linecap="square"/>
+                </g>
+              </svg>
+            </div>
+
+          </before-after>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Dual Before/After",
+  "class": "shopify-section--dual-before-after",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "label": "t:global.text.subheading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "t:global.text.heading",
+      "default": "Real Results"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "t:global.text.content",
+      "default": "<p>Compare side-by-side results.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Grid Gap",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Cursor Settings"
+    },
+    {
+      "type": "select",
+      "id": "cursor_direction",
+      "label": "t:sections.before_after.cursor_direction",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "Horizontal"
+        },
+        {
+          "value": "vertical",
+          "label": "Vertical"
+        }
+      ],
+      "default": "horizontal"
+    },
+    {
+      "type": "range",
+      "id": "cursor_initial_position",
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "label": "t:sections.before_after.cursor_initial_position",
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "cursor_background",
+      "label": "Cursor Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "cursor_arrows_color",
+      "label": "Cursor Arrow Color",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "comparison_pair",
+      "name": "Comparison Pair",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Before Settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_before",
+          "label": "Before Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image_before",
+          "label": "Mobile Before Image"
+        },
+        {
+          "type": "text",
+          "id": "text_before",
+          "label": "Before Label",
+          "default": "Before"
+        },
+        {
+          "type": "header",
+          "content": "After Settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_after",
+          "label": "After Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image_after",
+          "label": "Mobile After Image"
+        },
+        {
+          "type": "text",
+          "id": "text_after",
+          "label": "After Label",
+          "default": "After"
+        },
+        {
+          "type": "header",
+          "content": "Style"
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "Color Scheme",
+          "default": "scheme-4"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dual Before/After",
+      "blocks": [
+        {
+          "type": "comparison_pair"
+        },
+        {
+          "type": "comparison_pair"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

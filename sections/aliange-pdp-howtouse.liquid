@@ -1,0 +1,273 @@
+{% comment %}
+  Aliangé PDP How to Use Section
+  Numbered step cards + Doctor's pro tip. Two-column with image.
+{% endcomment %}
+
+{%- style -%}
+  #pdp-howtouse-{{ section.id }} .howtouse-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--pdp-space-xl);
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-howtouse-{{ section.id }} .howtouse-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--pdp-space-2xl);
+    }
+
+    #pdp-howtouse-{{ section.id }} .howtouse-grid > :first-child {
+      order: 2;
+    }
+
+    #pdp-howtouse-{{ section.id }} .howtouse-grid > :last-child {
+      order: 1;
+    }
+  }
+
+  #pdp-howtouse-{{ section.id }} .howtouse-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pdp-space-md);
+  }
+
+  #pdp-howtouse-{{ section.id }} .howtouse-header .pdp-heading {
+    margin-bottom: var(--pdp-space-sm);
+  }
+
+  #pdp-howtouse-{{ section.id }} .howtouse-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pdp-space-sm);
+  }
+
+  #pdp-howtouse-{{ section.id }} .step-card {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--pdp-space-md);
+    padding: var(--pdp-space-md) var(--pdp-space-lg);
+    background-color: var(--pdp-bg-muted);
+    border-radius: var(--pdp-radius-md);
+  }
+
+  #pdp-howtouse-{{ section.id }} .step-number {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--pdp-ink);
+    color: #ffffff;
+    font-family: var(--pdp-font-heading);
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+  }
+
+  #pdp-howtouse-{{ section.id }} .step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+  }
+
+  #pdp-howtouse-{{ section.id }} .step-title {
+    font-family: var(--pdp-font-body);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--pdp-ink);
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  #pdp-howtouse-{{ section.id }} .step-desc {
+    font-family: var(--pdp-font-body);
+    font-size: 13px;
+    color: var(--pdp-body);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-howtouse-{{ section.id }} .step-title { font-size: 16px; }
+    #pdp-howtouse-{{ section.id }} .step-desc { font-size: 14px; }
+  }
+
+  #pdp-howtouse-{{ section.id }} .pro-tip {
+    margin-top: var(--pdp-space-md);
+    padding: var(--pdp-space-lg);
+    background-color: var(--pdp-bg-muted);
+    border-radius: var(--pdp-radius-md);
+    border-left: 3px solid var(--pdp-ink);
+  }
+
+  #pdp-howtouse-{{ section.id }} .pro-tip-label {
+    font-family: var(--pdp-font-body);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--pdp-ink);
+    margin: 0 0 8px 0;
+  }
+
+  #pdp-howtouse-{{ section.id }} .pro-tip-quote {
+    font-family: var(--pdp-font-heading);
+    font-size: 14px;
+    font-style: italic;
+    color: var(--pdp-body);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-howtouse-{{ section.id }} .pro-tip-quote {
+      font-size: 15px;
+    }
+  }
+
+  #pdp-howtouse-{{ section.id }} .howtouse-image {
+    position: relative;
+    border-radius: var(--pdp-radius-xl);
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background-color: var(--pdp-bg-muted);
+  }
+
+  #pdp-howtouse-{{ section.id }} .howtouse-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+{%- endstyle -%}
+
+<section id="pdp-howtouse-{{ section.id }}" class="pdp-section pdp-section--muted pdp-reveal" aria-label="How to use">
+  <div class="pdp-container">
+    <div class="howtouse-grid">
+      <div class="howtouse-content">
+        {% if section.settings.heading != blank %}
+          <div class="howtouse-header">
+            <h2 class="pdp-heading pdp-heading--lg">{{ section.settings.heading }}</h2>
+            {% if section.settings.subheading != blank %}
+              <p class="pdp-body pdp-body--md">{{ section.settings.subheading }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% assign steps = section.blocks | where: "type", "step" %}
+        {% if steps.size > 0 %}
+          <div class="howtouse-steps">
+            {% for block in steps %}
+              <div class="step-card" {{ block.shopify_attributes }}>
+                <span class="step-number" aria-hidden="true">{{ forloop.index }}</span>
+                <div class="step-content">
+                  {% if block.settings.title != blank %}
+                    <h3 class="step-title">{{ block.settings.title }}</h3>
+                  {% endif %}
+                  {% if block.settings.description != blank %}
+                    <p class="step-desc">{{ block.settings.description }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if section.settings.pro_tip_quote != blank %}
+          <div class="pro-tip">
+            <p class="pro-tip-label">{{ section.settings.pro_tip_author | default: "Dr. Jamieson\u2019s Pro Tip" }}</p>
+            <blockquote class="pro-tip-quote">\u201C{{ section.settings.pro_tip_quote }}\u201D</blockquote>
+          </div>
+        {% endif %}
+      </div>
+
+      {% if section.settings.image != blank %}
+        <div class="howtouse-image">
+          <img
+            src="{{ section.settings.image | image_url: width: 800 }}"
+            alt="{{ section.settings.image.alt | default: 'How to use' | escape }}"
+            width="800"
+            height="800"
+            loading="lazy"
+          >
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-pdp-scripts' %}
+
+{% schema %}
+{
+  "name": "PDP How to Use",
+  "tag": "section",
+  "class": "aliange-pdp-howtouse",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Daily Application Ritual"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Follow these steps to maximize the regenerative benefits."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Side image"
+    },
+    {
+      "type": "text",
+      "id": "pro_tip_author",
+      "label": "Pro tip label",
+      "default": "Dr. Jamieson\u2019s Pro Tip"
+    },
+    {
+      "type": "textarea",
+      "id": "pro_tip_quote",
+      "label": "Pro tip quote"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Step title",
+          "default": "Cleanse"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Step description",
+          "default": "Begin with a thoroughly cleansed and dry face, neck, and décolletage."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDP How to Use",
+      "blocks": [
+        { "type": "step", "settings": { "title": "Cleanse", "description": "Begin with a thoroughly cleansed and dry face." } },
+        { "type": "step", "settings": { "title": "Apply", "description": "Dispense 1\u20132 pumps onto your fingertips." } },
+        { "type": "step", "settings": { "title": "Massage", "description": "Gently massage using upward, circular motions." } },
+        { "type": "step", "settings": { "title": "Protect", "description": "Apply every morning for all-day protection." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

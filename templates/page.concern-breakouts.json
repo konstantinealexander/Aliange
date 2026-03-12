@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "lp_hero": {
+      "type": "aliange-lp-hero",
+      "settings": {
+        "label": "Aliangé Clinical",
+        "headline": "Reclaim Your Confidence from Breakouts, Clinically.",
+        "subheadline": "Tired of the endless cycle of breakouts and harsh treatments? Discover a doctor-developed, science-backed approach to finally achieve clear, calm, and healthy skin. We go beyond surface-level solutions to target the multiple root causes of acne.",
+        "cta_text": "Find Your Clinical Solution",
+        "cta_url": "/collections/all",
+        "trust_line": "Developed by Dr. Alison Jamieson, Australian Dermatological Expert.",
+        "align": "left",
+        "min_height": 620
+      },
+      "blocks": {
+        "b1": { "type": "bullet", "settings": { "text": "Understand the complex science behind breakouts and oil production." } },
+        "b2": { "type": "bullet", "settings": { "text": "Discover a multi-pathway routine to rebalance your skin's microbiome." } },
+        "b3": { "type": "bullet", "settings": { "text": "Learn how to achieve lasting clarity without irritation or compromise." } }
+      },
+      "block_order": ["b1", "b2", "b3"]
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Science",
+        "headline": "Why Your Skin Keeps Breaking Out",
+        "body": "<p>Breakouts are more than just a clogged pore; they are a complex inflammatory condition often driven by a combination of factors. It often begins with an overproduction of sebum (your skin's natural oil), which mixes with dead skin cells to create a plug within the hair follicle. This congested environment becomes the perfect breeding ground for the bacterium <em>Cutibacterium acnes</em>.</p><p>For a long time, it was believed that simply having more <em>C. acnes</em> caused acne. However, recent research reveals it's more about the balance of your skin's microbiome. A state of <strong>dysbiosis</strong>, where certain strains overwhelm beneficial bacteria, is the real trigger for inflammation.</p><p>Hormonal fluctuations also play a significant role. The enzyme <strong>5-alpha reductase</strong> converts testosterone into the more potent dihydrotestosterone (DHT), which signals your sebaceous glands to produce more oil, exacerbating the cycle.</p>",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_approach": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "Our Approach",
+        "headline": "A Clinical, Multi-Pathway Approach to Breakouts",
+        "body": "<p>While many treatments offer a single-ingredient solution, this often fails to address the multifaceted nature of acne. The Aliangé approach, formulated by Dr. Alison Jamieson based on her 40+ years of clinical practice, is different. We target the multiple pathways involved in breakout formation simultaneously for comprehensive, lasting results.</p>",
+        "bg": "white",
+        "width": "narrow"
+      },
+      "blocks": {
+        "q1": { "type": "quote", "settings": { "quote_text": "In my clinical experience, I've seen that a lasting solution to acne requires a holistic approach. You cannot just dry out the skin and expect it to heal. You must address the underlying drivers — the oil production, the bacterial imbalance, the inflammation. That's why I formulated this routine to work synergistically, bringing the skin back into a state of equilibrium and health.", "attribution": "— Dr. Alison Jamieson" } }
+      },
+      "block_order": ["q1"]
+    },
+    "lp_stats": {
+      "type": "aliange-lp-stats",
+      "settings": {},
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "29%", "label": "Sebum Reduction in 28 days" } },
+        "s2": { "type": "stat", "settings": { "value": "49%", "label": "Reduction in Active Sebaceous Glands" } },
+        "s3": { "type": "stat", "settings": { "value": "5%", "label": "Tea Tree Oil as effective as Benzoyl Peroxide" } },
+        "s4": { "type": "stat", "settings": { "value": "22%", "label": "Barrier damage from harsh cleansers" } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "lp_routine": {
+      "type": "aliange-lp-routine",
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your Breakout-Clearing Routine",
+        "cta_text": "Shop the Breakout Solution",
+        "cta_url": "/collections/all"
+      },
+      "blocks": {
+        "p1": { "type": "product_step", "settings": { "name": "Daily Devotion Cleanser", "price": "$55", "why": "Gently cleanses without stripping the skin's protective barrier, preventing the irritation and dehydration that can worsen breakouts.", "key_active": "Coconut-derived surfactants, Jojoba Esters", "step": "Step 1 (AM/PM)" } },
+        "p2": { "type": "product_step", "settings": { "name": "Biocinamide Serum", "price": "$90", "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.", "key_active": "Oleanolic Acid, Enantia Chlorantha Bark Extract", "step": "Step 2 (AM/PM)" } },
+        "p3": { "type": "product_step", "settings": { "name": "Transforming Exfoliator", "price": "$55", "why": "Combines chemical (AHAs) and physical (Jojoba beads) exfoliation to decongest pores and remove dead skin cells, with Tea Tree Oil to target breakout-causing bacteria.", "key_active": "AHAs, Tea Tree Oil, Jojoba Beads", "step": "2–3x per week (PM)" } },
+        "p4": { "type": "product_step", "settings": { "name": "Probiotic Masque", "price": "$50", "why": "A detoxifying and rebalancing treatment that uses clays to absorb excess oil and prebiotics to selectively feed beneficial bacteria, restoring a healthy microbiome.", "key_active": "Kaolin & Bentonite Clay, Alpha-Glucan Oligosaccharide", "step": "2–3x per week" } }
+      },
+      "block_order": ["p1", "p2", "p3", "p4"]
+    },
+    "lp_benefits": {
+      "type": "aliange-lp-benefits",
+      "settings": { "label": "Why It Works", "headline": "Benefits of the Routine" },
+      "blocks": {
+        "ben1": { "type": "benefit", "settings": { "title": "Regulates Oil Production", "description": "Reduces excess sebum at the source for less shine and fewer clogged pores." } },
+        "ben2": { "type": "benefit", "settings": { "title": "Rebalances Skin Microbiome", "description": "Fosters a healthy skin environment where breakouts are less likely to form." } },
+        "ben3": { "type": "benefit", "settings": { "title": "Decongests & Refines Pores", "description": "Clears out impactions and reduces the appearance of enlarged pores." } },
+        "ben4": { "type": "benefit", "settings": { "title": "Calms Inflammation & Redness", "description": "Soothes irritated skin and reduces the visible signs of active breakouts." } },
+        "ben5": { "type": "benefit", "settings": { "title": "Strengthens the Skin Barrier", "description": "Supports a healthy barrier function for more resilient, less reactive skin." } },
+        "ben6": { "type": "benefit", "settings": { "title": "Prevents Future Breakouts", "description": "Addresses the root causes of acne for clearer, healthier skin long-term." } }
+      },
+      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+    },
+    "lp_timeline": {
+      "type": "aliange-lp-timeline",
+      "settings": { "label": "Your Journey", "headline": "What to Expect" },
+      "blocks": {
+        "t1": { "type": "phase", "settings": { "timeframe": "Week 1–2", "description": "Skin feels calmer, less oily, and looks less inflamed as the routine begins to regulate sebum and soothe irritation." } },
+        "t2": { "type": "phase", "settings": { "timeframe": "Week 2–4", "description": "You may notice a reduction in the frequency and severity of new breakouts as pores become clearer and the microbiome starts to rebalance." } },
+        "t3": { "type": "phase", "settings": { "timeframe": "Week 4–8", "description": "Visible improvement in skin texture and clarity. Post-inflammatory marks may begin to fade, and skin appears healthier and more even-toned." } },
+        "t4": { "type": "phase", "settings": { "timeframe": "Week 8–12", "description": "Significant reduction in active breakouts and congestion. Skin is consistently clearer, smoother, and more balanced, with peak results becoming evident." } }
+      },
+      "block_order": ["t1", "t2", "t3", "t4"]
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "settings": { "label": "The Difference", "headline": "Why Aliangé Is Different", "col_them": "Typical Breakout Products", "col_us": "Aliangé Clinical Approach" },
+      "blocks": {
+        "r1": { "type": "row", "settings": { "feature": "Approach", "them": "Single ingredient (e.g., Benzoyl Peroxide only)", "us": "Multi-pathway, synergistic routine" } },
+        "r2": { "type": "row", "settings": { "feature": "Mechanism", "them": "Harshly strips oil, kills all bacteria", "us": "Regulates sebum, rebalances microbiome, calms inflammation" } },
+        "r3": { "type": "row", "settings": { "feature": "Skin Barrier", "them": "Often compromises and damages the barrier", "us": "Protects and strengthens the skin barrier" } },
+        "r4": { "type": "row", "settings": { "feature": "Long-Term", "them": "Can lead to a cycle of dryness and irritation", "us": "Fosters long-term skin health and resilience" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4"]
+    },
+    "lp_faq": {
+      "type": "aliange-lp-faq",
+      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "I have sensitive skin. Can I use this routine?", "answer": "<p>Yes. This routine was formulated by a doctor to be effective yet gentle. Unlike many harsh acne treatments, our products focus on calming inflammation and supporting your skin barrier, making them suitable for sensitive and breakout-prone skin.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "Will my skin purge when I start this routine?", "answer": "<p>Some people may experience a temporary 'purging' phase as the Transforming Exfoliator accelerates cell turnover and brings underlying congestion to the surface. This is normal and typically subsides within 2–4 weeks, revealing clearer skin.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "Is this routine suitable for hormonal acne?", "answer": "<p>Absolutely. The Biocinamide Serum is specifically formulated with Oleanolic Acid to inhibit 5-alpha reductase, the enzyme linked to hormonal-driven oil production, making this routine highly effective for managing hormonal breakouts.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "How is this different from other acne products I've tried?", "answer": "<p>Our approach is unique because it's a comprehensive, multi-pathway system. Instead of relying on one ingredient, we use a combination of clinically proven actives that work together to address the various causes of acne, from excess oil to bacterial imbalance, for more reliable and lasting results.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4"]
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "headline": "Ready to End the Breakout Cycle for Good?",
+        "subheadline": "Trust in a clinical, science-led solution developed by one of Australia's leading dermatological experts. Your journey to clear, confident skin starts here.",
+        "cta_text": "Shop the Breakout Solution",
+        "cta_url": "/collections/all",
+        "guarantee": "Backed by Our 90-Day Results Guarantee."
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_routine", "lp_benefits", "lp_timeline", "lp_comparison", "lp_faq", "lp_cta"]
+}

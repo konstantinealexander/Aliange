@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "hero": {
+      "type": "aliange-pdp-hero",
+      "settings": {
+        "description": "A revolutionary microbiome treatment masque, clinically formulated by Dr. Alison Jamieson to detoxify, balance, and deeply nourish your skin for a visibly radiant and calm complexion.",
+        "atc_text": "Experience Balanced Skin — $50"
+      },
+      "blocks": {
+        "bullet_1": {
+          "type": "bullet_point",
+          "settings": { "text": "Strengthens natural barrier and reduces water loss by 18%." }
+        },
+        "bullet_2": {
+          "type": "bullet_point",
+          "settings": { "text": "Visibly calms redness and breakouts." }
+        },
+        "bullet_3": {
+          "type": "bullet_point",
+          "settings": { "text": "Boosts skin radiance by 25.9% for a healthy glow." }
+        },
+        "trust_1": {
+          "type": "trust_box",
+          "settings": { "icon": "truck", "title": "Free Shipping", "description": "On all orders worldwide" }
+        },
+        "trust_2": {
+          "type": "trust_box",
+          "settings": { "icon": "shield", "title": "Money Back", "description": "90-day satisfaction promise" }
+        },
+        "trust_3": {
+          "type": "trust_box",
+          "settings": { "icon": "drop", "title": "Microbiome", "settings": { "text": "" }, "description": "Pre/Pro/Postbiotic" }
+        },
+        "faq_1": {
+          "type": "mini_faq",
+          "settings": { "question": "What are pre/pro/postbiotics?", "answer": "Prebiotics are food for good bacteria, probiotics are live good bacteria, and postbiotics are beneficial by-products that signal your skin to become stronger and healthier." }
+        },
+        "faq_2": {
+          "type": "mini_faq",
+          "settings": { "question": "Will clay dry me out?", "answer": "No. Unlike traditional clay masques, our formula is balanced with nourishing botanical oils like Rosehip to ensure skin is left soft and comfortable." }
+        },
+        "faq_3": {
+          "type": "mini_faq",
+          "settings": { "question": "What if it doesn’t work for me?", "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle." }
+        }
+      },
+      "block_order": ["bullet_1", "bullet_2", "bullet_3", "trust_1", "trust_2", "trust_3", "faq_1", "faq_2", "faq_3"]
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      },
+      "blocks": {
+        "press_1": { "type": "logo", "settings": { "alt_text": "SHAPE" } },
+        "press_2": { "type": "logo", "settings": { "alt_text": "REFINERY29" } },
+        "press_3": { "type": "logo", "settings": { "alt_text": "VOGUE" } },
+        "press_4": { "type": "logo", "settings": { "alt_text": "People" } }
+      },
+      "block_order": ["press_1", "press_2", "press_3", "press_4"]
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "settings": {
+        "label": "Microbiome Harmony",
+        "bg_color": "#ffffff",
+        "speed": 25
+      },
+      "blocks": {
+        "badge_1": { "type": "badge", "settings": { "text": "Pre/Pro/Postbiotics" } },
+        "badge_2": { "type": "badge", "settings": { "text": "Detoxifying Clays" } },
+        "badge_3": { "type": "badge", "settings": { "text": "Clinically Proven" } },
+        "badge_4": { "type": "badge", "settings": { "text": "Australian Made" } },
+        "badge_5": { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+      },
+      "block_order": ["badge_1", "badge_2", "badge_3", "badge_4", "badge_5"]
+    },
+    "doctor_note": {
+      "type": "aliange-pdp-doctor-note",
+      "settings": {
+        "doctor_name": "Dr. Alison Jamieson",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight. Its calming and purifying properties work wonders while you sleep."
+      }
+    },
+    "benefits": {
+      "type": "aliange-pdp-benefits",
+      "settings": {
+        "heading": "Restore Your Skin's Harmony",
+        "subheading": "A weekly scientific reset button for your skin's microbiome.",
+        "header_align": "left",
+        "button_text": "Shop Probiotic Masque"
+      },
+      "blocks": {
+        "b1": { "type": "benefit", "settings": { "title": "Purifies and Detoxifies", "description": "Kaolin and Bentonite clays gently draw out toxins, excess oil, and impurities without stripping essential moisture." } },
+        "b2": { "type": "benefit", "settings": { "title": "Supports a Healthy Microbiome", "description": "A complete complex fosters a diverse ecosystem, crucial for resilient, long-term skin health." } },
+        "b3": { "type": "benefit", "settings": { "title": "Calms and Soothes Irritation", "description": "Provides immediate relief for stressed, acne-prone, or rosacea-affected skin by reducing inflammation." } },
+        "b4": { "type": "benefit", "settings": { "title": "Strengthens the Skin Barrier", "description": "Promotes repair and reinforces natural defences, clinically reducing water loss by 18%." } },
+        "b5": { "type": "benefit", "settings": { "title": "Boosts Radiance & Smooths texture", "description": "Gently exfoliates and hydrates to reveal a luminous complexion with a clinically measured 25.9% radiance increase." } },
+        "b6": { "type": "benefit", "settings": { "title": "Nourishing Hydration", "description": "Rosehip and Evening Primrose oils deliver essential fatty acids to nourish leaving skin soft and supple." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "stats": {
+      "type": "aliange-pdp-stats",
+      "settings": {
+        "heading": "Microbiome Balance Stats.",
+        "subheading": "Clinical evidence supporting a healthier ecosystem:",
+        "columns": 4
+      },
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "18%", "label": "Reduction in Water Loss", "ring_percent": 18 } },
+        "s2": { "type": "stat", "settings": { "value": "25.9%", "label": "Increase in Radiance", "ring_percent": 26 } },
+        "s3": { "type": "stat", "settings": { "value": "23%", "label": "Decrease in Permeability", "ring_percent": 23 } },
+        "s4": { "type": "stat", "settings": { "value": "30 Days", "label": "Optimised Hydration", "ring_percent": 100 } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "comparison": {
+      "type": "aliange-pdp-comparison",
+      "settings": {
+        "heading": "Microbiome Reset vs. Basic Mask",
+        "subheading": "Traditional masks strip the skin. Aliangé balances and feeds it.",
+        "aliange_label": "Probiotic Masque",
+        "competitor_label": "Generic Mud Mask",
+        "button_text": "Upgrade Your Mask"
+      },
+      "blocks": {
+        "r1": { "type": "comparison_row", "settings": { "feature": "Ecosystem Support", "aliange_value": "Pre/Pro/Postbiotics", "competitor_value": "None" } },
+        "r2": { "type": "comparison_row", "settings": { "feature": "Post-Mask Feel", "aliange_value": "Nourished & Calm", "competitor_value": "Dry & Tight" } },
+        "r3": { "type": "comparison_row", "settings": { "feature": "Barrier Impact", "aliange_value": "18% Loss Reduction", "competitor_value": "Disruptive Stripping" } },
+        "r4": { "type": "comparison_row", "settings": { "feature": "Radiance Boost", "aliange_value": "25.9% Clinical Increase", "competitor_value": "Temporary Glow" } },
+        "r5": { "type": "comparison_row", "settings": { "feature": "Expertise", "aliange_value": "Doctor Developed", "competitor_value": "Consumer Trend Brand" } },
+        "r6": { "type": "comparison_row", "settings": { "feature": "Inflammation", "aliange_value": "Calms Rosacea/Acne", "competitor_value": "May High Arritation" } },
+        "r7": { "type": "comparison_row", "settings": { "feature": "Oil Control", "aliange_value": "Purifying Clays (SCI)", "competitor_value": "Basic Chalks/Fillers" } },
+        "r8": { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"]
+    },
+    "ingredients": {
+      "type": "aliange-pdp-ingredients",
+      "settings": {
+        "heading": "Skin Ecosystem Support.",
+        "subheading": "A complete microbiome-balancing trio of prebiotics, probiotics, and postbiotics.",
+        "columns": 3
+      },
+      "blocks": {
+        "i1": { "type": "ingredient", "settings": { "category": "Postbiotic", "name": "Lactococcus Ferment", "bullets": "Intelligent bacteria fragments|Signals faster renewal|Strengthens defensive barrier|Supports healthy microbiome", "evidence": "Clinical studies show this postbiotic reduces water loss by 18% and improves barrier function in 30 days." } },
+        "i2": { "type": "ingredient", "settings": { "category": "Prebiotic", "name": "Alpha-Glucan", "bullets": "Beneficial bacteria food|Selective flora growth|Enhances natural defence|Maintains skin balance", "evidence": "Research confirms its ability to selectively encourage the growth of protective skin flora." } },
+        "i3": { "type": "ingredient", "settings": { "category": "Clay Duo", "name": "Kaolin & Bentonite", "bullets": "Absorbs excess sebum|Porous detoxifying detox|Mineral rich purification|Non-irritating cleanse", "evidence": "Highly effective for deep cleansing and detoxifying skin without causing irritation." } },
+        "i4": { "type": "ingredient", "settings": { "category": "Nourishing", "name": "Evening Primrose Oil", "bullets": "Essential fatty acids|Anti-inflammatory|Nourishes compromised skin|Barrier restorative", "evidence": "Clinically recognised for its anti-inflammatory and barrier-restorative properties." } },
+        "i5": { "type": "ingredient", "settings": { "category": "Antioxidant", "name": "Rosehip Oil", "bullets": "Deeply moisturises|Vitamin-rich botanical|Soothes stressed skin|Supple comfort", "evidence": "Rich in essential fatty acids and antioxidants to deeply nourish and soothe skin." } }
+      },
+      "block_order": ["i1", "i2", "i3", "i4", "i5"]
+    },
+    "howtouse": {
+      "type": "aliange-pdp-howtouse",
+      "settings": {
+        "heading": "Microbiome Reset Ritual",
+        "subheading": "Steps to restore balance and clarity.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight."
+      },
+      "blocks": {
+        "step1": { "type": "step", "settings": { "title": "Cleanse", "description": "Start with freshly cleansed, damp skin. For best results, use after the Transforming Exfoliator." } },
+        "step2": { "type": "step", "settings": { "title": "Apply", "description": "Dispense 2-3 pumps and apply a generous, even layer to your face and neck." } },
+        "step3": { "type": "step", "settings": { "title": "Relax", "description": "Leave the masque on for 15-20 minutes to allow the actives to work." } },
+        "step4": { "type": "step", "settings": { "title": "Rinse", "description": "Gently rinse away with lukewarm water and pat dry." } }
+      },
+      "block_order": ["step1", "step2", "step3", "step4"]
+    },
+    "faq": {
+      "type": "aliange-pdp-faq",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about the Probiotic Masque.",
+        "button_text": "Shop Probiotic Masque"
+      },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "How often should I use this masque?", "answer": "<p>For optimal results, 2-3 times per week. This helps maintain a balanced microbiome and keeps skin consistently calm.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "Is it suitable for Rosacea or Acne?", "answer": "<p>Yes, absolutely. Focused on calming inflammation and supporting the skin barrier. It’s excellent for stressed skin.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "Will this masque dry out my skin?", "answer": "<p>No. Balanced with nourishing botanical oils to ensure your skin is left soft and supple, never tight.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "What is the prebiotic trio?", "answer": "<p>Prebiotics feed good bacteria, probiotics act as live good bacteria, and postbiotics signal skin to become stronger.</p>" } },
+        "q5": { "type": "question", "settings": { "question": "Can I use this with other products?", "answer": "<p>Yes. Designed as a complementary step. Simply follow with your usual serums and moisturisers after rinsing.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Your Healthiest Skin Awaits.",
+        "subheading": "Invest in the long-term balance of your skin's microbiome.",
+        "button_text": "Add to Cart — $50",
+        "trust_line": "90-Day Money-Back Guarantee.",
+        "bg_color": "#F4F7F9"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "press_ticker",
+    "trust_bar",
+    "doctor_note",
+    "benefits",
+    "stats",
+    "comparison",
+    "ingredients",
+    "howtouse",
+    "faq",
+    "final_cta"
+  ]
+}

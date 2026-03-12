@@ -1,0 +1,93 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-cta-{{ section.id }} {
+    background-color: var(--lp-bg-dark);
+    text-align: center;
+    padding: var(--lp-space-3xl) var(--lp-space-xl);
+  }
+  #lp-cta-{{ section.id }} .lp-cta-inner {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  #lp-cta-{{ section.id }} .lp-cta-headline {
+    font-family: var(--lp-font-heading);
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.15;
+    margin: 0 0 var(--lp-space-lg);
+    text-wrap: balance;
+  }
+  #lp-cta-{{ section.id }} .lp-cta-sub {
+    font-family: var(--lp-font-body);
+    font-size: 16px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.7;
+    margin: 0 0 var(--lp-space-xl);
+  }
+  #lp-cta-{{ section.id }} .lp-cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--lp-space-md);
+    justify-content: center;
+  }
+  #lp-cta-{{ section.id }} .lp-cta-guarantee {
+    margin-top: var(--lp-space-xl);
+    font-family: var(--lp-font-body);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+  }
+  @media (max-width: 767px) {
+    #lp-cta-{{ section.id }} { padding: var(--lp-space-2xl) var(--lp-space-md); }
+  }
+{%- endstyle -%}
+
+<section id="lp-cta-{{ section.id }}" aria-label="Call to action">
+  <div class="lp-cta-inner lp-reveal">
+    <h2 class="lp-cta-headline">{{ section.settings.headline }}</h2>
+
+    {%- if section.settings.subheadline != blank -%}
+      <p class="lp-cta-sub">{{ section.settings.subheadline }}</p>
+    {%- endif -%}
+
+    <div class="lp-cta-actions">
+      <a href="{{ section.settings.cta_url | default: '/collections/all' }}" class="lp-btn lp-btn--white">
+        {{ section.settings.cta_text | default: 'Shop Now' }}
+      </a>
+      {%- if section.settings.secondary_cta_text != blank -%}
+        <a
+          href="{{ section.settings.secondary_cta_url | default: '#' }}"
+          class="lp-btn"
+          style="background:transparent;color:#fff;border-color:rgba(255,255,255,0.4);"
+        >{{ section.settings.secondary_cta_text }}</a>
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.guarantee != blank -%}
+      <p class="lp-cta-guarantee">{{ section.settings.guarantee }}</p>
+    {%- endif -%}
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Final CTA",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Take the First Step." },
+    { "type": "textarea", "id": "subheadline", "label": "Subheadline", "default": "Trust a doctor-developed, science-backed system to restore your skin's vitality." },
+    { "type": "text", "id": "cta_text", "label": "Primary CTA text", "default": "Shop the Routine" },
+    { "type": "url", "id": "cta_url", "label": "Primary CTA URL" },
+    { "type": "text", "id": "secondary_cta_text", "label": "Secondary CTA text" },
+    { "type": "url", "id": "secondary_cta_url", "label": "Secondary CTA URL" },
+    { "type": "text", "id": "guarantee", "label": "Guarantee line", "default": "90-Day Results Guarantee" }
+  ],
+  "presets": [{ "name": "LP — Final CTA" }]
+}
+{% endschema %}

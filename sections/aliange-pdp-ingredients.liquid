@@ -1,0 +1,255 @@
+{% comment %}
+  Aliangé PDP Ingredients Section
+  Grid of ingredient cards with category tags.
+  Desktop: 3-column grid. Mobile: horizontal scroll-snap carousel.
+{% endcomment %}
+
+{%- style -%}
+  #pdp-ingredients-{{ section.id }} .ingredients-grid {
+    display: flex;
+    gap: var(--pdp-space-md);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 16px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 4px;
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredients-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-ingredients-{{ section.id }} .ingredients-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      overflow-x: visible;
+      scroll-snap-type: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #pdp-ingredients-{{ section.id }} .ingredients-grid {
+      grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
+    }
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-card {
+    flex: 0 0 280px;
+    scroll-snap-align: start;
+    background-color: var(--pdp-bg-muted);
+    border-radius: var(--pdp-radius-lg);
+    padding: var(--pdp-space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--pdp-space-md);
+    transition: transform var(--pdp-duration-slow) var(--pdp-ease),
+                box-shadow var(--pdp-duration-slow) var(--pdp-ease);
+  }
+
+  @media (min-width: 768px) {
+    #pdp-ingredients-{{ section.id }} .ingredient-card {
+      flex: auto;
+    }
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--pdp-shadow-md);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #pdp-ingredients-{{ section.id }} .ingredient-card:hover {
+      transform: none;
+    }
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: var(--pdp-ink);
+    color: #ffffff;
+    font-family: var(--pdp-font-body);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-radius: 20px;
+    align-self: flex-start;
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-name {
+    font-family: var(--pdp-font-heading);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--pdp-ink);
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-bullet {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-family: var(--pdp-font-body);
+    font-size: 13px;
+    color: var(--pdp-body);
+    line-height: 1.5;
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-bullet-icon {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    color: var(--pdp-success);
+  }
+
+  #pdp-ingredients-{{ section.id }} .ingredient-evidence {
+    font-family: var(--pdp-font-body);
+    font-size: 12px;
+    color: var(--pdp-body);
+    line-height: 1.5;
+    font-style: italic;
+    border-top: 1px solid var(--pdp-border);
+    padding-top: var(--pdp-space-sm);
+    margin-top: auto;
+  }
+{%- endstyle -%}
+
+<section id="pdp-ingredients-{{ section.id }}" class="pdp-section pdp-reveal" aria-label="Key ingredients">
+  <div class="pdp-container pdp-container--wide">
+    {% if section.settings.heading != blank %}
+      <div class="pdp-section-header">
+        <h2 class="pdp-heading pdp-heading--lg">{{ section.settings.heading }}</h2>
+        {% if section.settings.subheading != blank %}
+          <p class="pdp-body pdp-body--md">{{ section.settings.subheading }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ingredients-grid" role="list">
+      {% for block in section.blocks %}
+        <div class="ingredient-card" role="listitem" {{ block.shopify_attributes }}>
+          {% if block.settings.category != blank %}
+            <span class="ingredient-tag">{{ block.settings.category }}</span>
+          {% endif %}
+
+          {% if block.settings.name != blank %}
+            <h3 class="ingredient-name">{{ block.settings.name }}</h3>
+          {% endif %}
+
+          {% if block.settings.bullets != blank %}
+            <ul class="ingredient-bullets">
+              {% assign lines = block.settings.bullets | split: '|' %}
+              {% for line in lines %}
+                {% assign trimmed = line | strip %}
+                {% if trimmed != blank %}
+                  <li class="ingredient-bullet">
+                    <svg class="ingredient-bullet-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" width="16" height="16" aria-hidden="true">
+                      <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/>
+                    </svg>
+                    <span>{{ trimmed }}</span>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if block.settings.evidence != blank %}
+            <p class="ingredient-evidence">{{ block.settings.evidence }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-pdp-scripts' %}
+
+{% schema %}
+{
+  "name": "PDP Ingredients",
+  "tag": "section",
+  "class": "aliange-pdp-ingredients",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Clinical-Grade Key Ingredients."
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "A powerful combination of clinically proven actives to protect, repair, and hydrate your skin."
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "label": "Desktop columns",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 3,
+      "info": "On tablet, always 3 columns"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ingredient",
+      "name": "Ingredient",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "text",
+          "id": "category",
+          "label": "Category tag",
+          "info": "e.g. \"Peptide Complex\", \"Sun Protection\"",
+          "default": "Active"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Ingredient name",
+          "default": "Matrixyl 3000"
+        },
+        {
+          "type": "textarea",
+          "id": "bullets",
+          "label": "Benefits (pipe-separated)",
+          "info": "Separate each bullet with a | character",
+          "default": "Stimulates natural repair|Rebuilds dermal matrix|Reduces wrinkles|Improves elasticity"
+        },
+        {
+          "type": "textarea",
+          "id": "evidence",
+          "label": "Evidence callout",
+          "default": "Clinical studies show a visible reduction in deep wrinkles by up to 41%."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDP Ingredients",
+      "blocks": [
+        { "type": "ingredient", "settings": { "category": "Peptide Complex", "name": "Matrixyl 3000", "bullets": "Stimulates natural repair|Rebuilds dermal matrix|Reduces wrinkles|Improves elasticity", "evidence": "Clinical studies show a visible reduction in deep wrinkles by up to 41%." } },
+        { "type": "ingredient", "settings": { "category": "Sun Protection", "name": "UVA & UVB Filters", "bullets": "Broad-spectrum protection|Defends against UV rays|Prevents photo-ageing|Protects against hyperpigmentation", "evidence": "SPF 15 blocks 93% of UVB radiation." } },
+        { "type": "ingredient", "settings": { "category": "Botanical Blend", "name": "Centella & Echinacea", "bullets": "Soothes and repairs|Calms inflammation|Reduces redness|Supports healing", "evidence": "Centella Asiatica effectively stimulates collagen synthesis." } }
+      ]
+    }
+  ]
+}
+{% endschema %}

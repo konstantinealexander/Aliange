@@ -1,0 +1,397 @@
+{% comment %}
+  Aliangé PDP Shared Styles
+  Design tokens, typography, layout utilities, and animation helpers
+  shared across all aliange-pdp-* sections.
+{% endcomment %}
+
+<style>
+  /* ═══════════════════════════════════════════
+     DESIGN TOKENS
+     ═══════════════════════════════════════════ */
+  :root {
+    /* Colors */
+    --pdp-ink: #0B1F2A;
+    --pdp-body: #2E3A42;
+    --pdp-bg: #ffffff;
+    --pdp-bg-muted: #F4F7F9;
+    --pdp-border: rgba(11, 31, 42, 0.12);
+    --pdp-accent: #0B1F2A;
+    --pdp-accent-hover: #143243;
+    --pdp-success: #21B958;
+    --pdp-error: #DA3E3F;
+
+    /* Typography */
+    --pdp-font-heading: 'Source Serif 4', 'Georgia', serif;
+    --pdp-font-body: 'Schibsted Grotesk', 'Helvetica Neue', sans-serif;
+    --pdp-font-accent: 'Instrument Serif', 'Georgia', serif;
+
+    /* Spacing scale (4px base) */
+    --pdp-space-xs: 4px;
+    --pdp-space-sm: 8px;
+    --pdp-space-md: 16px;
+    --pdp-space-lg: 24px;
+    --pdp-space-xl: 32px;
+    --pdp-space-2xl: 48px;
+    --pdp-space-3xl: 64px;
+
+    /* Radii */
+    --pdp-radius-sm: 6px;
+    --pdp-radius-md: 8px;
+    --pdp-radius-lg: 12px;
+    --pdp-radius-xl: 16px;
+
+    /* Shadows */
+    --pdp-shadow-sm: 0 1px 3px rgba(11, 31, 42, 0.06);
+    --pdp-shadow-md: 0 4px 12px rgba(11, 31, 42, 0.08);
+    --pdp-shadow-lg: 0 8px 24px rgba(11, 31, 42, 0.12);
+
+    /* Transitions */
+    --pdp-ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --pdp-duration: 200ms;
+    --pdp-duration-slow: 400ms;
+  }
+
+
+  /* ═══════════════════════════════════════════
+     FONT IMPORTS
+     ═══════════════════════════════════════════ */
+  @font-face {
+    font-family: 'Source Serif 4';
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Schibsted Grotesk';
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Instrument Serif';
+    font-display: swap;
+  }
+
+
+  /* ═══════════════════════════════════════════
+     BASE SECTION STYLES
+     ═══════════════════════════════════════════ */
+  .pdp-section {
+    background-color: var(--pdp-bg);
+    padding: var(--pdp-space-xl) var(--pdp-space-md);
+    letter-spacing: normal;
+    overflow: hidden;
+  }
+
+  @media (min-width: 768px) {
+    .pdp-section {
+      padding: var(--pdp-space-2xl) var(--pdp-space-xl);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .pdp-section {
+      padding: var(--pdp-space-3xl) var(--pdp-space-xl);
+    }
+  }
+
+  .pdp-section--muted {
+    background-color: var(--pdp-bg-muted);
+  }
+
+  .pdp-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .pdp-container--narrow {
+    max-width: 800px;
+  }
+
+  .pdp-container--wide {
+    max-width: 1440px;
+  }
+
+
+  /* ═══════════════════════════════════════════
+     TYPOGRAPHY
+     ═══════════════════════════════════════════ */
+  .pdp-heading {
+    font-family: var(--pdp-font-heading);
+    font-weight: 600;
+    color: var(--pdp-ink);
+    line-height: 1.2;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .pdp-heading--xl {
+    font-size: clamp(28px, 4vw, 40px);
+  }
+
+  .pdp-heading--lg {
+    font-size: clamp(24px, 3.5vw, 32px);
+  }
+
+  .pdp-heading--md {
+    font-size: clamp(18px, 2.5vw, 24px);
+  }
+
+  .pdp-heading--sm {
+    font-size: clamp(16px, 2vw, 20px);
+  }
+
+  .pdp-heading .pdp-accent {
+    font-family: var(--pdp-font-accent);
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .pdp-body {
+    font-family: var(--pdp-font-body);
+    font-weight: 400;
+    color: var(--pdp-body);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .pdp-body--lg {
+    font-size: clamp(15px, 1.5vw, 18px);
+  }
+
+  .pdp-body--md {
+    font-size: clamp(14px, 1.2vw, 16px);
+  }
+
+  .pdp-body--sm {
+    font-size: clamp(12px, 1vw, 14px);
+  }
+
+  .pdp-label {
+    font-family: var(--pdp-font-body);
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--pdp-ink);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+  }
+
+
+  /* ═══════════════════════════════════════════
+     BUTTONS
+     ═══════════════════════════════════════════ */
+  .pdp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--pdp-space-sm);
+    padding: 14px 28px;
+    border-radius: var(--pdp-radius-md);
+    border: none;
+    font-family: var(--pdp-font-body);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.4;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color var(--pdp-duration) var(--pdp-ease),
+                color var(--pdp-duration) var(--pdp-ease),
+                transform var(--pdp-duration) var(--pdp-ease);
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .pdp-btn:focus-visible {
+    outline: 2px solid var(--pdp-ink);
+    outline-offset: 2px;
+  }
+
+  .pdp-btn--primary {
+    background-color: var(--pdp-accent);
+    color: #ffffff;
+  }
+
+  .pdp-btn--primary:hover {
+    background-color: var(--pdp-accent-hover);
+  }
+
+  .pdp-btn--primary:active {
+    transform: scale(0.98);
+  }
+
+  .pdp-btn--secondary {
+    background-color: transparent;
+    color: var(--pdp-ink);
+    border: 1.5px solid var(--pdp-border);
+  }
+
+  .pdp-btn--secondary:hover {
+    border-color: var(--pdp-ink);
+    background-color: var(--pdp-bg-muted);
+  }
+
+  .pdp-btn--full {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .pdp-btn--full {
+      width: auto;
+    }
+  }
+
+  .pdp-btn svg {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+  }
+
+
+  /* ═══════════════════════════════════════════
+     LAYOUT HELPERS
+     ═══════════════════════════════════════════ */
+  .pdp-grid-2col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--pdp-space-xl);
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .pdp-grid-2col {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--pdp-space-2xl);
+    }
+  }
+
+  .pdp-grid-2col--reverse {
+    direction: ltr;
+  }
+
+  @media (min-width: 768px) {
+    .pdp-grid-2col--reverse > :first-child {
+      order: 2;
+    }
+    .pdp-grid-2col--reverse > :last-child {
+      order: 1;
+    }
+  }
+
+  .pdp-section-header {
+    text-align: center;
+    margin-bottom: var(--pdp-space-xl);
+  }
+
+  @media (min-width: 768px) {
+    .pdp-section-header {
+      margin-bottom: var(--pdp-space-2xl);
+    }
+  }
+
+  .pdp-section-header .pdp-heading {
+    margin-bottom: var(--pdp-space-md);
+  }
+
+  .pdp-section-header .pdp-body {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+
+  /* ═══════════════════════════════════════════
+     CARDS
+     ═══════════════════════════════════════════ */
+  .pdp-card {
+    background-color: var(--pdp-bg-muted);
+    border-radius: var(--pdp-radius-lg);
+    padding: var(--pdp-space-lg);
+    transition: transform var(--pdp-duration-slow) var(--pdp-ease),
+                box-shadow var(--pdp-duration-slow) var(--pdp-ease);
+  }
+
+  .pdp-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--pdp-shadow-md);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pdp-card:hover {
+      transform: none;
+    }
+  }
+
+
+  /* ═══════════════════════════════════════════
+     IMAGES
+     ═══════════════════════════════════════════ */
+  .pdp-img-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--pdp-radius-xl);
+    aspect-ratio: 1 / 1;
+    background-color: var(--pdp-bg-muted);
+  }
+
+  .pdp-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .pdp-img-wrapper--portrait {
+    aspect-ratio: 3 / 4;
+  }
+
+
+  /* ═══════════════════════════════════════════
+     SCROLL ANIMATIONS
+     ═══════════════════════════════════════════ */
+  .pdp-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity var(--pdp-duration-slow) var(--pdp-ease),
+                transform var(--pdp-duration-slow) var(--pdp-ease);
+  }
+
+  .pdp-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pdp-reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+
+  /* ═══════════════════════════════════════════
+     CHECK ICON (shared SVG pattern)
+     ═══════════════════════════════════════════ */
+  .pdp-check-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    color: var(--pdp-success);
+  }
+
+  @media (min-width: 768px) {
+    .pdp-check-icon {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+
+  /* ═══════════════════════════════════════════
+     STAT NUMBERS
+     ═══════════════════════════════════════════ */
+  .pdp-stat-value {
+    font-family: var(--pdp-font-heading);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--pdp-ink);
+    line-height: 1;
+  }
+</style>

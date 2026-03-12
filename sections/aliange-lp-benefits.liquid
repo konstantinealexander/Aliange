@@ -1,0 +1,102 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-benefits-{{ section.id }} { background-color: var(--lp-bg); }
+  #lp-benefits-{{ section.id }} .lp-benefits-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--lp-space-2xl);
+  }
+  #lp-benefits-{{ section.id }} .lp-benefits-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--lp-space-lg);
+  }
+  @media (min-width: 600px) {
+    #lp-benefits-{{ section.id }} .lp-benefits-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    #lp-benefits-{{ section.id }} .lp-benefits-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  #lp-benefits-{{ section.id }} .lp-benefit-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-sm);
+    padding: var(--lp-space-xl);
+    background-color: var(--lp-bg-muted);
+    border-radius: var(--lp-radius-lg);
+    border: 1px solid var(--lp-border);
+  }
+  #lp-benefits-{{ section.id }} .lp-benefit-icon {
+    width: 28px;
+    height: 28px;
+    color: var(--lp-accent);
+    flex-shrink: 0;
+  }
+  #lp-benefits-{{ section.id }} .lp-benefit-title {
+    font-family: var(--lp-font-heading);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--lp-ink);
+    margin: 0;
+  }
+  #lp-benefits-{{ section.id }} .lp-benefit-desc {
+    font-family: var(--lp-font-body);
+    font-size: 14px;
+    color: var(--lp-body);
+    line-height: 1.65;
+    margin: 0;
+  }
+{%- endstyle -%}
+
+<section id="lp-benefits-{{ section.id }}" class="lp-section">
+  <div class="lp-container">
+    <div class="lp-benefits-header lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+      {%- if section.settings.subheadline != blank -%}
+        <p class="lp-body-text">{{ section.settings.subheadline }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="lp-benefits-grid">
+      {%- for block in section.blocks -%}
+        <div class="lp-benefit-card lp-reveal" {{ block.shopify_attributes }}>
+          <svg class="lp-benefit-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">
+            <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/>
+          </svg>
+          <h3 class="lp-benefit-title">{{ block.settings.title }}</h3>
+          <p class="lp-benefit-desc">{{ block.settings.description }}</p>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Benefits",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "Why It Works" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Benefits of the Routine" },
+    { "type": "textarea", "id": "subheadline", "label": "Subheadline" }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "limit": 6,
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "Rebuilds Skin's Foundation" },
+        { "type": "textarea", "id": "description", "label": "Description", "default": "Stimulates production of 6 major components of the skin matrix for a firmer complexion." }
+      ]
+    }
+  ],
+  "presets": [{ "name": "LP — Benefits" }]
+}
+{% endschema %}

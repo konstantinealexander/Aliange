@@ -1,0 +1,129 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-faq-{{ section.id }} { background-color: var(--lp-bg-muted); }
+  #lp-faq-{{ section.id }} .lp-faq-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--lp-space-2xl);
+  }
+  #lp-faq-{{ section.id }} .lp-faq-list {
+    max-width: var(--lp-container-sm);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  #lp-faq-{{ section.id }} .lp-faq-item {
+    border-bottom: 1px solid var(--lp-border);
+  }
+  #lp-faq-{{ section.id }} .lp-faq-item:first-child {
+    border-top: 1px solid var(--lp-border);
+  }
+  #lp-faq-{{ section.id }} .lp-faq-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--lp-space-lg);
+    width: 100%;
+    padding: var(--lp-space-lg) 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: var(--lp-font-body);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--lp-ink);
+    line-height: 1.4;
+    touch-action: manipulation;
+  }
+  #lp-faq-{{ section.id }} .lp-faq-trigger:focus-visible {
+    outline: 2px solid var(--lp-accent);
+    outline-offset: 2px;
+  }
+  #lp-faq-{{ section.id }} .lp-faq-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    color: var(--lp-body);
+    transition: transform 0.3s var(--lp-ease);
+  }
+  #lp-faq-{{ section.id }} .lp-faq-item.is-open .lp-faq-icon { transform: rotate(45deg); }
+  #lp-faq-{{ section.id }} .lp-faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s var(--lp-ease);
+  }
+  #lp-faq-{{ section.id }} .lp-faq-answer {
+    font-family: var(--lp-font-body);
+    font-size: 14px;
+    color: var(--lp-body);
+    line-height: 1.75;
+    padding: 0 0 var(--lp-space-lg);
+    margin: 0;
+  }
+  #lp-faq-{{ section.id }} .lp-faq-answer a { color: var(--lp-accent); text-decoration: underline; }
+{%- endstyle -%}
+
+<section id="lp-faq-{{ section.id }}" class="lp-section">
+  <div class="lp-container">
+    <div class="lp-faq-header lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+    </div>
+
+    <div class="lp-faq-list lp-reveal" data-lp-accordion>
+      {%- for block in section.blocks -%}
+        <div class="lp-faq-item" data-lp-accordion-item {{ block.shopify_attributes }}>
+          <button
+            class="lp-faq-trigger"
+            type="button"
+            data-lp-accordion-trigger
+            aria-expanded="false"
+            aria-controls="lp-faq-answer-{{ section.id }}-{{ forloop.index }}"
+          >
+            <span>{{ block.settings.question }}</span>
+            <svg class="lp-faq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">
+              <path d="M228,128a12,12,0,0,1-12,12H140v76a12,12,0,0,1-24,0V140H40a12,12,0,0,1,0-24h76V40a12,12,0,0,1,24,0v76h76A12,12,0,0,1,228,128Z"/>
+            </svg>
+          </button>
+          <div
+            class="lp-faq-content"
+            id="lp-faq-answer-{{ section.id }}-{{ forloop.index }}"
+            data-lp-accordion-content
+          >
+            <div class="lp-faq-answer">{{ block.settings.answer }}</div>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — FAQ",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "Questions Answered" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Frequently Asked Questions" }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "limit": 10,
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question", "default": "How long until I see results?" },
+        { "type": "richtext", "id": "answer", "label": "Answer", "default": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "LP — FAQ" }]
+}
+{% endschema %}

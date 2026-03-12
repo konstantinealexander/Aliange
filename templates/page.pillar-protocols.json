@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "lp_hero": {
+      "type": "aliange-lp-hero",
+      "settings": {
+        "label": "Clinical Education",
+        "headline": "Skincare Protocol vs Routine: Why Random Products Are Failing Your Skin.",
+        "subheadline": "Your skin is a complex biological organ, not a canvas for random chemistry experiments. When you mix and match products without understanding their molecular weights and delivery mechanisms, you're likely cancelling out active ingredients — or worse, causing chronic barrier inflammation.",
+        "cta_text": "Explore The Aliangé Protocols",
+        "cta_url": "/collections/protocols",
+        "secondary_cta_text": "Take the Skin Assessment",
+        "secondary_cta_url": "/pages/quiz",
+        "trust_line": "Dr. Alison Jamieson | 40+ Years of Dermatological Expertise",
+        "align": "left",
+        "min_height": 620
+      },
+      "blocks": {
+        "b1": { "type": "bullet", "settings": { "text": "Understand why mixing brands can cancel active ingredients." } },
+        "b2": { "type": "bullet", "settings": { "text": "Learn the 3 phases of a clinical skincare protocol." } },
+        "b3": { "type": "bullet", "settings": { "text": "Discover the biological logic behind synergistic formulation." } }
+      },
+      "block_order": ["b1", "b2", "b3"]
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Problem",
+        "headline": "The Beauty Industry's Biggest Flaw: The 'Routine'",
+        "body": "<p>For decades, the beauty industry has sold us the concept of a skincare 'routine.' It usually involves buying a cleanser from one brand, a trending serum from another, and a moisturiser recommended by an influencer. You layer them on, hoping for the best.</p><p>But here is the clinical reality: when you mix and match products without a deep understanding of their molecular weights, pH levels, and cellular delivery mechanisms, you are likely cancelling out active ingredients—or worse, causing chronic barrier inflammation. This unstructured approach is why so many people hit a plateau, where their expensive anti-ageing products simply stop working.</p><p>At Aliangé, we do not believe in routines. We believe in <strong>Protocols</strong>.</p>",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "settings": {
+        "label": "The Difference",
+        "headline": "Protocol vs. Routine: The 3 Core Differences",
+        "col_them": "The Standard 'Routine'",
+        "col_us": "The Aliangé Protocol"
+      },
+      "blocks": {
+        "r1": { "type": "row", "settings": { "feature": "Formulation", "them": "Randomly selected products from different brands.", "us": "A cohesive system formulated by a medical doctor to work synergistically." } },
+        "r2": { "type": "row", "settings": { "feature": "Delivery", "them": "Active ingredients often clash, degrading efficacy (e.g., mixing wrong acids with retinoids).", "us": "Precisely calibrated pH levels and molecular weights ensure deep dermal penetration." } },
+        "r3": { "type": "row", "settings": { "feature": "Objective", "them": "Surface-level hydration and temporary cosmetic improvement.", "us": "Cellular regeneration, structural repair, and long-term histological changes." } }
+      },
+      "block_order": ["r1", "r2", "r3"]
+    },
+    "lp_why": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "Why It Matters",
+        "headline": "Why 'Frankenstein' Skincare Fails",
+        "body": "<p>When you build a 'Frankenstein' routine—piecing together a Vitamin C serum from Brand X and a Retinol from Brand Y—you are taking a significant risk with your skin's delicate acid mantle.</p><ol><li><strong>Ingredient Inactivation:</strong> Many active ingredients are highly unstable. Applying a high-strength AHA immediately before certain peptide serums can alter the pH so drastically that the peptides denature, rendering your expensive serum useless.</li><li><strong>Barrier Disruption:</strong> Layering multiple strong actives without the correct supporting lipids leads to transepidermal water loss and micro-inflammation — accelerating the very ageing process you're trying to prevent. This is known as 'inflammageing.'</li><li><strong>The Penetration Problem:</strong> Clinical-grade results require active ingredients to reach the deeper layers of the epidermis. A protocol is formulated with specific delivery systems to ensure active ingredients bypass the dead stratum corneum and reach the living cells where collagen is produced.</li></ol>",
+        "bg": "white",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_routine": {
+      "type": "aliange-lp-routine",
+      "settings": {
+        "label": "The Aliangé System",
+        "headline": "The Anatomy of an Aliangé Protocol",
+        "subheadline": "An Aliangé Protocol is built on a foundation of clinical evidence, designed to respect the skin's natural barrier while delivering potent, transformative results.",
+        "cta_text": "Explore The Aliangé Protocols",
+        "cta_url": "/collections/protocols"
+      },
+      "blocks": {
+        "p1": { "type": "product_step", "settings": { "name": "Phase 1: Prepare & Purify", "price": "", "why": "We do not just 'wash' the face; we prepare the cellular canvas. Products like our Daily Devotion Cleanser and Transforming Exfoliator use gentle amino acids and precise AHA/BHA blends to clear cellular debris without stripping essential lipids, ensuring the skin is perfectly receptive to active ingredients.", "key_active": "Amino acids, AHA/BHA blend", "step": "Step 1" } },
+        "p2": { "type": "product_step", "settings": { "name": "Phase 2: Stimulate & Communicate", "price": "", "why": "This is where the true regeneration happens. Our CellRevive Exosome Cream delivers 4 billion regenerative messengers per dose, instructing sluggish skin cells to behave younger, while our Jellyfish Peptide X Antioxidant Serum repairs DNA damage at a structural level.", "key_active": "Exosomes, Juveleven Peptide", "step": "Step 2" } },
+        "p3": { "type": "product_step", "settings": { "name": "Phase 3: Protect & Fortify", "price": "", "why": "The final phase locks in the active ingredients and defends the skin against environmental degradation. The Day Cream SPF 15 provides essential UV protection while boosting collagen, and the Ultimate A Night Cream utilises micro-encapsulated retinol for sustained overnight repair.", "key_active": "SPF 15, Micro-encapsulated Retinol", "step": "Step 3" } }
+      },
+      "block_order": ["p1", "p2", "p3"]
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "headline": "Stop Guessing. Start Regenerating.",
+        "subheadline": "You wouldn't ask five different architects to build one house without a master blueprint. Why treat your skin any differently? Transitioning from a routine to a protocol means removing the guesswork.",
+        "cta_text": "Explore The Aliangé Protocols",
+        "cta_url": "/collections/protocols",
+        "secondary_cta_text": "Take the Skin Assessment",
+        "secondary_cta_url": "/pages/quiz",
+        "guarantee": "Doctor-Developed | 40+ Years Clinical Expertise | Australian-Made"
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": ["lp_hero", "lp_problem", "lp_comparison", "lp_why", "lp_routine", "lp_cta"]
+}

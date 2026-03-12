@@ -1,0 +1,220 @@
+{% comment %}
+  Aliangé PDP Shared Scripts
+  Vanilla JS utilities for scroll reveals, accordions, ticker animation,
+  and progress ring counters. No external dependencies.
+{% endcomment %}
+
+<script>
+(function() {
+  'use strict';
+
+  /* ═══════════════════════════════════════════
+     SCROLL REVEAL (IntersectionObserver)
+     ═══════════════════════════════════════════ */
+  if (!window.__pdpRevealInit) {
+    window.__pdpRevealInit = true;
+
+    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!prefersReduced && 'IntersectionObserver' in window) {
+      var revealObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+      function observeReveals() {
+        document.querySelectorAll('.pdp-reveal:not(.is-visible)').forEach(function(el) {
+          revealObserver.observe(el);
+        });
+      }
+
+      // Run on load and after any Shopify section render
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', observeReveals);
+      } else {
+        observeReveals();
+      }
+      document.addEventListener('shopify:section:load', observeReveals);
+    } else {
+      // Reduced motion or no IO: show everything immediately
+      document.querySelectorAll('.pdp-reveal').forEach(function(el) {
+        el.classList.add('is-visible');
+      });
+    }
+  }
+
+
+  /* ═══════════════════════════════════════════
+     ACCORDION (progressive enhancement)
+     ═══════════════════════════════════════════ */
+  if (!window.__pdpAccordionInit) {
+    window.__pdpAccordionInit = true;
+
+    function initAccordions() {
+      document.querySelectorAll('[data-pdp-accordion]').forEach(function(container) {
+        if (container.dataset.pdpAccordionReady) return;
+        container.dataset.pdpAccordionReady = 'true';
+
+        container.querySelectorAll('[data-pdp-accordion-trigger]').forEach(function(trigger) {
+          trigger.addEventListener('click', function() {
+            var item = trigger.closest('[data-pdp-accordion-item]');
+            if (!item) return;
+
+            var isOpen = item.classList.contains('is-open');
+            var content = item.querySelector('[data-pdp-accordion-content]');
+            if (!content) return;
+
+            // Close siblings (single-open mode)
+            container.querySelectorAll('[data-pdp-accordion-item].is-open').forEach(function(sibling) {
+              if (sibling !== item) {
+                sibling.classList.remove('is-open');
+                var sibContent = sibling.querySelector('[data-pdp-accordion-content]');
+                if (sibContent) {
+                  sibContent.style.maxHeight = '0';
+                }
+              }
+            });
+
+            if (isOpen) {
+              item.classList.remove('is-open');
+              content.style.maxHeight = '0';
+            } else {
+              item.classList.add('is-open');
+              content.style.maxHeight = content.scrollHeight + 'px';
+            }
+          });
+
+          // Keyboard: Enter and Space
+          trigger.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              trigger.click();
+            }
+          });
+        });
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initAccordions);
+    } else {
+      initAccordions();
+    }
+    document.addEventListener('shopify:section:load', initAccordions);
+  }
+
+
+  /* ═══════════════════════════════════════════
+     STAT COUNTER ANIMATION
+     ═══════════════════════════════════════════ */
+  if (!window.__pdpStatCounterInit) {
+    window.__pdpStatCounterInit = true;
+
+    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function animateStats() {
+      if (!('IntersectionObserver' in window)) return;
+
+      var statObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var el = entry.target;
+            statObserver.unobserve(el);
+
+            var rawValue = el.dataset.statValue || el.textContent;
+            var suffix = rawValue.replace(/[\d.]/g, '');
+            var numValue = parseFloat(rawValue);
+
+            if (isNaN(numValue) || prefersReducedMotion) {
+              el.textContent = rawValue;
+              return;
+            }
+
+            var startTime = null;
+            var duration = 1200;
+
+            function step(timestamp) {
+              if (!startTime) startTime = timestamp;
+              var progress = Math.min((timestamp - startTime) / duration, 1);
+              var eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+              var current = numValue * eased;
+
+              if (numValue >= 1 && Number.isInteger(numValue)) {
+                el.textContent = Math.round(current) + suffix;
+              } else {
+                el.textContent = current.toFixed(1) + suffix;
+              }
+
+              if (progress < 1) {
+                requestAnimationFrame(step);
+              } else {
+                el.textContent = rawValue;
+              }
+            }
+
+            requestAnimationFrame(step);
+          }
+        });
+      }, { threshold: 0.3 });
+
+      document.querySelectorAll('[data-pdp-stat-counter]').forEach(function(el) {
+        statObserver.observe(el);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', animateStats);
+    } else {
+      animateStats();
+    }
+    document.addEventListener('shopify:section:load', animateStats);
+  }
+
+
+  /* ═══════════════════════════════════════════
+     TICKER ANIMATION (CSS-driven)
+     ═══════════════════════════════════════════ */
+  if (!window.__pdpTickerInit) {
+    window.__pdpTickerInit = true;
+
+    function initTickers() {
+      document.querySelectorAll('[data-pdp-ticker]').forEach(function(ticker) {
+        if (ticker.dataset.pdpTickerReady) return;
+        ticker.dataset.pdpTickerReady = 'true';
+
+        var track = ticker.querySelector('[data-pdp-ticker-track]');
+        if (!track) return;
+
+        // Clone content for seamless loop
+        var content = track.innerHTML;
+        track.innerHTML = content + content + content;
+
+        // Pause on hover
+        ticker.addEventListener('mouseenter', function() {
+          track.style.animationPlayState = 'paused';
+        });
+        ticker.addEventListener('mouseleave', function() {
+          track.style.animationPlayState = 'running';
+        });
+
+        // Pause for reduced motion
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          track.style.animationPlayState = 'paused';
+        }
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initTickers);
+    } else {
+      initTickers();
+    }
+    document.addEventListener('shopify:section:load', initTickers);
+  }
+
+})();
+</script>

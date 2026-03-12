@@ -1,0 +1,154 @@
+{% comment %}
+  Aliangé Press Ticker Section
+  Scrolling ticker of press logos with grayscale-to-color transition.
+{% endcomment %}
+
+{% render 'aliange-pdp-styles' %}
+
+{%- style -%}
+  #pdp-press-{{ section.id }} {
+    padding: var(--pdp-space-xl) 0;
+    background-color: var(--pdp-bg);
+    border-top: 1px solid var(--pdp-border);
+    border-bottom: 1px solid var(--pdp-border);
+    overflow: hidden;
+  }
+  #pdp-press-{{ section.id }} .press-label {
+    text-align: center;
+    font-family: var(--pdp-font-body);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--pdp-body);
+    margin-bottom: var(--pdp-space-lg);
+  }
+  #pdp-press-{{ section.id }} .press-ticker {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  }
+  #pdp-press-{{ section.id }} .press-track {
+    display: flex;
+    gap: 60px;
+    width: fit-content;
+    animation: press-ticker {{ section.settings.speed }}s linear infinite;
+    padding: 0 30px;
+    align-items: center;
+  }
+  @keyframes press-ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  #pdp-press-{{ section.id }}:hover .press-track {
+    animation-play-state: paused;
+  }
+
+  .press-item {
+    flex-shrink: 0;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(1) opacity(0.6);
+    transition: filter var(--pdp-duration) var(--pdp-ease);
+  }
+  .press-item:hover {
+    filter: grayscale(0) opacity(1);
+  }
+  .press-item img {
+    height: 100%;
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #pdp-press-{{ section.id }} .press-track {
+      animation: none;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+{%- endstyle -%}
+
+<section id="pdp-press-{{ section.id }}" class="scroll-reveal">
+  {% if section.settings.label != blank %}
+    <p class="press-label">{{ section.settings.label }}</p>
+  {% endif %}
+
+  <div class="press-ticker">
+    <div class="press-track">
+      {%- comment -%} Double the logs for seamless loop {%- endcomment -%}
+      {% for i in (1..2) %}
+        {% for block in section.blocks %}
+          <div class="press-item" {{ block.shopify_attributes }}>
+            {% if block.settings.image != blank %}
+              <img src="{{ block.settings.image | image_url: height: 64 }}" alt="{{ block.settings.alt_text | default: 'Press Logo' }}" width="120" height="32" loading="lazy">
+            {% else %}
+               <span style="font-family: var(--pdp-font-heading); font-size: 20px; font-weight: 700; color: var(--pdp-ink);">LOGO</span>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Press Ticker",
+  "tag": "section",
+  "class": "aliange-pdp-press",
+  "settings": [
+    {
+      "type": "text",
+      "id": "label",
+      "label": "Label",
+      "default": "As Seen In"
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "s",
+      "label": "Animation Speed",
+      "default": 30
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Press Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo Image"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Alt Text",
+          "default": "Press Logo"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Press Ticker",
+      "blocks": [
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" },
+        { "type": "logo" }
+      ]
+    }
+  ]
+}
+{% endschema %}

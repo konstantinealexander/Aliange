@@ -1,0 +1,96 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-text-{{ section.id }} {
+    {% if section.settings.bg == 'muted' %}background-color: var(--lp-bg-muted);
+    {% elsif section.settings.bg == 'dark' %}background-color: var(--lp-bg-dark);
+    {% else %}background-color: var(--lp-bg);{% endif %}
+  }
+  #lp-text-{{ section.id }} .lp-heading-lg,
+  #lp-text-{{ section.id }} .lp-heading-md { {% if section.settings.bg == 'dark' %}color: #fff;{% endif %} }
+  #lp-text-{{ section.id }} .lp-body-text { {% if section.settings.bg == 'dark' %}color: rgba(255,255,255,0.8);{% endif %} }
+  #lp-text-{{ section.id }} .lp-quote { {% if section.settings.bg == 'dark' %}background-color: rgba(255,255,255,0.06);{% endif %} }
+  #lp-text-{{ section.id }} .lp-quote-text { {% if section.settings.bg == 'dark' %}color: #fff;{% endif %} }
+{%- endstyle -%}
+
+<section id="lp-text-{{ section.id }}" class="lp-section">
+  <div class="lp-container{% if section.settings.width == 'narrow' %}--sm{% endif %}">
+    <div class="lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+
+      {%- if section.settings.body != blank -%}
+        <div class="lp-body-text">{{ section.settings.body }}</div>
+      {%- endif -%}
+
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'quote' -%}
+          <blockquote class="lp-quote" {{ block.shopify_attributes }}>
+            <p class="lp-quote-text">{{ block.settings.quote_text }}</p>
+            {%- if block.settings.attribution != blank -%}
+              <cite class="lp-quote-cite">{{ block.settings.attribution }}</cite>
+            {%- endif -%}
+          </blockquote>
+        {%- elsif block.type == 'subheading' -%}
+          <h3 class="lp-heading-md" {{ block.shopify_attributes }}>{{ block.settings.text }}</h3>
+        {%- elsif block.type == 'rich_text' -%}
+          <div class="lp-body-text" {{ block.shopify_attributes }}>{{ block.settings.body }}</div>
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if section.settings.cta_text != blank -%}
+        <div style="margin-top: var(--lp-space-xl);">
+          <a href="{{ section.settings.cta_url | default: '/collections/all' }}" class="lp-btn">
+            {{ section.settings.cta_text }}
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Text Block",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "The Science Behind Your Skin" },
+    { "type": "richtext", "id": "body", "label": "Body copy" },
+    { "type": "select", "id": "bg", "label": "Background", "options": [{"value":"white","label":"White"},{"value":"muted","label":"Warm cream"},{"value":"dark","label":"Dark"}], "default": "white" },
+    { "type": "select", "id": "width", "label": "Content width", "options": [{"value":"normal","label":"Normal (1200px)"},{"value":"narrow","label":"Narrow (780px)"}], "default": "narrow" },
+    { "type": "text", "id": "cta_text", "label": "CTA text" },
+    { "type": "url", "id": "cta_url", "label": "CTA URL" }
+  ],
+  "blocks": [
+    {
+      "type": "quote",
+      "name": "Doctor quote",
+      "limit": 2,
+      "settings": [
+        { "type": "textarea", "id": "quote_text", "label": "Quote", "default": "In my clinic, I've developed a multi-pathway approach..." },
+        { "type": "text", "id": "attribution", "label": "Attribution", "default": "— Dr. Alison Jamieson" }
+      ]
+    },
+    {
+      "type": "subheading",
+      "name": "Sub-heading",
+      "settings": [
+        { "type": "text", "id": "text", "label": "Heading text" }
+      ]
+    },
+    {
+      "type": "rich_text",
+      "name": "Extra text block",
+      "settings": [
+        { "type": "richtext", "id": "body", "label": "Body copy" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "LP — Text Block" }]
+}
+{% endschema %}

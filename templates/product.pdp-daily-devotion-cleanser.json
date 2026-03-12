@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "hero": {
+      "type": "aliange-pdp-hero",
+      "settings": {
+        "description": "Experience a revolutionary syndet clean, scientifically formulated by Dr. Alison Jamieson to purify your skin while preserving its delicate ceramide barrier. This is the daily devotion your skin deserves.",
+        "atc_text": "ADD TO CART - $55"
+      },
+      "blocks": {
+        "bullet_1": {
+          "type": "bullet_point",
+          "settings": { "text": "Gently removes impurities without stripping essential moisture." }
+        },
+        "bullet_2": {
+          "type": "bullet_point",
+          "settings": { "text": "Scientifically proven to be gentler than traditional SLS cleansers." }
+        },
+        "bullet_3": {
+          "type": "bullet_point",
+          "settings": { "text": "Leaves skin feeling soft, hydrated, and perfectly prepped." }
+        },
+        "trust_1": {
+          "type": "trust_box",
+          "settings": { "icon": "truck", "title": "Free Shipping", "description": "On all orders worldwide" }
+        },
+        "trust_2": {
+          "type": "trust_box",
+          "settings": { "icon": "shield", "title": "Money Back", "description": "90-day satisfaction promise" }
+        },
+        "trust_3": {
+          "type": "trust_box",
+          "settings": { "icon": "drop", "title": "Long Lasting", "description": "200ml premium bottle" }
+        },
+        "faq_1": {
+          "type": "mini_faq",
+          "settings": { "question": "What is a 'syndet' cleanser?", "answer": "Short for 'synthetic detergent'. Unlike traditional soap which has a high pH, our syndet cleanser is pH-balanced to match your skin's natural acidity, making it exceptionally gentle." }
+        },
+        "faq_2": {
+          "type": "mini_faq",
+          "settings": { "question": "Can it remove makeup?", "answer": "Yes, it's designed to remove makeup, sunscreen, and daily grime. For heavy or waterproof makeup, we recommend a double cleanse." }
+        },
+        "faq_3": {
+          "type": "mini_faq",
+          "settings": { "question": "What if it doesn’t work for me?", "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle." }
+        }
+      },
+      "block_order": ["bullet_1", "bullet_2", "bullet_3", "trust_1", "trust_2", "trust_3", "faq_1", "faq_2", "faq_3"]
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      },
+      "blocks": {
+        "press_1": { "type": "logo", "settings": { "alt_text": "SHAPE" } },
+        "press_2": { "type": "logo", "settings": { "alt_text": "REFINERY29" } },
+        "press_3": { "type": "logo", "settings": { "alt_text": "VOGUE" } },
+        "press_4": { "type": "logo", "settings": { "alt_text": "People" } }
+      },
+      "block_order": ["press_1", "press_2", "press_3", "press_4"]
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "settings": {
+        "label": "Barrier-Friendly Cleanse",
+        "bg_color": "#ffffff",
+        "speed": 25
+      },
+      "blocks": {
+        "badge_1": { "type": "badge", "settings": { "text": "Soap-Free Syndet" } },
+        "badge_2": { "type": "badge", "settings": { "text": "pH Balanced" } },
+        "badge_3": { "type": "badge", "settings": { "text": "Clinically Proven" } },
+        "badge_4": { "type": "badge", "settings": { "text": "Australian Made" } },
+        "badge_5": { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+      },
+      "block_order": ["badge_1", "badge_2", "badge_3", "badge_4", "badge_5"]
+    },
+    "doctor_note": {
+      "type": "aliange-pdp-doctor-note",
+      "settings": {
+        "doctor_name": "Dr. Alison Jamieson",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "quote": "Never cleanse with hot water, as it can strip the skin of its natural oils and lead to dehydration and sensitivity. Always be gentle; your skin is a delicate organ, not a surface to be scrubbed."
+      }
+    },
+    "benefits": {
+      "type": "aliange-pdp-benefits",
+      "settings": {
+        "heading": "Cleansing Without Compromise",
+        "subheading": "Why your cleanser is the most important 730 touches your skin receives each year.",
+        "header_align": "left",
+        "button_text": "Shop Daily Devotion Cleanser"
+      },
+      "blocks": {
+        "b1": { "type": "benefit", "settings": { "title": "Purifies Without Stripping", "description": "Our advanced syndet formula effectively removes impurities, excess oil, and makeup without compromising your skin's natural barrier." } },
+        "b2": { "type": "benefit", "settings": { "title": "Preserves Essential Ceramides", "description": "Unlike harsh SLS cleansers that strip up to 22% of ceramides in days, our formula respects your skin's architecture." } },
+        "b3": { "type": "benefit", "settings": { "title": "Deeply Hydrates as it Cleanses", "description": "Featuring Sodium PCA, a key component of your Natural Moisturising Factor, it helps to bind and retain moisture." } },
+        "b4": { "type": "benefit", "settings": { "title": "Soothes and Calms Skin", "description": "Infused with Allantoin, a renowned anti-irritant, to calm the skin and minimise redness—ideal for reactive skin." } },
+        "b5": { "type": "benefit", "settings": { "title": "Softens and Smooths Texture", "description": "Hydrolysed Jojoba Esters mimic natural sebum, leaving behind a delicate, moisturising film for a soft finish." } },
+        "b6": { "type": "benefit", "settings": { "title": "Creates the Perfect Canvas", "description": "By cleansing thoroughly yet gently, it prepares your skin for the optimal absorption of your serums." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "stats": {
+      "type": "aliange-pdp-stats",
+      "settings": {
+        "heading": "The Science of Clean.",
+        "subheading": "Clinical evidence for a more respectful purification:",
+        "columns": 4
+      },
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "22%", "label": "Ceramide loss avoided vs SLS", "ring_percent": 100 } },
+        "s2": { "type": "stat", "settings": { "value": "730", "label": "Annual touches count", "ring_percent": 100 } },
+        "s3": { "type": "stat", "settings": { "value": "1.5x", "label": "More hydrating than Glycerin", "ring_percent": 100 } },
+        "s4": { "type": "stat", "settings": { "value": "0%", "label": "Sulphates & Parabens", "ring_percent": 0 } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "comparison": {
+      "type": "aliange-pdp-comparison",
+      "settings": {
+        "heading": "Soap vs. Science",
+        "subheading": "Traditional cleansers strip your barrier. Aliangé respects it.",
+        "aliange_label": "Daily Devotion Cleanser",
+        "competitor_label": "Generic SLS Cleanser",
+        "button_text": "Upgrade Your Cleanse"
+      },
+      "blocks": {
+        "r1": { "type": "comparison_row", "settings": { "feature": "Technology", "aliange_value": "Gentle Syndet (SCI)", "competitor_value": "Harsh SLS/SLES" } },
+        "r2": { "type": "comparison_row", "settings": { "feature": "pH Level", "aliange_value": "Skin-Balanced (5.5)", "competitor_value": "Alkaline (8.0-10.0)" } },
+        "r3": { "type": "comparison_row", "settings": { "feature": "Barrier Impact", "aliange_value": "Ceramide Respecting", "competitor_value": "Strips 22% Ceramides" } },
+        "r4": { "type": "comparison_row", "settings": { "feature": "Post-Wash Feel", "aliange_value": "Soft & Hydrated", "competitor_value": "Tight & Squeaky" } },
+        "r5": { "type": "comparison_row", "settings": { "feature": "Expertise", "aliange_value": "Doctor Developed", "competitor_value": "Mass Market Batch" } },
+        "r6": { "type": "comparison_row", "settings": { "feature": "Hydrapurification", "aliange_value": "Sodium PCA Infusion", "competitor_value": "Water Down Basic" } },
+        "r7": { "type": "comparison_row", "settings": { "feature": "Sensitivity", "aliange_value": "Safe for Rosacea", "competitor_value": "High Irritation Risk" } },
+        "r8": { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"]
+    },
+    "ingredients": {
+      "type": "aliange-pdp-ingredients",
+      "settings": {
+        "heading": "Clinical-Grade Cleanse.",
+        "subheading": "Advanced, barrier-respecting ingredients for a luxurious lather.",
+        "columns": 3
+      },
+      "blocks": {
+        "i1": { "type": "ingredient", "settings": { "category": "Cleaning Agent", "name": "Sodium Cocoyl Isethionate", "bullets": "Gentle coconut-derived|Rich creamy lather|Removes impurities|Doesn't strip lipids", "evidence": "Its larger molecular size prevents it from penetrating and disrupting the skin's lipid barrier." } },
+        "i2": { "type": "ingredient", "settings": { "category": "Hydrator", "name": "Sodium PCA", "bullets": "Natural humectant|Holds 250x weight in water|Hydrates while washing|Bound water retention", "evidence": "A natural component of skin proven to keep cells hydrated and plump during cleansing." } },
+        "i3": { "type": "ingredient", "settings": { "category": "Soothing", "name": "Allantoin", "bullets": "Botanical extract|Anti-irritant properties|Heals and calms|Softens skin texture", "evidence": "Clinical studies show Allantoin promotes cell proliferation and encourages renewal." } },
+        "i4": { "type": "ingredient", "settings": { "category": "Emollient", "name": "Jojoba Esters", "bullets": "Biomimetic film|Prevents moisture loss|Mimics skin sebum|Barrier protecting", "evidence": "Its composition is remarkably similar to human sebum, nourishing the barrier during the wash." } },
+        "i5": { "type": "ingredient", "settings": { "category": "Building Blocks", "name": "Amino Acids", "bullets": "NMF components|Hydration support|Resilience building|Texture refining", "evidence": "Integral to the Skin's Natural Moisturising Factors, ensuring a healthy skin barrier." } }
+      },
+      "block_order": ["i1", "i2", "i3", "i4", "i5"]
+    },
+    "howtouse": {
+      "type": "aliange-pdp-howtouse",
+      "settings": {
+        "heading": "The Devotion Ritual",
+        "subheading": "Follow these steps for a smarter, safer clean.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "Never cleanse with hot water, as it can strip the skin of its natural oils. Always be gentle; your skin is a delicate organ, not a surface to be scrubbed."
+      },
+      "blocks": {
+        "step1": { "type": "step", "settings": { "title": "Dampen", "description": "Dampen your face and neck with lukewarm water." } },
+        "step2": { "type": "step", "settings": { "title": "Lather", "description": "Dispense 1-2 pumps into wet hands and create a creamy foam." } },
+        "step3": { "type": "step", "settings": { "title": "Massage", "description": "Gently massage the foam onto your face in circular motions." } },
+        "step4": { "type": "step", "settings": { "title": "Rinse", "description": "Rinse thoroughly with lukewarm water and pat dry." } }
+      },
+      "block_order": ["step1", "step2", "step3", "step4"]
+    },
+    "faq": {
+      "type": "aliange-pdp-faq",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about your daily cleanse.",
+        "button_text": "Shop Daily Devotion Cleanser"
+      },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "Is this suitable for oily or acne-prone skin?", "answer": "<p>Absolutely. It effectively removes excess oil and impurities without stripping the skin, which can often trigger more oil production.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "Can I use this to remove my makeup?", "answer": "<p>Yes, it is designed to remove makeup, sunscreen, and daily grime. For waterproof makeup, we recommend a double cleanse.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "What is a 'syndet' cleanser?", "answer": "<p>'Syndet' is short for 'synthetic detergent'. Unlike traditional soap, it is pH-balanced to match your skin's natural acidity.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "Will this make my skin feel tight and dry?", "answer": "<p>Not at all. The formula is specifically designed to prevent that 'squeaky clean' feeling, which is a sign of a stripped barrier.</p>" } },
+        "q5": { "type": "question", "settings": { "question": "Is this product made in Australia?", "answer": "<p>Yes, all Aliangé products are proudly formulated and made in Australia under the expert guidance of Dr. Alison Jamieson.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Invest in Your Skin's Future. Start with a Smarter Cleanse.",
+        "subheading": "You are 730 cleanses away from your best skin yet.",
+        "button_text": "YES, I WANT HEALTHIER SKIN",
+        "trust_line": "90-Day Money-Back Guarantee.",
+        "bg_color": "#F4F7F9"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "press_ticker",
+    "trust_bar",
+    "doctor_note",
+    "benefits",
+    "stats",
+    "comparison",
+    "ingredients",
+    "howtouse",
+    "faq",
+    "final_cta"
+  ]
+}

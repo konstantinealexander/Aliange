@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "hero": {
+      "type": "aliange-pdp-hero",
+      "settings": {
+        "description": "A concentrated, doctor-developed treatment that visibly reverses orbital drooping, smooths lip lines, and fades dark circles for a complete rejuvenation.",
+        "atc_text": "ADD TO CART - $225"
+      },
+      "blocks": {
+        "bullet_1": {
+          "type": "bullet_point",
+          "settings": { "text": "Lifts and tightens sagging upper eyelids by up to 61%." }
+        },
+        "bullet_2": {
+          "type": "bullet_point",
+          "settings": { "text": "Reduces crow's feet wrinkle depth by up to 34%." }
+        },
+        "bullet_3": {
+          "type": "bullet_point",
+          "settings": { "text": "Fades dark circles and puffiness in just 7 days." }
+        },
+        "trust_1": {
+          "type": "trust_box",
+          "settings": { "icon": "truck", "title": "Free Shipping", "description": "On all orders worldwide" }
+        },
+        "trust_2": {
+          "type": "trust_box",
+          "settings": { "icon": "shield", "title": "Money Back", "description": "90-day satisfaction promise" }
+        },
+        "trust_3": {
+          "type": "trust_box",
+          "settings": { "icon": "drop", "title": "Eye & Lip", "description": "Targetted clinical care" }
+        },
+        "faq_1": {
+          "type": "mini_faq",
+          "settings": { "question": "Can I use it on eyelids?", "answer": "Yes, this cream is specifically formulated and tested for use on the entire eye area, including the upper eyelids, to help lift and tighten sagging skin." }
+        },
+        "faq_2": {
+          "type": "mini_faq",
+          "settings": { "question": "How long until I see a lift?", "answer": "While some users notice an immediate tightening effect, the most significant results are typically seen after 4-8 weeks of consistent use." }
+        },
+        "faq_3": {
+          "type": "mini_faq",
+          "settings": { "question": "What if it doesn’t work for me?", "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle." }
+        }
+      },
+      "block_order": ["bullet_1", "bullet_2", "bullet_3", "trust_1", "trust_2", "trust_3", "faq_1", "faq_2", "faq_3"]
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      },
+      "blocks": {
+        "press_1": { "type": "logo", "settings": { "alt_text": "SHAPE" } },
+        "press_2": { "type": "logo", "settings": { "alt_text": "REFINERY29" } },
+        "press_3": { "type": "logo", "settings": { "alt_text": "VOGUE" } },
+        "press_4": { "type": "logo", "settings": { "alt_text": "People" } }
+      },
+      "block_order": ["press_1", "press_2", "press_3", "press_4"]
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "settings": {
+        "label": "Expressive Area Specialist",
+        "bg_color": "#ffffff",
+        "speed": 25
+      },
+      "blocks": {
+        "badge_1": { "type": "badge", "settings": { "text": "Beautifeye™ Tech" } },
+        "badge_2": { "type": "badge", "settings": { "text": "Collagen +256%" } },
+        "badge_3": { "type": "badge", "settings": { "text": "Clinically Proven" } },
+        "badge_4": { "type": "badge", "settings": { "text": "Australian Made" } },
+        "badge_5": { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+      },
+      "block_order": ["badge_1", "badge_2", "badge_3", "badge_4", "badge_5"]
+    },
+    "doctor_note": {
+      "type": "aliange-pdp-doctor-note",
+      "settings": {
+        "doctor_name": "Dr. Alison Jamieson",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "quote": "For an enhanced lifting effect, use your ring finger to gently massage the cream in an upward and outward motion. This also helps to stimulate circulation and reduce puffiness."
+      }
+    },
+    "benefits": {
+      "type": "aliange-pdp-benefits",
+      "settings": {
+        "heading": "Eye & Lip Lift In A Jar",
+        "subheading": "Reverse signs of fatigue and ageing on your most expressive features.",
+        "header_align": "left",
+        "button_text": "Shop Eye & Lip Cream"
+      },
+      "blocks": {
+        "b1": { "type": "benefit", "settings": { "title": "Lifts Drooping Eyelids", "description": "A non-surgical solution to sagging upper eyelids, restoring a more youthful, awake appearance." } },
+        "b2": { "type": "benefit", "settings": { "title": "Smooths Crow's Feet", "description": "Visibly reduces the depth and volume of wrinkles around the eyes for a smoother texture." } },
+        "b3": { "type": "benefit", "settings": { "title": "Fades Dark Circles", "description": "Brightens the under-eye area and reduces the appearance of dark circles and puffiness." } },
+        "b4": { "type": "benefit", "settings": { "title": "Redefines Lip Contour", "description": "Smooths vertical lip lines and restores youthful volume and definition to the lip border." } },
+        "b5": { "type": "benefit", "settings": { "title": "Deeply Hydrates and Plumps", "description": "A blend of Squalane and Hyaluronic Acid provides sustained moisture to plump fine lines." } },
+        "b6": { "type": "benefit", "settings": { "title": "Doctor-Developed Efficacy", "description": "Leveraging 40+ years of clinical expertise for results you can trust on delicate skin." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "stats": {
+      "type": "aliange-pdp-stats",
+      "settings": {
+        "heading": "Orbital Rejuvenation Stats.",
+        "subheading": "Clinical data for a non-invasive lift:",
+        "columns": 4
+      },
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "61%", "label": "Orbital Droop Reduction", "ring_percent": 61 } },
+        "s2": { "type": "stat", "settings": { "value": "34%", "label": "Crow's Feet Reduction", "ring_percent": 34 } },
+        "s3": { "type": "stat", "settings": { "value": "256%", "label": "Collagen Synthesis Increase", "ring_percent": 100 } },
+        "s4": { "type": "stat", "settings": { "value": "91%", "label": "Fold Height Reduction", "ring_percent": 91 } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "comparison": {
+      "type": "aliange-pdp-comparison",
+      "settings": {
+        "heading": "Lift vs. Lubricate",
+        "subheading": "Generic eye creams just hydrate. Aliangé provides a non-surgical lift.",
+        "aliange_label": "Eye & Lip Cream",
+        "competitor_label": "Standard Eye Cream",
+        "button_text": "Upgrade Your Skincare"
+      },
+      "blocks": {
+        "r1": { "type": "comparison_row", "settings": { "feature": "Eyelid Lifting", "aliange_value": "Proven 61% Droop Reduction", "competitor_value": "None" } },
+        "r2": { "type": "comparison_row", "settings": { "feature": "Target Areas", "aliange_value": "Eyes + Lids + Lips", "competitor_value": "Under-eye ONLY" } },
+        "r3": { "type": "comparison_row", "settings": { "feature": "Collagen Impact", "aliange_value": "+256% Synthesis", "competitor_value": "Temporary Plumping" } },
+        "r4": { "type": "comparison_row", "settings": { "feature": "Dark Circles", "aliange_value": "Fades in 7 Days", "competitor_value": "Weeks/Inconsistent" } },
+        "r5": { "type": "comparison_row", "settings": { "feature": "Expertise", "aliange_value": "Doctor Developed", "competitor_value": "Mass Market Brand" } },
+        "r6": { "type": "comparison_row", "settings": { "feature": "Lip Definition", "aliange_value": "Redefines Contour", "competitor_value": "Not Recommended" } },
+        "r7": { "type": "comparison_row", "settings": { "feature": "Texture", "aliange_value": "Instant Tightening (Pullulan)", "competitor_value": "Heavy/Greasy" } },
+        "r8": { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"]
+    },
+    "ingredients": {
+      "type": "aliange-pdp-ingredients",
+      "settings": {
+        "heading": "Eye Contour Actives.",
+        "subheading": "Synergistic peptides designed for the most expressive facial areas.",
+        "columns": 3
+      },
+      "blocks": {
+        "i1": { "type": "ingredient", "settings": { "category": "Lifting", "name": "Beautifeye™", "bullets": "Orbital area lift|Reduces crow's feet|Fades dark circles|Tightens upper eyelid", "evidence": "Clinical studies show a significant lifting action on the sagging upper eyelid." } },
+        "i2": { "type": "ingredient", "settings": { "category": "Tightening", "name": "Pullulan", "bullets": "Natural polysaccharide|Instant tightening effect|Forms sheer protective film|Smoothes skin texture", "evidence": "Proven to form a sheer film that temporarily improves skin's texture and youthful appearance." } },
+        "i3": { "type": "ingredient", "settings": { "category": "Vitamin B3", "name": "Niacinamide", "bullets": "Improves elasticity|Enhances barrier|Revives tone|Revitalises expressive skin", "evidence": "Powerhouse vitamin that revives healthy tone and reduces appearance of uneven texture." } },
+        "i4": { "type": "ingredient", "settings": { "category": "Protein", "name": "Hydrolyzed Quinoa", "bullets": "8 essential amino acids|Protect & nourish|Strengthens delicate skin|Nutrient dense", "evidence": "A complete protein containing all eight essential amino acids crucial for skin health." } },
+        "i5": { "type": "ingredient", "settings": { "category": "Hydration", "name": "Red Microalgae", "bullets": "Porphyridium Cruentum|Immediate hydration|Long-lasting moisture|Reduces visible wrinkles", "evidence": "Provides both immediate and long-term hydration while noticeably reducing wrinkles." } }
+      },
+      "block_order": ["i1", "i2", "i3", "i4", "i5"]
+    },
+    "howtouse": {
+      "type": "aliange-pdp-howtouse",
+      "settings": {
+        "heading": "The Rejuvenation Ritual",
+        "subheading": "Steps to lift and define your expressive areas.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "Use your ring finger to gently massage the cream in an upward and outward motion. This helps to stimulate circulation and reduce puffiness."
+      },
+      "blocks": {
+        "step1": { "type": "step", "settings": { "title": "Cleanse", "description": "Start with a clean, dry face before applying eye care." } },
+        "step2": { "type": "step", "settings": { "title": "Dispense", "description": "Use 1/4 of a pump for both eyes or the lip area." } },
+        "step3": { "type": "step", "settings": { "title": "Apply", "description": "Gently pat the cream around the orbital bone and onto the lips." } },
+        "step4": { "type": "step", "settings": { "title": "Absorb", "description": "Allow to fully absorb before following with serums." } }
+      },
+      "block_order": ["step1", "step2", "step3", "step4"]
+    },
+    "faq": {
+      "type": "aliange-pdp-faq",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Targetted answers for your eye and lip care.",
+        "button_text": "Shop Eye & Lip Cream"
+      },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "Can I use this on sensitive skin?", "answer": "<p>Yes, formulated to be gentle enough for all skin types. We always recommend patch testing first.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "How long until I see a lift?", "answer": "<p>Immediate tightening is noticeable, but significant wrinkle and circle reduction is typically seen after 4-8 weeks.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "Can I use this with other eye products?", "answer": "<p>This is a comprehensive treatment. We recommend using it as your primary eye cream for best results.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "Can I use it on my eyelids?", "answer": "<p>Yes, it'sSpecifically formulated to lift and tighten sagging upper eyelid skin.</p>" } },
+        "q5": { "type": "question", "settings": { "question": "Is it tested on animals?", "answer": "<p>No, Aliangé is a cruelty-free brand. We do not test any products on animals.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Experience the Doctor-Developed Difference.",
+        "subheading": "Invest in a targeted treatment for your most expressive features.",
+        "button_text": "YES, I WANT TO REJUVENATE MY EYES & LIPS",
+        "trust_line": "90-Day Results Guarantee.",
+        "bg_color": "#F4F7F9"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "press_ticker",
+    "trust_bar",
+    "doctor_note",
+    "benefits",
+    "stats",
+    "comparison",
+    "ingredients",
+    "howtouse",
+    "faq",
+    "final_cta"
+  ]
+}

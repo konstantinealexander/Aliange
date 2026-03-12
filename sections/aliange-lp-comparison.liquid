@@ -1,0 +1,131 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-comparison-{{ section.id }} { background-color: var(--lp-bg); }
+  #lp-comparison-{{ section.id }} .lp-comparison-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--lp-space-2xl);
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: var(--lp-radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--lp-border);
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table thead th {
+    padding: var(--lp-space-lg) var(--lp-space-xl);
+    font-family: var(--lp-font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 2px solid var(--lp-border);
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table thead th:first-child {
+    background-color: var(--lp-bg-muted);
+    color: var(--lp-body);
+    width: 22%;
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table thead th:nth-child(2) {
+    background-color: var(--lp-bg-muted);
+    color: var(--lp-body);
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table thead th:nth-child(3) {
+    background-color: var(--lp-ink);
+    color: #fff;
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table tbody tr:nth-child(even) td {
+    background-color: var(--lp-bg-muted);
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table tbody tr:nth-child(even) td:last-child {
+    background-color: rgba(139,111,78,0.08);
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table tbody tr:nth-child(odd) td:last-child {
+    background-color: rgba(139,111,78,0.04);
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table tbody td {
+    padding: var(--lp-space-md) var(--lp-space-xl);
+    font-family: var(--lp-font-body);
+    font-size: 14px;
+    color: var(--lp-body);
+    border-bottom: 1px solid var(--lp-border);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table tbody td:first-child {
+    font-weight: 600;
+    color: var(--lp-ink);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  #lp-comparison-{{ section.id }} .lp-comparison-table tbody td:last-child {
+    color: var(--lp-accent);
+    font-weight: 500;
+  }
+  @media (max-width: 600px) {
+    #lp-comparison-{{ section.id }} .lp-comparison-table { font-size: 13px; }
+    #lp-comparison-{{ section.id }} .lp-comparison-table td,
+    #lp-comparison-{{ section.id }} .lp-comparison-table th { padding: var(--lp-space-sm) var(--lp-space-md); }
+  }
+{%- endstyle -%}
+
+<section id="lp-comparison-{{ section.id }}" class="lp-section">
+  <div class="lp-container">
+    <div class="lp-comparison-header lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+    </div>
+
+    <div class="lp-reveal" style="overflow-x: auto;">
+      <table class="lp-comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>{{ section.settings.col_them | default: 'Typical Products' }}</th>
+            <th>{{ section.settings.col_us | default: 'Aliangé Approach' }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%- for block in section.blocks -%}
+            <tr {{ block.shopify_attributes }}>
+              <td>{{ block.settings.feature }}</td>
+              <td>{{ block.settings.them }}</td>
+              <td>{{ block.settings.us }}</td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Comparison",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "The Difference" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Why Aliangé Is Different" },
+    { "type": "text", "id": "col_them", "label": "Column 2 header", "default": "Typical Products" },
+    { "type": "text", "id": "col_us", "label": "Column 3 header", "default": "Aliangé Clinical Approach" }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Row",
+      "settings": [
+        { "type": "text", "id": "feature", "label": "Feature", "default": "Approach" },
+        { "type": "textarea", "id": "them", "label": "Typical products", "default": "Single ingredient focus" },
+        { "type": "textarea", "id": "us", "label": "Aliangé approach", "default": "Multi-pathway, synergistic routine" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "LP — Comparison" }]
+}
+{% endschema %}

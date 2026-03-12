@@ -1,0 +1,117 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-timeline-{{ section.id }} { background-color: var(--lp-bg-muted); }
+  #lp-timeline-{{ section.id }} .lp-timeline-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--lp-space-2xl);
+  }
+  #lp-timeline-{{ section.id }} .lp-timeline-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--lp-space-md);
+    max-width: var(--lp-container);
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    #lp-timeline-{{ section.id }} .lp-timeline-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 1024px) {
+    #lp-timeline-{{ section.id }} .lp-timeline-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  #lp-timeline-{{ section.id }} .lp-timeline-item {
+    position: relative;
+    padding: var(--lp-space-xl);
+    background-color: var(--lp-bg);
+    border-radius: var(--lp-radius-lg);
+    border: 1px solid var(--lp-border);
+  }
+  #lp-timeline-{{ section.id }} .lp-timeline-phase {
+    font-family: var(--lp-font-body);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--lp-accent);
+    margin: 0 0 var(--lp-space-sm);
+    display: block;
+  }
+  #lp-timeline-{{ section.id }} .lp-timeline-timeframe {
+    font-family: var(--lp-font-heading);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--lp-ink);
+    margin: 0 0 var(--lp-space-sm);
+  }
+  #lp-timeline-{{ section.id }} .lp-timeline-desc {
+    font-family: var(--lp-font-body);
+    font-size: 14px;
+    color: var(--lp-body);
+    line-height: 1.65;
+    margin: 0;
+  }
+  #lp-timeline-{{ section.id }} .lp-timeline-num {
+    position: absolute;
+    top: var(--lp-space-md);
+    right: var(--lp-space-md);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--lp-bg-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--lp-font-heading);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--lp-body);
+  }
+{%- endstyle -%}
+
+<section id="lp-timeline-{{ section.id }}" class="lp-section">
+  <div class="lp-container">
+    <div class="lp-timeline-header lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+    </div>
+
+    <div class="lp-timeline-grid">
+      {%- for block in section.blocks -%}
+        <div class="lp-timeline-item lp-reveal" {{ block.shopify_attributes }}>
+          <span class="lp-timeline-num" aria-hidden="true">{{ forloop.index }}</span>
+          <span class="lp-timeline-phase">Phase {{ forloop.index }}</span>
+          <h3 class="lp-timeline-timeframe">{{ block.settings.timeframe }}</h3>
+          <p class="lp-timeline-desc">{{ block.settings.description }}</p>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Timeline",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "Your Journey" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "What to Expect" }
+  ],
+  "blocks": [
+    {
+      "type": "phase",
+      "name": "Phase",
+      "limit": 4,
+      "settings": [
+        { "type": "text", "id": "timeframe", "label": "Timeframe", "default": "Week 1–2" },
+        { "type": "textarea", "id": "description", "label": "What happens", "default": "Your skin's hydration levels are optimised. Peptides begin signalling cells to initiate repair." }
+      ]
+    }
+  ],
+  "presets": [{ "name": "LP — Timeline" }]
+}
+{% endschema %}

@@ -1,0 +1,40 @@
+{%- comment -%}
+  snippet: seo-meta-tags
+  Centralized SEO logic for titles and meta descriptions.
+{%- endcomment -%}
+
+{%- liquid
+  assign seo_title = page_title
+  assign seo_description = page_description | default: shop.description | default: shop.name
+
+  if request.page_type == 'index'
+    assign seo_title = 'Aliangé | Doctor-Led Skincare Protocols | Australian Made'
+    assign seo_description = 'Developed by Dr Alison Jamieson. Medical-grade skincare protocols designed for Queensland sun. Evidence-based. Australian made.'
+  elsif request.page_type == 'product'
+    assign seo_title = product.title | append: ' — ' | append: product.metafields.custom.seo_benefit | default: product.vendor | append: ' | Aliangé'
+  elsif request.page_type == 'collection'
+    assign seo_title = collection.title | append: ' — Medical-Grade Skincare Australia | Aliangé'
+    case collection.handle
+      when 'all'
+        assign seo_description = 'Shop the complete range of Aliangé clinical skincare. Formulated by Dr. Alison Jamieson, our evidence-based products are designed to regenerate and protect.'
+      when 'protocols'
+        assign seo_description = 'Discover Aliangé Skincare Protocols. Clinically designed systems that work synergistically to target ageing, pigmentation, breakouts, and more.'
+      when 'serums'
+        assign seo_description = 'Shop Aliangé clinical serums. Highly concentrated formulas featuring exosomes, peptides, and niacinamide to target cellular repair and hydration.'
+      when 'masques'
+        assign seo_description = 'Elevate your routine with Aliangé clinical masques. Probiotic and anti-pollutant treatments designed to purify, balance, and deeply hydrate your skin.'
+      when 'cleanse'
+        assign seo_description = 'Prepare your skin with Aliangé cleansers and exfoliators. Gentle, effective formulas that purify the skin without disrupting the delicate lipid barrier.'
+      when 'gift-cards'
+        assign seo_description = 'Give the gift of clinical skincare with an Aliangé digital gift card. The perfect present for those seeking doctor-led, evidence-based skin regeneration.'
+    endcase
+  elsif request.page_type == 'article'
+    assign seo_title = article.title | append: ' — Skincare Science | Aliangé'
+  endif
+-%}
+
+<title>{{ seo_title | strip_newlines | strip }}</title>
+
+{%- if seo_description -%}
+  <meta name="description" content="{{ seo_description | escape }}">
+{%- endif -%}

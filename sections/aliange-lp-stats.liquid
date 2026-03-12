@@ -1,0 +1,78 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-stats-{{ section.id }} {
+    background-color: var(--lp-bg-dark);
+    padding: var(--lp-space-2xl) var(--lp-space-xl);
+  }
+  #lp-stats-{{ section.id }} .lp-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--lp-space-xl) var(--lp-space-2xl);
+    max-width: var(--lp-container);
+    margin: 0 auto;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    #lp-stats-{{ section.id }} .lp-stats-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  #lp-stats-{{ section.id }} .lp-stat-value {
+    font-family: var(--lp-font-heading);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 600;
+    color: #fff;
+    line-height: 1;
+    margin: 0 0 8px;
+    display: block;
+  }
+  #lp-stats-{{ section.id }} .lp-stat-label {
+    font-family: var(--lp-font-body);
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.4;
+    display: block;
+  }
+{%- endstyle -%}
+
+<section id="lp-stats-{{ section.id }}" aria-label="Statistics">
+  <div class="lp-stats-grid">
+    {%- for block in section.blocks -%}
+      <div class="lp-reveal" {{ block.shopify_attributes }}>
+        <span class="lp-stat-value" data-lp-stat>{{ block.settings.value }}</span>
+        <span class="lp-stat-label">{{ block.settings.label }}</span>
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Stats Bar",
+  "tag": "div",
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Stat",
+      "settings": [
+        { "type": "text", "id": "value", "label": "Value", "default": "+105%" },
+        { "type": "text", "id": "label", "label": "Label", "default": "Collagen I Production" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "LP — Stats Bar",
+      "blocks": [
+        { "type": "stat", "settings": { "value": "+105%", "label": "Collagen I Production" } },
+        { "type": "stat", "settings": { "value": "45%", "label": "Wrinkle Reduction in 2 months" } },
+        { "type": "stat", "settings": { "value": "87.3%", "label": "Improvement in Skin Condition" } },
+        { "type": "stat", "settings": { "value": "24%", "label": "Less Visible Ageing" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

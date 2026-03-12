@@ -1,0 +1,128 @@
+{%- layout none -%}
+# Aliangé — Complete Store Information
+
+> Aliangé is an Australian clinical skincare brand developed by Dr. Alison Jamieson, bringing over 40 years of dermatological expertise to evidence-based formulations. Specialising in cellular regeneration, anti-ageing, pigmentation correction, and barrier repair, every product is doctor-led, Australian made, and designed for the demands of the Queensland sun. Shop at {{ shop.url }}.
+
+---
+
+## About Aliangé
+
+{{ pages['about-us'].content | strip_html }}
+
+---
+
+## How to Use Aliangé Products
+
+{{ pages['how-to-use'].content | strip_html }}
+
+---
+
+## Skincare for Mature Skin
+
+{{ pages['mature-skin'].content | strip_html }}
+
+---
+
+## Frequently Asked Questions
+
+{{ pages['faq'].content | strip_html }}
+
+---
+
+## Collections
+
+### All Products
+Welcome to the complete Aliangé clinical skincare range. Developed by Dr. Alison Jamieson, bringing over 40 years of dermatological expertise, every formulation is grounded in rigorous scientific evidence. Products are designed to penetrate deeply, communicating with cells to regenerate, repair, and fortify the skin matrix.
+
+**URL:** {{ shop.url }}/collections/all
+
+### Skincare Protocols
+At Aliangé, we believe in Protocols — structured, medically-inspired systems where every product is precisely calibrated to work in synergy. Formulated by Dr. Alison Jamieson, our protocols eliminate guesswork by delivering products in three phases: Prepare & Purify, Stimulate & Communicate, and Protect & Fortify. Targeting ageing, pigmentation, and breakouts.
+
+**URL:** {{ shop.url }}/collections/protocols
+
+### Clinical Serums
+Serums formulated with smaller molecular weights to deliver highly concentrated active ingredients directly to the cellular matrix. Features cutting-edge biotechnology including DNA-repairing jellyfish peptides, barrier-fortifying sphingolipids, and brightening agent Oligopeptide-68.
+
+**URL:** {{ shop.url }}/collections/serums
+
+### Skincare Masques
+Intensive treatment masques designed to accelerate skin recovery and fortification. Advanced biotechnology including probiotic complexes that restore the skin microbiome and potent antioxidants defending against environmental stressors. Recommended 2–3 times per week.
+
+**URL:** {{ shop.url }}/collections/masques
+
+### Cleansers & Exfoliators
+Formulated with amino acids, coconut-derived surfactants, and precise AHA/BHA blends to prepare a balanced cellular canvas. Purifies without stripping the natural lipid barrier or disrupting the skin's acid mantle, maximising efficacy of subsequent actives.
+
+**URL:** {{ shop.url }}/collections/cleanse
+
+---
+
+## Products
+
+{%- for product in collections.all.products %}
+### {{ product.title }}
+
+**URL:** {{ shop.url }}/products/{{ product.handle }}
+**Price:** From {{ product.price_min | money }}
+{%- if product.vendor %} | **Brand:** {{ product.vendor }}{%- endif %}
+{%- if product.product_type %} | **Type:** {{ product.product_type }}{%- endif %}
+{%- if product.tags.size > 0 %}
+**Tags:** {{ product.tags | join: ', ' }}
+{%- endif %}
+
+{{ product.description | strip_html }}
+
+{%- if product.variants.size > 1 %}
+**Available Variants:**
+{%- for variant in product.variants %}
+- {{ variant.title }}: {{ variant.price | money }}{%- if variant.available %} — In stock{%- else %} — Out of stock{%- endif %}
+{%- endfor %}
+{%- endif %}
+
+---
+{%- endfor %}
+
+## Policies
+
+### Shipping Policy
+
+{{ shop.policies.shipping_policy.body | strip_html }}
+
+---
+
+### Returns & Refunds
+
+{{ shop.policies.refund_policy.body | strip_html }}
+
+---
+
+### Privacy Policy
+
+{{ shop.policies.privacy_policy.body | strip_html }}
+
+---
+
+### Terms of Service
+
+{{ shop.policies.terms_of_service.body | strip_html }}
+
+---
+
+## Blog Articles
+
+{%- for blog in blogs %}
+{%- for article in blog.articles %}
+### {{ article.title }}
+
+**URL:** {{ shop.url }}/blogs/{{ blog.handle }}/{{ article.handle }}
+**Published:** {{ article.published_at | date: "%B %d, %Y" }}
+{%- if article.tags.size > 0 %}
+**Topics:** {{ article.tags | join: ', ' }}
+{%- endif %}
+
+{{ article.content | strip_html | truncate: 600 }}
+
+---
+{%- endfor %}
+{%- endfor %}

@@ -1,0 +1,204 @@
+{% comment %}
+  Aliangé PDP FAQ Section
+  Accessible accordion with vanilla JS. Progressive enhancement.
+{% endcomment %}
+
+{%- style -%}
+  #pdp-faq-{{ section.id }} .faq-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pdp-space-sm);
+  }
+
+  #pdp-faq-{{ section.id }} .faq-item {
+    background-color: var(--pdp-bg-muted);
+    border-radius: var(--pdp-radius-md);
+    border: 1px solid var(--pdp-border);
+    overflow: hidden;
+    transition: border-color var(--pdp-duration) var(--pdp-ease);
+  }
+
+  #pdp-faq-{{ section.id }} .faq-item.is-open {
+    border-color: rgba(11, 31, 42, 0.2);
+  }
+
+  #pdp-faq-{{ section.id }} .faq-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--pdp-space-md);
+    width: 100%;
+    padding: var(--pdp-space-md) var(--pdp-space-lg);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: var(--pdp-font-body);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--pdp-ink);
+    line-height: 1.5;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-faq-{{ section.id }} .faq-trigger {
+      font-size: 16px;
+      padding: var(--pdp-space-lg);
+    }
+  }
+
+  #pdp-faq-{{ section.id }} .faq-trigger:focus-visible {
+    outline: 2px solid var(--pdp-ink);
+    outline-offset: -2px;
+    border-radius: var(--pdp-radius-md);
+  }
+
+  #pdp-faq-{{ section.id }} .faq-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    color: var(--pdp-ink);
+    transition: transform 0.3s var(--pdp-ease);
+  }
+
+  #pdp-faq-{{ section.id }} .faq-item.is-open .faq-icon {
+    transform: rotate(45deg);
+  }
+
+  #pdp-faq-{{ section.id }} .faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s var(--pdp-ease);
+  }
+
+  #pdp-faq-{{ section.id }} .faq-answer {
+    padding: 0 var(--pdp-space-lg) var(--pdp-space-lg);
+    font-family: var(--pdp-font-body);
+    font-size: 13px;
+    color: var(--pdp-body);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    #pdp-faq-{{ section.id }} .faq-answer {
+      font-size: 14px;
+    }
+  }
+
+  #pdp-faq-{{ section.id }} .faq-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--pdp-space-xl);
+  }
+{%- endstyle -%}
+
+<section id="pdp-faq-{{ section.id }}" class="pdp-section pdp-reveal" aria-label="Frequently asked questions">
+  <div class="pdp-container pdp-container--narrow">
+    {% if section.settings.heading != blank %}
+      <div class="pdp-section-header">
+        <h2 class="pdp-heading pdp-heading--lg">{{ section.settings.heading }}</h2>
+        {% if section.settings.subheading != blank %}
+          <p class="pdp-body pdp-body--md">{{ section.settings.subheading }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="faq-accordion" data-pdp-accordion>
+      {% for block in section.blocks %}
+        <div class="faq-item" data-pdp-accordion-item {{ block.shopify_attributes }}>
+          <button
+            class="faq-trigger"
+            type="button"
+            aria-expanded="false"
+            data-pdp-accordion-trigger
+          >
+            <span>{{ block.settings.question }}</span>
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" width="20" height="20" aria-hidden="true">
+              <path d="M228,128a12,12,0,0,1-12,12H140v76a12,12,0,0,1-24,0V140H40a12,12,0,0,1,0-24h76V40a12,12,0,0,1,24,0v76h76A12,12,0,0,1,228,128Z"/>
+            </svg>
+          </button>
+          <div class="faq-content" data-pdp-accordion-content>
+            <div class="faq-answer">{{ block.settings.answer }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if section.settings.button_text != blank %}
+      <div class="faq-footer">
+        <a href="{{ section.settings.button_url | default: '#' }}" class="pdp-btn pdp-btn--primary pdp-btn--full">
+          <span>{{ section.settings.button_text }}</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg>
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% render 'aliange-pdp-scripts' %}
+
+{% schema %}
+{
+  "name": "PDP FAQ",
+  "tag": "section",
+  "class": "aliange-pdp-faq",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Everything you need to know."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "How do I use this product?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Apply daily as directed for best results.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "PDP FAQ",
+      "blocks": [
+        { "type": "question", "settings": { "question": "Is SPF 15 enough for daily use?", "answer": "<p>For everyday incidental exposure, SPF 15 blocks 93% of UVB rays and provides excellent protection.</p>" } },
+        { "type": "question", "settings": { "question": "Will this feel heavy or greasy?", "answer": "<p>Not at all. The lightweight formula absorbs quickly and works beautifully under makeup.</p>" } },
+        { "type": "question", "settings": { "question": "Is it suitable for sensitive skin?", "answer": "<p>Yes. It includes soothing Centella Asiatica, Echinacea, and Rosemary to calm redness and irritation.</p>" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

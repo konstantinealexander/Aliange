@@ -1,0 +1,168 @@
+{% render 'aliange-lp-styles' %}
+
+{%- style -%}
+  #lp-routine-{{ section.id }} { background-color: var(--lp-bg-muted); }
+  #lp-routine-{{ section.id }} .lp-routine-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto var(--lp-space-2xl);
+  }
+  #lp-routine-{{ section.id }} .lp-routine-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-md);
+  }
+  #lp-routine-{{ section.id }} .lp-routine-step {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: var(--lp-space-lg);
+    align-items: start;
+    background-color: var(--lp-bg);
+    border: 1px solid var(--lp-border);
+    border-radius: var(--lp-radius-lg);
+    padding: var(--lp-space-xl);
+  }
+  @media (min-width: 768px) {
+    #lp-routine-{{ section.id }} .lp-routine-step {
+      grid-template-columns: 56px 1fr auto;
+      align-items: center;
+    }
+  }
+  #lp-routine-{{ section.id }} .lp-routine-num {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--lp-ink);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--lp-font-heading);
+    font-size: 18px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  #lp-routine-{{ section.id }} .lp-routine-body { flex: 1; }
+  #lp-routine-{{ section.id }} .lp-routine-name {
+    font-family: var(--lp-font-heading);
+    font-size: clamp(1rem, 1.8vw, 1.3rem);
+    font-weight: 600;
+    color: var(--lp-ink);
+    margin: 0 0 4px;
+  }
+  #lp-routine-{{ section.id }} .lp-routine-why {
+    font-family: var(--lp-font-body);
+    font-size: 14px;
+    color: var(--lp-body);
+    line-height: 1.6;
+    margin: 0 0 var(--lp-space-sm);
+  }
+  #lp-routine-{{ section.id }} .lp-routine-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  #lp-routine-{{ section.id }} .lp-routine-tag {
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: var(--lp-bg-muted);
+    border-radius: 20px;
+    font-family: var(--lp-font-body);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--lp-body);
+    letter-spacing: 0.03em;
+  }
+  #lp-routine-{{ section.id }} .lp-routine-price {
+    font-family: var(--lp-font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--lp-ink);
+    white-space: nowrap;
+    margin-top: var(--lp-space-sm);
+  }
+  @media (min-width: 768px) {
+    #lp-routine-{{ section.id }} .lp-routine-price { margin-top: 0; text-align: right; }
+  }
+  #lp-routine-{{ section.id }} .lp-routine-cta {
+    text-align: center;
+    margin-top: var(--lp-space-2xl);
+  }
+{%- endstyle -%}
+
+<section id="lp-routine-{{ section.id }}" class="lp-section">
+  <div class="lp-container">
+    <div class="lp-routine-header lp-reveal">
+      {%- if section.settings.label != blank -%}
+        <span class="lp-section-label">{{ section.settings.label }}</span>
+      {%- endif -%}
+      <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
+      {%- if section.settings.subheadline != blank -%}
+        <p class="lp-body-text">{{ section.settings.subheadline }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="lp-routine-steps">
+      {%- for block in section.blocks -%}
+        <div class="lp-routine-step lp-reveal" {{ block.shopify_attributes }}>
+          <div class="lp-routine-num" aria-hidden="true">{{ forloop.index }}</div>
+          <div class="lp-routine-body">
+            <h3 class="lp-routine-name">{{ block.settings.name }}</h3>
+            {%- if block.settings.why != blank -%}
+              <p class="lp-routine-why">{{ block.settings.why }}</p>
+            {%- endif -%}
+            <div class="lp-routine-meta">
+              {%- if block.settings.key_active != blank -%}
+                <span class="lp-routine-tag">Key active: {{ block.settings.key_active }}</span>
+              {%- endif -%}
+              {%- if block.settings.step != blank -%}
+                <span class="lp-routine-tag">{{ block.settings.step }}</span>
+              {%- endif -%}
+            </div>
+          </div>
+          {%- if block.settings.price != blank -%}
+            <div class="lp-routine-price">{{ block.settings.price }}</div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    {%- if section.settings.cta_text != blank -%}
+      <div class="lp-routine-cta lp-reveal">
+        <a href="{{ section.settings.cta_url | default: '/collections/all' }}" class="lp-btn">
+          {{ section.settings.cta_text }}
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% render 'aliange-lp-scripts' %}
+
+{% schema %}
+{
+  "name": "LP — Routine",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "The Protocol" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Your Recommended Routine" },
+    { "type": "textarea", "id": "subheadline", "label": "Subheadline" },
+    { "type": "text", "id": "cta_text", "label": "CTA text", "default": "Shop the Routine" },
+    { "type": "url", "id": "cta_url", "label": "CTA URL" }
+  ],
+  "blocks": [
+    {
+      "type": "product_step",
+      "name": "Product Step",
+      "settings": [
+        { "type": "text", "id": "name", "label": "Product name", "default": "Jellyfish Peptide X Serum" },
+        { "type": "text", "id": "price", "label": "Price", "default": "$225" },
+        { "type": "textarea", "id": "why", "label": "Why it's recommended" },
+        { "type": "text", "id": "key_active", "label": "Key active ingredient" },
+        { "type": "text", "id": "step", "label": "Step / timing", "default": "AM & PM" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "LP — Routine" }]
+}
+{% endschema %}

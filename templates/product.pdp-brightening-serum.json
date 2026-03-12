@@ -1,0 +1,213 @@
+{
+  "sections": {
+    "hero": {
+      "type": "aliange-pdp-hero",
+      "settings": {
+        "description": "A potent, multi-pathway serum clinically formulated by Dr. Alison Jamieson to target pigmentation at its source, revealing a remarkably even and luminous complexion.",
+        "atc_text": "Experience True Brightening — $100"
+      },
+      "blocks": {
+        "bullet_1": {
+          "type": "bullet_point",
+          "settings": { "text": "Outperforms 4% hydroquinone for a more uniform skin tone." }
+        },
+        "bullet_2": {
+          "type": "bullet_point",
+          "settings": { "text": "Targets all 5 stages of the pigmentation process." }
+        },
+        "bullet_3": {
+          "type": "bullet_point",
+          "settings": { "text": "Achieves a visibly more even complexion in just 4 weeks." }
+        },
+        "trust_1": {
+          "type": "trust_box",
+          "settings": { "icon": "truck", "title": "Free Shipping", "description": "On all orders worldwide" }
+        },
+        "trust_2": {
+          "type": "trust_box",
+          "settings": { "icon": "shield", "title": "Money Back", "description": "90-day satisfaction promise" }
+        },
+        "trust_3": {
+          "type": "trust_box",
+          "settings": { "icon": "drop", "title": "Long Lasting", "description": "Premium formula" }
+        },
+        "faq_1": {
+          "type": "mini_faq",
+          "settings": { "question": "Is this suitable for sensitive skin?", "answer": "This serum is potent but formulated to be less irritating than many alternatives. If you have highly sensitive skin, we recommend patch testing for 24 hours first." }
+        },
+        "faq_2": {
+          "type": "mini_faq",
+          "settings": { "question": "How long until I see results?", "answer": "Clinical data shows a more uniform tone in 4 weeks, with 87% of users reporting improvement at 8 weeks. AhAs provide radiance in 1-2 weeks." }
+        },
+        "faq_3": {
+          "type": "mini_faq",
+          "settings": { "question": "What if it doesn’t work for me?", "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle." }
+        }
+      },
+      "block_order": ["bullet_1", "bullet_2", "bullet_3", "trust_1", "trust_2", "trust_3", "faq_1", "faq_2", "faq_3"]
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      },
+      "blocks": {
+        "press_1": { "type": "logo", "settings": { "alt_text": "SHAPE" } },
+        "press_2": { "type": "logo", "settings": { "alt_text": "REFINERY29" } },
+        "press_3": { "type": "logo", "settings": { "alt_text": "VOGUE" } },
+        "press_4": { "type": "logo", "settings": { "alt_text": "People" } }
+      },
+      "block_order": ["press_1", "press_2", "press_3", "press_4"]
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "settings": {
+        "label": "Dermatologist Authored",
+        "bg_color": "#ffffff",
+        "speed": 25
+      },
+      "blocks": {
+        "badge_1": { "type": "badge", "settings": { "text": "Pigment Correcting" } },
+        "badge_2": { "type": "badge", "settings": { "text": "Multi-Pathway" } },
+        "badge_3": { "type": "badge", "settings": { "text": "Clinically Proven" } },
+        "badge_4": { "type": "badge", "settings": { "text": "Australian Made" } },
+        "badge_5": { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+      },
+      "block_order": ["badge_1", "badge_2", "badge_3", "badge_4", "badge_5"]
+    },
+    "doctor_note": {
+      "type": "aliange-pdp-doctor-note",
+      "settings": {
+        "doctor_name": "Dr. Alison Jamieson",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with the most significant results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
+      }
+    },
+    "benefits": {
+      "type": "aliange-pdp-benefits",
+      "settings": {
+        "heading": "Unlock Your Path To Luminous Skin",
+        "subheading": "A comprehensive, targetted solution for persistent discolouration.",
+        "header_align": "left",
+        "button_text": "Shop Brightening Serum"
+      },
+      "blocks": {
+        "b1": { "type": "benefit", "settings": { "title": "Fades Existing Pigmentation", "description": "Potent actives work to diminish the appearance of sun spots, post-inflammatory hyperpigmentation, and uneven skin tone." } },
+        "b2": { "type": "benefit", "settings": { "title": "Prevents Future Discolouration", "description": "By targeting the master switch of melanin production, this formula helps prevent new spots from forming." } },
+        "b3": { "type": "benefit", "settings": { "title": "Reveals a Luminous Complexion", "description": "A blend of Alpha-Hydroxy Acids gently exfoliates the skin's surface, revealing the brighter, fresher skin beneath." } },
+        "b4": { "type": "benefit", "settings": { "title": "Potent Antioxidant Protection", "description": "Vitamin C and other antioxidants defend your skin against environmental stressors that can trigger pigmentation." } },
+        "b5": { "type": "benefit", "settings": { "title": "Supports a Healthy Skin Barrier", "description": "Niacinamide and other supporting ingredients help to strengthen your skin's natural defences and lock in hydration." } },
+        "b6": { "type": "benefit", "settings": { "title": "Clinically Formulated for Efficacy", "description": "Every ingredient is hand-selected by Dr. Jamieson based on robust scientific evidence for maximum results." } }
+      },
+      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+    },
+    "stats": {
+      "type": "aliange-pdp-stats",
+      "settings": {
+        "heading": "Visible Clinical Results.",
+        "subheading": "A comprehensive approach to uniform skin tone:",
+        "columns": 4
+      },
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "87%", "label": "Reported Uniform Skin Tone", "ring_percent": 87 } },
+        "s2": { "type": "stat", "settings": { "value": "5 STAGES", "label": "Pigmentation Targeted", "ring_percent": 100 } },
+        "s3": { "type": "stat", "settings": { "value": "4 WEEKS", "label": "To Visible Improvement", "ring_percent": 100 } },
+        "s4": { "type": "stat", "settings": { "value": "16x", "label": "More Potent than Alternatives", "ring_percent": 100 } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "comparison": {
+      "type": "aliange-pdp-comparison",
+      "settings": {
+        "heading": "Ditch The Generic Creams",
+        "subheading": "Standard luxury serums target one pathway. Aliangé targets five.",
+        "aliange_label": "Brightening Serum",
+        "competitor_label": "Other \"Brighteners\"",
+        "button_text": "Upgrade Your Skincare"
+      },
+      "blocks": {
+        "r1": { "type": "comparison_row", "settings": { "feature": "Mechanism", "aliange_value": "5-Pathway Shield", "competitor_value": "Single pathway" } },
+        "r2": { "type": "comparison_row", "settings": { "feature": "Cellular Impact", "aliange_value": "Melanin Master-Switch", "competitor_value": "Surface Only" } },
+        "r3": { "type": "comparison_row", "settings": { "feature": "Potency", "aliange_value": "16x vs Hydroquinone", "competitor_value": "Diluted vit C" } },
+        "r4": { "type": "comparison_row", "settings": { "feature": "Results", "aliange_value": "Visible in 4 Weeks", "competitor_value": "Inconsistent" } },
+        "r5": { "type": "comparison_row", "settings": { "feature": "Expertise", "aliange_value": "Doctor Developed", "competitor_value": "Pharmacy Shelf Brands" } },
+        "r6": { "type": "comparison_row", "settings": { "feature": "Skin Type", "aliange_value": "Safe for All Tones", "competitor_value": "High Irritation Risk" } },
+        "r7": { "type": "comparison_row", "settings": { "feature": "Multitasking", "aliange_value": "Exfoliates + Corrects", "competitor_value": "Correction Only" } },
+        "r8": { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"]
+    },
+    "ingredients": {
+      "type": "aliange-pdp-ingredients",
+      "settings": {
+        "heading": "Clinical-Grade Key Ingredients.",
+        "subheading": "A synergistic blend of powerhouse brighteners and gentle exfoliants.",
+        "columns": 3
+      },
+      "blocks": {
+        "i1": { "type": "ingredient", "settings": { "category": "Next-Gen Peptide", "name": "Oligopeptide-68", "bullets": "Mimics body's regulators|Turns down melanin switch|Faster acting than alternatives|Safe for long-term use", "evidence": "In a 12-week clinical trial, this peptide was shown to be more effective than 4% hydroquinone at reducing pigmentation." } },
+        "i2": { "type": "ingredient", "settings": { "category": "Vitamin B3", "name": "Niacinamide", "bullets": "Intercepts melanin transfer|Prevents discolouration|Strengthens skin barrier|Locks in deep hydration", "evidence": "At a 4% concentration, Niacinamide has been shown to be comparable to 4% hydroquinone for treating pigmentation." } },
+        "i3": { "type": "ingredient", "settings": { "category": "Antioxidant", "name": "Vitamin C", "bullets": "Potent tyrosinase inhibitor|Defends against UV damage|Brightens complexion|Boosts natural radiance", "evidence": "Vitamin C is extensively proven to brighten skin and improve signs of photoaging." } },
+        "i4": { "type": "ingredient", "settings": { "category": "Exfoliants", "name": "Advanced AHA Blend", "bullets": "Glycolic & Lactic acids|Dissolves dead skin cell glue|Accelerates surface renewal|Smoother surface texture", "evidence": "Glycolic acid is clinically proven to stimulate collagen and renew the epidermis for a brighter appearance." } },
+        "i5": { "type": "ingredient", "settings": { "category": "Botanical", "name": "Licorice Root", "bullets": "Natural pigment inhibitor|16x inhibition vs hydroquinone|Soothes skin irritation|Even-toned radiance", "evidence": "In-vitro studies show the active component, glabridin, provides 16 times greater tyrosinase inhibition than hydroquinone." } }
+      },
+      "block_order": ["i1", "i2", "i3", "i4", "i5"]
+    },
+    "howtouse": {
+      "type": "aliange-pdp-howtouse",
+      "settings": {
+        "heading": "The Brightening Ritual",
+        "subheading": "Follow these steps for optimal pigment correction.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
+      },
+      "blocks": {
+        "step1": { "type": "step", "settings": { "title": "Cleanse", "description": "Begin with thoroughly cleansed, dry skin. We recommend our Daily Devotion Cleanser." } },
+        "step2": { "type": "step", "settings": { "title": "Apply", "description": "Dispense 1-2 pumps of Brightening Serum onto your fingertips." } },
+        "step3": { "type": "step", "settings": { "title": "Distribute", "description": "Gently smooth over the face, neck, and décolletage, avoiding the eye area." } },
+        "step4": { "type": "step", "settings": { "title": "Follow", "description": "Use in the evening and follow with the Ultimate A Night Cream. Always use SPF during the day." } }
+      },
+      "block_order": ["step1", "step2", "step3", "step4"]
+    },
+    "faq": {
+      "type": "aliange-pdp-faq",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about the Brightening Serum.",
+        "button_text": "Shop Brightening Serum"
+      },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "Is this suitable for sensitive skin?", "answer": "<p>Potent, but formulated to be less irritating than many alternatives. We recommend patch testing first if your skin is particularly reactive.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "How is this different from other serums?", "answer": "<p>Most serums only target one or two stages of pigmentation. This targets all five pathways simultaneously for more complete results.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "Can I use this serum with retinol?", "answer": "<p>Yes, it pairs perfectly with our Ultimate A Night Cream. Apply the serum first, allow to absorb, then apply your night cream.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "How long will it take to see results?", "answer": "<p>Clinical data shows more uniform tone in 4 weeks, with 87% of users reporting improvement at 8 weeks.</p>" } },
+        "q5": { "type": "question", "settings": { "question": "Is it safe to use during pregnancy?", "answer": "<p>Generally considered safe, but always consult with your doctor before introducing new actives during pregnancy.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Your Clinical Solution to Pigmentation Starts Now.",
+        "subheading": "Stop wasting time on ineffective treatments. Invest in efficacy.",
+        "button_text": "Add to Cart — Begin My Journey",
+        "trust_line": "100% Australian Made & Owned. 90-Day Guarantee.",
+        "bg_color": "#F4F7F9"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "press_ticker",
+    "trust_bar",
+    "doctor_note",
+    "benefits",
+    "stats",
+    "comparison",
+    "ingredients",
+    "howtouse",
+    "faq",
+    "final_cta"
+  ]
+}
