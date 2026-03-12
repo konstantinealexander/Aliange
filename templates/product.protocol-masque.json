@@ -1,18 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
-      "settings": {
-        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
-        "headline": "The Weekly Clinical Reset for Visibly Renewed Skin",
-        "subheadline": "A professional-grade weekly treatment that deeply exfoliates, restores the microbiome, and infuses the skin with reparative peptides.",
-        "cta_text": "Start the Masque Protocol",
-        "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
       "blocks": {
         "b1": {
           "type": "bullet",
@@ -23,7 +21,7 @@
         "b2": {
           "type": "bullet",
           "settings": {
-            "text": "Rebalances the skin\u2019s microbiome for lasting health."
+            "text": "Rebalances the skin’s microbiome for lasting health."
           }
         },
         "b3": {
@@ -37,7 +35,18 @@
         "b1",
         "b2",
         "b3"
-      ]
+      ],
+      "settings": {
+        "label": "Doctor-Designed · Evidence-Based · Australian Made",
+        "headline": "The Weekly Clinical Reset for Visibly Renewed Skin",
+        "subheadline": "A professional-grade weekly treatment that deeply exfoliates, restores the microbiome, and infuses the skin with reparative peptides.",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
+        "cta_text": "Start the Masque Protocol",
+        "cta_url": "",
+        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -47,18 +56,10 @@
         "body": "<p>Even consistent routines can fall short. Dead cell accumulation, a compromised microbiome, and declining cellular repair lead to dullness and accelerated ageing.</p><p><strong>Dull texture</strong> without deep exfoliation.</p><p><strong>Unbalanced ecosystem</strong> from stress and harsh products.</p><p><strong>Slowing cellular repair</strong> with age.</p>",
         "bg": "muted",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
-      "settings": {
-        "label": "The Protocol",
-        "headline": "Your 3-Step Weekly Reset",
-        "cta_text": "Start the Masque Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -86,7 +87,7 @@
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
             "why": "Regenerative peptides and antioxidants for maximum repair.",
-            "key_active": "Matrixyl\u00ae synthe\u20196\u00ae",
+            "key_active": "Matrixyl® synthe’6®",
             "step": "2-3x/week"
           }
         }
@@ -95,15 +96,16 @@
         "p1",
         "p2",
         "p3"
-      ]
+      ],
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 3-Step Weekly Reset",
+        "cta_text": "Start the Masque Protocol",
+        "cta_url": ""
+      }
     },
     "proto_synergy": {
       "type": "aliange-proto-synergy",
-      "settings": {
-        "label": "The Science",
-        "headline": "Engineered to Work as One System",
-        "body": "Each step synergistically enhances the next for a comprehensive skin reset."
-      },
       "blocks": {
         "s1": {
           "type": "point",
@@ -131,11 +133,15 @@
         "s1",
         "s2",
         "s3"
-      ]
+      ],
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step synergistically enhances the next for a comprehensive skin reset."
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
         "st1": {
           "type": "stat",
@@ -171,16 +177,11 @@
         "st2",
         "st3",
         "st4"
-      ]
+      ],
+      "settings": {}
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": {
-        "label": "The Difference",
-        "headline": "A Protocol. Not a Routine.",
-        "col_them": "Random Products",
-        "col_us": "Aliange Masque Protocol"
-      },
       "blocks": {
         "r1": {
           "type": "row",
@@ -220,16 +221,16 @@
         "r2",
         "r3",
         "r4"
-      ]
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "Random Products",
+        "col_us": "Aliange Masque Protocol"
+      }
     },
     "proto_ritual": {
       "type": "aliange-proto-ritual",
-      "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": "Use 2-3 times per week. On non-treatment nights, follow your regular routine."
-      },
       "blocks": {
         "rit1": {
           "type": "step",
@@ -265,18 +266,16 @@
         "rit2",
         "rit3",
         "rit4"
-      ]
+      ],
+      "settings": {
+        "label": "Your Daily Ritual",
+        "headline": "Your Daily Ritual",
+        "am_note": "",
+        "pm_note": "Use 2-3 times per week. On non-treatment nights, follow your regular routine."
+      }
     },
     "proto_includes": {
       "type": "aliange-proto-includes",
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you invest in the complete protocol.",
-        "cta_text": "Start the Masque Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "i1": {
           "type": "product_item",
@@ -307,14 +306,18 @@
         "i1",
         "i2",
         "i3"
-      ]
+      ],
+      "settings": {
+        "label": "What's Included",
+        "headline": "Your Protocol Includes",
+        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
+        "savings_line": "Save when you invest in the complete protocol.",
+        "cta_text": "Start the Masque Protocol",
+        "cta_url": ""
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": {
-        "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -350,19 +353,21 @@
         "q2",
         "q3",
         "q4"
-      ]
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Don\u2019t Just Treat Your Skin. Transform It.",
-        "subheadline": "Unlock your skin\u2019s true potential with a clinically-orchestrated protocol.",
+        "headline": "Don’t Just Treat Your Skin. Transform It.",
+        "subheadline": "Unlock your skin’s true potential with a clinically-orchestrated protocol.",
         "cta_text": "Start the Masque Protocol",
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
   "order": [

@@ -1,23 +1,21 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
-      "settings": {
-        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
-        "headline": "Achieve Clear, Calm, and Congestion-Free Skin",
-        "subheadline": "A complete 5-step clinical system designed by Dr. Alison Jamieson to target breakouts, balance oil production, and restore skin health.",
-        "cta_text": "Start the Acne Protocol",
-        "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
       "blocks": {
         "b1": {
           "type": "bullet",
           "settings": {
-            "text": "Repairs & Strengthens: Fortifies your skin\u2019s natural barrier."
+            "text": "Repairs & Strengthens: Fortifies your skin’s natural barrier."
           }
         },
         "b2": {
@@ -37,28 +35,31 @@
         "b1",
         "b2",
         "b3"
-      ]
+      ],
+      "settings": {
+        "label": "Doctor-Designed · Evidence-Based · Australian Made",
+        "headline": "Achieve Clear, Calm, and Congestion-Free Skin",
+        "subheadline": "A complete 5-step clinical system designed by Dr. Alison Jamieson to target breakouts, balance oil production, and restore skin health.",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
+        "cta_text": "Start the Acne Protocol",
+        "cta_url": "",
+        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Problem",
         "headline": "Tired of the Breakout-Congestion Cycle?",
-        "body": "<p>Managing acne-prone skin can feel like a frustrating battle. Many treatments strip skin, making breakouts worse.</p><p><strong>A Damaged Barrier Leads to More Breakouts.</strong> Over-stripping weakens the skin\u2019s defence system.</p><p><strong>An Unbalanced Microbiome Fuels Acne.</strong> Disrupted bacteria leads to persistent pimples.</p><p><strong>Congestion is the Starting Point.</strong> Clogged pores create the perfect environment for acne.</p>",
+        "body": "<p>Managing acne-prone skin can feel like a frustrating battle. Many treatments strip skin, making breakouts worse.</p><p><strong>A Damaged Barrier Leads to More Breakouts.</strong> Over-stripping weakens the skin’s defence system.</p><p><strong>An Unbalanced Microbiome Fuels Acne.</strong> Disrupted bacteria leads to persistent pimples.</p><p><strong>Congestion is the Starting Point.</strong> Clogged pores create the perfect environment for acne.</p>",
         "bg": "muted",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
-      "settings": {
-        "label": "The Protocol",
-        "headline": "Your 5-Step Acne Protocol",
-        "cta_text": "Start the Acne Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -117,15 +118,16 @@
         "p3",
         "p4",
         "p5"
-      ]
+      ],
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 5-Step Acne Protocol",
+        "cta_text": "Start the Acne Protocol",
+        "cta_url": ""
+      }
     },
     "proto_synergy": {
       "type": "aliange-proto-synergy",
-      "settings": {
-        "label": "The Science",
-        "headline": "Engineered to Work as One System",
-        "body": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity."
-      },
       "blocks": {
         "s1": {
           "type": "point",
@@ -153,11 +155,15 @@
         "s1",
         "s2",
         "s3"
-      ]
+      ],
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity."
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
         "st1": {
           "type": "stat",
@@ -193,16 +199,11 @@
         "st2",
         "st3",
         "st4"
-      ]
+      ],
+      "settings": {}
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": {
-        "label": "The Difference",
-        "headline": "A Protocol. Not a Routine.",
-        "col_them": "A Random Routine",
-        "col_us": "The Aliange Protocol"
-      },
       "blocks": {
         "r1": {
           "type": "row",
@@ -242,16 +243,16 @@
         "r2",
         "r3",
         "r4"
-      ]
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "A Random Routine",
+        "col_us": "The Aliange Protocol"
+      }
     },
     "proto_ritual": {
       "type": "aliange-proto-ritual",
-      "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": "On non-treatment nights, proceed from cleansing to serum."
-      },
       "blocks": {
         "rit1": {
           "type": "step",
@@ -297,18 +298,16 @@
         "rit3",
         "rit4",
         "rit5"
-      ]
+      ],
+      "settings": {
+        "label": "Your Daily Ritual",
+        "headline": "Your Daily Ritual",
+        "am_note": "",
+        "pm_note": "On non-treatment nights, proceed from cleansing to serum."
+      }
     },
     "proto_includes": {
       "type": "aliange-proto-includes",
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save $40 when you buy the complete protocol.",
-        "cta_text": "Start the Acne Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "i1": {
           "type": "product_item",
@@ -357,14 +356,18 @@
         "i3",
         "i4",
         "i5"
-      ]
+      ],
+      "settings": {
+        "label": "What's Included",
+        "headline": "Your Protocol Includes",
+        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
+        "savings_line": "Save $40 when you buy the complete protocol.",
+        "cta_text": "Start the Acne Protocol",
+        "cta_url": ""
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": {
-        "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -408,7 +411,11 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -418,9 +425,7 @@
         "cta_text": "Order the Acne Protocol Now",
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
   "order": [

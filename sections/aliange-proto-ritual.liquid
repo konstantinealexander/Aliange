@@ -147,36 +147,35 @@
 
 {% schema %}
 {
-  "name": "Protocol — AM/PM Ritual",
+  "name": "Protocol - AM/PM Ritual",
   "tag": "div",
   "settings": [
     { "type": "text", "id": "label", "label": "Eyebrow label", "default": "Your Daily Ritual" },
     { "type": "text", "id": "headline", "label": "Headline", "default": "Your Daily Ritual" },
-    { "type": "textarea", "id": "am_note", "label": "AM note (italic)", "info": "Optional note below the AM column" },
-    { "type": "textarea", "id": "pm_note", "label": "PM note (italic)", "info": "Optional note below the PM column" }
+    { "type": "textarea", "id": "am_note", "label": "AM Notes", "default": "Start your day by preparing and protecting your skin." },
+    { "type": "textarea", "id": "pm_note", "label": "PM Notes", "default": "On non-treatment nights, proceed from cleansing directly to serum." }
   ],
   "blocks": [
     {
       "type": "step",
-      "name": "Ritual Step",
-      "limit": 10,
+      "name": "Routine Step",
       "settings": [
-        { "type": "text", "id": "text", "label": "Step text", "default": "Cleanse with Daily Devotion Cleanser" },
+        { "type": "text", "id": "text", "label": "Step description", "default": "Cleanse with Daily Devotion Cleanser" },
         {
           "type": "select",
           "id": "time",
           "label": "Time of day",
           "options": [
-            { "value": "am", "label": "AM only" },
-            { "value": "pm", "label": "PM only" },
-            { "value": "both", "label": "AM & PM" }
+            { "value": "am", "label": "AM" },
+            { "value": "pm", "label": "PM" },
+            { "value": "both", "label": "Both" }
           ],
           "default": "both"
         },
-        { "type": "text", "id": "frequency", "label": "Frequency note", "info": "e.g. '2-3x/week'" }
+        { "type": "text", "id": "frequency", "label": "Frequency (optional)", "placeholder": "2-3x/week" }
       ]
     }
   ],
-  "presets": [{ "name": "Protocol — AM/PM Ritual" }]
+  "presets": [{ "name": "Protocol - AM/PM Ritual" }]
 }
 {% endschema %}

@@ -1,24 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "A complete, doctor-designed system for total skin rejuvenation."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Targets all signs of ageing, from fine lines to pigmentation."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Synergistic formulas for superior results."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Doctor-Designed · Evidence-Based · Australian Made",
         "headline": "The Complete Clinical System for Ageing, Rejuvenation and Repair",
         "subheadline": "This is the flagship protocol from Aliangé. A comprehensive, 6-step system designed by Dr. Alison Jamieson to deliver a complete clinical skincare solution for women seeking significant, visible results.",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
         "cta_text": "Start The Protocol",
         "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "A complete, doctor-designed system for total skin rejuvenation." } },
-        "b2": { "type": "bullet", "settings": { "text": "Targets all signs of ageing, from fine lines to pigmentation." } },
-        "b3": { "type": "bullet", "settings": { "text": "Synergistic formulas for superior results." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -28,80 +56,340 @@
         "body": "<p>As skin matures, a collection of randomly assembled products is not enough to address the complex biological changes that occur. To achieve visible, lasting results, you need a system where each product is designed to work in synergy with the others.</p><p><strong>Fragmented routines deliver fragmented results.</strong> Without a clear, synergistic system, you may be missing key steps or using ingredients that conflict, undermining your efforts.</p><p><strong>Ageing is a multi-faceted process.</strong> It involves not just fine lines, but also loss of firmness, uneven skin tone, and a decline in the skin's natural barrier function.</p><p><strong>Generic products are not enough.</strong> Your skin needs a clinical-grade system with high concentrations of proven active ingredients.</p>",
         "bg": "muted",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Daily Devotion Cleanser",
+            "price": "$55",
+            "why": "This gentle, non-stripping cleanser removes impurities and prepares the skin for the powerful active ingredients to follow.",
+            "key_active": "Coconut-derived Surfactants",
+            "step": "AM & PM"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Biocinamide Serum",
+            "price": "$90",
+            "why": "This multi-tasking serum strengthens the skin's barrier, refines pores, and improves overall skin texture.",
+            "key_active": "Niacinamide (Vitamin B3)",
+            "step": "AM & PM"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "This potent serum targets pigmentation and uneven skin tone, revealing a brighter, more radiant complexion.",
+            "key_active": "Oligopeptide-68",
+            "step": "PM"
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Jellyfish Peptide x Antioxidant Serum",
+            "price": "$225",
+            "why": "This advanced serum provides powerful anti-ageing and antioxidant benefits, helping to repair and protect the skin.",
+            "key_active": "Matrixyl® synthe'6®",
+            "step": "AM & PM"
+          }
+        },
+        "p5": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "This lightweight day cream hydrates, protects the skin from UV damage, and provides a filler-like effect to reduce the appearance of wrinkles.",
+            "key_active": "Matrixyl 3000®",
+            "step": "AM"
+          }
+        },
+        "p6": {
+          "type": "product_step",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "price": "$130",
+            "why": "This powerful retinol-based night cream works overnight to rejuvenate the skin, targeting fine lines, wrinkles, and other signs of ageing.",
+            "key_active": "Retinol + Bakuchiol",
+            "step": "PM"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
       "settings": {
         "label": "The Protocol",
         "headline": "Your 6-Step Clinical System",
         "cta_text": "Start The Protocol",
         "cta_url": ""
-      },
-      "blocks": {
-        "p1": { "type": "product_step", "settings": { "name": "Daily Devotion Cleanser", "price": "$55", "why": "This gentle, non-stripping cleanser removes impurities and prepares the skin for the powerful active ingredients to follow.", "key_active": "Coconut-derived Surfactants", "step": "AM & PM" } },
-        "p2": { "type": "product_step", "settings": { "name": "Biocinamide Serum", "price": "$90", "why": "This multi-tasking serum strengthens the skin's barrier, refines pores, and improves overall skin texture.", "key_active": "Niacinamide (Vitamin B3)", "step": "AM & PM" } },
-        "p3": { "type": "product_step", "settings": { "name": "Brightening Serum", "price": "$100", "why": "This potent serum targets pigmentation and uneven skin tone, revealing a brighter, more radiant complexion.", "key_active": "Oligopeptide-68", "step": "PM" } },
-        "p4": { "type": "product_step", "settings": { "name": "Jellyfish Peptide x Antioxidant Serum", "price": "$225", "why": "This advanced serum provides powerful anti-ageing and antioxidant benefits, helping to repair and protect the skin.", "key_active": "Matrixyl® synthe'6®", "step": "AM & PM" } },
-        "p5": { "type": "product_step", "settings": { "name": "Day Cream SPF 15", "price": "$90", "why": "This lightweight day cream hydrates, protects the skin from UV damage, and provides a filler-like effect to reduce the appearance of wrinkles.", "key_active": "Matrixyl 3000®", "step": "AM" } },
-        "p6": { "type": "product_step", "settings": { "name": "Ultimate A Night Cream", "price": "$130", "why": "This powerful retinol-based night cream works overnight to rejuvenate the skin, targeting fine lines, wrinkles, and other signs of ageing.", "key_active": "Retinol + Bakuchiol", "step": "PM" } }
-      },
-      "block_order": ["p1", "p2", "p3", "p4", "p5", "p6"]
+      }
     },
     "proto_synergy": {
       "type": "aliange-proto-synergy",
+      "blocks": {
+        "s1": {
+          "type": "point",
+          "settings": {
+            "title": "Preparation is Key",
+            "description": "The Daily Devotion Cleanser gently removes impurities without stripping the skin, creating a clean canvas for the powerful active ingredients in the serums to penetrate effectively."
+          }
+        },
+        "s2": {
+          "type": "point",
+          "settings": {
+            "title": "Layered for Maximum Impact",
+            "description": "The serums are layered in a specific order to ensure that each active ingredient can work to its full potential. The Biocinamide Serum strengthens the skin's barrier, allowing the Brightening Serum and Jellyfish Peptide Serum to penetrate more deeply."
+          }
+        },
+        "s3": {
+          "type": "point",
+          "settings": {
+            "title": "Protection and Repair, Day and Night",
+            "description": "The Day Cream SPF 15 protects the skin from the sun's damaging rays during the day, while the Ultimate A Night Cream works overnight to repair and rejuvenate the skin."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
       "settings": {
         "label": "The Science",
         "headline": "Engineered to Work as One System",
         "body": "The Protocol is more than just a collection of products; it's a complete, synergistic system. Each step is designed to prepare the skin for the next, creating a powerful cascade of effects that work together to deliver superior results."
-      },
-      "blocks": {
-        "s1": { "type": "point", "settings": { "title": "Preparation is Key", "description": "The Daily Devotion Cleanser gently removes impurities without stripping the skin, creating a clean canvas for the powerful active ingredients in the serums to penetrate effectively." } },
-        "s2": { "type": "point", "settings": { "title": "Layered for Maximum Impact", "description": "The serums are layered in a specific order to ensure that each active ingredient can work to its full potential. The Biocinamide Serum strengthens the skin's barrier, allowing the Brightening Serum and Jellyfish Peptide Serum to penetrate more deeply." } },
-        "s3": { "type": "point", "settings": { "title": "Protection and Repair, Day and Night", "description": "The Day Cream SPF 15 protects the skin from the sun's damaging rays during the day, while the Ultimate A Night Cream works overnight to repair and rejuvenate the skin." } }
-      },
-      "block_order": ["s1", "s2", "s3"]
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "41%", "label": "Wrinkle Reduction in 8 Weeks" } },
-        "s2": { "type": "stat", "settings": { "value": "12", "label": "Active Ingredients" } },
-        "s3": { "type": "stat", "settings": { "value": "90", "label": "Days to Visible Results" } },
-        "s4": { "type": "stat", "settings": { "value": "6", "label": "Synergistic Products" } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "41%",
+            "label": "Wrinkle Reduction in 8 Weeks"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "12",
+            "label": "Active Ingredients"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "90",
+            "label": "Days to Visible Results"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "6",
+            "label": "Synergistic Products"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": { "label": "The Difference", "headline": "A Protocol. Not a Routine.", "col_them": "The Random Routine Problem", "col_us": "The Protocol Advantage" },
       "blocks": {
-        "r1": { "type": "row", "settings": { "feature": "System", "them": "A collection of disconnected products", "us": "A complete, synergistic system" } },
-        "r2": { "type": "row", "settings": { "feature": "Design", "them": "Guesswork and trial-and-error", "us": "Doctor-designed for optimal results" } },
-        "r3": { "type": "row", "settings": { "feature": "Ingredients", "them": "Ineffective or conflicting ingredients", "us": "High concentrations of proven actives" } },
-        "r4": { "type": "row", "settings": { "feature": "Coverage", "them": "Targets only one or two concerns", "us": "Addresses all signs of ageing" } },
-        "r5": { "type": "row", "settings": { "feature": "Results", "them": "Inconsistent or disappointing results", "us": "Visible, lasting results" } }
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "System",
+            "them": "A collection of disconnected products",
+            "us": "A complete, synergistic system"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Design",
+            "them": "Guesswork and trial-and-error",
+            "us": "Doctor-designed for optimal results"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Ingredients",
+            "them": "Ineffective or conflicting ingredients",
+            "us": "High concentrations of proven actives"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Coverage",
+            "them": "Targets only one or two concerns",
+            "us": "Addresses all signs of ageing"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "feature": "Results",
+            "them": "Inconsistent or disappointing results",
+            "us": "Visible, lasting results"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4", "r5"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "The Random Routine Problem",
+        "col_us": "The Protocol Advantage"
+      }
     },
     "proto_ritual": {
       "type": "aliange-proto-ritual",
-      "settings": { "label": "Your Daily Ritual", "headline": "Your Daily Ritual" },
       "blocks": {
-        "r1": { "type": "step", "settings": { "text": "Cleanse with Daily Devotion Cleanser", "time": "both" } },
-        "r2": { "type": "step", "settings": { "text": "Apply Biocinamide Serum", "time": "both" } },
-        "r3": { "type": "step", "settings": { "text": "Apply Brightening Serum", "time": "pm" } },
-        "r4": { "type": "step", "settings": { "text": "Apply Jellyfish Peptide x Antioxidant Serum", "time": "both" } },
-        "r5": { "type": "step", "settings": { "text": "Apply Day Cream SPF 15", "time": "am" } },
-        "r6": { "type": "step", "settings": { "text": "Apply Ultimate A Night Cream", "time": "pm" } }
+        "r1": {
+          "type": "step",
+          "settings": {
+            "text": "Cleanse with Daily Devotion Cleanser",
+            "time": "both"
+          }
+        },
+        "r2": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Biocinamide Serum",
+            "time": "both"
+          }
+        },
+        "r3": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Brightening Serum",
+            "time": "pm"
+          }
+        },
+        "r4": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Jellyfish Peptide x Antioxidant Serum",
+            "time": "both"
+          }
+        },
+        "r5": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Day Cream SPF 15",
+            "time": "am"
+          }
+        },
+        "r6": {
+          "type": "step",
+          "settings": {
+            "text": "Apply Ultimate A Night Cream",
+            "time": "pm"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ],
+      "settings": {
+        "label": "Your Daily Ritual",
+        "headline": "Your Daily Ritual"
+      }
     },
     "proto_includes": {
       "type": "aliange-proto-includes",
+      "blocks": {
+        "i1": {
+          "type": "product_item",
+          "settings": {
+            "name": "Daily Devotion Cleanser",
+            "size": "200ml",
+            "price": "$55"
+          }
+        },
+        "i2": {
+          "type": "product_item",
+          "settings": {
+            "name": "Biocinamide Serum",
+            "size": "50ml",
+            "price": "$90"
+          }
+        },
+        "i3": {
+          "type": "product_item",
+          "settings": {
+            "name": "Brightening Serum",
+            "size": "50ml",
+            "price": "$100"
+          }
+        },
+        "i4": {
+          "type": "product_item",
+          "settings": {
+            "name": "Jellyfish Peptide x Antioxidant Serum",
+            "size": "50ml",
+            "price": "$225"
+          }
+        },
+        "i5": {
+          "type": "product_item",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "size": "50ml",
+            "price": "$90"
+          }
+        },
+        "i6": {
+          "type": "product_item",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "size": "50ml",
+            "price": "$130"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5",
+        "i6"
+      ],
       "settings": {
         "label": "What's Included",
         "headline": "Your Protocol Includes",
@@ -109,28 +397,58 @@
         "savings_line": "Save when you buy the complete protocol.",
         "cta_text": "Start The Protocol",
         "cta_url": ""
-      },
-      "blocks": {
-        "i1": { "type": "product_item", "settings": { "name": "Daily Devotion Cleanser", "size": "200ml", "price": "$55" } },
-        "i2": { "type": "product_item", "settings": { "name": "Biocinamide Serum", "size": "50ml", "price": "$90" } },
-        "i3": { "type": "product_item", "settings": { "name": "Brightening Serum", "size": "50ml", "price": "$100" } },
-        "i4": { "type": "product_item", "settings": { "name": "Jellyfish Peptide x Antioxidant Serum", "size": "50ml", "price": "$225" } },
-        "i5": { "type": "product_item", "settings": { "name": "Day Cream SPF 15", "size": "50ml", "price": "$90" } },
-        "i6": { "type": "product_item", "settings": { "name": "Ultimate A Night Cream", "size": "50ml", "price": "$130" } }
-      },
-      "block_order": ["i1", "i2", "i3", "i4", "i5", "i6"]
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "How long before I see results?", "answer": "<p>While many users notice a difference in their skin's texture and hydration within the first few weeks, the most significant results, such as a reduction in fine lines and pigmentation, will become visible after 90 days of consistent use.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "Can I use this with other products?", "answer": "<p>This protocol is designed to be a complete system. While you can incorporate other products, we recommend using the protocol as directed for at least 90 days to experience the full benefits.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "Is this suitable for sensitive skin?", "answer": "<p>While the products in this protocol are formulated to be gentle, we recommend patch-testing before use if you have sensitive skin. The Ultimate A Night Cream contains retinol, which can cause irritation in some individuals.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "What skin types is this for?", "answer": "<p>This protocol is suitable for most skin types, particularly those concerned with ageing, fine lines, wrinkles, and pigmentation.</p>" } },
-        "q5": { "type": "question", "settings": { "question": "How long does the protocol last?", "answer": "<p>With daily use as directed, the products in this protocol should last for approximately 3 months.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How long before I see results?",
+            "answer": "<p>While many users notice a difference in their skin's texture and hydration within the first few weeks, the most significant results, such as a reduction in fine lines and pigmentation, will become visible after 90 days of consistent use.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this with other products?",
+            "answer": "<p>This protocol is designed to be a complete system. While you can incorporate other products, we recommend using the protocol as directed for at least 90 days to experience the full benefits.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Is this suitable for sensitive skin?",
+            "answer": "<p>While the products in this protocol are formulated to be gentle, we recommend patch-testing before use if you have sensitive skin. The Ultimate A Night Cream contains retinol, which can cause irritation in some individuals.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "What skin types is this for?",
+            "answer": "<p>This protocol is suitable for most skin types, particularly those concerned with ageing, fine lines, wrinkles, and pigmentation.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How long does the protocol last?",
+            "answer": "<p>With daily use as directed, the products in this protocol should last for approximately 3 months.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -140,10 +458,19 @@
         "cta_text": "Start The Protocol",
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_problem", "lp_routine", "proto_synergy", "lp_stats", "lp_comparison", "proto_ritual", "proto_includes", "lp_faq", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_routine",
+    "proto_synergy",
+    "lp_stats",
+    "lp_comparison",
+    "proto_ritual",
+    "proto_includes",
+    "lp_faq",
+    "lp_cta"
+  ]
 }

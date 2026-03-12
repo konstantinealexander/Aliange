@@ -95,24 +95,23 @@
 
 {% schema %}
 {
-  "name": "Protocol — Synergy",
+  "name": "Protocol - Synergy",
   "tag": "div",
   "settings": [
-    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "Why It Works" },
+    { "type": "text", "id": "label", "label": "Eyebrow label", "default": "The Science" },
     { "type": "text", "id": "headline", "label": "Headline", "default": "Engineered to Work as One System" },
-    { "type": "textarea", "id": "body", "label": "Body paragraph" }
+    { "type": "textarea", "id": "body", "label": "Body text", "default": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity." }
   ],
   "blocks": [
     {
       "type": "point",
       "name": "Synergy Point",
-      "limit": 4,
       "settings": [
-        { "type": "text", "id": "title", "label": "Title", "default": "Preparation is key" },
-        { "type": "textarea", "id": "description", "label": "Description", "default": "Each step prepares the skin for the next, creating a powerful cascade of effects." }
+        { "type": "text", "id": "title", "label": "Title", "default": "Prepare & Decongest" },
+        { "type": "textarea", "id": "description", "label": "Description", "default": "The Cleanser and Exfoliator purify skin and clear pores for treatment products." }
       ]
     }
   ],
-  "presets": [{ "name": "Protocol — Synergy" }]
+  "presets": [{ "name": "Protocol - Synergy" }]
 }
 {% endschema %}

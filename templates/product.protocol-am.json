@@ -1,23 +1,21 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
-      "settings": {
-        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
-        "headline": "The Ultimate Morning Shield for Your Skin",
-        "subheadline": "A four-step system to protect your skin from daily aggressors while actively treating and strengthening it.",
-        "cta_text": "Start the AM Protocol",
-        "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
       "blocks": {
         "b1": {
           "type": "bullet",
           "settings": {
-            "text": "Strengthens your skin\u2019s natural barrier."
+            "text": "Strengthens your skin’s natural barrier."
           }
         },
         "b2": {
@@ -37,28 +35,31 @@
         "b1",
         "b2",
         "b3"
-      ]
+      ],
+      "settings": {
+        "label": "Doctor-Designed · Evidence-Based · Australian Made",
+        "headline": "The Ultimate Morning Shield for Your Skin",
+        "subheadline": "A four-step system to protect your skin from daily aggressors while actively treating and strengthening it.",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
+        "cta_text": "Start the AM Protocol",
+        "cta_url": "",
+        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Problem",
         "headline": "Your Skin is Under Constant Attack",
-        "body": "<p>UV radiation, pollution, and blue light cause premature ageing, inflammation, and barrier damage.</p><p><strong>UV is the #1 cause of premature ageing.</strong></p><p><strong>A compromised barrier can\u2019t defend itself.</strong></p><p><strong>Collagen declines with age.</strong></p>",
+        "body": "<p>UV radiation, pollution, and blue light cause premature ageing, inflammation, and barrier damage.</p><p><strong>UV is the #1 cause of premature ageing.</strong></p><p><strong>A compromised barrier can’t defend itself.</strong></p><p><strong>Collagen declines with age.</strong></p>",
         "bg": "muted",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
-      "settings": {
-        "label": "The Protocol",
-        "headline": "Your 4-Step Morning Protocol",
-        "cta_text": "Start the AM Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -86,7 +87,7 @@
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
             "why": "Antioxidant protection and collagen stimulation.",
-            "key_active": "Matrixyl\u00ae synthe\u20196\u00ae",
+            "key_active": "Matrixyl® synthe’6®",
             "step": "AM"
           }
         },
@@ -96,7 +97,7 @@
             "name": "Day Cream SPF 15",
             "price": "$90",
             "why": "Locks in actives and provides UV protection.",
-            "key_active": "Matrixyl 3000\u00ae",
+            "key_active": "Matrixyl 3000®",
             "step": "AM"
           }
         }
@@ -106,15 +107,16 @@
         "p2",
         "p3",
         "p4"
-      ]
+      ],
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 4-Step Morning Protocol",
+        "cta_text": "Start the AM Protocol",
+        "cta_url": ""
+      }
     },
     "proto_synergy": {
       "type": "aliange-proto-synergy",
-      "settings": {
-        "label": "The Science",
-        "headline": "Engineered to Work as One System",
-        "body": "Each step enhances the next for optimal absorption and all-day defence."
-      },
       "blocks": {
         "s1": {
           "type": "point",
@@ -142,11 +144,15 @@
         "s1",
         "s2",
         "s3"
-      ]
+      ],
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step enhances the next for optimal absorption and all-day defence."
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
         "st1": {
           "type": "stat",
@@ -182,16 +188,11 @@
         "st2",
         "st3",
         "st4"
-      ]
+      ],
+      "settings": {}
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": {
-        "label": "The Difference",
-        "headline": "A Protocol. Not a Routine.",
-        "col_them": "Random Routine",
-        "col_us": "Aliange AM Protocol"
-      },
       "blocks": {
         "r1": {
           "type": "row",
@@ -231,16 +232,16 @@
         "r2",
         "r3",
         "r4"
-      ]
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "Random Routine",
+        "col_us": "Aliange AM Protocol"
+      }
     },
     "proto_ritual": {
       "type": "aliange-proto-ritual",
-      "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": ""
-      },
       "blocks": {
         "rit1": {
           "type": "step",
@@ -276,18 +277,16 @@
         "rit2",
         "rit3",
         "rit4"
-      ]
+      ],
+      "settings": {
+        "label": "Your Daily Ritual",
+        "headline": "Your Daily Ritual",
+        "am_note": "",
+        "pm_note": ""
+      }
     },
     "proto_includes": {
       "type": "aliange-proto-includes",
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you buy the complete protocol.",
-        "cta_text": "Start the AM Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "i1": {
           "type": "product_item",
@@ -327,14 +326,18 @@
         "i2",
         "i3",
         "i4"
-      ]
+      ],
+      "settings": {
+        "label": "What's Included",
+        "headline": "Your Protocol Includes",
+        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
+        "savings_line": "Save when you buy the complete protocol.",
+        "cta_text": "Start the AM Protocol",
+        "cta_url": ""
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": {
-        "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -370,19 +373,21 @@
         "q2",
         "q3",
         "q4"
-      ]
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Invest in Your Skin\u2019s Future.",
+        "headline": "Invest in Your Skin’s Future.",
         "subheadline": "A clinically proven doctor-designed morning system.",
         "cta_text": "Start Your 90-Day Transformation",
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
   "order": [

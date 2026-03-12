@@ -1,18 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
-      "settings": {
-        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
-        "headline": "Rewind the Clock on Ageing Skin",
-        "subheadline": "A clinical-strength protocol designed for women 40+ to target wrinkles, loss of firmness, and age spots.",
-        "cta_text": "Start the Anti-Ageing Protocol",
-        "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
       "blocks": {
         "b1": {
           "type": "bullet",
@@ -37,7 +35,18 @@
         "b1",
         "b2",
         "b3"
-      ]
+      ],
+      "settings": {
+        "label": "Doctor-Designed · Evidence-Based · Australian Made",
+        "headline": "Rewind the Clock on Ageing Skin",
+        "subheadline": "A clinical-strength protocol designed for women 40+ to target wrinkles, loss of firmness, and age spots.",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
+        "cta_text": "Start the Anti-Ageing Protocol",
+        "cta_url": "",
+        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -47,18 +56,10 @@
         "body": "<p>As skin matures, regenerative processes slow. Collagen declines, cell turnover becomes sluggish, and sun exposure causes persistent pigmentation.</p><p><strong>Collagen degradation</strong> leads to loss of firmness.</p><p><strong>Slower cell renewal</strong> results in rougher texture.</p><p><strong>Accumulated UV damage</strong> manifests as sun spots.</p>",
         "bg": "muted",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
-      "settings": {
-        "label": "The Protocol",
-        "headline": "Your 3-Step Anti-Ageing Protocol",
-        "cta_text": "Start the Anti-Ageing Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -76,7 +77,7 @@
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
             "why": "Powerful collagen stimulation and DNA repair.",
-            "key_active": "Matrixyl\u00ae synthe\u20196\u00ae",
+            "key_active": "Matrixyl® synthe’6®",
             "step": "AM & PM"
           }
         },
@@ -95,15 +96,16 @@
         "p1",
         "p2",
         "p3"
-      ]
+      ],
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 3-Step Anti-Ageing Protocol",
+        "cta_text": "Start the Anti-Ageing Protocol",
+        "cta_url": ""
+      }
     },
     "proto_synergy": {
       "type": "aliange-proto-synergy",
-      "settings": {
-        "label": "The Science",
-        "headline": "Engineered to Work as One System",
-        "body": "Each step potentiates the next for multi-pathway rejuvenation."
-      },
       "blocks": {
         "s1": {
           "type": "point",
@@ -123,7 +125,7 @@
           "type": "point",
           "settings": {
             "title": "Accelerated Renewal",
-            "description": "Night Cream\u2019s retinol works on a structurally supported canvas for superior results."
+            "description": "Night Cream’s retinol works on a structurally supported canvas for superior results."
           }
         }
       },
@@ -131,11 +133,15 @@
         "s1",
         "s2",
         "s3"
-      ]
+      ],
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step potentiates the next for multi-pathway rejuvenation."
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
         "st1": {
           "type": "stat",
@@ -171,16 +177,11 @@
         "st2",
         "st3",
         "st4"
-      ]
+      ],
+      "settings": {}
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": {
-        "label": "The Difference",
-        "headline": "A Protocol. Not a Routine.",
-        "col_them": "A Random Routine",
-        "col_us": "The Aliange Protocol"
-      },
       "blocks": {
         "r1": {
           "type": "row",
@@ -220,16 +221,16 @@
         "r2",
         "r3",
         "r4"
-      ]
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "A Random Routine",
+        "col_us": "The Aliange Protocol"
+      }
     },
     "proto_ritual": {
       "type": "aliange-proto-ritual",
-      "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": ""
-      },
       "blocks": {
         "rit1": {
           "type": "step",
@@ -273,18 +274,16 @@
         "rit3",
         "rit4",
         "rit5"
-      ]
+      ],
+      "settings": {
+        "label": "Your Daily Ritual",
+        "headline": "Your Daily Ritual",
+        "am_note": "",
+        "pm_note": ""
+      }
     },
     "proto_includes": {
       "type": "aliange-proto-includes",
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you invest in the complete Anti-Ageing Protocol.",
-        "cta_text": "Start the Anti-Ageing Protocol",
-        "cta_url": ""
-      },
       "blocks": {
         "i1": {
           "type": "product_item",
@@ -315,14 +314,18 @@
         "i1",
         "i2",
         "i3"
-      ]
+      ],
+      "settings": {
+        "label": "What's Included",
+        "headline": "Your Protocol Includes",
+        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
+        "savings_line": "Save when you invest in the complete Anti-Ageing Protocol.",
+        "cta_text": "Start the Anti-Ageing Protocol",
+        "cta_url": ""
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": {
-        "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -366,19 +369,21 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Invest in Your Skin\u2019s Future.",
+        "headline": "Invest in Your Skin’s Future.",
         "subheadline": "See the results risk-free with a clinically-designed system.",
         "cta_text": "Start Your Transformation",
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
   "order": [
