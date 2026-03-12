@@ -32,7 +32,7 @@
         "q1": {
           "type": "quote",
           "settings": {
-            "quote_text": "Operating from her flagship practice, Aliangé Skin Clinics in Maroochydore, Queensland, Dr. Jamieson observed a consistent gap in the market: consumers were mixing and matching products without a biological strategy, leading to compromised skin barriers and underwhelming results. Aliangé exists to bridge that gap.",
+            "quote_text": "Operating from her flagship practice, Aliangé Skin Clinics in Queensland, Dr. Jamieson observed a consistent gap in the market: consumers were mixing and matching products without a biological strategy, leading to compromised skin barriers and underwhelming results. Aliangé exists to bridge that gap.",
             "attribution": "— The Aliangé Story"
           }
         }
@@ -204,7 +204,7 @@
       ],
       "settings": {
         "label": "Proudly Australian",
-        "headline": "The Aliangé Commitment",
+        "headline": "Our Commitment",
         "subheadline": ""
       }
     },
