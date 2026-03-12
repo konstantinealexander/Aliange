@@ -1,11 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
-      "settings": {
-        "description": "A revolutionary microbiome treatment masque, clinically formulated by Dr. Alison Jamieson to detoxify, balance, and deeply nourish your skin for a visibly radiant and calm complexion.",
-        "atc_text": "Experience Balanced Skin \u2014 $50"
-      },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
@@ -46,9 +51,6 @@
           "settings": {
             "icon": "drop",
             "title": "Microbiome",
-            "settings": {
-              "text": ""
-            },
             "description": "Pre/Pro/Postbiotic"
           }
         },
@@ -69,8 +71,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -84,14 +86,14 @@
         "faq_1",
         "faq_2",
         "faq_3"
-      ]
+      ],
+      "settings": {
+        "description": "A revolutionary microbiome treatment masque, clinically formulated by Dr. Alison Jamieson to detoxify, balance, and deeply nourish your skin for a visibly radiant and calm complexion.",
+        "atc_text": "Experience Balanced Skin — $50"
+      }
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      },
       "blocks": {
         "press_1": {
           "type": "logo",
@@ -123,15 +125,14 @@
         "press_2",
         "press_3",
         "press_4"
-      ]
+      ],
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
-      "settings": {
-        "label": "Microbiome Harmony",
-        "bg_color": "#ffffff",
-        "speed": 25
-      },
       "blocks": {
         "badge_1": {
           "type": "badge",
@@ -170,24 +171,23 @@
         "badge_3",
         "badge_4",
         "badge_5"
-      ]
+      ],
+      "settings": {
+        "label": "Microbiome Harmony",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight. Its calming and purifying properties work wonders while you sleep."
       }
     },
     "benefits": {
       "type": "aliange-pdp-benefits",
-      "settings": {
-        "heading": "Restore Your Skin's Harmony",
-        "subheading": "A weekly scientific reset button for your skin's microbiome.",
-        "header_align": "left",
-        "button_text": "Shop Probiotic Masque"
-      },
       "blocks": {
         "b1": {
           "type": "benefit",
@@ -239,15 +239,16 @@
         "b4",
         "b5",
         "b6"
-      ]
+      ],
+      "settings": {
+        "heading": "Restore Your Skin's Harmony",
+        "subheading": "A weekly scientific reset button for your skin's microbiome.",
+        "header_align": "left",
+        "button_text": "Shop Probiotic Masque"
+      }
     },
     "stats": {
       "type": "aliange-pdp-stats",
-      "settings": {
-        "heading": "Microbiome Balance Stats.",
-        "subheading": "Clinical evidence supporting a healthier ecosystem:",
-        "columns": 4
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -287,17 +288,15 @@
         "s2",
         "s3",
         "s4"
-      ]
+      ],
+      "settings": {
+        "heading": "Microbiome Balance Stats.",
+        "subheading": "Clinical evidence supporting a healthier ecosystem:",
+        "columns": 4
+      }
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
-      "settings": {
-        "heading": "Microbiome Reset vs. Basic Mask",
-        "subheading": "Traditional masks strip the skin. Aliang\u00e9 balances and feeds it.",
-        "aliange_label": "Probiotic Masque",
-        "competitor_label": "Generic Mud Mask",
-        "button_text": "Upgrade Your Mask"
-      },
       "blocks": {
         "r1": {
           "type": "comparison_row",
@@ -373,15 +372,17 @@
         "r6",
         "r7",
         "r8"
-      ]
+      ],
+      "settings": {
+        "heading": "Microbiome Reset vs. Basic Mask",
+        "subheading": "Traditional masks strip the skin. Aliangé balances and feeds it.",
+        "aliange_label": "Probiotic Masque",
+        "competitor_label": "Generic Mud Mask",
+        "button_text": "Upgrade Your Mask"
+      }
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
-      "settings": {
-        "heading": "Skin Ecosystem Support.",
-        "subheading": "A complete microbiome-balancing trio of prebiotics, probiotics, and postbiotics.",
-        "columns": 3
-      },
       "blocks": {
         "i1": {
           "type": "ingredient",
@@ -435,16 +436,15 @@
         "i3",
         "i4",
         "i5"
-      ]
+      ],
+      "settings": {
+        "heading": "Skin Ecosystem Support.",
+        "subheading": "A complete microbiome-balancing trio of prebiotics, probiotics, and postbiotics.",
+        "columns": 3
+      }
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
-      "settings": {
-        "heading": "Microbiome Reset Ritual",
-        "subheading": "Steps to restore balance and clarity.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
-        "pro_tip_quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight."
-      },
       "blocks": {
         "step1": {
           "type": "step",
@@ -480,15 +480,16 @@
         "step2",
         "step3",
         "step4"
-      ]
+      ],
+      "settings": {
+        "heading": "Microbiome Reset Ritual",
+        "subheading": "Steps to restore balance and clarity.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight."
+      }
     },
     "faq": {
       "type": "aliange-pdp-faq",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "Everything you need to know about the Probiotic Masque.",
-        "button_text": "Shop Probiotic Masque"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -501,7 +502,7 @@
           "type": "question",
           "settings": {
             "question": "Is it suitable for Rosacea or Acne?",
-            "answer": "<p>Yes, absolutely. Focused on calming inflammation and supporting the skin barrier. It\u2019s excellent for stressed skin.</p>"
+            "answer": "<p>Yes, absolutely. Focused on calming inflammation and supporting the skin barrier. It’s excellent for stressed skin.</p>"
           }
         },
         "q3": {
@@ -532,18 +533,23 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about the Probiotic Masque.",
+        "button_text": "Shop Probiotic Masque"
+      }
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
       "settings": {
         "heading": "Your Healthiest Skin Awaits.",
         "subheading": "Invest in the long-term balance of your skin's microbiome.",
-        "button_text": "Add to Cart \u2014 $50",
+        "button_text": "Add to Cart — $50",
         "trust_line": "90-Day Money-Back Guarantee.",
-        "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to breakouts \u2192",
-        "secondary_link_url": "/pages/concern-breakouts"
+        "secondary_link_text": "Learn about our clinical approach to breakouts →",
+        "secondary_link_url": "/pages/concern-breakouts",
+        "bg_color": "#F4F7F9"
       }
     }
   },

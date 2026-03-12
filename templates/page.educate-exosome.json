@@ -1,24 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Understand how exosome technology supports skin renewal."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Learn how cellular communication drives skin health."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Discover the Aliangé CellRevive Exosome Cream formulation."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Aliangé Education",
         "headline": "What Is an Exosome in Skincare?",
         "subheadline": "Exosomes are microscopic extracellular vesicles naturally produced by cells. They function as biological communication carriers, transporting proteins, lipids, and signalling molecules between cells. In advanced skincare formulations, exosome-derived technologies are explored for their ability to support skin renewal and cellular communication.",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
         "cta_text": "Explore CellRevive Exosome Cream",
         "cta_url": "/products/cellrevive-exosome-cream",
-        "trust_line": "Doctor-Developed | Science-Backed | Australian-Made",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "Understand how exosome technology supports skin renewal." } },
-        "b2": { "type": "bullet", "settings": { "text": "Learn how cellular communication drives skin health." } },
-        "b3": { "type": "bullet", "settings": { "text": "Discover the Aliangé CellRevive Exosome Cream formulation." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "trust_line": "Doctor-Developed | Science-Backed | Australian-Made"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -28,9 +56,7 @@
         "body": "<p>Healthy skin depends on constant communication between cells. Skin cells coordinate biological processes including tissue repair, collagen production, cellular renewal, and inflammation control.</p><p>These processes rely on biochemical signals passed between cells. Exosomes function as carriers for these signals, helping cells communicate efficiently.</p><p>In regenerative medicine research, exosomes have gained attention for their ability to transport growth factors and signalling molecules. When used in advanced cosmetic formulations, exosome-derived ingredients may support the skin's natural renewal processes.</p><p>This may contribute to improvements in <strong>skin texture, elasticity, hydration, and visible signs of aging</strong>. Because exosomes influence cellular communication rather than acting only on the skin's surface, they represent one of the more advanced developments in cosmetic skincare science.</p>",
         "bg": "muted",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
@@ -40,56 +66,206 @@
         "body": "<p>Aliangé's CellRevive Exosome Cream incorporates exosome-derived technology alongside hydrating and antioxidant ingredients.</p><p><strong>Exosome technology</strong> — Designed to support cellular communication and skin renewal.</p><p><strong>Hyaluronic acid</strong> — A powerful humectant capable of holding large amounts of water, helping maintain hydration within the skin.</p><p><strong>Avocado oil</strong> — Provides nourishing fatty acids that help support the skin barrier.</p><p><strong>Vitamin E</strong> — A potent antioxidant that helps protect skin from oxidative stress.</p>",
         "bg": "white",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "Deep", "label": "Hydration Support" } },
-        "s2": { "type": "stat", "settings": { "value": "Cell", "label": "Repair Processes" } },
-        "s3": { "type": "stat", "settings": { "value": "Barrier", "label": "Strengthening" } },
-        "s4": { "type": "stat", "settings": { "value": "Defence", "label": "Against Environmental Stress" } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "Deep",
+            "label": "Hydration Support"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "Cell",
+            "label": "Repair Processes"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "Barrier",
+            "label": "Strengthening"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "Defence",
+            "label": "Against Environmental Stress"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
-      "settings": { "label": "Why It Works", "headline": "Supporting Skin Repair and Hydration" },
       "blocks": {
-        "ben1": { "type": "benefit", "settings": { "title": "Maintains Deep Hydration", "description": "Hyaluronic acid and avocado oil work together to lock moisture into the skin for lasting comfort." } },
-        "ben2": { "type": "benefit", "settings": { "title": "Supports Cellular Repair", "description": "Exosome-derived technology assists communication between skin cells to encourage natural renewal processes." } },
-        "ben3": { "type": "benefit", "settings": { "title": "Improves Skin Elasticity", "description": "The formulation supports the structural components of skin that maintain firmness and bounce." } },
-        "ben4": { "type": "benefit", "settings": { "title": "Strengthens Skin Barrier", "description": "Nourishing lipids and humectants reinforce the skin's protective layer against environmental damage." } },
-        "ben5": { "type": "benefit", "settings": { "title": "Defends Against Stressors", "description": "Antioxidant vitamin E helps protect skin cells from oxidative damage caused by pollution and UV exposure." } },
-        "ben6": { "type": "benefit", "settings": { "title": "Lightweight Daily Use", "description": "The formulation delivers advanced technology in a lightweight texture suitable for layering within any protocol." } }
+        "ben1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Maintains Deep Hydration",
+            "description": "Hyaluronic acid and avocado oil work together to lock moisture into the skin for lasting comfort."
+          }
+        },
+        "ben2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Supports Cellular Repair",
+            "description": "Exosome-derived technology assists communication between skin cells to encourage natural renewal processes."
+          }
+        },
+        "ben3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Improves Skin Elasticity",
+            "description": "The formulation supports the structural components of skin that maintain firmness and bounce."
+          }
+        },
+        "ben4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Strengthens Skin Barrier",
+            "description": "Nourishing lipids and humectants reinforce the skin's protective layer against environmental damage."
+          }
+        },
+        "ben5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Defends Against Stressors",
+            "description": "Antioxidant vitamin E helps protect skin cells from oxidative damage caused by pollution and UV exposure."
+          }
+        },
+        "ben6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Lightweight Daily Use",
+            "description": "The formulation delivers advanced technology in a lightweight texture suitable for layering within any protocol."
+          }
+        }
       },
-      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+      "block_order": [
+        "ben1",
+        "ben2",
+        "ben3",
+        "ben4",
+        "ben5",
+        "ben6"
+      ],
+      "settings": {
+        "label": "Why It Works",
+        "headline": "Supporting Skin Repair and Hydration"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": { "label": "The Difference", "headline": "Why Exosome Technology Is Different", "col_them": "Traditional Moisturisers", "col_us": "Aliangé CellRevive Approach" },
       "blocks": {
-        "r1": { "type": "row", "settings": { "feature": "Mechanism", "them": "Surface hydration only", "us": "Supports deeper cellular communication" } },
-        "r2": { "type": "row", "settings": { "feature": "Technology", "them": "Basic emollients and humectants", "us": "Exosome-derived cellular technology" } },
-        "r3": { "type": "row", "settings": { "feature": "Formulation", "them": "Marketing-driven ingredients", "us": "Doctor-developed with clinical insight" } },
-        "r4": { "type": "row", "settings": { "feature": "Results", "them": "Temporary cosmetic improvement", "us": "Long-term support for skin function" } }
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Mechanism",
+            "them": "Surface hydration only",
+            "us": "Supports deeper cellular communication"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Technology",
+            "them": "Basic emollients and humectants",
+            "us": "Exosome-derived cellular technology"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Formulation",
+            "them": "Marketing-driven ingredients",
+            "us": "Doctor-developed with clinical insight"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Results",
+            "them": "Temporary cosmetic improvement",
+            "us": "Long-term support for skin function"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "Why Exosome Technology Is Different",
+        "col_them": "Traditional Moisturisers",
+        "col_us": "Aliangé CellRevive Approach"
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "What are exosomes in skincare?", "answer": "<p>Exosomes are microscopic extracellular vesicles that function as biological communication carriers between cells. In skincare, exosome-derived technologies support cellular communication and skin renewal processes.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "How does exosome technology differ from regular moisturisers?", "answer": "<p>Unlike traditional moisturisers that primarily act on the skin's surface, exosome technologies aim to support deeper biological processes by assisting communication between skin cells, potentially contributing to improved skin function over time.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "Who is the CellRevive Exosome Cream suitable for?", "answer": "<p>The CellRevive Exosome Cream is suitable for anyone looking to support their skin's natural renewal processes. It is particularly beneficial for those concerned with ageing, dehydration, or loss of elasticity.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "Can I use this within the Aliangé protocol?", "answer": "<p>Yes. The CellRevive Exosome Cream is designed to integrate seamlessly into the broader Aliangé skincare protocol, complementing peptide serums, barrier support, and sun protection.</p>" } },
-        "q5": { "type": "question", "settings": { "question": "How long until I see results?", "answer": "<p>While you may notice improved hydration relatively quickly, the deeper benefits of exosome technology — including improved skin function and resilience — typically develop over 8–12 weeks of consistent use.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "What are exosomes in skincare?",
+            "answer": "<p>Exosomes are microscopic extracellular vesicles that function as biological communication carriers between cells. In skincare, exosome-derived technologies support cellular communication and skin renewal processes.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "How does exosome technology differ from regular moisturisers?",
+            "answer": "<p>Unlike traditional moisturisers that primarily act on the skin's surface, exosome technologies aim to support deeper biological processes by assisting communication between skin cells, potentially contributing to improved skin function over time.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Who is the CellRevive Exosome Cream suitable for?",
+            "answer": "<p>The CellRevive Exosome Cream is suitable for anyone looking to support their skin's natural renewal processes. It is particularly beneficial for those concerned with ageing, dehydration, or loss of elasticity.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this within the Aliangé protocol?",
+            "answer": "<p>Yes. The CellRevive Exosome Cream is designed to integrate seamlessly into the broader Aliangé skincare protocol, complementing peptide serums, barrier support, and sun protection.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>While you may notice improved hydration relatively quickly, the deeper benefits of exosome technology — including improved skin function and resilience — typically develop over 8–12 weeks of consistent use.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -99,10 +275,17 @@
         "cta_text": "Shop CellRevive Exosome Cream",
         "cta_url": "/products/cellrevive-exosome-cream",
         "guarantee": "90-Day Results Guarantee"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_benefits", "lp_comparison", "lp_faq", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_approach",
+    "lp_stats",
+    "lp_benefits",
+    "lp_comparison",
+    "lp_faq",
+    "lp_cta"
+  ]
 }

@@ -1,24 +1,52 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Formulated from decades of clinical practice on the Sunshine Coast."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Designed for Australia's unique UV, humidity, and coastal conditions."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Protocol-based approach supporting skin function, not just appearance."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Aliangé Clinical",
         "headline": "Doctor-Developed Skincare Shaped by Coastal Australia.",
         "subheadline": "Aliangé Skincare was developed by Dr Alison Jamieson through decades of treating patients on the Sunshine Coast. This region presents unique challenges for skin health — high UV exposure, coastal humidity, salt air, and environmental stressors can accelerate skin aging and barrier damage.",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
         "cta_text": "Discover the Aliangé Protocol",
         "cta_url": "/collections/protocols",
-        "trust_line": "Doctor-Developed | Sunshine Coast Origin | Australian-Made",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "Formulated from decades of clinical practice on the Sunshine Coast." } },
-        "b2": { "type": "bullet", "settings": { "text": "Designed for Australia's unique UV, humidity, and coastal conditions." } },
-        "b3": { "type": "bullet", "settings": { "text": "Protocol-based approach supporting skin function, not just appearance." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "trust_line": "Doctor-Developed | Sunshine Coast Origin | Australian-Made"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -28,70 +56,228 @@
         "body": "<p>Skin on the Sunshine Coast is exposed to conditions rarely seen elsewhere in the world.</p><p><strong>Intense Ultraviolet Radiation</strong> — Queensland consistently records some of the highest UV indexes globally. Prolonged UV exposure breaks down collagen fibres and increases oxidative stress within the skin.</p><p><strong>Coastal Exposure</strong> — Salt air and wind can dehydrate the skin barrier while increasing transepidermal water loss.</p><p><strong>Heat and Humidity</strong> — Humidity can increase oil production while heat accelerates inflammation and barrier disruption.</p><p>These environmental conditions require a skincare approach that supports <strong>skin function and resilience</strong>, not simply cosmetic improvement.</p>",
         "bg": "muted",
         "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
+      "blocks": {
+        "q1": {
+          "type": "quote",
+          "settings": {
+            "quote_text": "Through clinical practice, I observed that many patients experienced persistent pigmentation, dehydration despite humid climates, increased inflammation and redness, and accelerated collagen loss due to sun exposure. Aliangé formulations were developed with these environmental factors in mind.",
+            "attribution": "— Dr. Alison Jamieson"
+          }
+        }
+      },
+      "block_order": [
+        "q1"
+      ],
       "settings": {
         "label": "The Protocol",
         "headline": "The Aliangé Protocol",
         "body": "<p>Aliangé skincare is designed as a structured protocol rather than individual standalone products. Each step addresses a key aspect of skin physiology:</p><p><strong>1. Barrier-supporting cleansing</strong><br/><strong>2. Sebum regulation and microbiome balance</strong><br/><strong>3. Cellular repair and collagen support</strong><br/><strong>4. Protection against environmental stressors</strong></p><p>This structured approach reflects the way skin concerns are managed in clinical environments.</p>",
         "bg": "white",
         "width": "narrow"
-      },
-      "blocks": {
-        "q1": { "type": "quote", "settings": { "quote_text": "Through clinical practice, I observed that many patients experienced persistent pigmentation, dehydration despite humid climates, increased inflammation and redness, and accelerated collagen loss due to sun exposure. Aliangé formulations were developed with these environmental factors in mind.", "attribution": "— Dr. Alison Jamieson" } }
-      },
-      "block_order": ["q1"]
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "40+", "label": "Years Clinical Experience" } },
-        "s2": { "type": "stat", "settings": { "value": "MBBS", "label": "Medical Qualification" } },
-        "s3": { "type": "stat", "settings": { "value": "FRACGP", "label": "Fellowship" } },
-        "s4": { "type": "stat", "settings": { "value": "Dip Derm", "label": "Dermatology Diploma" } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "40+",
+            "label": "Years Clinical Experience"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "MBBS",
+            "label": "Medical Qualification"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "FRACGP",
+            "label": "Fellowship"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "Dip Derm",
+            "label": "Dermatology Diploma"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
-      "settings": { "label": "A Doctor-Led Philosophy", "headline": "Skincare Developed for Coastal Australian Conditions" },
       "blocks": {
-        "ben1": { "type": "benefit", "settings": { "title": "Barrier-Supporting Cleansing", "description": "Gentle cleansing that removes impurities without stripping the skin's protective lipid layer." } },
-        "ben2": { "type": "benefit", "settings": { "title": "Sebum Regulation", "description": "Balanced formulations that control excess oil without dehydrating the skin." } },
-        "ben3": { "type": "benefit", "settings": { "title": "Cellular Repair", "description": "Advanced peptides and exosome technology support the skin's natural renewal processes." } },
-        "ben4": { "type": "benefit", "settings": { "title": "Collagen Support", "description": "Clinically studied ingredients that encourage collagen production and maintain firmness." } },
-        "ben5": { "type": "benefit", "settings": { "title": "Environmental Protection", "description": "Antioxidants and SPF defend against the unique UV and coastal stressors of the Sunshine Coast." } },
-        "ben6": { "type": "benefit", "settings": { "title": "Microbiome Balance", "description": "Postbiotic ingredients support a healthy skin microbiome for long-term resilience." } }
+        "ben1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Barrier-Supporting Cleansing",
+            "description": "Gentle cleansing that removes impurities without stripping the skin's protective lipid layer."
+          }
+        },
+        "ben2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Sebum Regulation",
+            "description": "Balanced formulations that control excess oil without dehydrating the skin."
+          }
+        },
+        "ben3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Cellular Repair",
+            "description": "Advanced peptides and exosome technology support the skin's natural renewal processes."
+          }
+        },
+        "ben4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Collagen Support",
+            "description": "Clinically studied ingredients that encourage collagen production and maintain firmness."
+          }
+        },
+        "ben5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Environmental Protection",
+            "description": "Antioxidants and SPF defend against the unique UV and coastal stressors of the Sunshine Coast."
+          }
+        },
+        "ben6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Microbiome Balance",
+            "description": "Postbiotic ingredients support a healthy skin microbiome for long-term resilience."
+          }
+        }
       },
-      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+      "block_order": [
+        "ben1",
+        "ben2",
+        "ben3",
+        "ben4",
+        "ben5",
+        "ben6"
+      ],
+      "settings": {
+        "label": "A Doctor-Led Philosophy",
+        "headline": "Skincare Developed for Coastal Australian Conditions"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": { "label": "The Difference", "headline": "Designed for Sunshine Coast Skin", "col_them": "Generic Skincare", "col_us": "Aliangé Clinical Approach" },
       "blocks": {
-        "r1": { "type": "row", "settings": { "feature": "Development", "them": "Lab-developed overseas", "us": "Developed through decades of Sunshine Coast clinical practice" } },
-        "r2": { "type": "row", "settings": { "feature": "UV Consideration", "them": "Designed for mild climates", "us": "Formulated for extreme Australian UV" } },
-        "r3": { "type": "row", "settings": { "feature": "Approach", "them": "Individual hero products", "us": "Structured clinical protocol" } },
-        "r4": { "type": "row", "settings": { "feature": "Philosophy", "them": "Cosmetic marketing trends", "us": "Clinical observation and skin physiology" } }
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Development",
+            "them": "Lab-developed overseas",
+            "us": "Developed through decades of Sunshine Coast clinical practice"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "UV Consideration",
+            "them": "Designed for mild climates",
+            "us": "Formulated for extreme Australian UV"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Approach",
+            "them": "Individual hero products",
+            "us": "Structured clinical protocol"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Philosophy",
+            "them": "Cosmetic marketing trends",
+            "us": "Clinical observation and skin physiology"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "Designed for Sunshine Coast Skin",
+        "col_them": "Generic Skincare",
+        "col_us": "Aliangé Clinical Approach"
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "Why does Sunshine Coast skin need different skincare?", "answer": "<p>The Sunshine Coast has some of the highest UV indexes in the world, combined with coastal humidity, salt exposure, and heat. These environmental factors accelerate collagen loss, barrier disruption, and pigmentation — requiring skincare that supports skin function rather than just cosmetic appearance.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "Is Aliangé only suitable for people on the Sunshine Coast?", "answer": "<p>No. While developed through clinical practice on the Sunshine Coast, Aliangé formulations are designed for anyone exposed to high UV, environmental stress, or who wants a protocol-based approach to skin health. The products work for Australian skin conditions nationwide.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "What qualifications does Dr Jamieson have?", "answer": "<p>Dr Alison Jamieson holds an MBBS (Bachelor of Medicine and Surgery), FRACGP (Fellow of the Royal Australian College of General Practitioners), and a Diploma in Dermatology, with more than 40 years of clinical medical experience.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "What makes a protocol different from regular skincare?", "answer": "<p>A protocol is a structured sequence of products designed to work together. Each step supports a different biological function of the skin — cleansing, regulation, repair, and protection — mirroring how skin is managed in clinical environments.</p>" } },
-        "q5": { "type": "question", "settings": { "question": "How long until I see results?", "answer": "<p>Most people notice improved hydration and comfort within the first few weeks. Structural improvements in collagen support and barrier resilience typically develop over 8–12 weeks of consistent protocol use.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Why does Sunshine Coast skin need different skincare?",
+            "answer": "<p>The Sunshine Coast has some of the highest UV indexes in the world, combined with coastal humidity, salt exposure, and heat. These environmental factors accelerate collagen loss, barrier disruption, and pigmentation — requiring skincare that supports skin function rather than just cosmetic appearance.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Is Aliangé only suitable for people on the Sunshine Coast?",
+            "answer": "<p>No. While developed through clinical practice on the Sunshine Coast, Aliangé formulations are designed for anyone exposed to high UV, environmental stress, or who wants a protocol-based approach to skin health. The products work for Australian skin conditions nationwide.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "What qualifications does Dr Jamieson have?",
+            "answer": "<p>Dr Alison Jamieson holds an MBBS (Bachelor of Medicine and Surgery), FRACGP (Fellow of the Royal Australian College of General Practitioners), and a Diploma in Dermatology, with more than 40 years of clinical medical experience.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "What makes a protocol different from regular skincare?",
+            "answer": "<p>A protocol is a structured sequence of products designed to work together. Each step supports a different biological function of the skin — cleansing, regulation, repair, and protection — mirroring how skin is managed in clinical environments.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>Most people notice improved hydration and comfort within the first few weeks. Structural improvements in collagen support and barrier resilience typically develop over 8–12 weeks of consistent protocol use.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -101,10 +287,17 @@
         "cta_text": "Explore the Aliangé System",
         "cta_url": "/collections/protocols",
         "guarantee": "90-Day Results Guarantee"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_benefits", "lp_comparison", "lp_faq", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_approach",
+    "lp_stats",
+    "lp_benefits",
+    "lp_comparison",
+    "lp_faq",
+    "lp_cta"
+  ]
 }
