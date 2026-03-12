@@ -4,47 +4,84 @@
       "type": "aliange-pdp-hero",
       "settings": {
         "description": "Experience a clinical-strength, dual-action exfoliation that instantly smooths texture, refines pores, and unveils a luminous, revitalised complexion. Developed by Dr. Alison Jamieson to bring the results of a professional treatment to your home.",
-        "atc_text": "Shop Now & Reveal Your Radiance — $55"
+        "atc_text": "Shop Now & Reveal Your Radiance \u2014 $55"
       },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
-          "settings": { "text": "Dual-Action Renewal: Combines AHAs and gentle physical exfoliants for resurfacing." }
+          "settings": {
+            "text": "Dual-Action Renewal: Combines AHAs and gentle physical exfoliants for resurfacing."
+          }
         },
         "bullet_2": {
           "type": "bullet_point",
-          "settings": { "text": "Instantly Brighter: Lifts away dull cells for a visibly more even-toned glow." }
+          "settings": {
+            "text": "Instantly Brighter: Lifts away dull cells for a visibly more even-toned glow."
+          }
         },
         "bullet_3": {
           "type": "bullet_point",
-          "settings": { "text": "Clinically Formulated: Balanced with calming botanicals to ensure efficacy without irritation." }
+          "settings": {
+            "text": "Clinically Formulated: Balanced with calming botanicals to ensure efficacy without irritation."
+          }
         },
         "trust_1": {
           "type": "trust_box",
-          "settings": { "icon": "truck", "title": "Free Shipping", "description": "On all orders worldwide" }
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
         },
         "trust_2": {
           "type": "trust_box",
-          "settings": { "icon": "shield", "title": "Money Back", "description": "90-day satisfaction promise" }
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
         },
         "trust_3": {
           "type": "trust_box",
-          "settings": { "icon": "drop", "title": "76 Daltons", "description": "Smallest AHA molecule" }
+          "settings": {
+            "icon": "drop",
+            "title": "76 Daltons",
+            "description": "Smallest AHA molecule"
+          }
         },
         "faq_1": {
           "type": "mini_faq",
-          "settings": { "question": "Why 76 Daltons?", "answer": "The molecular size of our Glycolic Acid is the smallest of all AHAs, allowing for the deepest penetration and most effective stimulation of collagen production." }
+          "settings": {
+            "question": "Why 76 Daltons?",
+            "answer": "The molecular size of our Glycolic Acid is the smallest of all AHAs, allowing for the deepest penetration and most effective stimulation of collagen production."
+          }
         },
         "faq_2": {
           "type": "mini_faq",
-          "settings": { "question": "Is it better than a scrub?", "answer": "Yes. Most scrubs use jagged particles that cause micro-tears. We use perfectly smooth Jojoba Esters and volcanic Perlite for a safe, spherical polish." }
+          "settings": {
+            "question": "Is it better than a scrub?",
+            "answer": "Yes. Most scrubs use jagged particles that cause micro-tears. We use perfectly smooth Jojoba Esters and volcanic Perlite for a safe, spherical polish."
+          }
         },
         "faq_3": {
           "type": "mini_faq",
-          "settings": { "question": "What if it doesn’t work for me?", "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle." }
+          "settings": {
+            "question": "What if it doesn\u2019t work for me?",
+            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+          }
         }
       },
-      "block_order": ["bullet_1", "bullet_2", "bullet_3", "trust_1", "trust_2", "trust_3", "faq_1", "faq_2", "faq_3"]
+      "block_order": [
+        "bullet_1",
+        "bullet_2",
+        "bullet_3",
+        "trust_1",
+        "trust_2",
+        "trust_3",
+        "faq_1",
+        "faq_2",
+        "faq_3"
+      ]
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
@@ -53,12 +90,37 @@
         "speed": 35
       },
       "blocks": {
-        "press_1": { "type": "logo", "settings": { "alt_text": "SHAPE" } },
-        "press_2": { "type": "logo", "settings": { "alt_text": "REFINERY29" } },
-        "press_3": { "type": "logo", "settings": { "alt_text": "VOGUE" } },
-        "press_4": { "type": "logo", "settings": { "alt_text": "People" } }
+        "press_1": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "SHAPE"
+          }
+        },
+        "press_2": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "REFINERY29"
+          }
+        },
+        "press_3": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "VOGUE"
+          }
+        },
+        "press_4": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "People"
+          }
+        }
       },
-      "block_order": ["press_1", "press_2", "press_3", "press_4"]
+      "block_order": [
+        "press_1",
+        "press_2",
+        "press_3",
+        "press_4"
+      ]
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
@@ -68,19 +130,50 @@
         "speed": 25
       },
       "blocks": {
-        "badge_1": { "type": "badge", "settings": { "text": "Dual-Action AHA" } },
-        "badge_2": { "type": "badge", "settings": { "text": "76 Dalton Glycolic" } },
-        "badge_3": { "type": "badge", "settings": { "text": "Clinically Proven" } },
-        "badge_4": { "type": "badge", "settings": { "text": "Australian Made" } },
-        "badge_5": { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Dual-Action AHA"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "76 Dalton Glycolic"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
       },
-      "block_order": ["badge_1", "badge_2", "badge_3", "badge_4", "badge_5"]
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ]
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
         "quote": "Use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with your serums, as their absorption will be significantly enhanced by removing barrier of dead cells."
       }
     },
@@ -93,14 +186,57 @@
         "button_text": "Shop Transforming Exfoliator"
       },
       "blocks": {
-        "b1": { "type": "benefit", "settings": { "title": "Accelerates Skin Renewal", "description": "Dissolves the bonds between dead cells to effectively reset your skin's renewal cycle for a fresher appearance." } },
-        "b2": { "type": "benefit", "settings": { "title": "Visibly Refines Pores", "description": "Thoroughly clears dead cells and sebum to minimise pore appearance and lead to a refined skin texture." } },
-        "b3": { "type": "benefit", "settings": { "title": "Brightens & Evens Skin Tone", "description": "Removal of dull surface cells instantly brightens and helps fade the appearance of discolouration." } },
-        "b4": { "type": "benefit", "settings": { "title": "Smooths Fine Lines", "description": "Chemical exfoliation from Glycolic and Lactic Acids helps to soften the look of surface wrinkles and lines." } },
-        "b5": { "type": "benefit", "settings": { "title": "Enhances Product Absorption", "description": "Allows following serums to penetrate more effectively, boosting the results of your entire brand ritual." } },
-        "b6": { "type": "benefit", "settings": { "title": "Gentle Yet Powerful Polishing", "description": "Spherical Jojoba Esters and volcanic Perlite provide a gentle physical polish that avoids micro-tears." } }
+        "b1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Accelerates Skin Renewal",
+            "description": "Dissolves the bonds between dead cells to effectively reset your skin's renewal cycle for a fresher appearance."
+          }
+        },
+        "b2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Visibly Refines Pores",
+            "description": "Thoroughly clears dead cells and sebum to minimise pore appearance and lead to a refined skin texture."
+          }
+        },
+        "b3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Brightens & Evens Skin Tone",
+            "description": "Removal of dull surface cells instantly brightens and helps fade the appearance of discolouration."
+          }
+        },
+        "b4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Smooths Fine Lines",
+            "description": "Chemical exfoliation from Glycolic and Lactic Acids helps to soften the look of surface wrinkles and lines."
+          }
+        },
+        "b5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Enhances Product Absorption",
+            "description": "Allows following serums to penetrate more effectively, boosting the results of your entire brand ritual."
+          }
+        },
+        "b6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Gentle Yet Powerful Polishing",
+            "description": "Spherical Jojoba Esters and volcanic Perlite provide a gentle physical polish that avoids micro-tears."
+          }
+        }
       },
-      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6"
+      ]
     },
     "stats": {
       "type": "aliange-pdp-stats",
@@ -110,33 +246,131 @@
         "columns": 4
       },
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "76 Da", "label": "Smallest AHA molecule", "ring_percent": 76 } },
-        "s2": { "type": "stat", "settings": { "value": "2-in-1", "label": "Dual-Action Formula", "ring_percent": 100 } },
-        "s3": { "type": "stat", "settings": { "value": "28 Days", "label": "Youthful Renewal Cycle", "ring_percent": 100 } },
-        "s4": { "type": "stat", "settings": { "value": "5%", "label": "Antimicrobial Tea Tree", "ring_percent": 100 } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "76 Da",
+            "label": "Smallest AHA molecule",
+            "ring_percent": 76
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "2-in-1",
+            "label": "Dual-Action Formula",
+            "ring_percent": 100
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "28 Days",
+            "label": "Youthful Renewal Cycle",
+            "ring_percent": 100
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "5%",
+            "label": "Antimicrobial Tea Tree",
+            "ring_percent": 100
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "Resurfacing vs. Scrubbing",
-        "subheading": "Harsh scrubs damage the skin. Aliangé transforms it.",
+        "subheading": "Harsh scrubs damage the skin. Aliang\u00e9 transforms it.",
         "aliange_label": "Transforming Exfoliator",
         "competitor_label": "Generic Nut/Seed Scrub",
         "button_text": "Upgrade Your Exfoliation"
       },
       "blocks": {
-        "r1": { "type": "comparison_row", "settings": { "feature": "Exfoliation Type", "aliange_value": "Dual: AHA + Physical", "competitor_value": "Physical Only" } },
-        "r2": { "type": "comparison_row", "settings": { "feature": "Particle Shape", "aliange_value": "Perfectly Spherical", "competitor_value": "Jagged/Irregular" } },
-        "r3": { "type": "comparison_row", "settings": { "feature": "Skin Damage", "aliange_value": "Zero Micro-Tears", "competitor_value": "High Risk of Tears" } },
-        "r4": { "type": "comparison_row", "settings": { "feature": "AHA Size", "aliange_value": "76 Daltons (Deepest)", "competitor_value": "N/A or Large Molecules" } },
-        "r5": { "type": "comparison_row", "settings": { "feature": "Action", "aliange_value": "Dissolves + Polishes", "competitor_value": "Scratching Surface" } },
-        "r6": { "type": "comparison_row", "settings": { "feature": "Blemish Control", "aliange_value": "5% Tea Tree Oil", "competitor_value": "None" } },
-        "r7": { "type": "comparison_row", "settings": { "feature": "Absorption Boost", "aliange_value": "Clinically Proven", "competitor_value": "Coats Skin with Wax" } },
-        "r8": { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+        "r1": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Exfoliation Type",
+            "aliange_value": "Dual: AHA + Physical",
+            "competitor_value": "Physical Only"
+          }
+        },
+        "r2": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Particle Shape",
+            "aliange_value": "Perfectly Spherical",
+            "competitor_value": "Jagged/Irregular"
+          }
+        },
+        "r3": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Skin Damage",
+            "aliange_value": "Zero Micro-Tears",
+            "competitor_value": "High Risk of Tears"
+          }
+        },
+        "r4": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "AHA Size",
+            "aliange_value": "76 Daltons (Deepest)",
+            "competitor_value": "N/A or Large Molecules"
+          }
+        },
+        "r5": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Action",
+            "aliange_value": "Dissolves + Polishes",
+            "competitor_value": "Scratching Surface"
+          }
+        },
+        "r6": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Blemish Control",
+            "aliange_value": "5% Tea Tree Oil",
+            "competitor_value": "None"
+          }
+        },
+        "r7": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Absorption Boost",
+            "aliange_value": "Clinically Proven",
+            "competitor_value": "Coats Skin with Wax"
+          }
+        },
+        "r8": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Guarantee",
+            "aliange_value": "90-Day Money Back",
+            "competitor_value": "None"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
@@ -146,29 +380,104 @@
         "columns": 3
       },
       "blocks": {
-        "i1": { "type": "ingredient", "settings": { "category": "AHA Trio", "name": "Glycolic / Lactic / Malic", "bullets": "Dissolves dead cell bonds|76 Dalton Glycolic size|Stimulates collagen|Fresh radiant layer", "evidence": "Glycolic Acid is clinically recognised for its ability to penetrate deeply and stimulate renewal." } },
-        "i2": { "type": "ingredient", "settings": { "category": "Physical Polisher", "name": "Jojoba Esters & Perlite", "bullets": "Perfectly spherical beads|Volcanic glass particles|Eco-friendly polishing|Zero micro-tears", "evidence": "Smooth beads polish the skin without causing the micro-tears that can lead to irritation." } },
-        "i3": { "type": "ingredient", "settings": { "category": "Antimicrobial", "name": "Tea Tree Leaf Oil", "bullets": "Natural botanical oil|Purifies skin pores|Prevents post-mask breakouts|Clinically proven", "evidence": "Systematic review confirmed 5% tea tree oil is comparable to benzoyl peroxide for managing acne." } },
-        "i4": { "type": "ingredient", "settings": { "category": "Soothing Duo", "name": "Green Tea & Chamomile", "bullets": "Potent antioxidants|Reduces redness|Calms during exfoliation|Protects skin barrier", "evidence": "Rich in EGCG and Bisabolol, known for powerful skin-soothing and antioxidant properties." } },
-        "i5": { "type": "ingredient", "settings": { "category": "Nourishing", "name": "Evening Primrose Oil", "bullets": "Rich in Gamma-Linolenic Acid|Regulates inflammation|Hydrates during renewal|Barrier supporting", "evidence": "Nourishing oil shown to help regulate inflammation and maintain skin's moisture." } }
+        "i1": {
+          "type": "ingredient",
+          "settings": {
+            "category": "AHA Trio",
+            "name": "Glycolic / Lactic / Malic",
+            "bullets": "Dissolves dead cell bonds|76 Dalton Glycolic size|Stimulates collagen|Fresh radiant layer",
+            "evidence": "Glycolic Acid is clinically recognised for its ability to penetrate deeply and stimulate renewal."
+          }
+        },
+        "i2": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Physical Polisher",
+            "name": "Jojoba Esters & Perlite",
+            "bullets": "Perfectly spherical beads|Volcanic glass particles|Eco-friendly polishing|Zero micro-tears",
+            "evidence": "Smooth beads polish the skin without causing the micro-tears that can lead to irritation."
+          }
+        },
+        "i3": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Antimicrobial",
+            "name": "Tea Tree Leaf Oil",
+            "bullets": "Natural botanical oil|Purifies skin pores|Prevents post-mask breakouts|Clinically proven",
+            "evidence": "Systematic review confirmed 5% tea tree oil is comparable to benzoyl peroxide for managing acne."
+          }
+        },
+        "i4": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Soothing Duo",
+            "name": "Green Tea & Chamomile",
+            "bullets": "Potent antioxidants|Reduces redness|Calms during exfoliation|Protects skin barrier",
+            "evidence": "Rich in EGCG and Bisabolol, known for powerful skin-soothing and antioxidant properties."
+          }
+        },
+        "i5": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Nourishing",
+            "name": "Evening Primrose Oil",
+            "bullets": "Rich in Gamma-Linolenic Acid|Regulates inflammation|Hydrates during renewal|Barrier supporting",
+            "evidence": "Nourishing oil shown to help regulate inflammation and maintain skin's moisture."
+          }
+        }
       },
-      "block_order": ["i1", "i2", "i3", "i4", "i5"]
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ]
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
       "settings": {
         "heading": "The Transformation Ritual",
         "subheading": "Follow these steps for clinical-grade resurfacing at home.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
         "pro_tip_quote": "For optimal results, use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with serums as their absorption will be significantly enhanced."
       },
       "blocks": {
-        "step1": { "type": "step", "settings": { "title": "Cleanse", "description": "Start with clean, damp skin using Daily Devotion Cleanser." } },
-        "step2": { "type": "step", "settings": { "title": "Massage", "description": "Massage a small amount in circular motions for 30-60 seconds." } },
-        "step3": { "type": "step", "settings": { "title": "Activate", "description": "Leave on for 1-2 minutes to allow AHAs to work at a deeper level." } },
-        "step4": { "type": "step", "settings": { "title": "Rinse", "description": "Rinse thoroughly with lukewarm water and pat dry before serums." } }
+        "step1": {
+          "type": "step",
+          "settings": {
+            "title": "Cleanse",
+            "description": "Start with clean, damp skin using Daily Devotion Cleanser."
+          }
+        },
+        "step2": {
+          "type": "step",
+          "settings": {
+            "title": "Massage",
+            "description": "Massage a small amount in circular motions for 30-60 seconds."
+          }
+        },
+        "step3": {
+          "type": "step",
+          "settings": {
+            "title": "Activate",
+            "description": "Leave on for 1-2 minutes to allow AHAs to work at a deeper level."
+          }
+        },
+        "step4": {
+          "type": "step",
+          "settings": {
+            "title": "Rinse",
+            "description": "Rinse thoroughly with lukewarm water and pat dry before serums."
+          }
+        }
       },
-      "block_order": ["step1", "step2", "step3", "step4"]
+      "block_order": [
+        "step1",
+        "step2",
+        "step3",
+        "step4"
+      ]
     },
     "faq": {
       "type": "aliange-pdp-faq",
@@ -178,13 +487,49 @@
         "button_text": "Shop Transforming Exfoliator"
       },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "Is this suitable for sensitive skin?", "answer": "<p>Potent but balanced with Chamomile. We recommend patch testing first and starting with once per week usage.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "Can I use this if I have acne?", "answer": "<p>Yes, chemical exfoliation unclogs pores while Tea Tree Oil provides antimicrobial action against breakouts.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "Will this make my skin red or peel?", "answer": "<p>A slight pinkness is normal and subsides quickly. It is not designed to cause visible peeling or irritation.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "How is it different from a face scrub?", "answer": "<p>Most scrubs only offer physical action with jagged particles. We use a dual-approach: AHAs loosen cells, and smooth beads sweep them away.</p>" } },
-        "q5": { "type": "question", "settings": { "question": "Do I need sunscreen after use?", "answer": "<p>Absolutely. AHAs make skin more sensitive to the sun. Apply broad-spectrum SPF every morning to protect your newly revealed skin.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Is this suitable for sensitive skin?",
+            "answer": "<p>Potent but balanced with Chamomile. We recommend patch testing first and starting with once per week usage.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this if I have acne?",
+            "answer": "<p>Yes, chemical exfoliation unclogs pores while Tea Tree Oil provides antimicrobial action against breakouts.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Will this make my skin red or peel?",
+            "answer": "<p>A slight pinkness is normal and subsides quickly. It is not designed to cause visible peeling or irritation.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "How is it different from a face scrub?",
+            "answer": "<p>Most scrubs only offer physical action with jagged particles. We use a dual-approach: AHAs loosen cells, and smooth beads sweep them away.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need sunscreen after use?",
+            "answer": "<p>Absolutely. AHAs make skin more sensitive to the sun. Apply broad-spectrum SPF every morning to protect your newly revealed skin.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -193,7 +538,9 @@
         "subheading": "Your skin's clinical-grade renewal is just one step away.",
         "button_text": "Add to Bag - $55",
         "trust_line": "90-Day Money-Back Results Guarantee.",
-        "bg_color": "#F4F7F9"
+        "bg_color": "#F4F7F9",
+        "secondary_link_text": "Learn about our clinical approach to dullness \u2192",
+        "secondary_link_url": "/pages/concern-dullness"
       }
     }
   },

@@ -33,6 +33,28 @@
   </script>
 {%- endif -%}
 
+{%- comment -%}ItemList Schema for Collection pages{%- endcomment -%}
+{%- if request.page_type == 'collection' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": {{ collection.title | json }},
+      "numberOfItems": {{ collection.products.size }},
+      "itemListElement": [
+        {%- for product in collection.products limit: 50 -%}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "name": {{ product.title | json }},
+            "url": "{{ shop.url }}{{ product.url }}"
+          }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+      ]
+    }
+  </script>
+{%- endif -%}
+
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

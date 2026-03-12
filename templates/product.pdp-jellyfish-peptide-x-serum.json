@@ -4,47 +4,84 @@
       "type": "aliange-pdp-hero",
       "settings": {
         "description": "Harnessing the regenerative power of the immortal jellyfish, this advanced serum is clinically proven to reduce senescent 'zombie' cells and repair DNA damage for visibly younger, firmer skin.",
-        "atc_text": "SHOP NOW — $225"
+        "atc_text": "SHOP NOW \u2014 $225"
       },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
-          "settings": { "text": "Repairs 13.7% of DNA damage within 6 hours" }
+          "settings": {
+            "text": "Repairs 13.7% of DNA damage within 6 hours"
+          }
         },
         "bullet_2": {
           "type": "bullet_point",
-          "settings": { "text": "Boosts Collagen I synthesis by 105%" }
+          "settings": {
+            "text": "Boosts Collagen I synthesis by 105%"
+          }
         },
         "bullet_3": {
           "type": "bullet_point",
-          "settings": { "text": "Reduces wrinkle volume by up to 31%" }
+          "settings": {
+            "text": "Reduces wrinkle volume by up to 31%"
+          }
         },
         "trust_1": {
           "type": "trust_box",
-          "settings": { "icon": "truck", "title": "Free Shipping", "description": "On all orders worldwide" }
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
         },
         "trust_2": {
           "type": "trust_box",
-          "settings": { "icon": "shield", "title": "Money Back", "description": "90-day satisfaction promise" }
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
         },
         "trust_3": {
           "type": "trust_box",
-          "settings": { "icon": "drop", "title": "DNA Repair", "description": "Bio-inspired tech" }
+          "settings": {
+            "icon": "drop",
+            "title": "DNA Repair",
+            "description": "Bio-inspired tech"
+          }
         },
         "faq_1": {
           "type": "mini_faq",
-          "settings": { "question": "Is the peptide from jellyfish?", "answer": "No, it is a 100% vegan, lab-synthesised ingredient bio-inspired by the Turritopsis dohrnii jellyfish’s unique DNA repair mechanisms." }
+          "settings": {
+            "question": "Is the peptide from jellyfish?",
+            "answer": "No, it is a 100% vegan, lab-synthesised ingredient bio-inspired by the Turritopsis dohrnii jellyfish\u2019s unique DNA repair mechanisms."
+          }
         },
         "faq_2": {
           "type": "mini_faq",
-          "settings": { "question": "How long until I see results?", "answer": "The clinical data shows DNA repair benefits within hours, while wrinkle reduction and collagen improvements become pronounced over 4-8 weeks." }
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "The clinical data shows DNA repair benefits within hours, while wrinkle reduction and collagen improvements become pronounced over 4-8 weeks."
+          }
         },
         "faq_3": {
           "type": "mini_faq",
-          "settings": { "question": "What if it doesn’t work for me?", "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle." }
+          "settings": {
+            "question": "What if it doesn\u2019t work for me?",
+            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+          }
         }
       },
-      "block_order": ["bullet_1", "bullet_2", "bullet_3", "trust_1", "trust_2", "trust_3", "faq_1", "faq_2", "faq_3"]
+      "block_order": [
+        "bullet_1",
+        "bullet_2",
+        "bullet_3",
+        "trust_1",
+        "trust_2",
+        "trust_3",
+        "faq_1",
+        "faq_2",
+        "faq_3"
+      ]
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
@@ -53,12 +90,37 @@
         "speed": 35
       },
       "blocks": {
-        "press_1": { "type": "logo", "settings": { "alt_text": "SHAPE" } },
-        "press_2": { "type": "logo", "settings": { "alt_text": "REFINERY29" } },
-        "press_3": { "type": "logo", "settings": { "alt_text": "VOGUE" } },
-        "press_4": { "type": "logo", "settings": { "alt_text": "People" } }
+        "press_1": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "SHAPE"
+          }
+        },
+        "press_2": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "REFINERY29"
+          }
+        },
+        "press_3": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "VOGUE"
+          }
+        },
+        "press_4": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "People"
+          }
+        }
       },
-      "block_order": ["press_1", "press_2", "press_3", "press_4"]
+      "block_order": [
+        "press_1",
+        "press_2",
+        "press_3",
+        "press_4"
+      ]
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
@@ -68,19 +130,50 @@
         "speed": 25
       },
       "blocks": {
-        "badge_1": { "type": "badge", "settings": { "text": "DNA Repair Peptide" } },
-        "badge_2": { "type": "badge", "settings": { "text": "Collagen I Booster" } },
-        "badge_3": { "type": "badge", "settings": { "text": "Clinically Proven" } },
-        "badge_4": { "type": "badge", "settings": { "text": "Australian Made" } },
-        "badge_5": { "type": "badge", "settings": { "text": "90-Day Guarantee" } }
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "DNA Repair Peptide"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Collagen I Booster"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
       },
-      "block_order": ["badge_1", "badge_2", "badge_3", "badge_4", "badge_5"]
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ]
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
         "quote": "For an enhanced regenerative effect, use this serum in conjunction with our Ultimate A Night Cream. The combination of DNA repair peptides and Retinol provides a comprehensive approach to overnight skin renewal."
       }
     },
@@ -93,14 +186,57 @@
         "button_text": "Shop Jellyfish Peptide Serum"
       },
       "blocks": {
-        "b1": { "type": "benefit", "settings": { "title": "Advanced Cellular Repair", "description": "Our formula helps repair existing DNA damage and protect your skin's blueprint from future harm, promoting true cellular longevity." } },
-        "b2": { "type": "benefit", "settings": { "title": "Significant Wrinkle Reduction", "description": "The powerful peptide Matrixyl™ synthe'6™ works from within to rebuild the skin's structure, reducing wrinkle volume by up to 31%." } },
-        "b3": { "type": "benefit", "settings": { "title": "Boosts Youthful Collagen", "description": "Experience a remarkable 105% increase in Collagen I production, restoring foundational support for a lifted appearance." } },
-        "b4": { "type": "benefit", "settings": { "title": "Potent Antioxidant Defence", "description": "Featuring Australian Kakadu Plum, the world's richest source of Vitamin C, to shield your skin from environmental stressors." } },
-        "b5": { "type": "benefit", "settings": { "title": "Eliminates 'Zombie' Cells", "description": "Our formula is proven to reduce senescent cells by 64.5%, clearing the way for healthier, more vibrant skin to emerge." } },
-        "b6": { "type": "benefit", "settings": { "title": "Deep, Lasting Hydration", "description": "A sophisticated blend of Sodium Hyaluronate and Squalene draws moisture deep and locks it in for a supple complexion." } }
+        "b1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Advanced Cellular Repair",
+            "description": "Our formula helps repair existing DNA damage and protect your skin's blueprint from future harm, promoting true cellular longevity."
+          }
+        },
+        "b2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Significant Wrinkle Reduction",
+            "description": "The powerful peptide Matrixyl\u2122 synthe'6\u2122 works from within to rebuild the skin's structure, reducing wrinkle volume by up to 31%."
+          }
+        },
+        "b3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Boosts Youthful Collagen",
+            "description": "Experience a remarkable 105% increase in Collagen I production, restoring foundational support for a lifted appearance."
+          }
+        },
+        "b4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Potent Antioxidant Defence",
+            "description": "Featuring Australian Kakadu Plum, the world's richest source of Vitamin C, to shield your skin from environmental stressors."
+          }
+        },
+        "b5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Eliminates 'Zombie' Cells",
+            "description": "Our formula is proven to reduce senescent cells by 64.5%, clearing the way for healthier, more vibrant skin to emerge."
+          }
+        },
+        "b6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Deep, Lasting Hydration",
+            "description": "A sophisticated blend of Sodium Hyaluronate and Squalene draws moisture deep and locks it in for a supple complexion."
+          }
+        }
       },
-      "block_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6"
+      ]
     },
     "stats": {
       "type": "aliange-pdp-stats",
@@ -110,33 +246,131 @@
         "columns": 4
       },
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "64.5%", "label": "Reduction in Senescent Cells", "ring_percent": 64 } },
-        "s2": { "type": "stat", "settings": { "value": "13.7%", "label": "DNA Repaired in 6hrs", "ring_percent": 13 } },
-        "s3": { "type": "stat", "settings": { "value": "31%", "label": "Reduction in Wrinkle Volume", "ring_percent": 31 } },
-        "s4": { "type": "stat", "settings": { "value": "105%", "label": "Increase in Collagen I", "ring_percent": 100 } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "64.5%",
+            "label": "Reduction in Senescent Cells",
+            "ring_percent": 64
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "13.7%",
+            "label": "DNA Repaired in 6hrs",
+            "ring_percent": 13
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "31%",
+            "label": "Reduction in Wrinkle Volume",
+            "ring_percent": 31
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "105%",
+            "label": "Increase in Collagen I",
+            "ring_percent": 100
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "DNA Repair vs. Surface Repair",
-        "subheading": "Generic serums mask the signs of ageing. Aliangé reverses them at the source.",
+        "subheading": "Generic serums mask the signs of ageing. Aliang\u00e9 reverses them at the source.",
         "aliange_label": "Jellyfish Peptide Serum",
         "competitor_label": "Standard \"Anti-Ageing\"",
         "button_text": "Upgrade Your Skincare"
       },
       "blocks": {
-        "r1": { "type": "comparison_row", "settings": { "feature": "Mechanism", "aliange_value": "DNA Blueprint Repair", "competitor_value": "Surface Hydration" } },
-        "r2": { "type": "comparison_row", "settings": { "feature": "Cellular Impact", "aliange_value": " Juveleven™ Peptide", "competitor_value": "Basic Humectants" } },
-        "r3": { "type": "comparison_row", "settings": { "feature": "Collagen Growth", "aliange_value": "105% Boost Confirmed", "competitor_value": "Negligible Change" } },
-        "r4": { "type": "comparison_row", "settings": { "feature": "Zombie Cells", "aliange_value": "64.5% Senescence Reduction", "competitor_value": "No Effect" } },
-        "r5": { "type": "comparison_row", "settings": { "feature": "Expertise", "aliange_value": "Doctor Developed", "competitor_value": "Mass Market Brands" } },
-        "r6": { "type": "comparison_row", "settings": { "feature": "Antioxidants", "aliange_value": "100x Vit C (Kakadu Plum)", "competitor_value": "Synthetic Ascorbic Acid" } },
-        "r7": { "type": "comparison_row", "settings": { "feature": "Longevity", "aliange_value": "Blueprint Correction", "competitor_value": "Temporary Plumping" } },
-        "r8": { "type": "comparison_row", "settings": { "feature": "Guarantee", "aliange_value": "90-Day Money Back", "competitor_value": "None" } }
+        "r1": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Mechanism",
+            "aliange_value": "DNA Blueprint Repair",
+            "competitor_value": "Surface Hydration"
+          }
+        },
+        "r2": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Cellular Impact",
+            "aliange_value": " Juveleven\u2122 Peptide",
+            "competitor_value": "Basic Humectants"
+          }
+        },
+        "r3": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Collagen Growth",
+            "aliange_value": "105% Boost Confirmed",
+            "competitor_value": "Negligible Change"
+          }
+        },
+        "r4": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Zombie Cells",
+            "aliange_value": "64.5% Senescence Reduction",
+            "competitor_value": "No Effect"
+          }
+        },
+        "r5": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Expertise",
+            "aliange_value": "Doctor Developed",
+            "competitor_value": "Mass Market Brands"
+          }
+        },
+        "r6": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Antioxidants",
+            "aliange_value": "100x Vit C (Kakadu Plum)",
+            "competitor_value": "Synthetic Ascorbic Acid"
+          }
+        },
+        "r7": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Longevity",
+            "aliange_value": "Blueprint Correction",
+            "competitor_value": "Temporary Plumping"
+          }
+        },
+        "r8": {
+          "type": "comparison_row",
+          "settings": {
+            "feature": "Guarantee",
+            "aliange_value": "90-Day Money Back",
+            "competitor_value": "None"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
@@ -146,29 +380,104 @@
         "columns": 3
       },
       "blocks": {
-        "i1": { "type": "ingredient", "settings": { "category": "DNA Repair", "name": "Juveleven™ Peptide", "bullets": "Inspired by immortal jellyfish|Rejuvenates skin cells|Protects against damage|Fundamental longevity", "evidence": "PNAS study revealed the jellyfish has twice as many genes involved in DNA repair compared to related species." } },
-        "i2": { "type": "ingredient", "settings": { "category": "Dermal Matrix", "name": "Matrixyl™ synthe'6™", "bullets": "Powerful wrinkle reduction|Rebuilds from within|Stimulates 6 major markers|Firms & lifts skin", "evidence": "Clinical studies show a 31% reduction in wrinkle volume and a 105% increase in Collagen I synthesis." } },
-        "i3": { "type": "ingredient", "settings": { "category": "Vitamin C", "name": "Kakadu Plum Extract", "bullets": "World's potent source|100x more Vit C than oranges|Powerful antioxidant shield|Brightens overall tone", "evidence": "Confirmed as the world's highest natural source of Vitamin C for potent antioxidant protection." } },
-        "i4": { "type": "ingredient", "settings": { "category": "Hydration", "name": "Sodium Hyaluronate", "bullets": "Intense deep hydration|Plumping from inside out|Binds moisture to cells|Maintains skin suppleness", "evidence": "Holds up to 1,000 times its weight in water, providing exceptional moisture-binding capabilities." } },
-        "i5": { "type": "ingredient", "settings": { "category": "Skin-Identical", "name": "Squalene", "bullets": "Nourishes and moisturises|Reinforces natural barrier|Biomimetic lipid|Non-comedogenic", "evidence": "Naturally present in human sebum, Squalene is a biomimetic ingredient that supports skin health." } }
+        "i1": {
+          "type": "ingredient",
+          "settings": {
+            "category": "DNA Repair",
+            "name": "Juveleven\u2122 Peptide",
+            "bullets": "Inspired by immortal jellyfish|Rejuvenates skin cells|Protects against damage|Fundamental longevity",
+            "evidence": "PNAS study revealed the jellyfish has twice as many genes involved in DNA repair compared to related species."
+          }
+        },
+        "i2": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Dermal Matrix",
+            "name": "Matrixyl\u2122 synthe'6\u2122",
+            "bullets": "Powerful wrinkle reduction|Rebuilds from within|Stimulates 6 major markers|Firms & lifts skin",
+            "evidence": "Clinical studies show a 31% reduction in wrinkle volume and a 105% increase in Collagen I synthesis."
+          }
+        },
+        "i3": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Vitamin C",
+            "name": "Kakadu Plum Extract",
+            "bullets": "World's potent source|100x more Vit C than oranges|Powerful antioxidant shield|Brightens overall tone",
+            "evidence": "Confirmed as the world's highest natural source of Vitamin C for potent antioxidant protection."
+          }
+        },
+        "i4": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Hydration",
+            "name": "Sodium Hyaluronate",
+            "bullets": "Intense deep hydration|Plumping from inside out|Binds moisture to cells|Maintains skin suppleness",
+            "evidence": "Holds up to 1,000 times its weight in water, providing exceptional moisture-binding capabilities."
+          }
+        },
+        "i5": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Skin-Identical",
+            "name": "Squalene",
+            "bullets": "Nourishes and moisturises|Reinforces natural barrier|Biomimetic lipid|Non-comedogenic",
+            "evidence": "Naturally present in human sebum, Squalene is a biomimetic ingredient that supports skin health."
+          }
+        }
       },
-      "block_order": ["i1", "i2", "i3", "i4", "i5"]
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ]
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
       "settings": {
         "heading": "DNA Repair Ritual",
         "subheading": "Follow these steps to reclaim your skin's youthful vitality.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
         "pro_tip_quote": "For an enhanced regenerative effect, use this serum in conjunction with our Ultimate A Night Cream. The combination of DNA repair peptides and Retinol provides a comprehensive approach."
       },
       "blocks": {
-        "step1": { "type": "step", "settings": { "title": "Cleanse", "description": "Start with a thoroughly cleansed and dry face, morning and night." } },
-        "step2": { "type": "step", "settings": { "title": "Apply", "description": "Dispense 1-2 pumps of the serum onto your fingertips." } },
-        "step3": { "type": "step", "settings": { "title": "Distribute", "description": "Gently press and massage the serum evenly over face, neck, and décolletage." } },
-        "step4": { "type": "step", "settings": { "title": "Follow", "description": "Allow the serum to fully absorb before applying your moisturiser or SPF." } }
+        "step1": {
+          "type": "step",
+          "settings": {
+            "title": "Cleanse",
+            "description": "Start with a thoroughly cleansed and dry face, morning and night."
+          }
+        },
+        "step2": {
+          "type": "step",
+          "settings": {
+            "title": "Apply",
+            "description": "Dispense 1-2 pumps of the serum onto your fingertips."
+          }
+        },
+        "step3": {
+          "type": "step",
+          "settings": {
+            "title": "Distribute",
+            "description": "Gently press and massage the serum evenly over face, neck, and d\u00e9colletage."
+          }
+        },
+        "step4": {
+          "type": "step",
+          "settings": {
+            "title": "Follow",
+            "description": "Allow the serum to fully absorb before applying your moisturiser or SPF."
+          }
+        }
       },
-      "block_order": ["step1", "step2", "step3", "step4"]
+      "block_order": [
+        "step1",
+        "step2",
+        "step3",
+        "step4"
+      ]
     },
     "faq": {
       "type": "aliange-pdp-faq",
@@ -178,13 +487,49 @@
         "button_text": "Shop Jellyfish Peptide Serum"
       },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "How is this different from other anti-ageing serums?", "answer": "<p>Focuses on DNA repair, a foundational aspect of skin ageing. By targeting cellular health with the Juveleven™ peptide, it goes beyond surface-level treatments.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "Is the 'jellyfish peptide' actually from jellyfish?", "answer": "<p>No. It is a 100% lab-synthesised, vegan ingredient. It's bio-inspired by the Turritopsis dohrnii jellyfish’s repair mechanisms.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "Can I use this serum with retinol?", "answer": "<p>Absolutely. It pairs exceptionally well with Retinoids at night to support the skin's natural repair cycle.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "How long until I see results?", "answer": "<p>DNA repair benefits begin within hours, while wrinkle reduction and collagen improvements become pronounced over 4-8 weeks.</p>" } },
-        "q5": { "type": "question", "settings": { "question": "Can I use this if I have sensitive skin?", "answer": "<p>Yes, this formula was designed to be both potent and gentle. Squalene and Sodium Hyaluronate are excellent for soothing sensitive skin.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How is this different from other anti-ageing serums?",
+            "answer": "<p>Focuses on DNA repair, a foundational aspect of skin ageing. By targeting cellular health with the Juveleven\u2122 peptide, it goes beyond surface-level treatments.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Is the 'jellyfish peptide' actually from jellyfish?",
+            "answer": "<p>No. It is a 100% lab-synthesised, vegan ingredient. It's bio-inspired by the Turritopsis dohrnii jellyfish\u2019s repair mechanisms.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this serum with retinol?",
+            "answer": "<p>Absolutely. It pairs exceptionally well with Retinoids at night to support the skin's natural repair cycle.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>DNA repair benefits begin within hours, while wrinkle reduction and collagen improvements become pronounced over 4-8 weeks.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this if I have sensitive skin?",
+            "answer": "<p>Yes, this formula was designed to be both potent and gentle. Squalene and Sodium Hyaluronate are excellent for soothing sensitive skin.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -193,7 +538,9 @@
         "subheading": "Join thousands who have reversed signs of cellular ageing.",
         "button_text": "ADD TO CART - 90 DAY GUARANTEE",
         "trust_line": "100% Australian Made. Guaranteed Results.",
-        "bg_color": "#F4F7F9"
+        "bg_color": "#F4F7F9",
+        "secondary_link_text": "Learn about our clinical approach to ageing \u2192",
+        "secondary_link_url": "/pages/concern-aging"
       }
     }
   },

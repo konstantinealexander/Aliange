@@ -52,6 +52,16 @@
     letter-spacing: 0.02em;
     margin: 0;
   }
+
+  #pdp-cta-{{ section.id }} .cta-secondary-link {
+    font-family: var(--pdp-font-body);
+    font-size: 14px;
+    color: var(--pdp-accent, #1a1a2e);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: opacity 0.2s ease;
+  }
+  #pdp-cta-{{ section.id }} .cta-secondary-link:hover { opacity: 0.7; }
 {%- endstyle -%}
 
 <section id="pdp-cta-{{ section.id }}" class="pdp-reveal" aria-label="Final call to action">
@@ -73,6 +83,10 @@
 
     {% if section.settings.trust_line != blank %}
       <p class="cta-trust">{{ section.settings.trust_line }}</p>
+    {% endif %}
+
+    {% if section.settings.secondary_link_text != blank and section.settings.secondary_link_url != blank %}
+      <a href="{{ section.settings.secondary_link_url }}" class="cta-secondary-link">{{ section.settings.secondary_link_text }}</a>
     {% endif %}
   </div>
 </section>
@@ -113,6 +127,18 @@
       "id": "trust_line",
       "label": "Trust line",
       "default": "90-Day Results Guarantee Or Your Money Back"
+    },
+    {
+      "type": "text",
+      "id": "secondary_link_text",
+      "label": "Secondary link text",
+      "info": "E.g. 'Learn about our clinical approach to ageing →'"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link_url",
+      "label": "Secondary link URL",
+      "info": "Link to a pillar or concern page for SEO internal linking"
     },
     {
       "type": "color",

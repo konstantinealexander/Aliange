@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "lp_hero": {
+      "type": "aliange-lp-hero",
+      "settings": {
+        "label": "Aliangé Education",
+        "headline": "What Is a Peptide in Skincare?",
+        "subheadline": "Peptides are short chains of amino acids that function as signalling molecules within the body. In skin biology, peptides play an important role in cellular communication — helping skin cells signal when to produce structural proteins such as collagen and elastin, repair damaged tissue, and maintain the integrity of the skin barrier.",
+        "cta_text": "Explore Jellyfish Peptide Serum",
+        "cta_url": "/products/jellyfish-peptide-x-antioxidant-serum",
+        "trust_line": "Doctor-Developed | Science-Backed | Australian-Made",
+        "align": "left",
+        "min_height": 620,
+        "content_width": 720
+      },
+      "blocks": {
+        "b1": { "type": "bullet", "settings": { "text": "Understand how peptides support skin structure and repair." } },
+        "b2": { "type": "bullet", "settings": { "text": "Learn about signal, carrier, and neurotransmitter peptides." } },
+        "b3": { "type": "bullet", "settings": { "text": "Discover the Aliangé Jellyfish Peptide technology." } }
+      },
+      "block_order": ["b1", "b2", "b3"]
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Science",
+        "headline": "How Peptides Support Skin Structure",
+        "body": "<p>The skin relies on several key structural proteins to maintain firmness, elasticity, and resilience. These include <strong>collagen</strong> (structural support), <strong>elastin</strong> (stretch and return), and <strong>hyaluronic acid</strong> (hydration within tissue).</p><p>Over time, natural production of these molecules slows due to aging and environmental stress such as ultraviolet radiation. Peptides can act as biological messengers that encourage skin cells to continue producing these essential components.</p><p>Rather than acting as surface-level cosmetic ingredients, peptides support the biological processes that maintain healthy skin structure.</p>",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_approach": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "Types of Peptides",
+        "headline": "Understanding Peptide Categories",
+        "body": "<p><strong>Signal Peptides</strong> communicate with fibroblast cells, encouraging them to support collagen production. These peptides help maintain skin firmness and resilience over time.</p><p><strong>Carrier Peptides</strong> help transport trace minerals that support enzymatic processes within the skin.</p><p><strong>Neurotransmitter Peptides</strong> are designed to influence the interaction between nerves and muscles in the skin, helping soften the appearance of expression lines.</p>",
+        "bg": "white",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_jellyfish": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Technology",
+        "headline": "Jellyfish Peptide Technology",
+        "body": "<p>Aliangé's Jellyfish Peptide X Antioxidant Serum uses advanced peptide technology designed to support skin structure and protect against environmental stress.</p><p><strong>Acetyl Hexapeptide-51 Amide</strong> — This peptide is studied for its ability to support DNA protection within skin cells. It helps strengthen the skin's natural defence mechanisms against environmental damage.</p><p><strong>Palmitoyl Tripeptide-38</strong> — A peptide associated with supporting the skin's extracellular matrix, which contributes to the structural network that maintains skin firmness and elasticity.</p><p>Together these peptides help support collagen production, skin elasticity, structural resilience, and reduction in visible fine lines.</p>",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_stats": {
+      "type": "aliange-lp-stats",
+      "settings": {},
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "+105%", "label": "Collagen I Production" } },
+        "s2": { "type": "stat", "settings": { "value": "45%", "label": "Wrinkle Reduction in 2 months" } },
+        "s3": { "type": "stat", "settings": { "value": "100x", "label": "Vitamin C vs Oranges (Kakadu Plum)" } },
+        "s4": { "type": "stat", "settings": { "value": "DNA", "label": "Protection Support" } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "lp_benefits": {
+      "type": "aliange-lp-benefits",
+      "settings": { "label": "Why It Works", "headline": "Antioxidant and Marine Support" },
+      "blocks": {
+        "ben1": { "type": "benefit", "settings": { "title": "Supports Collagen Structure", "description": "Advanced peptides signal fibroblast cells to encourage collagen production and maintain skin firmness." } },
+        "ben2": { "type": "benefit", "settings": { "title": "Strengthens Skin Defence", "description": "Acetyl Hexapeptide-51 Amide supports DNA protection within skin cells against environmental damage." } },
+        "ben3": { "type": "benefit", "settings": { "title": "Kakadu Plum Extract", "description": "A natural Australian source of vitamin C, providing antioxidant protection and supporting collagen formation." } },
+        "ben4": { "type": "benefit", "settings": { "title": "Marine Extracts", "description": "Marine ingredients help support hydration and barrier resilience." } },
+        "ben5": { "type": "benefit", "settings": { "title": "Vitamin E Protection", "description": "An antioxidant that helps protect the skin from oxidative stress caused by pollution and ultraviolet exposure." } },
+        "ben6": { "type": "benefit", "settings": { "title": "Lightweight Daily Formula", "description": "The lightweight formulation can be used daily and is suitable for layering within a broader skincare protocol." } }
+      },
+      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "settings": { "label": "The Difference", "headline": "Why Peptide Technology Matters", "col_them": "Basic Anti-Ageing Serums", "col_us": "Aliangé Jellyfish Peptide Serum" },
+      "blocks": {
+        "r1": { "type": "row", "settings": { "feature": "Mechanism", "them": "Surface hydration", "us": "Cellular signalling via peptides" } },
+        "r2": { "type": "row", "settings": { "feature": "Peptide Types", "them": "Single generic peptide", "us": "Signal + DNA-protective peptides" } },
+        "r3": { "type": "row", "settings": { "feature": "Antioxidants", "them": "Basic vitamin C", "us": "Kakadu Plum (100x vitamin C) + marine extracts" } },
+        "r4": { "type": "row", "settings": { "feature": "Formulation", "them": "Marketing-led", "us": "Doctor-developed with 40+ years clinical experience" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4"]
+    },
+    "lp_faq": {
+      "type": "aliange-lp-faq",
+      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "What do peptides do in skincare?", "answer": "<p>Peptides are short chains of amino acids that function as signalling molecules. They help skin cells communicate to produce structural proteins like collagen and elastin, supporting skin firmness, elasticity, and repair.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "What makes the Jellyfish Peptide Serum different?", "answer": "<p>The serum combines Acetyl Hexapeptide-51 Amide for DNA protection with Palmitoyl Tripeptide-38 for extracellular matrix support. This dual approach addresses both defence and structural renewal.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "What is Kakadu Plum?", "answer": "<p>Kakadu Plum is a native Australian fruit containing up to 100 times more vitamin C than oranges. It provides potent antioxidant protection and supports collagen formation.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "Can I layer this with other products?", "answer": "<p>Yes. The Jellyfish Peptide X Antioxidant Serum is designed for daily use and layers seamlessly within the broader Aliangé protocol, complementing barrier support and sun protection steps.</p>" } },
+        "q5": { "type": "question", "settings": { "question": "How long until I see results?", "answer": "<p>You may notice improvements in hydration and radiance within weeks. Structural benefits such as improved firmness and reduced fine lines typically develop over 8–12 weeks of consistent use.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "headline": "Advanced Peptide Technology for Skin Resilience.",
+        "subheadline": "Explore the Jellyfish Peptide X Antioxidant Serum and discover advanced peptide technology designed to support skin structure and resilience.",
+        "cta_text": "Shop Jellyfish Peptide Serum",
+        "cta_url": "/products/jellyfish-peptide-x-antioxidant-serum",
+        "guarantee": "90-Day Results Guarantee"
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_jellyfish", "lp_stats", "lp_benefits", "lp_comparison", "lp_faq", "lp_cta"]
+}

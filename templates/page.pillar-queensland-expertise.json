@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "lp_hero": {
+      "type": "aliange-lp-hero",
+      "settings": {
+        "label": "Aliangé Clinical",
+        "headline": "Queensland Skincare Expertise.",
+        "subheadline": "Queensland has one of the most demanding climates for skin health. High UV radiation, humidity, heat, and environmental exposure place continuous stress on the skin's biological systems. Skincare designed for these conditions must support skin physiology rather than simply masking visible symptoms.",
+        "cta_text": "Discover the Aliangé Protocol",
+        "cta_url": "/collections/protocols",
+        "trust_line": "Doctor-Developed | Queensland Origin | 40+ Years Experience",
+        "align": "left",
+        "min_height": 620,
+        "content_width": 720
+      },
+      "blocks": {
+        "b1": { "type": "bullet", "settings": { "text": "40+ years treating Queensland skin in clinical practice." } },
+        "b2": { "type": "bullet", "settings": { "text": "Formulations addressing collagen degradation, pigmentation, and barrier disruption." } },
+        "b3": { "type": "bullet", "settings": { "text": "Protocol-based approach supporting long-term skin function." } }
+      },
+      "block_order": ["b1", "b2", "b3"]
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Challenge",
+        "headline": "Why Skin in Queensland Requires a Different Approach",
+        "body": "<p>High UV radiation, humidity, heat, and environmental exposure place continuous stress on the skin's biological systems. Over time this can contribute to:</p><p>• Collagen degradation<br/>• Increased pigmentation<br/>• Skin barrier disruption<br/>• Chronic inflammation</p><p>Dr Alison Jamieson has spent more than forty years treating patients in Queensland. Through clinical practice she observed recurring patterns in skin behaviour caused by environmental exposure. These insights informed the development of Aliangé skincare.</p>",
+        "bg": "muted",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_approach": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Approach",
+        "headline": "Supporting Skin Function",
+        "body": "<p>Healthy skin depends on several interconnected biological processes. Aliangé formulations aim to support:</p><p>• Skin barrier integrity<br/>• Balanced sebum production<br/>• Collagen structure<br/>• Cellular renewal<br/>• Protection from environmental stress</p><p>By addressing these systems simultaneously, the skin can gradually return to a healthier state of balance.</p><p>Rather than focusing on isolated ingredients, Dr Jamieson designed formulations to work together as a <strong>clinical skincare protocol</strong>.</p>",
+        "bg": "white",
+        "width": "narrow"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "lp_stats": {
+      "type": "aliange-lp-stats",
+      "settings": {},
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "value": "40+", "label": "Years Clinical Experience" } },
+        "s2": { "type": "stat", "settings": { "value": "MBBS", "label": "Medical Qualification" } },
+        "s3": { "type": "stat", "settings": { "value": "FRACGP", "label": "GP Fellowship" } },
+        "s4": { "type": "stat", "settings": { "value": "Dip Derm", "label": "Dermatology" } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"]
+    },
+    "lp_benefits": {
+      "type": "aliange-lp-benefits",
+      "settings": { "label": "The Difference", "headline": "The Aliangé Difference" },
+      "blocks": {
+        "ben1": { "type": "benefit", "settings": { "title": "Skin Barrier Integrity", "description": "Formulations designed to strengthen and protect the skin's natural protective layer against environmental damage." } },
+        "ben2": { "type": "benefit", "settings": { "title": "Balanced Sebum Production", "description": "Clinical actives regulate oil production without causing the dehydration common in humid climates." } },
+        "ben3": { "type": "benefit", "settings": { "title": "Collagen Structure", "description": "Advanced peptides and ingredients support collagen production to combat UV-driven degradation." } },
+        "ben4": { "type": "benefit", "settings": { "title": "Cellular Renewal", "description": "Exosome and peptide technologies support the skin's natural repair and renewal processes." } },
+        "ben5": { "type": "benefit", "settings": { "title": "Environmental Protection", "description": "Antioxidants and SPF defend against the unique UV and environmental stressors of Queensland." } },
+        "ben6": { "type": "benefit", "settings": { "title": "Clinical Physiology Focus", "description": "Products formulated based on skin physiology, not cosmetic trends or marketing claims." } }
+      },
+      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "settings": { "label": "The Comparison", "headline": "Clinical vs Cosmetic Skincare", "col_them": "Typical Skincare", "col_us": "Aliangé Clinical Approach" },
+      "blocks": {
+        "r1": { "type": "row", "settings": { "feature": "Development", "them": "Trend-driven ingredients", "us": "Doctor-formulated protocols" } },
+        "r2": { "type": "row", "settings": { "feature": "Focus", "them": "Cosmetic claims", "us": "Skin physiology" } },
+        "r3": { "type": "row", "settings": { "feature": "Approach", "them": "Single product focus", "us": "Multi-step skin systems" } },
+        "r4": { "type": "row", "settings": { "feature": "Outcome", "them": "Short-term improvements", "us": "Long-term skin function" } }
+      },
+      "block_order": ["r1", "r2", "r3", "r4"]
+    },
+    "lp_faq": {
+      "type": "aliange-lp-faq",
+      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
+      "blocks": {
+        "q1": { "type": "question", "settings": { "question": "Why does Queensland skin need specialised skincare?", "answer": "<p>Queensland experiences some of the highest UV radiation levels in the world, combined with humidity, coastal salt exposure, and environmental stressors. These conditions accelerate collagen degradation, increase pigmentation, and disrupt the skin barrier at higher rates than temperate climates.</p>" } },
+        "q2": { "type": "question", "settings": { "question": "What is the difference between clinical and cosmetic skincare?", "answer": "<p>Clinical skincare focuses on supporting the skin's biological processes — barrier integrity, collagen production, cellular renewal. Cosmetic skincare typically focuses on surface-level improvements and marketing claims without addressing underlying skin function.</p>" } },
+        "q3": { "type": "question", "settings": { "question": "Can I use Aliangé if I don't live in Queensland?", "answer": "<p>Absolutely. While developed through Queensland clinical practice, Aliangé formulations support fundamental skin physiology that benefits anyone exposed to UV, environmental stress, or seeking a structured approach to skin health.</p>" } },
+        "q4": { "type": "question", "settings": { "question": "What qualifications does Dr Jamieson hold?", "answer": "<p>Dr Alison Jamieson holds an MBBS, FRACGP, and Diploma in Dermatology, with more than 40 years of clinical medical experience treating skin conditions in Queensland.</p>" } },
+        "q5": { "type": "question", "settings": { "question": "How long until I see results?", "answer": "<p>Most people notice improved hydration and comfort within weeks. Structural improvements in collagen support, barrier strength, and overall skin resilience typically develop over 8–12 weeks of consistent protocol use.</p>" } }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "headline": "Doctor-Developed Skincare for Australian Skin.",
+        "subheadline": "Discover doctor-developed skincare designed for Australian skin through decades of clinical expertise in Queensland.",
+        "cta_text": "Explore the Aliangé Protocol",
+        "cta_url": "/collections/protocols",
+        "guarantee": "90-Day Results Guarantee"
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_benefits", "lp_comparison", "lp_faq", "lp_cta"]
+}
