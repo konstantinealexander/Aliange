@@ -1,24 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Understand the science behind why your skin ages."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Discover a clinical, multi-product routine to target ageing from multiple angles."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "See real, measurable results backed by scientific evidence."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Aliangé Clinical",
         "headline": "Rediscover Your Skin's Youthful Resilience.",
         "subheadline": "The visible signs of ageing—fine lines, wrinkles, and loss of firmness—are driven by complex biological processes. Aliangé offers a clinical, multi-pathway approach to visibly rejuvenate your skin, formulated by one of Australia's leading dermatology experts.",
+        "overlay_color": "rgba(26,24,20,0.45)",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
         "cta_text": "Find Your Anti-Ageing Solution",
         "cta_url": "/collections/all",
-        "trust_line": "Doctor-Developed | Science-Backed | Australian-Made",
-        "align": "left",
-        "min_height": 620,
-        "content_width": 720
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "Understand the science behind why your skin ages." } },
-        "b2": { "type": "bullet", "settings": { "text": "Discover a clinical, multi-product routine to target ageing from multiple angles." } },
-        "b3": { "type": "bullet", "settings": { "text": "See real, measurable results backed by scientific evidence." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "trust_line": "Doctor-Developed | Science-Backed | Australian-Made"
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -27,99 +58,346 @@
         "headline": "Why Your Skin Loses Its Youthful Firmness",
         "body": "<p>From our mid-20s, our skin's foundational structure begins a slow, inevitable decline. The primary culprit is a gradual loss of collagen, the protein that provides skin with its strength and firmness. This depletion occurs at a rate of approximately <strong>1% per year after the age of 25</strong>, leading to the eventual formation of fine lines and wrinkles. This process is accelerated by a lifetime of sun exposure, a key factor in what scientists call \"photoageing.\"</p><p>Simultaneously, our cells' natural repair mechanisms become less efficient. Cellular senescence, a state where cells lose their ability to divide and function, begins to accumulate. These \"zombie cells\" release inflammatory signals that degrade the surrounding healthy tissue, further accelerating the ageing process.</p><p>Deep within our cells, our DNA is under constant assault from environmental stressors. This damage accumulates over time, impairing the cell's ability to produce energy and repair itself. <strong>One landmark Australian study of 903 people showed that daily SPF 15 use resulted in 24% less skin ageing.</strong></p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
+    },
+    "lp_stats": {
+      "type": "aliange-lp-stats",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "+105%",
+            "label": "Collagen I Production"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "45%",
+            "label": "Wrinkle Reduction in 2 months"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "87.3%",
+            "label": "Improvement in Skin Condition"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "24%",
+            "label": "Less Visible Ageing (SPF study)"
+          }
+        }
       },
-      "blocks": {},
-      "block_order": []
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
+      "blocks": {
+        "q1": {
+          "type": "quote",
+          "settings": {
+            "quote_text": "In my clinic, I never rely on a single solution for a complex concern like ageing. The skin is a dynamic, multi-layered organ. To achieve meaningful, lasting results, you must support its structure, enhance its repair processes, and protect it from further damage simultaneously. That is the philosophy behind the Aliangé anti-ageing protocol—a comprehensive, synergistic system for visible rejuvenation.",
+            "attribution": "— Dr. Alison Jamieson"
+          }
+        }
+      },
+      "block_order": [
+        "q1"
+      ],
       "settings": {
         "label": "Our Approach",
         "headline": "A Clinical Approach to Comprehensive Rejuvenation",
         "body": "<p>While many products offer a single hero ingredient, true skin rejuvenation requires a multi-faceted strategy. The biological process of ageing is not driven by a single cause, but by a cascade of interconnected pathways. The Aliangé approach, developed by Dr. Alison Jamieson from her 40 years of clinical practice, is designed to intervene at multiple points in this cascade.</p>",
         "bg": "white",
-        "width": "narrow"
-      },
-      "blocks": {
-        "q1": { "type": "quote", "settings": { "quote_text": "In my clinic, I never rely on a single solution for a complex concern like ageing. The skin is a dynamic, multi-layered organ. To achieve meaningful, lasting results, you must support its structure, enhance its repair processes, and protect it from further damage simultaneously. That is the philosophy behind the Aliangé anti-ageing protocol—a comprehensive, synergistic system for visible rejuvenation.", "attribution": "— Dr. Alison Jamieson" } }
-      },
-      "block_order": ["q1"]
-    },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "settings": {},
-      "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "+105%", "label": "Collagen I Production" } },
-        "s2": { "type": "stat", "settings": { "value": "45%", "label": "Wrinkle Reduction in 2 months" } },
-        "s3": { "type": "stat", "settings": { "value": "87.3%", "label": "Improvement in Skin Condition" } },
-        "s4": { "type": "stat", "settings": { "value": "24%", "label": "Less Visible Ageing (SPF study)" } }
-      },
-      "block_order": ["s1", "s2", "s3", "s4"]
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Jellyfish Peptide X Serum",
+            "price": "$225",
+            "why": "This advanced serum targets DNA repair and rebuilds the skin's matrix with powerful peptides, addressing the core signs of cellular ageing.",
+            "key_active": "Matrixyl synthe'6",
+            "step": "Step 1 (AM/PM)"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "price": "$130",
+            "why": "A potent combination of retinol and bakuchiol works overnight to accelerate cell turnover and visibly reduce wrinkles by up to 20%.",
+            "key_active": "Retinol + Bakuchiol",
+            "step": "Step 2 (PM)"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "CellRevive Exosome Cream",
+            "price": "$400",
+            "why": "Harnessing the power of regenerative exosomes, this cream activates key cellular pathways to dramatically improve skin health and vitality.",
+            "key_active": "Regenerative Exosomes",
+            "step": "Step 2 (AM) / Step 3 (PM)"
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "Protects against daily UV exposure—the #1 cause of premature ageing—while actively reducing wrinkles with Matrixyl 3000.",
+            "key_active": "Matrixyl 3000",
+            "step": "Step 3 (AM)"
+          }
+        },
+        "p5": {
+          "type": "product_step",
+          "settings": {
+            "name": "Rejuvenating Eye & Lip Cream",
+            "price": "$225",
+            "why": "A targeted treatment to combat glycation and reduce wrinkle folds by up to 91% in the delicate eye and lip areas.",
+            "key_active": "De-glycation Complex",
+            "step": "Step 4 (AM/PM)"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
       "settings": {
         "label": "The Protocol",
         "headline": "Your Anti-Ageing Routine",
+        "subheadline": "",
         "cta_text": "Shop the Anti-Ageing Routine",
-        "cta_url": "/collections/all"
-      },
-      "blocks": {
-        "p1": { "type": "product_step", "settings": { "name": "Jellyfish Peptide X Serum", "price": "$225", "why": "This advanced serum targets DNA repair and rebuilds the skin's matrix with powerful peptides, addressing the core signs of cellular ageing.", "key_active": "Matrixyl synthe'6", "step": "Step 1 (AM/PM)" } },
-        "p2": { "type": "product_step", "settings": { "name": "Ultimate A Night Cream", "price": "$130", "why": "A potent combination of retinol and bakuchiol works overnight to accelerate cell turnover and visibly reduce wrinkles by up to 20%.", "key_active": "Retinol + Bakuchiol", "step": "Step 2 (PM)" } },
-        "p3": { "type": "product_step", "settings": { "name": "CellRevive Exosome Cream", "price": "$400", "why": "Harnessing the power of regenerative exosomes, this cream activates key cellular pathways to dramatically improve skin health and vitality.", "key_active": "Regenerative Exosomes", "step": "Step 2 (AM) / Step 3 (PM)" } },
-        "p4": { "type": "product_step", "settings": { "name": "Day Cream SPF 15", "price": "$90", "why": "Protects against daily UV exposure—the #1 cause of premature ageing—while actively reducing wrinkles with Matrixyl 3000.", "key_active": "Matrixyl 3000", "step": "Step 3 (AM)" } },
-        "p5": { "type": "product_step", "settings": { "name": "Rejuvenating Eye & Lip Cream", "price": "$225", "why": "A targeted treatment to combat glycation and reduce wrinkle folds by up to 91% in the delicate eye and lip areas.", "key_active": "De-glycation Complex", "step": "Step 4 (AM/PM)" } }
-      },
-      "block_order": ["p1", "p2", "p3", "p4", "p5"]
+        "cta_url": "shopify://products/anti-ageing-protocol"
+      }
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
-      "settings": { "label": "Why It Works", "headline": "Benefits of the Routine" },
       "blocks": {
-        "ben1": { "type": "benefit", "settings": { "title": "Rebuilds Skin's Foundation", "description": "Stimulates production of 6 major components of the skin matrix for a firmer, more resilient complexion." } },
-        "ben2": { "type": "benefit", "settings": { "title": "Accelerates Cellular Renewal", "description": "A powerful retinol and bakuchiol blend promotes the emergence of fresh, new skin cells." } },
-        "ben3": { "type": "benefit", "settings": { "title": "Repairs Cellular Damage", "description": "Addresses DNA damage and reduces the population of inflammatory senescent cells." } },
-        "ben4": { "type": "benefit", "settings": { "title": "Protects Against Photoageing", "description": "Provides essential daily defence against UV radiation to prevent future signs of ageing." } },
-        "ben5": { "type": "benefit", "settings": { "title": "Smooths Expression Lines", "description": "Visibly reduces the appearance of fine lines and deep-set wrinkles." } },
-        "ben6": { "type": "benefit", "settings": { "title": "Restores Youthful Volume", "description": "Improves skin density and tonicity for a plumper, more youthful appearance." } }
+        "ben1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Rebuilds Skin's Foundation",
+            "description": "Stimulates production of 6 major components of the skin matrix for a firmer, more resilient complexion."
+          }
+        },
+        "ben2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Accelerates Cellular Renewal",
+            "description": "A powerful retinol and bakuchiol blend promotes the emergence of fresh, new skin cells."
+          }
+        },
+        "ben3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Repairs Cellular Damage",
+            "description": "Addresses DNA damage and reduces the population of inflammatory senescent cells."
+          }
+        },
+        "ben4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Protects Against Photoageing",
+            "description": "Provides essential daily defence against UV radiation to prevent future signs of ageing."
+          }
+        },
+        "ben5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Smooths Expression Lines",
+            "description": "Visibly reduces the appearance of fine lines and deep-set wrinkles."
+          }
+        },
+        "ben6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Restores Youthful Volume",
+            "description": "Improves skin density and tonicity for a plumper, more youthful appearance."
+          }
+        }
       },
-      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+      "block_order": [
+        "ben1",
+        "ben2",
+        "ben3",
+        "ben4",
+        "ben5",
+        "ben6"
+      ],
+      "settings": {
+        "label": "Why It Works",
+        "headline": "Benefits of the Routine",
+        "subheadline": ""
+      }
     },
     "lp_timeline": {
       "type": "aliange-lp-timeline",
-      "settings": { "label": "Your Journey", "headline": "What to Expect" },
       "blocks": {
-        "t1": { "type": "phase", "settings": { "timeframe": "Week 1–2", "description": "Your skin's hydration levels are optimised. Peptides begin signalling to your cells to initiate repair and rebuilding processes." } },
-        "t2": { "type": "phase", "settings": { "timeframe": "Week 2–4", "description": "Retinoids and exfoliants accelerate cell turnover, revealing a smoother, brighter skin surface. You may notice an initial improvement in texture." } },
-        "t3": { "type": "phase", "settings": { "timeframe": "Week 4–8", "description": "Clinically significant changes begin to appear. Collagen and elastin synthesis is now measurably increased, leading to a visible reduction in fine lines and improved firmness." } },
-        "t4": { "type": "phase", "settings": { "timeframe": "Week 8–12", "description": "Peak results are achieved. The multi-pathway approach has comprehensively addressed cellular ageing, resulting in a visibly rejuvenated, firmer, and more youthful complexion." } }
+        "t1": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 1–2",
+            "description": "Your skin's hydration levels are optimised. Peptides begin signalling to your cells to initiate repair and rebuilding processes."
+          }
+        },
+        "t2": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 2–4",
+            "description": "Retinoids and exfoliants accelerate cell turnover, revealing a smoother, brighter skin surface. You may notice an initial improvement in texture."
+          }
+        },
+        "t3": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 4–8",
+            "description": "Clinically significant changes begin to appear. Collagen and elastin synthesis is now measurably increased, leading to a visible reduction in fine lines and improved firmness."
+          }
+        },
+        "t4": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 8–12",
+            "description": "Peak results are achieved. The multi-pathway approach has comprehensively addressed cellular ageing, resulting in a visibly rejuvenated, firmer, and more youthful complexion."
+          }
+        }
       },
-      "block_order": ["t1", "t2", "t3", "t4"]
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "settings": {
+        "label": "Your Journey",
+        "headline": "What to Expect"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": { "label": "The Difference", "headline": "Why Aliangé Is Different", "col_them": "Typical Anti-Ageing Products", "col_us": "Aliangé Clinical Approach" },
       "blocks": {
-        "r1": { "type": "row", "settings": { "feature": "Approach", "them": "Single ingredient focus", "us": "Multi-pathway, synergistic routine" } },
-        "r2": { "type": "row", "settings": { "feature": "Mechanism", "them": "Surface-level hydration or exfoliation", "us": "Targets DNA repair, collagen synthesis, and cellular senescence" } },
-        "r3": { "type": "row", "settings": { "feature": "Formulation", "them": "Formulated by marketers", "us": "Developed by a cosmetic doctor with 40+ years of clinical experience" } },
-        "r4": { "type": "row", "settings": { "feature": "Evidence", "them": "Vague marketing claims", "us": "Backed by specific, measurable clinical data and scientific studies" } }
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Approach",
+            "them": "Single ingredient focus",
+            "us": "Multi-pathway, synergistic routine"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Mechanism",
+            "them": "Surface-level hydration or exfoliation",
+            "us": "Targets DNA repair, collagen synthesis, and cellular senescence"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Formulation",
+            "them": "Formulated by marketers",
+            "us": "Developed by a cosmetic doctor with 40+ years of clinical experience"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Evidence",
+            "them": "Vague marketing claims",
+            "us": "Backed by specific, measurable clinical data and scientific studies"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "Why Aliangé Is Different",
+        "col_them": "Typical Anti-Ageing Products",
+        "col_us": "Aliangé Clinical Approach"
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "At what age should I start using anti-ageing products?", "answer": "<p>While there's no magic number, collagen production begins to decline from your mid-20s. Starting a preventative routine with SPF and antioxidants in your late 20s or early 30s is ideal. However, it's never too late to start seeing significant improvements with a clinical-grade routine.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "Is this routine suitable for sensitive skin?", "answer": "<p>Our products are formulated to be potent yet gentle. However, retinol can cause initial sensitivity. We recommend introducing the Ultimate A Night Cream slowly, starting with 2–3 times per week and gradually increasing to nightly use as your skin adapts.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "Can I use these products if I get cosmetic injectables?", "answer": "<p>Absolutely. In fact, this routine is the perfect complement to clinical treatments. It helps to maintain and enhance the results of procedures like Botox and fillers by improving overall skin health, quality, and resilience.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "Why is a multi-product routine necessary?", "answer": "<p>Ageing is a complex process with multiple causes. A single product can't effectively address DNA damage, collagen loss, and cellular senescence all at once. Our multi-pathway routine ensures you are targeting each of these mechanisms for the most comprehensive and visible results.</p>" } },
-        "q5": { "type": "question", "settings": { "question": "How long until I see results?", "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant, clinically-proven results—like wrinkle reduction and improved firmness—take 8–12 weeks of consistent use. This is because it takes time for your skin to rebuild its collagen and for new, healthy cells to reach the surface.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "At what age should I start using anti-ageing products?",
+            "answer": "<p>While there's no magic number, collagen production begins to decline from your mid-20s. Starting a preventative routine with SPF and antioxidants in your late 20s or early 30s is ideal. However, it's never too late to start seeing significant improvements with a clinical-grade routine.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Is this routine suitable for sensitive skin?",
+            "answer": "<p>Our products are formulated to be potent yet gentle. However, retinol can cause initial sensitivity. We recommend introducing the Ultimate A Night Cream slowly, starting with 2–3 times per week and gradually increasing to nightly use as your skin adapts.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use these products if I get cosmetic injectables?",
+            "answer": "<p>Absolutely. In fact, this routine is the perfect complement to clinical treatments. It helps to maintain and enhance the results of procedures like Botox and fillers by improving overall skin health, quality, and resilience.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Why is a multi-product routine necessary?",
+            "answer": "<p>Ageing is a complex process with multiple causes. A single product can't effectively address DNA damage, collagen loss, and cellular senescence all at once. Our multi-pathway routine ensures you are targeting each of these mechanisms for the most comprehensive and visible results.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant, clinically-proven results—like wrinkle reduction and improved firmness—take 8–12 weeks of consistent use. This is because it takes time for your skin to rebuild its collagen and for new, healthy cells to reach the surface.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4", "q5"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -127,12 +405,23 @@
         "headline": "Take the First Step Towards Visibly Rejuvenated Skin.",
         "subheadline": "Trust a doctor-developed, science-backed system to restore your skin's youthful vitality.",
         "cta_text": "Shop the Anti-Ageing Routine",
-        "cta_url": "/collections/all",
+        "cta_url": "shopify://products/anti-ageing-protocol",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_routine", "lp_benefits", "lp_timeline", "lp_comparison", "lp_faq", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_stats",
+    "lp_approach",
+    "lp_routine",
+    "lp_benefits",
+    "lp_timeline",
+    "lp_comparison",
+    "lp_faq",
+    "lp_cta"
+  ]
 }

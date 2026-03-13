@@ -10,9 +10,19 @@
 {
   "current": {
     "product_on_sale_accent": "#a4d2f1",
+    "heading_font": "instrument_sans_n4",
+    "text_font": "instrument_sans_n4",
+    "discount_mode": "percentage",
     "cart_show_free_shipping_bar": true,
     "cart_free_shipping_threshold": "220",
     "favicon": "shopify://shop_images/favicon.jpg",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "6174324309569838175": {
+        "type": "shopify://apps/smile-io/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   }
 }
