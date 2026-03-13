@@ -214,7 +214,7 @@
         "headline": "Experience the Frontier of Clinical Skin Regeneration.",
         "subheadline": "Explore the Aliangé Protocols today — doctor-developed, science-backed systems designed to deliver measurable, lasting results.",
         "cta_text": "Explore the Aliangé Protocols",
-        "cta_url": "/collections/protocols",
+        "cta_url": "shopify://collections/protocols",
         "secondary_cta_text": "Take the Skin Assessment",
         "secondary_cta_url": "/pages/quiz",
         "guarantee": "Aliangé Skin Clinics, Queensland | Shipping Australia-wide"
