@@ -31,11 +31,14 @@
         "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
         "headline": "The Ultimate Morning Shield for Your Skin",
         "subheadline": "A four-step system to protect your skin from daily aggressors while actively treating and strengthening it.",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Start the AM Protocol",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "trust_line": "90-Day Results Guarantee Or Your Money Back"
       }
     },
@@ -46,7 +49,9 @@
         "headline": "Your Skin is Under Constant Attack",
         "body": "<p>UV radiation, pollution, and blue light cause premature ageing, inflammation, and barrier damage.</p><p><strong>UV is the #1 cause of premature ageing.</strong></p><p><strong>A compromised barrier can\u2019t defend itself.</strong></p><p><strong>Collagen declines with age.</strong></p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_routine": {
@@ -102,6 +107,7 @@
       "settings": {
         "label": "The Protocol",
         "headline": "Your 4-Step Morning Protocol",
+        "subheadline": "",
         "cta_text": "Start the AM Protocol",
         "cta_url": ""
       }
@@ -238,34 +244,47 @@
           "type": "step",
           "settings": {
             "text": "Cleanse with Daily Devotion Cleanser",
-            "time": "am"
+            "time": "am",
+            "frequency": ""
           }
         },
         "rit2": {
           "type": "step",
           "settings": {
             "text": "Apply Biocinamide Serum",
-            "time": "am"
+            "time": "am",
+            "frequency": ""
+          }
+        },
+        "step_aapDd9": {
+          "type": "step",
+          "settings": {
+            "text": "Cleanse with Daily Devotion Cleanser",
+            "time": "both",
+            "frequency": ""
           }
         },
         "rit3": {
           "type": "step",
           "settings": {
             "text": "Apply Jellyfish Peptide x Antioxidant Serum",
-            "time": "am"
+            "time": "am",
+            "frequency": ""
           }
         },
         "rit4": {
           "type": "step",
           "settings": {
             "text": "Apply Day Cream SPF 15",
-            "time": "am"
+            "time": "am",
+            "frequency": ""
           }
         }
       },
       "block_order": [
         "rit1",
         "rit2",
+        "step_aapDd9",
         "rit3",
         "rit4"
       ],
@@ -377,6 +396,8 @@
         "subheadline": "A clinically proven doctor-designed morning system.",
         "cta_text": "Start Your 90-Day Transformation",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
     },

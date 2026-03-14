@@ -31,11 +31,14 @@
         "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
         "headline": "Cellular Regeneration, Redefined.",
         "subheadline": "A concentrated two-step protocol for maximum skin rejuvenation using state-of-the-art regenerative technology.",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Start the Advanced Repair Protocol",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "trust_line": "90-Day Results Guarantee Or Your Money Back"
       }
     },
@@ -46,7 +49,9 @@
         "headline": "When Your Skin\u2019s Regenerative Capacity Declines.",
         "body": "<p>After 40, the skin\u2019s ability to repair and regenerate slows dramatically. Standard skincare can only do so much.</p><p><strong>Accelerated Cellular Decline.</strong> Cell communication weakens, hindering collagen production.</p><p><strong>Expression Line Etching.</strong> Deep wrinkles require targeted peptide intervention.</p><p><strong>Compromised Skin Density.</strong> Structural integrity loss leads to thinning skin.</p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_routine": {
@@ -80,6 +85,7 @@
       "settings": {
         "label": "The Protocol",
         "headline": "Your 2-Step Regenerative Protocol",
+        "subheadline": "",
         "cta_text": "Start the Advanced Repair Protocol",
         "cta_url": ""
       }
@@ -216,7 +222,8 @@
           "type": "step",
           "settings": {
             "text": "Cleanse with your Aliange cleanser",
-            "time": "both"
+            "time": "both",
+            "frequency": ""
           }
         },
         "rit2": {
@@ -230,14 +237,16 @@
           "type": "step",
           "settings": {
             "text": "Apply 1-2 pumps CellRevive Exosome Cream to face and neck",
-            "time": "both"
+            "time": "both",
+            "frequency": ""
           }
         },
         "rit4": {
           "type": "step",
           "settings": {
             "text": "Follow with Day Cream SPF 15",
-            "time": "am"
+            "time": "am",
+            "frequency": ""
           }
         }
       },
@@ -249,7 +258,7 @@
       ],
       "settings": {
         "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
+        "headline": "Your Prescribed Protocol",
         "am_note": "",
         "pm_note": ""
       }
@@ -345,6 +354,8 @@
         "subheadline": "Cellular-level regeneration, completely risk-free.",
         "cta_text": "Start the Advanced Repair Protocol",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
     },

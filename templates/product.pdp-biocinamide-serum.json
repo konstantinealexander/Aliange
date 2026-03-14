@@ -11,10 +11,6 @@
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
-      "settings": {
-        "description": "Experience a clinical breakthrough in skin resilience. Developed by Dr. Alison Jamieson, this multi-tasking serum rebuilds your skin\u2019s essential barrier, minimises pores, and locks in moisture for a visibly balanced, smoother complexion.",
-        "atc_text": "ADD TO CART \u2014 $90"
-      },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
@@ -62,7 +58,7 @@
           "type": "mini_faq",
           "settings": {
             "question": "Who is the Biocinamide Serum suitable for?",
-            "answer": "This serum is ideal for anyone looking to improve their skin\u2019s barrier function, reduce pore size, and achieve a more balanced complexion. It is particularly beneficial for those with combination, oily, or sensitive skin types."
+            "answer": "This serum is ideal for anyone looking to improve their skin’s barrier function, reduce pore size, and achieve a more balanced complexion. It is particularly beneficial for those with combination, oily, or sensitive skin types."
           }
         },
         "faq_2": {
@@ -75,8 +71,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -90,14 +86,14 @@
         "faq_1",
         "faq_2",
         "faq_3"
-      ]
+      ],
+      "settings": {
+        "description": "Experience a clinical breakthrough in skin resilience. Developed by Dr. Alison Jamieson, this multi-tasking serum rebuilds your skin’s essential barrier, minimises pores, and locks in moisture for a visibly balanced, smoother complexion.",
+        "atc_text": "ADD TO CART — $90"
+      }
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      },
       "blocks": {
         "press_1": {
           "type": "logo",
@@ -129,15 +125,14 @@
         "press_2",
         "press_3",
         "press_4"
-      ]
+      ],
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
-      "settings": {
-        "label": "Dermatologist Authored",
-        "bg_color": "#ffffff",
-        "speed": 25
-      },
       "blocks": {
         "badge_1": {
           "type": "badge",
@@ -176,24 +171,23 @@
         "badge_3",
         "badge_4",
         "badge_5"
-      ]
+      ],
+      "settings": {
+        "label": "Dermatologist Authored",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
-        "quote": "Don\u2019t just apply this serum to your face. The delicate skin on your neck and chest is just as prone to barrier damage and will benefit immensely from the ceramide-boosting and hydrating properties of this formula. Use it morning and night for optimal results."
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "quote": "Don’t just apply this serum to your face. The delicate skin on your neck and chest is just as prone to barrier damage and will benefit immensely from the ceramide-boosting and hydrating properties of this formula. Use it morning and night for optimal results."
       }
     },
     "benefits": {
       "type": "aliange-pdp-benefits",
-      "settings": {
-        "heading": "Experience A Breakthrough In Resilience",
-        "subheading": "Fortify your skin\u2019s future with our probiotic-infused barrier serum.",
-        "header_align": "left",
-        "button_text": "Shop Biocinamide Serum"
-      },
       "blocks": {
         "b1": {
           "type": "benefit",
@@ -213,7 +207,7 @@
           "type": "benefit",
           "settings": {
             "title": "Boosts Natural Ceramides",
-            "description": "Niacinamide has been clinically proven to increase your skin\u2019s own ceramide production by up to 5.5 times, fundamentally improving its resilience."
+            "description": "Niacinamide has been clinically proven to increase your skin’s own ceramide production by up to 5.5 times, fundamentally improving its resilience."
           }
         },
         "b4": {
@@ -245,15 +239,18 @@
         "b4",
         "b5",
         "b6"
-      ]
+      ],
+      "settings": {
+        "heading": "Experience A Breakthrough In Resilience",
+        "subheading": "Fortify your skin’s future with our probiotic-infused barrier serum.",
+        "header_align": "left",
+        "image": "shopify://shop_images/Untitled_56_76dd8db9-4801-471c-9ca7-9652e3a23a47.png",
+        "button_text": "Shop Biocinamide Serum",
+        "button_url": ""
+      }
     },
     "stats": {
       "type": "aliange-pdp-stats",
-      "settings": {
-        "heading": "Proven Resilience.",
-        "subheading": "Our clinical results show significant skin barrier improvement:",
-        "columns": 4
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -293,17 +290,15 @@
         "s2",
         "s3",
         "s4"
-      ]
+      ],
+      "settings": {
+        "heading": "Proven Resilience.",
+        "subheading": "Our clinical results show significant skin barrier improvement:",
+        "columns": 4
+      }
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
-      "settings": {
-        "heading": "Ditch The Generic Creams",
-        "subheading": "Standard luxury serums provide moisture. Aliang\u00e9 provides cellular instructions.",
-        "aliange_label": "Biocinamide Serum",
-        "competitor_label": "Other \"Pore\" Serums",
-        "button_text": "Upgrade Your Skincare"
-      },
       "blocks": {
         "r1": {
           "type": "comparison_row",
@@ -379,15 +374,18 @@
         "r6",
         "r7",
         "r8"
-      ]
+      ],
+      "settings": {
+        "heading": "Ditch The Generic Creams",
+        "subheading": "Standard luxury serums provide moisture. Aliangé provides cellular instructions.",
+        "aliange_label": "Biocinamide Serum",
+        "competitor_label": "Other \"Pore\" Serums",
+        "button_text": "Upgrade Your Skincare",
+        "button_url": ""
+      }
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
-      "settings": {
-        "heading": "Clinical-Grade Key Ingredients.",
-        "subheading": "A powerful combination of clinically proven actives to fortify, refine, and balance your skin.",
-        "columns": 3
-      },
       "blocks": {
         "i1": {
           "type": "ingredient",
@@ -421,7 +419,7 @@
           "settings": {
             "category": "Sebum Control",
             "name": "Bark Extract",
-            "bullets": "Rich in protoberberine|Regulates oil production|Inhibits 5-\u03b1 reductase|Minimises visible pores",
+            "bullets": "Rich in protoberberine|Regulates oil production|Inhibits 5-α reductase|Minimises visible pores",
             "evidence": "A clinical trial demonstrated a 29% reduction in sebum flow and a 49% reduction in active sebaceous glands after 28 days."
           }
         },
@@ -441,22 +439,21 @@
         "i3",
         "i4",
         "i5"
-      ]
+      ],
+      "settings": {
+        "heading": "Clinical-Grade Key Ingredients.",
+        "subheading": "A powerful combination of clinically proven actives to fortify, refine, and balance your skin.",
+        "columns": 3
+      }
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
-      "settings": {
-        "heading": "Barrier Fortification Ritual",
-        "subheading": "Follow these steps to restore harmony to your skin.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
-        "pro_tip_quote": "Don\u2019t just apply this serum to your face. The delicate skin on your neck and chest is just as prone to barrier damage and will benefit immensely from the ceramide-boosting properties."
-      },
       "blocks": {
         "step1": {
           "type": "step",
           "settings": {
             "title": "Cleanse",
-            "description": "Start with a clean, dry face. For best results, use Aliang\u00e9 Daily Devotion Cleanser."
+            "description": "Start with a clean, dry face. For best results, use Aliangé Daily Devotion Cleanser."
           }
         },
         "step2": {
@@ -470,7 +467,7 @@
           "type": "step",
           "settings": {
             "title": "Distribute",
-            "description": "Gently massage the serum onto your face, neck, and d\u00e9colletage in upward strokes."
+            "description": "Gently massage the serum onto your face, neck, and décolletage in upward strokes."
           }
         },
         "step4": {
@@ -486,21 +483,22 @@
         "step2",
         "step3",
         "step4"
-      ]
+      ],
+      "settings": {
+        "heading": "Barrier Fortification Ritual",
+        "subheading": "Follow these steps to restore harmony to your skin.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "Don’t just apply this serum to your face. The delicate skin on your neck and chest is just as prone to barrier damage and will benefit immensely from the ceramide-boosting properties."
+      }
     },
     "faq": {
       "type": "aliange-pdp-faq",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "Everything you need to know about the Biocinamide Serum.",
-        "button_text": "Shop Biocinamide Serum"
-      },
       "blocks": {
         "q1": {
           "type": "question",
           "settings": {
             "question": "Who is the Biocinamide Serum suitable for?",
-            "answer": "<p>This serum is ideal for anyone looking to improve their skin\u2019s barrier function, reduce pore size, and achieve a more balanced complexion. It is particularly beneficial for those with combination, oily, or sensitive skin types.</p>"
+            "answer": "<p>This serum is ideal for anyone looking to improve their skin’s barrier function, reduce pore size, and achieve a more balanced complexion. It is particularly beneficial for those with combination, oily, or sensitive skin types.</p>"
           }
         },
         "q2": {
@@ -521,13 +519,13 @@
           "type": "question",
           "settings": {
             "question": "Is this product made in Australia?",
-            "answer": "<p>Yes, all Aliang\u00e9 products are proudly formulated and manufactured in Australia under the guidance of Dr. Alison Jamieson.</p>"
+            "answer": "<p>Yes, all Aliangé products are proudly formulated and manufactured in Australia under the guidance of Dr. Alison Jamieson.</p>"
           }
         },
         "q5": {
           "type": "question",
           "settings": {
-            "question": "What does \u2018postbiotic\u2019 mean?",
+            "question": "What does ‘postbiotic’ mean?",
             "answer": "<p>Postbiotics are beneficial compounds produced by probiotics. In skincare, they support a healthy microbiome and strengthen natural defences without using live bacteria.</p>"
           }
         }
@@ -538,7 +536,13 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about the Biocinamide Serum.",
+        "button_text": "Shop Biocinamide Serum",
+        "button_url": ""
+      }
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -546,10 +550,11 @@
         "heading": "Your Strongest, Healthiest Skin Awaits.",
         "subheading": "Invest in the long-term health of your skin. With its clinically proven ingredients, the Biocinamide Serum is the essential step towards a resilient complexion.",
         "button_text": "YES, I WANT HEALTHIER SKIN",
+        "button_url": "",
         "trust_line": "Backed by our 90-Day Results Guarantee.",
-        "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to redness & sensitivity \u2192",
-        "secondary_link_url": "/pages/concern-redness"
+        "secondary_link_text": "Learn about our clinical approach to redness & sensitivity →",
+        "secondary_link_url": "/pages/concern-redness",
+        "bg_color": "#f4f7f9"
       }
     }
   },
