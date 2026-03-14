@@ -66,12 +66,12 @@
     </div>
   {%- endif -%}
 
-  <div class="article__wrapper container--{{ section.settings.content_width }}">
+  <div class="article__wrapper container--md" style="max-width: 800px; margin: 0 auto;">
     <div class="v-stack gap-10 sm:gap-16">
-      <div class="v-stack gap-8 sm:gap-12">
-        <div class="v-stack gap-4.5">
+      <div class="v-stack gap-8 sm:gap-12" style="border-bottom: 2px solid rgb(var(--border-color)); padding-bottom: 2rem;">
+        <div class="v-stack gap-4.5" style="text-align: center;">
           {%- if section.settings.show_date or section.settings.show_category and article.tags.size > 0 -%}
-            <div class="h-stack gap-4">
+            <div class="h-stack gap-4 justify-center" style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.85em;">
               {%- if section.settings.show_date -%}
                 <span class="h6 text-subdued"
                   ><time>{{- article.published_at | date: format: 'abbreviated_date' -}}</time></span
@@ -88,10 +88,10 @@
             </div>
           {%- endif -%}
 
-          <h1 class="h1">{{ article.title }}</h1>
+          <h1 class="h1" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-weight: 400; font-size: 3rem; margin-top: 1rem;">{{ article.title }}</h1>
         </div>
-
-        <div class="prose">
+      </div>
+        <div class="prose" style="text-align: justify; hyphens: auto; font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 1.125rem; line-height: 1.8; color: rgb(var(--text-color));">
           {{- article.content -}}
         </div>
       </div>
