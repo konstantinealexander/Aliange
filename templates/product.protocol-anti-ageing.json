@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -28,7 +37,7 @@
         "b3"
       ],
       "settings": {
-        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
+        "label": "Doctor-Designed · Evidence-Based · Australian Made",
         "headline": "Rewind the Clock on Ageing Skin",
         "subheadline": "A clinical-strength protocol designed for women 40+ to target wrinkles, loss of firmness, and age spots.",
         "min_height": 620,
@@ -68,7 +77,7 @@
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
             "why": "Powerful collagen stimulation and DNA repair.",
-            "key_active": "Matrixyl\u00ae synthe\u20196\u00ae",
+            "key_active": "Matrixyl® synthe’6®",
             "step": "AM & PM"
           }
         },
@@ -116,7 +125,7 @@
           "type": "point",
           "settings": {
             "title": "Accelerated Renewal",
-            "description": "Night Cream\u2019s retinol works on a structurally supported canvas for superior results."
+            "description": "Night Cream’s retinol works on a structurally supported canvas for superior results."
           }
         }
       },
@@ -369,113 +378,11 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Invest in Your Skin\u2019s Future.",
+        "headline": "Invest in Your Skin’s Future.",
         "subheadline": "See the results risk-free with a clinically-designed system.",
         "cta_text": "Start Your Transformation",
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
-      }
-    },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h3"
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": true
-          }
-        },
-        "afterpay_on_site_messaging_payments_messaging_wtPUnm": {
-          "type": "shopify://apps/afterpay-on-site-messaging/blocks/payments-messaging/f45a5524-d177-4475-bf59-281efd2215a8",
-          "settings": {
-            "text_align": "inherit",
-            "margin_top": 16,
-            "margin_bottom": 16,
-            "color": "",
-            "size": "md",
-            "intro_text": "or",
-            "show_interest_free": true,
-            "payment_amount_is_bold": true,
-            "show_with": true,
-            "logo_type": "badge",
-            "logo_theme": "black-on-mint",
-            "modal_link_style": "circled-info-icon",
-            "modal_theme": "mint",
-            "breakpoint": 749,
-            "text_align_mobile": "inherit",
-            "margin_top_mobile": 16,
-            "margin_bottom_mobile": 16,
-            "show_lower_limit": true,
-            "show_upper_limit": true,
-            "show_if_outside_limits": true,
-            "product": "{{product}}"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "payment_terms",
-        "separator",
-        "description",
-        "quantity_selector",
-        "price",
-        "afterpay_on_site_messaging_payments_messaging_wtPUnm",
-        "buy_buttons"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "container_size": "full",
-        "product_info_size": 50,
-        "show_sticky_add_to_cart": false,
-        "center_basic_info": false,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "desktop_media_grid_gap": 30,
-        "mobile_controls": "dots",
-        "enable_media_autoplay": false,
-        "enable_video_looping": true,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3
       }
     }
   },
@@ -489,7 +396,6 @@
     "proto_ritual",
     "proto_includes",
     "lp_faq",
-    "lp_cta",
-    "main"
+    "lp_cta"
   ]
 }
