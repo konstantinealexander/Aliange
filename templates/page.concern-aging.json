@@ -153,40 +153,18 @@
         "p3": {
           "type": "product_step",
           "settings": {
-            "name": "CellRevive Exosome Cream",
-            "price": "$400",
-            "why": "Harnessing the power of regenerative exosomes, this cream activates key cellular pathways to dramatically improve skin health and vitality.",
-            "key_active": "Regenerative Exosomes",
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "A clinically active resurfacing and pigment-correcting serum designed to improve skin tone, clarity, and radiance.",
+            "key_active": "Multi-Acid Resurfacing Complex + Oligopeptide-68 Brightening Peptide + Pure Vitamin C (Ascorbic Acid) + Niacinamide",
             "step": "Step 2 (AM) / Step 3 (PM)"
-          }
-        },
-        "p4": {
-          "type": "product_step",
-          "settings": {
-            "name": "Day Cream SPF 15",
-            "price": "$90",
-            "why": "Protects against daily UV exposure—the #1 cause of premature ageing—while actively reducing wrinkles with Matrixyl 3000.",
-            "key_active": "Broad-spectrum UV filter complex(UVA + UVB protection), Matrixyl® 3000 peptide complex",
-            "step": "Step 3 (AM)"
-          }
-        },
-        "p5": {
-          "type": "product_step",
-          "settings": {
-            "name": "Rejuvenating Eye & Lip Cream",
-            "price": "$225",
-            "why": "A targeted treatment to combat glycation and reduce wrinkle folds by up to 91% in the delicate eye and lip areas.",
-            "key_active": "Niacinamide, Albizia Julibrissin + Darutoside complex, ATP (cellular energy molecule)",
-            "step": "Step 4 (AM/PM)"
           }
         }
       },
       "block_order": [
         "p1",
         "p2",
-        "p3",
-        "p4",
-        "p5"
+        "p3"
       ],
       "settings": {
         "label": "The Protocol",
@@ -362,7 +340,7 @@
           "type": "question",
           "settings": {
             "question": "Is this routine suitable for sensitive skin?",
-            "answer": "<p>Our products are formulated to be potent yet gentle. However, retinol can cause initial sensitivity. We recommend introducing the Ultimate A Night Cream slowly, starting with 2–3 times per week and gradually increasing to nightly use as your skin adapts.</p>"
+            "answer": "<p>Our <strong>microencapsulated retinol</strong> is specifically designed to deliver vitamin A gradually, helping minimise irritation while still supporting collagen renewal and skin regeneration. Most people tolerate it very well.</p><p>However, because the <strong>Brightening Serum contains active exfoliating acids</strong>, we recommend introducing it slowly. Start by using it <strong>every other night</strong>, then gradually increase to nightly use as your skin adapts.</p>"
           }
         },
         "q3": {
