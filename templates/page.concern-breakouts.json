@@ -395,9 +395,9 @@
       "type": "aliange-lp-cta",
       "settings": {
         "headline": "Ready to End the Breakout Cycle for Good?",
-        "subheadline": "Trust in a clinical, science-led solution developed by one of Australia's leading dermatological experts. Your journey to clear, confident skin starts here.",
-        "cta_text": "Shop the Breakout Solution",
-        "cta_url": "/collections/all",
+        "subheadline": "Trust in a clinical, science-led solution developed by one of Australia's leading cosmetic experts. Your journey to clear, confident skin starts here.",
+        "cta_text": "Shop the Acne Protocol",
+        "cta_url": "shopify://products/acne-protocol",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "Backed by Our 90-Day Results Guarantee."
