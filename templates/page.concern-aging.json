@@ -166,7 +166,7 @@
             "name": "Day Cream SPF 15",
             "price": "$90",
             "why": "Protects against daily UV exposure—the #1 cause of premature ageing—while actively reducing wrinkles with Matrixyl 3000.",
-            "key_active": "Matrixyl 3000",
+            "key_active": "Broad-spectrum UV filter complex(UVA + UVB protection), Matrixyl® 3000 peptide complex",
             "step": "Step 3 (AM)"
           }
         },
@@ -176,7 +176,7 @@
             "name": "Rejuvenating Eye & Lip Cream",
             "price": "$225",
             "why": "A targeted treatment to combat glycation and reduce wrinkle folds by up to 91% in the delicate eye and lip areas.",
-            "key_active": "De-glycation Complex",
+            "key_active": "Niacinamide, Albizia Julibrissin + Darutoside complex, ATP (cellular energy molecule)",
             "step": "Step 4 (AM/PM)"
           }
         }
