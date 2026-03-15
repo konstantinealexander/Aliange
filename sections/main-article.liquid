@@ -94,6 +94,7 @@
         <div class="prose" style="text-align: justify; hyphens: auto; font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 1.125rem; line-height: 1.8; color: rgb(var(--text-color));">
           {{- article.content -}}
         </div>
+      </div>
 
       {%- if section.settings.show_author or section.settings.show_share_buttons -%}
         {%- if section.settings.show_author and article.user.bio != blank or article.user.image != blank or article.user.homepage != blank -%}
