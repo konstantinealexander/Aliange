@@ -29,6 +29,11 @@
       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
+    {%- comment -%}Preload LCP hero image on homepage to improve Largest Contentful Paint{%- endcomment -%}
+    {%- if request.page_type == 'index' -%}
+      <link rel="preload" as="image" href="{{ 'C2vFT16uCXo.jpg' | file_img_url: '1920x' }}" fetchpriority="high">
+    {%- endif -%}
+
     {%- render 'social-meta-tags' -%}
     {%- render 'microdata-schema' -%}
     {%- render 'css-variables' -%}

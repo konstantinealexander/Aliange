@@ -1,4 +1,5 @@
-{{ 'aliange-quiz.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'aliange-quiz.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ 'aliange-quiz.css' | asset_url }}"></noscript>
 <div class="quiz-wrapper" style="background-color: {{ section.settings.bg_color }};">
     <!-- Trigger Button (Optional, if you want it embedded) -->
     <div style="text-align: center; padding: 40px;">

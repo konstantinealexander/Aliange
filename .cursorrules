@@ -1,0 +1,12 @@
+# Shopify Live Theme Deployment Rules
+
+## CRITICAL: NEVER PUSH DIRECTLY TO LIVE VIA CLI
+You must **NEVER** use the Shopify CLI (e.g., `shopify theme push --allow-live`, `shopify theme push --theme 144328360106`, etc.) to deploy code directly to the live theme.
+
+The only safe way to deploy changes to the live Shopify theme is by committing code to version control using standard Git commands:
+1. `git add [files]`
+2. `git commit -m "[message]"`
+3. `git push`
+
+### Why?
+Pushing directly to the live theme using the CLI bypasses Git and forcibly overwrites background updates, JSON schemas, and structural changes made by the user in the Shopify Theme Editor. This will corrupt page templates and break the live site. Always rely on Shopify's GitHub integration to sync changes smoothly.

@@ -2,16 +2,15 @@
 {%- assign store_url = shop.url -%}
 # Aliangé
 
-> Aliangé is an Australian clinical skincare brand developed by Dr. Alison Jamieson, bringing over 40 years of dermatological expertise to evidence-based formulations. Specialising in cellular regeneration, anti-ageing, pigmentation correction, and barrier repair, every product is doctor-led, Australian made, and designed for the demands of the Queensland sun. Shop at {{ store_url }}.
+> Aliangé is an Australian clinical skincare brand developed by Dr. Alison Jamieson (MBBS, FRACGP, Dip Derm), bringing over 40 years of dermatological expertise to evidence-based formulations. Specialising in cellular regeneration, anti-ageing, pigmentation correction, and barrier repair, every product is doctor-led, Australian made, and designed for the demands of the Queensland sun. Protocols are structured three-phase systems — Prepare & Purify, Stimulate & Communicate, Protect & Fortify — designed for histological skin change, not surface-level results. Free shipping on orders over $220. Shop at {{ store_url }}.
 
 ## About
 
-- [About Aliangé]({{ store_url }}/pages/about-us): The story of Aliangé, founded by Dr. Alison Jamieson, and the medical philosophy behind our doctor-led, evidence-based clinical skincare protocols.
+- [About Aliangé]({{ store_url }}/pages/about-us-improved): The story of Aliangé, founded by Dr. Alison Jamieson (MBBS, FRACGP, Dip Derm), and the medical philosophy behind our doctor-led, evidence-based clinical skincare protocols. Based on Queensland's Sunshine Coast, Australia.
+- [Skin Quiz — Find Your Protocol]({{ store_url }}/pages/quiz): A clinical skin analysis tool that asks 8 targeted questions about skin type, concerns, and lifestyle, then prescribes the exact Aliangé protocol for your biology. Developed by Dr. Alison Jamieson.
 - [Contact Us]({{ store_url }}/pages/contact): Reach the Aliangé team via email or enquiry form for skincare advice, order support, and wholesale questions.
-- [FAQ]({{ store_url }}/pages/faq): Frequently asked questions on Aliangé products, ingredients, skincare protocols, shipping, and returns.
 - [How to Use]({{ store_url }}/pages/how-to-use): Step-by-step instructions for applying Aliangé products in the correct protocol order for maximum clinical efficacy.
 - [Rewards Program]({{ store_url }}/pages/rewards): Aliangé loyalty rewards — earn points on every purchase and redeem for discounts on future orders.
-- [Skincare for Mature Skin]({{ store_url }}/pages/mature-skin): Doctor-led guide to skincare for mature and ageing skin, featuring targeted Aliangé protocols for deep regeneration.
 - [Collaborations]({{ store_url }}/pages/collabs): Aliangé brand partnerships, influencer and professional collaborations, and stockist enquiries.
 
 ## Shop
@@ -37,6 +36,16 @@
 - [{{ product.title }}]({{ store_url }}/products/{{ product.handle }}): {{ product.description | strip_html | truncate: 130 | default: product.title }}.{%- if product.price_min %} From {{ product.price_min | money }}.{%- endif %}
 {%- endunless %}
 {%- endfor %}
+
+## Skin Concerns & Clinical Education
+
+- [Anti-Ageing Skincare Guide]({{ store_url }}/pages/concern-aging): Doctor-led clinical guide to the science of skin ageing — collagen loss, cellular senescence, photoageing — and the Aliangé multi-pathway protocol for visibly rejuvenated, firmer skin. Includes timeline of results and clinical data.
+- [Pigmentation & Dark Spots Guide]({{ store_url }}/pages/concern-pigmentation): Clinical explanation of hyperpigmentation, melasma, and post-inflammatory pigmentation. Covers how Aliangé's brightening actives — Oligopeptide-68, multi-acid resurfacing, and Vitamin C — address the root causes of uneven skin tone.
+- [Breakouts & Acne Guide]({{ store_url }}/pages/concern-breakouts): Doctor-led guide to acne and congested skin — comedones, hormonal breakouts, inflamed lesions — and the Aliangé clinical approach to clearing pores, reducing inflammation, and preventing recurrence.
+- [Dull Skin & Radiance Guide]({{ store_url }}/pages/concern-dullness): Explains the cellular reasons behind skin dullness and fatigue — impaired cell turnover, dehydration, oxidative stress — and how Aliangé resurfacing and brightening protocols restore luminosity and texture.
+- [Redness & Sensitivity Guide]({{ store_url }}/pages/concern-redness): Clinical guide to persistent redness, reactive skin, and compromised barrier function. Details how Aliangé barrier-repair formulations reduce inflammation, calm reactivity, and rebuild skin resilience.
+- [Skincare Protocol vs Routine — What's the Difference]({{ store_url }}/pages/skincare-protocol-vs-routine): Explains the clinical distinction between a skincare routine (random product stacking) and a skincare protocol (medically sequenced, synergistic system). Why protocols produce histological change and routines do not.
+- [Ultimate Skincare Guide for Women Over 40]({{ store_url }}/pages/best-skincare-women-over-40-australia): Comprehensive doctor-led guide to skincare after 40 — hormonal skin changes, accelerated collagen loss, barrier thinning — and the best evidence-based Aliangé protocols for mature Australian skin.
 
 ## Policies & Trust
 

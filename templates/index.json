@@ -22,7 +22,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "Take skin quiz",
-            "button_1_link": "https://aliange.com.au/?open-quiz=true",
+            "button_1_link": "/pages/quiz",
             "button_1_style": "fill",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#1c1c1c",
@@ -165,6 +165,81 @@
         "button_2_style": "solid"
       }
     },
+    "concern_grid": {
+      "type": "multi-column",
+      "blocks": {
+        "concern_aging": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Anti-Ageing",
+            "heading_tag": "h3",
+            "content": "<p>Target fine lines, loss of firmness, and visible signs of ageing with a clinical multi-pathway approach.</p>",
+            "link_url": "/pages/concern-aging",
+            "link_text": "Explore \u2192"
+          }
+        },
+        "concern_pigmentation": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Pigmentation",
+            "heading_tag": "h3",
+            "content": "<p>Address dark spots, melasma, and uneven skin tone with targeted brightening actives.</p>",
+            "link_url": "/pages/concern-pigmentation",
+            "link_text": "Explore \u2192"
+          }
+        },
+        "concern_breakouts": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Breakouts",
+            "heading_tag": "h3",
+            "content": "<p>Clarify congested pores, balance oil production, and reduce active breakouts clinically.</p>",
+            "link_url": "/pages/concern-breakouts",
+            "link_text": "Explore \u2192"
+          }
+        },
+        "concern_dullness": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Dullness",
+            "heading_tag": "h3",
+            "content": "<p>Restore radiance, improve skin texture, and reveal a brighter, more luminous complexion.</p>",
+            "link_url": "/pages/concern-dullness",
+            "link_text": "Explore \u2192"
+          }
+        },
+        "concern_redness": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Redness",
+            "heading_tag": "h3",
+            "content": "<p>Calm persistent redness, reduce irritation, and strengthen your skin barrier against reactivity.</p>",
+            "link_url": "/pages/concern-redness",
+            "link_text": "Explore \u2192"
+          }
+        }
+      },
+      "block_order": [
+        "concern_aging",
+        "concern_pigmentation",
+        "concern_breakouts",
+        "concern_dullness",
+        "concern_redness"
+      ],
+      "name": "Skin Concerns",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 5,
+        "stack_on_mobile": true,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "small",
+        "subheading": "<em>CLINICAL CONCERNS</em>",
+        "title": "Find Your Skin Solution",
+        "content": ""
+      }
+    },
     "before_after_duo_JwKtWJ": {
       "type": "before-after-duo",
       "blocks": {
@@ -274,143 +349,75 @@
         "content": ""
       }
     },
-    "collection_list_mCnciJ": {
-      "type": "collection-list",
+    "protocols_featured": {
+      "type": "featured-collections",
       "blocks": {
-        "collection_wKHQDi": {
+        "protocols_block": {
           "type": "collection",
           "settings": {
-            "color_scheme": "",
-            "collection": "all",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "ALL PRODUCTS",
-            "button_link": "shopify://collections/all",
-            "button_style": "outline",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_y8x3gA": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "scheme-4",
             "collection": "protocols",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
+            "products_count": 6,
             "title": "",
-            "button_text": "PROTOCOLS",
-            "button_link": "shopify://collections/protocols",
-            "button_style": "outline",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_GDQ6Wz": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "collection": "serums",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "SERUMS",
-            "button_link": "shopify://collections/serums",
-            "button_style": "outline",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_L7crH6": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "collection": "masques",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "MASQUES",
-            "button_link": "shopify://products/masque-protocol",
-            "button_style": "outline",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_kLwWyk": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "cleanse",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "CLEANSE",
-            "button_link": "shopify://collections/cleanse",
-            "button_style": "outline",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_4aH9qk": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "gift-card",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "GIFT CARDS",
-            "button_link": "shopify://products/gift-card",
-            "button_style": "outline",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "link_url": "shopify://collections/protocols",
+            "link_text": "View All Protocols"
           }
         }
       },
       "block_order": [
-        "collection_wKHQDi",
-        "collection_y8x3gA",
-        "collection_GDQ6Wz",
-        "collection_L7crH6",
-        "collection_kLwWyk",
-        "collection_4aH9qk"
+        "protocols_block"
       ],
-      "name": "t:sections.collection_list.presets.collection_list.name",
+      "name": "Protocols Collection",
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": true,
-        "image_size": "sm",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "stack_collections_mobile": true,
-        "collections_per_row_mobile": "1",
-        "subheading": "",
-        "title": "",
-        "content": ""
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "<em>DOCTOR-PRESCRIBED</em>",
+        "hide_collection_title": false
       }
     },
-    "aliange_quiz_xaeYMV": {
-      "type": "aliange-quiz",
-      "name": "Aliang\u00e9 Skin Quiz",
+    "view_all_cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cta": {
+          "type": "heading",
+          "settings": {
+            "text": "Build Your Routine",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_cta": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Browse the full Aliang\u00e9 range \u2014 serums, masques, cleansers and protocols, all formulated by Dr. Alison Jamieson.</p>"
+          }
+        },
+        "button_cta": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "View All Products",
+            "button_1_link": "shopify://collections/all",
+            "button_1_style": "fill",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cta",
+        "richtext_cta",
+        "button_cta"
+      ],
+      "name": "View All Products",
       "settings": {
-        "bg_color": "#ffffff",
-        "btn_text": "TAKE OUR SKIN QUIZ",
-        "klaviyo_list_id": "TBxECh",
-        "product_essential": "essential-protocol",
-        "product_the_protocol": "the-protocol",
-        "product_pm": "pm-protocol",
-        "product_anti_ageing": "anti-ageing-protocol",
-        "product_acne": "acne-protocol",
-        "product_am": "am-protocol-1"
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "pillar_links": {
@@ -455,10 +462,11 @@
     "slideshow",
     "scrolling-content-2",
     "multiple-media-with-text",
+    "concern_grid",
     "before_after_duo_JwKtWJ",
     "testimonials",
-    "pillar_links",
-    "collection_list_mCnciJ",
-    "aliange_quiz_xaeYMV"
+    "protocols_featured",
+    "view_all_cta",
+    "pillar_links"
   ]
 }

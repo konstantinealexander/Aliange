@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "quiz_hero": {
+      "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "8 clinically targeted questions about your skin type, concerns, and lifestyle."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "A prescribed protocol matched to your unique skin profile by Dr. Alison Jamieson."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Results saved to your profile for personalised recommendations over time."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "label": "Aliang\u00e9 Clinical",
+        "headline": "Discover Your Prescribed Skincare Protocol.",
+        "subheadline": "Not all skin concerns are the same. Our clinical skin analysis asks the questions your GP would — identifying your skin's primary needs to prescribe the exact Aliang\u00e9 protocol for your biology.",
+        "overlay_color": "rgba(26,24,20,0.50)",
+        "min_height": 580,
+        "content_width": 720,
+        "align": "left",
+        "cta_text": "Begin Skin Analysis",
+        "cta_url": "#start-quiz-btn",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "trust_line": "Doctor-Developed | Science-Backed | Takes 2 Minutes"
+      }
+    },
+    "quiz_main": {
+      "type": "aliange-quiz",
+      "name": "Aliang\u00e9 Skin Quiz",
+      "settings": {
+        "bg_color": "#ffffff",
+        "btn_text": "BEGIN SKIN ANALYSIS",
+        "klaviyo_list_id": "TBxECh",
+        "product_essential": "essential-protocol",
+        "product_the_protocol": "the-protocol",
+        "product_pm": "pm-protocol",
+        "product_anti_ageing": "anti-ageing-protocol",
+        "product_acne": "acne-protocol",
+        "product_am": "am-protocol-1"
+      }
+    },
+    "quiz_doctor": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Aliange-171update.jpg",
+            "rotation": 0
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Aliange-13update_1.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2"
+      ],
+      "name": "Doctor Authority",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "end",
+        "media_alignment_offset": 80,
+        "media_mobile_alignment_offset": 40,
+        "text_alignment": "center",
+        "subheading": "<em>DESIGNED BY A DOCTOR</em>",
+        "title": "Dr. Alison Jamieson",
+        "content": "<h3>MBBS, FRACGP, Dip Derm</h3><p>With over 40 years treating Australian skin, Dr. Alison developed each Aliang\u00e9 protocol to address the root cause of skin concerns \u2014 not just the surface. Your quiz result is based on the same clinical reasoning she applies in practice.</p>",
+        "button_1_text": "About Dr. Alison",
+        "button_1_link": "shopify://pages/about-us-improved",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid"
+      }
+    },
+    "quiz_testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_GL9iCw": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p><em>\u201cI have had significant pigmentation following PDT treatment. Within a month of using the Brightening Serum and Night Cream, I\u2019ve seen a clear improvement in my pigmentation and skin. Amazing product.\u201d</em></p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_eDF9xy": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p><em>\u201cI\u2019ve been using Aliang\u00e9 for years and still get compliments on my skin. After battling problematic skin for so long, it\u2019s a relief to finally use products that work.\u201d</em></p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial-protocol": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p><em>\u201cTook the quiz and was prescribed The Protocol. Three months in and my skin has genuinely transformed. The analysis was accurate \u2014 I had tried everything before and nothing worked until this.\u201d</em></p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_GL9iCw",
+        "testimonial_eDF9xy",
+        "testimonial-protocol"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": true,
+        "cycle_speed": 6,
+        "font_size_factor": 1,
+        "subheading": "<em>RESULTS</em>",
+        "title": "Prescribed. Proven. Transformative.",
+        "content": ""
+      }
+    },
+    "quiz_cta": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_quiz": {
+          "type": "subheading",
+          "settings": {
+            "text": "<em>NOT SURE WHERE TO START?</em>"
+          }
+        },
+        "heading_quiz": {
+          "type": "heading",
+          "settings": {
+            "text": "Browse All Protocols",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_quiz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Prefer to explore before committing? View the full range of doctor-prescribed protocols and find the right fit for your skin.</p>"
+          }
+        },
+        "button_quiz": {
+          "type": "button",
+          "settings": {
+            "button_1_label": "Shop All Protocols",
+            "button_1_link": "shopify://collections/protocols",
+            "button_1_style": "fill",
+            "button_2_label": "View All Products",
+            "button_2_link": "shopify://collections/all",
+            "button_2_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_quiz",
+        "heading_quiz",
+        "richtext_quiz",
+        "button_quiz"
+      ],
+      "name": "Quiz Footer CTA",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "quiz_hero",
+    "quiz_main",
+    "quiz_doctor",
+    "quiz_testimonials",
+    "quiz_cta"
+  ]
+}
