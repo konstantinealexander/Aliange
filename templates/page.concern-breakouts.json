@@ -136,8 +136,18 @@
             "name": "Daily Devotion Cleanser",
             "price": "$55",
             "why": "Gently cleanses without stripping the skin's protective barrier, preventing the irritation and dehydration that can worsen breakouts.",
-            "key_active": "Coconut-derived surfactants, Jojoba Esters",
+            "key_active": "Amino Acid Cleansing Complex (Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate) + Jojoba Conditioning Lipids + Natural Moisturising Factor Complex (Sodium PCA + PCA + Amino Acids) + Allantoin Soothing Complex",
             "step": "Step 1 (AM/PM)"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Transforming Exfoliator",
+            "price": "$55",
+            "why": "Combines chemical (AHAs) and physical (Jojoba beads) exfoliation to decongest pores and remove dead skin cells, with Tea Tree Oil to target breakout-causing bacteria.",
+            "key_active": "Perlite Mineral Exfoliation + Multi-Acid Resurfacing Complex (Glycolic, Lactic & Malic Acids) + Natural Fruit Acid Complex + Green Tea Antioxidant Complex + Tea Tree Clarifying Extract",
+            "step": "2–3x per week (PM)"
           }
         },
         "p2": {
@@ -148,16 +158,6 @@
             "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
             "key_active": "Oleanolic Acid, Enantia Chlorantha Bark Extract",
             "step": "Step 2 (AM/PM)"
-          }
-        },
-        "p3": {
-          "type": "product_step",
-          "settings": {
-            "name": "Transforming Exfoliator",
-            "price": "$55",
-            "why": "Combines chemical (AHAs) and physical (Jojoba beads) exfoliation to decongest pores and remove dead skin cells, with Tea Tree Oil to target breakout-causing bacteria.",
-            "key_active": "AHAs, Tea Tree Oil, Jojoba Beads",
-            "step": "2–3x per week (PM)"
           }
         },
         "p4": {
@@ -173,8 +173,8 @@
       },
       "block_order": [
         "p1",
-        "p2",
         "p3",
+        "p2",
         "p4"
       ],
       "settings": {
