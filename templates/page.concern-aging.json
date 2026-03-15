@@ -136,7 +136,7 @@
             "name": "Jellyfish Peptide X Serum",
             "price": "$225",
             "why": "This advanced serum targets DNA repair and rebuilds the skin's matrix with powerful peptides, addressing the core signs of cellular ageing.",
-            "key_active": "Matrixyl synthe'6",
+            "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™), Palmitoyl Tripeptide-38 (Matrixyl Synthe’6™)",
             "step": "Step 1 (AM/PM)"
           }
         },
@@ -146,7 +146,7 @@
             "name": "Ultimate A Night Cream",
             "price": "$130",
             "why": "A potent combination of microencapsulated retinol works overnight to accelerate cell turnover and visibly reduce wrinkles by up to 20%.",
-            "key_active": "Retinol + Bakuchiol",
+            "key_active": "Retinol (Encapsulated with Hydroxypropyl Cyclodextrin), Palmitoyl Tripeptide-38 (Matrixyl Synthe’6™)",
             "step": "Step 2 (PM)"
           }
         },
