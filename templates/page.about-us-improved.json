@@ -43,7 +43,7 @@
       "settings": {
         "label": "Meet the Founder",
         "headline": "Dr. Alison Jamieson — MBBS, FRACGP, Dip Derm",
-        "body": "<p>Dr. Alison Jamieson is one of Australia's most respected authorities in non-surgical cosmetic dermatology. She has dedicated her life to aesthetic medicine, working full-time in the specialty for more than three decades.</p><p>After graduating with a Bachelor of Medicine and Bachelor of Surgery (MBBS) from the University of Queensland in 1985, Dr. Jamieson spent four years training at the Royal Brisbane and Wesley hospitals before obtaining her Fellowship in General Practice (FRACGP). She further specialised her expertise by completing a Graduate Diploma in Dermatology at Monash University.</p><p>Dr. Jamieson attended the very first laser conference in Melbourne in 1994, positioning her at the forefront of what would become a rapidly expanding medical field. She has been a faculty member of the Allergan Medical Institute for over 15 years, training other medical professionals in advanced injectable techniques.</p>",
+        "body": "<p>Dr. Alison Jamieson is one of Australia's most respected authorities in non-surgical cosmetic dermatology. She has dedicated her life to aesthetic medicine, working full-time in the specialty for more than four decades.</p><p>After graduating with a Bachelor of Medicine and Bachelor of Surgery (MBBS) from the University of Queensland in 1985, Dr. Jamieson spent four years training at the Royal Brisbane and Wesley hospitals before obtaining her Fellowship in General Practice (FRACGP). She further specialised her expertise by completing a Graduate Diploma in Dermatology at Monash University.</p><p>Dr. Jamieson attended the very first laser conference in Melbourne in 1994, positioning her at the forefront of what would become a rapidly expanding medical field. She has been a faculty member of the Allergan Medical Institute for over 15 years, training other medical professionals in advanced injectable techniques.</p>",
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
@@ -102,7 +102,7 @@
         "t1": {
           "type": "rich_text",
           "settings": {
-            "body": "<p>We do not formulate based on social media hype. Every ingredient—from our Endexome-EXO™ API to our immortal jellyfish peptides—is selected based on rigorous histological evidence and clinical trials.</p>"
+            "body": "<p>We do not formulate based on hype. Every ingredient—from our Endexome-EXO™ API to our immortal jellyfish peptides—is selected based on rigorous histological evidence and clinical trials.</p>"
           }
         },
         "s2": {
