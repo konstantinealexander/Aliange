@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "lp_hero": {
@@ -37,7 +28,7 @@
         "b3"
       ],
       "settings": {
-        "label": "Doctor-Designed · Evidence-Based · Australian Made",
+        "label": "Doctor-Designed \u00b7 Evidence-Based \u00b7 Australian Made",
         "headline": "Cellular Regeneration, Redefined.",
         "subheadline": "A concentrated two-step protocol for maximum skin rejuvenation using state-of-the-art regenerative technology.",
         "overlay_color": "rgba(26,24,20,0.45)",
@@ -55,8 +46,8 @@
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Problem",
-        "headline": "When Your Skin’s Regenerative Capacity Declines.",
-        "body": "<p>After 40, the skin’s ability to repair and regenerate slows dramatically. Standard skincare can only do so much.</p><p><strong>Accelerated Cellular Decline.</strong> Cell communication weakens, hindering collagen production.</p><p><strong>Expression Line Etching.</strong> Deep wrinkles require targeted peptide intervention.</p><p><strong>Compromised Skin Density.</strong> Structural integrity loss leads to thinning skin.</p>",
+        "headline": "When Your Skin\u2019s Regenerative Capacity Declines.",
+        "body": "<p>After 40, the skin\u2019s ability to repair and regenerate slows dramatically. Standard skincare can only do so much.</p><p><strong>Accelerated Cellular Decline.</strong> Cell communication weakens, hindering collagen production.</p><p><strong>Expression Line Etching.</strong> Deep wrinkles require targeted peptide intervention.</p><p><strong>Compromised Skin Density.</strong> Structural integrity loss leads to thinning skin.</p>",
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
@@ -82,7 +73,7 @@
             "name": "CellRevive Exosome Cream",
             "price": "$400",
             "why": "Advanced exosome technology instructs cells to behave more youthfully.",
-            "key_active": "Endexome-EXO™ API",
+            "key_active": "Endexome-EXO\u2122 API",
             "step": "AM & PM"
           }
         }
@@ -238,7 +229,7 @@
         "rit2": {
           "type": "step",
           "settings": {
-            "text": "Apply ¼ pump Eye & Lip Cream around eyes and lips",
+            "text": "Apply \u00bc pump Eye & Lip Cream around eyes and lips",
             "time": "both"
           }
         },
@@ -359,13 +350,115 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Invest in Your Skin’s Future.",
+        "headline": "Invest in Your Skin\u2019s Future.",
         "subheadline": "Cellular-level regeneration, completely risk-free.",
         "cta_text": "Start the Advanced Repair Protocol",
         "cta_url": "",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "afterpay_on_site_messaging_payments_messaging_wtPUnm": {
+          "type": "shopify://apps/afterpay-on-site-messaging/blocks/payments-messaging/f45a5524-d177-4475-bf59-281efd2215a8",
+          "settings": {
+            "text_align": "inherit",
+            "margin_top": 16,
+            "margin_bottom": 16,
+            "color": "",
+            "size": "md",
+            "intro_text": "or",
+            "show_interest_free": true,
+            "payment_amount_is_bold": true,
+            "show_with": true,
+            "logo_type": "badge",
+            "logo_theme": "black-on-mint",
+            "modal_link_style": "circled-info-icon",
+            "modal_theme": "mint",
+            "breakpoint": 749,
+            "text_align_mobile": "inherit",
+            "margin_top_mobile": 16,
+            "margin_bottom_mobile": 16,
+            "show_lower_limit": true,
+            "show_upper_limit": true,
+            "show_if_outside_limits": true,
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "payment_terms",
+        "separator",
+        "description",
+        "quantity_selector",
+        "price",
+        "afterpay_on_site_messaging_payments_messaging_wtPUnm",
+        "buy_buttons"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "container_size": "full",
+        "product_info_size": 50,
+        "show_sticky_add_to_cart": false,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
       }
     }
   },
@@ -379,6 +472,7 @@
     "proto_ritual",
     "proto_includes",
     "lp_faq",
-    "lp_cta"
+    "lp_cta",
+    "main"
   ]
 }
