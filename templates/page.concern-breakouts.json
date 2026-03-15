@@ -150,39 +150,50 @@
             "step": "2–3x per week (PM)"
           }
         },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Probiotic Masque",
+            "price": "$60",
+            "why": "A detoxifying and rebalancing treatment that uses clays to absorb excess oil and prebiotics to selectively feed beneficial bacteria, restoring a healthy microbiome.",
+            "key_active": "Purifying Mineral Clay Complex (Kaolin + Bentonite) + Probiotic & Prebiotic Microbiome Complex (Lactococcus Ferment + Lactobacillus + Alpha-Glucan Oligosaccharide + Yacon Root) + Hyaluronic Acid Hydration System + Marine Algae Barrier SupportVitamin E + Antioxidant Protection",
+            "step": "2–3x per week"
+          }
+        },
         "p2": {
           "type": "product_step",
           "settings": {
             "name": "Biocinamide Serum",
             "price": "$90",
             "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
-            "key_active": "Oleanolic Acid, Enantia Chlorantha Bark Extract",
+            "key_active": "Niacinamide Sebum-Control Complex + Microbiome-Supporting Ferment (Lactococcus Lysate) + Sebum-Regulating Botanical Complex (Enantia Chlorantha + Oleanolic Acid) + Barrier Lipid Complex (Sphingolipids + Phospholipids) + Calming Technology (Bisabolol + Neuro-calming actives)",
             "step": "Step 2 (AM/PM)"
           }
         },
-        "p4": {
+        "product_step_8n4WyU": {
           "type": "product_step",
           "settings": {
-            "name": "Probiotic Masque",
-            "price": "$50",
-            "why": "A detoxifying and rebalancing treatment that uses clays to absorb excess oil and prebiotics to selectively feed beneficial bacteria, restoring a healthy microbiome.",
-            "key_active": "Kaolin & Bentonite Clay, Alpha-Glucan Oligosaccharide",
-            "step": "2–3x per week"
+            "name": "Day Cream SPF",
+            "price": "$90",
+            "why": "A protective daily moisturiser designed to defend skin against environmental stress while supporting barrier integrity and long-term skin health. Formulated with a broad-spectrum UV protection system, it helps shield the skin from UVA and UVB exposure — key contributors to premature ageing and pigmentation.",
+            "key_active": "Broad-spectrum UV filter complex (UVA + UVB protection) + Matrixyl® 3000 peptide complex (Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7) + Hyaluronic acid hydration system + Centella asiatica repair extract + Vitamin E antioxidant protection",
+            "step": "AM & PM"
           }
         }
       },
       "block_order": [
         "p1",
         "p3",
+        "p4",
         "p2",
-        "p4"
+        "product_step_8n4WyU"
       ],
       "settings": {
         "label": "The Protocol",
         "headline": "Your Breakout-Clearing Routine",
         "subheadline": "",
-        "cta_text": "Shop the Breakout Solution",
-        "cta_url": "/collections/all"
+        "cta_text": "Shop The Acne Protocol",
+        "cta_url": "shopify://products/acne-protocol"
       }
     },
     "lp_benefits": {
