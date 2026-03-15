@@ -55,7 +55,7 @@
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Science",
-        "headline": "Why Your Skin Keeps Breaking Out",
+        "headline": "The Biological Drivers of Acne",
         "body": "<p>Breakouts are more than just a clogged pore; acne is a complex inflammatory condition of the pilosebaceous unit driven by multiple biological processes.</p><p>It typically begins with an overproduction of sebum (the skin’s natural oil). When excess sebum combines with dead skin cells, it can form a plug within the hair follicle — a process known as follicular hyperkeratinisation.</p><p>This congested environment allows the naturally occurring bacterium <em>Cutibacterium acnes</em> to proliferate. However, modern research suggests acne is not simply caused by the presence of this bacterium, but by changes in the balance of the skin’s microbiome. When certain strains of <em>C. acnes</em> dominate, they can trigger inflammatory responses within the skin.</p><p>Hormones also play an important role. The enzyme 5-alpha reductase converts testosterone into the more potent androgen dihydrotestosterone (DHT), which stimulates sebaceous glands to produce more oil. Increased sebum production can further contribute to follicular congestion and inflammation.</p>",
         "bg": "muted",
         "width": "narrow",
