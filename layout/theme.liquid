@@ -29,9 +29,17 @@
       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
-    {%- comment -%}Preload LCP hero image on homepage to improve Largest Contentful Paint{%- endcomment -%}
+    {%- comment -%}Aliangé section CSS — loaded async once here to eliminate duplicate inline styles{%- endcomment -%}
+    <link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}"></noscript>
+    <link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}"></noscript>
+
+    {%- comment -%}Preload LCP hero image to improve Largest Contentful Paint{%- endcomment -%}
     {%- if request.page_type == 'index' -%}
       <link rel="preload" as="image" href="{{ 'C2vFT16uCXo.jpg' | file_img_url: '1920x' }}" fetchpriority="high">
+    {%- elsif request.page_type == 'product' and product.featured_image -%}
+      <link rel="preload" as="image" href="{{ product.featured_image | image_url: width: 800 }}" fetchpriority="high">
     {%- endif -%}
 
     {%- render 'social-meta-tags' -%}
