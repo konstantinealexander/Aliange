@@ -55,7 +55,7 @@ h3 {
     letter-spacing: 1px;
     font-size: 12px;
     cursor: pointer;
-    transition: all var(--transition-fast);
+    transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
 }
 
 .btn-primary {
@@ -310,7 +310,7 @@ h3 {
     font-size: 16px;
     color: var(--color-text-secondary);
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
     border-radius: 0;
     /* Sharp edges for premium medical feel */
 }
@@ -368,13 +368,14 @@ h3 {
     border: 1px solid var(--color-border);
     font-family: var(--font-body);
     font-size: 16px;
-    outline: none;
+    outline: 0;
     transition: border-color 0.2s;
     border-radius: 0;
 }
 
-.email-input:focus {
+.email-input:focus-visible {
     border-color: var(--color-accent);
+    box-shadow: 0 0 0 2px rgba(139, 111, 78, 0.2);
 }
 
 .disclaimer-text {

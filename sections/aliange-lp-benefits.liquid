@@ -47,6 +47,26 @@
     line-height: 1.65;
     margin: 0;
   }
+  #lp-benefits-{{ section.id }} .lp-benefit-card--has-image {
+    padding: 0;
+    overflow: hidden;
+  }
+  #lp-benefits-{{ section.id }} .lp-benefit-img {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+  }
+  #lp-benefits-{{ section.id }} .lp-benefit-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  #lp-benefits-{{ section.id }} .lp-benefit-content {
+    padding: var(--lp-space-lg) var(--lp-space-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--lp-space-sm);
+  }
 {%- endstyle -%}
 
 <section id="lp-benefits-{{ section.id }}" class="lp-section">
@@ -63,12 +83,28 @@
 
     <div class="lp-benefits-grid">
       {%- for block in section.blocks -%}
-        <div class="lp-benefit-card lp-reveal" {{ block.shopify_attributes }}>
-          <svg class="lp-benefit-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">
-            <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/>
-          </svg>
-          <h3 class="lp-benefit-title">{{ block.settings.title }}</h3>
-          <p class="lp-benefit-desc">{{ block.settings.description }}</p>
+        <div class="lp-benefit-card{% if block.settings.image %} lp-benefit-card--has-image{% endif %} lp-reveal" {{ block.shopify_attributes }}>
+          {%- if block.settings.image -%}
+            <div class="lp-benefit-img">
+              <img
+                src="{{ block.settings.image | image_url: width: 600 }}"
+                alt="{{ block.settings.image.alt | default: block.settings.title | escape }}"
+                width="600"
+                height="450"
+                loading="lazy"
+              >
+            </div>
+            <div class="lp-benefit-content">
+              <h3 class="lp-benefit-title">{{ block.settings.title }}</h3>
+              <p class="lp-benefit-desc">{{ block.settings.description }}</p>
+            </div>
+          {%- else -%}
+            <svg class="lp-benefit-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">
+              <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/>
+            </svg>
+            <h3 class="lp-benefit-title">{{ block.settings.title }}</h3>
+            <p class="lp-benefit-desc">{{ block.settings.description }}</p>
+          {%- endif -%}
         </div>
       {%- endfor -%}
     </div>
@@ -93,7 +129,8 @@
       "limit": 6,
       "settings": [
         { "type": "text", "id": "title", "label": "Title", "default": "Rebuilds Skin's Foundation" },
-        { "type": "textarea", "id": "description", "label": "Description", "default": "Stimulates production of 6 major components of the skin matrix for a firmer complexion." }
+        { "type": "textarea", "id": "description", "label": "Description", "default": "Stimulates production of 6 major components of the skin matrix for a firmer complexion." },
+        { "type": "image_picker", "id": "image", "label": "Image (optional — replaces icon with photo)" }
       ]
     }
   ],
