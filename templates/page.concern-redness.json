@@ -385,8 +385,8 @@
       "settings": {
         "headline": "Ready to Say Goodbye to Redness?",
         "subheadline": "Trust the science. Rebuild your skin's health from within for a calmer, more confident you.",
-        "cta_text": "Shop the Redness Routine",
-        "cta_url": "/collections/all",
+        "cta_text": "Shop the Redness Protocol",
+        "cta_url": "shopify://products/acne-protocol",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
