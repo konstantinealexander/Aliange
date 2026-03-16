@@ -136,18 +136,8 @@
             "name": "Transforming Exfoliator",
             "price": "$55",
             "why": "This dual-action exfoliator combines AHAs and physical exfoliants to accelerate cell turnover and reveal a brighter, smoother complexion.",
-            "key_active": "Glycolic Acid",
+            "key_active": "Perlite Mineral Exfoliation + Multi-Acid Resurfacing Complex (Glycolic, Lactic & Malic Acids) + Natural Fruit Acid Complex + Green Tea Antioxidant Complex + Tea Tree Clarifying Extract",
             "step": "PM, 2–3x per week"
-          }
-        },
-        "p2": {
-          "type": "product_step",
-          "settings": {
-            "name": "Brightening Serum",
-            "price": "$100",
-            "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.",
-            "key_active": "Vitamin C (Ascorbic Acid)",
-            "step": "PM"
           }
         },
         "p3": {
@@ -160,6 +150,16 @@
             "step": "AM & PM"
           }
         },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.",
+            "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
+            "step": "PM"
+          }
+        },
         "p4": {
           "type": "product_step",
           "settings": {
@@ -169,24 +169,13 @@
             "key_active": "ENDEXOME-EXO™ exosomes",
             "step": "AM & PM"
           }
-        },
-        "p5": {
-          "type": "product_step",
-          "settings": {
-            "name": "Day Cream SPF 15",
-            "price": "$90",
-            "why": "Provides essential sun protection to prevent further UV-induced dullness.",
-            "key_active": "Broad-spectrum UV filters",
-            "step": "AM"
-          }
         }
       },
       "block_order": [
         "p1",
-        "p2",
         "p3",
-        "p4",
-        "p5"
+        "p2",
+        "p4"
       ],
       "settings": {
         "label": "The Protocol",
