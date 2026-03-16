@@ -246,11 +246,11 @@
             "answer": "<p>No. The Jellyfish Peptide X Antioxidant Serum does not contain whole jellyfish or animal tissue. The formulation utilises advanced <strong>peptide technologies inspired by the unique regenerative biology observed in certain jellyfish species</strong>, particularly their ability to maintain structural proteins and resilience within their extracellular matrix. These peptides are <strong>laboratory-synthesised cosmetic ingredients</strong> designed to mimic specific signalling functions that support skin structure and repair pathways. By stimulating collagen production and supporting skin renewal processes, these biomimetic peptides help improve skin firmness, hydration, and overall skin vitality without the use of actual jellyfish-derived material.</p>"
           }
         },
-        "q1": {
+        "question_hJphJb": {
           "type": "question",
           "settings": {
-            "question": "",
-            "answer": "<p>Peptides are short chains of amino acids that function as signalling molecules. They help skin cells communicate to produce structural proteins like collagen and elastin, supporting skin firmness, elasticity, and repair.</p>"
+            "question": "How long until I see results?",
+            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
           }
         },
         "q2": {
@@ -266,21 +266,13 @@
             "question": "Can I layer this with other products?",
             "answer": "<p>Yes. The Jellyfish Peptide X Antioxidant Serum is designed for daily use and layers seamlessly within the broader Aliangé protocol, complementing barrier support and sun protection steps.</p>"
           }
-        },
-        "q5": {
-          "type": "question",
-          "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>You may notice improvements in hydration and radiance within weeks. Structural benefits such as improved firmness and reduced fine lines typically develop over 8–12 weeks of consistent use.</p>"
-          }
         }
       },
       "block_order": [
         "question_wBpQz4",
-        "q1",
+        "question_hJphJb",
         "q2",
-        "q4",
-        "q5"
+        "q4"
       ],
       "settings": {
         "label": "Questions Answered",
