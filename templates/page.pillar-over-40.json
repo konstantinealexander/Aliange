@@ -116,28 +116,28 @@
           "type": "stat",
           "settings": {
             "value": "1%",
-            "label": "Collagen lost per year from mid-20s"
+            "label": "Collagen Lost Per Year After 30"
           }
         },
         "s2": {
           "type": "stat",
           "settings": {
-            "value": "60 days",
-            "label": "Cell turnover after age 50"
+            "value": "40-60 days",
+            "label": "Skin Cell Renewal After 50"
           }
         },
         "s3": {
           "type": "stat",
           "settings": {
-            "value": "90%",
-            "label": "Of visible ageing caused by UV exposure"
+            "value": "75%",
+            "label": "Visible Ageing Caused by UV Exposure"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
-            "value": "4B",
-            "label": "Exosomes per dose in CellRevive Cream"
+            "value": "50%",
+            "label": "Hyaluronic Acid Loss by Age 50"
           }
         }
       },
