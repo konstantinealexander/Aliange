@@ -150,6 +150,16 @@
             "step": "AM & PM"
           }
         },
+        "product_step_e6yAr7": {
+          "type": "product_step",
+          "settings": {
+            "name": "Jellyfish Peptide X Serum",
+            "price": "$225",
+            "why": "A regenerative antioxidant serum designed to support skin repair and hydration. Powered by Juveleven™ peptide (Acetyl Hexapeptide-51 Amide) to help protect skin cells from oxidative stress and support renewal, alongside Matrixyl® peptide technology to promote collagen integrity. Hyaluronic acid, Kakadu plum extract and skin-identical moisturising factors help restore hydration and radiance, leaving skin smoother, stronger and visibly revitalised.",
+            "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™ Peptide) + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Terminalia Ferdinandiana (Kakadu Plum) + Saccharide Isomerate + Sodium PCA",
+            "step": "AM & PM"
+          }
+        },
         "p2": {
           "type": "product_step",
           "settings": {
@@ -174,6 +184,7 @@
       "block_order": [
         "p1",
         "p3",
+        "product_step_e6yAr7",
         "p2",
         "p4"
       ],
@@ -181,8 +192,8 @@
         "label": "The Protocol",
         "headline": "Your Prescribed Protocol",
         "subheadline": "",
-        "cta_text": "Shop the Dullness Routine",
-        "cta_url": "/collections/all"
+        "cta_text": "Explore Dullness Range",
+        "cta_url": "shopify://collections/all"
       }
     },
     "lp_benefits": {
