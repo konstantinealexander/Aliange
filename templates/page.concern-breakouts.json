@@ -94,28 +94,28 @@
           "type": "stat",
           "settings": {
             "value": "29%",
-            "label": "Sebum Reduction in 28 days"
+            "label": "Reduction in Sebum Production"
           }
         },
         "s2": {
           "type": "stat",
           "settings": {
             "value": "49%",
-            "label": "Reduction in Active Sebaceous Glands"
+            "label": "Reduction in Sebaceous Gland Activity"
           }
         },
         "s3": {
           "type": "stat",
           "settings": {
             "value": "5%",
-            "label": "Tea Tree Oil as effective as Benzoyl Peroxide"
+            "label": "Tea Tree Oil Comparable to Benzoyl Peroxide in Acne Reduction"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
             "value": "22%",
-            "label": "Barrier damage from harsh cleansers"
+            "label": "Increase in Barrier Disruption from Harsh Cleansers"
           }
         }
       },
