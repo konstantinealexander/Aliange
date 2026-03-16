@@ -1,23 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Understand the 5 stages of the pigmentation process."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Discover a clinical alternative to harsh, outdated treatments."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Learn Dr. Jamieson's multi-product routine for lasting clarity."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Aliangé Clinical",
-        "headline": "Reveal Your Clearest, Most Even-Toned Skin.",
+        "headline": "Restore Clarity and Even Skin Tone",
         "subheadline": "Tired of stubborn dark spots and uneven skin tone? Pigmentation is a complex concern, driven by multiple factors deep within the skin. Discover a clinical, multi-pathway solution developed by one of Australia's leading skin experts.",
+        "overlay_color": "rgba(26,24,20,0.45)",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
         "cta_text": "Find Your Solution",
         "cta_url": "/collections/all",
-        "trust_line": "Developed by Dr. Alison Jamieson, Australian Dermatological Expert",
-        "align": "left",
-        "min_height": 620
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "Understand the 5 stages of the pigmentation process." } },
-        "b2": { "type": "bullet", "settings": { "text": "Discover a clinical alternative to harsh, outdated treatments." } },
-        "b3": { "type": "bullet", "settings": { "text": "Learn Dr. Jamieson's multi-product routine for lasting clarity." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "trust_line": "Developed by Dr. Alison Jamieson, Cosmetic Physician with over 40 years of clinical skin expertise."
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -26,97 +58,316 @@
         "headline": "Why Your Skin Develops Uneven Pigmentation",
         "body": "<p>Hyperpigmentation is your skin's response to a trigger. The most common trigger is sun exposure, but it can also be caused by hormonal changes (melasma), inflammation (post-acne marks), or even just the natural ageing process. These triggers send a signal to specialised cells called melanocytes to produce an excess of melanin, the natural pigment that gives skin its colour.</p><p>Think of it as a 'pigmentation factory' with a five-stage assembly line. It starts with the initial trigger, which activates the master switch for melanin production, a transcription factor known as <strong>MITF</strong>. This switch tells the 'enzyme factory' to produce tyrosinase, the key enzyme responsible for melanin synthesis. The newly made melanin is then packaged and transferred to your surface skin cells in a process that can be inhibited by <strong>up to 68% with the right ingredients</strong>.</p><p>Many common treatments only target one stage of this factory, leading to frustratingly slow or temporary results. For years, the standard has been hydroquinone — now banned for cosmetic use in Australia, the EU, and Japan due to safety concerns.</p>",
         "bg": "muted",
-        "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
+      "blocks": {
+        "q1": {
+          "type": "quote",
+          "settings": {
+            "quote_text": "As a doctor, I've seen the frustration patients experience with pigmentation that just won't budge. I developed the Aliangé pigmentation protocol to offer a clinical-grade, comprehensive solution that respects the skin's biology. We use intelligent, biomimetic ingredients that work with the skin, not against it, to gently but effectively restore its natural, even tone.",
+            "attribution": "— Dr. Alison Jamieson"
+          }
+        }
+      },
+      "block_order": [
+        "q1"
+      ],
       "settings": {
         "label": "Our Approach",
         "headline": "A Clinical, Multi-Pathway Approach to Pigmentation",
         "body": "<p>At Aliangé, we don't just treat the symptom; we target the entire pigmentation pathway. Dr. Alison Jamieson, with her 40 years of clinical expertise, understands that lasting clarity cannot be achieved with a single-ingredient product. Our approach uses a suite of advanced, evidence-based actives that interrupt each of the five critical stages of the pigmentation factory.</p>",
         "bg": "white",
-        "width": "narrow"
-      },
-      "blocks": {
-        "q1": { "type": "quote", "settings": { "quote_text": "As a doctor, I've seen the frustration patients experience with pigmentation that just won't budge. I developed the Aliangé pigmentation protocol to offer a clinical-grade, comprehensive solution that respects the skin's biology. We use intelligent, biomimetic ingredients that work with the skin, not against it, to gently but effectively restore its natural, even tone.", "attribution": "— Dr. Alison Jamieson" } }
-      },
-      "block_order": ["q1"]
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "87%", "label": "Reported More Uniform Tone" } },
-        "s2": { "type": "stat", "settings": { "value": "16x", "label": "Greater Enzyme Inhibition Than Hydroquinone" } },
-        "s3": { "type": "stat", "settings": { "value": "5-Stage", "label": "Pigmentation Pathway Targeting" } },
-        "s4": { "type": "stat", "settings": { "value": "68%", "label": "Reduction in Pigment Transfer" } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "87%",
+            "label": "Reported More Uniform Tone"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "16x",
+            "label": "Greater Enzyme Inhibition Than Hydroquinone"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "5-Stage",
+            "label": "Pigmentation Pathway Targeting"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "68%",
+            "label": "Reduction in Pigment Transfer"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "A clinically active treatment designed to improve skin clarity and radiance. A multi-acid resurfacing complex (glycolic, lactic, salicylic and fruit acids) helps accelerate cellular turnover, while Oligopeptide-68, vitamin C, licorice root and niacinamide work to regulate pigmentation and brighten uneven skin tone, revealing smoother, more luminous skin.",
+            "key_active": "Glycolic Acid + Lactic Acid + Salicylic Acid + Oligopeptide-68 + Ascorbic Acid (Vitamin C) + Glycyrrhiza Glabra (Licorice Root) Extract + Niacinamide",
+            "step": "PM"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "price": "$225",
+            "why": "A clinically formulated night treatment designed to support skin renewal and improve visible signs of ageing. Microencapsulated retinol helps stimulate cellular turnover and collagen production while minimising irritation through controlled release. Supported by Matrixyl® peptide technology, hyaluronic acid and skin-identical moisturising factors, the formula works overnight to refine texture, improve firmness and restore smoother, more resilient skin.",
+            "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Saccharide Isomerate + Sodium PCA + Chondrus Crispus (Red Algae) Extract",
+            "step": "P<"
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "A protective daily moisturiser formulated to support skin hydration, barrier function, and environmental defence. A broad-spectrum UV filter system helps protect against UVA and UVB exposure, while Matrixyl® peptide technology supports collagen integrity and skin firmness. Hydrating ingredients and soothing botanical extracts help reinforce the skin barrier, leaving the complexion hydrated, calm and protected throughout the day.",
+            "key_active": "Butyl Methoxydibenzoylmethane (Avobenzone) + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Octocrylene + 4-Methylbenzylidene Camphor + Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7 + Sodium Hyaluronate + Panthenol + Centella Asiatica Extract + Tocopherol (Vitamin E)",
+            "step": "AM"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p4"
+      ],
       "settings": {
         "label": "The Protocol",
         "headline": "Your Pigmentation Routine",
-        "cta_text": "Shop the Pigmentation Routine",
-        "cta_url": "/collections/all"
-      },
-      "blocks": {
-        "p1": { "type": "product_step", "settings": { "name": "Brightening Serum", "price": "$100", "why": "This powerhouse serum is the core of our pigmentation protocol, targeting all five stages of the pigmentation pathway with a potent blend of biomimetic peptides and botanical extracts.", "key_active": "Oligopeptide-68", "step": "PM" } },
-        "p2": { "type": "product_step", "settings": { "name": "Biocinamide Serum", "price": "$90", "why": "Niacinamide is clinically proven to block the transfer of melanin to your skin cells, preventing dark spots from reaching the surface.", "key_active": "Niacinamide", "step": "AM & PM" } },
-        "p3": { "type": "product_step", "settings": { "name": "Jellyfish Peptide X Serum", "price": "$225", "why": "Featuring Australian native Kakadu Plum, the world's richest source of Vitamin C, this serum provides powerful antioxidant protection and reduces melanin levels for a brighter complexion.", "key_active": "Kakadu Plum Extract", "step": "AM" } },
-        "p4": { "type": "product_step", "settings": { "name": "Day Cream SPF 15", "price": "$90", "why": "Daily sun protection is non-negotiable. This lightweight day cream prevents new pigment from forming by shielding your skin from UV radiation—the primary trigger of hyperpigmentation.", "key_active": "Broad-Spectrum UV Filters", "step": "AM" } }
-      },
-      "block_order": ["p1", "p2", "p3", "p4"]
+        "subheadline": "",
+        "cta_text": "Explore Targeted Pigmentation Treatments",
+        "cta_url": "shopify://products/pm-protocol"
+      }
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
-      "settings": { "label": "Why It Works", "headline": "Benefits of the Routine" },
       "blocks": {
-        "ben1": { "type": "benefit", "settings": { "title": "Fades Existing Dark Spots", "description": "Actively breaks down and lifts away current discolouration." } },
-        "ben2": { "type": "benefit", "settings": { "title": "Prevents New Pigment", "description": "Interrupts the signalling pathways that lead to future dark spot formation." } },
-        "ben3": { "type": "benefit", "settings": { "title": "Evens Overall Skin Tone", "description": "Restores a uniform, luminous complexion by addressing widespread, subtle discolouration." } },
-        "ben4": { "type": "benefit", "settings": { "title": "Boosts Radiance", "description": "A powerful blend of exfoliants and antioxidants reveals brighter, healthier-looking skin." } },
-        "ben5": { "type": "benefit", "settings": { "title": "Clinically Proven Actives", "description": "Utilises ingredients backed by robust scientific evidence for measurable results." } },
-        "ben6": { "type": "benefit", "settings": { "title": "Doctor-Developed Protocol", "description": "Trust in a comprehensive routine designed by a leading Australian skin expert." } }
+        "ben1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Fades Existing Dark Spots",
+            "description": "Actively breaks down and lifts away current discolouration."
+          }
+        },
+        "ben2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Prevents New Pigment",
+            "description": "Interrupts the signalling pathways that lead to future dark spot formation."
+          }
+        },
+        "ben3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Evens Overall Skin Tone",
+            "description": "Restores a uniform, luminous complexion by addressing widespread, subtle discolouration."
+          }
+        },
+        "ben4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Boosts Radiance",
+            "description": "A powerful blend of exfoliants and antioxidants reveals brighter, healthier-looking skin."
+          }
+        },
+        "ben5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Clinically Proven Actives",
+            "description": "Utilises ingredients backed by robust scientific evidence for measurable results."
+          }
+        },
+        "ben6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Doctor-Developed Protocol",
+            "description": "Trust in a comprehensive routine designed by a leading Australian skin expert."
+          }
+        }
       },
-      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+      "block_order": [
+        "ben1",
+        "ben2",
+        "ben3",
+        "ben4",
+        "ben5",
+        "ben6"
+      ],
+      "settings": {
+        "label": "Why It Works",
+        "headline": "Benefits of the Routine",
+        "subheadline": ""
+      }
     },
     "lp_timeline": {
       "type": "aliange-lp-timeline",
-      "settings": { "label": "Your Journey", "headline": "What to Expect" },
       "blocks": {
-        "t1": { "type": "phase", "settings": { "timeframe": "Week 1–2", "description": "The multi-acid blend begins to gently exfoliate the skin's surface, shedding the most superficial pigmented cells. Skin may start to feel smoother and appear brighter." } },
-        "t2": { "type": "phase", "settings": { "timeframe": "Week 2–4", "description": "Niacinamide starts to interrupt the transfer of new melanin, while Oligopeptide-68 works deeper to down-regulate the master switch for pigment production." } },
-        "t3": { "type": "phase", "settings": { "timeframe": "Week 4–8", "description": "Results become more significant. In clinical studies, 87% of users reported a more uniform tone by day 56." } },
-        "t4": { "type": "phase", "settings": { "timeframe": "Week 8–12", "description": "Peak results are achieved. Continued use maintains the suppression of melanin overproduction, revealing your clearest, most even-toned complexion." } }
+        "t1": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 1–2",
+            "description": "The multi-acid blend begins to gently exfoliate the skin's surface, shedding the most superficial pigmented cells. Skin may start to feel smoother and appear brighter."
+          }
+        },
+        "t2": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 2–4",
+            "description": "Niacinamide starts to interrupt the transfer of new melanin, while Oligopeptide-68 works deeper to down-regulate the master switch for pigment production."
+          }
+        },
+        "t3": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 4–8",
+            "description": "Results become more significant. In clinical studies, 87% of users reported a more uniform tone by day 56."
+          }
+        },
+        "t4": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 8–12",
+            "description": "Peak results are achieved. Continued use maintains the suppression of melanin overproduction, revealing your clearest, most even-toned complexion."
+          }
+        }
       },
-      "block_order": ["t1", "t2", "t3", "t4"]
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "settings": {
+        "label": "Your Journey",
+        "headline": "What to Expect"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": { "label": "The Difference", "headline": "Why Aliangé Is Different", "col_them": "Typical Pigmentation Products", "col_us": "Aliangé Clinical Approach" },
       "blocks": {
-        "r1": { "type": "row", "settings": { "feature": "Targeting", "them": "Single ingredient focus", "us": "Multi-pathway, 5-stage targeting" } },
-        "r2": { "type": "row", "settings": { "feature": "Ingredients", "them": "Often use harsh or outdated chemicals", "us": "Biomimetic peptides & evidence-based botanicals" } },
-        "r3": { "type": "row", "settings": { "feature": "Effectiveness", "them": "Only targets one part of the problem", "us": "Comprehensive routine for sustainable results" } },
-        "r4": { "type": "row", "settings": { "feature": "Safety", "them": "Can lead to irritation or rebound pigmentation", "us": "Formulated for efficacy without compromising skin health" } }
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Targeting",
+            "them": "Single ingredient focus",
+            "us": "Multi-pathway, 5-stage targeting"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Ingredients",
+            "them": "Often use harsh or outdated chemicals",
+            "us": "Biomimetic peptides & evidence-based botanicals"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Effectiveness",
+            "them": "Only targets one part of the problem",
+            "us": "Comprehensive routine for sustainable results"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Safety",
+            "them": "Can lead to irritation or rebound pigmentation",
+            "us": "Formulated for efficacy without compromising skin health"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "Why Aliangé Is Different",
+        "col_them": "Typical Pigmentation Products",
+        "col_us": "Aliangé Clinical Approach"
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "Is this routine suitable for melasma?", "answer": "<p>Yes, this multi-pathway approach is designed to be effective for various types of hyperpigmentation, including the hormonal fluctuations that can trigger melasma. By targeting multiple stages of melanin production, it provides a comprehensive strategy for managing this stubborn condition.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "How is Oligopeptide-68 different from Hydroquinone?", "answer": "<p>Oligopeptide-68 is a modern, biomimetic peptide that works by mimicking a natural signalling molecule in your skin to safely down-regulate pigment production. Unlike hydroquinone, which is now banned in Australia for cosmetic use due to safety concerns, Oligopeptide-68 has been shown in clinical trials to be equally or even more effective without the associated risks.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "Why do I need so many products?", "answer": "<p>Lasting results for pigmentation require a multi-pronged attack. Each product in the routine is formulated with specific actives that target a different stage of the pigmentation process. Using them together creates a synergistic effect that is far more powerful than any single product could be on its own.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "Is it safe to use while pregnant or breastfeeding?", "answer": "<p>We recommend consulting with your doctor before using any new skincare products during pregnancy or breastfeeding. Some products in this routine may be suitable, but please seek individual medical advice.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Is this routine suitable for melasma?",
+            "answer": "<p>Yes, this multi-pathway approach is designed to be effective for various types of hyperpigmentation, including the hormonal fluctuations that can trigger melasma. By targeting multiple stages of melanin production, it provides a comprehensive strategy for managing this stubborn condition.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "How is Oligopeptide-68 different from Hydroquinone?",
+            "answer": "<p>Oligopeptide-68 is a modern, biomimetic peptide that works by mimicking a natural signalling molecule in your skin to safely down-regulate pigment production. Unlike hydroquinone, which is now banned in Australia for cosmetic use due to safety concerns, Oligopeptide-68 has been shown in clinical trials to be equally or even more effective without the associated risks.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Why do I need so many products?",
+            "answer": "<p>Lasting results for pigmentation require a multi-pronged attack. Each product in the routine is formulated with specific actives that target a different stage of the pigmentation process. Using them together creates a synergistic effect that is far more powerful than any single product could be on its own.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Is it safe to use while pregnant or breastfeeding?",
+            "answer": "<p>We recommend consulting with your doctor before using any new skincare products during pregnancy or breastfeeding. Some products in this routine may be suitable, but please seek individual medical advice.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -125,11 +376,22 @@
         "subheadline": "Trust in a clinical, doctor-developed system that works with your skin's biology to deliver profound, lasting clarity. Your journey to a brighter, more even complexion starts here.",
         "cta_text": "Shop the Pigmentation Routine",
         "cta_url": "/collections/all",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_routine", "lp_benefits", "lp_timeline", "lp_comparison", "lp_faq", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_approach",
+    "lp_stats",
+    "lp_routine",
+    "lp_benefits",
+    "lp_timeline",
+    "lp_comparison",
+    "lp_faq",
+    "lp_cta"
+  ]
 }

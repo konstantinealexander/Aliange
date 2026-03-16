@@ -377,7 +377,7 @@
         "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "<em>DOCTOR-PRESCRIBED</em>",
+        "subheading": "DOCTOR-PRESCRIBED",
         "hide_collection_title": false
       }
     },
