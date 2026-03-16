@@ -93,29 +93,29 @@
         "s1": {
           "type": "stat",
           "settings": {
-            "value": "37%",
-            "label": "Increase in water loss with harsh cleansers"
+            "value": "30%",
+            "label": "Reduction in Visible Redness"
           }
         },
         "s2": {
           "type": "stat",
           "settings": {
-            "value": "18%",
-            "label": "Reduction in water loss with postbiotics"
+            "value": "40%",
+            "label": "Improvement in Skin Barrier Function"
           }
         },
         "s3": {
           "type": "stat",
           "settings": {
             "value": "5.5x",
-            "label": "Ceramide increase with Niacinamide"
+            "label": "Ceramide Increase with Niacinamide"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
-            "value": "More Potent",
-            "label": "Calendula vs. Chamomile anti-inflammatory action"
+            "value": "18%",
+            "label": "Reduction in Water Loss with Postbiotics"
           }
         }
       },
@@ -169,13 +169,24 @@
             "key_active": "Kaolin + Bentonite + Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Polymnia Sonchifolia Root Juice + Sodium Hyaluronate + Saccharide Isomerate + Sodium PCA + Chondrus Crispus Extract + Tocopherol (Vitamin E)",
             "step": "2–3x per week"
           }
+        },
+        "product_step_Xkmqmq": {
+          "type": "product_step",
+          "settings": {
+            "name": "Cellrevive Exosome Cream",
+            "price": "$400",
+            "why": "",
+            "key_active": "",
+            "step": "AM & PM"
+          }
         }
       },
       "block_order": [
         "p1",
         "p2",
         "p3",
-        "p4"
+        "p4",
+        "product_step_Xkmqmq"
       ],
       "settings": {
         "label": "The Protocol",
