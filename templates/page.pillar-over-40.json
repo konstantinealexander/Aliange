@@ -122,7 +122,7 @@
         "s2": {
           "type": "stat",
           "settings": {
-            "value": "40-60 days",
+            "value": "60 days",
             "label": "Skin Cell Renewal After 50"
           }
         },
