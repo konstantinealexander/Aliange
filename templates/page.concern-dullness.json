@@ -93,29 +93,29 @@
         "s1": {
           "type": "stat",
           "settings": {
-            "value": "5.5x",
-            "label": "Ceramide increase with Niacinamide"
+            "value": "100x",
+            "label": "More Vitamin C in Kakadu Plum than Oranges"
           }
         },
         "s2": {
           "type": "stat",
           "settings": {
-            "value": "100x",
-            "label": "More Vitamin C in Kakadu Plum vs oranges"
+            "value": "135%",
+            "label": "Increase in Skin Hydration with Hyaluronic Acid"
           }
         },
         "s3": {
           "type": "stat",
           "settings": {
-            "value": "76",
-            "label": "Daltons — Glycolic Acid molecular weight"
+            "value": "3–5×",
+            "label": "Slower Cell Renewal with Age"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
-            "value": "28–60",
-            "label": "Days: cell turnover slowdown with age"
+            "value": "76",
+            "label": "Daltons — Glycolic Acid Molecular Size"
           }
         }
       },
