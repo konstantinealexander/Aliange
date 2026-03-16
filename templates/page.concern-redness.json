@@ -1,23 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Understand the scientific triggers behind skin redness and sensitivity."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Learn how a multi-product routine can rebuild your skin's resilience."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Find your personalised, doctor-developed solution for lasting calm."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Aliangé Clinical",
-        "headline": "Soothe, Calm, and Reclaim Your Skin from Redness.",
+        "headline": "A Clinical Approach to Redness and Skin Sensitivity",
         "subheadline": "Persistent redness, sensitivity, and irritation are signs of an underlying inflammatory response and a compromised skin barrier. Discover the clinical, multi-pathway approach developed by Dr. Alison Jamieson to restore balance and reveal a calmer, healthier complexion.",
+        "overlay_color": "rgba(26,24,20,0.45)",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
         "cta_text": "Find Your Solution",
         "cta_url": "/collections/all",
-        "trust_line": "Developed by Dr. Alison Jamieson, Australian Dermatology Expert.",
-        "align": "left",
-        "min_height": 620
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "Understand the scientific triggers behind skin redness and sensitivity." } },
-        "b2": { "type": "bullet", "settings": { "text": "Learn how a multi-product routine can rebuild your skin's resilience." } },
-        "b3": { "type": "bullet", "settings": { "text": "Find your personalised, doctor-developed solution for lasting calm." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "trust_line": "Developed by Dr. Alison Jamieson, Cosmetic Physician with over 40 years of clinical skin expertise."
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -26,97 +58,327 @@
         "headline": "Why Your Skin Is Red and Reactive",
         "body": "<p>Redness is your skin's SOS signal. It's a visible sign of inflammation, a complex biological process designed to protect the body from harm. For many, this response becomes chronic, triggered by everything from environmental pollutants and UV exposure to harsh skincare ingredients.</p><p>A key culprit in barrier disruption is the use of aggressive cleansers containing sulfates like Sodium Lauryl Sulfate (SLS). Clinical studies show that <strong>SLS can increase transepidermal water loss (TEWL) by 37% in just three days</strong>, effectively stripping the skin's natural lipids and leaving it vulnerable.</p><p>At a cellular level, a key inflammatory pathway known as <strong>NF-kB</strong> is activated — acting as a master switch for inflammation. When triggered, it orchestrates the release of pro-inflammatory molecules, perpetuating the cycle of redness and irritation.</p>",
         "bg": "muted",
-        "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
+      "blocks": {
+        "q1": {
+          "type": "quote",
+          "settings": {
+            "quote_text": "In my clinic, I see the frustration that comes with reactive skin. The key is not just to soothe, but to rebuild. We must address the compromised barrier, quiet the inflammatory signals, and restore the skin's own defence mechanisms. That is the foundation of the Aliangé clinical approach — a complete system for lasting skin health.",
+            "attribution": "— Dr. Alison Jamieson"
+          }
+        }
+      },
+      "block_order": [
+        "q1"
+      ],
       "settings": {
         "label": "Our Approach",
         "headline": "A Clinical Approach to Calming Redness",
         "body": "<p>While many products offer a single ingredient to temporarily soothe redness, Aliangé's philosophy is to target the multiple underlying causes of inflammation simultaneously. Our approach utilises a synergistic routine of products that work together to rebuild the skin barrier, inhibit inflammatory pathways, and support a healthy microbiome.</p>",
         "bg": "white",
-        "width": "narrow"
-      },
-      "blocks": {
-        "q1": { "type": "quote", "settings": { "quote_text": "In my clinic, I see the frustration that comes with reactive skin. The key is not just to soothe, but to rebuild. We must address the compromised barrier, quiet the inflammatory signals, and restore the skin's own defence mechanisms. That is the foundation of the Aliangé clinical approach — a complete system for lasting skin health.", "attribution": "— Dr. Alison Jamieson" } }
-      },
-      "block_order": ["q1"]
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "37%", "label": "Increase in water loss with harsh cleansers" } },
-        "s2": { "type": "stat", "settings": { "value": "18%", "label": "Reduction in water loss with postbiotics" } },
-        "s3": { "type": "stat", "settings": { "value": "5.5x", "label": "Ceramide increase with Niacinamide" } },
-        "s4": { "type": "stat", "settings": { "value": "More Potent", "label": "Calendula vs. Chamomile anti-inflammatory action" } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "37%",
+            "label": "Increase in water loss with harsh cleansers"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "18%",
+            "label": "Reduction in water loss with postbiotics"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "5.5x",
+            "label": "Ceramide increase with Niacinamide"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "More Potent",
+            "label": "Calendula vs. Chamomile anti-inflammatory action"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Daily Devotion Cleanser",
+            "price": "$55",
+            "why": "Gently cleanses without stripping the skin's delicate barrier, using syndet technology to prevent the irritation and water loss caused by harsh sulfates.",
+            "key_active": "Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate + Hydrolysed Jojoba Esters + Jojoba Esters + Sodium PCA + Sodium Lactate + Glycerin + Allantoin + Amino Acid Complex",
+            "step": "Step 1 (AM/PM)"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Biocinamide Serum",
+            "price": "$90",
+            "why": "A powerhouse serum that directly targets inflammation by inhibiting the NF-kB pathway, while postbiotics help to rebuild a healthy skin barrier.",
+            "key_active": "Niacinamide + Lactococcus Ferment Lysate + Enantia Chlorantha Bark Extract + Oleanolic Acid + Sphingolipids + Phospholipids + Sodium Hyaluronate + Saccharide Isomerate + Bisabolol",
+            "step": "Step 2 (AM/PM)"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "Protects sensitive skin from UV radiation, a common trigger for redness and rosacea, while providing essential hydration.",
+            "key_active": "Butyl Methoxydibenzoylmethane (Avobenzone) + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Octocrylene + 4-Methylbenzylidene Camphor + Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7 + Sodium Hyaluronate + Panthenol + Centella Asiatica Extract + Tocopherol (Vitamin E)",
+            "step": "Step 3 (AM)"
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Probiotic Masque",
+            "price": "$50",
+            "why": "This treatment masque supports a healthy skin microbiome, which is crucial for calming inflammatory conditions like rosacea and reducing overall sensitivity.",
+            "key_active": "Kaolin + Bentonite + Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Polymnia Sonchifolia Root Juice + Sodium Hyaluronate + Saccharide Isomerate + Sodium PCA + Chondrus Crispus Extract + Tocopherol (Vitamin E)",
+            "step": "2–3x per week"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ],
       "settings": {
         "label": "The Protocol",
         "headline": "Your Redness Routine",
+        "subheadline": "",
         "cta_text": "Shop the Redness Routine",
         "cta_url": "/collections/all"
-      },
-      "blocks": {
-        "p1": { "type": "product_step", "settings": { "name": "Daily Devotion Cleanser", "price": "$55", "why": "Gently cleanses without stripping the skin's delicate barrier, using syndet technology to prevent the irritation and water loss caused by harsh sulfates.", "key_active": "Coconut-derived Surfactants", "step": "Step 1 (AM/PM)" } },
-        "p2": { "type": "product_step", "settings": { "name": "Biocinamide Serum", "price": "$90", "why": "A powerhouse serum that directly targets inflammation by inhibiting the NF-kB pathway, while postbiotics help to rebuild a healthy skin barrier.", "key_active": "Niacinamide (Vitamin B3)", "step": "Step 2 (AM/PM)" } },
-        "p3": { "type": "product_step", "settings": { "name": "Day Cream SPF 15", "price": "$90", "why": "Protects sensitive skin from UV radiation, a common trigger for redness and rosacea, while providing essential hydration.", "key_active": "Broad-Spectrum UV Filters", "step": "Step 3 (AM)" } },
-        "p4": { "type": "product_step", "settings": { "name": "Probiotic Masque", "price": "$50", "why": "This treatment masque supports a healthy skin microbiome, which is crucial for calming inflammatory conditions like rosacea and reducing overall sensitivity.", "key_active": "Lactococcus Ferment Lysate", "step": "2–3x per week" } }
-      },
-      "block_order": ["p1", "p2", "p3", "p4"]
+      }
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
-      "settings": { "label": "Why It Works", "headline": "Benefits of the Routine" },
       "blocks": {
-        "ben1": { "type": "benefit", "settings": { "title": "Reduces Visible Redness", "description": "Directly targets the inflammatory pathways that cause persistent flushing and blotchiness." } },
-        "ben2": { "type": "benefit", "settings": { "title": "Strengthens the Skin Barrier", "description": "Rebuilds your skin's natural defences to reduce sensitivity and prevent future irritation." } },
-        "ben3": { "type": "benefit", "settings": { "title": "Calms Irritation & Sensitivity", "description": "Soothes reactive skin with potent anti-inflammatory ingredients for immediate and lasting comfort." } },
-        "ben4": { "type": "benefit", "settings": { "title": "Supports a Healthy Microbiome", "description": "Balances your skin's ecosystem to improve resilience and calm conditions like rosacea." } },
-        "ben5": { "type": "benefit", "settings": { "title": "Provides UV Protection", "description": "Shields skin from daily UV exposure, a primary trigger for redness and inflammation." } },
-        "ben6": { "type": "benefit", "settings": { "title": "Hydrates & Nourishes", "description": "Delivers essential moisture and lipids to restore a healthy, comfortable complexion." } }
+        "ben1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Reduces Visible Redness",
+            "description": "Directly targets the inflammatory pathways that cause persistent flushing and blotchiness."
+          }
+        },
+        "ben2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Strengthens the Skin Barrier",
+            "description": "Rebuilds your skin's natural defences to reduce sensitivity and prevent future irritation."
+          }
+        },
+        "ben3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Calms Irritation & Sensitivity",
+            "description": "Soothes reactive skin with potent anti-inflammatory ingredients for immediate and lasting comfort."
+          }
+        },
+        "ben4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Supports a Healthy Microbiome",
+            "description": "Balances your skin's ecosystem to improve resilience and calm conditions like rosacea."
+          }
+        },
+        "ben5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Provides UV Protection",
+            "description": "Shields skin from daily UV exposure, a primary trigger for redness and inflammation."
+          }
+        },
+        "ben6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Hydrates & Nourishes",
+            "description": "Delivers essential moisture and lipids to restore a healthy, comfortable complexion."
+          }
+        }
       },
-      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+      "block_order": [
+        "ben1",
+        "ben2",
+        "ben3",
+        "ben4",
+        "ben5",
+        "ben6"
+      ],
+      "settings": {
+        "label": "Why It Works",
+        "headline": "Benefits of the Routine",
+        "subheadline": ""
+      }
     },
     "lp_timeline": {
       "type": "aliange-lp-timeline",
-      "settings": { "label": "Your Journey", "headline": "What to Expect" },
       "blocks": {
-        "t1": { "type": "phase", "settings": { "timeframe": "Week 1–2", "description": "Your skin will feel more comfortable and less irritated. The gentle cleanser and soothing serums begin to calm immediate reactivity and replenish hydration." } },
-        "t2": { "type": "phase", "settings": { "timeframe": "Week 2–4", "description": "You'll notice a visible reduction in persistent redness. The Biocinamide Serum is working to inhibit inflammatory pathways, while the masques are supporting your skin's barrier." } },
-        "t3": { "type": "phase", "settings": { "timeframe": "Week 4–8", "description": "Your skin barrier becomes stronger and more resilient. With consistent use of postbiotics and barrier-supporting lipids, your skin is less reactive to triggers." } },
-        "t4": { "type": "phase", "settings": { "timeframe": "Week 8–12", "description": "Peak results are achieved. Your skin appears calmer, more even-toned, and feels significantly more comfortable, reflecting a healthier, well-balanced state." } }
+        "t1": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 1–2",
+            "description": "Your skin will feel more comfortable and less irritated. The gentle cleanser and soothing serums begin to calm immediate reactivity and replenish hydration."
+          }
+        },
+        "t2": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 2–4",
+            "description": "You'll notice a visible reduction in persistent redness. The Biocinamide Serum is working to inhibit inflammatory pathways, while the masques are supporting your skin's barrier."
+          }
+        },
+        "t3": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 4–8",
+            "description": "Your skin barrier becomes stronger and more resilient. With consistent use of postbiotics and barrier-supporting lipids, your skin is less reactive to triggers."
+          }
+        },
+        "t4": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 8–12",
+            "description": "Peak results are achieved. Your skin appears calmer, more even-toned, and feels significantly more comfortable, reflecting a healthier, well-balanced state."
+          }
+        }
       },
-      "block_order": ["t1", "t2", "t3", "t4"]
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "settings": {
+        "label": "Your Journey",
+        "headline": "What to Expect"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": { "label": "The Difference", "headline": "Why Aliangé Is Different", "col_them": "Typical Redness Products", "col_us": "Aliangé Clinical Approach" },
       "blocks": {
-        "r1": { "type": "row", "settings": { "feature": "Goal", "them": "Focus on temporarily soothing", "us": "Targets the root causes of inflammation" } },
-        "r2": { "type": "row", "settings": { "feature": "Formula", "them": "Single-ingredient formulas", "us": "Multi-pathway, synergistic routine" } },
-        "r3": { "type": "row", "settings": { "feature": "Safety", "them": "May contain hidden irritants", "us": "Formulated to respect the skin barrier" } },
-        "r4": { "type": "row", "settings": { "feature": "Duration", "them": "Offers temporary relief", "us": "Provides a long-term solution for skin health" } }
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Goal",
+            "them": "Focus on temporarily soothing",
+            "us": "Targets the root causes of inflammation"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Formula",
+            "them": "Single-ingredient formulas",
+            "us": "Multi-pathway, synergistic routine"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Safety",
+            "them": "May contain hidden irritants",
+            "us": "Formulated to respect the skin barrier"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Duration",
+            "them": "Offers temporary relief",
+            "us": "Provides a long-term solution for skin health"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "Why Aliangé Is Different",
+        "col_them": "Typical Redness Products",
+        "col_us": "Aliangé Clinical Approach"
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "Is this routine suitable for rosacea?", "answer": "<p>Yes, this routine was specifically designed for rosacea-prone and sensitive skin. By targeting inflammation, supporting the barrier, and balancing the microbiome, it addresses the key factors involved in rosacea.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "My skin is extremely sensitive. Will these products irritate it?", "answer": "<p>We prioritise gentle, effective ingredients and avoid common irritants like harsh sulfates and fragrances. The Daily Devotion Cleanser is a syndet cleanser, which is much gentler on the skin barrier than traditional soaps.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "How long until I see results for my redness?", "answer": "<p>While you should feel initial soothing effects within the first couple of weeks, visible reduction in redness typically takes 2–4 weeks as the inflammatory pathways are calmed and the skin barrier is repaired.</p>" } },
-        "q4": { "type": "question", "settings": { "question": "Can I use these products with my prescription rosacea medication?", "answer": "<p>Yes, the Aliangé routine can be used to support your skin alongside most prescription treatments. However, we always recommend consulting with your prescribing doctor before introducing new products.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Is this routine suitable for rosacea?",
+            "answer": "<p>Yes, this routine was specifically designed for rosacea-prone and sensitive skin. By targeting inflammation, supporting the barrier, and balancing the microbiome, it addresses the key factors involved in rosacea.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "My skin is extremely sensitive. Will these products irritate it?",
+            "answer": "<p>We prioritise gentle, effective ingredients and avoid common irritants like harsh sulfates and fragrances. The Daily Devotion Cleanser is a syndet cleanser, which is much gentler on the skin barrier than traditional soaps.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results for my redness?",
+            "answer": "<p>While you should feel initial soothing effects within the first couple of weeks, visible reduction in redness typically takes 2–4 weeks as the inflammatory pathways are calmed and the skin barrier is repaired.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use these products with my prescription rosacea medication?",
+            "answer": "<p>Yes, the Aliangé routine can be used to support your skin alongside most prescription treatments. However, we always recommend consulting with your prescribing doctor before introducing new products.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3", "q4"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -125,11 +387,22 @@
         "subheadline": "Trust the science. Rebuild your skin's health from within for a calmer, more confident you.",
         "cta_text": "Shop the Redness Routine",
         "cta_url": "/collections/all",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_routine", "lp_benefits", "lp_timeline", "lp_comparison", "lp_faq", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_approach",
+    "lp_stats",
+    "lp_routine",
+    "lp_benefits",
+    "lp_timeline",
+    "lp_comparison",
+    "lp_faq",
+    "lp_cta"
+  ]
 }
