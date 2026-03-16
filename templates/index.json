@@ -157,7 +157,7 @@
         "subheading": "<em>MEET THE DOCTOR</em>",
         "title": "Dr. Alison Jamieson",
         "content": "<h3>MBBS, FRACGP, Dip Derm<br/><strong>40+ Years </strong>Experience treating Australian skin</h3>",
-        "button_1_text": "About Aliang\u00e9",
+        "button_1_text": "About Aliangé",
         "button_1_link": "shopify://pages/about-us-improved",
         "button_1_style": "solid",
         "button_2_text": "",
@@ -175,7 +175,7 @@
             "heading_tag": "h3",
             "content": "<p>Target fine lines, loss of firmness, and visible signs of ageing with a clinical multi-pathway approach.</p>",
             "link_url": "/pages/concern-aging",
-            "link_text": "Explore \u2192"
+            "link_text": "Explore →"
           }
         },
         "concern_pigmentation": {
@@ -185,7 +185,7 @@
             "heading_tag": "h3",
             "content": "<p>Address dark spots, melasma, and uneven skin tone with targeted brightening actives.</p>",
             "link_url": "/pages/concern-pigmentation",
-            "link_text": "Explore \u2192"
+            "link_text": "Explore →"
           }
         },
         "concern_breakouts": {
@@ -195,7 +195,7 @@
             "heading_tag": "h3",
             "content": "<p>Clarify congested pores, balance oil production, and reduce active breakouts clinically.</p>",
             "link_url": "/pages/concern-breakouts",
-            "link_text": "Explore \u2192"
+            "link_text": "Explore →"
           }
         },
         "concern_dullness": {
@@ -205,7 +205,7 @@
             "heading_tag": "h3",
             "content": "<p>Restore radiance, improve skin texture, and reveal a brighter, more luminous complexion.</p>",
             "link_url": "/pages/concern-dullness",
-            "link_text": "Explore \u2192"
+            "link_text": "Explore →"
           }
         },
         "concern_redness": {
@@ -215,7 +215,7 @@
             "heading_tag": "h3",
             "content": "<p>Calm persistent redness, reduce irritation, and strengthen your skin barrier against reactivity.</p>",
             "link_url": "/pages/concern-redness",
-            "link_text": "Explore \u2192"
+            "link_text": "Explore →"
           }
         }
       },
@@ -232,6 +232,7 @@
         "separate_section_with_border": true,
         "columns_per_row": 5,
         "stack_on_mobile": true,
+        "overlap_image": false,
         "content_alignment": "center",
         "text_alignment": "center",
         "spacing": "small",
@@ -274,7 +275,7 @@
         "separate_section_with_border": false,
         "subheading": "Observed results over time",
         "title": "Skin responds to consistency, not intensity",
-        "content": "<p>These images document four weeks of consistent, prescribed use \u2014 not instant change.</p><p>Skin function improves when the barrier is supported and inflammation is controlled, not overstimulated.</p><p>Deb (left) followed <em>The Protocol</em>. Billie (right) followed <em>The Essentials</em>. Results reflect adherence, not intervention.</p>",
+        "content": "<p>These images document four weeks of consistent, prescribed use — not instant change.</p><p>Skin function improves when the barrier is supported and inflammation is controlled, not overstimulated.</p><p>Deb (left) followed <em>The Protocol</em>. Billie (right) followed <em>The Essentials</em>. Results reflect adherence, not intervention.</p>",
         "gap": 20,
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
@@ -288,7 +289,7 @@
         "testimonial_GL9iCw": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cI have had significant pigmentation following PDT treatment. Within a month of using the Brightening Serum and Night Cream, I\u2019ve seen a clear improvement in my pigmentation and skin. Amazing product.\u201d</em></p>",
+            "content": "<p><em>“I have had significant pigmentation following PDT treatment. Within a month of using the Brightening Serum and Night Cream, I’ve seen a clear improvement in my pigmentation and skin. Amazing product.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -297,7 +298,7 @@
         "testimonial_eDF9xy": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cI\u2019ve been using Aliang\u00e9 for years and still get compliments on my skin. After battling problematic skin for so long, it\u2019s a relief to finally use products that work.\u201d</em></p>",
+            "content": "<p><em>“I’ve been using Aliangé for years and still get compliments on my skin. After battling problematic skin for so long, it’s a relief to finally use products that work.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -306,7 +307,7 @@
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cI\u2019ve been using these products for years \u2014 my favourite is the Jellyfish Peptide. I buy the kit and save. You really do see results.\u201d</em></p>",
+            "content": "<p><em>“I’ve been using these products for years — my favourite is the Jellyfish Peptide. I buy the kit and save. You really do see results.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -315,7 +316,7 @@
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cEasy to order, quick delivery, no excessive packaging. Tracking is clear and it arrives within days.\u201d</em></p>",
+            "content": "<p><em>“Easy to order, quick delivery, no excessive packaging. Tracking is clear and it arrives within days.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -324,7 +325,7 @@
         "testimonial-3": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cThe team at Aliang\u00e9 are incredibly knowledgeable and professional. You feel supported and confident you\u2019re using the right products, led by Dr Alison.\u201d</em></p>",
+            "content": "<p><em>“The team at Aliangé are incredibly knowledgeable and professional. You feel supported and confident you’re using the right products, led by Dr Alison.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -374,6 +375,8 @@
         "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
         "subheading": "<em>DOCTOR-PRESCRIBED</em>",
         "hide_collection_title": false
       }
@@ -391,18 +394,17 @@
         "richtext_cta": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Browse the full Aliang\u00e9 range \u2014 serums, masques, cleansers and protocols, all formulated by Dr. Alison Jamieson.</p>"
+            "content": "<p>Browse the full Aliangé range — serums, masques, cleansers and protocols, all formulated by Dr. Alison Jamieson.</p>"
           }
         },
         "button_cta": {
           "type": "button",
           "settings": {
-            "button_1_label": "View All Products",
-            "button_1_link": "shopify://collections/all",
-            "button_1_style": "fill",
-            "button_2_label": "",
-            "button_2_link": "",
-            "button_2_style": "outline"
+            "style": "solid",
+            "text": "ASSESS YOUR SKIN",
+            "url": "",
+            "background": "",
+            "text_color": ""
           }
         }
       },
@@ -439,7 +441,7 @@
         "richtext_pillar": {
           "type": "richtext",
           "settings": {
-            "content": "<p><a href=\"/pages/skincare-protocol-vs-routine\">Skincare Protocol vs Routine \u2192</a></p><p><a href=\"/pages/best-skincare-women-over-40-australia\">The Ultimate Guide to Skincare Over 40 \u2192</a></p><p><a href=\"/pages/concern-aging\">Anti-Ageing \u2192</a> \u00b7 <a href=\"/pages/concern-pigmentation\">Pigmentation \u2192</a> \u00b7 <a href=\"/pages/concern-breakouts\">Breakouts \u2192</a> \u00b7 <a href=\"/pages/concern-dullness\">Dullness \u2192</a> \u00b7 <a href=\"/pages/concern-redness\">Redness \u2192</a></p>"
+            "content": "<p><a href=\"/pages/skincare-protocol-vs-routine\">Skincare Protocol vs Routine →</a></p><p><a href=\"/pages/best-skincare-women-over-40-australia\">The Ultimate Guide to Skincare Over 40 →</a></p><p><a href=\"/pages/concern-aging\">Anti-Ageing →</a> · <a href=\"/pages/concern-pigmentation\">Pigmentation →</a> · <a href=\"/pages/concern-breakouts\">Breakouts →</a> · <a href=\"/pages/concern-dullness\">Dullness →</a> · <a href=\"/pages/concern-redness\">Redness →</a></p>"
           }
         }
       },
