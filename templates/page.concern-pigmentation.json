@@ -94,14 +94,14 @@
           "type": "stat",
           "settings": {
             "value": "87%",
-            "label": "Reported More Uniform Tone"
+            "label": "Reported Improvement in Skin Tone Evenness"
           }
         },
         "s2": {
           "type": "stat",
           "settings": {
             "value": "16x",
-            "label": "Greater Enzyme Inhibition Than Hydroquinone"
+            "label": "Greater Tyrosinase Inhibition than Hydroquinone"
           }
         },
         "s3": {
