@@ -239,6 +239,13 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_wBpQz4": {
+          "type": "question",
+          "settings": {
+            "question": "Are real Jellyfish used?",
+            "answer": "<p>No. The Jellyfish Peptide X Antioxidant Serum does not contain whole jellyfish or animal tissue. The formulation utilises advanced <strong>peptide technologies inspired by the unique regenerative biology observed in certain jellyfish species</strong>, particularly their ability to maintain structural proteins and resilience within their extracellular matrix. These peptides are <strong>laboratory-synthesised cosmetic ingredients</strong> designed to mimic specific signalling functions that support skin structure and repair pathways. By stimulating collagen production and supporting skin renewal processes, these biomimetic peptides help improve skin firmness, hydration, and overall skin vitality without the use of actual jellyfish-derived material.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
@@ -269,6 +276,7 @@
         }
       },
       "block_order": [
+        "question_wBpQz4",
         "q1",
         "q2",
         "q4",
