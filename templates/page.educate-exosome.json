@@ -38,13 +38,16 @@
       ],
       "settings": {
         "label": "Aliangé Education",
-        "headline": "What Is an Exosome in Skincare?",
+        "headline": "The Science of Exosomes in Skincare",
         "subheadline": "Exosomes are microscopic extracellular vesicles naturally produced by cells. They function as biological communication carriers, transporting proteins, lipids, and signalling molecules between cells. In advanced skincare formulations, exosome-derived technologies are explored for their ability to support skin renewal and cellular communication.",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Explore CellRevive Exosome Cream",
         "cta_url": "/products/cellrevive-exosome-cream",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "trust_line": "Doctor-Developed | Science-Backed | Australian-Made"
       }
     },
@@ -55,7 +58,9 @@
         "headline": "How Skin Cells Communicate",
         "body": "<p>Healthy skin depends on constant communication between cells. Skin cells coordinate biological processes including tissue repair, collagen production, cellular renewal, and inflammation control.</p><p>These processes rely on biochemical signals passed between cells. Exosomes function as carriers for these signals, helping cells communicate efficiently.</p><p>In regenerative medicine research, exosomes have gained attention for their ability to transport growth factors and signalling molecules. When used in advanced cosmetic formulations, exosome-derived ingredients may support the skin's natural renewal processes.</p><p>This may contribute to improvements in <strong>skin texture, elasticity, hydration, and visible signs of aging</strong>. Because exosomes influence cellular communication rather than acting only on the skin's surface, they represent one of the more advanced developments in cosmetic skincare science.</p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_approach": {
@@ -65,7 +70,9 @@
         "headline": "The Aliangé CellRevive Exosome Cream",
         "body": "<p>Aliangé's CellRevive Exosome Cream incorporates exosome-derived technology alongside hydrating and antioxidant ingredients.</p><p><strong>Exosome technology</strong> — Designed to support cellular communication and skin renewal.</p><p><strong>Hyaluronic acid</strong> — A powerful humectant capable of holding large amounts of water, helping maintain hydration within the skin.</p><p><strong>Avocado oil</strong> — Provides nourishing fatty acids that help support the skin barrier.</p><p><strong>Vitamin E</strong> — A potent antioxidant that helps protect skin from oxidative stress.</p>",
         "bg": "white",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_stats": {
@@ -164,7 +171,8 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Supporting Skin Repair and Hydration"
+        "headline": "Supporting Skin Repair and Hydration",
+        "subheadline": ""
       }
     },
     "lp_comparison": {
@@ -274,6 +282,8 @@
         "subheadline": "Discover the Aliangé CellRevive Exosome Cream and explore advanced skincare technology designed to support skin renewal and resilience.",
         "cta_text": "Shop CellRevive Exosome Cream",
         "cta_url": "/products/cellrevive-exosome-cream",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
     }

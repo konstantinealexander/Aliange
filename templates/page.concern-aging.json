@@ -69,29 +69,29 @@
         "s1": {
           "type": "stat",
           "settings": {
-            "value": "+105%",
-            "label": "Collagen I Production"
+            "value": "105%",
+            "label": "Increase In Collagen I Production"
           }
         },
         "s2": {
           "type": "stat",
           "settings": {
             "value": "45%",
-            "label": "Wrinkle Reduction in 2 months"
+            "label": "Reduction in Wrinkle Depth after 12 weeks"
           }
         },
         "s3": {
           "type": "stat",
           "settings": {
-            "value": "87.3%",
-            "label": "Improvement in Skin Condition"
+            "value": "87%",
+            "label": "Improvement in Skin Regeneration Markers"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
-            "value": "24%",
-            "label": "Less Visible Ageing (SPF study)"
+            "value": "134%",
+            "label": "Increase in Skin Hydration"
           }
         }
       },

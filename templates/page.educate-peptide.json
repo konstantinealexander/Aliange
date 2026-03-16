@@ -38,13 +38,16 @@
       ],
       "settings": {
         "label": "Aliangé Education",
-        "headline": "What Is a Peptide in Skincare?",
+        "headline": "The Science of Peptides in Skincare",
         "subheadline": "Peptides are short chains of amino acids that function as signalling molecules within the body. In skin biology, peptides play an important role in cellular communication — helping skin cells signal when to produce structural proteins such as collagen and elastin, repair damaged tissue, and maintain the integrity of the skin barrier.",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Explore Jellyfish Peptide Serum",
         "cta_url": "/products/jellyfish-peptide-x-antioxidant-serum",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "trust_line": "Doctor-Developed | Science-Backed | Australian-Made"
       }
     },
@@ -55,7 +58,9 @@
         "headline": "How Peptides Support Skin Structure",
         "body": "<p>The skin relies on several key structural proteins to maintain firmness, elasticity, and resilience. These include <strong>collagen</strong> (structural support), <strong>elastin</strong> (stretch and return), and <strong>hyaluronic acid</strong> (hydration within tissue).</p><p>Over time, natural production of these molecules slows due to aging and environmental stress such as ultraviolet radiation. Peptides can act as biological messengers that encourage skin cells to continue producing these essential components.</p><p>Rather than acting as surface-level cosmetic ingredients, peptides support the biological processes that maintain healthy skin structure.</p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_approach": {
@@ -65,7 +70,9 @@
         "headline": "Understanding Peptide Categories",
         "body": "<p><strong>Signal Peptides</strong> communicate with fibroblast cells, encouraging them to support collagen production. These peptides help maintain skin firmness and resilience over time.</p><p><strong>Carrier Peptides</strong> help transport trace minerals that support enzymatic processes within the skin.</p><p><strong>Neurotransmitter Peptides</strong> are designed to influence the interaction between nerves and muscles in the skin, helping soften the appearance of expression lines.</p>",
         "bg": "white",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_jellyfish": {
@@ -75,7 +82,9 @@
         "headline": "Jellyfish Peptide Technology",
         "body": "<p>Aliangé's Jellyfish Peptide X Antioxidant Serum uses advanced peptide technology designed to support skin structure and protect against environmental stress.</p><p><strong>Acetyl Hexapeptide-51 Amide</strong> — This peptide is studied for its ability to support DNA protection within skin cells. It helps strengthen the skin's natural defence mechanisms against environmental damage.</p><p><strong>Palmitoyl Tripeptide-38</strong> — A peptide associated with supporting the skin's extracellular matrix, which contributes to the structural network that maintains skin firmness and elasticity.</p><p>Together these peptides help support collagen production, skin elasticity, structural resilience, and reduction in visible fine lines.</p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_stats": {
@@ -174,7 +183,8 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Antioxidant and Marine Support"
+        "headline": "Antioxidant and Marine Support",
+        "subheadline": ""
       }
     },
     "lp_comparison": {
@@ -232,7 +242,7 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "What do peptides do in skincare?",
+            "question": "",
             "answer": "<p>Peptides are short chains of amino acids that function as signalling molecules. They help skin cells communicate to produce structural proteins like collagen and elastin, supporting skin firmness, elasticity, and repair.</p>"
           }
         },
@@ -241,13 +251,6 @@
           "settings": {
             "question": "What makes the Jellyfish Peptide Serum different?",
             "answer": "<p>The serum combines Acetyl Hexapeptide-51 Amide for DNA protection with Palmitoyl Tripeptide-38 for extracellular matrix support. This dual approach addresses both defence and structural renewal.</p>"
-          }
-        },
-        "q3": {
-          "type": "question",
-          "settings": {
-            "question": "What is Kakadu Plum?",
-            "answer": "<p>Kakadu Plum is a native Australian fruit containing up to 100 times more vitamin C than oranges. It provides potent antioxidant protection and supports collagen formation.</p>"
           }
         },
         "q4": {
@@ -268,7 +271,6 @@
       "block_order": [
         "q1",
         "q2",
-        "q3",
         "q4",
         "q5"
       ],
@@ -284,6 +286,8 @@
         "subheadline": "Explore the Jellyfish Peptide X Antioxidant Serum and discover advanced peptide technology designed to support skin structure and resilience.",
         "cta_text": "Shop Jellyfish Peptide Serum",
         "cta_url": "/products/jellyfish-peptide-x-antioxidant-serum",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
     }
