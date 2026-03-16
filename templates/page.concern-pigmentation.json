@@ -150,23 +150,13 @@
             "step": "P<"
           }
         },
-        "p3": {
-          "type": "product_step",
-          "settings": {
-            "name": "Jellyfish Peptide X Serum",
-            "price": "$225",
-            "why": "Featuring Australian native Kakadu Plum, the world's richest source of Vitamin C, this serum provides powerful antioxidant protection and reduces melanin levels for a brighter complexion.",
-            "key_active": "Kakadu Plum Extract",
-            "step": "AM"
-          }
-        },
         "p4": {
           "type": "product_step",
           "settings": {
             "name": "Day Cream SPF 15",
             "price": "$90",
-            "why": "Daily sun protection is non-negotiable. This lightweight day cream prevents new pigment from forming by shielding your skin from UV radiation—the primary trigger of hyperpigmentation.",
-            "key_active": "Broad-Spectrum UV Filters",
+            "why": "A protective daily moisturiser formulated to support skin hydration, barrier function, and environmental defence. A broad-spectrum UV filter system helps protect against UVA and UVB exposure, while Matrixyl® peptide technology supports collagen integrity and skin firmness. Hydrating ingredients and soothing botanical extracts help reinforce the skin barrier, leaving the complexion hydrated, calm and protected throughout the day.",
+            "key_active": "Butyl Methoxydibenzoylmethane (Avobenzone) + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Octocrylene + 4-Methylbenzylidene Camphor + Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7 + Sodium Hyaluronate + Panthenol + Centella Asiatica Extract + Tocopherol (Vitamin E)",
             "step": "AM"
           }
         }
@@ -174,7 +164,6 @@
       "block_order": [
         "p1",
         "p2",
-        "p3",
         "p4"
       ],
       "settings": {
