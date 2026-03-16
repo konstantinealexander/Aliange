@@ -93,29 +93,29 @@
         "s1": {
           "type": "stat",
           "settings": {
-            "value": "+105%",
-            "label": "Collagen I Production"
+            "value": "105%",
+            "label": "Increase in Collagen I Production"
           }
         },
         "s2": {
           "type": "stat",
           "settings": {
             "value": "45%",
-            "label": "Wrinkle Reduction in 2 months"
+            "label": "Reduction in Wrinkle Depth in 2 Months"
           }
         },
         "s3": {
           "type": "stat",
           "settings": {
             "value": "100x",
-            "label": "Vitamin C vs Oranges (Kakadu Plum)"
+            "label": "More Vitamin C in Kakadu Plum vs Oranges"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
             "value": "DNA",
-            "label": "Protection Support"
+            "label": "Cellular Repair"
           }
         }
       },
