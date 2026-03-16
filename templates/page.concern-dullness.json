@@ -1,23 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Discover the science behind why your skin loses its radiance."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Learn how to build a multi-pathway routine for a healthy glow."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Find the right Aliangé products to restore your skin's luminosity."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Aliangé Clinical",
-        "headline": "Reveal Your Radiance: The Clinical Solution to Dull Skin.",
+        "headline": "Targeting the Biological Causes of Dull Skin",
         "subheadline": "Is your skin looking tired, lacklustre, and dull? We'll explain the science behind why this happens and how you can restore your skin's natural luminosity with a targeted, doctor-developed approach.",
-        "cta_text": "Find Your Solution",
-        "cta_url": "/collections/all",
-        "trust_line": "Developed by Dr. Alison Jamieson, a leading Australian dermatologist with 40+ years of clinical expertise.",
+        "overlay_color": "rgba(26,24,20,0.45)",
+        "min_height": 620,
+        "content_width": 720,
         "align": "left",
-        "min_height": 620
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "Discover the science behind why your skin loses its radiance." } },
-        "b2": { "type": "bullet", "settings": { "text": "Learn how to build a multi-pathway routine for a healthy glow." } },
-        "b3": { "type": "bullet", "settings": { "text": "Find the right Aliangé products to restore your skin's luminosity." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "cta_text": "Assess Your Skin",
+        "cta_url": "/collections/all",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "trust_line": "Developed by Dr. Alison Jamieson, Cosmetic Physician with over 40 years of clinical skin expertise."
+      }
     },
     "lp_problem": {
       "type": "aliange-lp-text-block",
@@ -26,97 +58,330 @@
         "headline": "Why Your Skin Looks Dull",
         "body": "<p>Dull skin is a common concern that can be caused by a variety of factors. One of the primary culprits is a slowdown in cell turnover. In our youth, our skin naturally renews itself every 28 days, but <strong>by our 50s, this process can slow to as long as 60 days</strong>. This means that dead, pigmented skin cells remain on the surface for longer, obscuring the fresh, new cells beneath and leading to a lacklustre complexion.</p><p>Another key factor is a compromised skin barrier. A healthy skin barrier is essential for retaining moisture and protecting the skin from environmental aggressors. When the barrier is weakened, it can lead to dehydration, inflammation, and a loss of radiance. In fact, <strong>Niacinamide has been shown to boost ceramide production by up to 5.5x</strong>, which is crucial for a radiant complexion.</p><p>Finally, oxidative stress from sun exposure, pollution, and other environmental factors can also contribute to dullness. For example, the Australian native <strong>Kakadu Plum contains up to 100 times more Vitamin C than oranges</strong>, providing potent antioxidant defence.</p>",
         "bg": "muted",
-        "width": "narrow"
-      },
-      "blocks": {},
-      "block_order": []
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
+      "blocks": {
+        "q1": {
+          "type": "quote",
+          "settings": {
+            "quote_text": "I developed the Aliangé range to provide my patients with a clinical-grade skincare solution that they could use at home. Our multi-pathway approach to dullness is designed to deliver the same kind of comprehensive results that you would expect from a visit to my clinic. We don't just treat the symptoms; we address the underlying causes of dullness to restore your skin's natural radiance.",
+            "attribution": "— Dr. Alison Jamieson"
+          }
+        }
+      },
+      "block_order": [
+        "q1"
+      ],
       "settings": {
         "label": "Our Approach",
         "headline": "A Clinical Approach to Dullness",
         "body": "<p>At Aliangé, we take a multi-product, multi-pathway approach to addressing dullness. While many brands offer single-product solutions that only target one aspect of the problem, we believe in a comprehensive approach that addresses all the key factors contributing to a lacklustre complexion. Our routines are formulated to work synergistically to accelerate cell turnover, strengthen the skin barrier, and protect against oxidative stress.</p>",
         "bg": "white",
-        "width": "narrow"
-      },
-      "blocks": {
-        "q1": { "type": "quote", "settings": { "quote_text": "I developed the Aliangé range to provide my patients with a clinical-grade skincare solution that they could use at home. Our multi-pathway approach to dullness is designed to deliver the same kind of comprehensive results that you would expect from a visit to my clinic. We don't just treat the symptoms; we address the underlying causes of dullness to restore your skin's natural radiance.", "attribution": "— Dr. Alison Jamieson" } }
-      },
-      "block_order": ["q1"]
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "5.5x", "label": "Ceramide increase with Niacinamide" } },
-        "s2": { "type": "stat", "settings": { "value": "100x", "label": "More Vitamin C in Kakadu Plum vs oranges" } },
-        "s3": { "type": "stat", "settings": { "value": "76", "label": "Daltons — Glycolic Acid molecular weight" } },
-        "s4": { "type": "stat", "settings": { "value": "28–60", "label": "Days: cell turnover slowdown with age" } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "5.5x",
+            "label": "Ceramide increase with Niacinamide"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "100x",
+            "label": "More Vitamin C in Kakadu Plum vs oranges"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "76",
+            "label": "Daltons — Glycolic Acid molecular weight"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "28–60",
+            "label": "Days: cell turnover slowdown with age"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Transforming Exfoliator",
+            "price": "$55",
+            "why": "This dual-action exfoliator combines AHAs and physical exfoliants to accelerate cell turnover and reveal a brighter, smoother complexion.",
+            "key_active": "Glycolic Acid",
+            "step": "PM, 2–3x per week"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.",
+            "key_active": "Vitamin C (Ascorbic Acid)",
+            "step": "PM"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Probiotic Masque",
+            "price": "$60",
+            "why": "A purifying treatment designed to rebalance the skin while supporting a healthy microbiome. Mineral clays help absorb excess oil and draw out impurities, while a probiotic and prebiotic complex works to support the skin’s microbial ecosystem, helping strengthen the barrier and calm inflammation. Hydrating ingredients such as hyaluronic acid and skin-identical moisturising factors help maintain moisture balance, leaving skin clearer, calmer, and more resilient.",
+            "key_active": "Purifying Mineral Clay Complex (Kaolin + Bentonite) + Probiotic & Prebiotic Microbiome Complex (Lactococcus Ferment + Lactobacillus + Alpha-Glucan Oligosaccharide + Yacon Root) + Hyaluronic Acid Hydration System + Marine Algae Barrier Support + Vitamin E Antioxidant Protection",
+            "step": "AM & PM"
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Cell Revive Exosome Cream",
+            "price": "$400",
+            "why": "A regenerative moisturiser formulated with ENDEXOME-EXO™ exosome technology to support skin renewal and repair. Hyaluronic acid, sodium PCA and glycerin provide deep hydration, while safflower and avocado oils with vitamin E help nourish the skin and reinforce the barrier, leaving it smoother, stronger and more resilient.",
+            "key_active": "ENDEXOME-EXO™ exosomes",
+            "step": "AM & PM"
+          }
+        },
+        "p5": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "Provides essential sun protection to prevent further UV-induced dullness.",
+            "key_active": "Broad-spectrum UV filters",
+            "step": "AM"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
       "settings": {
         "label": "The Protocol",
-        "headline": "Your Radiance Routine",
+        "headline": "Your Prescribed Protocol",
+        "subheadline": "",
         "cta_text": "Shop the Dullness Routine",
         "cta_url": "/collections/all"
-      },
-      "blocks": {
-        "p1": { "type": "product_step", "settings": { "name": "Transforming Exfoliator", "price": "$55", "why": "This dual-action exfoliator combines AHAs and physical exfoliants to accelerate cell turnover and reveal a brighter, smoother complexion.", "key_active": "Glycolic Acid", "step": "PM, 2–3x per week" } },
-        "p2": { "type": "product_step", "settings": { "name": "Brightening Serum", "price": "$100", "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.", "key_active": "Vitamin C (Ascorbic Acid)", "step": "AM & PM" } },
-        "p3": { "type": "product_step", "settings": { "name": "Jellyfish Peptide X Serum", "price": "$225", "why": "Features Kakadu Plum extract for powerful antioxidant protection against dullness-causing free radicals.", "key_active": "Kakadu Plum Extract", "step": "AM & PM" } },
-        "p4": { "type": "product_step", "settings": { "name": "Biocinamide Serum", "price": "$90", "why": "Contains Niacinamide to support a healthy skin barrier, which is essential for a radiant glow.", "key_active": "Niacinamide", "step": "AM & PM" } },
-        "p5": { "type": "product_step", "settings": { "name": "Day Cream SPF 15", "price": "$90", "why": "Provides essential sun protection to prevent further UV-induced dullness.", "key_active": "Broad-spectrum UV filters", "step": "AM" } }
-      },
-      "block_order": ["p1", "p2", "p3", "p4", "p5"]
+      }
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
-      "settings": { "label": "Why It Works", "headline": "Benefits of the Routine" },
       "blocks": {
-        "ben1": { "type": "benefit", "settings": { "title": "Accelerated Cell Turnover", "description": "Reveal a brighter, smoother complexion." } },
-        "ben2": { "type": "benefit", "settings": { "title": "Enhanced Radiance", "description": "Boost your skin's natural luminosity." } },
-        "ben3": { "type": "benefit", "settings": { "title": "Strengthened Skin Barrier", "description": "Improve your skin's ability to retain moisture and protect itself from environmental aggressors." } },
-        "ben4": { "type": "benefit", "settings": { "title": "Potent Antioxidant Protection", "description": "Defend your skin against dullness-causing free radicals." } },
-        "ben5": { "type": "benefit", "settings": { "title": "Even Skin Tone", "description": "Reduce the appearance of pigmentation and discolouration." } },
-        "ben6": { "type": "benefit", "settings": { "title": "Deep Hydration", "description": "Plump and moisturise your skin for a healthy, youthful glow." } }
+        "ben1": {
+          "type": "benefit",
+          "settings": {
+            "title": "Accelerated Cell Turnover",
+            "description": "Reveal a brighter, smoother complexion."
+          }
+        },
+        "ben2": {
+          "type": "benefit",
+          "settings": {
+            "title": "Enhanced Radiance",
+            "description": "Boost your skin's natural luminosity."
+          }
+        },
+        "ben3": {
+          "type": "benefit",
+          "settings": {
+            "title": "Strengthened Skin Barrier",
+            "description": "Improve your skin's ability to retain moisture and protect itself from environmental aggressors."
+          }
+        },
+        "ben4": {
+          "type": "benefit",
+          "settings": {
+            "title": "Potent Antioxidant Protection",
+            "description": "Defend your skin against dullness-causing free radicals."
+          }
+        },
+        "ben5": {
+          "type": "benefit",
+          "settings": {
+            "title": "Even Skin Tone",
+            "description": "Reduce the appearance of pigmentation and discolouration."
+          }
+        },
+        "ben6": {
+          "type": "benefit",
+          "settings": {
+            "title": "Deep Hydration",
+            "description": "Plump and moisturise your skin for a healthy, youthful glow."
+          }
+        }
       },
-      "block_order": ["ben1", "ben2", "ben3", "ben4", "ben5", "ben6"]
+      "block_order": [
+        "ben1",
+        "ben2",
+        "ben3",
+        "ben4",
+        "ben5",
+        "ben6"
+      ],
+      "settings": {
+        "label": "Why It Works",
+        "headline": "Benefits of the Routine",
+        "subheadline": ""
+      }
     },
     "lp_timeline": {
       "type": "aliange-lp-timeline",
-      "settings": { "label": "Your Journey", "headline": "What to Expect" },
       "blocks": {
-        "t1": { "type": "phase", "settings": { "timeframe": "Week 1–2", "description": "Your skin will feel smoother and more hydrated as the exfoliator and serums begin to work their magic." } },
-        "t2": { "type": "phase", "settings": { "timeframe": "Week 2–4", "description": "You will start to see a noticeable improvement in your skin's radiance and a reduction in the appearance of fine lines." } },
-        "t3": { "type": "phase", "settings": { "timeframe": "Week 4–8", "description": "Your skin tone will become more even, and you will see a significant improvement in your skin's overall luminosity." } },
-        "t4": { "type": "phase", "settings": { "timeframe": "Week 8–12", "description": "You will experience the full benefits of the routine, with your skin looking and feeling its absolute best." } }
+        "t1": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 1–2",
+            "description": "Your skin will feel smoother and more hydrated as the exfoliator and serums begin to work their magic."
+          }
+        },
+        "t2": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 2–4",
+            "description": "You will start to see a noticeable improvement in your skin's radiance and a reduction in the appearance of fine lines."
+          }
+        },
+        "t3": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 4–8",
+            "description": "Your skin tone will become more even, and you will see a significant improvement in your skin's overall luminosity."
+          }
+        },
+        "t4": {
+          "type": "phase",
+          "settings": {
+            "timeframe": "Week 8–12",
+            "description": "You will experience the full benefits of the routine, with your skin looking and feeling its absolute best."
+          }
+        }
       },
-      "block_order": ["t1", "t2", "t3", "t4"]
+      "block_order": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "settings": {
+        "label": "Your Journey",
+        "headline": "What to Expect"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
-      "settings": { "label": "The Difference", "headline": "Why Aliangé Is Different", "col_them": "Typical Dullness Products", "col_us": "Aliangé Clinical Approach" },
       "blocks": {
-        "r1": { "type": "row", "settings": { "feature": "Focus", "them": "Single ingredient focus", "us": "Multi-pathway approach" } },
-        "r2": { "type": "row", "settings": { "feature": "Results", "them": "Surface-level results", "us": "Addresses the root causes of dullness" } },
-        "r3": { "type": "row", "settings": { "feature": "Barrier", "them": "May compromise the skin barrier", "us": "Strengthens and supports the skin barrier" } },
-        "r4": { "type": "row", "settings": { "feature": "Antioxidants", "them": "Limited antioxidant protection", "us": "Potent, broad-spectrum antioxidant defence" } }
+        "r1": {
+          "type": "row",
+          "settings": {
+            "feature": "Focus",
+            "them": "Single ingredient focus",
+            "us": "Multi-pathway approach"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "feature": "Results",
+            "them": "Surface-level results",
+            "us": "Addresses the root causes of dullness"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "feature": "Barrier",
+            "them": "May compromise the skin barrier",
+            "us": "Strengthens and supports the skin barrier"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "feature": "Antioxidants",
+            "them": "Limited antioxidant protection",
+            "us": "Potent, broad-spectrum antioxidant defence"
+          }
+        }
       },
-      "block_order": ["r1", "r2", "r3", "r4"]
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "Why Aliangé Is Different",
+        "col_them": "Typical Dullness Products",
+        "col_us": "Aliangé Clinical Approach"
+      }
     },
     "lp_faq": {
       "type": "aliange-lp-faq",
-      "settings": { "label": "Questions Answered", "headline": "Frequently Asked Questions" },
       "blocks": {
-        "q1": { "type": "question", "settings": { "question": "How long will it take to see results?", "answer": "<p>You can expect to see initial results within the first 1–2 weeks, with more significant improvements visible after 4–8 weeks. For peak results, we recommend using the routine consistently for at least 8–12 weeks.</p>" } },
-        "q2": { "type": "question", "settings": { "question": "Is this routine suitable for sensitive skin?", "answer": "<p>While our products are formulated to be gentle, we always recommend patch testing before use, especially if you have sensitive skin. The Transforming Exfoliator and Brightening Serum contain AHAs, which can cause some initial tingling or redness.</p>" } },
-        "q3": { "type": "question", "settings": { "question": "Do I really need to use all the recommended products?", "answer": "<p>For the best results, we recommend using the complete routine as outlined. Each product has been carefully selected to target a different aspect of dullness, and they work together to deliver comprehensive results.</p>" } }
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to see results?",
+            "answer": "<p>You can expect to see initial results within the first 1–2 weeks, with more significant improvements visible after 4–8 weeks. For peak results, we recommend using the routine consistently for at least 8–12 weeks.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Is this routine suitable for sensitive skin?",
+            "answer": "<p>While our products are formulated to be gentle, we always recommend patch testing before use, especially if you have sensitive skin. The Transforming Exfoliator and Brightening Serum contain AHAs, which can cause some initial tingling or redness.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Do I really need to use all the recommended products?",
+            "answer": "<p>For the best results, we recommend using the complete routine as outlined. Each product has been carefully selected to target a different aspect of dullness, and they work together to deliver comprehensive results.</p>"
+          }
+        }
       },
-      "block_order": ["q1", "q2", "q3"]
+      "block_order": [
+        "q1",
+        "q2",
+        "q3"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -125,11 +390,22 @@
         "subheadline": "Experience the Aliangé difference and restore your skin's natural luminosity with our doctor-developed, science-backed approach.",
         "cta_text": "Shop the Dullness Routine",
         "cta_url": "/collections/all",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_problem", "lp_approach", "lp_stats", "lp_routine", "lp_benefits", "lp_timeline", "lp_comparison", "lp_faq", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_problem",
+    "lp_approach",
+    "lp_stats",
+    "lp_routine",
+    "lp_benefits",
+    "lp_timeline",
+    "lp_comparison",
+    "lp_faq",
+    "lp_cta"
+  ]
 }
