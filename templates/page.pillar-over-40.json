@@ -1,86 +1,257 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
       "type": "aliange-lp-hero",
+      "blocks": {
+        "b1": {
+          "type": "bullet",
+          "settings": {
+            "text": "Understand the 3 biological shifts in skin over 40."
+          }
+        },
+        "b2": {
+          "type": "bullet",
+          "settings": {
+            "text": "Discover the doctor-led protocol for mature skin regeneration."
+          }
+        },
+        "b3": {
+          "type": "bullet",
+          "settings": {
+            "text": "Learn why the Australian climate requires a specific approach."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
       "settings": {
         "label": "Doctor-Led Guide",
         "headline": "The Ultimate Guide to Skincare for Women Over 40 in Australia.",
         "subheadline": "Reaching your 40s marks a significant biological shift in how your skin functions. The products that kept your complexion glowing in your 20s and 30s are likely no longer sufficient. Here's why — and what to do about it.",
+        "overlay_color": "rgba(26,24,20,0.45)",
+        "min_height": 620,
+        "content_width": 720,
+        "align": "left",
         "cta_text": "Discover the Anti-Ageing Protocol",
         "cta_url": "/collections/all",
-        "trust_line": "Dr. Alison Jamieson | 40+ Years of Dermatological Experience | Australian-Made",
-        "align": "left",
-        "min_height": 620
-      },
-      "blocks": {
-        "b1": { "type": "bullet", "settings": { "text": "Understand the 3 biological shifts in skin over 40." } },
-        "b2": { "type": "bullet", "settings": { "text": "Discover the doctor-led protocol for mature skin regeneration." } },
-        "b3": { "type": "bullet", "settings": { "text": "Learn why the Australian climate requires a specific approach." } }
-      },
-      "block_order": ["b1", "b2", "b3"]
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "trust_line": "Developed by Dr Alison Jamieson, Cosmetic Physician with over 40 years of clinical experience"
+      }
     },
     "lp_biology": {
       "type": "aliange-lp-text-block",
+      "blocks": {
+        "s1": {
+          "type": "subheading",
+          "settings": {
+            "text": "1. The Collagen Cliff"
+          }
+        },
+        "t1": {
+          "type": "rich_text",
+          "settings": {
+            "body": "<p>Collagen is the structural protein that gives your skin firmness and bounce. From your mid-20s, collagen production declines by about 1% every year. By the time you reach 40, this cumulative loss becomes visibly apparent. The skin matrix begins to weaken, leading to the formation of fine lines, deeper wrinkles, and a loss of structural volume.</p>"
+          }
+        },
+        "s2": {
+          "type": "subheading",
+          "settings": {
+            "text": "2. Slowed Cellular Turnover"
+          }
+        },
+        "t2": {
+          "type": "rich_text",
+          "settings": {
+            "body": "<p>In your 20s, your skin cells naturally renew every 28 days, constantly pushing fresh, luminous cells to the surface. After 40, this cycle can slow down dramatically, taking up to 45–60 days. This buildup of dead, senescent cells on the surface is the primary cause of the dull, lacklustre complexion often associated with mature skin.</p>"
+          }
+        },
+        "s3": {
+          "type": "subheading",
+          "settings": {
+            "text": "3. Barrier Depletion and Hormonal Shifts"
+          }
+        },
+        "t3": {
+          "type": "rich_text",
+          "settings": {
+            "body": "<p>As we enter perimenopause and menopause, declining estrogen levels lead to a reduction in sebum production and hyaluronic acid synthesis. The skin's protective lipid barrier becomes compromised, resulting in chronic dehydration, increased sensitivity, and a feeling of tightness that no standard moisturiser seems to resolve.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "t1",
+        "s2",
+        "t2",
+        "s3",
+        "t3"
+      ],
       "settings": {
         "label": "The Science",
         "headline": "The 3 Biological Shifts in Skin Over 40",
         "body": "<p>To choose the best skincare, you must first understand what is happening beneath the surface.</p>",
         "bg": "muted",
-        "width": "narrow"
-      },
-      "blocks": {
-        "s1": { "type": "subheading", "settings": { "text": "1. The Collagen Cliff" } },
-        "t1": { "type": "rich_text", "settings": { "body": "<p>Collagen is the structural protein that gives your skin firmness and bounce. From your mid-20s, collagen production declines by about 1% every year. By the time you reach 40, this cumulative loss becomes visibly apparent. The skin matrix begins to weaken, leading to the formation of fine lines, deeper wrinkles, and a loss of structural volume.</p>" } },
-        "s2": { "type": "subheading", "settings": { "text": "2. Slowed Cellular Turnover" } },
-        "t2": { "type": "rich_text", "settings": { "body": "<p>In your 20s, your skin cells naturally renew every 28 days, constantly pushing fresh, luminous cells to the surface. After 40, this cycle can slow down dramatically, taking up to 45–60 days. This buildup of dead, senescent cells on the surface is the primary cause of the dull, lacklustre complexion often associated with mature skin.</p>" } },
-        "s3": { "type": "subheading", "settings": { "text": "3. Barrier Depletion and Hormonal Shifts" } },
-        "t3": { "type": "rich_text", "settings": { "body": "<p>As we enter perimenopause and menopause, declining estrogen levels lead to a reduction in sebum production and hyaluronic acid synthesis. The skin's protective lipid barrier becomes compromised, resulting in chronic dehydration, increased sensitivity, and a feeling of tightness that no standard moisturiser seems to resolve.</p>" } }
-      },
-      "block_order": ["s1", "t1", "s2", "t2", "s3", "t3"]
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_stats": {
       "type": "aliange-lp-stats",
-      "settings": {},
       "blocks": {
-        "s1": { "type": "stat", "settings": { "value": "1%", "label": "Collagen lost per year from mid-20s" } },
-        "s2": { "type": "stat", "settings": { "value": "60 days", "label": "Cell turnover after age 50" } },
-        "s3": { "type": "stat", "settings": { "value": "90%", "label": "Of visible ageing caused by UV exposure" } },
-        "s4": { "type": "stat", "settings": { "value": "4B", "label": "Exosomes per dose in CellRevive Cream" } }
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "value": "1%",
+            "label": "Collagen lost per year from mid-20s"
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "value": "60 days",
+            "label": "Cell turnover after age 50"
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "value": "90%",
+            "label": "Of visible ageing caused by UV exposure"
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "value": "4B",
+            "label": "Exosomes per dose in CellRevive Cream"
+          }
+        }
       },
-      "block_order": ["s1", "s2", "s3", "s4"]
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Transforming Exfoliator",
+            "price": "$55",
+            "why": "You cannot hydrate dead skin cells. This exfoliator combines gentle physical spheres with a potent AHA blend to dissolve the bonds holding dead cells together, instantly brightening the complexion.",
+            "key_active": "Glycolic, Lactic & Malic Acids",
+            "step": "2–3x per week (PM)"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "CellRevive Exosome Cream",
+            "price": "$400",
+            "why": "Delivering 4 billion stem cell-derived exosomes per dose, it acts as a 'software update' for your skin, sending genetic instructions to repair damage and stimulate the structural matrix.",
+            "key_active": "Regenerative Exosomes (Endexome-EXO™)",
+            "step": "AM (Step 2) / PM (Step 3)"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Jellyfish Peptide X Antioxidant Serum",
+            "price": "$225",
+            "why": "Utilises a DNA-repair peptide (Juveleven) inspired by the immortal jellyfish to protect cellular integrity and smooth deep wrinkles.",
+            "key_active": "Juveleven Peptide, Kakadu Plum",
+            "step": "AM"
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "price": "$130",
+            "why": "Features micro-encapsulated retinol, released slowly into the dermis overnight, providing all the collagen-boosting benefits without the redness or flaking common in mature skin.",
+            "key_active": "Micro-encapsulated Retinol + Bakuchiol",
+            "step": "PM"
+          }
+        },
+        "p5": {
+          "type": "product_step",
+          "settings": {
+            "name": "Biocinamide Serum",
+            "price": "$90",
+            "why": "Delivers a potent dose of Niacinamide alongside advanced sphingolipids to rebuild the skin's protective mantle, lock in moisture, and reduce enlarged pores.",
+            "key_active": "Niacinamide, Sphingolipids",
+            "step": "AM/PM"
+          }
+        },
+        "p6": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "Up to 90% of visible skin ageing is caused by UV exposure. This day cream provides essential daily defence while delivering deep hydration and collagen-supporting peptides.",
+            "key_active": "Matrixyl 3000, SPF 15",
+            "step": "AM (final step)"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ],
       "settings": {
         "label": "The Protocol",
         "headline": "The Doctor-Led Protocol for Mature Skin",
         "subheadline": "Treating skin over 40 requires moving beyond a basic 'cleanse and moisturise' routine. It requires a clinical protocol designed to stimulate regeneration, accelerate cellular turnover, and deeply fortify the barrier.",
         "cta_text": "Explore the Anti-Ageing Protocols",
         "cta_url": "/collections/protocols"
-      },
-      "blocks": {
-        "p1": { "type": "product_step", "settings": { "name": "Transforming Exfoliator", "price": "$55", "why": "You cannot hydrate dead skin cells. This exfoliator combines gentle physical spheres with a potent AHA blend to dissolve the bonds holding dead cells together, instantly brightening the complexion.", "key_active": "Glycolic, Lactic & Malic Acids", "step": "2–3x per week (PM)" } },
-        "p2": { "type": "product_step", "settings": { "name": "CellRevive Exosome Cream", "price": "$400", "why": "Delivering 4 billion stem cell-derived exosomes per dose, it acts as a 'software update' for your skin, sending genetic instructions to repair damage and stimulate the structural matrix.", "key_active": "Regenerative Exosomes (Endexome-EXO™)", "step": "AM (Step 2) / PM (Step 3)" } },
-        "p3": { "type": "product_step", "settings": { "name": "Jellyfish Peptide X Antioxidant Serum", "price": "$225", "why": "Utilises a DNA-repair peptide (Juveleven) inspired by the immortal jellyfish to protect cellular integrity and smooth deep wrinkles.", "key_active": "Juveleven Peptide, Kakadu Plum", "step": "AM" } },
-        "p4": { "type": "product_step", "settings": { "name": "Ultimate A Night Cream", "price": "$130", "why": "Features micro-encapsulated retinol, released slowly into the dermis overnight, providing all the collagen-boosting benefits without the redness or flaking common in mature skin.", "key_active": "Micro-encapsulated Retinol + Bakuchiol", "step": "PM" } },
-        "p5": { "type": "product_step", "settings": { "name": "Biocinamide Serum", "price": "$90", "why": "Delivers a potent dose of Niacinamide alongside advanced sphingolipids to rebuild the skin's protective mantle, lock in moisture, and reduce enlarged pores.", "key_active": "Niacinamide, Sphingolipids", "step": "AM/PM" } },
-        "p6": { "type": "product_step", "settings": { "name": "Day Cream SPF 15", "price": "$90", "why": "Up to 90% of visible skin ageing is caused by UV exposure. This day cream provides essential daily defence while delivering deep hydration and collagen-supporting peptides.", "key_active": "Matrixyl 3000, SPF 15", "step": "AM (final step)" } }
-      },
-      "block_order": ["p1", "p2", "p3", "p4", "p5", "p6"]
+      }
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
+      "blocks": {
+        "q1": {
+          "type": "quote",
+          "settings": {
+            "quote_text": "At 40 and beyond, your skin has different biological needs. It requires science, not marketing. By adopting an Aliangé Protocol, you are delivering the precise molecular signals your skin needs to behave younger, stronger, and more resilient.",
+            "attribution": "— Dr. Alison Jamieson"
+          }
+        }
+      },
+      "block_order": [
+        "q1"
+      ],
       "settings": {
         "label": "The Australian Factor",
         "headline": "Protecting Your Investment",
         "body": "<p>Living in Australia means our skin is subjected to some of the harshest environmental conditions on the planet. <strong>Up to 90% of visible skin ageing is caused by UV exposure.</strong> All the regenerative protocols in the world will be undone without daily protection.</p><p>At Aliangé, under the guidance of Dr. Alison Jamieson and her 40+ years of dermatological experience, we do not view these changes as something to 'fix' with superficial creams. We view them as biological processes that require targeted, clinical intervention.</p>",
         "bg": "muted",
-        "width": "narrow"
-      },
-      "blocks": {
-        "q1": { "type": "quote", "settings": { "quote_text": "At 40 and beyond, your skin has different biological needs. It requires science, not marketing. By adopting an Aliangé Protocol, you are delivering the precise molecular signals your skin needs to behave younger, stronger, and more resilient.", "attribution": "— Dr. Alison Jamieson" } }
-      },
-      "block_order": ["q1"]
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
+      }
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
@@ -92,10 +263,15 @@
         "secondary_cta_text": "Shop CellRevive Exosome Cream",
         "secondary_cta_url": "/products/cellrevive-exosome-cream",
         "guarantee": "Doctor-Developed | Australian-Made | 90-Day Guarantee"
-      },
-      "blocks": {},
-      "block_order": []
+      }
     }
   },
-  "order": ["lp_hero", "lp_biology", "lp_stats", "lp_routine", "lp_approach", "lp_cta"]
+  "order": [
+    "lp_hero",
+    "lp_biology",
+    "lp_stats",
+    "lp_routine",
+    "lp_approach",
+    "lp_cta"
+  ]
 }
