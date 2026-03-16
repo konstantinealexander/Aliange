@@ -40,11 +40,14 @@
         "label": "Doctor-Designed · Evidence-Based · Australian Made",
         "headline": "Unlock Overnight Skin Renewal",
         "subheadline": "A three-step system that works while you sleep to exfoliate, brighten, and regenerate your skin.",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Start the PM Protocol",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "trust_line": "90-Day Results Guarantee Or Your Money Back"
       }
     },
@@ -55,7 +58,9 @@
         "headline": "The Overnight Imperative",
         "body": "<p>Your skin’s repair is most active at night, but accumulated damage can overwhelm this cycle.</p><p><strong>Dull, uneven tone</strong> from dead cell accumulation.</p><p><strong>Fine lines</strong> from declining collagen.</p><p><strong>Compromised barrier</strong> leads to moisture loss.</p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_routine": {
@@ -100,6 +105,7 @@
       "settings": {
         "label": "The Protocol",
         "headline": "Your 3-Step Evening Protocol",
+        "subheadline": "",
         "cta_text": "Start the PM Protocol",
         "cta_url": ""
       }
@@ -229,85 +235,6 @@
         "col_us": "The PM Protocol"
       }
     },
-    "proto_ritual": {
-      "type": "aliange-proto-ritual",
-      "blocks": {
-        "rit1": {
-          "type": "step",
-          "settings": {
-            "text": "Cleanse with Daily Devotion Cleanser",
-            "time": "pm"
-          }
-        },
-        "rit2": {
-          "type": "step",
-          "settings": {
-            "text": "Apply Brightening Serum to dry face",
-            "time": "pm"
-          }
-        },
-        "rit3": {
-          "type": "step",
-          "settings": {
-            "text": "Apply Ultimate A Night Cream",
-            "time": "pm"
-          }
-        }
-      },
-      "block_order": [
-        "rit1",
-        "rit2",
-        "rit3"
-      ],
-      "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": "In the morning, follow with a cleanser and Day Cream SPF 15."
-      }
-    },
-    "proto_includes": {
-      "type": "aliange-proto-includes",
-      "blocks": {
-        "i1": {
-          "type": "product_item",
-          "settings": {
-            "name": "Daily Devotion Cleanser",
-            "size": "200ml",
-            "price": "$55"
-          }
-        },
-        "i2": {
-          "type": "product_item",
-          "settings": {
-            "name": "Brightening Serum",
-            "size": "50ml",
-            "price": "$100"
-          }
-        },
-        "i3": {
-          "type": "product_item",
-          "settings": {
-            "name": "Ultimate A Night Cream",
-            "size": "50ml",
-            "price": "$130"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3"
-      ],
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save $30 when you buy the complete protocol.",
-        "cta_text": "Start the PM Protocol",
-        "cta_url": ""
-      }
-    },
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
@@ -366,7 +293,69 @@
         "subheadline": "Turn every night into profound skin renewal. Risk-free.",
         "cta_text": "Experience the PM Protocol",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
+      }
+    },
+    "aliange_pdp_hero_3ChdcY": {
+      "type": "aliange-pdp-hero",
+      "blocks": {
+        "bullet_point_HBxjFx": {
+          "type": "bullet_point",
+          "settings": {
+            "text": "Clinically proven UV defence"
+          }
+        },
+        "bullet_point_mJk4RY": {
+          "type": "bullet_point",
+          "settings": {
+            "text": "Reduces visible signs of ageing by 24%"
+          }
+        },
+        "bullet_point_FaELdR": {
+          "type": "bullet_point",
+          "settings": {
+            "text": "Doctor-developed & Australian-made"
+          }
+        },
+        "trust_box_4KJg8H": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_G8QP3k": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_picreC": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
+          }
+        }
+      },
+      "block_order": [
+        "bullet_point_HBxjFx",
+        "bullet_point_mJk4RY",
+        "bullet_point_FaELdR",
+        "trust_box_4KJg8H",
+        "trust_box_G8QP3k",
+        "trust_box_picreC"
+      ],
+      "name": "PDP Hero",
+      "settings": {
+        "description": "Your daily defence against premature ageing. This lightweight, non-greasy formula delivers essential hydration and broad-spectrum UV protection.",
+        "atc_text": "Add to Cart"
       }
     }
   },
@@ -377,8 +366,7 @@
     "proto_synergy",
     "lp_stats",
     "lp_comparison",
-    "proto_ritual",
-    "proto_includes",
+    "aliange_pdp_hero_3ChdcY",
     "lp_faq",
     "lp_cta"
   ]
