@@ -152,24 +152,14 @@
     "lp_routine": {
       "type": "aliange-lp-routine",
       "blocks": {
-        "p1": {
+        "product_step_DKtB4G": {
           "type": "product_step",
           "settings": {
-            "name": "Transforming Exfoliator",
-            "price": "$55",
-            "why": "You cannot hydrate dead skin cells. This exfoliator combines gentle physical spheres with a potent AHA blend to dissolve the bonds holding dead cells together, instantly brightening the complexion.",
-            "key_active": "Glycolic, Lactic & Malic Acids",
-            "step": "2–3x per week (PM)"
-          }
-        },
-        "p2": {
-          "type": "product_step",
-          "settings": {
-            "name": "CellRevive Exosome Cream",
-            "price": "$400",
-            "why": "Delivering 4 billion stem cell-derived exosomes per dose, it acts as a 'software update' for your skin, sending genetic instructions to repair damage and stimulate the structural matrix.",
-            "key_active": "Regenerative Exosomes (Endexome-EXO™)",
-            "step": "AM (Step 2) / PM (Step 3)"
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "The Brightening Serum is formulated to target uneven pigmentation, dullness, and skin discolouration through multiple biological pathways. A combination of resurfacing acids, brightening peptides, and antioxidant actives works to accelerate cell turnover, inhibit excess melanin production, and improve overall skin clarity. This helps refine skin texture, promote a more even tone, and restore visible luminosity.",
+            "key_active": "Glycolic Acid + Lactic Acid + Salicylic Acid + Oligopeptide-68 + Ascorbic Acid + Niacinamide + Licorice Root Extract",
+            "step": "PM"
           }
         },
         "p3": {
@@ -177,9 +167,9 @@
           "settings": {
             "name": "Jellyfish Peptide X Antioxidant Serum",
             "price": "$225",
-            "why": "Utilises a DNA-repair peptide (Juveleven) inspired by the immortal jellyfish to protect cellular integrity and smooth deep wrinkles.",
-            "key_active": "Juveleven Peptide, Kakadu Plum",
-            "step": "AM"
+            "why": "The Jellyfish Peptide X Antioxidant Serum is designed to support collagen production, skin regeneration, and antioxidant defence. Advanced biomimetic peptides work to stimulate structural proteins within the skin while Kakadu plum and vitamin E provide powerful antioxidant protection against environmental damage. Hydrating actives help improve skin smoothness and elasticity, leaving skin firmer, brighter, and more resilient.",
+            "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Squalene + Vitamin E",
+            "step": "AM/PM"
           }
         },
         "p4": {
@@ -187,39 +177,16 @@
           "settings": {
             "name": "Ultimate A Night Cream",
             "price": "$130",
-            "why": "Features micro-encapsulated retinol, released slowly into the dermis overnight, providing all the collagen-boosting benefits without the redness or flaking common in mature skin.",
-            "key_active": "Micro-encapsulated Retinol + Bakuchiol",
+            "why": "Ultimate A Night Cream is a regenerative overnight treatment formulated to support collagen production, accelerate cellular turnover, and improve visible signs of skin ageing. Microencapsulated retinol works gradually within the skin to help smooth fine lines, refine texture, and improve skin firmness, while hydrating and barrier-supporting ingredients help minimise irritation and maintain skin resilience.",
+            "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 + Niacinamide + Hyaluronic Acid + Vitamin E",
             "step": "PM"
-          }
-        },
-        "p5": {
-          "type": "product_step",
-          "settings": {
-            "name": "Biocinamide Serum",
-            "price": "$90",
-            "why": "Delivers a potent dose of Niacinamide alongside advanced sphingolipids to rebuild the skin's protective mantle, lock in moisture, and reduce enlarged pores.",
-            "key_active": "Niacinamide, Sphingolipids",
-            "step": "AM/PM"
-          }
-        },
-        "p6": {
-          "type": "product_step",
-          "settings": {
-            "name": "Day Cream SPF 15",
-            "price": "$90",
-            "why": "Up to 90% of visible skin ageing is caused by UV exposure. This day cream provides essential daily defence while delivering deep hydration and collagen-supporting peptides.",
-            "key_active": "Matrixyl 3000, SPF 15",
-            "step": "AM (final step)"
           }
         }
       },
       "block_order": [
-        "p1",
-        "p2",
+        "product_step_DKtB4G",
         "p3",
-        "p4",
-        "p5",
-        "p6"
+        "p4"
       ],
       "settings": {
         "label": "The Protocol",
