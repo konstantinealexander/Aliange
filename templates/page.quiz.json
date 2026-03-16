@@ -37,9 +37,9 @@
         "b3"
       ],
       "settings": {
-        "label": "Aliang\u00e9 Clinical",
+        "label": "Aliangé Clinical",
         "headline": "Discover Your Prescribed Skincare Protocol.",
-        "subheadline": "Not all skin concerns are the same. Our clinical skin analysis asks the questions your GP would — identifying your skin's primary needs to prescribe the exact Aliang\u00e9 protocol for your biology.",
+        "subheadline": "Not all skin concerns are the same. Our clinical skin analysis asks the questions your GP would — identifying your skin's primary needs to prescribe the exact Aliangé protocol for your biology.",
         "overlay_color": "rgba(26,24,20,0.50)",
         "min_height": 580,
         "content_width": 720,
@@ -53,7 +53,7 @@
     },
     "quiz_main": {
       "type": "aliange-quiz",
-      "name": "Aliang\u00e9 Skin Quiz",
+      "name": "Aliangé Skin Quiz",
       "settings": {
         "bg_color": "#ffffff",
         "btn_text": "BEGIN SKIN ANALYSIS",
@@ -102,7 +102,7 @@
         "text_alignment": "center",
         "subheading": "<em>DESIGNED BY A DOCTOR</em>",
         "title": "Dr. Alison Jamieson",
-        "content": "<h3>MBBS, FRACGP, Dip Derm</h3><p>With over 40 years treating Australian skin, Dr. Alison developed each Aliang\u00e9 protocol to address the root cause of skin concerns \u2014 not just the surface. Your quiz result is based on the same clinical reasoning she applies in practice.</p>",
+        "content": "<h3>MBBS, FRACGP, Dip Derm</h3><p>With over 40 years treating Australian skin, Dr. Alison developed each Aliangé protocol to address the root cause of skin concerns — not just the surface. Your quiz result is based on the same clinical reasoning she applies in practice.</p>",
         "button_1_text": "About Dr. Alison",
         "button_1_link": "shopify://pages/about-us-improved",
         "button_1_style": "solid",
@@ -117,7 +117,7 @@
         "testimonial_GL9iCw": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cI have had significant pigmentation following PDT treatment. Within a month of using the Brightening Serum and Night Cream, I\u2019ve seen a clear improvement in my pigmentation and skin. Amazing product.\u201d</em></p>",
+            "content": "<p><em>“I have had significant pigmentation following PDT treatment. Within a month of using the Brightening Serum and Night Cream, I’ve seen a clear improvement in my pigmentation and skin. Amazing product.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -126,7 +126,7 @@
         "testimonial_eDF9xy": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cI\u2019ve been using Aliang\u00e9 for years and still get compliments on my skin. After battling problematic skin for so long, it\u2019s a relief to finally use products that work.\u201d</em></p>",
+            "content": "<p><em>“I’ve been using Aliangé for years and still get compliments on my skin. After battling problematic skin for so long, it’s a relief to finally use products that work.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -135,7 +135,7 @@
         "testimonial-protocol": {
           "type": "testimonial",
           "settings": {
-            "content": "<p><em>\u201cTook the quiz and was prescribed The Protocol. Three months in and my skin has genuinely transformed. The analysis was accurate \u2014 I had tried everything before and nothing worked until this.\u201d</em></p>",
+            "content": "<p><em>“Took the quiz and was prescribed The Protocol. Three months in and my skin has genuinely transformed. The analysis was accurate — I had tried everything before and nothing worked until this.”</em></p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": ""
@@ -183,12 +183,11 @@
         "button_quiz": {
           "type": "button",
           "settings": {
-            "button_1_label": "Shop All Protocols",
-            "button_1_link": "shopify://collections/protocols",
-            "button_1_style": "fill",
-            "button_2_label": "View All Products",
-            "button_2_link": "shopify://collections/all",
-            "button_2_style": "outline"
+            "style": "solid",
+            "text": "SHOP NOW",
+            "url": "",
+            "background": "",
+            "text_color": ""
           }
         }
       },
