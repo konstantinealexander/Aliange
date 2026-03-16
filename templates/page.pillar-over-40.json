@@ -223,10 +223,10 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Stop Ageing. Start Regenerating.",
+        "headline": "Support Regeneration at the Cellular Level",
         "subheadline": "At 40 and beyond, your skin has different biological needs. It requires science, not marketing.",
         "cta_text": "Discover the Anti-Ageing Protocol",
-        "cta_url": "/collections/protocols",
+        "cta_url": "shopify://products/anti-ageing-protocol",
         "secondary_cta_text": "Shop CellRevive Exosome Cream",
         "secondary_cta_url": "/products/cellrevive-exosome-cream",
         "guarantee": "Doctor-Developed | Australian-Made | 90-Day Guarantee"
