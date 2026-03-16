@@ -22,16 +22,11 @@
 
   @media (min-width: 768px) {
     #pdp-ingredients-{{ section.id }} .ingredients-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       overflow-x: visible;
       scroll-snap-type: none;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    #pdp-ingredients-{{ section.id }} .ingredients-grid {
-      grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
     }
   }
 
@@ -50,7 +45,13 @@
 
   @media (min-width: 768px) {
     #pdp-ingredients-{{ section.id }} .ingredient-card {
-      flex: auto;
+      flex: 0 0 calc((100% - var(--pdp-space-md) * 2) / 3);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    #pdp-ingredients-{{ section.id }} .ingredient-card {
+      flex: 0 0 calc((100% - var(--pdp-space-md) * {{ section.settings.columns | minus: 1 }}) / {{ section.settings.columns }});
     }
   }
 
