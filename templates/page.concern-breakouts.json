@@ -107,15 +107,15 @@
         "s3": {
           "type": "stat",
           "settings": {
-            "value": "5%",
-            "label": "Tea Tree Oil Comparable to Benzoyl Peroxide in Acne Reduction"
+            "value": "60%",
+            "label": "Reduction in Acne Lesions in Tea Tree Oil Studies"
           }
         },
         "s4": {
           "type": "stat",
           "settings": {
-            "value": "22%",
-            "label": "Increase in Barrier Disruption from Harsh Cleansers"
+            "value": "48%",
+            "label": "Increase in Skin Hydration with Barrier-Support Ingredients"
           }
         }
       },
