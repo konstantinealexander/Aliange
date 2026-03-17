@@ -40,12 +40,15 @@
         "label": "Aliangé Clinical",
         "headline": "Queensland Skincare Expertise.",
         "subheadline": "Queensland has one of the most demanding climates for skin health. High UV radiation, humidity, heat, and environmental exposure place continuous stress on the skin's biological systems. Skincare designed for these conditions must support skin physiology rather than simply masking visible symptoms.",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Discover the Aliangé Protocol",
         "cta_url": "/collections/protocols",
-        "trust_line": "Doctor-Developed | Queensland Origin | 40+ Years Experience"
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "trust_line": "Doctor-Developed | Queensland Origin | 40+ Years Expertise"
       }
     },
     "lp_problem": {
@@ -55,7 +58,9 @@
         "headline": "Why Skin in Queensland Requires a Different Approach",
         "body": "<p>High UV radiation, humidity, heat, and environmental exposure place continuous stress on the skin's biological systems. Over time this can contribute to:</p><p>• Collagen degradation<br/>• Increased pigmentation<br/>• Skin barrier disruption<br/>• Chronic inflammation</p><p>Dr Alison Jamieson has spent more than forty years treating patients in Queensland. Through clinical practice she observed recurring patterns in skin behaviour caused by environmental exposure. These insights informed the development of Aliangé skincare.</p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_approach": {
@@ -65,7 +70,9 @@
         "headline": "Supporting Skin Function",
         "body": "<p>Healthy skin depends on several interconnected biological processes. Aliangé formulations aim to support:</p><p>• Skin barrier integrity<br/>• Balanced sebum production<br/>• Collagen structure<br/>• Cellular renewal<br/>• Protection from environmental stress</p><p>By addressing these systems simultaneously, the skin can gradually return to a healthier state of balance.</p><p>Rather than focusing on isolated ingredients, Dr Jamieson designed formulations to work together as a <strong>clinical skincare protocol</strong>.</p>",
         "bg": "white",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_stats": {
@@ -164,7 +171,8 @@
       ],
       "settings": {
         "label": "The Difference",
-        "headline": "The Aliangé Difference"
+        "headline": "The Aliangé Difference",
+        "subheadline": ""
       }
     },
     "lp_comparison": {
@@ -244,7 +252,7 @@
           "type": "question",
           "settings": {
             "question": "What qualifications does Dr Jamieson hold?",
-            "answer": "<p>Dr Alison Jamieson holds an MBBS, FRACGP, and Diploma in Dermatology, with more than 40 years of clinical medical experience treating skin conditions in Queensland.</p>"
+            "answer": "<p>Dr Alison Jamieson holds an MBBS, FRACGP, and Diploma in Dermatology, with more than 40 years of clinical expertise treating skin conditions in Queensland.</p>"
           }
         },
         "q5": {
@@ -274,6 +282,8 @@
         "subheadline": "Discover doctor-developed skincare designed for Australian skin through decades of clinical expertise in Queensland.",
         "cta_text": "Explore the Aliangé Protocol",
         "cta_url": "/collections/protocols",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
     }
