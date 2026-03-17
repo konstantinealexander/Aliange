@@ -13,8 +13,9 @@
       "type": "aliange-lp-hero",
       "settings": {
         "label": "Our Story",
-        "headline": "Dr. Alison Jamieson & Aliangé Clinical Skincare.",
-        "subheadline": "Aliangé is a premium Australian clinical skincare brand founded by Dr. Alison Jamieson (MBBS, FRACGP, Dip Derm), a pioneer in aesthetic medicine with over 40 years of clinical experience. Born from decades of real-world patient outcomes. Built for results, not trends.",
+        "headline": "Dr. Alison Jamieson",
+        "subheadline": "Aliangé is a premium Australian clinical skincare brand founded by Dr. Alison Jamieson (MBBS, FRACGP, Dip Derm), a pioneer in aesthetic medicine with over 40 years of clinical expertise. Born from decades of real-world patient outcomes. Built for results, not trends.",
+        "image": "shopify://shop_images/Untitled_33_868926e8-ff2a-4061-870e-ea3954b96e64.png",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 640,
         "content_width": 720,
@@ -42,7 +43,7 @@
       ],
       "settings": {
         "label": "Meet the Founder",
-        "headline": "Dr. Alison Jamieson — MBBS, FRACGP, Dip Derm",
+        "headline": "Dr. Alison Jamieson  MBBS, FRACGP, Dip Derm",
         "body": "<p>Dr. Alison Jamieson is one of Australia's most respected authorities in non-surgical cosmetic dermatology. She has dedicated her life to aesthetic medicine, working full-time in the specialty for more than four decades.</p><p>After graduating with a Bachelor of Medicine and Bachelor of Surgery (MBBS) from the University of Queensland in 1985, Dr. Jamieson spent four years training at the Royal Brisbane and Wesley hospitals before obtaining her Fellowship in General Practice (FRACGP). She further specialised her expertise by completing a Graduate Diploma in Dermatology at Monash University.</p><p>Dr. Jamieson attended the very first laser conference in Melbourne in 1994, positioning her at the forefront of what would become a rapidly expanding medical field. She has been a faculty member of the Allergan Medical Institute for over 15 years, training other medical professionals in advanced injectable techniques.</p>",
         "bg": "white",
         "width": "narrow",
