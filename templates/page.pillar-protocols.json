@@ -167,7 +167,7 @@
       ],
       "settings": {
         "label": "The Aliangé System",
-        "headline": "The Anatomy of an Aliangé Protocol",
+        "headline": "The Anatomy of the Aliangé Sequence",
         "subheadline": "An Aliangé Protocol is built on a foundation of clinical evidence, designed to respect the skin's natural barrier while delivering potent, transformative results.",
         "cta_text": "Explore The Aliangé Protocols",
         "cta_url": "/collections/protocols"
@@ -176,8 +176,8 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Stop Guessing. Start Regenerating.",
-        "subheadline": "You wouldn't ask five different architects to build one house without a master blueprint. Why treat your skin any differently? Transitioning from a routine to a protocol means removing the guesswork.",
+        "headline": "Understand Your Skin. Treat It Precisely.",
+        "subheadline": "Healthy skin is not achieved through random products.\nIt requires understanding the biological processes affecting your skin — from barrier integrity and inflammation to pigmentation and cellular repair.\n\nThe Aliangé Skin Assessment analyses your skin concerns and matches you with a clinically designed protocol, ensuring each step works in sequence to support regeneration and long-term skin health.",
         "cta_text": "Explore The Aliangé Protocols",
         "cta_url": "/collections/protocols",
         "secondary_cta_text": "Take the Skin Assessment",
