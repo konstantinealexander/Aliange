@@ -124,33 +124,44 @@
             "name": "Phase 1: Prepare & Reset",
             "price": "",
             "why": "Skin cannot respond to active ingredients if the surface environment is congested, inflamed, or barrier-compromised.\n\nThe first phase prepares the cellular environment by cleansing, refining and optimising the skin barrier.\n\nDaily Devotion Cleanser uses amino acid surfactants to cleanse without disrupting lipid balance, while the Transforming Exfoliator utilises controlled AHA/BHA exfoliation to remove accumulated corneocytes and improve ingredient penetration.\n\nThis step restores cellular turnover, surface clarity, and barrier readiness, ensuring the skin is receptive to regenerative actives applied in later phases.",
-            "key_active": "Amino acid surfactants, AHA/BHA exfoliating acids",
-            "step": "Step 1"
+            "key_active": "",
+            "step": ""
+          }
+        },
+        "product_step_43cncH": {
+          "type": "product_step",
+          "settings": {
+            "name": "Phase 2: Correct & Stabilise",
+            "price": "",
+            "why": "Once the skin is prepared, the protocol moves to targeted treatment of the skin’s underlying concerns.\n\nAliangé treatment serums are designed to address common dysfunctions such as pigmentation irregularities, inflammation, excess oil production, and barrier instability.\n\nBiocinamide combines niacinamide and barrier-supportive lipids to calm inflammation, regulate sebum production, and strengthen the skin barrier.\n\nBrightening Serum targets uneven pigmentation and dullness through advanced peptide technologies that help regulate melanin activity and improve overall skin clarity.\n\nBy correcting these underlying imbalances, the skin becomes more stable and responsive to regenerative actives used in later phases.\n\nKey actives:\nNiacinamide, barrier lipids, pigment-regulating peptides",
+            "key_active": "",
+            "step": ""
           }
         },
         "p2": {
           "type": "product_step",
           "settings": {
-            "name": "Phase 2: Activate Cellular Repair",
+            "name": "Phase 3: Activate Cellular Repair",
             "price": "",
-            "why": "Once the skin is prepared, the protocol moves to biological stimulation and cellular communication.\n\nAliangé formulations focus on signalling pathways that instruct the skin to behave more like younger skin.\n\nCellRevive Exosome Cream delivers regenerative exosomal messengers that support cellular repair and tissue renewal, while the Jellyfish Peptide X Antioxidant Serum provides advanced peptides and antioxidant systems that assist in repairing oxidative stress and supporting DNA repair mechanisms.\n\nTogether these technologies stimulate collagen activity, cellular resilience, and skin regeneration.",
-            "key_active": "Exosomes, regenerative peptides, antioxidant repair systems",
-            "step": "Step 2"
+            "why": "With the skin now prepared and stabilised, the protocol moves into cellular regeneration and repair.\n\nCellRevive Exosome Cream delivers regenerative exosomal messengers that support cellular communication and tissue renewal, while the Jellyfish Peptide X Antioxidant Serum provides advanced peptides and antioxidant systems that help repair oxidative stress and support DNA repair pathways.\n\nTogether these technologies stimulate collagen production, cellular resilience, and structural regeneration within the skin.",
+            "key_active": "",
+            "step": ""
           }
         },
         "p3": {
           "type": "product_step",
           "settings": {
-            "name": "Phase 3: Protect & Maintain",
+            "name": "Phase 4: Protect & Maintain",
             "price": "",
-            "why": "The final phase protects the improvements achieved in earlier steps and supports ongoing structural repair.\n\nDay Cream SPF 15 provides daily photoprotection and peptide-driven collagen support, while Ultimate A Night Cream delivers micro-encapsulated retinol to stimulate overnight cellular renewal and dermal remodelling.\n\nThis phase ensures the skin remains protected from environmental damage while continuing to regenerate during the night cycle.",
-            "key_active": "Broad-spectrum UV protection, micro-encapsulated retinol, collagen-support peptides",
-            "step": "Step 3"
+            "why": "Phase 4: Protect & Maintain\nThe final phase protects the results achieved during treatment and supports ongoing skin renewal.\n\nDay Cream SPF 15 provides daily UV defence while delivering peptides that support collagen integrity, and Ultimate A Night Cream utilises micro-encapsulated retinol to stimulate overnight cellular turnover and dermal remodelling.\n\nThis phase ensures the skin remains protected from environmental damage while continuing to regenerate through the night cycle.",
+            "key_active": "",
+            "step": ""
           }
         }
       },
       "block_order": [
         "p1",
+        "product_step_43cncH",
         "p2",
         "p3"
       ],
