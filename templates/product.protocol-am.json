@@ -15,7 +15,7 @@
         "b1": {
           "type": "bullet",
           "settings": {
-            "text": "Strengthens your skin’s natural barrier."
+            "text": "Strengthens your skin's natural barrier."
           }
         },
         "b2": {
@@ -45,7 +45,8 @@
         "align": "left",
         "cta_text": "Start the AM Protocol",
         "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+        "trust_line": "90-Day Results Guarantee Or Your Money Back",
+        "gradient_theme": "am"
       }
     },
     "lp_problem": {
@@ -53,7 +54,7 @@
       "settings": {
         "label": "The Problem",
         "headline": "Your Skin is Under Constant Attack",
-        "body": "<p>UV radiation, pollution, and blue light cause premature ageing, inflammation, and barrier damage.</p><p><strong>UV is the #1 cause of premature ageing.</strong></p><p><strong>A compromised barrier can’t defend itself.</strong></p><p><strong>Collagen declines with age.</strong></p>",
+        "body": "<p>UV radiation, pollution, and blue light cause premature ageing, inflammation, and barrier damage.</p><p><strong>UV is the #1 cause of premature ageing.</strong></p><p><strong>A compromised barrier can't defend itself.</strong></p><p><strong>Collagen declines with age.</strong></p>",
         "bg": "muted",
         "width": "narrow"
       }
@@ -87,7 +88,7 @@
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
             "why": "Antioxidant protection and collagen stimulation.",
-            "key_active": "Matrixyl® synthe’6®",
+            "key_active": "Matrixyl® synthe'6®",
             "step": "AM"
           }
         },
@@ -189,7 +190,9 @@
         "st3",
         "st4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "am"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
@@ -240,100 +243,64 @@
         "col_us": "Aliange AM Protocol"
       }
     },
-    "proto_ritual": {
-      "type": "aliange-proto-ritual",
+    "aliange_pdp_hero_AMPro1": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "rit1": {
-          "type": "step",
+        "bullet_point_am1": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Cleanse with Daily Devotion Cleanser",
-            "time": "am"
+            "text": "UV protection with active peptide delivery"
           }
         },
-        "rit2": {
-          "type": "step",
+        "bullet_point_am2": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Biocinamide Serum",
-            "time": "am"
+            "text": "Strengthens barrier against daily aggressors"
           }
         },
-        "rit3": {
-          "type": "step",
+        "bullet_point_am3": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Jellyfish Peptide x Antioxidant Serum",
-            "time": "am"
+            "text": "Doctor-developed & Australian-made"
           }
         },
-        "rit4": {
-          "type": "step",
+        "trust_box_am1": {
+          "type": "trust_box",
           "settings": {
-            "text": "Apply Day Cream SPF 15",
-            "time": "am"
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_am2": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_am3": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "rit1",
-        "rit2",
-        "rit3",
-        "rit4"
+        "bullet_point_am1",
+        "bullet_point_am2",
+        "bullet_point_am3",
+        "trust_box_am1",
+        "trust_box_am2",
+        "trust_box_am3"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": ""
-      }
-    },
-    "proto_includes": {
-      "type": "aliange-proto-includes",
-      "blocks": {
-        "i1": {
-          "type": "product_item",
-          "settings": {
-            "name": "Daily Devotion Cleanser",
-            "size": "200ml",
-            "price": "$55"
-          }
-        },
-        "i2": {
-          "type": "product_item",
-          "settings": {
-            "name": "Biocinamide Serum",
-            "size": "50ml",
-            "price": "$90"
-          }
-        },
-        "i3": {
-          "type": "product_item",
-          "settings": {
-            "name": "Jellyfish Peptide x Antioxidant Serum",
-            "size": "50ml",
-            "price": "$225"
-          }
-        },
-        "i4": {
-          "type": "product_item",
-          "settings": {
-            "name": "Day Cream SPF 15",
-            "size": "50ml",
-            "price": "$90"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3",
-        "i4"
-      ],
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you buy the complete protocol.",
-        "cta_text": "Start the AM Protocol",
-        "cta_url": ""
+        "description": "Your complete morning defence system. Four synergistic products that cleanse, strengthen, treat, and protect your skin from daily environmental damage.",
+        "atc_text": "Add to Cart"
       }
     },
     "lp_faq": {
@@ -382,11 +349,12 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "headline": "Invest in Your Skin’s Future.",
+        "headline": "Invest in Your Skin's Future.",
         "subheadline": "A clinically proven doctor-designed morning system.",
         "cta_text": "Start Your 90-Day Transformation",
         "cta_url": "",
-        "guarantee": "90-Day Results Guarantee Or Your Money Back"
+        "guarantee": "90-Day Results Guarantee Or Your Money Back",
+        "gradient_theme": "pm"
       }
     }
   },
@@ -397,8 +365,7 @@
     "proto_synergy",
     "lp_stats",
     "lp_comparison",
-    "proto_ritual",
-    "proto_includes",
+    "aliange_pdp_hero_AMPro1",
     "lp_faq",
     "lp_cta"
   ]

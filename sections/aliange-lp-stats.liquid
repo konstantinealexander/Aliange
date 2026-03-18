@@ -1,10 +1,41 @@
 
+{%- assign gt = section.settings.gradient_theme | default: 'none' -%}
+{%- if gt == 'am' -%}
+  {%- assign _stats_bg = 'linear-gradient(180deg, #B8C8E0 0%, #D4C8D8 30%, #E8D8C8 60%, #F0E8E0 100%)' -%}
+  {%- assign _val_color = '#2C2C2C' -%}
+  {%- assign _lbl_color = 'rgba(44,44,44,0.6)' -%}
+{%- elsif gt == 'pm' -%}
+  {%- assign _stats_bg = 'linear-gradient(180deg, #2A1520 0%, #3A2838 35%, #305050 65%, #285060 100%)' -%}
+  {%- assign _val_color = '#ffffff' -%}
+  {%- assign _lbl_color = 'rgba(255,255,255,0.6)' -%}
+{%- else -%}
+  {%- assign _stats_bg = nil -%}
+  {%- assign _val_color = '#ffffff' -%}
+  {%- assign _lbl_color = 'rgba(255,255,255,0.6)' -%}
+{%- endif -%}
+
 {%- style -%}
   #lp-stats-{{ section.id }} {
-    background-color: var(--lp-bg-dark);
+    position: relative;
+    overflow: hidden;
+    background: {% if _stats_bg %}{{ _stats_bg }}{% else %}var(--lp-bg-dark){% endif %};
     padding: var(--lp-space-2xl) var(--lp-space-xl);
   }
+  {%- if _stats_bg %}
+  #lp-stats-{{ section.id }}::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.04;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    z-index: 0;
+  }
+  {%- endif %}
   #lp-stats-{{ section.id }} .lp-stats-grid {
+    position: relative;
+    z-index: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: var(--lp-space-xl) var(--lp-space-2xl);
@@ -21,7 +52,7 @@
     font-family: var(--lp-font-heading);
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 600;
-    color: #fff;
+    color: {{ _val_color }};
     line-height: 1;
     margin: 0 0 8px;
     display: block;
@@ -29,7 +60,7 @@
   #lp-stats-{{ section.id }} .lp-stat-label {
     font-family: var(--lp-font-body);
     font-size: 13px;
-    color: rgba(255,255,255,0.6);
+    color: {{ _lbl_color }};
     line-height: 1.4;
     display: block;
   }
@@ -52,6 +83,19 @@
 {
   "name": "LP — Stats Bar",
   "tag": "div",
+  "settings": [
+    {
+      "type": "select",
+      "id": "gradient_theme",
+      "label": "Gradient theme",
+      "options": [
+        { "value": "none", "label": "None (default dark)" },
+        { "value": "am", "label": "AM — Lavender to Warm Linen" },
+        { "value": "pm", "label": "PM — Deep Plum to Teal" }
+      ],
+      "default": "none"
+    }
+  ],
   "blocks": [
     {
       "type": "stat",

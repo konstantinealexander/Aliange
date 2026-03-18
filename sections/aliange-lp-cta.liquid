@@ -1,11 +1,36 @@
 
+{%- assign gt = section.settings.gradient_theme | default: 'none' -%}
+{%- if gt == 'pm' -%}
+  {%- assign _cta_bg = 'linear-gradient(180deg, #2A1520 0%, #3A2838 35%, #305050 65%, #285060 100%)' -%}
+{%- elsif gt == 'am' -%}
+  {%- assign _cta_bg = 'linear-gradient(180deg, #8EC5C0 0%, #C5D4A0 35%, #E8D5A0 65%, #F0E0C0 100%)' -%}
+{%- else -%}
+  {%- assign _cta_bg = nil -%}
+{%- endif -%}
+
 {%- style -%}
   #lp-cta-{{ section.id }} {
-    background-color: var(--lp-bg-dark);
+    position: relative;
+    overflow: hidden;
+    background: {% if _cta_bg %}{{ _cta_bg }}{% else %}var(--lp-bg-dark){% endif %};
     text-align: center;
     padding: var(--lp-space-3xl) var(--lp-space-xl);
   }
+  {%- if _cta_bg %}
+  #lp-cta-{{ section.id }}::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.04;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    z-index: 0;
+  }
+  {%- endif %}
   #lp-cta-{{ section.id }} .lp-cta-inner {
+    position: relative;
+    z-index: 1;
     max-width: 640px;
     margin: 0 auto;
   }
@@ -79,6 +104,18 @@
   "name": "LP — Final CTA",
   "tag": "div",
   "settings": [
+    {
+      "type": "select",
+      "id": "gradient_theme",
+      "label": "Gradient theme",
+      "info": "PM gradient recommended for dramatic close. Use AM only for all-AM pages.",
+      "options": [
+        { "value": "none", "label": "None (default dark)" },
+        { "value": "pm", "label": "PM — Deep Plum to Teal (recommended)" },
+        { "value": "am", "label": "AM — Mint to Warm Sand" }
+      ],
+      "default": "none"
+    },
     { "type": "text", "id": "headline", "label": "Headline", "default": "Take the First Step." },
     { "type": "textarea", "id": "subheadline", "label": "Subheadline", "default": "Trust a doctor-developed, science-backed system to restore your skin's vitality." },
     { "type": "text", "id": "cta_text", "label": "Primary CTA text", "default": "Shop the Routine" },
