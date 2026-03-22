@@ -1,5 +1,3 @@
-{%- assign kv_key = settings.klaviyo_public_key -%}
-
 <section class="aliange-reviews aliange-reviews--product section-spacing">
   <div class="container">
     <div class="aliange-reviews__header">
@@ -19,7 +17,7 @@
 
 <script>
 (function () {
-  var PUBLIC_KEY = {{ settings.klaviyo_public_key | json }};
+  var PUBLIC_KEY = 'RWyTn6';
   var PRODUCT_ID = '{{ product.id }}';
   var PER_PAGE = 9;
   var containerId = 'aliange-reviews-product-{{ section.id }}';
@@ -95,10 +93,6 @@
     });
   }
 
-  if (!PUBLIC_KEY) {
-    container.innerHTML = '<p class="aliange-reviews__empty">Add your Klaviyo Public API Key in Theme Settings to display reviews.</p>';
-    return;
-  }
 
   var endpoint = 'https://a.klaviyo.com/api/reviews/?page[size]=100&sort=-created_at&revision=2024-10-15';
   if (PRODUCT_ID) {
