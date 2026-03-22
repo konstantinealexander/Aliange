@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Aliangé Clinical",
         "headline": "A Clinical Approach to Redness and Skin Sensitivity",
         "subheadline": "Persistent redness, sensitivity, and irritation are signs of an underlying inflammatory response and a compromised skin barrier. Discover the clinical, multi-pathway approach developed by Dr. Alison Jamieson to restore balance and reveal a calmer, healthier complexion.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_22_2026_-_7_09PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,7 +62,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_approach": {
@@ -75,7 +87,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -116,7 +129,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
@@ -128,7 +143,8 @@
             "price": "$55",
             "why": "Gently cleanses without stripping the skin's delicate barrier, using syndet technology to prevent the irritation and water loss caused by harsh sulfates.",
             "key_active": "Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate + Hydrolysed Jojoba Esters + Jojoba Esters + Sodium PCA + Sodium Lactate + Glycerin + Allantoin + Amino Acid Complex",
-            "step": "Step 1 (AM/PM)"
+            "step": "Step 1 (AM/PM)",
+            "image_path": ""
           }
         },
         "p2": {
@@ -138,7 +154,8 @@
             "price": "$90",
             "why": "A powerhouse serum that directly targets inflammation by inhibiting the NF-kB pathway, while postbiotics help to rebuild a healthy skin barrier.",
             "key_active": "Niacinamide + Lactococcus Ferment Lysate + Enantia Chlorantha Bark Extract + Oleanolic Acid + Sphingolipids + Phospholipids + Sodium Hyaluronate + Saccharide Isomerate + Bisabolol",
-            "step": "Step 2 (AM/PM)"
+            "step": "Step 2 (AM/PM)",
+            "image_path": ""
           }
         },
         "p3": {
@@ -148,7 +165,8 @@
             "price": "$90",
             "why": "Protects sensitive skin from UV radiation, a common trigger for redness and rosacea, while providing essential hydration.",
             "key_active": "Butyl Methoxydibenzoylmethane (Avobenzone) + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Octocrylene + 4-Methylbenzylidene Camphor + Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7 + Sodium Hyaluronate + Panthenol + Centella Asiatica Extract + Tocopherol (Vitamin E)",
-            "step": "Step 3 (AM)"
+            "step": "Step 3 (AM)",
+            "image_path": ""
           }
         },
         "p4": {
@@ -158,7 +176,8 @@
             "price": "$50",
             "why": "This treatment masque supports a healthy skin microbiome, which is crucial for calming inflammatory conditions like rosacea and reducing overall sensitivity.",
             "key_active": "Kaolin + Bentonite + Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Polymnia Sonchifolia Root Juice + Sodium Hyaluronate + Saccharide Isomerate + Sodium PCA + Chondrus Crispus Extract + Tocopherol (Vitamin E)",
-            "step": "2–3x per week"
+            "step": "2–3x per week",
+            "image_path": ""
           }
         },
         "product_step_Xkmqmq": {
@@ -168,7 +187,8 @@
             "price": "$400",
             "why": "CellRevive Exosome Cream is a regenerative moisturiser designed to support skin renewal, hydration, and barrier repair. Formulated with advanced exosome-derived technology, it helps support cellular communication and skin regeneration while delivering essential lipids, antioxidants, and humectants to restore moisture and resilience. The formula works to improve skin smoothness, hydration, and overall skin vitality.",
             "key_active": "ENDEXOME-EXO™ + Hyaluronic Acid + Avocado Oil + Safflower Oil + Vitamin E + Sodium PCA",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": ""
           }
         }
       },
@@ -379,12 +399,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Ready to Say Goodbye to Redness?",
         "subheadline": "Trust the science. Rebuild your skin's health from within for a calmer, more confident you.",
         "cta_text": "Shop the Redness Protocol",
@@ -393,10 +419,6 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
