@@ -70,6 +70,14 @@
   }
 {%- endstyle -%}
 
+{%- if section.settings.cta_url != blank -%}
+  {%- assign _cta_href = section.settings.cta_url -%}
+{%- elsif product != blank -%}
+  {%- assign _cta_href = '/cart/' | append: product.selected_or_first_available_variant.id | append: ':1' -%}
+{%- else -%}
+  {%- assign _cta_href = '/collections/all' -%}
+{%- endif -%}
+
 <section id="lp-cta-{{ section.id }}" aria-label="Call to action">
   <div class="lp-cta-inner lp-reveal">
     <h2 class="lp-cta-headline">{{ section.settings.headline }}</h2>
@@ -79,7 +87,7 @@
     {%- endif -%}
 
     <div class="lp-cta-actions">
-      <a href="{{ section.settings.cta_url | default: '/collections/all' }}" class="lp-btn lp-btn--white">
+      <a href="{{ _cta_href }}" class="lp-btn lp-btn--white">
         {{ section.settings.cta_text | default: 'Shop Now' }}
       </a>
       {%- if section.settings.secondary_cta_text != blank -%}
