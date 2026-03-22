@@ -1,6 +1,127 @@
-<div class="aliange-klaviyo-reviews">
-  <div id="klaviyo-reviews-all" data-id="{{ product.id }}"></div>
-</div>
+{%- assign kv_key = settings.klaviyo_public_key -%}
+
+<section class="aliange-reviews aliange-reviews--product section-spacing">
+  <div class="container">
+    <div class="aliange-reviews__header">
+      <p class="aliange-reviews__label">Customer Reviews</p>
+      <h2 class="aliange-reviews__heading">What People Are Saying</h2>
+    </div>
+    <div class="aliange-reviews__grid" id="aliange-reviews-product-{{ section.id }}" data-product-id="{{ product.id }}">
+      <div class="aliange-reviews__loading">Loading reviews…</div>
+    </div>
+    <div class="aliange-reviews__pagination" id="aliange-reviews-product-nav-{{ section.id }}" style="display:none;">
+      <button class="aliange-reviews__btn" id="aliange-reviews-product-prev-{{ section.id }}" disabled>← Prev</button>
+      <span class="aliange-reviews__page-info" id="aliange-reviews-product-info-{{ section.id }}"></span>
+      <button class="aliange-reviews__btn" id="aliange-reviews-product-next-{{ section.id }}">Next →</button>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  var PUBLIC_KEY = {{ settings.klaviyo_public_key | json }};
+  var PRODUCT_ID = '{{ product.id }}';
+  var PER_PAGE = 9;
+  var containerId = 'aliange-reviews-product-{{ section.id }}';
+  var navId = 'aliange-reviews-product-nav-{{ section.id }}';
+  var prevId = 'aliange-reviews-product-prev-{{ section.id }}';
+  var nextId = 'aliange-reviews-product-next-{{ section.id }}';
+  var infoId = 'aliange-reviews-product-info-{{ section.id }}';
+
+  var container = document.getElementById(containerId);
+  var nav = document.getElementById(navId);
+  var prevBtn = document.getElementById(prevId);
+  var nextBtn = document.getElementById(nextId);
+  var info = document.getElementById(infoId);
+
+  var allReviews = [];
+  var currentPage = 0;
+
+  function stars(rating) {
+    var s = '';
+    for (var i = 1; i <= 5; i++) s += i <= rating ? '★' : '☆';
+    return s;
+  }
+
+  function formatDate(iso) {
+    if (!iso) return '';
+    var d = new Date(iso);
+    return d.toLocaleDateString('en-AU', { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+
+  function escHtml(str) {
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function renderPage(page) {
+    var start = page * PER_PAGE;
+    var slice = allReviews.slice(start, start + PER_PAGE);
+    container.innerHTML = slice.map(function (r) {
+      var a = r.attributes;
+      return '<div class="aliange-review-card">' +
+        '<div class="aliange-review-card__stars">' + stars(a.rating || 5) + '</div>' +
+        (a.title ? '<p class="aliange-review-card__title">' + escHtml(a.title) + '</p>' : '') +
+        '<p class="aliange-review-card__body">' + escHtml(a.content || a.body || '') + '</p>' +
+        '<div class="aliange-review-card__meta">' +
+          '<p class="aliange-review-card__author">' + escHtml(a.author_name || a.reviewer_name || 'Verified Customer') + '</p>' +
+          '<p class="aliange-review-card__date">' + formatDate(a.created_at || a.submitted_at) + '</p>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+
+    var totalPages = Math.ceil(allReviews.length / PER_PAGE);
+    info.textContent = 'Page ' + (page + 1) + ' of ' + totalPages;
+    prevBtn.disabled = page === 0;
+    nextBtn.disabled = page >= totalPages - 1;
+    currentPage = page;
+    if (allReviews.length > PER_PAGE) nav.style.display = 'flex';
+  }
+
+  function fetchAll(url, acc) {
+    return fetch(url, {
+      headers: {
+        'Authorization': 'Klaviyo-API-Key ' + PUBLIC_KEY,
+        'revision': '2024-10-15'
+      }
+    })
+    .then(function (r) { return r.json(); })
+    .then(function (json) {
+      var rows = (json.data || []).filter(function(r){ return r.attributes && r.attributes.status === 'published'; });
+      acc = acc.concat(rows);
+      if (json.links && json.links.next) {
+        return fetchAll(json.links.next, acc);
+      }
+      return acc;
+    });
+  }
+
+  if (!PUBLIC_KEY) {
+    container.innerHTML = '<p class="aliange-reviews__empty">Add your Klaviyo Public API Key in Theme Settings to display reviews.</p>';
+    return;
+  }
+
+  var endpoint = 'https://a.klaviyo.com/api/reviews/?page[size]=100&sort=-created_at&revision=2024-10-15';
+  if (PRODUCT_ID) {
+    endpoint += '&filter=equals(product_id,"' + PRODUCT_ID + '")';
+  }
+
+  fetchAll(endpoint, [])
+    .then(function (reviews) {
+      if (!reviews.length) {
+        container.innerHTML = '<p class="aliange-reviews__empty">No reviews for this product yet.</p>';
+        return;
+      }
+      allReviews = reviews;
+      renderPage(0);
+      prevBtn.addEventListener('click', function () { renderPage(currentPage - 1); window.scrollTo({top: container.offsetTop - 80, behavior: 'smooth'}); });
+      nextBtn.addEventListener('click', function () { renderPage(currentPage + 1); window.scrollTo({top: container.offsetTop - 80, behavior: 'smooth'}); });
+    })
+    .catch(function (e) {
+      container.innerHTML = '<p class="aliange-reviews__error">Could not load reviews. Please try again later.</p>';
+      console.error('Klaviyo Reviews error:', e);
+    });
+})();
+</script>
 
 {% schema %}
 {

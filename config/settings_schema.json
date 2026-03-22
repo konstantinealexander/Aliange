@@ -8,6 +8,21 @@
     "theme_support_url": "https://support.maestrooo.com/article/203-contact-us"
   },
   {
+    "name": "Integrations",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Klaviyo Reviews"
+      },
+      {
+        "type": "text",
+        "id": "klaviyo_public_key",
+        "label": "Klaviyo Public API Key",
+        "info": "Find this in Klaviyo → Account → Settings → API Keys → Public API Key (starts with pk_)"
+      }
+    ]
+  },
+  {
     "name": "t:theme_settings.appearance.name",
     "settings": [
       {
