@@ -40,6 +40,7 @@
         "label": "Aliangé Clinical",
         "headline": "Targeting the Biological Causes of Dull Skin",
         "subheadline": "Is your skin looking tired, lacklustre, and dull? We'll explain the science behind why this happens and how you can restore your skin's natural luminosity with a targeted, doctor-developed approach.",
+        "gradient_theme": "none",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -125,7 +126,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
@@ -386,6 +389,7 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Ready to Reveal Your Radiance?",
         "subheadline": "Experience the Aliangé difference and restore your skin's natural luminosity with our doctor-developed, science-backed approach.",
         "cta_text": "Shop the Dullness Routine",
@@ -393,6 +397,24 @@
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
+      }
+    },
+    "1774152679ccd43596": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_all_reviews_Up3AbC": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/all-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_all_reviews_Up3AbC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
       }
     }
   },
@@ -406,6 +428,7 @@
     "lp_timeline",
     "lp_comparison",
     "lp_faq",
+    "1774152679ccd43596",
     "lp_cta"
   ]
 }
