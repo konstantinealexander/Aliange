@@ -556,6 +556,10 @@
         "secondary_link_url": "/pages/concern-redness",
         "bg_color": "#f4f7f9"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -569,6 +573,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

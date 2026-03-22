@@ -551,6 +551,10 @@
         "secondary_link_url": "/pages/concern-breakouts",
         "bg_color": "#F4F7F9"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +568,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

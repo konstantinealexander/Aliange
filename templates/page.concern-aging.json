@@ -388,6 +388,10 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -400,6 +404,7 @@
     "lp_timeline",
     "lp_comparison",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

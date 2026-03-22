@@ -13,7 +13,7 @@
       "type": "aliange-pdp-hero",
       "settings": {
         "description": "A potent, multi-pathway serum clinically formulated by Dr. Alison Jamieson to target pigmentation at its source, revealing a remarkably even and luminous complexion.",
-        "atc_text": "Experience True Brightening \u2014 $100"
+        "atc_text": "Experience True Brightening — $100"
       },
       "blocks": {
         "bullet_1": {
@@ -75,8 +75,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -182,7 +182,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with the most significant results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
       }
     },
@@ -299,7 +299,7 @@
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "Ditch The Generic Creams",
-        "subheading": "Standard luxury serums target one pathway. Aliang\u00e9 targets five.",
+        "subheading": "Standard luxury serums target one pathway. Aliangé targets five.",
         "aliange_label": "Brightening Serum",
         "competitor_label": "Other \"Brighteners\"",
         "button_text": "Upgrade Your Skincare"
@@ -448,7 +448,7 @@
       "settings": {
         "heading": "The Brightening Ritual",
         "subheading": "Follow these steps for optimal pigment correction.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
       },
       "blocks": {
@@ -470,7 +470,7 @@
           "type": "step",
           "settings": {
             "title": "Distribute",
-            "description": "Gently smooth over the face, neck, and d\u00e9colletage, avoiding the eye area."
+            "description": "Gently smooth over the face, neck, and décolletage, avoiding the eye area."
           }
         },
         "step4": {
@@ -545,12 +545,16 @@
       "settings": {
         "heading": "Your Clinical Solution to Pigmentation Starts Now.",
         "subheading": "Stop wasting time on ineffective treatments. Invest in efficacy.",
-        "button_text": "Add to Cart \u2014 Begin My Journey",
+        "button_text": "Add to Cart — Begin My Journey",
         "trust_line": "100% Australian Made & Owned. 90-Day Guarantee.",
         "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to pigmentation \u2192",
+        "secondary_link_text": "Learn about our clinical approach to pigmentation →",
         "secondary_link_url": "/pages/concern-pigmentation"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +568,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

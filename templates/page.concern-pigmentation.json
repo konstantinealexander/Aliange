@@ -40,7 +40,6 @@
         "label": "Aliangé Clinical",
         "headline": "Restore Clarity and Even Skin Tone",
         "subheadline": "Tired of stubborn dark spots and uneven skin tone? Pigmentation is a complex concern, driven by multiple factors deep within the skin. Discover a clinical, multi-pathway solution developed by one of Australia's leading skin experts.",
-        "gradient_theme": "none",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -126,9 +125,7 @@
         "s3",
         "s4"
       ],
-      "settings": {
-        "gradient_theme": "none"
-      }
+      "settings": {}
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
@@ -140,8 +137,7 @@
             "price": "$100",
             "why": "A clinically active treatment designed to improve skin clarity and radiance. A multi-acid resurfacing complex (glycolic, lactic, salicylic and fruit acids) helps accelerate cellular turnover, while Oligopeptide-68, vitamin C, licorice root and niacinamide work to regulate pigmentation and brighten uneven skin tone, revealing smoother, more luminous skin.",
             "key_active": "Glycolic Acid + Lactic Acid + Salicylic Acid + Oligopeptide-68 + Ascorbic Acid (Vitamin C) + Glycyrrhiza Glabra (Licorice Root) Extract + Niacinamide",
-            "step": "PM",
-            "image": "shopify://shop_images/BrighteningSerum_a8edd9ec-1370-480a-8255-d33c7adaf078.png"
+            "step": "PM"
           }
         },
         "p2": {
@@ -151,8 +147,7 @@
             "price": "$225",
             "why": "A clinically formulated night treatment designed to support skin renewal and improve visible signs of ageing. Microencapsulated retinol helps stimulate cellular turnover and collagen production while minimising irritation through controlled release. Supported by Matrixyl® peptide technology, hyaluronic acid and skin-identical moisturising factors, the formula works overnight to refine texture, improve firmness and restore smoother, more resilient skin.",
             "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Saccharide Isomerate + Sodium PCA + Chondrus Crispus (Red Algae) Extract",
-            "step": "PM",
-            "image": "shopify://shop_images/ProbioticMasque_2bfa746d-c0c3-4564-8c44-c2adaeb80066.png"
+            "step": "P<"
           }
         },
         "p4": {
@@ -377,7 +372,6 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "gradient_theme": "none",
         "headline": "Ready to Leave Uneven Skin Tone Behind?",
         "subheadline": "Trust in a clinical, doctor-developed system that works with your skin's biology to deliver profound, lasting clarity. Your journey to a brighter, more even complexion starts here.",
         "cta_text": "Shop the Pigmentation Routine",
@@ -386,6 +380,10 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -398,6 +396,7 @@
     "lp_timeline",
     "lp_comparison",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

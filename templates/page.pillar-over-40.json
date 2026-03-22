@@ -221,22 +221,8 @@
       }
     },
     "klaviyo_all_reviews": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_reviews_featured_reviews_carousel_allpages": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/featured-reviews-carousel/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "klaviyo_reviews_featured_reviews_carousel_allpages"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
