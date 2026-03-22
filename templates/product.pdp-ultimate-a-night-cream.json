@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
       "settings": {
         "description": "Experience the future of retinol. Our groundbreaking Ultimate A Night Cream combines clinically-proven Bakuchiol with micro-encapsulated Retinol to visibly reduce wrinkles and pigmentation while you sleep.",
-        "atc_text": "SHOP NOW & TRANSFORM \u2014 $130"
+        "atc_text": "SHOP NOW & TRANSFORM — $130"
       },
       "blocks": {
         "bullet_1": {
@@ -75,8 +66,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -182,7 +173,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "When first introducing retinol, I recommend starting with twice-weekly application for the first two weeks, then gradually increasing to nightly use as your skin builds tolerance. This adaptivity ensures maximum long-term benefits."
       }
     },
@@ -220,7 +211,7 @@
           "type": "benefit",
           "settings": {
             "title": "Stimulates New Collagen",
-            "description": "Matrixyl\u00ae synthe'6\u2122 peptide mimics injectable fillers, rebuilding skin from within for a firmer, plumper look."
+            "description": "Matrixyl® synthe'6™ peptide mimics injectable fillers, rebuilding skin from within for a firmer, plumper look."
           }
         },
         "b5": {
@@ -299,7 +290,7 @@
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "Stability vs. Sensitivity",
-        "subheading": "Traditional retinols degrade and irritate. Aliang\u00e9 transforms and soothes.",
+        "subheading": "Traditional retinols degrade and irritate. Aliangé transforms and soothes.",
         "aliange_label": "Ultimate A Night Cream",
         "competitor_label": "Generic Retinol Cream",
         "button_text": "Upgrade Your Nightly Routine"
@@ -411,7 +402,7 @@
           "type": "ingredient",
           "settings": {
             "category": "Structure",
-            "name": "Matrixyl\u00ae synthe'6\u00ae",
+            "name": "Matrixyl® synthe'6®",
             "bullets": "Collagan & Elastin architect|Stimulates 6 major markers|Rebuilds from within|Firms & plumps",
             "evidence": "Clinical studies show it effectively rebuilds the skin matrix, visibly reducing wrinkle volume."
           }
@@ -420,7 +411,7 @@
           "type": "ingredient",
           "settings": {
             "category": "Hydration Hero",
-            "name": "Cupua\u00e7u Butter",
+            "name": "Cupuaçu Butter",
             "bullets": "Absorbs 440% weight in water|Restores elasticity|Soothes during renewal|Amazonian superfruit",
             "evidence": "Capable of holding over 400% of its weight in water to deeply moisturise and restore skin."
           }
@@ -448,7 +439,7 @@
       "settings": {
         "heading": "The Transformation Ritual",
         "subheading": "Your nightly sequence for cellular rejuvenation.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "When first introducing retinol, start with twice-weekly application... then gradually increase to nightly use as your skin builds tolerance."
       },
       "blocks": {
@@ -463,14 +454,14 @@
           "type": "step",
           "settings": {
             "title": "Apply Serums",
-            "description": "Apply your Aliang\u00e9 Brightening or Jellyfish Serum and allow it to fully absorb."
+            "description": "Apply your Aliangé Brightening or Jellyfish Serum and allow it to fully absorb."
           }
         },
         "step3": {
           "type": "step",
           "settings": {
             "title": "Target",
-            "description": "Apply a pea-sized amount of Ultimate A to your face, neck, and d\u00e9colletage."
+            "description": "Apply a pea-sized amount of Ultimate A to your face, neck, and décolletage."
           }
         },
         "step4": {
@@ -548,9 +539,13 @@
         "button_text": "ADD TO CART - 90-DAY GUARANTEE",
         "trust_line": "Love your results in 90 days, or your money back.",
         "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to ageing \u2192",
+        "secondary_link_text": "Learn about our clinical approach to ageing →",
         "secondary_link_url": "/pages/concern-aging"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +559,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

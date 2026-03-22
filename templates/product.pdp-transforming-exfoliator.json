@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
       "settings": {
         "description": "Experience a clinical-strength, dual-action exfoliation that instantly smooths texture, refines pores, and unveils a luminous, revitalised complexion. Developed by Dr. Alison Jamieson to bring the results of a professional treatment to your home.",
-        "atc_text": "Shop Now & Reveal Your Radiance \u2014 $55"
+        "atc_text": "Shop Now & Reveal Your Radiance — $55"
       },
       "blocks": {
         "bullet_1": {
@@ -75,8 +66,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -182,7 +173,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "Use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with your serums, as their absorption will be significantly enhanced by removing barrier of dead cells."
       }
     },
@@ -299,7 +290,7 @@
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "Resurfacing vs. Scrubbing",
-        "subheading": "Harsh scrubs damage the skin. Aliang\u00e9 transforms it.",
+        "subheading": "Harsh scrubs damage the skin. Aliangé transforms it.",
         "aliange_label": "Transforming Exfoliator",
         "competitor_label": "Generic Nut/Seed Scrub",
         "button_text": "Upgrade Your Exfoliation"
@@ -448,7 +439,7 @@
       "settings": {
         "heading": "The Transformation Ritual",
         "subheading": "Follow these steps for clinical-grade resurfacing at home.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "For optimal results, use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with serums as their absorption will be significantly enhanced."
       },
       "blocks": {
@@ -548,9 +539,13 @@
         "button_text": "Add to Bag - $55",
         "trust_line": "90-Day Money-Back Results Guarantee.",
         "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to dullness \u2192",
+        "secondary_link_text": "Learn about our clinical approach to dullness →",
         "secondary_link_url": "/pages/concern-dullness"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +559,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

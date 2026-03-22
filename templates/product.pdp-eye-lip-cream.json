@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
@@ -75,8 +66,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -142,7 +133,7 @@
         "badge_1": {
           "type": "badge",
           "settings": {
-            "text": "Beautifeye\u2122 Tech"
+            "text": "Beautifeye™ Tech"
           }
         },
         "badge_2": {
@@ -182,7 +173,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "For an enhanced lifting effect, use your ring finger to gently massage the cream in an upward and outward motion. This also helps to stimulate circulation and reduce puffiness."
       }
     },
@@ -299,7 +290,7 @@
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "Lift vs. Lubricate",
-        "subheading": "Generic eye creams just hydrate. Aliang\u00e9 provides a non-surgical lift.",
+        "subheading": "Generic eye creams just hydrate. Aliangé provides a non-surgical lift.",
         "aliange_label": "Eye & Lip Cream",
         "competitor_label": "Standard Eye Cream",
         "button_text": "Upgrade Your Skincare"
@@ -393,7 +384,7 @@
           "type": "ingredient",
           "settings": {
             "category": "Lifting",
-            "name": "Beautifeye\u2122",
+            "name": "Beautifeye™",
             "bullets": "Orbital area lift|Reduces crow's feet|Fades dark circles|Tightens upper eyelid",
             "evidence": "Clinical studies show a significant lifting action on the sagging upper eyelid."
           }
@@ -448,7 +439,7 @@
       "settings": {
         "heading": "The Rejuvenation Ritual",
         "subheading": "Steps to lift and define your expressive areas.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "Use your ring finger to gently massage the cream in an upward and outward motion. This helps to stimulate circulation and reduce puffiness."
       },
       "blocks": {
@@ -528,7 +519,7 @@
           "type": "question",
           "settings": {
             "question": "Is it tested on animals?",
-            "answer": "<p>No, Aliang\u00e9 is a cruelty-free brand. We do not test any products on animals.</p>"
+            "answer": "<p>No, Aliangé is a cruelty-free brand. We do not test any products on animals.</p>"
           }
         }
       },
@@ -548,9 +539,13 @@
         "button_text": "YES, I WANT TO REJUVENATE MY EYES & LIPS",
         "trust_line": "90-Day Results Guarantee.",
         "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to ageing \u2192",
+        "secondary_link_text": "Learn about our clinical approach to ageing →",
         "secondary_link_url": "/pages/concern-aging"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +559,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

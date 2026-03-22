@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
@@ -75,8 +66,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -143,7 +134,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "I developed this formula specifically for the unique challenges of Australian skin. The combination of advanced peptides and broad-spectrum protection is what I prescribe to my own patients."
       }
     },
@@ -323,7 +314,7 @@
       "settings": {
         "heading": "Daily Application Ritual",
         "subheading": "Follow these steps to maximise the regenerative benefits of your Day Cream SPF 15.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "The most common mistake I see is people not using enough sunscreen or applying it inconsistently. Make this your non-negotiable morning ritual, applied generously to the face, neck, and even the backs of your hands."
       },
       "blocks": {
@@ -331,7 +322,7 @@
           "type": "step",
           "settings": {
             "title": "Cleanse",
-            "description": "Begin with a thoroughly cleansed face. For best results, use the Aliang\u00e9 Daily Devotion Cleanser."
+            "description": "Begin with a thoroughly cleansed face. For best results, use the Aliangé Daily Devotion Cleanser."
           }
         },
         "step2": {
@@ -345,7 +336,7 @@
           "type": "step",
           "settings": {
             "title": "Apply Day Cream",
-            "description": "Dispense 1\u20132 pumps and gently massage onto your face, neck, and d\u00e9colletage using upward strokes."
+            "description": "Dispense 1–2 pumps and gently massage onto your face, neck, and décolletage using upward strokes."
           }
         },
         "step4": {
@@ -458,8 +449,8 @@
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "Ditch The Generic Creams",
-        "subheading": "Standard luxury creams provide moisture. Aliang\u00e9 provides cellular instructions.",
-        "aliange_label": "Aliang\u00e9 Day Cream",
+        "subheading": "Standard luxury creams provide moisture. Aliangé provides cellular instructions.",
+        "aliange_label": "Aliangé Day Cream",
         "competitor_label": "Other \"Luxury\" Creams",
         "button_text": "Upgrade Your Skincare"
       },
@@ -544,13 +535,17 @@
       "type": "aliange-pdp-final-cta",
       "settings": {
         "heading": "Your Future Skin Will Thank You",
-        "subheading": "Don\u2019t wait for the signs of ageing to appear. Invest in clinically proven protection today and enjoy a firmer, smoother, more youthful complexion for years to come.",
+        "subheading": "Don’t wait for the signs of ageing to appear. Invest in clinically proven protection today and enjoy a firmer, smoother, more youthful complexion for years to come.",
         "button_text": "Protect My Skin Now",
         "trust_line": "90-Day Results Guarantee Or Your Money Back",
         "bg_color": "#F4F7F9",
-        "secondary_link_text": "The ultimate guide to skincare over 40 \u2192",
+        "secondary_link_text": "The ultimate guide to skincare over 40 →",
         "secondary_link_url": "/pages/best-skincare-women-over-40-australia"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +559,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

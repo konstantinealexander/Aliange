@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
       "settings": {
         "description": "Harnessing the regenerative power of the immortal jellyfish, this advanced serum is clinically proven to reduce senescent 'zombie' cells and repair DNA damage for visibly younger, firmer skin.",
-        "atc_text": "SHOP NOW \u2014 $225"
+        "atc_text": "SHOP NOW — $225"
       },
       "blocks": {
         "bullet_1": {
@@ -62,7 +53,7 @@
           "type": "mini_faq",
           "settings": {
             "question": "Is the peptide from jellyfish?",
-            "answer": "No, it is a 100% vegan, lab-synthesised ingredient bio-inspired by the Turritopsis dohrnii jellyfish\u2019s unique DNA repair mechanisms."
+            "answer": "No, it is a 100% vegan, lab-synthesised ingredient bio-inspired by the Turritopsis dohrnii jellyfish’s unique DNA repair mechanisms."
           }
         },
         "faq_2": {
@@ -75,8 +66,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind every bottle. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind every bottle. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -182,7 +173,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "For an enhanced regenerative effect, use this serum in conjunction with our Ultimate A Night Cream. The combination of DNA repair peptides and Retinol provides a comprehensive approach to overnight skin renewal."
       }
     },
@@ -206,7 +197,7 @@
           "type": "benefit",
           "settings": {
             "title": "Significant Wrinkle Reduction",
-            "description": "The powerful peptide Matrixyl\u2122 synthe'6\u2122 works from within to rebuild the skin's structure, reducing wrinkle volume by up to 31%."
+            "description": "The powerful peptide Matrixyl™ synthe'6™ works from within to rebuild the skin's structure, reducing wrinkle volume by up to 31%."
           }
         },
         "b3": {
@@ -299,7 +290,7 @@
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "DNA Repair vs. Surface Repair",
-        "subheading": "Generic serums mask the signs of ageing. Aliang\u00e9 reverses them at the source.",
+        "subheading": "Generic serums mask the signs of ageing. Aliangé reverses them at the source.",
         "aliange_label": "Jellyfish Peptide Serum",
         "competitor_label": "Standard \"Anti-Ageing\"",
         "button_text": "Upgrade Your Skincare"
@@ -317,7 +308,7 @@
           "type": "comparison_row",
           "settings": {
             "feature": "Cellular Impact",
-            "aliange_value": " Juveleven\u2122 Peptide",
+            "aliange_value": " Juveleven™ Peptide",
             "competitor_value": "Basic Humectants"
           }
         },
@@ -393,7 +384,7 @@
           "type": "ingredient",
           "settings": {
             "category": "DNA Repair",
-            "name": "Juveleven\u2122 Peptide",
+            "name": "Juveleven™ Peptide",
             "bullets": "Inspired by immortal jellyfish|Rejuvenates skin cells|Protects against damage|Fundamental longevity",
             "evidence": "PNAS study revealed the jellyfish has twice as many genes involved in DNA repair compared to related species."
           }
@@ -402,7 +393,7 @@
           "type": "ingredient",
           "settings": {
             "category": "Dermal Matrix",
-            "name": "Matrixyl\u2122 synthe'6\u2122",
+            "name": "Matrixyl™ synthe'6™",
             "bullets": "Powerful wrinkle reduction|Rebuilds from within|Stimulates 6 major markers|Firms & lifts skin",
             "evidence": "Clinical studies show a 31% reduction in wrinkle volume and a 105% increase in Collagen I synthesis."
           }
@@ -448,7 +439,7 @@
       "settings": {
         "heading": "DNA Repair Ritual",
         "subheading": "Follow these steps to reclaim your skin's youthful vitality.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "For an enhanced regenerative effect, use this serum in conjunction with our Ultimate A Night Cream. The combination of DNA repair peptides and Retinol provides a comprehensive approach."
       },
       "blocks": {
@@ -470,7 +461,7 @@
           "type": "step",
           "settings": {
             "title": "Distribute",
-            "description": "Gently press and massage the serum evenly over face, neck, and d\u00e9colletage."
+            "description": "Gently press and massage the serum evenly over face, neck, and décolletage."
           }
         },
         "step4": {
@@ -500,14 +491,14 @@
           "type": "question",
           "settings": {
             "question": "How is this different from other anti-ageing serums?",
-            "answer": "<p>Focuses on DNA repair, a foundational aspect of skin ageing. By targeting cellular health with the Juveleven\u2122 peptide, it goes beyond surface-level treatments.</p>"
+            "answer": "<p>Focuses on DNA repair, a foundational aspect of skin ageing. By targeting cellular health with the Juveleven™ peptide, it goes beyond surface-level treatments.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
             "question": "Is the 'jellyfish peptide' actually from jellyfish?",
-            "answer": "<p>No. It is a 100% lab-synthesised, vegan ingredient. It's bio-inspired by the Turritopsis dohrnii jellyfish\u2019s repair mechanisms.</p>"
+            "answer": "<p>No. It is a 100% lab-synthesised, vegan ingredient. It's bio-inspired by the Turritopsis dohrnii jellyfish’s repair mechanisms.</p>"
           }
         },
         "q3": {
@@ -548,9 +539,13 @@
         "button_text": "ADD TO CART - 90 DAY GUARANTEE",
         "trust_line": "100% Australian Made. Guaranteed Results.",
         "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to ageing \u2192",
+        "secondary_link_text": "Learn about our clinical approach to ageing →",
         "secondary_link_url": "/pages/concern-aging"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +559,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }

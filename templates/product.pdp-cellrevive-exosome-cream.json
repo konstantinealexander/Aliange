@@ -1,19 +1,10 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
       "settings": {
         "description": "Experience the frontier of regenerative skincare. Formulated by Dr. Alison Jamieson, this revolutionary cream delivers 4 billion cellular messengers per dose to instruct your skin to behave younger.",
-        "atc_text": "ADD TO BAG \u2014 $400"
+        "atc_text": "ADD TO BAG — $400"
       },
       "blocks": {
         "bullet_1": {
@@ -75,8 +66,8 @@
         "faq_3": {
           "type": "mini_faq",
           "settings": {
-            "question": "What if it doesn\u2019t work for me?",
-            "answer": "We stand behind our science. If you\u2019re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
+            "question": "What if it doesn’t work for me?",
+            "answer": "We stand behind our science. If you’re not satisfied within 90 days, contact us for a full refund. No forms, no hassle."
           }
         }
       },
@@ -182,7 +173,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM \u2014 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
         "quote": "The exosomes work most effectively on well-hydrated skin, allowing for optimal signalling and cellular communication. Think of it as preparing the lines of communication before sending the message."
       }
     },
@@ -299,7 +290,7 @@
       "type": "aliange-pdp-comparison",
       "settings": {
         "heading": "The Future vs. The Past",
-        "subheading": "Standard luxury creams provide moisture. Aliang\u00e9 provides cellular instructions.",
+        "subheading": "Standard luxury creams provide moisture. Aliangé provides cellular instructions.",
         "aliange_label": "CellRevive Exosome",
         "competitor_label": "Generic \"Luxury\" Cream",
         "button_text": "Upgrade Your Skincare"
@@ -349,7 +340,7 @@
           "type": "comparison_row",
           "settings": {
             "feature": "Technology",
-            "aliange_value": "Endexome-EXO\u2122",
+            "aliange_value": "Endexome-EXO™",
             "competitor_value": "Basic Emulsions"
           }
         },
@@ -393,7 +384,7 @@
           "type": "ingredient",
           "settings": {
             "category": "Core Tech",
-            "name": "Endexome-EXO\u2122",
+            "name": "Endexome-EXO™",
             "bullets": "4 Billion exosomes per dose|Delivers growth factors|Genetic cellular signals|Instructs repair & renewal",
             "evidence": "In a 12-week study, topical exosome application was shown to significantly increase both collagen and elastin."
           }
@@ -448,7 +439,7 @@
       "settings": {
         "heading": "Cellular Transformation Ritual",
         "subheading": "Follow these steps to restore youth from within.",
-        "pro_tip_author": "Dr. Jamieson\u2019s Pro Tip",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "For enhanced efficacy, use CellRevive after applying a hydrating serum. Exosomes work best on well-hydrated skin, allowing for optimal signalling."
       },
       "blocks": {
@@ -456,7 +447,7 @@
           "type": "step",
           "settings": {
             "title": "Cleanse",
-            "description": "Begin with a thoroughly cleansed and dry face, neck, and d\u00e9colletage."
+            "description": "Begin with a thoroughly cleansed and dry face, neck, and décolletage."
           }
         },
         "step2": {
@@ -545,12 +536,16 @@
       "settings": {
         "heading": "Your Skin's Regenerative Future Is Here.",
         "subheading": "Address ageing at the source. Invest in the science of cellular messengers.",
-        "button_text": "ADD TO BAG \u2014 BEGIN REGENERATION",
+        "button_text": "ADD TO BAG — BEGIN REGENERATION",
         "trust_line": "Guaranteed Results in 90 Days.",
         "bg_color": "#F4F7F9",
-        "secondary_link_text": "Learn about our clinical approach to ageing \u2192",
+        "secondary_link_text": "Learn about our clinical approach to ageing →",
         "secondary_link_url": "/pages/concern-aging"
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     }
   },
   "order": [
@@ -564,6 +559,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "klaviyo_product_reviews",
     "final_cta"
   ]
 }
