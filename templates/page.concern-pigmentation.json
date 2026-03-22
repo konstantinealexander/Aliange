@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Aliangé Clinical",
         "headline": "Restore Clarity and Even Skin Tone",
         "subheadline": "Tired of stubborn dark spots and uneven skin tone? Pigmentation is a complex concern, driven by multiple factors deep within the skin. Discover a clinical, multi-pathway solution developed by one of Australia's leading skin experts.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_22_2026_-_7_28PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,7 +62,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_approach": {
@@ -75,7 +87,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -116,7 +129,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
@@ -128,7 +143,8 @@
             "price": "$100",
             "why": "A clinically active treatment designed to improve skin clarity and radiance. A multi-acid resurfacing complex (glycolic, lactic, salicylic and fruit acids) helps accelerate cellular turnover, while Oligopeptide-68, vitamin C, licorice root and niacinamide work to regulate pigmentation and brighten uneven skin tone, revealing smoother, more luminous skin.",
             "key_active": "Glycolic Acid + Lactic Acid + Salicylic Acid + Oligopeptide-68 + Ascorbic Acid (Vitamin C) + Glycyrrhiza Glabra (Licorice Root) Extract + Niacinamide",
-            "step": "PM"
+            "step": "PM",
+            "image_path": ""
           }
         },
         "p2": {
@@ -138,7 +154,8 @@
             "price": "$225",
             "why": "A clinically formulated night treatment designed to support skin renewal and improve visible signs of ageing. Microencapsulated retinol helps stimulate cellular turnover and collagen production while minimising irritation through controlled release. Supported by Matrixyl® peptide technology, hyaluronic acid and skin-identical moisturising factors, the formula works overnight to refine texture, improve firmness and restore smoother, more resilient skin.",
             "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Saccharide Isomerate + Sodium PCA + Chondrus Crispus (Red Algae) Extract",
-            "step": "P<"
+            "step": "P<",
+            "image_path": ""
           }
         },
         "p4": {
@@ -148,7 +165,8 @@
             "price": "$90",
             "why": "A protective daily moisturiser formulated to support skin hydration, barrier function, and environmental defence. A broad-spectrum UV filter system helps protect against UVA and UVB exposure, while Matrixyl® peptide technology supports collagen integrity and skin firmness. Hydrating ingredients and soothing botanical extracts help reinforce the skin barrier, leaving the complexion hydrated, calm and protected throughout the day.",
             "key_active": "Butyl Methoxydibenzoylmethane (Avobenzone) + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Octocrylene + 4-Methylbenzylidene Camphor + Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7 + Sodium Hyaluronate + Panthenol + Centella Asiatica Extract + Tocopherol (Vitamin E)",
-            "step": "AM"
+            "step": "AM",
+            "image_path": ""
           }
         }
       },
@@ -357,12 +375,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Ready to Leave Uneven Skin Tone Behind?",
         "subheadline": "Trust in a clinical, doctor-developed system that works with your skin's biology to deliver profound, lasting clarity. Your journey to a brighter, more even complexion starts here.",
         "cta_text": "Shop the Pigmentation Routine",
@@ -371,10 +395,6 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
