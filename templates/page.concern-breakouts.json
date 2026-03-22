@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Aliangé Clinical",
         "headline": "A Clinical Approach to Clearer Skin",
         "subheadline": "Tired of the endless cycle of breakouts and harsh treatments? Discover a doctor-developed, science-backed approach to finally achieve clear, calm, and healthy skin. We go beyond surface-level solutions to target the multiple root causes of acne.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_22_2026_-_7_19PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,7 +62,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_approach": {
@@ -75,7 +87,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -116,7 +129,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
@@ -128,7 +143,8 @@
             "price": "$55",
             "why": "Gently cleanses without stripping the skin's protective barrier, preventing the irritation and dehydration that can worsen breakouts.",
             "key_active": "Amino Acid Cleansing Complex (Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate) + Jojoba Conditioning Lipids + Natural Moisturising Factor Complex (Sodium PCA + PCA + Amino Acids) + Allantoin Soothing Complex",
-            "step": "Step 1 (AM/PM)"
+            "step": "Step 1 (AM/PM)",
+            "image_path": ""
           }
         },
         "p3": {
@@ -138,7 +154,8 @@
             "price": "$55",
             "why": "Combines chemical (AHAs) and physical (Jojoba beads) exfoliation to decongest pores and remove dead skin cells, with Tea Tree Oil to target breakout-causing bacteria.",
             "key_active": "Perlite Mineral Exfoliation + Multi-Acid Resurfacing Complex (Glycolic, Lactic & Malic Acids) + Natural Fruit Acid Complex + Green Tea Antioxidant Complex + Tea Tree Clarifying Extract",
-            "step": "2–3x per week (PM)"
+            "step": "2–3x per week (PM)",
+            "image_path": ""
           }
         },
         "p4": {
@@ -148,7 +165,8 @@
             "price": "$60",
             "why": "A detoxifying and rebalancing treatment that uses clays to absorb excess oil and prebiotics to selectively feed beneficial bacteria, restoring a healthy microbiome.",
             "key_active": "Purifying Mineral Clay Complex (Kaolin + Bentonite) + Probiotic & Prebiotic Microbiome Complex (Lactococcus Ferment + Lactobacillus + Alpha-Glucan Oligosaccharide + Yacon Root) + Hyaluronic Acid Hydration System + Marine Algae Barrier SupportVitamin E + Antioxidant Protection",
-            "step": "2–3x per week"
+            "step": "2–3x per week",
+            "image_path": ""
           }
         },
         "p2": {
@@ -158,7 +176,8 @@
             "price": "$90",
             "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
             "key_active": "Niacinamide Sebum-Control Complex + Microbiome-Supporting Ferment (Lactococcus Lysate) + Sebum-Regulating Botanical Complex (Enantia Chlorantha + Oleanolic Acid) + Barrier Lipid Complex (Sphingolipids + Phospholipids) + Calming Technology (Bisabolol + Neuro-calming actives)",
-            "step": "Step 2 (AM/PM)"
+            "step": "Step 2 (AM/PM)",
+            "image_path": ""
           }
         },
         "product_step_8n4WyU": {
@@ -168,7 +187,8 @@
             "price": "$90",
             "why": "A protective daily moisturiser designed to defend skin against environmental stress while supporting barrier integrity and long-term skin health. Formulated with a broad-spectrum UV protection system, it helps shield the skin from UVA and UVB exposure — key contributors to premature ageing and pigmentation.",
             "key_active": "Broad-spectrum UV filter complex (UVA + UVB protection) + Matrixyl® 3000 peptide complex (Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7) + Hyaluronic acid hydration system + Centella asiatica repair extract + Vitamin E antioxidant protection",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": ""
           }
         }
       },
@@ -379,12 +399,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Ready to End the Breakout Cycle for Good?",
         "subheadline": "Trust in a clinical, science-led solution developed by one of Australia's leading cosmetic experts. Your journey to clear, confident skin starts here.",
         "cta_text": "Shop the Acne Protocol",
@@ -393,10 +419,6 @@
         "secondary_cta_url": "",
         "guarantee": "Backed by Our 90-Day Results Guarantee."
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
