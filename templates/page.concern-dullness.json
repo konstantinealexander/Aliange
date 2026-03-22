@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Aliangé Clinical",
         "headline": "Targeting the Biological Causes of Dull Skin",
         "subheadline": "Is your skin looking tired, lacklustre, and dull? We'll explain the science behind why this happens and how you can restore your skin's natural luminosity with a targeted, doctor-developed approach.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_22_2026_-_6_06PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,7 +62,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_approach": {
@@ -75,7 +87,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -116,7 +129,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
@@ -128,7 +143,8 @@
             "price": "$55",
             "why": "This dual-action exfoliator combines AHAs and physical exfoliants to accelerate cell turnover and reveal a brighter, smoother complexion.",
             "key_active": "Perlite Mineral Exfoliation + Multi-Acid Resurfacing Complex (Glycolic, Lactic & Malic Acids) + Natural Fruit Acid Complex + Green Tea Antioxidant Complex + Tea Tree Clarifying Extract",
-            "step": "PM, 2–3x per week"
+            "step": "PM, 2–3x per week",
+            "image_path": ""
           }
         },
         "p3": {
@@ -138,7 +154,8 @@
             "price": "$60",
             "why": "A purifying treatment designed to rebalance the skin while supporting a healthy microbiome. Mineral clays help absorb excess oil and draw out impurities, while a probiotic and prebiotic complex works to support the skin’s microbial ecosystem, helping strengthen the barrier and calm inflammation. Hydrating ingredients such as hyaluronic acid and skin-identical moisturising factors help maintain moisture balance, leaving skin clearer, calmer, and more resilient.",
             "key_active": "Purifying Mineral Clay Complex (Kaolin + Bentonite) + Probiotic & Prebiotic Microbiome Complex (Lactococcus Ferment + Lactobacillus + Alpha-Glucan Oligosaccharide + Yacon Root) + Hyaluronic Acid Hydration System + Marine Algae Barrier Support + Vitamin E Antioxidant Protection",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": ""
           }
         },
         "product_step_e6yAr7": {
@@ -148,7 +165,8 @@
             "price": "$225",
             "why": "A regenerative antioxidant serum designed to support skin repair and hydration. Powered by Juveleven™ peptide (Acetyl Hexapeptide-51 Amide) to help protect skin cells from oxidative stress and support renewal, alongside Matrixyl® peptide technology to promote collagen integrity. Hyaluronic acid, Kakadu plum extract and skin-identical moisturising factors help restore hydration and radiance, leaving skin smoother, stronger and visibly revitalised.",
             "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™ Peptide) + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Terminalia Ferdinandiana (Kakadu Plum) + Saccharide Isomerate + Sodium PCA",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": ""
           }
         },
         "p2": {
@@ -158,7 +176,8 @@
             "price": "$100",
             "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.",
             "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
-            "step": "PM"
+            "step": "PM",
+            "image_path": ""
           }
         },
         "p4": {
@@ -168,7 +187,8 @@
             "price": "$400",
             "why": "A regenerative moisturiser formulated with ENDEXOME-EXO™ exosome technology to support skin renewal and repair. Hyaluronic acid, sodium PCA and glycerin provide deep hydration, while safflower and avocado oils with vitamin E help nourish the skin and reinforce the barrier, leaving it smoother, stronger and more resilient.",
             "key_active": "ENDEXOME-EXO™ exosomes",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": ""
           }
         }
       },
@@ -371,12 +391,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Ready to Reveal Your Radiance?",
         "subheadline": "Experience the Aliangé difference and restore your skin's natural luminosity with our doctor-developed, science-backed approach.",
         "cta_text": "Shop the Dullness Routine",
@@ -385,10 +411,6 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
