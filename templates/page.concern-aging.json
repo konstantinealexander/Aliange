@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Aliangé Clinical",
         "headline": "Rediscover Your Skin's Youthful Resilience.",
         "subheadline": "The visible signs of ageing- fine lines, wrinkles, and loss of firmness- are driven by complex biological processes. Aliangé offers a clinical, multi-pathway approach to visibly rejuvenate your skin, formulated by one of Australia's leading dermatology experts.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_22_2026_-_7_14PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -92,7 +103,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_approach": {
       "type": "aliange-lp-text-block",
@@ -368,9 +381,14 @@
         "headline": "Frequently Asked Questions"
       }
     },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
+    },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Take the First Step Towards Visibly Rejuvenated Skin.",
         "subheadline": "Trust a doctor-developed, science-backed system to restore your skin's youthful vitality.",
         "cta_text": "Shop the Anti-Ageing Protocol",
@@ -379,10 +397,6 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
