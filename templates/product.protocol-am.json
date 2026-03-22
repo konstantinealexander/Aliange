@@ -40,16 +40,13 @@
         "label": "Doctor-Designed · Evidence-Based · Australian Made",
         "headline": "The Ultimate Morning Shield for Your Skin",
         "subheadline": "A four-step system to protect your skin from daily aggressors while actively treating and strengthening it.",
-        "gradient_theme": "none",
-        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Start the AM Protocol",
         "cta_url": "",
-        "secondary_cta_text": "",
-        "secondary_cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+        "trust_line": "90-Day Results Guarantee Or Your Money Back",
+        "gradient_theme": "am"
       }
     },
     "lp_problem": {
@@ -59,9 +56,7 @@
         "headline": "Your Skin is Under Constant Attack",
         "body": "<p>UV radiation, pollution, and blue light cause premature ageing, inflammation, and barrier damage.</p><p><strong>UV is the #1 cause of premature ageing.</strong></p><p><strong>A compromised barrier can't defend itself.</strong></p><p><strong>Collagen declines with age.</strong></p>",
         "bg": "muted",
-        "width": "narrow",
-        "cta_text": "",
-        "cta_url": ""
+        "width": "narrow"
       }
     },
     "lp_routine": {
@@ -74,7 +69,8 @@
             "price": "$55",
             "why": "Gentle cleansing prepares skin for actives.",
             "key_active": "Coconut Surfactants",
-            "step": "AM"
+            "step": "AM",
+            "image_path": "sku-daily-devotion-cleanser.png"
           }
         },
         "p2": {
@@ -84,7 +80,8 @@
             "price": "$90",
             "why": "Strengthens barrier, reduces redness, refines pores.",
             "key_active": "Niacinamide",
-            "step": "AM"
+            "step": "AM",
+            "image_path": "sku-biocinamide-serum.png"
           }
         },
         "p3": {
@@ -94,7 +91,8 @@
             "price": "$225",
             "why": "Antioxidant protection and collagen stimulation.",
             "key_active": "Matrixyl® synthe'6®",
-            "step": "AM"
+            "step": "AM",
+            "image_path": "sku-jellyfish-peptide-serum.png"
           }
         },
         "p4": {
@@ -104,7 +102,8 @@
             "price": "$90",
             "why": "Locks in actives and provides UV protection.",
             "key_active": "Matrixyl 3000®",
-            "step": "AM"
+            "step": "AM",
+            "image_path": "sku-day-cream-spf15.png"
           }
         }
       },
@@ -117,7 +116,6 @@
       "settings": {
         "label": "The Protocol",
         "headline": "Your 4-Step Morning Protocol",
-        "subheadline": "",
         "cta_text": "Start the AM Protocol",
         "cta_url": ""
       }
@@ -197,7 +195,7 @@
         "st4"
       ],
       "settings": {
-        "gradient_theme": "none"
+        "gradient_theme": "am"
       }
     },
     "lp_comparison": {
@@ -352,36 +350,20 @@
         "headline": "Frequently Asked Questions"
       }
     },
-    "1774150881e4d21c9a": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_reviews_all_reviews_bE9cYW": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/all-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "klaviyo_reviews_all_reviews_bE9cYW"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
-    },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "gradient_theme": "none",
         "headline": "Invest in Your Skin's Future.",
         "subheadline": "A clinically proven doctor-designed morning system.",
         "cta_text": "Start Your 90-Day Transformation",
         "cta_url": "",
-        "secondary_cta_text": "",
-        "secondary_cta_url": "",
-        "guarantee": "90-Day Results Guarantee Or Your Money Back"
+        "guarantee": "90-Day Results Guarantee Or Your Money Back",
+        "gradient_theme": "pm"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -393,7 +375,7 @@
     "lp_comparison",
     "aliange_pdp_hero_AMPro1",
     "lp_faq",
-    "1774150881e4d21c9a",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

@@ -68,7 +68,8 @@
             "price": "$55",
             "why": "Purifies without stripping natural moisture.",
             "key_active": "Coconut Surfactants",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-daily-devotion-cleanser.png"
           }
         },
         "p2": {
@@ -78,7 +79,8 @@
             "price": "$90",
             "why": "Essential hydration and broad-spectrum UV protection.",
             "key_active": "Matrixyl 3000",
-            "step": "AM"
+            "step": "AM",
+            "image_path": "sku-day-cream-spf15.png"
           }
         },
         "p3": {
@@ -88,7 +90,8 @@
             "price": "$130",
             "why": "Accelerates cellular renewal and targets signs of ageing overnight.",
             "key_active": "Retinol + Bakuchiol",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-ultimate-a-night-cream.png"
           }
         }
       },
@@ -229,83 +232,64 @@
         "col_us": "The Aliange Protocol"
       }
     },
-    "proto_ritual": {
-      "type": "aliange-proto-ritual",
+    "aliange_pdp_hero_Essntl": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "rit1": {
-          "type": "step",
+        "bullet_point_es1": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Cleanse with Daily Devotion Cleanser",
-            "time": "both"
+            "text": "Complete foundation for lifelong skin health"
           }
         },
-        "rit2": {
-          "type": "step",
+        "bullet_point_es2": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Day Cream SPF 15",
-            "time": "am"
+            "text": "Daily protection, cleansing, and overnight repair"
           }
         },
-        "rit3": {
-          "type": "step",
+        "bullet_point_es3": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Ultimate A Night Cream",
-            "time": "pm"
+            "text": "Doctor-developed & Australian-made"
+          }
+        },
+        "trust_box_es1": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_es2": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_es3": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "rit1",
-        "rit2",
-        "rit3"
+        "bullet_point_es1",
+        "bullet_point_es2",
+        "bullet_point_es3",
+        "trust_box_es1",
+        "trust_box_es2",
+        "trust_box_es3"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "Start with alternate nights for the first 2 weeks to acclimatise to retinol.",
-        "pm_note": ""
-      }
-    },
-    "proto_includes": {
-      "type": "aliange-proto-includes",
-      "blocks": {
-        "i1": {
-          "type": "product_item",
-          "settings": {
-            "name": "Daily Devotion Cleanser",
-            "size": "200ml",
-            "price": "$55"
-          }
-        },
-        "i2": {
-          "type": "product_item",
-          "settings": {
-            "name": "Day Cream SPF 15",
-            "size": "50ml",
-            "price": "$90"
-          }
-        },
-        "i3": {
-          "type": "product_item",
-          "settings": {
-            "name": "Ultimate A Night Cream",
-            "size": "50ml",
-            "price": "$130"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3"
-      ],
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you buy the complete protocol.",
-        "cta_text": "Start the Essential Protocol",
-        "cta_url": ""
+        "description": "Your non-negotiable 3-step system. Clinically formulated to cleanse, protect, and repair your skin every single day.",
+        "atc_text": "Add to Cart"
       }
     },
     "lp_faq": {
@@ -368,6 +352,10 @@
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -377,9 +365,9 @@
     "proto_synergy",
     "lp_stats",
     "lp_comparison",
-    "proto_ritual",
-    "proto_includes",
+    "aliange_pdp_hero_Essntl",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

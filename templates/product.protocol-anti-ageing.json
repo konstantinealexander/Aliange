@@ -68,7 +68,8 @@
             "price": "$100",
             "why": "Inhibits melanin and exfoliates pigmented cells for a brighter canvas.",
             "key_active": "Oligopeptide-68 + AHAs",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-brightening-serum.png"
           }
         },
         "p2": {
@@ -78,7 +79,8 @@
             "price": "$225",
             "why": "Powerful collagen stimulation and DNA repair.",
             "key_active": "Matrixyl® synthe’6®",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-jellyfish-peptide-serum.png"
           }
         },
         "p3": {
@@ -88,7 +90,8 @@
             "price": "$130",
             "why": "Micro-encapsulated retinol for cellular renewal.",
             "key_active": "Retinol + Bakuchiol",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-ultimate-a-night-cream.png"
           }
         }
       },
@@ -229,99 +232,64 @@
         "col_us": "The Aliange Protocol"
       }
     },
-    "proto_ritual": {
-      "type": "aliange-proto-ritual",
+    "aliange_pdp_hero_AntiAge": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "rit1": {
-          "type": "step",
+        "bullet_point_aa1": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Cleanse with a gentle cleanser",
-            "time": "both"
+            "text": "Reduces visible signs of ageing and pigmentation"
           }
         },
-        "rit2": {
-          "type": "step",
+        "bullet_point_aa2": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Jellyfish Peptide x Antioxidant Serum",
-            "time": "both"
+            "text": "Stimulates collagen production with clinical actives"
           }
         },
-        "rit3": {
-          "type": "step",
+        "bullet_point_aa3": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Brightening Serum",
-            "time": "pm"
+            "text": "Doctor-developed & Australian-made"
           }
         },
-        "rit4": {
-          "type": "step",
+        "trust_box_aa1": {
+          "type": "trust_box",
           "settings": {
-            "text": "Apply Ultimate A Night Cream",
-            "time": "pm"
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
           }
         },
-        "rit5": {
-          "type": "step",
+        "trust_box_aa2": {
+          "type": "trust_box",
           "settings": {
-            "text": "Follow with broad-spectrum SPF",
-            "time": "am"
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_aa3": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "rit1",
-        "rit2",
-        "rit3",
-        "rit4",
-        "rit5"
+        "bullet_point_aa1",
+        "bullet_point_aa2",
+        "bullet_point_aa3",
+        "trust_box_aa1",
+        "trust_box_aa2",
+        "trust_box_aa3"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": ""
-      }
-    },
-    "proto_includes": {
-      "type": "aliange-proto-includes",
-      "blocks": {
-        "i1": {
-          "type": "product_item",
-          "settings": {
-            "name": "Brightening Serum",
-            "size": "50ml",
-            "price": "$100"
-          }
-        },
-        "i2": {
-          "type": "product_item",
-          "settings": {
-            "name": "Jellyfish Peptide x Antioxidant Serum",
-            "size": "50ml",
-            "price": "$225"
-          }
-        },
-        "i3": {
-          "type": "product_item",
-          "settings": {
-            "name": "Ultimate A Night Cream",
-            "size": "50ml",
-            "price": "$130"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3"
-      ],
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you invest in the complete Anti-Ageing Protocol.",
-        "cta_text": "Start the Anti-Ageing Protocol",
-        "cta_url": ""
+        "description": "A 3-step clinical protocol targeting wrinkles, loss of firmness, and pigmentation. Designed for women 40+ seeking significant, visible results.",
+        "atc_text": "Add to Cart"
       }
     },
     "lp_faq": {
@@ -384,6 +352,10 @@
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -393,9 +365,9 @@
     "proto_synergy",
     "lp_stats",
     "lp_comparison",
-    "proto_ritual",
-    "proto_includes",
+    "aliange_pdp_hero_AntiAge",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

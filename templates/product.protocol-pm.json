@@ -73,7 +73,8 @@
             "price": "$55",
             "why": "Removes makeup, sunscreen, and pollutants without stripping.",
             "key_active": "Coconut Surfactants",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-daily-devotion-cleanser.png"
           }
         },
         "p2": {
@@ -83,7 +84,8 @@
             "price": "$100",
             "why": "Exfoliating and brightening powerhouse targeting pigmentation.",
             "key_active": "Oligopeptide-68 + AHAs",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-brightening-serum.png"
           }
         },
         "p3": {
@@ -93,7 +95,8 @@
             "price": "$130",
             "why": "Micro-encapsulated Retinol accelerates renewal and collagen production.",
             "key_active": "Retinol + Bakuchiol",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-ultimate-a-night-cream.png"
           }
         }
       },
@@ -357,6 +360,10 @@
         "description": "Your daily defence against premature ageing. This lightweight, non-greasy formula delivers essential hydration and broad-spectrum UV protection.",
         "atc_text": "Add to Cart"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -368,6 +375,7 @@
     "lp_comparison",
     "aliange_pdp_hero_3ChdcY",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

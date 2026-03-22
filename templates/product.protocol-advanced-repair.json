@@ -68,7 +68,8 @@
             "price": "$225",
             "why": "Delivers concentrated peptides and firming agents to the most ageing-prone areas.",
             "key_active": "Baobab Seed Protein",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-rejuvenating-eye-lip-cream.png"
           }
         },
         "p2": {
@@ -78,7 +79,8 @@
             "price": "$400",
             "why": "Advanced exosome technology instructs cells to behave more youthfully.",
             "key_active": "Endexome-EXO™ API",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-cellrevive-exosome-cream.png"
           }
         }
       },
@@ -218,82 +220,64 @@
         "col_us": "Protocol Advantage"
       }
     },
-    "proto_ritual": {
-      "type": "aliange-proto-ritual",
+    "aliange_pdp_hero_AdvRep": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "rit1": {
-          "type": "step",
+        "bullet_point_ar1": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Cleanse with your Aliange cleanser",
-            "time": "both"
+            "text": "Cellular-level regeneration with exosome technology"
           }
         },
-        "rit2": {
-          "type": "step",
+        "bullet_point_ar2": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply ¼ pump Eye & Lip Cream around eyes and lips",
-            "time": "both"
+            "text": "Firms and lifts with concentrated peptides"
           }
         },
-        "rit3": {
-          "type": "step",
+        "bullet_point_ar3": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply 1-2 pumps CellRevive Exosome Cream to face and neck",
-            "time": "both"
+            "text": "Doctor-developed & Australian-made"
           }
         },
-        "rit4": {
-          "type": "step",
+        "trust_box_ar1": {
+          "type": "trust_box",
           "settings": {
-            "text": "Follow with Day Cream SPF 15",
-            "time": "am"
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_ar2": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_ar3": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "rit1",
-        "rit2",
-        "rit3",
-        "rit4"
+        "bullet_point_ar1",
+        "bullet_point_ar2",
+        "bullet_point_ar3",
+        "trust_box_ar1",
+        "trust_box_ar2",
+        "trust_box_ar3"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": ""
-      }
-    },
-    "proto_includes": {
-      "type": "aliange-proto-includes",
-      "blocks": {
-        "i1": {
-          "type": "product_item",
-          "settings": {
-            "name": "Rejuvenating Eye & Lip Cream",
-            "size": "50ml",
-            "price": "$225"
-          }
-        },
-        "i2": {
-          "type": "product_item",
-          "settings": {
-            "name": "CellRevive Exosome Cream",
-            "size": "50ml",
-            "price": "$400"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2"
-      ],
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Experience the pinnacle of skin regeneration.",
-        "cta_text": "Start the Advanced Repair Protocol",
-        "cta_url": ""
+        "description": "The most advanced skin regeneration protocol from Aliangé. Two targeted products engineered to work as one cellular repair system.",
+        "atc_text": "Add to Cart"
       }
     },
     "lp_faq": {
@@ -356,6 +340,10 @@
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -365,9 +353,9 @@
     "proto_synergy",
     "lp_stats",
     "lp_comparison",
-    "proto_ritual",
-    "proto_includes",
+    "aliange_pdp_hero_AdvRep",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

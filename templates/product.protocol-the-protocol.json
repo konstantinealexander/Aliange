@@ -68,7 +68,8 @@
             "price": "$55",
             "why": "This gentle, non-stripping cleanser removes impurities and prepares the skin for the powerful active ingredients to follow.",
             "key_active": "Coconut-derived Surfactants",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-daily-devotion-cleanser.png"
           }
         },
         "p2": {
@@ -78,7 +79,8 @@
             "price": "$90",
             "why": "This multi-tasking serum strengthens the skin's barrier, refines pores, and improves overall skin texture.",
             "key_active": "Niacinamide (Vitamin B3)",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-biocinamide-serum.png"
           }
         },
         "p3": {
@@ -88,7 +90,8 @@
             "price": "$100",
             "why": "This potent serum targets pigmentation and uneven skin tone, revealing a brighter, more radiant complexion.",
             "key_active": "Oligopeptide-68",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-brightening-serum.png"
           }
         },
         "p4": {
@@ -98,7 +101,8 @@
             "price": "$225",
             "why": "This advanced serum provides powerful anti-ageing and antioxidant benefits, helping to repair and protect the skin.",
             "key_active": "Matrixyl® synthe'6®",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-jellyfish-peptide-serum.png"
           }
         },
         "p5": {
@@ -108,7 +112,8 @@
             "price": "$90",
             "why": "This lightweight day cream hydrates, protects the skin from UV damage, and provides a filler-like effect to reduce the appearance of wrinkles.",
             "key_active": "Matrixyl 3000®",
-            "step": "AM"
+            "step": "AM",
+            "image_path": "sku-day-cream-spf15.png"
           }
         },
         "p6": {
@@ -118,7 +123,8 @@
             "price": "$130",
             "why": "This powerful retinol-based night cream works overnight to rejuvenate the skin, targeting fine lines, wrinkles, and other signs of ageing.",
             "key_active": "Retinol + Bakuchiol",
-            "step": "PM"
+            "step": "PM",
+            "image_path": "sku-ultimate-a-night-cream.png"
           }
         }
       },
@@ -271,132 +277,64 @@
         "col_us": "The Protocol Advantage"
       }
     },
-    "proto_ritual": {
-      "type": "aliange-proto-ritual",
+    "aliange_pdp_hero_TheProto": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "r1": {
-          "type": "step",
+        "bullet_point_tp1": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Cleanse with Daily Devotion Cleanser",
-            "time": "both"
+            "text": "Complete 6-step clinical system for total rejuvenation"
           }
         },
-        "r2": {
-          "type": "step",
+        "bullet_point_tp2": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Biocinamide Serum",
-            "time": "both"
+            "text": "Addresses all signs of ageing, morning and night"
           }
         },
-        "r3": {
-          "type": "step",
+        "bullet_point_tp3": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Brightening Serum",
-            "time": "pm"
+            "text": "Doctor-developed & Australian-made"
           }
         },
-        "r4": {
-          "type": "step",
+        "trust_box_tp1": {
+          "type": "trust_box",
           "settings": {
-            "text": "Apply Jellyfish Peptide x Antioxidant Serum",
-            "time": "both"
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
           }
         },
-        "r5": {
-          "type": "step",
+        "trust_box_tp2": {
+          "type": "trust_box",
           "settings": {
-            "text": "Apply Day Cream SPF 15",
-            "time": "am"
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
           }
         },
-        "r6": {
-          "type": "step",
+        "trust_box_tp3": {
+          "type": "trust_box",
           "settings": {
-            "text": "Apply Ultimate A Night Cream",
-            "time": "pm"
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6"
+        "bullet_point_tp1",
+        "bullet_point_tp2",
+        "bullet_point_tp3",
+        "trust_box_tp1",
+        "trust_box_tp2",
+        "trust_box_tp3"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual"
-      }
-    },
-    "proto_includes": {
-      "type": "aliange-proto-includes",
-      "blocks": {
-        "i1": {
-          "type": "product_item",
-          "settings": {
-            "name": "Daily Devotion Cleanser",
-            "size": "200ml",
-            "price": "$55"
-          }
-        },
-        "i2": {
-          "type": "product_item",
-          "settings": {
-            "name": "Biocinamide Serum",
-            "size": "50ml",
-            "price": "$90"
-          }
-        },
-        "i3": {
-          "type": "product_item",
-          "settings": {
-            "name": "Brightening Serum",
-            "size": "50ml",
-            "price": "$100"
-          }
-        },
-        "i4": {
-          "type": "product_item",
-          "settings": {
-            "name": "Jellyfish Peptide x Antioxidant Serum",
-            "size": "50ml",
-            "price": "$225"
-          }
-        },
-        "i5": {
-          "type": "product_item",
-          "settings": {
-            "name": "Day Cream SPF 15",
-            "size": "50ml",
-            "price": "$90"
-          }
-        },
-        "i6": {
-          "type": "product_item",
-          "settings": {
-            "name": "Ultimate A Night Cream",
-            "size": "50ml",
-            "price": "$130"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3",
-        "i4",
-        "i5",
-        "i6"
-      ],
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you buy the complete protocol.",
-        "cta_text": "Start The Protocol",
-        "cta_url": ""
+        "description": "The flagship Aliangé Protocol. A comprehensive 6-step clinical system designed by Dr. Alison Jamieson to deliver complete skin transformation.",
+        "atc_text": "Add to Cart"
       }
     },
     "lp_faq": {
@@ -459,6 +397,10 @@
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -468,9 +410,9 @@
     "proto_synergy",
     "lp_stats",
     "lp_comparison",
-    "proto_ritual",
-    "proto_includes",
+    "aliange_pdp_hero_TheProto",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

@@ -68,7 +68,8 @@
             "price": "$55",
             "why": "Dual-action exfoliation clears dead cells and prepares skin.",
             "key_active": "AHA Blend + Jojoba Esters",
-            "step": "2-3x/week"
+            "step": "2-3x/week",
+            "image_path": "sku-transforming-exfoliator.png"
           }
         },
         "p2": {
@@ -78,7 +79,8 @@
             "price": "$50",
             "why": "Detoxifies pores and restores microbiome balance.",
             "key_active": "Lactococcus Ferment",
-            "step": "2-3x/week"
+            "step": "2-3x/week",
+            "image_path": "sku-probiotic-masque.png"
           }
         },
         "p3": {
@@ -88,7 +90,8 @@
             "price": "$225",
             "why": "Regenerative peptides and antioxidants for maximum repair.",
             "key_active": "Matrixyl® synthe’6®",
-            "step": "2-3x/week"
+            "step": "2-3x/week",
+            "image_path": "sku-jellyfish-peptide-serum.png"
           }
         }
       },
@@ -229,91 +232,64 @@
         "col_us": "Aliange Masque Protocol"
       }
     },
-    "proto_ritual": {
-      "type": "aliange-proto-ritual",
+    "aliange_pdp_hero_Masque": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "rit1": {
-          "type": "step",
+        "bullet_point_mq1": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Cleanse with Daily Devotion Cleanser",
-            "time": "pm"
+            "text": "Deep exfoliation and microbiome restoration"
           }
         },
-        "rit2": {
-          "type": "step",
+        "bullet_point_mq2": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Exfoliate with Transforming Exfoliator (60 sec, leave 1-2 min)",
-            "time": "pm"
+            "text": "Visibly renewed texture after first use"
           }
         },
-        "rit3": {
-          "type": "step",
+        "bullet_point_mq3": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Apply Probiotic Masque for 15-20 minutes",
-            "time": "pm"
+            "text": "Doctor-developed & Australian-made"
           }
         },
-        "rit4": {
-          "type": "step",
+        "trust_box_mq1": {
+          "type": "trust_box",
           "settings": {
-            "text": "Apply Jellyfish Peptide x Antioxidant Serum",
-            "time": "pm"
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_mq2": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_mq3": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "rit1",
-        "rit2",
-        "rit3",
-        "rit4"
+        "bullet_point_mq1",
+        "bullet_point_mq2",
+        "bullet_point_mq3",
+        "trust_box_mq1",
+        "trust_box_mq2",
+        "trust_box_mq3"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Your Daily Ritual",
-        "headline": "Your Daily Ritual",
-        "am_note": "",
-        "pm_note": "Use 2-3 times per week. On non-treatment nights, follow your regular routine."
-      }
-    },
-    "proto_includes": {
-      "type": "aliange-proto-includes",
-      "blocks": {
-        "i1": {
-          "type": "product_item",
-          "settings": {
-            "name": "Transforming Exfoliator",
-            "size": "200ml",
-            "price": "$55"
-          }
-        },
-        "i2": {
-          "type": "product_item",
-          "settings": {
-            "name": "Probiotic Masque",
-            "size": "50ml",
-            "price": "$50"
-          }
-        },
-        "i3": {
-          "type": "product_item",
-          "settings": {
-            "name": "Jellyfish Peptide x Antioxidant Serum",
-            "size": "50ml",
-            "price": "$225"
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3"
-      ],
-      "settings": {
-        "label": "What's Included",
-        "headline": "Your Protocol Includes",
-        "bundle_price": "Protocol Price: [BUNDLE PRICE]",
-        "savings_line": "Save when you invest in the complete protocol.",
-        "cta_text": "Start the Masque Protocol",
-        "cta_url": ""
+        "description": "A professional-grade weekly reset for visibly renewed skin. Three synergistic steps that exfoliate, rebalance, and deeply repair.",
+        "atc_text": "Add to Cart"
       }
     },
     "lp_faq": {
@@ -368,6 +344,10 @@
         "cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     }
   },
   "order": [
@@ -377,9 +357,9 @@
     "proto_synergy",
     "lp_stats",
     "lp_comparison",
-    "proto_ritual",
-    "proto_includes",
+    "aliange_pdp_hero_Masque",
     "lp_faq",
+    "klaviyo_all_reviews",
     "lp_cta"
   ]
 }

@@ -130,6 +130,16 @@
                 loading="lazy"
               >
             </div>
+          {%- elsif block.settings.image_path != blank -%}
+            <div class="lp-routine-thumb">
+              <img
+                src="{{ block.settings.image_path | asset_url }}"
+                alt="{{ block.settings.name | escape }}"
+                width="56"
+                height="56"
+                loading="lazy"
+              >
+            </div>
           {%- else -%}
             <div class="lp-routine-num" aria-hidden="true">{{ forloop.index }}</div>
           {%- endif -%}
@@ -187,7 +197,8 @@
         { "type": "textarea", "id": "why", "label": "Why it's recommended" },
         { "type": "text", "id": "key_active", "label": "Key active ingredient" },
         { "type": "text", "id": "step", "label": "Step / timing", "default": "AM & PM" },
-        { "type": "image_picker", "id": "image", "label": "Product image (optional)" }
+        { "type": "image_picker", "id": "image", "label": "Product image (upload)" },
+        { "type": "text", "id": "image_path", "label": "Product image asset filename (e.g. sku-day-cream-spf15.png)" }
       ]
     }
   ],
