@@ -194,15 +194,14 @@
   }
 
   function fetchAll(url, acc) {
-    return fetch(url, {
-      headers: {
-        'Authorization': 'Klaviyo-API-Key ' + PUBLIC_KEY,
-        'revision': '2024-10-15'
-      }
+    return fetch(url, { headers: { 'revision': '2024-10-15' } })
+    .then(function (r) {
+      console.log('[Klaviyo Reviews] status', r.status, url);
+      return r.json();
     })
-    .then(function (r) { return r.json(); })
     .then(function (json) {
-      var rows = (json.data || []).filter(function(r){ return r.attributes && r.attributes.status === 'published'; });
+      console.log('[Klaviyo Reviews] response', json);
+      var rows = (json.data || []).filter(function(r){ return r.attributes; });
       acc = acc.concat(rows);
       if (json.links && json.links.next) {
         return fetchAll(json.links.next, acc);
@@ -211,8 +210,8 @@
     });
   }
 
-
-  fetchAll('https://a.klaviyo.com/api/reviews/?page[size]=100&sort=-created_at&revision=2024-10-15', [])
+  var baseUrl = 'https://a.klaviyo.com/client/reviews/?company_id=' + PUBLIC_KEY + '&page[size]=100&sort=-created_at&revision=2024-10-15';
+  fetchAll(baseUrl, [])
     .then(function (reviews) {
       if (!reviews.length) {
         container.innerHTML = '<p class="aliange-reviews__empty">No published reviews yet.</p>';
