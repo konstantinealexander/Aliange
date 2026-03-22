@@ -505,14 +505,10 @@
                 // Modern Klaviyo API (newer snippet versions)
                 window.klaviyo.identify(profileData);
                 window.klaviyo.track('Completed Skin Quiz', eventData);
-                console.log("Klaviyo: identify + track sent via modern API");
             } else if (window._learnq) {
                 // Legacy Klaviyo API
                 window._learnq.push(['identify', profileData]);
                 window._learnq.push(['track', 'Completed Skin Quiz', eventData]);
-                console.log("Klaviyo: identify + track sent via legacy API");
-            } else {
-                console.warn("Klaviyo: Neither window.klaviyo nor window._learnq found");
             }
 
             // 3. Direct List Subscription
@@ -525,9 +521,7 @@
             fetch('https://manage.kmail-lists.com/ajax/subscriptions/subscribe', {
                 method: 'POST',
                 body: formData
-            }).then(() => {
-                console.log("Klaviyo Subscription Request Sent");
-            }).catch(e => console.warn("Klaviyo Sub Error", e));
+            }).catch(() => {});
 
             // Move to Results immediately (don't block on network)
             this.showResults();
@@ -562,8 +556,7 @@
                 .then(product => {
                     this.renderResultCard(result, product);
                 })
-                .catch(err => {
-                    console.warn("Product fetch failed", err);
+                .catch(() => {
                     // Fallback to static config data if fetch fails
                     this.renderResultCard(result, null);
                 });
@@ -617,7 +610,6 @@
          * Shopify Cart API Integration
          */
         addToCart(result) {
-            console.log("Adding to Cart:", result);
             const submitBtn = document.getElementById('add-to-cart-action');
             if (submitBtn) submitBtn.textContent = 'Loading...';
 
@@ -683,12 +675,10 @@
                         if (response.ok) return response.json();
                         throw new Error('Network response was not ok.');
                     })
-                    .then(data => {
-                        console.log("Added:", data);
+                    .then(() => {
                         window.location.href = '/products/' + result.handle;
                     })
-                    .catch(error => {
-                        console.error('Error:', error);
+                    .catch(() => {
                         alert("Unable to add to cart. Please try again.");
                         if (submitBtn) submitBtn.textContent = 'Add Protocol to Cart';
                     });
@@ -705,8 +695,7 @@
                         const variantId = product.variants[0].id;
                         executeAdd(variantId);
                     })
-                    .catch(err => {
-                        console.error("Could not resolve product handle:", id);
+                    .catch(() => {
                         // Fallback: Just try sending the handle (some apps intercept)? Or just alert.
                         // For prototype: Alert the payload so they can see it works "theoretically".
                         alert(`SHOP INTEGRATION:\n\nTried to fetch product: ${id}\n\n(This works when hosted on Shopify)`);
@@ -720,7 +709,6 @@
     document.addEventListener('DOMContentLoaded', () => {
         // Shopify Integration: Override Config if AliangeSettings exists
         if (window.AliangeSettings) {
-            console.log("Aliangé Quiz: Loading Shopify Settings...");
 
             // 1. Override Product Handles
             if (window.AliangeSettings.products) {

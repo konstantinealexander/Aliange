@@ -6,7 +6,7 @@
         "b1": {
           "type": "bullet",
           "settings": {
-            "text": "Repairs & Strengthens: Fortifies your skin’s natural barrier."
+            "text": "Repairs \u0026 Strengthens: Fortifies your skin’s natural barrier."
           }
         },
         "b2": {
@@ -64,7 +64,8 @@
             "price": "$55",
             "why": "Gently purifies without stripping essential moisture.",
             "key_active": "Coconut Surfactants",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-daily-devotion-cleanser.png"
           }
         },
         "p2": {
@@ -74,7 +75,8 @@
             "price": "$55",
             "why": "Dual-action exfoliation clears dead cells to prevent congestion.",
             "key_active": "AHA Blend",
-            "step": "2-3x/week"
+            "step": "2-3x/week",
+            "image_path": "sku-transforming-exfoliator.png"
           }
         },
         "p3": {
@@ -84,7 +86,8 @@
             "price": "$50",
             "why": "Detoxifies, balances the microbiome, and calms inflammation.",
             "key_active": "Lactococcus Ferment",
-            "step": "2-3x/week"
+            "step": "2-3x/week",
+            "image_path": "sku-probiotic-masque.png"
           }
         },
         "p4": {
@@ -94,7 +97,8 @@
             "price": "$90",
             "why": "Rebuilds barrier, regulates sebum, minimises pores.",
             "key_active": "Niacinamide",
-            "step": "AM & PM"
+            "step": "AM & PM",
+            "image_path": "sku-biocinamide-serum.png"
           }
         },
         "p5": {
@@ -104,7 +108,8 @@
             "price": "$90",
             "why": "Non-comedogenic hydration and UV protection.",
             "key_active": "Matrixyl 3000",
-            "step": "AM"
+            "step": "AM",
+            "image_path": "sku-day-cream-spf15.png"
           }
         }
       },
