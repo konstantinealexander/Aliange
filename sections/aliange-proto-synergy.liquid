@@ -11,17 +11,50 @@
     font-size: 15px;
     color: var(--lp-body);
     line-height: 1.7;
+    {% if section.settings.image == blank %}
     max-width: 720px;
     margin: 0 auto var(--lp-space-2xl);
     text-align: center;
+    {% else %}
+    margin-bottom: var(--lp-space-xl);
+    {% endif %}
   }
   #proto-synergy-{{ section.id }} .proto-synergy-grid {
     display: flex;
     flex-direction: column;
     gap: var(--lp-space-md);
+    {% if section.settings.image == blank %}
     max-width: var(--lp-container-sm);
     margin: 0 auto;
+    {% endif %}
   }
+  {% if section.settings.image %}
+  #proto-synergy-{{ section.id }} .proto-synergy-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--lp-space-2xl);
+    align-items: start;
+  }
+  @media (min-width: 768px) {
+    #proto-synergy-{{ section.id }} .proto-synergy-body { grid-template-columns: 1fr 1fr; }
+    {% if section.settings.image_position == 'left' %}
+    #proto-synergy-{{ section.id }} .proto-synergy-body-image { order: -1; }
+    {% else %}
+    #proto-synergy-{{ section.id }} .proto-synergy-body-image { order: 1; }
+    {% endif %}
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-body-image {
+    border-radius: var(--lp-radius-lg);
+    overflow: hidden;
+    aspect-ratio: 4 / 5;
+  }
+  #proto-synergy-{{ section.id }} .proto-synergy-body-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  {% endif %}
   #proto-synergy-{{ section.id }} .proto-synergy-card {
     display: grid;
     grid-template-columns: 48px 1fr;
@@ -72,20 +105,36 @@
       <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
     </div>
 
-    {%- if section.settings.body != blank -%}
-      <p class="proto-synergy-intro lp-reveal">{{ section.settings.body }}</p>
-    {%- endif -%}
-
-    <div class="proto-synergy-grid">
-      {%- for block in section.blocks -%}
-        <div class="proto-synergy-card lp-reveal" {{ block.shopify_attributes }}>
-          <div class="proto-synergy-num" aria-hidden="true">0{{ forloop.index }}</div>
-          <div>
-            <h3 class="proto-synergy-title">{{ block.settings.title }}</h3>
-            <p class="proto-synergy-desc">{{ block.settings.description }}</p>
-          </div>
+    <div class="proto-synergy-body">
+      {%- if section.settings.image -%}
+        <div class="proto-synergy-body-image lp-reveal">
+          <img
+            src="{{ section.settings.image | image_url: width: 900 }}"
+            alt="{{ section.settings.image.alt | default: section.settings.headline | escape }}"
+            width="900"
+            height="{{ 900 | divided_by: section.settings.image.aspect_ratio | round }}"
+            loading="lazy"
+          >
         </div>
-      {%- endfor -%}
+      {%- endif -%}
+
+      <div>
+        {%- if section.settings.body != blank -%}
+          <p class="proto-synergy-intro lp-reveal">{{ section.settings.body }}</p>
+        {%- endif -%}
+
+        <div class="proto-synergy-grid">
+          {%- for block in section.blocks -%}
+            <div class="proto-synergy-card lp-reveal" {{ block.shopify_attributes }}>
+              <div class="proto-synergy-num" aria-hidden="true">0{{ forloop.index }}</div>
+              <div>
+                <h3 class="proto-synergy-title">{{ block.settings.title }}</h3>
+                <p class="proto-synergy-desc">{{ block.settings.description }}</p>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -99,7 +148,9 @@
   "settings": [
     { "type": "text", "id": "label", "label": "Eyebrow label", "default": "The Science" },
     { "type": "text", "id": "headline", "label": "Headline", "default": "Engineered to Work as One System" },
-    { "type": "textarea", "id": "body", "label": "Body text", "default": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity." }
+    { "type": "textarea", "id": "body", "label": "Body text", "default": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity." },
+    { "type": "image_picker", "id": "image", "label": "Optional image" },
+    { "type": "select", "id": "image_position", "label": "Image position", "options": [{"value":"right","label":"Right"},{"value":"left","label":"Left"}], "default": "right" }
   ],
   "blocks": [
     {
