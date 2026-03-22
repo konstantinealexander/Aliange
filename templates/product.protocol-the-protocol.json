@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,11 +40,15 @@
         "label": "Doctor-Designed · Evidence-Based · Australian Made",
         "headline": "The Complete Clinical System for Ageing, Rejuvenation and Repair",
         "subheadline": "This is the flagship protocol from Aliangé. A comprehensive, 6-step system designed by Dr. Alison Jamieson to deliver a complete clinical skincare solution for women seeking significant, visible results.",
+        "gradient_theme": "none",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Start The Protocol",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "trust_line": "90-Day Results Guarantee Or Your Money Back"
       }
     },
@@ -45,8 +58,10 @@
         "label": "The Problem",
         "headline": "Your Skin Deserves a Protocol, Not a Random Routine.",
         "body": "<p>As skin matures, a collection of randomly assembled products is not enough to address the complex biological changes that occur. To achieve visible, lasting results, you need a system where each product is designed to work in synergy with the others.</p><p><strong>Fragmented routines deliver fragmented results.</strong> Without a clear, synergistic system, you may be missing key steps or using ingredients that conflict, undermining your efforts.</p><p><strong>Ageing is a multi-faceted process.</strong> It involves not just fine lines, but also loss of firmness, uneven skin tone, and a decline in the skin's natural barrier function.</p><p><strong>Generic products are not enough.</strong> Your skin needs a clinical-grade system with high concentrations of proven active ingredients.</p>",
-        "bg": "muted",
-        "width": "narrow"
+        "bg": "white",
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": ""
       }
     },
     "lp_routine": {
@@ -130,6 +145,7 @@
       "settings": {
         "label": "The Protocol",
         "headline": "Your 6-Step Clinical System",
+        "subheadline": "",
         "cta_text": "Start The Protocol",
         "cta_url": ""
       }
@@ -208,7 +224,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
@@ -379,19 +397,22 @@
         "headline": "Frequently Asked Questions"
       }
     },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
+    },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Your Journey to Healthier, More Youthful Skin Starts Here.",
         "subheadline": "Experience the Aliangé difference with our 90-day results guarantee.",
         "cta_text": "Start The Protocol",
         "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
