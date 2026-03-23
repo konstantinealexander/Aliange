@@ -64,6 +64,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Biocinamide_2_d3be817d-6ec7-4545-a946-a1237851704d.png",
         "image_position": "right"
       }
     },
@@ -89,6 +90,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Untitled_88.png",
         "image_position": "right"
       }
     },
@@ -401,6 +403,7 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
+        "image": "shopify://shop_images/Untitled_41_5bfb9f91-d43f-487d-b543-56deaa8813e4.png",
         "image_position": "right"
       }
     },
