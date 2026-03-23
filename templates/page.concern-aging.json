@@ -131,6 +131,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Untitled_40_f06b309f-5a21-4a72-8b30-35a90c48c4d1.png",
         "image_position": "right"
       }
     },
@@ -385,6 +386,7 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
+        "image": "shopify://shop_images/Untitled_49.png",
         "image_position": "right"
       }
     },
