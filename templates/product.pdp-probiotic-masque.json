@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -174,6 +183,7 @@
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
         "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight. Its calming and purifying properties work wonders while you sleep."
       }
     },
@@ -235,7 +245,8 @@
         "heading": "Restore Your Skin's Harmony",
         "subheading": "A weekly scientific reset button for your skin's microbiome.",
         "header_align": "left",
-        "button_text": "Shop Probiotic Masque"
+        "button_text": "Shop Probiotic Masque",
+        "button_url": ""
       }
     },
     "stats": {
@@ -369,7 +380,8 @@
         "subheading": "Traditional masks strip the skin. Aliangé balances and feeds it.",
         "aliange_label": "Probiotic Masque",
         "competitor_label": "Generic Mud Mask",
-        "button_text": "Upgrade Your Mask"
+        "button_text": "Upgrade Your Mask",
+        "button_url": ""
       }
     },
     "ingredients": {
@@ -528,8 +540,13 @@
       "settings": {
         "heading": "Frequently Asked Questions",
         "subheading": "Everything you need to know about the Probiotic Masque.",
-        "button_text": "Shop Probiotic Masque"
+        "button_text": "Shop Probiotic Masque",
+        "button_url": ""
       }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -537,15 +554,12 @@
         "heading": "Your Healthiest Skin Awaits.",
         "subheading": "Invest in the long-term balance of your skin's microbiome.",
         "button_text": "Add to Cart — $50",
+        "button_url": "",
         "trust_line": "90-Day Money-Back Guarantee.",
         "secondary_link_text": "Learn about our clinical approach to breakouts →",
         "secondary_link_url": "/pages/concern-breakouts",
-        "bg_color": "#F4F7F9"
+        "bg_color": "#f4f7f9"
       }
-    },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "settings": {}
     }
   },
   "order": [
