@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -188,7 +197,7 @@
           "type": "question",
           "settings": {
             "question": "2. I’ve tried retinol before and it irritated my skin. Will this?",
-            "answer": "<p>Many retinol products are too strong for barrier-compromised mature skin. Our Vitamin A step is introduced in a structured way and supported with lipid repair to minimise irritation. The protocol is layered to support tolerance, not overwhelm the skin.</p>"
+            "answer": "<p>Many traditional retinol formulas deliver the active too rapidly, which can overwhelm barrier-compromised, mature skin and trigger irritation.</p><p>Our Vitamin A step uses <strong>microencapsulated retinol</strong>, where the active is enclosed within a protective delivery system. This allows for a <strong>slow, controlled release into the skin over time</strong>, rather than a sudden spike in activity.</p><p>The result is more consistent cellular stimulation with significantly less irritation.</p><p>Within the protocol, this is introduced in a structured way and supported with lipid repair, ensuring the skin can tolerate and respond to Vitamin A without compromise.</p>"
           }
         },
         "question_axKJUH": {
@@ -270,6 +279,10 @@
         "content": ""
       }
     },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
+    },
     "aliange_quiz_WKLNp6": {
       "type": "aliange-quiz",
       "name": "Aliangé Skin Quiz",
@@ -284,10 +297,6 @@
         "product_acne": "acne-protocol",
         "product_am": "am-protocol-1"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
