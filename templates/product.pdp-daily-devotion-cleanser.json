@@ -35,7 +35,7 @@
           "settings": {
             "icon": "truck",
             "title": "Free Shipping",
-            "description": "On all orders worldwide"
+            "description": "On all orders over $225"
           }
         },
         "trust_2": {
@@ -135,7 +135,8 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FACCSM — 40+ Years in Cosmetic Medicine",
+        "doctor_image": "shopify://shop_images/Untitled_33_868926e8-ff2a-4061-870e-ea3954b96e64.png",
         "quote": "Never cleanse with hot water, as it can strip the skin of its natural oils and lead to dehydration and sensitivity. Always be gentle; your skin is a delicate organ, not a surface to be scrubbed."
       }
     },
