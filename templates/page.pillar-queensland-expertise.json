@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Aliangé Clinical",
         "headline": "Queensland Skincare Expertise.",
         "subheadline": "Queensland has one of the most demanding climates for skin health. High UV radiation, humidity, heat, and environmental exposure place continuous stress on the skin's biological systems. Skincare designed for these conditions must support skin physiology rather than simply masking visible symptoms.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_23_2026_-_2_08PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,7 +62,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_approach": {
@@ -63,7 +75,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -104,7 +117,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
@@ -263,12 +278,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Doctor-Developed Skincare for Australian Skin.",
         "subheadline": "Discover doctor-developed skincare designed for Australian skin through decades of clinical expertise in Queensland.",
         "cta_text": "Explore the Aliangé Protocol",
@@ -277,10 +298,6 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
