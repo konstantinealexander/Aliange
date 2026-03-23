@@ -1,72 +1,106 @@
+{% comment %}
+  Aliangé LP Comparison Table
+  Two-column "Us vs Them" style matching the PDP comparison design.
+{% endcomment %}
 
 {%- style -%}
-  #lp-comparison-{{ section.id }} { background-color: var(--lp-bg); }
+  #lp-comparison-{{ section.id }} {
+    background-color: var(--lp-bg);
+    padding: var(--lp-space-2xl) var(--lp-space-md);
+  }
   #lp-comparison-{{ section.id }} .lp-comparison-header {
     text-align: center;
     max-width: 640px;
-    margin: 0 auto var(--lp-space-2xl);
+    margin: 0 auto var(--lp-space-xl);
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-radius: var(--lp-radius-lg);
+
+  /* Grid wrapper */
+  #lp-comparison-{{ section.id }} .comparison-grid {
+    max-width: 720px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
     overflow: hidden;
-    border: 1px solid var(--lp-border);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table thead th {
-    padding: var(--lp-space-lg) var(--lp-space-xl);
-    font-family: var(--lp-font-heading);
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: left;
-    border-bottom: 2px solid var(--lp-border);
+
+  /* Column backgrounds */
+  #lp-comparison-{{ section.id }} .cell-us {
+    background: var(--lp-bg-dark);
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table thead th:first-child {
-    background-color: var(--lp-bg-muted);
-    color: var(--lp-body);
-    width: 22%;
+  #lp-comparison-{{ section.id }} .cell-them {
+    background: #ffffff;
+    color: var(--lp-ink);
+    border-bottom: 1px solid var(--lp-border);
+    border-right: 1px solid var(--lp-border);
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table thead th:nth-child(2) {
-    background-color: var(--lp-bg-muted);
-    color: var(--lp-body);
+  #lp-comparison-{{ section.id }} .cell-us.last-row,
+  #lp-comparison-{{ section.id }} .cell-them.last-row {
+    border-bottom: none;
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table thead th:nth-child(3) {
-    background-color: var(--lp-ink);
-    color: #fff;
+
+  /* Column headers */
+  #lp-comparison-{{ section.id }} .col-header {
+    padding: 28px 24px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 88px;
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table tbody tr:nth-child(even) td {
-    background-color: var(--lp-bg-muted);
+  #lp-comparison-{{ section.id }} .cell-us.col-header {
+    border-bottom: 1px solid rgba(255,255,255,0.12);
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table tbody tr:nth-child(even) td:last-child {
-    background-color: rgba(139,111,78,0.08);
+  #lp-comparison-{{ section.id }} .cell-them.col-header {
+    border-bottom: 1px solid var(--lp-border);
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table tbody tr:nth-child(odd) td:last-child {
-    background-color: rgba(139,111,78,0.04);
+  #lp-comparison-{{ section.id }} .header-brand-text,
+  #lp-comparison-{{ section.id }} .header-competitor-text {
+    font-family: var(--lp-font-body);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table tbody td {
-    padding: var(--lp-space-md) var(--lp-space-xl);
+  #lp-comparison-{{ section.id }} .header-brand-text { color: #ffffff; }
+  #lp-comparison-{{ section.id }} .header-competitor-text { color: var(--lp-ink); }
+
+  /* Data rows */
+  #lp-comparison-{{ section.id }} .row-cell {
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-family: var(--lp-font-body);
     font-size: 14px;
-    color: var(--lp-body);
-    border-bottom: 1px solid var(--lp-border);
-    vertical-align: top;
-    line-height: 1.5;
+    line-height: 1.4;
+    min-height: 56px;
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table tbody td:first-child {
-    font-weight: 600;
-    color: var(--lp-ink);
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+  #lp-comparison-{{ section.id }} .cell-icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
   }
-  #lp-comparison-{{ section.id }} .lp-comparison-table tbody td:last-child {
-    color: var(--lp-accent);
-    font-weight: 500;
-  }
-  @media (max-width: 600px) {
-    #lp-comparison-{{ section.id }} .lp-comparison-table { font-size: 13px; }
-    #lp-comparison-{{ section.id }} .lp-comparison-table td,
-    #lp-comparison-{{ section.id }} .lp-comparison-table th { padding: var(--lp-space-sm) var(--lp-space-md); }
+  #lp-comparison-{{ section.id }} .icon-check { color: #4caf50; }
+  #lp-comparison-{{ section.id }} .icon-cross { color: #e57373; }
+
+  @media (max-width: 560px) {
+    #lp-comparison-{{ section.id }} .row-cell {
+      padding: 12px 14px;
+      font-size: 13px;
+      gap: 8px;
+      min-height: 48px;
+    }
+    #lp-comparison-{{ section.id }} .col-header {
+      padding: 20px 14px 16px;
+      min-height: 72px;
+    }
+    #lp-comparison-{{ section.id }} .cell-icon {
+      width: 18px;
+      height: 18px;
+    }
   }
 {%- endstyle -%}
 
@@ -79,25 +113,29 @@
       <h2 class="lp-heading-lg">{{ section.settings.headline }}</h2>
     </div>
 
-    <div class="lp-reveal" style="overflow-x: auto;">
-      <table class="lp-comparison-table">
-        <thead>
-          <tr>
-            <th>Feature</th>
-            <th>{{ section.settings.col_them | default: 'Typical Products' }}</th>
-            <th>{{ section.settings.col_us | default: 'Aliangé Approach' }}</th>
-          </tr>
-        </thead>
-        <tbody>
-          {%- for block in section.blocks -%}
-            <tr {{ block.shopify_attributes }}>
-              <td>{{ block.settings.feature }}</td>
-              <td>{{ block.settings.them }}</td>
-              <td>{{ block.settings.us }}</td>
-            </tr>
-          {%- endfor -%}
-        </tbody>
-      </table>
+    <div class="comparison-grid lp-reveal">
+
+      {%- comment -%} Header row {%- endcomment -%}
+      <div class="cell-us col-header">
+        <span class="header-brand-text">{{ section.settings.col_us | default: 'Aliangé' }}</span>
+      </div>
+      <div class="cell-them col-header">
+        <span class="header-competitor-text">{{ section.settings.col_them | default: 'Typical Products' }}</span>
+      </div>
+
+      {%- comment -%} Data rows {%- endcomment -%}
+      {% for block in section.blocks %}
+        {%- assign is_last = forloop.last -%}
+        <div class="cell-us row-cell {% if is_last %}last-row{% endif %}" {{ block.shopify_attributes }}>
+          <svg class="cell-icon icon-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/></svg>
+          <span>{{ block.settings.us }}</span>
+        </div>
+        <div class="cell-them row-cell {% if is_last %}last-row{% endif %}">
+          <svg class="cell-icon icon-cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm37.66,130.34a8,8,0,0,1-11.32,11.32L128,139.31l-26.34,26.35a8,8,0,0,1-11.32-11.32L116.69,128,90.34,101.66a8,8,0,0,1,11.32-11.32L128,116.69l26.34-26.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></svg>
+          <span>{{ block.settings.them }}</span>
+        </div>
+      {% endfor %}
+
     </div>
   </div>
 </section>
@@ -111,17 +149,16 @@
   "settings": [
     { "type": "text", "id": "label", "label": "Eyebrow label", "default": "The Difference" },
     { "type": "text", "id": "headline", "label": "Headline", "default": "Why Aliangé Is Different" },
-    { "type": "text", "id": "col_them", "label": "Column 2 header", "default": "Typical Products" },
-    { "type": "text", "id": "col_us", "label": "Column 3 header", "default": "Aliangé Clinical Approach" }
+    { "type": "text", "id": "col_us", "label": "Left column header (Aliangé)", "default": "Aliangé Clinical Approach" },
+    { "type": "text", "id": "col_them", "label": "Right column header (Competitor)", "default": "Typical Products" }
   ],
   "blocks": [
     {
       "type": "row",
       "name": "Row",
       "settings": [
-        { "type": "text", "id": "feature", "label": "Feature", "default": "Approach" },
-        { "type": "textarea", "id": "them", "label": "Typical products", "default": "Single ingredient focus" },
-        { "type": "textarea", "id": "us", "label": "Aliangé approach", "default": "Multi-pathway, synergistic protocol" }
+        { "type": "textarea", "id": "us", "label": "Aliangé (left)", "default": "Multi-pathway, synergistic protocol" },
+        { "type": "textarea", "id": "them", "label": "Competitor (right)", "default": "Single ingredient focus" }
       ]
     }
   ],
