@@ -54,6 +54,13 @@
         "trust_line": "Doctor-Developed | Science-Backed | Australian-Made"
       }
     },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
     "lp_problem": {
       "type": "aliange-lp-text-block",
       "settings": {
@@ -79,7 +86,7 @@
         "cta_text": "",
         "cta_url": "",
         "image": "shopify://shop_images/JFP_67a43f12-e924-4740-b619-44a026ab2882.png",
-        "image_position": "right"
+        "image_position": "left"
       }
     },
     "lp_jellyfish": {
@@ -156,39 +163,82 @@
         "subheadline": ""
       }
     },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "AHPRA Compliant"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
+    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Mechanism",
-            "them": "Surface hydration",
-            "us": "Cellular signalling via peptides"
+            "us": "Cellular signalling via peptides",
+            "them": "Surface hydration"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Peptide Types",
-            "them": "Single generic peptide",
-            "us": "Signal + DNA-protective peptides"
+            "us": "Signal + DNA-protective peptides",
+            "them": "Single generic peptide"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Antioxidants",
-            "them": "Basic vitamin C",
-            "us": "Kakadu Plum (100x vitamin C) + marine extracts"
+            "us": "Kakadu Plum (100x vitamin C) + marine extracts",
+            "them": "Basic vitamin C"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Formulation",
-            "them": "Marketing-led",
-            "us": "Doctor-developed with 40+ years clinical experience"
+            "us": "Doctor-developed with 40+ years clinical experience",
+            "them": "Marketing-led"
           }
         }
       },
@@ -201,8 +251,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "Why Peptide Technology Matters",
-        "col_them": "Basic Anti-Ageing Serums",
-        "col_us": "Aliangé Jellyfish Peptide Serum"
+        "col_us": "Aliangé Jellyfish Peptide Serum",
+        "col_them": "Basic Anti-Ageing Serums"
       }
     },
     "lp_faq": {
@@ -261,64 +311,10 @@
         "headline": "Advanced Peptide Technology for Skin Resilience.",
         "subheadline": "Explore the Jellyfish Peptide X Antioxidant Serum and discover advanced peptide technology designed to support skin structure and resilience.",
         "cta_text": "Shop Jellyfish Peptide Serum",
-        "cta_url": "/products/jellyfish-peptide-x-antioxidant-serum",
+        "cta_url": "shopify://products/jellyfish-peptide-x-dna-repair",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
-    },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "AHPRA Compliant"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
       }
     }
   },
