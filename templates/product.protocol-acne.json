@@ -15,7 +15,7 @@
         "b1": {
           "type": "bullet",
           "settings": {
-            "text": "Repairs \u0026 Strengthens: Fortifies your skin’s natural barrier."
+            "text": "Repairs & Strengthens: Fortifies your skin’s natural barrier."
           }
         },
         "b2": {
@@ -388,10 +388,78 @@
     "klaviyo_all_reviews": {
       "type": "aliange-klaviyo-reviews-all",
       "settings": {}
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "blocks": {
+        "press_1": {
+          "type": "logo",
+          "settings": {
+            "asset_name": "press-vogue.avif",
+            "alt_text": "VOGUE"
+          }
+        },
+        "press_2": {
+          "type": "logo",
+          "settings": {
+            "asset_name": "press-highsnobiety.avif",
+            "alt_text": "Highsnobiety"
+          }
+        },
+        "press_3": {
+          "type": "logo",
+          "settings": {
+            "asset_name": "press-id.webp",
+            "alt_text": "I-D"
+          }
+        },
+        "press_4": {
+          "type": "logo",
+          "settings": {
+            "asset_name": "press-russh.avif",
+            "alt_text": "RUSSH"
+          }
+        },
+        "press_5": {
+          "type": "logo",
+          "settings": {
+            "asset_name": "press-oyster.avif",
+            "alt_text": "Oyster"
+          }
+        },
+        "press_6": {
+          "type": "logo",
+          "settings": {
+            "asset_name": "press-the-cut.avif",
+            "alt_text": "The Cut"
+          }
+        },
+        "press_7": {
+          "type": "logo",
+          "settings": {
+            "asset_name": "press-the-file.avif",
+            "alt_text": "The File"
+          }
+        }
+      },
+      "block_order": [
+        "press_1",
+        "press_2",
+        "press_3",
+        "press_4",
+        "press_5",
+        "press_6",
+        "press_7"
+      ],
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
     }
   },
   "order": [
     "lp_hero",
+    "press_ticker",
     "lp_problem",
     "lp_routine",
     "proto_synergy",
