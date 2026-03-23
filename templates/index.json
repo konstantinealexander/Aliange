@@ -350,37 +350,6 @@
         "content": ""
       }
     },
-    "protocols_featured": {
-      "type": "featured-collections",
-      "blocks": {
-        "protocols_block": {
-          "type": "collection",
-          "settings": {
-            "collection": "protocols",
-            "products_count": 6,
-            "title": "",
-            "link_url": "shopify://collections/protocols",
-            "link_text": "View All Protocols"
-          }
-        }
-      },
-      "block_order": [
-        "protocols_block"
-      ],
-      "name": "Protocols Collection",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "DOCTOR-PRESCRIBED",
-        "hide_collection_title": false
-      }
-    },
     "view_all_cta": {
       "type": "rich-text",
       "blocks": {
@@ -420,6 +389,37 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "protocols_featured": {
+      "type": "featured-collections",
+      "blocks": {
+        "protocols_block": {
+          "type": "collection",
+          "settings": {
+            "collection": "protocols",
+            "products_count": 6,
+            "title": "",
+            "link_url": "shopify://collections/protocols",
+            "link_text": "View All Protocols"
+          }
+        }
+      },
+      "block_order": [
+        "protocols_block"
+      ],
+      "name": "Protocols Collection",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "DOCTOR-PRESCRIBED",
+        "hide_collection_title": false
       }
     },
     "pillar_links": {
@@ -467,8 +467,8 @@
     "concern_grid",
     "before_after_duo_JwKtWJ",
     "testimonials",
-    "protocols_featured",
     "view_all_cta",
+    "protocols_featured",
     "pillar_links"
   ]
 }
