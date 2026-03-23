@@ -1,8 +1,10 @@
 {% comment %}
   Aliangé Press Ticker Section
   Scrolling ticker of press logos with grayscale-to-color transition.
+  Logos are hardcoded as theme assets.
 {% endcomment %}
 
+{%- assign press_logos = "press-vogue.avif|VOGUE,press-highsnobiety.avif|Highsnobiety,press-id.webp|I-D,press-russh.avif|RUSSH,press-oyster.avif|Oyster,press-the-cut.avif|The Cut,press-the-file.avif|The File" | split: "," -%}
 
 {%- style -%}
   #pdp-press-{{ section.id }} {
@@ -43,7 +45,6 @@
   #pdp-press-{{ section.id }}:hover .press-track {
     animation-play-state: paused;
   }
-
   .press-item {
     flex-shrink: 0;
     height: 32px;
@@ -62,7 +63,6 @@
     max-width: 150px;
     object-fit: contain;
   }
-
   @media (prefers-reduced-motion: reduce) {
     #pdp-press-{{ section.id }} .press-track {
       animation: none;
@@ -80,17 +80,12 @@
 
   <div class="press-ticker">
     <div class="press-track">
-      {%- comment -%} Double the logs for seamless loop {%- endcomment -%}
+      {%- comment -%} Doubled for seamless infinite loop {%- endcomment -%}
       {% for i in (1..2) %}
-        {% for block in section.blocks %}
-          <div class="press-item" {{ block.shopify_attributes }}>
-            {% if block.settings.asset_name != blank %}
-              <img src="{{ block.settings.asset_name | asset_url }}" alt="{{ block.settings.alt_text | default: 'Press Logo' }}" height="32" loading="lazy">
-            {% elsif block.settings.image != blank %}
-              <img src="{{ block.settings.image | image_url: height: 64 }}" alt="{{ block.settings.alt_text | default: 'Press Logo' }}" width="120" height="32" loading="lazy">
-            {% else %}
-               <span style="font-family: var(--pdp-font-heading); font-size: 20px; font-weight: 700; color: var(--pdp-ink);">LOGO</span>
-            {% endif %}
+        {% for logo in press_logos %}
+          {%- assign parts = logo | split: "|" -%}
+          <div class="press-item">
+            <img src="{{ parts[0] | asset_url }}" alt="{{ parts[1] }}" height="32" loading="lazy">
           </div>
         {% endfor %}
       {% endfor %}
@@ -121,39 +116,9 @@
       "default": 30
     }
   ],
-  "blocks": [
-    {
-      "type": "logo",
-      "name": "Press Logo",
-      "settings": [
-        {
-          "type": "text",
-          "id": "asset_name",
-          "label": "Asset Filename (e.g. press-vogue.avif)"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Logo Image (overridden by asset filename)"
-        },
-        {
-          "type": "text",
-          "id": "alt_text",
-          "label": "Alt Text",
-          "default": "Press Logo"
-        }
-      ]
-    }
-  ],
   "presets": [
     {
-      "name": "Press Ticker",
-      "blocks": [
-        { "type": "logo" },
-        { "type": "logo" },
-        { "type": "logo" },
-        { "type": "logo" }
-      ]
+      "name": "Press Ticker"
     }
   ]
 }
