@@ -1,11 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
-      "settings": {
-        "description": "Experience a clinical-strength, dual-action exfoliation that instantly smooths texture, refines pores, and unveils a luminous, revitalised complexion. Developed by Dr. Alison Jamieson to bring the results of a professional treatment to your home.",
-        "atc_text": "Shop Now & Reveal Your Radiance — $55"
-      },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
@@ -81,14 +86,14 @@
         "faq_1",
         "faq_2",
         "faq_3"
-      ]
+      ],
+      "settings": {
+        "description": "Experience a clinical-strength, dual-action exfoliation that instantly smooths texture, refines pores, and unveils a luminous, revitalised complexion. Developed by Dr. Alison Jamieson to bring the results of a professional treatment to your home.",
+        "atc_text": "Shop Now & Reveal Your Radiance — $55"
+      }
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      },
       "blocks": {
         "press_1": {
           "type": "logo",
@@ -120,15 +125,14 @@
         "press_2",
         "press_3",
         "press_4"
-      ]
+      ],
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
-      "settings": {
-        "label": "Professional Resurfacing",
-        "bg_color": "#ffffff",
-        "speed": 25
-      },
       "blocks": {
         "badge_1": {
           "type": "badge",
@@ -167,24 +171,24 @@
         "badge_3",
         "badge_4",
         "badge_5"
-      ]
+      ],
+      "settings": {
+        "label": "Professional Resurfacing",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
         "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "doctor_image": "shopify://shop_images/Untitled_33_868926e8-ff2a-4061-870e-ea3954b96e64.png",
         "quote": "Use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with your serums, as their absorption will be significantly enhanced by removing barrier of dead cells."
       }
     },
     "benefits": {
       "type": "aliange-pdp-benefits",
-      "settings": {
-        "heading": "Reveal Your Brightest Skin",
-        "subheading": "Experience the clinical power of dual-action renewal.",
-        "header_align": "left",
-        "button_text": "Shop Transforming Exfoliator"
-      },
       "blocks": {
         "b1": {
           "type": "benefit",
@@ -236,15 +240,17 @@
         "b4",
         "b5",
         "b6"
-      ]
+      ],
+      "settings": {
+        "heading": "Reveal Your Brightest Skin",
+        "subheading": "Experience the clinical power of dual-action renewal.",
+        "header_align": "left",
+        "button_text": "Shop Transforming Exfoliator",
+        "button_url": ""
+      }
     },
     "stats": {
       "type": "aliange-pdp-stats",
-      "settings": {
-        "heading": "The Science of Resurfacing.",
-        "subheading": "Technical data for professional-level results at home:",
-        "columns": 4
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -284,17 +290,15 @@
         "s2",
         "s3",
         "s4"
-      ]
+      ],
+      "settings": {
+        "heading": "The Science of Resurfacing.",
+        "subheading": "Technical data for professional-level results at home:",
+        "columns": 4
+      }
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
-      "settings": {
-        "heading": "Resurfacing vs. Scrubbing",
-        "subheading": "Harsh scrubs damage the skin. Aliangé transforms it.",
-        "aliange_label": "Transforming Exfoliator",
-        "competitor_label": "Generic Nut/Seed Scrub",
-        "button_text": "Upgrade Your Exfoliation"
-      },
       "blocks": {
         "r1": {
           "type": "comparison_row",
@@ -370,15 +374,18 @@
         "r6",
         "r7",
         "r8"
-      ]
+      ],
+      "settings": {
+        "heading": "Resurfacing vs. Scrubbing",
+        "subheading": "Harsh scrubs damage the skin. Aliangé transforms it.",
+        "aliange_label": "Transforming Exfoliator",
+        "competitor_label": "Generic Nut/Seed Scrub",
+        "button_text": "Upgrade Your Exfoliation",
+        "button_url": ""
+      }
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
-      "settings": {
-        "heading": "Dual-Action Actives.",
-        "subheading": "A synergistic blend of professional acids and gentle mechanical polishers.",
-        "columns": 3
-      },
       "blocks": {
         "i1": {
           "type": "ingredient",
@@ -432,16 +439,15 @@
         "i3",
         "i4",
         "i5"
-      ]
+      ],
+      "settings": {
+        "heading": "Dual-Action Actives.",
+        "subheading": "A synergistic blend of professional acids and gentle mechanical polishers.",
+        "columns": 3
+      }
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
-      "settings": {
-        "heading": "The Transformation Ritual",
-        "subheading": "Follow these steps for clinical-grade resurfacing at home.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "For optimal results, use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with serums as their absorption will be significantly enhanced."
-      },
       "blocks": {
         "step1": {
           "type": "step",
@@ -477,15 +483,16 @@
         "step2",
         "step3",
         "step4"
-      ]
+      ],
+      "settings": {
+        "heading": "The Transformation Ritual",
+        "subheading": "Follow these steps for clinical-grade resurfacing at home.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "For optimal results, use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with serums as their absorption will be significantly enhanced."
+      }
     },
     "faq": {
       "type": "aliange-pdp-faq",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "Everything you need to know about professional at-home resurfacing.",
-        "button_text": "Shop Transforming Exfoliator"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -529,7 +536,17 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about professional at-home resurfacing.",
+        "button_text": "Shop Transforming Exfoliator",
+        "button_url": ""
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -537,15 +554,12 @@
         "heading": "Ready for Your Transformation?",
         "subheading": "Your skin's clinical-grade renewal is just one step away.",
         "button_text": "Add to Bag - $55",
+        "button_url": "",
         "trust_line": "90-Day Money-Back Results Guarantee.",
-        "bg_color": "#F4F7F9",
         "secondary_link_text": "Learn about our clinical approach to dullness →",
-        "secondary_link_url": "/pages/concern-dullness"
+        "secondary_link_url": "/pages/concern-dullness",
+        "bg_color": "#f4f7f9"
       }
-    },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "settings": {}
     }
   },
   "order": [
