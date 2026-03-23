@@ -64,6 +64,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/BrighteningSerum_a8edd9ec-1370-480a-8255-d33c7adaf078.png",
         "image_position": "right"
       }
     },
@@ -89,6 +90,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Untitled_52_26e4192e-304d-41bc-a3d4-feb7e683c30f.png",
         "image_position": "right"
       }
     },
@@ -377,6 +379,7 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
+        "image": "shopify://shop_images/Untitled_48.png",
         "image_position": "right"
       }
     },
