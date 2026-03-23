@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -6,7 +15,7 @@
         "b1": {
           "type": "bullet",
           "settings": {
-            "text": "Establishes a complete, clinically-effective skincare protocol."
+            "text": "Establishes a complete, clinically-effective skincare routine."
           }
         },
         "b2": {
@@ -43,14 +52,14 @@
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Problem",
-        "headline": "Is Your Skincare Protocol Working Against You?",
-        "body": "<p>Many protocols fail to deliver. This leads to a compromised barrier, accelerated ageing, and persistent concerns.</p><p><strong>Inconsistent protocols deliver inconsistent results.</strong></p><p><strong>Environmental factors are a daily threat.</strong> UV and pollutants cause cellular damage.</p><p><strong>Night-time is a missed opportunity.</strong> Your skin is primed for regeneration during sleep.</p>",
+        "headline": "Is Your Skincare Routine Working Against You?",
+        "body": "<p>Many routines fail to deliver. This leads to a compromised barrier, accelerated ageing, and persistent concerns.</p><p><strong>Inconsistent routines deliver inconsistent results.</strong></p><p><strong>Environmental factors are a daily threat.</strong> UV and pollutants cause cellular damage.</p><p><strong>Night-time is a missed opportunity.</strong> Your skin is primed for regeneration during sleep.</p>",
         "bg": "muted",
         "width": "narrow"
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-protocol",
+      "type": "aliange-lp-routine",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -178,8 +187,8 @@
       ],
       "settings": {
         "label": "The Difference",
-        "headline": "A Protocol. Not a Protocol.",
-        "col_them": "A Random Protocol",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "A Random Routine",
         "col_us": "The Aliange Protocol"
       }
     },
@@ -320,7 +329,7 @@
     "lp_hero",
     "press_ticker",
     "lp_problem",
-    "lp_protocol",
+    "lp_routine",
     "proto_synergy",
     "lp_comparison",
     "aliange_pdp_hero_Essntl",

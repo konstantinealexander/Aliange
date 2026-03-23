@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Mechanism",
             "aliange_value": "Postbiotic Training",
             "competitor_value": "Surface Hydration"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Cellular Impact",
             "aliange_value": "5.5x Ceramide Boost",
             "competitor_value": "Temporary Plumping"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Sebum Control",
             "aliange_value": "29% Flow Reduction",
             "competitor_value": "Negligible Change"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Barrier Repair",
             "aliange_value": "18% Loss Reduction",
             "competitor_value": "Sits On Layer"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Pharmacy Shelf Brands"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Longevity",
             "aliange_value": "Structural Change",
             "competitor_value": "Wash-off Effect"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Active %",
             "aliange_value": "5% Niacinamide",
             "competitor_value": "< 1% Actives"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Ditch The Generic Creams",
         "subheading": "Standard luxury serums provide moisture. We provide cellular instructions.",
         "aliange_label": "Biocinamide Serum",
-        "competitor_label": "Other \"Pore\" Serums",
-        "button_text": "Upgrade Your Skincare",
-        "button_url": ""
+        "competitor_label": "Other \"Pore\" Serums"
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "Barrier Fortification Protocol",
-        "subheading": "Follow these steps to restore harmony to your skin.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "Don’t just apply this serum to your face. The delicate skin on your neck and chest is just as prone to barrier damage and will benefit immensely from the ceramide-boosting properties."
+        "subheading": "Follow these steps to restore harmony to your skin."
       }
     },
     "faq": {

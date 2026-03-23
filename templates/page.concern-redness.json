@@ -21,7 +21,7 @@
         "b2": {
           "type": "bullet",
           "settings": {
-            "text": "Learn how a multi-product protocol can rebuild your skin's resilience."
+            "text": "Learn how a multi-product routine can rebuild your skin's resilience."
           }
         },
         "b3": {
@@ -85,7 +85,7 @@
       "settings": {
         "label": "Our Approach",
         "headline": "A Clinical Approach to Calming Redness",
-        "body": "<p>While many products offer a single ingredient to temporarily soothe redness, Aliangé's philosophy is to target the multiple underlying causes of inflammation simultaneously. Our approach utilises a synergistic protocol of products that work together to rebuild the skin barrier, inhibit inflammatory pathways, and support a healthy microbiome.</p>",
+        "body": "<p>While many products offer a single ingredient to temporarily soothe redness, Aliangé's philosophy is to target the multiple underlying causes of inflammation simultaneously. Our approach utilises a synergistic routine of products that work together to rebuild the skin barrier, inhibit inflammatory pathways, and support a healthy microbiome.</p>",
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
@@ -95,7 +95,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-protocol",
+      "type": "aliange-lp-routine",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -162,7 +162,7 @@
       ],
       "settings": {
         "label": "The Protocol",
-        "headline": "Your Redness Protocol",
+        "headline": "Your Redness Routine",
         "subheadline": "",
         "cta_text": "Target Redness with the Right Protocol",
         "cta_url": "shopify://products/acne-protocol"
@@ -224,7 +224,7 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Benefits of the Protocol",
+        "headline": "Benefits of the Routine",
         "subheadline": ""
       }
     },
@@ -287,7 +287,7 @@
           "settings": {
             "feature": "Formula",
             "them": "Single-ingredient formulas",
-            "us": "Multi-pathway, synergistic protocol"
+            "us": "Multi-pathway, synergistic routine"
           }
         },
         "r3": {
@@ -326,8 +326,8 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Is this protocol suitable for rosacea?",
-            "answer": "<p>Yes, this protocol was specifically designed for rosacea-prone and sensitive skin. By targeting inflammation, supporting the barrier, and balancing the microbiome, it addresses the key factors involved in rosacea.</p>"
+            "question": "Is this routine suitable for rosacea?",
+            "answer": "<p>Yes, this routine was specifically designed for rosacea-prone and sensitive skin. By targeting inflammation, supporting the barrier, and balancing the microbiome, it addresses the key factors involved in rosacea.</p>"
           }
         },
         "q2": {
@@ -348,7 +348,7 @@
           "type": "question",
           "settings": {
             "question": "Can I use these products with my prescription rosacea medication?",
-            "answer": "<p>Yes, the Aliangé protocol can be used to support your skin alongside most prescription treatments. However, we always recommend consulting with your prescribing doctor before introducing new products.</p>"
+            "answer": "<p>Yes, the Aliangé routine can be used to support your skin alongside most prescription treatments. However, we always recommend consulting with your prescribing doctor before introducing new products.</p>"
           }
         }
       },
@@ -442,7 +442,7 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_protocol",
+    "lp_routine",
     "lp_benefits",
     "lp_timeline",
     "trust_bar",

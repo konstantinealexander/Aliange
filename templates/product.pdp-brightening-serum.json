@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Mechanism",
             "aliange_value": "5-Pathway Shield",
             "competitor_value": "Single pathway"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Cellular Impact",
             "aliange_value": "Melanin Master-Switch",
             "competitor_value": "Surface Only"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Potency",
             "aliange_value": "16x vs Hydroquinone",
             "competitor_value": "Diluted vit C"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Results",
             "aliange_value": "Visible in 4 Weeks",
             "competitor_value": "Inconsistent"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Pharmacy Shelf Brands"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Skin Type",
             "aliange_value": "Safe for All Tones",
             "competitor_value": "High Irritation Risk"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Multitasking",
             "aliange_value": "Exfoliates + Corrects",
             "competitor_value": "Correction Only"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Ditch The Generic Creams",
         "subheading": "Standard luxury serums target one pathway. We target five.",
         "aliange_label": "Brightening Serum",
-        "competitor_label": "Other \"Brighteners\"",
-        "button_text": "Upgrade Your Skincare",
-        "button_url": ""
+        "competitor_label": "Other \"Brighteners\""
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "The Brightening Protocol",
-        "subheading": "Follow these steps for optimal pigment correction.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": ""
+        "subheading": "Follow these steps for optimal pigment correction."
       }
     },
     "faq": {

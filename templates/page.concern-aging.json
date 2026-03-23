@@ -21,7 +21,7 @@
         "b2": {
           "type": "bullet",
           "settings": {
-            "text": "Discover a clinical, multi-product protocol to target ageing from multiple angles."
+            "text": "Discover a clinical, multi-product routine to target ageing from multiple angles."
           }
         },
         "b3": {
@@ -94,7 +94,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-protocol",
+      "type": "aliange-lp-routine",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -137,9 +137,9 @@
       ],
       "settings": {
         "label": "The Protocol",
-        "headline": "Your Anti-Ageing Protocol",
+        "headline": "Your Anti-Ageing Routine",
         "subheadline": "",
-        "cta_text": "Shop the Anti-Ageing Protocol",
+        "cta_text": "Shop the Anti-Ageing Routine",
         "cta_url": "shopify://products/anti-ageing-protocol"
       }
     },
@@ -199,7 +199,7 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Benefits of the Protocol",
+        "headline": "Benefits of the Routine",
         "subheadline": ""
       }
     },
@@ -254,7 +254,7 @@
           "settings": {
             "feature": "Approach",
             "them": "Single ingredient focus",
-            "us": "Multi-pathway, synergistic protocol"
+            "us": "Multi-pathway, synergistic routine"
           }
         },
         "r2": {
@@ -302,13 +302,13 @@
           "type": "question",
           "settings": {
             "question": "At what age should I start using anti-ageing products?",
-            "answer": "<p>While there's no magic number, collagen production begins to decline from your mid-20s. Starting a preventative protocol with SPF and antioxidants in your late 20s or early 30s is ideal. However, it's never too late to start seeing significant improvements with a clinical-grade protocol.</p>"
+            "answer": "<p>While there's no magic number, collagen production begins to decline from your mid-20s. Starting a preventative routine with SPF and antioxidants in your late 20s or early 30s is ideal. However, it's never too late to start seeing significant improvements with a clinical-grade routine.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Is this protocol suitable for sensitive skin?",
+            "question": "Is this routine suitable for sensitive skin?",
             "answer": "<p>Our <strong>microencapsulated retinol</strong> is specifically designed to deliver vitamin A gradually, helping minimise irritation while still supporting collagen renewal and skin regeneration. Most people tolerate it very well.</p><p>However, because the <strong>Brightening Serum contains active exfoliating acids</strong>, we recommend introducing it slowly. Start by using it <strong>every other night</strong>, then gradually increase to nightly use as your skin adapts.</p>"
           }
         },
@@ -316,14 +316,14 @@
           "type": "question",
           "settings": {
             "question": "Can I use these products if I get cosmetic injectables?",
-            "answer": "<p>Absolutely. In fact, this protocol is the perfect complement to clinical treatments. It helps to maintain and enhance the results of procedures like Botox and fillers by improving overall skin health, quality, and resilience.</p>"
+            "answer": "<p>Absolutely. In fact, this routine is the perfect complement to clinical treatments. It helps to maintain and enhance the results of procedures like Botox and fillers by improving overall skin health, quality, and resilience.</p>"
           }
         },
         "q4": {
           "type": "question",
           "settings": {
-            "question": "Why is a multi-product protocol necessary?",
-            "answer": "<p>Ageing is a complex process with multiple causes. A single product can't effectively address DNA damage, collagen loss, and cellular senescence all at once. Our multi-pathway protocol ensures you are targeting each of these mechanisms for the most comprehensive and visible results.</p>"
+            "question": "Why is a multi-product routine necessary?",
+            "answer": "<p>Ageing is a complex process with multiple causes. A single product can't effectively address DNA damage, collagen loss, and cellular senescence all at once. Our multi-pathway routine ensures you are targeting each of these mechanisms for the most comprehensive and visible results.</p>"
           }
         },
         "q5": {
@@ -425,7 +425,7 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_protocol",
+    "lp_routine",
     "lp_benefits",
     "lp_timeline",
     "trust_bar",

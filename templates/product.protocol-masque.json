@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -43,14 +52,14 @@
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Problem",
-        "headline": "Is Your Skincare Protocol Hitting a Plateau?",
-        "body": "<p>Even consistent protocols can fall short. Dead cell accumulation, a compromised microbiome, and declining cellular repair lead to dullness and accelerated ageing.</p><p><strong>Dull texture</strong> without deep exfoliation.</p><p><strong>Unbalanced ecosystem</strong> from stress and harsh products.</p><p><strong>Slowing cellular repair</strong> with age.</p>",
+        "headline": "Is Your Skincare Routine Hitting a Plateau?",
+        "body": "<p>Even consistent routines can fall short. Dead cell accumulation, a compromised microbiome, and declining cellular repair lead to dullness and accelerated ageing.</p><p><strong>Dull texture</strong> without deep exfoliation.</p><p><strong>Unbalanced ecosystem</strong> from stress and harsh products.</p><p><strong>Slowing cellular repair</strong> with age.</p>",
         "bg": "muted",
         "width": "narrow"
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-protocol",
+      "type": "aliange-lp-routine",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -178,7 +187,7 @@
       ],
       "settings": {
         "label": "The Difference",
-        "headline": "A Protocol. Not a Protocol.",
+        "headline": "A Protocol. Not a Routine.",
         "col_them": "Random Products",
         "col_us": "Aliange Masque Protocol"
       }
@@ -312,7 +321,7 @@
     "lp_hero",
     "press_ticker",
     "lp_problem",
-    "lp_protocol",
+    "lp_routine",
     "proto_synergy",
     "lp_comparison",
     "aliange_pdp_hero_Masque",

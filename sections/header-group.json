@@ -49,7 +49,7 @@
         "hide_on_scroll": false,
         "show_separation_border": true,
         "reduce_padding": false,
-        "logo": "{{shop.brand.logo}}",
+        "logo": "shopify://shop_images/Aliange_wordmark_300x150_01142fa4-9b5b-43f7-8d65-382aef62a9a4.png",
         "logo_max_width": 130,
         "logo_mobile_max_width": 80,
         "menu": "main-menu",

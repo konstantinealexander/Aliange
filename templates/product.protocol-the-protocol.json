@@ -56,8 +56,8 @@
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Problem",
-        "headline": "Your Skin Deserves a Protocol, Not a Random Protocol.",
-        "body": "<p>As skin matures, a collection of randomly assembled products is not enough to address the complex biological changes that occur. To achieve visible, lasting results, you need a system where each product is designed to work in synergy with the others.</p><p><strong>Fragmented protocols deliver fragmented results.</strong> Without a clear, synergistic system, you may be missing key steps or using ingredients that conflict, undermining your efforts.</p><p><strong>Ageing is a multi-faceted process.</strong> It involves not just fine lines, but also loss of firmness, uneven skin tone, and a decline in the skin's natural barrier function.</p><p><strong>Generic products are not enough.</strong> Your skin needs a clinical-grade system with high concentrations of proven active ingredients.</p>",
+        "headline": "Your Skin Deserves a Protocol, Not a Random Routine.",
+        "body": "<p>As skin matures, a collection of randomly assembled products is not enough to address the complex biological changes that occur. To achieve visible, lasting results, you need a system where each product is designed to work in synergy with the others.</p><p><strong>Fragmented routines deliver fragmented results.</strong> Without a clear, synergistic system, you may be missing key steps or using ingredients that conflict, undermining your efforts.</p><p><strong>Ageing is a multi-faceted process.</strong> It involves not just fine lines, but also loss of firmness, uneven skin tone, and a decline in the skin's natural barrier function.</p><p><strong>Generic products are not enough.</strong> Your skin needs a clinical-grade system with high concentrations of proven active ingredients.</p>",
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
@@ -65,7 +65,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-protocol",
+      "type": "aliange-lp-routine",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -239,8 +239,8 @@
       ],
       "settings": {
         "label": "The Difference",
-        "headline": "A Protocol. Not a Protocol.",
-        "col_them": "The Random Protocol Problem",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "The Random Routine Problem",
         "col_us": "The Protocol Advantage"
       }
     },
@@ -384,7 +384,7 @@
     "lp_hero",
     "press_ticker",
     "lp_problem",
-    "lp_protocol",
+    "lp_routine",
     "proto_synergy",
     "lp_comparison",
     "aliange_pdp_hero_TheProto",

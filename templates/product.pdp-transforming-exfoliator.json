@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Exfoliation Type",
             "aliange_value": "Dual: AHA + Physical",
             "competitor_value": "Physical Only"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Particle Shape",
             "aliange_value": "Perfectly Spherical",
             "competitor_value": "Jagged/Irregular"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Skin Damage",
             "aliange_value": "Zero Micro-Tears",
             "competitor_value": "High Risk of Tears"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "AHA Size",
             "aliange_value": "76 Daltons (Deepest)",
             "competitor_value": "N/A or Large Molecules"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Action",
             "aliange_value": "Dissolves + Polishes",
             "competitor_value": "Scratching Surface"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Blemish Control",
             "aliange_value": "5% Tea Tree Oil",
             "competitor_value": "None"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Absorption Boost",
             "aliange_value": "Clinically Proven",
             "competitor_value": "Coats Skin with Wax"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Resurfacing vs. Scrubbing",
         "subheading": "Harsh scrubs damage the skin. Aliangé transforms it.",
         "aliange_label": "Transforming Exfoliator",
-        "competitor_label": "Generic Nut/Seed Scrub",
-        "button_text": "Upgrade Your Exfoliation",
-        "button_url": ""
+        "competitor_label": "Generic Nut/Seed Scrub"
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "The Transformation Protocol",
-        "subheading": "Follow these steps for clinical-grade resurfacing at home.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "For optimal results, use the Transforming Exfoliator 2-3 times per week in the evening. Follow immediately with serums as their absorption will be significantly enhanced."
+        "subheading": "Follow these steps for clinical-grade resurfacing at home."
       }
     },
     "faq": {

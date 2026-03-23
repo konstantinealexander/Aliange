@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Irritation Risk",
             "aliange_value": "Minimal (Bakuchiol)",
             "competitor_value": "High (Retinol Burn)"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Stability",
             "aliange_value": "9x longer half-life",
             "competitor_value": "Degrades quickly"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Wrinkle Depth",
             "aliange_value": "20% Reduction",
             "competitor_value": "Inconsistent"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Technology",
             "aliange_value": "Micro-Encapsulation",
             "competitor_value": "Free/Active Retinol"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Consumer Brand"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Hydration",
             "aliange_value": "Amazonian Cupuacu",
             "competitor_value": "Silicone Fillers"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Barrier Support",
             "aliange_value": "Sodium Hyaluronate Mesh",
             "competitor_value": "Strips Barrier"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Stability vs. Sensitivity",
         "subheading": "Traditional retinols degrade and irritate. Aliangé transforms and soothes.",
         "aliange_label": "Ultimate A Night Cream",
-        "competitor_label": "Generic Retinol Cream",
-        "button_text": "Upgrade Your Nightly Protocol",
-        "button_url": ""
+        "competitor_label": "Generic Retinol Cream"
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "The Transformation Protocol",
-        "subheading": "Your nightly sequence for cellular rejuvenation.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "When first introducing retinol, start with twice-weekly application... then gradually increase to nightly use as your skin builds tolerance."
+        "subheading": "Your nightly sequence for cellular rejuvenation."
       }
     },
     "faq": {

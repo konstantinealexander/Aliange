@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Eyelid Lifting",
             "aliange_value": "Proven 61% Droop Reduction",
             "competitor_value": "None"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Target Areas",
             "aliange_value": "Eyes + Lids + Lips",
             "competitor_value": "Under-eye ONLY"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Collagen Impact",
             "aliange_value": "+256% Synthesis",
             "competitor_value": "Temporary Plumping"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Dark Circles",
             "aliange_value": "Fades in 7 Days",
             "competitor_value": "Weeks/Inconsistent"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Mass Market Brand"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Lip Definition",
             "aliange_value": "Redefines Contour",
             "competitor_value": "Not Recommended"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Texture",
             "aliange_value": "Instant Tightening (Pullulan)",
             "competitor_value": "Heavy/Greasy"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Lift vs. Lubricate",
         "subheading": "Generic eye creams just hydrate. We provide a non-surgical lift.",
         "aliange_label": "Eye & Lip Cream",
-        "competitor_label": "Standard Eye Cream",
-        "button_text": "Upgrade Your Skincare",
-        "button_url": ""
+        "competitor_label": "Standard Eye Cream"
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "The Rejuvenation Protocol",
-        "subheading": "Steps to lift and define your expressive areas.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "Use your ring finger to gently massage the cream in an upward and outward motion. This helps to stimulate circulation and reduce puffiness."
+        "subheading": "Steps to lift and define your expressive areas."
       }
     },
     "faq": {

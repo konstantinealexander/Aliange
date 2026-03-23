@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Technology",
             "aliange_value": "Gentle Syndet (SCI)",
             "competitor_value": "Harsh SLS/SLES"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "pH Level",
             "aliange_value": "Skin-Balanced (5.5)",
             "competitor_value": "Alkaline (8.0-10.0)"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Barrier Impact",
             "aliange_value": "Ceramide Respecting",
             "competitor_value": "Strips 22% Ceramides"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Post-Wash Feel",
             "aliange_value": "Soft & Hydrated",
             "competitor_value": "Tight & Squeaky"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Mass Market Batch"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Hydrapurification",
             "aliange_value": "Sodium PCA Infusion",
             "competitor_value": "Water Down Basic"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Sensitivity",
             "aliange_value": "Safe for Rosacea",
             "competitor_value": "High Irritation Risk"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Soap vs. Science",
         "subheading": "Traditional cleansers strip your barrier. We respect it.",
         "aliange_label": "Daily Devotion Cleanser",
-        "competitor_label": "Generic SLS Cleanser",
-        "button_text": "",
-        "button_url": ""
+        "competitor_label": "Generic SLS Cleanser"
       }
     },
     "1774261258b4daf2eb": {
@@ -439,9 +429,7 @@
       ],
       "settings": {
         "heading": "The Devotion Protocol",
-        "subheading": "Follow these steps for a smarter, safer clean.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": ""
+        "subheading": "Follow these steps for a smarter, safer clean."
       }
     },
     "faq": {

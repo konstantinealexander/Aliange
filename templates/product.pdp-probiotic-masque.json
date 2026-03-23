@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Ecosystem Support",
             "aliange_value": "Pre/Pro/Postbiotics",
             "competitor_value": "None"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Post-Mask Feel",
             "aliange_value": "Nourished & Calm",
             "competitor_value": "Dry & Tight"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Barrier Impact",
             "aliange_value": "18% Loss Reduction",
             "competitor_value": "Disruptive Stripping"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Radiance Boost",
             "aliange_value": "25.9% Clinical Increase",
             "competitor_value": "Temporary Glow"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Consumer Trend Brand"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Inflammation",
             "aliange_value": "Calms Rosacea/Acne",
             "competitor_value": "May High Arritation"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Oil Control",
             "aliange_value": "Purifying Clays (SCI)",
             "competitor_value": "Basic Chalks/Fillers"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Microbiome Reset vs. Basic Mask",
         "subheading": "Traditional masks strip the skin. We balance and feed it.",
         "aliange_label": "Probiotic Masque",
-        "competitor_label": "Generic Mud Mask",
-        "button_text": "Upgrade Your Mask",
-        "button_url": ""
+        "competitor_label": "Generic Mud Mask"
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "Microbiome Reset Protocol",
-        "subheading": "Steps to restore balance and clarity.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight."
+        "subheading": "Steps to restore balance and clarity."
       }
     },
     "faq": {

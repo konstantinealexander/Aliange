@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Mechanism",
             "aliange_value": "DNA Blueprint Repair",
             "competitor_value": "Surface Hydration"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Cellular Impact",
             "aliange_value": "Juveleven™ Peptide",
             "competitor_value": "Basic Humectants"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Collagen Growth",
             "aliange_value": "105% Boost Confirmed",
             "competitor_value": "Negligible Change"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Zombie Cells",
             "aliange_value": "64.5% Senescence Reduction",
             "competitor_value": "No Effect"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Mass Market Brands"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Antioxidants",
             "aliange_value": "100x Vit C (Kakadu Plum)",
             "competitor_value": "Synthetic Ascorbic Acid"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Longevity",
             "aliange_value": "Blueprint Correction",
             "competitor_value": "Temporary Plumping"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "DNA Repair vs. Surface Repair",
         "subheading": "Generic serums mask the signs of ageing. Aliangé reverses them at the source.",
         "aliange_label": "Jellyfish Peptide Serum",
-        "competitor_label": "Standard \"Anti-Ageing\"",
-        "button_text": "Upgrade Your Skincare",
-        "button_url": ""
+        "competitor_label": "Standard \"Anti-Ageing\""
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "DNA Repair Protocol",
-        "subheading": "Follow these steps to reclaim your skin's youthful vitality.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "For an enhanced regenerative effect, use this serum in conjunction with our Ultimate A Night Cream. The combination of DNA repair peptides and Retinol provides a comprehensive approach."
+        "subheading": "Follow these steps to reclaim your skin's youthful vitality."
       }
     },
     "faq": {

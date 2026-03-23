@@ -224,7 +224,6 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Mechanism",
             "aliange_value": "4 Billion Exosomes",
             "competitor_value": "Surface Hydration"
           }
@@ -232,7 +231,6 @@
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Cellular Impact",
             "aliange_value": "Instructs DNA Repair",
             "competitor_value": "Temporary Plumping"
           }
@@ -240,7 +238,6 @@
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Collagen Growth",
             "aliange_value": "100% Boost Confirmed",
             "competitor_value": "Negligible Change"
           }
@@ -248,7 +245,6 @@
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Zombie Cells",
             "aliange_value": "Clears Senescence",
             "competitor_value": "No Effect"
           }
@@ -256,7 +252,6 @@
         "r5": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Expertise",
             "aliange_value": "Doctor Developed",
             "competitor_value": "Pharmacy Shelf Brands"
           }
@@ -264,7 +259,6 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Absorption",
             "aliange_value": "Deep Nano-Delivery",
             "competitor_value": "Sits On Layer"
           }
@@ -272,7 +266,6 @@
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Longevity",
             "aliange_value": "Structural Change",
             "competitor_value": "Wash-off Effect"
           }
@@ -280,7 +273,6 @@
         "r8": {
           "type": "comparison_row",
           "settings": {
-            "feature": "Guarantee",
             "aliange_value": "90-Day Money Back",
             "competitor_value": "None"
           }
@@ -300,9 +292,7 @@
         "heading": "Ditch The Generic Creams",
         "subheading": "Standard luxury creams provide moisture. We provide cellular instructions.",
         "aliange_label": "Aliangé Day Cream",
-        "competitor_label": "Other \"Luxury\" Creams",
-        "button_text": "Upgrade Your Skincare",
-        "button_url": ""
+        "competitor_label": "Other \"Luxury\" Creams"
       }
     },
     "ingredients": {
@@ -407,9 +397,7 @@
       ],
       "settings": {
         "heading": "Daily Application Protocol",
-        "subheading": "Follow these steps to maximise the regenerative benefits of your Day Cream SPF 15.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "The most common mistake I see is people not using enough sunscreen or applying it inconsistently. Make this your non-negotiable morning protocol, applied generously to the face, neck, and even the backs of your hands."
+        "subheading": "Follow these steps to maximise the regenerative benefits of your Day Cream SPF 15."
       }
     },
     "faq": {

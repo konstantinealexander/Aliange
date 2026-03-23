@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -50,7 +59,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-protocol",
+      "type": "aliange-lp-routine",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -178,8 +187,8 @@
       ],
       "settings": {
         "label": "The Difference",
-        "headline": "A Protocol. Not a Protocol.",
-        "col_them": "A Random Protocol",
+        "headline": "A Protocol. Not a Routine.",
+        "col_them": "A Random Routine",
         "col_us": "The Aliange Protocol"
       }
     },
@@ -257,7 +266,7 @@
           "type": "question",
           "settings": {
             "question": "Can I use this with other products?",
-            "answer": "<p>Complete evening protocol. AM: cleanser, Jellyfish Serum, high-protection SPF.</p>"
+            "answer": "<p>Complete evening routine. AM: cleanser, Jellyfish Serum, high-protection SPF.</p>"
           }
         },
         "q3": {
@@ -320,7 +329,7 @@
     "lp_hero",
     "press_ticker",
     "lp_problem",
-    "lp_protocol",
+    "lp_routine",
     "proto_synergy",
     "lp_comparison",
     "aliange_pdp_hero_AntiAge",
