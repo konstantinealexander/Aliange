@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,11 +40,17 @@
         "label": "Aliangé Clinical",
         "headline": "Doctor-Developed Skincare Shaped by Coastal Australia.",
         "subheadline": "Aliangé Skincare was developed by Dr Alison Jamieson through decades of treating patients on the Sunshine Coast. This region presents unique challenges for skin health — high UV exposure, coastal humidity, salt air, and environmental stressors can accelerate skin aging and barrier damage.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_23_2026_-_7_54PM.jpg",
+        "mobile_image": "shopify://shop_images/Generated_Image_March_23_2026_-_7_56PM.jpg",
+        "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
         "align": "left",
         "cta_text": "Discover the Aliangé Protocol",
         "cta_url": "/collections/protocols",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
         "trust_line": "Doctor-Developed | Sunshine Coast Origin | Australian-Made"
       }
     },
@@ -46,7 +61,10 @@
         "headline": "The Sunshine Coast Skin Environment",
         "body": "<p>Skin on the Sunshine Coast is exposed to conditions rarely seen elsewhere in the world.</p><p><strong>Intense Ultraviolet Radiation</strong> — Queensland consistently records some of the highest UV indexes globally. Prolonged UV exposure breaks down collagen fibres and increases oxidative stress within the skin.</p><p><strong>Coastal Exposure</strong> — Salt air and wind can dehydrate the skin barrier while increasing transepidermal water loss.</p><p><strong>Heat and Humidity</strong> — Humidity can increase oil production while heat accelerates inflammation and barrier disruption.</p><p>These environmental conditions require a skincare approach that supports <strong>skin function and resilience</strong>, not simply cosmetic improvement.</p>",
         "bg": "muted",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_approach": {
@@ -68,7 +86,10 @@
         "headline": "The Aliangé Protocol",
         "body": "<p>Aliangé skincare is designed as a structured protocol rather than individual standalone products. Each step addresses a key aspect of skin physiology:</p><p><strong>1. Barrier-supporting cleansing</strong><br/><strong>2. Sebum regulation and microbiome balance</strong><br/><strong>3. Cellular repair and collagen support</strong><br/><strong>4. Protection against environmental stressors</strong></p><p>This structured approach reflects the way skin concerns are managed in clinical environments.</p>",
         "bg": "white",
-        "width": "narrow"
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -109,7 +130,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
@@ -167,7 +190,8 @@
       ],
       "settings": {
         "label": "A Doctor-Led Philosophy",
-        "headline": "Skincare Developed for Coastal Australian Conditions"
+        "headline": "Skincare Developed for Coastal Australian Conditions",
+        "subheadline": ""
       }
     },
     "lp_comparison": {
@@ -267,22 +291,26 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
-      }
-    },
-    "lp_cta": {
-      "type": "aliange-lp-cta",
-      "settings": {
-        "headline": "Skincare Developed Through Decades of Coastal Clinical Experience.",
-        "subheadline": "Discover the Aliangé protocol developed through decades of clinical experience on the Sunshine Coast.",
-        "cta_text": "Explore the Aliangé System",
-        "cta_url": "/collections/protocols",
-        "guarantee": "90-Day Results Guarantee"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
     },
     "klaviyo_all_reviews": {
       "type": "aliange-klaviyo-reviews-all",
       "settings": {}
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "gradient_theme": "none",
+        "headline": "Skincare Developed Through Decades of Coastal Clinical Experience.",
+        "subheadline": "Discover the Aliangé protocol developed through decades of clinical experience on the Sunshine Coast.",
+        "cta_text": "Explore the Aliangé System",
+        "cta_url": "/collections/protocols",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "guarantee": "90-Day Results Guarantee"
+      }
     }
   },
   "order": [
