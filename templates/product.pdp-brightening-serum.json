@@ -245,6 +245,7 @@
         "heading": "Unlock Your Path To Luminous Skin",
         "subheading": "A comprehensive, targetted solution for persistent discolouration.",
         "header_align": "left",
+        "image": "shopify://shop_images/aliange-ingredient-orange-citrus-aurantium-dulcis-botanical.jpg",
         "button_text": "Shop Brightening Serum",
         "button_url": ""
       }
@@ -377,7 +378,7 @@
       ],
       "settings": {
         "heading": "Ditch The Generic Creams",
-        "subheading": "Standard luxury serums target one pathway. Aliangé targets five.",
+        "subheading": "Standard luxury serums target one pathway. We target five.",
         "aliange_label": "Brightening Serum",
         "competitor_label": "Other \"Brighteners\"",
         "button_text": "Upgrade Your Skincare",
@@ -488,7 +489,7 @@
         "heading": "The Brightening Ritual",
         "subheading": "Follow these steps for optimal pigment correction.",
         "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
+        "pro_tip_quote": ""
       }
     },
     "faq": {
