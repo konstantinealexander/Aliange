@@ -1,11 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
-      "settings": {
-        "description": "A lightweight, anti-ageing day cream with broad-spectrum SPF 15 protection, developed by Dr. Alison Jamieson to hydrate, rejuvenate and defend your skin against the Australian sun.",
-        "atc_text": "Add to Cart"
-      },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
@@ -81,15 +86,53 @@
         "faq_1",
         "faq_2",
         "faq_3"
-      ]
+      ],
+      "settings": {
+        "description": "A lightweight, anti-ageing day cream with broad-spectrum SPF 15 protection, developed by Dr. Alison Jamieson to hydrate, rejuvenate and defend your skin against the Australian sun.",
+        "atc_text": "Add to Cart"
+      }
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "blocks": {
+        "press_1": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "SHAPE"
+          }
+        },
+        "press_2": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "REFINERY29"
+          }
+        },
+        "press_3": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "VOGUE"
+          }
+        },
+        "press_4": {
+          "type": "logo",
+          "settings": {
+            "alt_text": "People"
+          }
+        }
+      },
+      "block_order": [
+        "press_1",
+        "press_2",
+        "press_3",
+        "press_4"
+      ],
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
-      "settings": {
-        "label": "Dermatologist Authored",
-        "bg_color": "#ffffff",
-        "speed": 25
-      },
       "blocks": {
         "badge_1": {
           "type": "badge",
@@ -128,24 +171,24 @@
         "badge_3",
         "badge_4",
         "badge_5"
-      ]
+      ],
+      "settings": {
+        "label": "Dermatologist Authored",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
         "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "I developed this formula specifically for the unique challenges of Australian skin. The combination of advanced peptides and broad-spectrum protection is what I prescribe to my own patients."
       }
     },
     "benefits": {
       "type": "aliange-pdp-benefits",
-      "settings": {
-        "heading": "Advanced Daily Protection & Repair",
-        "subheading": "A multi-action formula designed to defend against environmental damage while visibly rejuvenating the skin.",
-        "header_align": "left",
-        "button_text": "Shop Day Cream SPF 15"
-      },
       "blocks": {
         "b1": {
           "type": "benefit",
@@ -197,15 +240,17 @@
         "b4",
         "b5",
         "b6"
-      ]
+      ],
+      "settings": {
+        "heading": "Advanced Daily Protection & Repair",
+        "subheading": "A multi-action formula designed to defend against environmental damage while visibly rejuvenating the skin.",
+        "header_align": "left",
+        "button_text": "Shop Day Cream SPF 15",
+        "button_url": ""
+      }
     },
     "stats": {
       "type": "aliange-pdp-stats",
-      "settings": {
-        "heading": "Proven Efficacy.",
-        "subheading": "Our clinically proven results tell the story:",
-        "columns": 4
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -245,215 +290,15 @@
         "s2",
         "s3",
         "s4"
-      ]
-    },
-    "ingredients": {
-      "type": "aliange-pdp-ingredients",
+      ],
       "settings": {
-        "heading": "Clinical-Grade Key Ingredients.",
-        "subheading": "A powerful combination of clinically proven actives to protect, repair, and hydrate your skin.",
-        "columns": 3
-      },
-      "blocks": {
-        "i1": {
-          "type": "ingredient",
-          "settings": {
-            "category": "Peptide Complex",
-            "name": "Matrixyl 3000",
-            "bullets": "Stimulates natural repair mechanisms|Rebuilds the dermal matrix|Reduces appearance of wrinkles|Improves skin elasticity",
-            "evidence": "Clinical studies show a visible reduction in deep wrinkles by up to 41% and a significant increase in skin firmness in just 8 weeks."
-          }
-        },
-        "i2": {
-          "type": "ingredient",
-          "settings": {
-            "category": "Sun Protection",
-            "name": "UVA & UVB Filters",
-            "bullets": "Broad-spectrum sun protection|Defends against harmful UV rays|Prevents sunburn & photo-ageing|Protects against hyperpigmentation",
-            "evidence": "SPF 15 blocks 93% of UVB radiation. A landmark Australian study proved daily use reduces visible ageing by 24%."
-          }
-        },
-        "i3": {
-          "type": "ingredient",
-          "settings": {
-            "category": "Botanical Blend",
-            "name": "Centella & Echinacea",
-            "bullets": "Botanically soothe and repair|Calms inflammatory responses|Reduces skin redness|Supports the healing process",
-            "evidence": "Centella Asiatica is a powerful wound-healing agent that effectively stimulates collagen synthesis."
-          }
-        },
-        "i4": {
-          "type": "ingredient",
-          "settings": {
-            "category": "Antioxidant",
-            "name": "Rosemary Extract",
-            "bullets": "Potent antioxidant protection|Defends against free radicals|Neutralises environmental stressors|Supports skin vitality",
-            "evidence": "Traditional botanicals backed by modern science for soothing and antioxidant shielding."
-          }
-        },
-        "i5": {
-          "type": "ingredient",
-          "settings": {
-            "category": "Hydration",
-            "name": "Hyaluronate & Sodium PCA",
-            "bullets": "Advanced hydration complex|Draws moisture deep into skin|Locks in long-lasting hydration|Supports moisture barrier",
-            "evidence": "Sodium Hyaluronate holds up to 1000x its weight in water, ensuring optimal skin hydration."
-          }
-        }
-      },
-      "block_order": [
-        "i1",
-        "i2",
-        "i3",
-        "i4",
-        "i5"
-      ]
-    },
-    "howtouse": {
-      "type": "aliange-pdp-howtouse",
-      "settings": {
-        "heading": "Daily Application Ritual",
-        "subheading": "Follow these steps to maximise the regenerative benefits of your Day Cream SPF 15.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "The most common mistake I see is people not using enough sunscreen or applying it inconsistently. Make this your non-negotiable morning ritual, applied generously to the face, neck, and even the backs of your hands."
-      },
-      "blocks": {
-        "step1": {
-          "type": "step",
-          "settings": {
-            "title": "Cleanse",
-            "description": "Begin with a thoroughly cleansed face. For best results, use the Aliangé Daily Devotion Cleanser."
-          }
-        },
-        "step2": {
-          "type": "step",
-          "settings": {
-            "title": "Apply Serums",
-            "description": "Apply any treatment serums and allow them to fully absorb."
-          }
-        },
-        "step3": {
-          "type": "step",
-          "settings": {
-            "title": "Apply Day Cream",
-            "description": "Dispense 1–2 pumps and gently massage onto your face, neck, and décolletage using upward strokes."
-          }
-        },
-        "step4": {
-          "type": "step",
-          "settings": {
-            "title": "Allow to Absorb",
-            "description": "Wait a few minutes before applying makeup. This ensures your sun protection is set."
-          }
-        }
-      },
-      "block_order": [
-        "step1",
-        "step2",
-        "step3",
-        "step4"
-      ]
-    },
-    "faq": {
-      "type": "aliange-pdp-faq",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "Everything you need to know about the Day Cream SPF 15.",
-        "button_text": "Shop Day Cream SPF 15"
-      },
-      "blocks": {
-        "q1": {
-          "type": "question",
-          "settings": {
-            "question": "Is SPF 15 enough for daily use in Australia?",
-            "answer": "<p>For everyday incidental sun exposure, SPF 15 is sufficient and provides excellent protection, blocking 93% of UVB rays. Dr. Jamieson recommends a higher SPF for prolonged, direct sun exposure.</p>"
-          }
-        },
-        "q2": {
-          "type": "question",
-          "settings": {
-            "question": "Will this cream feel heavy or greasy on my skin?",
-            "answer": "<p>Not at all. This cream was specifically formulated to be lightweight and non-greasy. It absorbs quickly, leaving a smooth finish that works beautifully under makeup.</p>"
-          }
-        },
-        "q3": {
-          "type": "question",
-          "settings": {
-            "question": "Can I use this if I have sensitive or rosacea-prone skin?",
-            "answer": "<p>Yes. It includes soothing Centella Asiatica, Echinacea, and Rosemary to help calm redness and irritation. We recommend patch testing first if your skin is particularly reactive.</p>"
-          }
-        },
-        "q4": {
-          "type": "question",
-          "settings": {
-            "question": "When will I start to see anti-ageing results?",
-            "answer": "<p>While hydrating and protective benefits are immediate, Matrixyl 3000 is clinically proven to show significant wrinkle reduction within 8 weeks of consistent daily use.</p>"
-          }
-        },
-        "q5": {
-          "type": "question",
-          "settings": {
-            "question": "Do I need a separate moisturiser with this product?",
-            "answer": "<p>For most skin types, this cream provides all the hydration you need for the day. It combines your daily moisturiser and sun protection in one elegant step.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
-      ]
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      },
-      "blocks": {
-        "press_1": {
-          "type": "logo",
-          "settings": {
-            "alt_text": "SHAPE"
-          }
-        },
-        "press_2": {
-          "type": "logo",
-          "settings": {
-            "alt_text": "REFINERY29"
-          }
-        },
-        "press_3": {
-          "type": "logo",
-          "settings": {
-            "alt_text": "VOGUE"
-          }
-        },
-        "press_4": {
-          "type": "logo",
-          "settings": {
-            "alt_text": "People"
-          }
-        }
-      },
-      "block_order": [
-        "press_1",
-        "press_2",
-        "press_3",
-        "press_4"
-      ]
+        "heading": "Proven Efficacy.",
+        "subheading": "Our clinically proven results tell the story:",
+        "columns": 4
+      }
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
-      "settings": {
-        "heading": "Ditch The Generic Creams",
-        "subheading": "Standard luxury creams provide moisture. Aliangé provides cellular instructions.",
-        "aliange_label": "Aliangé Day Cream",
-        "competitor_label": "Other \"Luxury\" Creams",
-        "button_text": "Upgrade Your Skincare"
-      },
       "blocks": {
         "r1": {
           "type": "comparison_row",
@@ -529,7 +374,179 @@
         "r6",
         "r7",
         "r8"
-      ]
+      ],
+      "settings": {
+        "heading": "Ditch The Generic Creams",
+        "subheading": "Standard luxury creams provide moisture. Aliangé provides cellular instructions.",
+        "aliange_label": "Aliangé Day Cream",
+        "competitor_label": "Other \"Luxury\" Creams",
+        "button_text": "Upgrade Your Skincare",
+        "button_url": ""
+      }
+    },
+    "ingredients": {
+      "type": "aliange-pdp-ingredients",
+      "blocks": {
+        "i1": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Peptide Complex",
+            "name": "Matrixyl 3000",
+            "bullets": "Stimulates natural repair mechanisms|Rebuilds the dermal matrix|Reduces appearance of wrinkles|Improves skin elasticity",
+            "evidence": "Clinical studies show a visible reduction in deep wrinkles by up to 41% and a significant increase in skin firmness in just 8 weeks."
+          }
+        },
+        "i2": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Sun Protection",
+            "name": "UVA & UVB Filters",
+            "bullets": "Broad-spectrum sun protection|Defends against harmful UV rays|Prevents sunburn & photo-ageing|Protects against hyperpigmentation",
+            "evidence": "SPF 15 blocks 93% of UVB radiation. A landmark Australian study proved daily use reduces visible ageing by 24%."
+          }
+        },
+        "i3": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Botanical Blend",
+            "name": "Centella & Echinacea",
+            "bullets": "Botanically soothe and repair|Calms inflammatory responses|Reduces skin redness|Supports the healing process",
+            "evidence": "Centella Asiatica is a powerful wound-healing agent that effectively stimulates collagen synthesis."
+          }
+        },
+        "i4": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Antioxidant",
+            "name": "Rosemary Extract",
+            "bullets": "Potent antioxidant protection|Defends against free radicals|Neutralises environmental stressors|Supports skin vitality",
+            "evidence": "Traditional botanicals backed by modern science for soothing and antioxidant shielding."
+          }
+        },
+        "i5": {
+          "type": "ingredient",
+          "settings": {
+            "category": "Hydration",
+            "name": "Hyaluronate & Sodium PCA",
+            "bullets": "Advanced hydration complex|Draws moisture deep into skin|Locks in long-lasting hydration|Supports moisture barrier",
+            "evidence": "Sodium Hyaluronate holds up to 1000x its weight in water, ensuring optimal skin hydration."
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "settings": {
+        "heading": "Clinical-Grade Key Ingredients.",
+        "subheading": "A powerful combination of clinically proven actives to protect, repair, and hydrate your skin.",
+        "columns": 3
+      }
+    },
+    "howtouse": {
+      "type": "aliange-pdp-howtouse",
+      "blocks": {
+        "step1": {
+          "type": "step",
+          "settings": {
+            "title": "Cleanse",
+            "description": "Begin with a thoroughly cleansed face. For best results, use the Aliangé Daily Devotion Cleanser."
+          }
+        },
+        "step2": {
+          "type": "step",
+          "settings": {
+            "title": "Apply Serums",
+            "description": "Apply any treatment serums and allow them to fully absorb."
+          }
+        },
+        "step3": {
+          "type": "step",
+          "settings": {
+            "title": "Apply Day Cream",
+            "description": "Dispense 1–2 pumps and gently massage onto your face, neck, and décolletage using upward strokes."
+          }
+        },
+        "step4": {
+          "type": "step",
+          "settings": {
+            "title": "Allow to Absorb",
+            "description": "Wait a few minutes before applying makeup. This ensures your sun protection is set."
+          }
+        }
+      },
+      "block_order": [
+        "step1",
+        "step2",
+        "step3",
+        "step4"
+      ],
+      "settings": {
+        "heading": "Daily Application Ritual",
+        "subheading": "Follow these steps to maximise the regenerative benefits of your Day Cream SPF 15.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "The most common mistake I see is people not using enough sunscreen or applying it inconsistently. Make this your non-negotiable morning ritual, applied generously to the face, neck, and even the backs of your hands."
+      }
+    },
+    "faq": {
+      "type": "aliange-pdp-faq",
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Is SPF 15 enough for daily use in Australia?",
+            "answer": "<p>For everyday incidental sun exposure, SPF 15 is sufficient and provides excellent protection, blocking 93% of UVB rays. Dr. Jamieson recommends a higher SPF for prolonged, direct sun exposure.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Will this cream feel heavy or greasy on my skin?",
+            "answer": "<p>Not at all. This cream was specifically formulated to be lightweight and non-greasy. It absorbs quickly, leaving a smooth finish that works beautifully under makeup.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this if I have sensitive or rosacea-prone skin?",
+            "answer": "<p>Yes. It includes soothing Centella Asiatica, Echinacea, and Rosemary to help calm redness and irritation. We recommend patch testing first if your skin is particularly reactive.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "When will I start to see anti-ageing results?",
+            "answer": "<p>While hydrating and protective benefits are immediate, Matrixyl 3000 is clinically proven to show significant wrinkle reduction within 8 weeks of consistent daily use.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need a separate moisturiser with this product?",
+            "answer": "<p>For most skin types, this cream provides all the hydration you need for the day. It combines your daily moisturiser and sun protection in one elegant step.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about the Day Cream SPF 15.",
+        "button_text": "Shop Day Cream SPF 15",
+        "button_url": ""
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -537,15 +554,12 @@
         "heading": "Your Future Skin Will Thank You",
         "subheading": "Don’t wait for the signs of ageing to appear. Invest in clinically proven protection today and enjoy a firmer, smoother, more youthful complexion for years to come.",
         "button_text": "Protect My Skin Now",
+        "button_url": "",
         "trust_line": "90-Day Results Guarantee Or Your Money Back",
-        "bg_color": "#F4F7F9",
         "secondary_link_text": "The ultimate guide to skincare over 40 →",
-        "secondary_link_url": "/pages/best-skincare-women-over-40-australia"
+        "secondary_link_url": "/pages/best-skincare-women-over-40-australia",
+        "bg_color": "#f4f7f9"
       }
-    },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "settings": {}
     }
   },
   "order": [
