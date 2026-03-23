@@ -94,48 +94,6 @@
         "image_position": "right"
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "100x",
-            "label": "More Vitamin C in Kakadu Plum than Oranges"
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "135%",
-            "label": "Increase in Skin Hydration with Hyaluronic Acid"
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "3–5×",
-            "label": "Slower Cell Renewal with Age"
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "76",
-            "label": "Daltons — Glycolic Acid Molecular Size"
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "gradient_theme": "none"
-      }
-    },
     "lp_routine": {
       "type": "aliange-lp-routine",
       "blocks": {
@@ -476,13 +434,12 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_stats",
     "lp_routine",
     "lp_benefits",
     "lp_timeline",
+    "trust_bar",
     "lp_comparison",
     "lp_faq",
-    "trust_bar",
     "klaviyo_all_reviews",
     "lp_cta"
   ]

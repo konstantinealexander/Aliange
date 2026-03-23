@@ -94,48 +94,6 @@
         "image_position": "right"
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "87%",
-            "label": "Reported Improvement in Skin Tone Evenness"
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "16x",
-            "label": "Greater Tyrosinase Inhibition than Hydroquinone"
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "5-Stage",
-            "label": "Pigmentation Pathway Targeting"
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "68%",
-            "label": "Reduction in Pigment Transfer"
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "gradient_theme": "none"
-      }
-    },
     "lp_routine": {
       "type": "aliange-lp-routine",
       "blocks": {
@@ -460,13 +418,12 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_stats",
     "lp_routine",
     "lp_benefits",
     "lp_timeline",
+    "trust_bar",
     "lp_comparison",
     "lp_faq",
-    "trust_bar",
     "klaviyo_all_reviews",
     "lp_cta"
   ]

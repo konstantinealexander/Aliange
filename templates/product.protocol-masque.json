@@ -134,46 +134,6 @@
         "body": "Each step synergistically enhances the next for a comprehensive skin reset."
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "st1": {
-          "type": "stat",
-          "settings": {
-            "value": "3",
-            "label": "Synergistic Steps"
-          }
-        },
-        "st2": {
-          "type": "stat",
-          "settings": {
-            "value": "12+",
-            "label": "Active Ingredients"
-          }
-        },
-        "st3": {
-          "type": "stat",
-          "settings": {
-            "value": "2-3x",
-            "label": "Treatments Per Week"
-          }
-        },
-        "st4": {
-          "type": "stat",
-          "settings": {
-            "value": "90",
-            "label": "Days Guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "st1",
-        "st2",
-        "st3",
-        "st4"
-      ],
-      "settings": {}
-    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
@@ -354,7 +314,6 @@
     "lp_problem",
     "lp_routine",
     "proto_synergy",
-    "lp_stats",
     "lp_comparison",
     "aliange_pdp_hero_Masque",
     "lp_faq",

@@ -147,48 +147,6 @@
         "body": "Each step enhances the next for optimal absorption and all-day defence."
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "st1": {
-          "type": "stat",
-          "settings": {
-            "value": "41%",
-            "label": "Wrinkle Reduction in 8 Weeks"
-          }
-        },
-        "st2": {
-          "type": "stat",
-          "settings": {
-            "value": "12",
-            "label": "Active Ingredients"
-          }
-        },
-        "st3": {
-          "type": "stat",
-          "settings": {
-            "value": "90",
-            "label": "Days to Results"
-          }
-        },
-        "st4": {
-          "type": "stat",
-          "settings": {
-            "value": "100x",
-            "label": "More Vitamin C (Kakadu Plum)"
-          }
-        }
-      },
-      "block_order": [
-        "st1",
-        "st2",
-        "st3",
-        "st4"
-      ],
-      "settings": {
-        "gradient_theme": "am"
-      }
-    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
@@ -370,7 +328,6 @@
     "lp_problem",
     "lp_routine",
     "proto_synergy",
-    "lp_stats",
     "lp_comparison",
     "aliange_pdp_hero_AMPro1",
     "lp_faq",

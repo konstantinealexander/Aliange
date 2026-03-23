@@ -81,48 +81,6 @@
         "image_position": "right"
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "Deep",
-            "label": "Hydration Support"
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "Cell",
-            "label": "Repair Processes"
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "Barrier",
-            "label": "Strengthening"
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "Defence",
-            "label": "Against Environmental Stress"
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "gradient_theme": "none"
-      }
-    },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
       "blocks": {
@@ -362,11 +320,10 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_stats",
     "lp_benefits",
+    "trust_bar",
     "lp_comparison",
     "lp_faq",
-    "trust_bar",
     "klaviyo_all_reviews",
     "lp_cta"
   ]

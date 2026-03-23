@@ -69,46 +69,6 @@
         "width": "narrow"
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "40+",
-            "label": "Years Clinical Experience"
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "QLD",
-            "label": "Developed on Sunshine Coast"
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "MBBS",
-            "label": "Medical Qualification"
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "Dip Derm",
-            "label": "Dermatology Diploma"
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {}
-    },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
       "blocks": {
@@ -343,11 +303,10 @@
     "lp_problem",
     "lp_approach",
     "lp_environment",
-    "lp_stats",
     "lp_benefits",
+    "trust_bar",
     "lp_comparison",
     "lp_faq",
-    "trust_bar",
     "klaviyo_all_reviews",
     "lp_cta"
   ]

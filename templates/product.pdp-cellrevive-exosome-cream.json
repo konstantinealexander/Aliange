@@ -218,54 +218,6 @@
         "speed": 25
       }
     },
-    "stats": {
-      "type": "aliange-pdp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "4 Billion",
-            "label": "Exosomes Delivered Per Dose",
-            "ring_percent": 100
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "100%",
-            "label": "Confirmed Collagen Increase",
-            "ring_percent": 100
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "87.3%",
-            "label": "Improvement in Ageing",
-            "ring_percent": 87
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "p=0.02",
-            "label": "Significant Cell Renewal",
-            "ring_percent": 100
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "heading": "Proven Regeneration Stats.",
-        "subheading": "Clinical data supporting cellular-level youth restoration:",
-        "columns": 4
-      }
-    },
     "comparison": {
       "type": "aliange-pdp-comparison",
       "blocks": {
@@ -537,7 +489,6 @@
     "doctor_note",
     "benefits",
     "trust_bar",
-    "stats",
     "comparison",
     "ingredients",
     "howtouse",

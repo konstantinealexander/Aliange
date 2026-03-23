@@ -80,48 +80,6 @@
         "image_position": "right"
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "40+",
-            "label": "Years Clinical Experience"
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "MBBS",
-            "label": "Medical Qualification"
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "FRACGP",
-            "label": "GP Fellowship"
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "Dip Derm",
-            "label": "Dermatology"
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "gradient_theme": "none"
-      }
-    },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
       "blocks": {
@@ -360,11 +318,10 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_stats",
     "lp_benefits",
+    "trust_bar",
     "lp_comparison",
     "lp_faq",
-    "trust_bar",
     "klaviyo_all_reviews",
     "lp_cta"
   ]

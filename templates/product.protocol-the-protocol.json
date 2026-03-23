@@ -186,48 +186,6 @@
         "body": "The Protocol is more than just a collection of products; it's a complete, synergistic system. Each step is designed to prepare the skin for the next, creating a powerful cascade of effects that work together to deliver superior results."
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "41%",
-            "label": "Wrinkle Reduction in 8 Weeks"
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "12",
-            "label": "Active Ingredients"
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "90",
-            "label": "Days to Visible Results"
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "6",
-            "label": "Synergistic Products"
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "gradient_theme": "none"
-      }
-    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
@@ -428,7 +386,6 @@
     "lp_problem",
     "lp_routine",
     "proto_synergy",
-    "lp_stats",
     "lp_comparison",
     "aliange_pdp_hero_TheProto",
     "lp_faq",

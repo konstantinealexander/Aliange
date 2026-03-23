@@ -218,54 +218,6 @@
         "button_url": ""
       }
     },
-    "stats": {
-      "type": "aliange-pdp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "64.5%",
-            "label": "Reduction in Senescent Cells",
-            "ring_percent": 64
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "13.7%",
-            "label": "DNA Repaired in 6hrs",
-            "ring_percent": 13
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "31%",
-            "label": "Reduction in Wrinkle Volume",
-            "ring_percent": 31
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "105%",
-            "label": "Increase in Collagen I",
-            "ring_percent": 100
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "heading": "Scientific Longevity Stats.",
-        "subheading": "Clinical evidence for DNA-level restoration:",
-        "columns": 4
-      }
-    },
     "comparison": {
       "type": "aliange-pdp-comparison",
       "blocks": {
@@ -534,10 +486,9 @@
   "order": [
     "hero",
     "press_ticker",
-    "trust_bar",
     "doctor_note",
     "benefits",
-    "stats",
+    "trust_bar",
     "comparison",
     "ingredients",
     "howtouse",

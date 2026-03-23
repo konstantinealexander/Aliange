@@ -108,54 +108,6 @@
         "quote": "Never cleanse with hot water, as it can strip the skin of its natural oils and lead to dehydration and sensitivity. Always be gentle; your skin is a delicate organ, not a surface to be scrubbed."
       }
     },
-    "stats": {
-      "type": "aliange-pdp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "22%",
-            "label": "Ceramide loss avoided vs SLS",
-            "ring_percent": 100
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "730",
-            "label": "Annual touches count",
-            "ring_percent": 100
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "1.5x",
-            "label": "More hydrating than Glycerin",
-            "ring_percent": 100
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "0%",
-            "label": "Sulphates & Parabens",
-            "ring_percent": 0
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "heading": "The Science of Clean.",
-        "subheading": "Clinical evidence for a more respectful purification:",
-        "columns": 4
-      }
-    },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
       "blocks": {
@@ -567,9 +519,8 @@
     "hero",
     "press_ticker",
     "doctor_note",
-    "stats",
-    "trust_bar",
     "benefits",
+    "trust_bar",
     "comparison",
     "1774261258b4daf2eb",
     "ingredients",

@@ -173,46 +173,6 @@
         "body": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity."
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "st1": {
-          "type": "stat",
-          "settings": {
-            "value": "41%",
-            "label": "Wrinkle Reduction in 8 Weeks"
-          }
-        },
-        "st2": {
-          "type": "stat",
-          "settings": {
-            "value": "5",
-            "label": "Synergistic Products"
-          }
-        },
-        "st3": {
-          "type": "stat",
-          "settings": {
-            "value": "12+",
-            "label": "Key Active Ingredients"
-          }
-        },
-        "st4": {
-          "type": "stat",
-          "settings": {
-            "value": "90",
-            "label": "Days to Results"
-          }
-        }
-      },
-      "block_order": [
-        "st1",
-        "st2",
-        "st3",
-        "st4"
-      ],
-      "settings": {}
-    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
@@ -403,7 +363,6 @@
     "lp_problem",
     "lp_routine",
     "proto_synergy",
-    "lp_stats",
     "lp_comparison",
     "aliange_pdp_hero_XkHKm6",
     "lp_faq",

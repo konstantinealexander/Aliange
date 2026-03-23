@@ -96,48 +96,6 @@
         "image_position": "right"
       }
     },
-    "lp_stats": {
-      "type": "aliange-lp-stats",
-      "blocks": {
-        "s1": {
-          "type": "stat",
-          "settings": {
-            "value": "105%",
-            "label": "Increase in Collagen I Production"
-          }
-        },
-        "s2": {
-          "type": "stat",
-          "settings": {
-            "value": "45%",
-            "label": "Reduction in Wrinkle Depth in 2 Months"
-          }
-        },
-        "s3": {
-          "type": "stat",
-          "settings": {
-            "value": "100x",
-            "label": "More Vitamin C in Kakadu Plum vs Oranges"
-          }
-        },
-        "s4": {
-          "type": "stat",
-          "settings": {
-            "value": "DNA",
-            "label": "Cellular Repair"
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3",
-        "s4"
-      ],
-      "settings": {
-        "gradient_theme": "none"
-      }
-    },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
       "blocks": {
@@ -370,11 +328,10 @@
     "lp_problem",
     "lp_approach",
     "lp_jellyfish",
-    "lp_stats",
     "lp_benefits",
+    "trust_bar",
     "lp_comparison",
     "lp_faq",
-    "trust_bar",
     "klaviyo_all_reviews",
     "lp_cta"
   ]
