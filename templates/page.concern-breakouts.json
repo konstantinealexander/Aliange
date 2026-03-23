@@ -64,6 +64,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Untitled_58_7f73a2c4-472f-48b2-8a47-13b920b87954.png",
         "image_position": "right"
       }
     },
@@ -89,6 +90,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/ProbioticMasque_2bfa746d-c0c3-4564-8c44-c2adaeb80066.png",
         "image_position": "right"
       }
     },
@@ -401,6 +403,7 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
+        "image": "shopify://shop_images/Bn8XlJxBWW0.jpg",
         "image_position": "right"
       }
     },
