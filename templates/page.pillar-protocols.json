@@ -38,7 +38,7 @@
       ],
       "settings": {
         "label": "Clinical Education",
-        "headline": "Skincare Protocol vs Protocol: Why Random Products Are Failing Your Skin.",
+        "headline": "Skincare Protocol vs Routine: Why Random Products Are Failing Your Skin.",
         "subheadline": "Your skin is a complex biological organ, not a canvas for random chemistry experiments. When you mix and match products without understanding their molecular weights and delivery mechanisms, you're likely cancelling out active ingredients — or worse, causing chronic barrier inflammation.",
         "gradient_theme": "none",
         "image": "shopify://shop_images/Untitled_66_89e485d6-c55f-46c9-888b-3334b73e503c.png",
@@ -57,8 +57,8 @@
       "type": "aliange-lp-text-block",
       "settings": {
         "label": "The Problem",
-        "headline": "The Beauty Industry's Biggest Flaw: The 'Protocol'",
-        "body": "<p>For decades, the beauty industry has sold us the concept of a skincare 'protocol.' It usually involves buying a cleanser from one brand, a trending serum from another, and a moisturiser recommended by an influencer. You layer them on, hoping for the best.</p><p>But here is the clinical reality: when you mix and match products without a deep understanding of their molecular weights, pH levels, and cellular delivery mechanisms, you are likely cancelling out active ingredients—or worse, causing chronic barrier inflammation. This unstructured approach is why so many people hit a plateau, where their expensive anti-ageing products simply stop working.</p><p>At Aliangé, we do not believe in protocols. We believe in <strong>Protocols</strong>.</p>",
+        "headline": "The Beauty Industry's Biggest Flaw: The 'Routine'",
+        "body": "<p>For decades, the beauty industry has sold us the concept of a skincare 'routine.' It usually involves buying a cleanser from one brand, a trending serum from another, and a moisturiser recommended by an influencer. You layer them on, hoping for the best.</p><p>But here is the clinical reality: when you mix and match products without a deep understanding of their molecular weights, pH levels, and cellular delivery mechanisms, you are likely cancelling out active ingredients—or worse, causing chronic barrier inflammation. This unstructured approach is why so many people hit a plateau, where their expensive anti-ageing products simply stop working.</p><p>At Aliangé, we do not believe in routines. We believe in <strong>Protocols</strong>.</p>",
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
@@ -101,8 +101,8 @@
       ],
       "settings": {
         "label": "The Difference",
-        "headline": "Protocol vs. Protocol: The 3 Core Differences",
-        "col_them": "The Standard 'Protocol'",
+        "headline": "Protocol vs. Routine: The 3 Core Differences",
+        "col_them": "The Standard 'Routine'",
         "col_us": "The Aliangé Protocol"
       }
     },
@@ -111,7 +111,7 @@
       "settings": {
         "label": "Why It Matters",
         "headline": "Skin Responds to Systems",
-        "body": "<p>Many skincare protocols are assembled by combining products from multiple brands — each formulated independently, with different delivery systems, pH environments, and ingredient interactions.</p><p>While each product may be effective on its own, combining them without a structured formulation strategy can compromise the skin’s delicate biological balance.</p><h3>1. Ingredient Instability</h3><p>Many active ingredients are highly sensitive to their surrounding environment. Changes in pH or formulation conditions can destabilise peptides, antioxidants, and other bioactive compounds, reducing their effectiveness before they can benefit the skin.</p><h3>2. Barrier Disruption</h3><p>Layering multiple strong actives without the correct supporting lipids and barrier-repair ingredients can weaken the skin barrier. This increases transepidermal water loss and triggers low-grade inflammation — a process increasingly recognised as a contributor to premature skin ageing.</p><h3>3. Inefficient Delivery</h3><p>For active ingredients to produce meaningful results, they must reach viable skin cells within the epidermis. Effective skincare requires carefully engineered delivery systems that allow ingredients to penetrate the stratum corneum and interact with living skin tissue.</p><p></p><p></p><p></p><p></p><p></p><p></p>",
+        "body": "<p>Many skincare routines are assembled by combining products from multiple brands — each formulated independently, with different delivery systems, pH environments, and ingredient interactions.</p><p>While each product may be effective on its own, combining them without a structured formulation strategy can compromise the skin’s delicate biological balance.</p><h3>1. Ingredient Instability</h3><p>Many active ingredients are highly sensitive to their surrounding environment. Changes in pH or formulation conditions can destabilise peptides, antioxidants, and other bioactive compounds, reducing their effectiveness before they can benefit the skin.</p><h3>2. Barrier Disruption</h3><p>Layering multiple strong actives without the correct supporting lipids and barrier-repair ingredients can weaken the skin barrier. This increases transepidermal water loss and triggers low-grade inflammation — a process increasingly recognised as a contributor to premature skin ageing.</p><h3>3. Inefficient Delivery</h3><p>For active ingredients to produce meaningful results, they must reach viable skin cells within the epidermis. Effective skincare requires carefully engineered delivery systems that allow ingredients to penetrate the stratum corneum and interact with living skin tissue.</p><p></p><p></p><p></p><p></p><p></p><p></p>",
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
@@ -121,7 +121,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-protocol",
+      "type": "aliange-lp-routine",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -260,7 +260,7 @@
     "lp_problem",
     "lp_comparison",
     "lp_why",
-    "lp_protocol",
+    "lp_routine",
     "trust_bar",
     "klaviyo_all_reviews",
     "lp_cta"
