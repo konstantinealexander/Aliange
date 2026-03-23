@@ -1,11 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
-      "settings": {
-        "description": "Experience the frontier of regenerative skincare. Formulated by Dr. Alison Jamieson, this revolutionary cream delivers 4 billion cellular messengers per dose to instruct your skin to behave younger.",
-        "atc_text": "ADD TO BAG — $400"
-      },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
@@ -81,14 +86,14 @@
         "faq_1",
         "faq_2",
         "faq_3"
-      ]
+      ],
+      "settings": {
+        "description": "Experience the frontier of regenerative skincare. Formulated by Dr. Alison Jamieson, this revolutionary cream delivers 4 billion cellular messengers per dose to instruct your skin to behave younger.",
+        "atc_text": "ADD TO BAG — $400"
+      }
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      },
       "blocks": {
         "press_1": {
           "type": "logo",
@@ -120,54 +125,11 @@
         "press_2",
         "press_3",
         "press_4"
-      ]
-    },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
+      ],
       "settings": {
-        "label": "Regenerative Medicine",
-        "bg_color": "#ffffff",
-        "speed": 25
-      },
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "4 Billion Exosomes"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Collagen Booster"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ]
+        "label": "As Seen In",
+        "speed": 35
+      }
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
@@ -179,12 +141,6 @@
     },
     "benefits": {
       "type": "aliange-pdp-benefits",
-      "settings": {
-        "heading": "The Frontier of Skin Science",
-        "subheading": "Address the signs of ageing at the cellular source.",
-        "header_align": "left",
-        "button_text": "Shop CellRevive Exosome"
-      },
       "blocks": {
         "b1": {
           "type": "benefit",
@@ -236,15 +192,65 @@
         "b4",
         "b5",
         "b6"
-      ]
+      ],
+      "settings": {
+        "heading": "The Frontier of Skin Science",
+        "subheading": "Address the signs of ageing at the cellular source.",
+        "header_align": "left",
+        "image": "shopify://shop_images/Generated_Image_March_23_2026_-_8_17PM.jpg",
+        "button_text": "Shop CellRevive Exosome",
+        "button_url": ""
+      }
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "4 Billion Exosomes"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Collagen Booster"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Regenerative Medicine",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
     },
     "stats": {
       "type": "aliange-pdp-stats",
-      "settings": {
-        "heading": "Proven Regeneration Stats.",
-        "subheading": "Clinical data supporting cellular-level youth restoration:",
-        "columns": 4
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -284,17 +290,15 @@
         "s2",
         "s3",
         "s4"
-      ]
+      ],
+      "settings": {
+        "heading": "Proven Regeneration Stats.",
+        "subheading": "Clinical data supporting cellular-level youth restoration:",
+        "columns": 4
+      }
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
-      "settings": {
-        "heading": "The Future vs. The Past",
-        "subheading": "Standard luxury creams provide moisture. Aliangé provides cellular instructions.",
-        "aliange_label": "CellRevive Exosome",
-        "competitor_label": "Generic \"Luxury\" Cream",
-        "button_text": "Upgrade Your Skincare"
-      },
       "blocks": {
         "r1": {
           "type": "comparison_row",
@@ -370,15 +374,18 @@
         "r6",
         "r7",
         "r8"
-      ]
+      ],
+      "settings": {
+        "heading": "The Future vs. The Past",
+        "subheading": "Standard luxury creams provide moisture. Aliangé provides cellular instructions.",
+        "aliange_label": "CellRevive Exosome",
+        "competitor_label": "Generic \"Luxury\" Cream",
+        "button_text": "Upgrade Your Skincare",
+        "button_url": ""
+      }
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
-      "settings": {
-        "heading": "Regenerative Actives.",
-        "subheading": "Nano-sized messengers delivering 'software updates' to your skin cells.",
-        "columns": 3
-      },
       "blocks": {
         "i1": {
           "type": "ingredient",
@@ -432,16 +439,15 @@
         "i3",
         "i4",
         "i5"
-      ]
+      ],
+      "settings": {
+        "heading": "Regenerative Actives.",
+        "subheading": "Nano-sized messengers delivering 'software updates' to your skin cells.",
+        "columns": 3
+      }
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
-      "settings": {
-        "heading": "Cellular Transformation Ritual",
-        "subheading": "Follow these steps to restore youth from within.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "For enhanced efficacy, use CellRevive after applying a hydrating serum. Exosomes work best on well-hydrated skin, allowing for optimal signalling."
-      },
       "blocks": {
         "step1": {
           "type": "step",
@@ -477,15 +483,16 @@
         "step2",
         "step3",
         "step4"
-      ]
+      ],
+      "settings": {
+        "heading": "Cellular Transformation Ritual",
+        "subheading": "Follow these steps to restore youth from within.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "For enhanced efficacy, use CellRevive after applying a hydrating serum. Exosomes work best on well-hydrated skin, allowing for optimal signalling."
+      }
     },
     "faq": {
       "type": "aliange-pdp-faq",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "Scientific answers to your regenerative concerns.",
-        "button_text": "Shop CellRevive Exosome"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -529,7 +536,17 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Scientific answers to your regenerative concerns.",
+        "button_text": "Shop CellRevive Exosome",
+        "button_url": ""
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -537,23 +554,20 @@
         "heading": "Your Skin's Regenerative Future Is Here.",
         "subheading": "Address ageing at the source. Invest in the science of cellular messengers.",
         "button_text": "ADD TO BAG — BEGIN REGENERATION",
+        "button_url": "",
         "trust_line": "Guaranteed Results in 90 Days.",
-        "bg_color": "#F4F7F9",
         "secondary_link_text": "Learn about our clinical approach to ageing →",
-        "secondary_link_url": "/pages/concern-aging"
+        "secondary_link_url": "/pages/concern-aging",
+        "bg_color": "#f4f7f9"
       }
-    },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "settings": {}
     }
   },
   "order": [
     "hero",
     "press_ticker",
-    "trust_bar",
     "doctor_note",
     "benefits",
+    "trust_bar",
     "stats",
     "comparison",
     "ingredients",
