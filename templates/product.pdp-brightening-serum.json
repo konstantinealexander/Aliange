@@ -1,11 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
-      "settings": {
-        "description": "A potent, multi-pathway serum clinically formulated by Dr. Alison Jamieson to target pigmentation at its source, revealing a remarkably even and luminous complexion.",
-        "atc_text": "Experience True Brightening — $100"
-      },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
@@ -81,14 +86,14 @@
         "faq_1",
         "faq_2",
         "faq_3"
-      ]
+      ],
+      "settings": {
+        "description": "A potent, multi-pathway serum clinically formulated by Dr. Alison Jamieson to target pigmentation at its source, revealing a remarkably even and luminous complexion.",
+        "atc_text": "Experience True Brightening — $100"
+      }
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      },
       "blocks": {
         "press_1": {
           "type": "logo",
@@ -120,15 +125,14 @@
         "press_2",
         "press_3",
         "press_4"
-      ]
+      ],
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
-      "settings": {
-        "label": "Dermatologist Authored",
-        "bg_color": "#ffffff",
-        "speed": 25
-      },
       "blocks": {
         "badge_1": {
           "type": "badge",
@@ -167,24 +171,24 @@
         "badge_3",
         "badge_4",
         "badge_5"
-      ]
+      ],
+      "settings": {
+        "label": "Dermatologist Authored",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
         "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with the most significant results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
       }
     },
     "benefits": {
       "type": "aliange-pdp-benefits",
-      "settings": {
-        "heading": "Unlock Your Path To Luminous Skin",
-        "subheading": "A comprehensive, targetted solution for persistent discolouration.",
-        "header_align": "left",
-        "button_text": "Shop Brightening Serum"
-      },
       "blocks": {
         "b1": {
           "type": "benefit",
@@ -236,15 +240,17 @@
         "b4",
         "b5",
         "b6"
-      ]
+      ],
+      "settings": {
+        "heading": "Unlock Your Path To Luminous Skin",
+        "subheading": "A comprehensive, targetted solution for persistent discolouration.",
+        "header_align": "left",
+        "button_text": "Shop Brightening Serum",
+        "button_url": ""
+      }
     },
     "stats": {
       "type": "aliange-pdp-stats",
-      "settings": {
-        "heading": "Visible Clinical Results.",
-        "subheading": "A comprehensive approach to uniform skin tone:",
-        "columns": 4
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -284,17 +290,15 @@
         "s2",
         "s3",
         "s4"
-      ]
+      ],
+      "settings": {
+        "heading": "Visible Clinical Results.",
+        "subheading": "A comprehensive approach to uniform skin tone:",
+        "columns": 4
+      }
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
-      "settings": {
-        "heading": "Ditch The Generic Creams",
-        "subheading": "Standard luxury serums target one pathway. Aliangé targets five.",
-        "aliange_label": "Brightening Serum",
-        "competitor_label": "Other \"Brighteners\"",
-        "button_text": "Upgrade Your Skincare"
-      },
       "blocks": {
         "r1": {
           "type": "comparison_row",
@@ -370,15 +374,18 @@
         "r6",
         "r7",
         "r8"
-      ]
+      ],
+      "settings": {
+        "heading": "Ditch The Generic Creams",
+        "subheading": "Standard luxury serums target one pathway. Aliangé targets five.",
+        "aliange_label": "Brightening Serum",
+        "competitor_label": "Other \"Brighteners\"",
+        "button_text": "Upgrade Your Skincare",
+        "button_url": ""
+      }
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
-      "settings": {
-        "heading": "Clinical-Grade Key Ingredients.",
-        "subheading": "A synergistic blend of powerhouse brighteners and gentle exfoliants.",
-        "columns": 3
-      },
       "blocks": {
         "i1": {
           "type": "ingredient",
@@ -432,16 +439,15 @@
         "i3",
         "i4",
         "i5"
-      ]
+      ],
+      "settings": {
+        "heading": "Clinical-Grade Key Ingredients.",
+        "subheading": "A synergistic blend of powerhouse brighteners and gentle exfoliants.",
+        "columns": 3
+      }
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
-      "settings": {
-        "heading": "The Brightening Ritual",
-        "subheading": "Follow these steps for optimal pigment correction.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
-      },
       "blocks": {
         "step1": {
           "type": "step",
@@ -477,15 +483,16 @@
         "step2",
         "step3",
         "step4"
-      ]
+      ],
+      "settings": {
+        "heading": "The Brightening Ritual",
+        "subheading": "Follow these steps for optimal pigment correction.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
+      }
     },
     "faq": {
       "type": "aliange-pdp-faq",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "Everything you need to know about the Brightening Serum.",
-        "button_text": "Shop Brightening Serum"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -529,7 +536,17 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Everything you need to know about the Brightening Serum.",
+        "button_text": "Shop Brightening Serum",
+        "button_url": ""
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -537,15 +554,12 @@
         "heading": "Your Clinical Solution to Pigmentation Starts Now.",
         "subheading": "Stop wasting time on ineffective treatments. Invest in efficacy.",
         "button_text": "Add to Cart — Begin My Journey",
+        "button_url": "",
         "trust_line": "100% Australian Made & Owned. 90-Day Guarantee.",
-        "bg_color": "#F4F7F9",
         "secondary_link_text": "Learn about our clinical approach to pigmentation →",
-        "secondary_link_url": "/pages/concern-pigmentation"
+        "secondary_link_url": "/pages/concern-pigmentation",
+        "bg_color": "#f4f7f9"
       }
-    },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "settings": {}
     }
   },
   "order": [

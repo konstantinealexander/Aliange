@@ -131,58 +131,12 @@
         "speed": 35
       }
     },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Barrier Fortifying"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Sebum Regulating"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Dermatologist Authored",
-        "bg_color": "#ffffff",
-        "speed": 25
-      }
-    },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
         "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "Don’t just apply this serum to your face. The delicate skin on your neck and chest is just as prone to barrier damage and will benefit immensely from the ceramide-boosting and hydrating properties of this formula. Use it morning and night for optimal results."
       }
     },
@@ -244,9 +198,56 @@
         "heading": "Experience A Breakthrough In Resilience",
         "subheading": "Fortify your skin’s future with our probiotic-infused barrier serum.",
         "header_align": "left",
-        "image": "shopify://shop_images/Untitled_56_76dd8db9-4801-471c-9ca7-9652e3a23a47.png",
+        "image": "shopify://shop_images/aliange-ingredient-chondrus-crispus-red-algae-botanical.jpg",
         "button_text": "Shop Biocinamide Serum",
         "button_url": ""
+      }
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Barrier Fortifying"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Sebum Regulating"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Dermatologist Authored",
+        "bg_color": "#ffffff",
+        "speed": 25
       }
     },
     "stats": {
