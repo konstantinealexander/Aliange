@@ -21,7 +21,7 @@
         "b2": {
           "type": "bullet",
           "settings": {
-            "text": "Discover a multi-pathway routine to rebalance your skin's microbiome."
+            "text": "Discover a multi-pathway protocol to rebalance your skin's microbiome."
           }
         },
         "b3": {
@@ -74,7 +74,7 @@
         "q1": {
           "type": "quote",
           "settings": {
-            "quote_text": "In my clinical experience, I've seen that a lasting solution to acne requires a holistic approach. You cannot just dry out the skin and expect it to heal. You must address the underlying drivers — the oil production, the bacterial imbalance, the inflammation. That's why I formulated this routine to work synergistically, bringing the skin back into a state of equilibrium and health.",
+            "quote_text": "In my clinical experience, I've seen that a lasting solution to acne requires a holistic approach. You cannot just dry out the skin and expect it to heal. You must address the underlying drivers — the oil production, the bacterial imbalance, the inflammation. That's why I formulated this protocol to work synergistically, bringing the skin back into a state of equilibrium and health.",
             "attribution": "— Dr. Alison Jamieson"
           }
         }
@@ -95,7 +95,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-routine",
+      "type": "aliange-lp-protocol",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -162,7 +162,7 @@
       ],
       "settings": {
         "label": "The Protocol",
-        "headline": "Your Breakout-Clearing Routine",
+        "headline": "Your Breakout-Clearing Protocol",
         "subheadline": "",
         "cta_text": "Shop The Acne Protocol",
         "cta_url": "shopify://products/acne-protocol"
@@ -224,7 +224,7 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Benefits of the Routine",
+        "headline": "Benefits of the Protocol",
         "subheadline": ""
       }
     },
@@ -235,7 +235,7 @@
           "type": "phase",
           "settings": {
             "timeframe": "Week 1–2",
-            "description": "Skin feels calmer, less oily, and looks less inflamed as the routine begins to regulate sebum and soothe irritation."
+            "description": "Skin feels calmer, less oily, and looks less inflamed as the protocol begins to regulate sebum and soothe irritation."
           }
         },
         "t2": {
@@ -279,7 +279,7 @@
           "settings": {
             "feature": "Approach",
             "them": "Single ingredient (e.g., Benzoyl Peroxide only)",
-            "us": "Multi-pathway, synergistic routine"
+            "us": "Multi-pathway, synergistic protocol"
           }
         },
         "r2": {
@@ -326,22 +326,22 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "I have sensitive skin. Can I use this routine?",
-            "answer": "<p>Yes. This routine was formulated by a doctor to be effective yet gentle. Unlike many harsh acne treatments, our products focus on calming inflammation and supporting your skin barrier, making them suitable for sensitive and breakout-prone skin.</p>"
+            "question": "I have sensitive skin. Can I use this protocol?",
+            "answer": "<p>Yes. This protocol was formulated by a doctor to be effective yet gentle. Unlike many harsh acne treatments, our products focus on calming inflammation and supporting your skin barrier, making them suitable for sensitive and breakout-prone skin.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Will my skin purge when I start this routine?",
+            "question": "Will my skin purge when I start this protocol?",
             "answer": "<p>Some people may experience a temporary 'purging' phase as the Transforming Exfoliator accelerates cell turnover and brings underlying congestion to the surface. This is normal and typically subsides within 2–4 weeks, revealing clearer skin.</p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for hormonal acne?",
-            "answer": "<p>Absolutely. The Biocinamide Serum is specifically formulated with Oleanolic Acid to inhibit 5-alpha reductase, the enzyme linked to hormonal-driven oil production, making this routine highly effective for managing hormonal breakouts.</p>"
+            "question": "Is this protocol suitable for hormonal acne?",
+            "answer": "<p>Absolutely. The Biocinamide Serum is specifically formulated with Oleanolic Acid to inhibit 5-alpha reductase, the enzyme linked to hormonal-driven oil production, making this protocol highly effective for managing hormonal breakouts.</p>"
           }
         },
         "q4": {
@@ -442,7 +442,7 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_routine",
+    "lp_protocol",
     "lp_benefits",
     "lp_timeline",
     "trust_bar",

@@ -27,7 +27,7 @@
         "b3": {
           "type": "bullet",
           "settings": {
-            "text": "Learn Dr. Jamieson's multi-product routine for lasting clarity."
+            "text": "Learn Dr. Jamieson's multi-product protocol for lasting clarity."
           }
         }
       },
@@ -95,7 +95,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-routine",
+      "type": "aliange-lp-protocol",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -138,7 +138,7 @@
       ],
       "settings": {
         "label": "The Protocol",
-        "headline": "Your Pigmentation Routine",
+        "headline": "Your Pigmentation Protocol",
         "subheadline": "",
         "cta_text": "Explore Targeted Pigmentation Treatments",
         "cta_url": "shopify://products/pm-protocol"
@@ -186,7 +186,7 @@
           "type": "benefit",
           "settings": {
             "title": "Doctor-Developed Protocol",
-            "description": "Trust in a comprehensive routine designed by a leading Australian skin expert."
+            "description": "Trust in a comprehensive protocol designed by a leading Australian skin expert."
           }
         }
       },
@@ -200,7 +200,7 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Benefits of the Routine",
+        "headline": "Benefits of the Protocol",
         "subheadline": ""
       }
     },
@@ -271,7 +271,7 @@
           "settings": {
             "feature": "Effectiveness",
             "them": "Only targets one part of the problem",
-            "us": "Comprehensive routine for sustainable results"
+            "us": "Comprehensive protocol for sustainable results"
           }
         },
         "r4": {
@@ -302,7 +302,7 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for melasma?",
+            "question": "Is this protocol suitable for melasma?",
             "answer": "<p>Yes, this multi-pathway approach is designed to be effective for various types of hyperpigmentation, including the hormonal fluctuations that can trigger melasma. By targeting multiple stages of melanin production, it provides a comprehensive strategy for managing this stubborn condition.</p>"
           }
         },
@@ -317,14 +317,14 @@
           "type": "question",
           "settings": {
             "question": "Why do I need so many products?",
-            "answer": "<p>Lasting results for pigmentation require a multi-pronged attack. Each product in the routine is formulated with specific actives that target a different stage of the pigmentation process. Using them together creates a synergistic effect that is far more powerful than any single product could be on its own.</p>"
+            "answer": "<p>Lasting results for pigmentation require a multi-pronged attack. Each product in the protocol is formulated with specific actives that target a different stage of the pigmentation process. Using them together creates a synergistic effect that is far more powerful than any single product could be on its own.</p>"
           }
         },
         "q4": {
           "type": "question",
           "settings": {
             "question": "Is it safe to use while pregnant or breastfeeding?",
-            "answer": "<p>We recommend consulting with your doctor before using any new skincare products during pregnancy or breastfeeding. Some products in this routine may be suitable, but please seek individual medical advice.</p>"
+            "answer": "<p>We recommend consulting with your doctor before using any new skincare products during pregnancy or breastfeeding. Some products in this protocol may be suitable, but please seek individual medical advice.</p>"
           }
         }
       },
@@ -351,7 +351,7 @@
         "gradient_theme": "none",
         "headline": "Ready to Leave Uneven Skin Tone Behind?",
         "subheadline": "Trust in a clinical, doctor-developed system that works with your skin's biology to deliver profound, lasting clarity. Your journey to a brighter, more even complexion starts here.",
-        "cta_text": "Shop the Pigmentation Routine",
+        "cta_text": "Shop the Pigmentation Protocol",
         "cta_url": "/collections/all",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
@@ -418,7 +418,7 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_routine",
+    "lp_protocol",
     "lp_benefits",
     "lp_timeline",
     "trust_bar",

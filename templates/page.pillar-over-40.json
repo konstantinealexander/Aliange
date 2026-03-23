@@ -157,7 +157,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-routine",
+      "type": "aliange-lp-protocol",
       "blocks": {
         "product_step_DKtB4G": {
           "type": "product_step",
@@ -201,7 +201,7 @@
       "settings": {
         "label": "The Protocol",
         "headline": "The Doctor-Led Protocol for Mature Skin",
-        "subheadline": "Treating skin over 40 requires moving beyond a basic 'cleanse and moisturise' routine. It requires a clinical protocol designed to stimulate regeneration, accelerate cellular turnover, and deeply fortify the barrier.",
+        "subheadline": "Treating skin over 40 requires moving beyond a basic 'cleanse and moisturise' protocol. It requires a clinical protocol designed to stimulate regeneration, accelerate cellular turnover, and deeply fortify the barrier.",
         "cta_text": "Explore the Anti-Ageing Protocol",
         "cta_url": "shopify://products/anti-ageing-protocol"
       }
@@ -309,7 +309,7 @@
     "press_ticker",
     "lp_biology",
     "lp_stats",
-    "lp_routine",
+    "lp_protocol",
     "lp_approach",
     "trust_bar",
     "klaviyo_all_reviews",

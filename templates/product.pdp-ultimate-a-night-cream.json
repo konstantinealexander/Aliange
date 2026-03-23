@@ -301,7 +301,7 @@
         "subheading": "Traditional retinols degrade and irritate. Aliangé transforms and soothes.",
         "aliange_label": "Ultimate A Night Cream",
         "competitor_label": "Generic Retinol Cream",
-        "button_text": "Upgrade Your Nightly Routine",
+        "button_text": "Upgrade Your Nightly Protocol",
         "button_url": ""
       }
     },
@@ -406,7 +406,7 @@
         "step4"
       ],
       "settings": {
-        "heading": "The Transformation Ritual",
+        "heading": "The Transformation Protocol",
         "subheading": "Your nightly sequence for cellular rejuvenation.",
         "pro_tip_author": "Dr. Jamieson’s Pro Tip",
         "pro_tip_quote": "When first introducing retinol, start with twice-weekly application... then gradually increase to nightly use as your skin builds tolerance."
@@ -447,7 +447,7 @@
           "type": "question",
           "settings": {
             "question": "Can I use it with other products?",
-            "answer": "<p>Yes, apply after water-based serums. Avoid using in the same routine as strong exfoliants like high-concentration AHAs.</p>"
+            "answer": "<p>Yes, apply after water-based serums. Avoid using in the same protocol as strong exfoliants like high-concentration AHAs.</p>"
           }
         }
       },

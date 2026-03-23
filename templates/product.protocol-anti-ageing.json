@@ -50,7 +50,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-routine",
+      "type": "aliange-lp-protocol",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -178,8 +178,8 @@
       ],
       "settings": {
         "label": "The Difference",
-        "headline": "A Protocol. Not a Routine.",
-        "col_them": "A Random Routine",
+        "headline": "A Protocol. Not a Protocol.",
+        "col_them": "A Random Protocol",
         "col_us": "The Aliange Protocol"
       }
     },
@@ -257,7 +257,7 @@
           "type": "question",
           "settings": {
             "question": "Can I use this with other products?",
-            "answer": "<p>Complete evening routine. AM: cleanser, Jellyfish Serum, high-protection SPF.</p>"
+            "answer": "<p>Complete evening protocol. AM: cleanser, Jellyfish Serum, high-protection SPF.</p>"
           }
         },
         "q3": {
@@ -320,7 +320,7 @@
     "lp_hero",
     "press_ticker",
     "lp_problem",
-    "lp_routine",
+    "lp_protocol",
     "proto_synergy",
     "lp_comparison",
     "aliange_pdp_hero_AntiAge",

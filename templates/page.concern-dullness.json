@@ -21,7 +21,7 @@
         "b2": {
           "type": "bullet",
           "settings": {
-            "text": "Learn how to build a multi-pathway routine for a healthy glow."
+            "text": "Learn how to build a multi-pathway protocol for a healthy glow."
           }
         },
         "b3": {
@@ -85,7 +85,7 @@
       "settings": {
         "label": "Our Approach",
         "headline": "A Clinical Approach to Dullness",
-        "body": "<p>At Aliangé, we take a multi-product, multi-pathway approach to addressing dullness. While many brands offer single-product solutions that only target one aspect of the problem, we believe in a comprehensive approach that addresses all the key factors contributing to a lacklustre complexion. Our routines are formulated to work synergistically to accelerate cell turnover, strengthen the skin barrier, and protect against oxidative stress.</p>",
+        "body": "<p>At Aliangé, we take a multi-product, multi-pathway approach to addressing dullness. While many brands offer single-product solutions that only target one aspect of the problem, we believe in a comprehensive approach that addresses all the key factors contributing to a lacklustre complexion. Our protocols are formulated to work synergistically to accelerate cell turnover, strengthen the skin barrier, and protect against oxidative stress.</p>",
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
@@ -95,7 +95,7 @@
       }
     },
     "lp_routine": {
-      "type": "aliange-lp-routine",
+      "type": "aliange-lp-protocol",
       "blocks": {
         "p1": {
           "type": "product_step",
@@ -224,7 +224,7 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Benefits of the Routine",
+        "headline": "Benefits of the Protocol",
         "subheadline": ""
       }
     },
@@ -256,7 +256,7 @@
           "type": "phase",
           "settings": {
             "timeframe": "Week 8–12",
-            "description": "You will experience the full benefits of the routine, with your skin looking and feeling its absolute best."
+            "description": "You will experience the full benefits of the protocol, with your skin looking and feeling its absolute best."
           }
         }
       },
@@ -327,13 +327,13 @@
           "type": "question",
           "settings": {
             "question": "How long will it take to see results?",
-            "answer": "<p>You can expect to see initial results within the first 1–2 weeks, with more significant improvements visible after 4–8 weeks. For peak results, we recommend using the routine consistently for at least 8–12 weeks.</p>"
+            "answer": "<p>You can expect to see initial results within the first 1–2 weeks, with more significant improvements visible after 4–8 weeks. For peak results, we recommend using the protocol consistently for at least 8–12 weeks.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for sensitive skin?",
+            "question": "Is this protocol suitable for sensitive skin?",
             "answer": "<p>While our products are formulated to be gentle, we always recommend patch testing before use, especially if you have sensitive skin. The Transforming Exfoliator and Brightening Serum contain AHAs, which can cause some initial tingling or redness.</p>"
           }
         },
@@ -341,7 +341,7 @@
           "type": "question",
           "settings": {
             "question": "Do I really need to use all the recommended products?",
-            "answer": "<p>For the best results, we recommend using the complete routine as outlined. Each product has been carefully selected to target a different aspect of dullness, and they work together to deliver comprehensive results.</p>"
+            "answer": "<p>For the best results, we recommend using the complete protocol as outlined. Each product has been carefully selected to target a different aspect of dullness, and they work together to deliver comprehensive results.</p>"
           }
         }
       },
@@ -367,7 +367,7 @@
         "gradient_theme": "none",
         "headline": "Ready to Reveal Your Radiance?",
         "subheadline": "Experience the Aliangé difference and restore your skin's natural luminosity with our doctor-developed, science-backed approach.",
-        "cta_text": "Shop the Dullness Routine",
+        "cta_text": "Shop the Dullness Protocol",
         "cta_url": "/collections/all",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
@@ -434,7 +434,7 @@
     "press_ticker",
     "lp_problem",
     "lp_approach",
-    "lp_routine",
+    "lp_protocol",
     "lp_benefits",
     "lp_timeline",
     "trust_bar",

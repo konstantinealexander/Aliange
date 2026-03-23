@@ -1,17 +1,17 @@
 
 {%- style -%}
-  #lp-routine-{{ section.id }} { background-color: var(--lp-bg-muted); }
-  #lp-routine-{{ section.id }} .lp-routine-header {
+  #lp-protocol-{{ section.id }} { background-color: var(--lp-bg-muted); }
+  #lp-protocol-{{ section.id }} .lp-protocol-header {
     text-align: center;
     max-width: 640px;
     margin: 0 auto var(--lp-space-2xl);
   }
-  #lp-routine-{{ section.id }} .lp-routine-steps {
+  #lp-protocol-{{ section.id }} .lp-protocol-steps {
     display: flex;
     flex-direction: column;
     gap: var(--lp-space-md);
   }
-  #lp-routine-{{ section.id }} .lp-routine-step {
+  #lp-protocol-{{ section.id }} .lp-protocol-step {
     display: grid;
     grid-template-columns: 48px 1fr;
     gap: var(--lp-space-lg);
@@ -22,12 +22,12 @@
     padding: var(--lp-space-xl);
   }
   @media (min-width: 768px) {
-    #lp-routine-{{ section.id }} .lp-routine-step {
+    #lp-protocol-{{ section.id }} .lp-protocol-step {
       grid-template-columns: 56px 1fr auto;
       align-items: center;
     }
   }
-  #lp-routine-{{ section.id }} .lp-routine-num {
+  #lp-protocol-{{ section.id }} .lp-protocol-num {
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -41,43 +41,43 @@
     font-weight: 600;
     flex-shrink: 0;
   }
-  #lp-routine-{{ section.id }} .lp-routine-thumb {
+  #lp-protocol-{{ section.id }} .lp-protocol-thumb {
     width: 48px;
     height: 48px;
     border-radius: var(--lp-radius-md);
     overflow: hidden;
     flex-shrink: 0;
   }
-  #lp-routine-{{ section.id }} .lp-routine-thumb img {
+  #lp-protocol-{{ section.id }} .lp-protocol-thumb img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
   }
   @media (min-width: 768px) {
-    #lp-routine-{{ section.id }} .lp-routine-thumb { width: 56px; height: 56px; }
+    #lp-protocol-{{ section.id }} .lp-protocol-thumb { width: 56px; height: 56px; }
   }
-  #lp-routine-{{ section.id }} .lp-routine-body { flex: 1; }
-  #lp-routine-{{ section.id }} .lp-routine-name {
+  #lp-protocol-{{ section.id }} .lp-protocol-body { flex: 1; }
+  #lp-protocol-{{ section.id }} .lp-protocol-name {
     font-family: var(--lp-font-heading);
     font-size: clamp(1rem, 1.8vw, 1.3rem);
     font-weight: 600;
     color: var(--lp-ink);
     margin: 0 0 4px;
   }
-  #lp-routine-{{ section.id }} .lp-routine-why {
+  #lp-protocol-{{ section.id }} .lp-protocol-why {
     font-family: var(--lp-font-body);
     font-size: 14px;
     color: var(--lp-body);
     line-height: 1.6;
     margin: 0 0 var(--lp-space-sm);
   }
-  #lp-routine-{{ section.id }} .lp-routine-meta {
+  #lp-protocol-{{ section.id }} .lp-protocol-meta {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
   }
-  #lp-routine-{{ section.id }} .lp-routine-tag {
+  #lp-protocol-{{ section.id }} .lp-protocol-tag {
     display: inline-block;
     padding: 3px 10px;
     background-color: var(--lp-bg-muted);
@@ -88,7 +88,7 @@
     color: var(--lp-body);
     letter-spacing: 0.03em;
   }
-  #lp-routine-{{ section.id }} .lp-routine-price {
+  #lp-protocol-{{ section.id }} .lp-protocol-price {
     font-family: var(--lp-font-heading);
     font-size: 1.1rem;
     font-weight: 600;
@@ -97,17 +97,17 @@
     margin-top: var(--lp-space-sm);
   }
   @media (min-width: 768px) {
-    #lp-routine-{{ section.id }} .lp-routine-price { margin-top: 0; text-align: right; }
+    #lp-protocol-{{ section.id }} .lp-protocol-price { margin-top: 0; text-align: right; }
   }
-  #lp-routine-{{ section.id }} .lp-routine-cta {
+  #lp-protocol-{{ section.id }} .lp-protocol-cta {
     text-align: center;
     margin-top: var(--lp-space-2xl);
   }
 {%- endstyle -%}
 
-<section id="lp-routine-{{ section.id }}" class="lp-section">
+<section id="lp-protocol-{{ section.id }}" class="lp-section">
   <div class="lp-container">
-    <div class="lp-routine-header lp-reveal">
+    <div class="lp-protocol-header lp-reveal">
       {%- if section.settings.label != blank -%}
         <span class="lp-section-label">{{ section.settings.label }}</span>
       {%- endif -%}
@@ -117,11 +117,11 @@
       {%- endif -%}
     </div>
 
-    <div class="lp-routine-steps">
+    <div class="lp-protocol-steps">
       {%- for block in section.blocks -%}
-        <div class="lp-routine-step lp-reveal" {{ block.shopify_attributes }}>
+        <div class="lp-protocol-step lp-reveal" {{ block.shopify_attributes }}>
           {%- if block.settings.image -%}
-            <div class="lp-routine-thumb">
+            <div class="lp-protocol-thumb">
               <img
                 src="{{ block.settings.image | image_url: width: 112 }}"
                 alt="{{ block.settings.image.alt | default: block.settings.name | escape }}"
@@ -131,7 +131,7 @@
               >
             </div>
           {%- elsif block.settings.image_path != blank -%}
-            <div class="lp-routine-thumb">
+            <div class="lp-protocol-thumb">
               <img
                 src="{{ block.settings.image_path | asset_url }}"
                 alt="{{ block.settings.name | escape }}"
@@ -141,31 +141,31 @@
               >
             </div>
           {%- else -%}
-            <div class="lp-routine-num" aria-hidden="true">{{ forloop.index }}</div>
+            <div class="lp-protocol-num" aria-hidden="true">{{ forloop.index }}</div>
           {%- endif -%}
-          <div class="lp-routine-body">
-            <h3 class="lp-routine-name">{{ block.settings.name }}</h3>
+          <div class="lp-protocol-body">
+            <h3 class="lp-protocol-name">{{ block.settings.name }}</h3>
             {%- if block.settings.why != blank -%}
-              <p class="lp-routine-why">{{ block.settings.why }}</p>
+              <p class="lp-protocol-why">{{ block.settings.why }}</p>
             {%- endif -%}
-            <div class="lp-routine-meta">
+            <div class="lp-protocol-meta">
               {%- if block.settings.key_active != blank -%}
-                <span class="lp-routine-tag">Key active: {{ block.settings.key_active }}</span>
+                <span class="lp-protocol-tag">Key active: {{ block.settings.key_active }}</span>
               {%- endif -%}
               {%- if block.settings.step != blank -%}
-                <span class="lp-routine-tag">{{ block.settings.step }}</span>
+                <span class="lp-protocol-tag">{{ block.settings.step }}</span>
               {%- endif -%}
             </div>
           </div>
           {%- if block.settings.price != blank -%}
-            <div class="lp-routine-price">{{ block.settings.price }}</div>
+            <div class="lp-protocol-price">{{ block.settings.price }}</div>
           {%- endif -%}
         </div>
       {%- endfor -%}
     </div>
 
     {%- if section.settings.cta_text != blank -%}
-      <div class="lp-routine-cta lp-reveal">
+      <div class="lp-protocol-cta lp-reveal">
         <a href="{{ section.settings.cta_url | default: '/collections/all' }}" class="lp-btn">
           {{ section.settings.cta_text }}
         </a>
@@ -178,13 +178,13 @@
 
 {% schema %}
 {
-  "name": "LP — Routine",
+  "name": "LP — Protocol",
   "tag": "div",
   "settings": [
     { "type": "text", "id": "label", "label": "Eyebrow label", "default": "The Protocol" },
-    { "type": "text", "id": "headline", "label": "Headline", "default": "Your Recommended Routine" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "Your Recommended Protocol" },
     { "type": "textarea", "id": "subheadline", "label": "Subheadline" },
-    { "type": "text", "id": "cta_text", "label": "CTA text", "default": "Shop the Routine" },
+    { "type": "text", "id": "cta_text", "label": "CTA text", "default": "Shop the Protocol" },
     { "type": "url", "id": "cta_url", "label": "CTA URL" }
   ],
   "blocks": [
@@ -202,6 +202,6 @@
       ]
     }
   ],
-  "presets": [{ "name": "LP — Routine" }]
+  "presets": [{ "name": "LP — Protocol" }]
 }
 {% endschema %}
