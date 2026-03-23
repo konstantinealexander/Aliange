@@ -1,11 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
       "type": "aliange-pdp-hero",
-      "settings": {
-        "description": "A concentrated, doctor-developed treatment that visibly reverses orbital drooping, smooths lip lines, and fades dark circles for a complete rejuvenation.",
-        "atc_text": "ADD TO CART - $225"
-      },
       "blocks": {
         "bullet_1": {
           "type": "bullet_point",
@@ -81,14 +86,14 @@
         "faq_1",
         "faq_2",
         "faq_3"
-      ]
+      ],
+      "settings": {
+        "description": "A concentrated, doctor-developed treatment that visibly reverses orbital drooping, smooths lip lines, and fades dark circles for a complete rejuvenation.",
+        "atc_text": "ADD TO CART - $225"
+      }
     },
     "press_ticker": {
       "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      },
       "blocks": {
         "press_1": {
           "type": "logo",
@@ -120,15 +125,14 @@
         "press_2",
         "press_3",
         "press_4"
-      ]
+      ],
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
     },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
-      "settings": {
-        "label": "Expressive Area Specialist",
-        "bg_color": "#ffffff",
-        "speed": 25
-      },
       "blocks": {
         "badge_1": {
           "type": "badge",
@@ -167,24 +171,24 @@
         "badge_3",
         "badge_4",
         "badge_5"
-      ]
+      ],
+      "settings": {
+        "label": "Expressive Area Specialist",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
     },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
         "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "For an enhanced lifting effect, use your ring finger to gently massage the cream in an upward and outward motion. This also helps to stimulate circulation and reduce puffiness."
       }
     },
     "benefits": {
       "type": "aliange-pdp-benefits",
-      "settings": {
-        "heading": "Eye & Lip Lift In A Jar",
-        "subheading": "Reverse signs of fatigue and ageing on your most expressive features.",
-        "header_align": "left",
-        "button_text": "Shop Eye & Lip Cream"
-      },
       "blocks": {
         "b1": {
           "type": "benefit",
@@ -236,15 +240,18 @@
         "b4",
         "b5",
         "b6"
-      ]
+      ],
+      "settings": {
+        "heading": "Eye & Lip Lift",
+        "subheading": "Reverse signs of fatigue and ageing on your most expressive features.",
+        "header_align": "left",
+        "image": "shopify://shop_images/aliange-ingredient-persian-silk-tree-albizia-julibrissin-botanical.jpg",
+        "button_text": "Shop Eye & Lip Cream",
+        "button_url": ""
+      }
     },
     "stats": {
       "type": "aliange-pdp-stats",
-      "settings": {
-        "heading": "Orbital Rejuvenation Stats.",
-        "subheading": "Clinical data for a non-invasive lift:",
-        "columns": 4
-      },
       "blocks": {
         "s1": {
           "type": "stat",
@@ -284,17 +291,15 @@
         "s2",
         "s3",
         "s4"
-      ]
+      ],
+      "settings": {
+        "heading": "Orbital Rejuvenation Stats.",
+        "subheading": "Clinical data for a non-invasive lift:",
+        "columns": 4
+      }
     },
     "comparison": {
       "type": "aliange-pdp-comparison",
-      "settings": {
-        "heading": "Lift vs. Lubricate",
-        "subheading": "Generic eye creams just hydrate. Aliangé provides a non-surgical lift.",
-        "aliange_label": "Eye & Lip Cream",
-        "competitor_label": "Standard Eye Cream",
-        "button_text": "Upgrade Your Skincare"
-      },
       "blocks": {
         "r1": {
           "type": "comparison_row",
@@ -370,15 +375,18 @@
         "r6",
         "r7",
         "r8"
-      ]
+      ],
+      "settings": {
+        "heading": "Lift vs. Lubricate",
+        "subheading": "Generic eye creams just hydrate. Aliangé provides a non-surgical lift.",
+        "aliange_label": "Eye & Lip Cream",
+        "competitor_label": "Standard Eye Cream",
+        "button_text": "Upgrade Your Skincare",
+        "button_url": ""
+      }
     },
     "ingredients": {
       "type": "aliange-pdp-ingredients",
-      "settings": {
-        "heading": "Eye Contour Actives.",
-        "subheading": "Synergistic peptides designed for the most expressive facial areas.",
-        "columns": 3
-      },
       "blocks": {
         "i1": {
           "type": "ingredient",
@@ -432,16 +440,15 @@
         "i3",
         "i4",
         "i5"
-      ]
+      ],
+      "settings": {
+        "heading": "Eye Contour Actives.",
+        "subheading": "Synergistic peptides designed for the most expressive facial areas.",
+        "columns": 3
+      }
     },
     "howtouse": {
       "type": "aliange-pdp-howtouse",
-      "settings": {
-        "heading": "The Rejuvenation Ritual",
-        "subheading": "Steps to lift and define your expressive areas.",
-        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
-        "pro_tip_quote": "Use your ring finger to gently massage the cream in an upward and outward motion. This helps to stimulate circulation and reduce puffiness."
-      },
       "blocks": {
         "step1": {
           "type": "step",
@@ -477,15 +484,16 @@
         "step2",
         "step3",
         "step4"
-      ]
+      ],
+      "settings": {
+        "heading": "The Rejuvenation Ritual",
+        "subheading": "Steps to lift and define your expressive areas.",
+        "pro_tip_author": "Dr. Jamieson’s Pro Tip",
+        "pro_tip_quote": "Use your ring finger to gently massage the cream in an upward and outward motion. This helps to stimulate circulation and reduce puffiness."
+      }
     },
     "faq": {
       "type": "aliange-pdp-faq",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "Targetted answers for your eye and lip care.",
-        "button_text": "Shop Eye & Lip Cream"
-      },
       "blocks": {
         "q1": {
           "type": "question",
@@ -529,7 +537,17 @@
         "q3",
         "q4",
         "q5"
-      ]
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "subheading": "Targetted answers for your eye and lip care.",
+        "button_text": "Shop Eye & Lip Cream",
+        "button_url": ""
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "settings": {}
     },
     "final_cta": {
       "type": "aliange-pdp-final-cta",
@@ -537,15 +555,12 @@
         "heading": "Experience the Doctor-Developed Difference.",
         "subheading": "Invest in a targeted treatment for your most expressive features.",
         "button_text": "YES, I WANT TO REJUVENATE MY EYES & LIPS",
+        "button_url": "",
         "trust_line": "90-Day Results Guarantee.",
-        "bg_color": "#F4F7F9",
         "secondary_link_text": "Learn about our clinical approach to ageing →",
-        "secondary_link_url": "/pages/concern-aging"
+        "secondary_link_url": "/pages/concern-aging",
+        "bg_color": "#f4f7f9"
       }
-    },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "settings": {}
     }
   },
   "order": [
