@@ -201,7 +201,7 @@
         "badge_5"
       ],
       "settings": {
-        "label": "Dermatologist Authored",
+        "label": "Doctor Developed",
         "bg_color": "#ffffff",
         "speed": 25
       }
@@ -210,7 +210,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FRACGP, Dip Derm — 40+ Years in Cosmetic Medicine",
         "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "Consistency is key when treating pigmentation. The multi-pathway approach works cumulatively, with the most significant results appearing from week 8 onwards. Always protect your investment with daily sunscreen."
       }

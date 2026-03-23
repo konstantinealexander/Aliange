@@ -210,7 +210,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FRACGP, Dip Derm — 40+ Years in Cosmetic Medicine",
         "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "For an intensive treatment on active breakouts or areas of inflammation, use the Probiotic Masque as a targeted spot treatment overnight. Its calming and purifying properties work wonders while you sleep."
       }
@@ -406,7 +406,7 @@
       ],
       "settings": {
         "heading": "Microbiome Reset vs. Basic Mask",
-        "subheading": "Traditional masks strip the skin. Aliangé balances and feeds it.",
+        "subheading": "Traditional masks strip the skin. We balance and feed it.",
         "aliange_label": "Probiotic Masque",
         "competitor_label": "Generic Mud Mask",
         "button_text": "Upgrade Your Mask",

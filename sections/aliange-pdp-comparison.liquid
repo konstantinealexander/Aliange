@@ -66,21 +66,16 @@
     object-fit: contain;
     filter: invert(1);
   }
-  #pdp-comparison-{{ section.id }} .header-brand-text {
-    font-family: var(--pdp-font-heading);
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-  }
+  #pdp-comparison-{{ section.id }} .header-brand-text,
   #pdp-comparison-{{ section.id }} .header-competitor-text {
     font-family: var(--pdp-font-body);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--pdp-ink);
   }
+  #pdp-comparison-{{ section.id }} .header-brand-text { color: #ffffff; }
+  #pdp-comparison-{{ section.id }} .header-competitor-text { color: var(--pdp-ink); }
 
   /* Data rows */
   #pdp-comparison-{{ section.id }} .row-cell {

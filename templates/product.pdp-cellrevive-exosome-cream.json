@@ -163,7 +163,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FRACGP, Dip Derm — 40+ Years in Cosmetic Medicine",
         "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "The exosomes work most effectively on well-hydrated skin, allowing for optimal signalling and cellular communication. Think of it as preparing the lines of communication before sending the message."
       }
@@ -406,7 +406,7 @@
       ],
       "settings": {
         "heading": "The Future vs. The Past",
-        "subheading": "Standard luxury creams provide moisture. Aliangé provides cellular instructions.",
+        "subheading": "Standard luxury creams provide moisture. We provide cellular instructions.",
         "aliange_label": "CellRevive Exosome",
         "competitor_label": "Generic \"Luxury\" Cream",
         "button_text": "Upgrade Your Skincare",

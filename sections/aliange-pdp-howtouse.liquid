@@ -96,39 +96,6 @@
     #pdp-howtouse-{{ section.id }} .step-desc { font-size: 14px; }
   }
 
-  #pdp-howtouse-{{ section.id }} .pro-tip {
-    margin-top: var(--pdp-space-md);
-    padding: var(--pdp-space-lg);
-    background-color: var(--pdp-bg-muted);
-    border-radius: var(--pdp-radius-md);
-    border-left: 3px solid var(--pdp-ink);
-  }
-
-  #pdp-howtouse-{{ section.id }} .pro-tip-label {
-    font-family: var(--pdp-font-body);
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--pdp-ink);
-    margin: 0 0 8px 0;
-  }
-
-  #pdp-howtouse-{{ section.id }} .pro-tip-quote {
-    font-family: var(--pdp-font-heading);
-    font-size: 14px;
-    font-style: italic;
-    color: var(--pdp-body);
-    line-height: 1.7;
-    margin: 0;
-  }
-
-  @media (min-width: 768px) {
-    #pdp-howtouse-{{ section.id }} .pro-tip-quote {
-      font-size: 15px;
-    }
-  }
-
   #pdp-howtouse-{{ section.id }} .howtouse-image {
     position: relative;
     border-radius: var(--pdp-radius-xl);
@@ -177,12 +144,6 @@
           </div>
         {% endif %}
 
-        {% if section.settings.pro_tip_quote != blank %}
-          <div class="pro-tip">
-            <p class="pro-tip-label">{{ section.settings.pro_tip_author | default: "Dr. Jamieson\u2019s Pro Tip" }}</p>
-            <blockquote class="pro-tip-quote">\u201C{{ section.settings.pro_tip_quote }}\u201D</blockquote>
-          </div>
-        {% endif %}
       </div>
 
       {% if section.settings.image != blank %}
@@ -224,17 +185,6 @@
       "type": "image_picker",
       "id": "image",
       "label": "Side image"
-    },
-    {
-      "type": "text",
-      "id": "pro_tip_author",
-      "label": "Pro tip label",
-      "default": "Dr. Jamieson\u2019s Pro Tip"
-    },
-    {
-      "type": "textarea",
-      "id": "pro_tip_quote",
-      "label": "Pro tip quote"
     }
   ],
   "blocks": [

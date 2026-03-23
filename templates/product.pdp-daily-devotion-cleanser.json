@@ -163,7 +163,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Cosmetic Medicine",
+        "credentials": "MBBS, FRACGP, Dip Derm — 40+ Years in Cosmetic Medicine",
         "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "Never cleanse with hot water, as it can strip the skin of its natural oils and lead to dehydration and sensitivity. Always be gentle; your skin is a delicate organ, not a surface to be scrubbed."
       }
@@ -406,7 +406,7 @@
       ],
       "settings": {
         "heading": "Soap vs. Science",
-        "subheading": "Traditional cleansers strip your barrier. Aliangé respects it.",
+        "subheading": "Traditional cleansers strip your barrier. We respect it.",
         "aliange_label": "Daily Devotion Cleanser",
         "competitor_label": "Generic SLS Cleanser",
         "button_text": "",

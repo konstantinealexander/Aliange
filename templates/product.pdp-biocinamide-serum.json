@@ -163,7 +163,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FRACGP, Dip Derm — 40+ Years in Cosmetic Medicine",
         "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "Don’t just apply this serum to your face. The delicate skin on your neck and chest is just as prone to barrier damage and will benefit immensely from the ceramide-boosting and hydrating properties of this formula. Use it morning and night for optimal results."
       }
@@ -273,7 +273,7 @@
         "badge_5"
       ],
       "settings": {
-        "label": "Dermatologist Authored",
+        "label": "Doctor Developed",
         "bg_color": "#ffffff",
         "speed": 25
       }
@@ -406,7 +406,7 @@
       ],
       "settings": {
         "heading": "Ditch The Generic Creams",
-        "subheading": "Standard luxury serums provide moisture. Aliangé provides cellular instructions.",
+        "subheading": "Standard luxury serums provide moisture. We provide cellular instructions.",
         "aliange_label": "Biocinamide Serum",
         "competitor_label": "Other \"Pore\" Serums",
         "button_text": "Upgrade Your Skincare",

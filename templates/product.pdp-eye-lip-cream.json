@@ -210,7 +210,7 @@
       "type": "aliange-pdp-doctor-note",
       "settings": {
         "doctor_name": "Dr. Alison Jamieson",
-        "credentials": "MBBS, FACCSM — 40+ Years in Clinical Dermatology",
+        "credentials": "MBBS, FRACGP, Dip Derm — 40+ Years in Cosmetic Medicine",
         "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
         "quote": "For an enhanced lifting effect, use your ring finger to gently massage the cream in an upward and outward motion. This also helps to stimulate circulation and reduce puffiness."
       }
@@ -406,7 +406,7 @@
       ],
       "settings": {
         "heading": "Lift vs. Lubricate",
-        "subheading": "Generic eye creams just hydrate. Aliangé provides a non-surgical lift.",
+        "subheading": "Generic eye creams just hydrate. We provide a non-surgical lift.",
         "aliange_label": "Eye & Lip Cream",
         "competitor_label": "Standard Eye Cream",
         "button_text": "Upgrade Your Skincare",
