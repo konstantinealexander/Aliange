@@ -64,6 +64,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Untitled_57.png",
         "image_position": "right"
       }
     },
@@ -89,6 +90,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Untitled_61.png",
         "image_position": "right"
       }
     },
@@ -393,7 +395,7 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
-        "image": "shopify://shop_images/DayCreamSPF15_70a74f57-454b-48cd-b7ca-5c62183042f1.png",
+        "image": "shopify://shop_images/Untitled_60_45373ff1-e26b-42aa-ba9d-1f674f86cf50.png",
         "image_position": "right"
       }
     },
