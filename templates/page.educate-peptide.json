@@ -64,6 +64,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/IMG_3388.jpg",
         "image_position": "right"
       }
     },
@@ -77,6 +78,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/JFP_67a43f12-e924-4740-b619-44a026ab2882.png",
         "image_position": "right"
       }
     },
@@ -90,6 +92,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/IMG_3383.jpg",
         "image_position": "right"
       }
     },
@@ -285,6 +288,7 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
+        "image": "shopify://shop_images/Untitled_36_8af1fbd9-7222-469f-9a71-660db519e33a.png",
         "image_position": "right"
       }
     },
