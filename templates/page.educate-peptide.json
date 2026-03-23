@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Aliangé Education",
         "headline": "The Science of Peptides in Skincare",
         "subheadline": "Peptides are short chains of amino acids that function as signalling molecules within the body. In skin biology, peptides play an important role in cellular communication — helping skin cells signal when to produce structural proteins such as collagen and elastin, repair damaged tissue, and maintain the integrity of the skin barrier.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Untitled_56_7af7e440-4a89-40ac-ba2a-1049cc9c840f.png",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,7 +62,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_approach": {
@@ -63,7 +75,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_jellyfish": {
@@ -75,7 +88,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -116,7 +130,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_benefits": {
       "type": "aliange-lp-benefits",
@@ -267,12 +283,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Advanced Peptide Technology for Skin Resilience.",
         "subheadline": "Explore the Jellyfish Peptide X Antioxidant Serum and discover advanced peptide technology designed to support skin structure and resilience.",
         "cta_text": "Shop Jellyfish Peptide Serum",
@@ -281,10 +303,6 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
     }
   },
   "order": [
