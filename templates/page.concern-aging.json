@@ -42,6 +42,7 @@
         "subheadline": "The visible signs of ageing- fine lines, wrinkles, and loss of firmness- are driven by complex biological processes. Aliangé offers a clinical, multi-pathway approach to visibly rejuvenate your skin, formulated by one of Australia's leading dermatology experts.",
         "gradient_theme": "none",
         "image": "shopify://shop_images/Generated_Image_March_22_2026_-_7_14PM.jpg",
+        "mobile_image": "shopify://shop_images/Generated_Image_March_23_2026_-_5_01PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -62,7 +63,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -128,7 +130,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_routine": {
@@ -141,7 +144,8 @@
             "price": "$225",
             "why": "This advanced serum targets DNA repair and rebuilds the skin's matrix with powerful peptides, addressing the core signs of cellular ageing.",
             "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™), Palmitoyl Tripeptide-38 (Matrixyl Synthe’6™)",
-            "step": "Step 1 (AM/PM)"
+            "step": "Step 1 (AM/PM)",
+            "image_path": ""
           }
         },
         "p2": {
@@ -151,7 +155,8 @@
             "price": "$130",
             "why": "A potent combination of microencapsulated retinol works overnight to accelerate cell turnover and visibly reduce wrinkles by up to 20%.",
             "key_active": "Retinol (Encapsulated with Hydroxypropyl Cyclodextrin), Palmitoyl Tripeptide-38 (Matrixyl Synthe’6™)",
-            "step": "Step 2 (PM)"
+            "step": "Step 2 (PM)",
+            "image_path": ""
           }
         },
         "p3": {
@@ -161,7 +166,8 @@
             "price": "$100",
             "why": "A clinically active resurfacing and pigment-correcting serum designed to improve skin tone, clarity, and radiance.",
             "key_active": "Multi-Acid Resurfacing Complex + Oligopeptide-68 Brightening Peptide + Pure Vitamin C (Ascorbic Acid) + Niacinamide",
-            "step": "Step 2 (AM) / Step 3 (PM)"
+            "step": "Step 2 (AM) / Step 3 (PM)",
+            "image_path": ""
           }
         }
       },
@@ -378,7 +384,8 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
     },
     "klaviyo_all_reviews": {
