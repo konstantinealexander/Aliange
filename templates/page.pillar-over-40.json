@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Doctor-Led Guide",
         "headline": "The Ultimate Guide to Skincare for Women Over 40 in Australia.",
         "subheadline": "Reaching your 40s marks a significant biological shift in how your skin functions. The products that kept your complexion glowing in your 20s and 30s are likely no longer sufficient. Here's why — and what to do about it.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Generated_Image_March_23_2026_-_1_55PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -97,7 +108,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -138,7 +150,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_routine": {
       "type": "aliange-lp-routine",
@@ -150,7 +164,8 @@
             "price": "$100",
             "why": "The Brightening Serum is formulated to target uneven pigmentation, dullness, and skin discolouration through multiple biological pathways. A combination of resurfacing acids, brightening peptides, and antioxidant actives works to accelerate cell turnover, inhibit excess melanin production, and improve overall skin clarity. This helps refine skin texture, promote a more even tone, and restore visible luminosity.",
             "key_active": "Glycolic Acid + Lactic Acid + Salicylic Acid + Oligopeptide-68 + Ascorbic Acid + Niacinamide + Licorice Root Extract",
-            "step": "PM"
+            "step": "PM",
+            "image_path": ""
           }
         },
         "p3": {
@@ -160,7 +175,8 @@
             "price": "$225",
             "why": "The Jellyfish Peptide X Antioxidant Serum is designed to support collagen production, skin regeneration, and antioxidant defence. Advanced biomimetic peptides work to stimulate structural proteins within the skin while Kakadu plum and vitamin E provide powerful antioxidant protection against environmental damage. Hydrating actives help improve skin smoothness and elasticity, leaving skin firmer, brighter, and more resilient.",
             "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Squalene + Vitamin E",
-            "step": "AM/PM"
+            "step": "AM/PM",
+            "image_path": ""
           }
         },
         "p4": {
@@ -170,7 +186,8 @@
             "price": "$130",
             "why": "Ultimate A Night Cream is a regenerative overnight treatment formulated to support collagen production, accelerate cellular turnover, and improve visible signs of skin ageing. Microencapsulated retinol works gradually within the skin to help smooth fine lines, refine texture, and improve skin firmness, while hydrating and barrier-supporting ingredients help minimise irritation and maintain skin resilience.",
             "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 + Niacinamide + Hyaluronic Acid + Vitamin E",
-            "step": "PM"
+            "step": "PM",
+            "image_path": ""
           }
         }
       },
@@ -208,7 +225,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "klaviyo_all_reviews": {
@@ -218,6 +236,7 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Support Regeneration at the Cellular Level",
         "subheadline": "At 40 and beyond, your skin has different biological needs. It requires science, not marketing.",
         "cta_text": "Discover the Anti-Ageing Protocol",
