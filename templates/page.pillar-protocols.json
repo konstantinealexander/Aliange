@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_hero": {
@@ -31,6 +40,8 @@
         "label": "Clinical Education",
         "headline": "Skincare Protocol vs Routine: Why Random Products Are Failing Your Skin.",
         "subheadline": "Your skin is a complex biological organ, not a canvas for random chemistry experiments. When you mix and match products without understanding their molecular weights and delivery mechanisms, you're likely cancelling out active ingredients — or worse, causing chronic barrier inflammation.",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Untitled_66_89e485d6-c55f-46c9-888b-3334b73e503c.png",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,7 +62,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_comparison": {
@@ -103,7 +115,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_routine": {
@@ -116,7 +129,8 @@
             "price": "",
             "why": "Healthy skin treatment begins with preparing the cellular environment.\n\nThe skin cannot properly respond to active ingredients if the surface is congested with accumulated corneocytes, excess oil, environmental debris, or impaired barrier function.\n\nDaily Devotion Cleanser uses gentle amino acid surfactants to cleanse while preserving essential lipids, while the Transforming Exfoliator utilises controlled AHA and BHA exfoliation to remove dead skin cells and improve ingredient penetration.\n\nThis phase restores surface clarity, balanced turnover, and barrier readiness, ensuring the skin is prepared for corrective treatment.",
             "key_active": "",
-            "step": ""
+            "step": "",
+            "image_path": ""
           }
         },
         "product_step_43cncH": {
@@ -126,7 +140,8 @@
             "price": "",
             "why": "Once the skin is prepared, the protocol moves to targeted treatment of the skin’s underlying concerns.\n\nAliangé treatment serums are designed to address common dysfunctions such as pigmentation irregularities, inflammation, excess oil production, and barrier instability.\n\nBiocinamide combines niacinamide and barrier-supportive lipids to calm inflammation, regulate sebum production, and strengthen the skin barrier.\n\nBrightening Serum targets uneven pigmentation and dullness through advanced peptide technologies that help regulate melanin activity and improve overall skin clarity.\n\nBy correcting these underlying imbalances, the skin becomes more stable and responsive to regenerative actives used in later phases.\n\nKey actives:\nNiacinamide, barrier lipids, pigment-regulating peptides",
             "key_active": "",
-            "step": ""
+            "step": "",
+            "image_path": ""
           }
         },
         "p2": {
@@ -136,7 +151,8 @@
             "price": "",
             "why": "With the skin now prepared and stabilised, the protocol moves into cellular regeneration and repair.\n\nCellRevive Exosome Cream delivers regenerative exosomal messengers that support cellular communication and tissue renewal, while the Jellyfish Peptide X Antioxidant Serum provides advanced peptides and antioxidant systems that help repair oxidative stress and support DNA repair pathways.\n\nTogether these technologies stimulate collagen production, cellular resilience, and structural regeneration within the skin.",
             "key_active": "",
-            "step": ""
+            "step": "",
+            "image_path": ""
           }
         },
         "p3": {
@@ -146,7 +162,8 @@
             "price": "",
             "why": "Phase 4: Protect & Maintain\nThe final phase protects the results achieved during treatment and supports ongoing skin renewal.\n\nDay Cream SPF 15 provides daily UV defence while delivering peptides that support collagen integrity, and Ultimate A Night Cream utilises micro-encapsulated retinol to stimulate overnight cellular turnover and dermal remodelling.\n\nThis phase ensures the skin remains protected from environmental damage while continuing to regenerate through the night cycle.",
             "key_active": "",
-            "step": ""
+            "step": "",
+            "image_path": ""
           }
         }
       },
@@ -171,6 +188,7 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Understand Your Skin. Treat It Precisely.",
         "subheadline": "Healthy skin is not achieved through random products.\nIt requires understanding the biological processes affecting your skin — from barrier integrity and inflammation to pigmentation and cellular repair.\n\nThe Aliangé Skin Assessment analyses your skin concerns and matches you with a clinically designed protocol, ensuring each step works in sequence to support regeneration and long-term skin health.",
         "cta_text": "Explore The Aliangé Protocols",
