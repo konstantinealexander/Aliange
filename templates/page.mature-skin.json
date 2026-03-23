@@ -193,18 +193,11 @@
             "answer": "<p>Yes. The protocol was designed specifically for thinning, fragile and reactive skin after 45. The focus is restoring barrier integrity before introducing active ingredients.</p>"
           }
         },
-        "question_QNAbMN": {
-          "type": "question",
-          "settings": {
-            "question": "2. I’ve tried retinol before and it irritated my skin. Will this?",
-            "answer": "<p>Many traditional retinol formulas deliver the active too rapidly, which can overwhelm barrier-compromised, mature skin and trigger irritation.</p><p>Our Vitamin A step uses <strong>microencapsulated retinol</strong>, where the active is enclosed within a protective delivery system. This allows for a <strong>slow, controlled release into the skin over time</strong>, rather than a sudden spike in activity.</p><p>The result is more consistent cellular stimulation with significantly less irritation.</p><p>Within the protocol, this is introduced in a structured way and supported with lipid repair, ensuring the skin can tolerate and respond to Vitamin A without compromise.</p>"
-          }
-        },
         "question_axKJUH": {
           "type": "question",
           "settings": {
             "question": "3. Is this medical grade skincare?",
-            "answer": "<p>The formulations were developed with over 40 years of clinical experience. The approach is grounded in skin physiology and long-term barrier health rather than cosmetic trends. We prioritise function over marketing claims.</p>"
+            "answer": "<p>Yes. The formulations were developed with over 40 years of clinical experience. The approach is grounded in skin physiology and long-term barrier health rather than cosmetic trends. We prioritise function over marketing claims.</p>"
           }
         },
         "question_Xp66hK": {
@@ -259,7 +252,6 @@
       },
       "block_order": [
         "question_wbie3a",
-        "question_QNAbMN",
         "question_axKJUH",
         "question_Xp66hK",
         "question_RXF4Tc",
