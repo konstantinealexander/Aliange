@@ -244,8 +244,8 @@
       "settings": {
         "heading": "Reveal Your Brightest Skin",
         "subheading": "Experience the clinical power of dual-action renewal.",
-        "header_align": "left",
-        "image": "shopify://shop_images/Chamomile.jpg",
+        "header_align": "center",
+        "image": "shopify://shop_images/aliange-ingredient-chamomile-matricaria-chamomilla-botanical.jpg",
         "button_text": "Shop Transforming Exfoliator",
         "button_url": ""
       }
