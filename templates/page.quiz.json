@@ -188,7 +188,7 @@
           "settings": {
             "style": "solid",
             "text": "SHOP NOW",
-            "url": "",
+            "url": "shopify://products/the-protocol",
             "background": "",
             "text_color": ""
           }
