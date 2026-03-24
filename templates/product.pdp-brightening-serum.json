@@ -99,53 +99,6 @@
         "speed": 35
       }
     },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Pigment Correcting"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Multi-Pathway"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
-      }
-    },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
@@ -210,12 +163,59 @@
         "b6"
       ],
       "settings": {
-        "heading": "Unlock Your Path To Luminous Skin",
+        "heading": "Your Path To Luminous Skin",
         "subheading": "A comprehensive, targetted solution for persistent discolouration.",
-        "header_align": "left",
-        "image": "shopify://shop_images/aliange-ingredient-orange-citrus-aurantium-dulcis-botanical.jpg",
+        "header_align": "center",
+        "image": "shopify://shop_images/Generated_Image_March_24_2026_-_4_12PM.jpg",
         "button_text": "Shop Brightening Serum",
         "button_url": ""
+      }
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Pigment Correcting"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Multi-Pathway"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
       }
     },
     "comparison": {
@@ -291,6 +291,7 @@
       "settings": {
         "heading": "Ditch The Generic Creams",
         "subheading": "Standard luxury serums target one pathway. We target five.",
+        "logo_asset": "",
         "aliange_label": "Brightening Serum",
         "competitor_label": "Other \"Brighteners\""
       }
@@ -397,7 +398,8 @@
       ],
       "settings": {
         "heading": "The Brightening Protocol",
-        "subheading": "Follow these steps for optimal pigment correction."
+        "subheading": "Follow these steps for optimal pigment correction.",
+        "image": "shopify://shop_images/Screenshot_2026-03-24_at_9.44.28_am.png"
       }
     },
     "faq": {
