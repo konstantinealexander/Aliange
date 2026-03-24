@@ -71,7 +71,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
-        "image": "shopify://shop_images/Screenshot_2026-03-24_at_9.44.28_am.png",
+        "image": "shopify://shop_images/Generated_Image_March_24_2026_-_12_14PM.jpg",
         "image_position": "right"
       }
     },
@@ -109,9 +109,10 @@
           "settings": {
             "name": "Jellyfish Peptide X Serum",
             "price": "$225",
-            "why": "This advanced serum targets DNA repair and rebuilds the skin's matrix with powerful peptides, addressing the core signs of cellular ageing.",
-            "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™), Palmitoyl Tripeptide-38 (Matrixyl Synthe’6™)",
-            "step": "Step 1 (AM/PM)",
+            "why": "A regenerative antioxidant serum designed to support skin repair and hydration. Powered by Juveleven™ peptide (Acetyl Hexapeptide-51 Amide) to help protect skin cells from oxidative stress and support renewal, alongside Matrixyl® peptide technology to promote collagen integrity. Hyaluronic acid, Kakadu plum extract and skin-identical moisturising factors help restore hydration and radiance, leaving skin smoother, stronger and visibly revitalised.",
+            "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™ Peptide) + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Terminalia Ferdinandiana (Kakadu Plum) + Saccharide Isomerate + Sodium PCA",
+            "step": "AM/PM",
+            "image": "shopify://shop_images/Untitled_85.png",
             "image_path": ""
           }
         },
@@ -120,9 +121,10 @@
           "settings": {
             "name": "Ultimate A Night Cream",
             "price": "$130",
-            "why": "A potent combination of microencapsulated retinol works overnight to accelerate cell turnover and visibly reduce wrinkles by up to 20%.",
-            "key_active": "Retinol (Encapsulated with Hydroxypropyl Cyclodextrin), Palmitoyl Tripeptide-38 (Matrixyl Synthe’6™)",
-            "step": "Step 2 (PM)",
+            "why": "A purifying treatment designed to rebalance the skin while supporting a healthy microbiome. Mineral clays help absorb excess oil and draw out impurities, while a probiotic and prebiotic complex works to support the skin’s microbial ecosystem, helping strengthen the barrier and calm inflammation. Hydrating ingredients such as hyaluronic acid and skin-identical moisturising factors help maintain moisture balance, leaving skin clearer, calmer, and more resilient.",
+            "key_active": "Purifying Mineral Clay Complex (Kaolin + Bentonite) + Probiotic & Prebiotic Microbiome Complex (Lactococcus Ferment + Lactobacillus + Alpha-Glucan Oligosaccharide + Yacon Root) + Hyaluronic Acid Hydration System + Marine Algae Barrier Support + Vitamin E Antioxidant Protection",
+            "step": "PM",
+            "image": "shopify://shop_images/UltimateANightCream_a4c6ba14-d508-4f6b-981e-3c4e948df800.png",
             "image_path": ""
           }
         },
@@ -132,8 +134,9 @@
             "name": "Brightening Serum",
             "price": "$100",
             "why": "A clinically active resurfacing and pigment-correcting serum designed to improve skin tone, clarity, and radiance.",
-            "key_active": "Multi-Acid Resurfacing Complex + Oligopeptide-68 Brightening Peptide + Pure Vitamin C (Ascorbic Acid) + Niacinamide",
-            "step": "Step 2 (AM) / Step 3 (PM)",
+            "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
+            "step": "PM",
+            "image": "shopify://shop_images/BrighteningSerum_a8edd9ec-1370-480a-8255-d33c7adaf078.png",
             "image_path": ""
           }
         }
@@ -145,9 +148,9 @@
       ],
       "settings": {
         "label": "The Protocol",
-        "headline": "Your Anti-Ageing Routine",
+        "headline": "The Anti-Ageing Protocol",
         "subheadline": "",
-        "cta_text": "Shop the Anti-Ageing Routine",
+        "cta_text": "Shop the Anti-Ageing Protocol",
         "cta_url": "shopify://products/anti-ageing-protocol"
       }
     },
