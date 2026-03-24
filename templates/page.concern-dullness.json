@@ -391,6 +391,13 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_YQVaDQ": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use The Protocol long-term?",
+            "answer": "<p>Yes—this is designed for <strong>ongoing use</strong>.</p><p>It functions as:</p><ul><li><br/>A long-term maintenance system<br/></li><li><br/>A baseline for skin health<br/></li><li><br/>A foundation to layer more advanced protocols onto</li></ul>"
+          }
+        },
         "question_kVDrna": {
           "type": "question",
           "settings": {
@@ -442,6 +449,7 @@
         }
       },
       "block_order": [
+        "question_YQVaDQ",
         "question_kVDrna",
         "question_DV9JGA",
         "question_WMAqDQ",
