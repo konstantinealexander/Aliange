@@ -380,8 +380,8 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "I have sensitive skin. Can I use this routine?",
-            "answer": "<p>Yes. This routine was formulated by a doctor to be effective yet gentle. Unlike many harsh acne treatments, our products focus on calming inflammation and supporting your skin barrier, making them suitable for sensitive and breakout-prone skin.</p>"
+            "question": "What makes the Acne Protocol different from traditional acne treatments?",
+            "answer": "<p>Most acne routines focus on <strong>aggressive oil stripping or antibacterial action alone</strong>.</p><p>This protocol is designed as a <strong>multi-pathway system</strong>, targeting:</p><ul><li><br/>Follicular congestion (comedogenesis)<br/></li><li><br/>Inflammation<br/></li><li><br/>Microbiome imbalance<br/></li><li><br/>Barrier dysfunction<br/></li></ul><p>By addressing all four simultaneously, the skin is treated as a <strong>biological system</strong>, not just a breakout.</p>"
           }
         },
         "q2": {
@@ -395,8 +395,8 @@
         "q3": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for hormonal acne?",
-            "answer": "<p>Absolutely. The Biocinamide Serum is specifically formulated with Oleanolic Acid to inhibit 5-alpha reductase, the enzyme linked to hormonal-driven oil production, making this routine highly effective for managing hormonal breakouts.</p>"
+            "question": "What types of acne is this protocol suitable for?",
+            "answer": "<p>Best suited for:</p><ul><li><br/>Mild to moderate acne (comedonal + inflammatory)<br/></li><li><br/>Hormonal breakouts with congestion<br/></li><li><br/>Post-inflammatory pigmentation (PIH)<br/></li><li><br/>Acne with dehydration or barrier impairment <br/></li></ul><p>Not designed for severe cystic acne requiring medical intervention.</p>"
           }
         },
         "q4": {
