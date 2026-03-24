@@ -36,6 +36,7 @@
         "b2",
         "b3"
       ],
+      "disabled": true,
       "settings": {
         "label": "Doctor-Designed · Evidence-Based · Australian Made",
         "headline": "The Complete Clinical System for Ageing, Rejuvenation and Repair",
@@ -52,6 +53,73 @@
         "trust_line": "90-Day Results Guarantee Or Your Money Back"
       }
     },
+    "aliange_pdp_hero_TheProto": {
+      "type": "aliange-pdp-hero",
+      "blocks": {
+        "bullet_point_tp1": {
+          "type": "bullet_point",
+          "settings": {
+            "text": "Complete 6-step clinical system for total rejuvenation"
+          }
+        },
+        "bullet_point_tp2": {
+          "type": "bullet_point",
+          "settings": {
+            "text": "Addresses all signs of ageing, morning and night"
+          }
+        },
+        "bullet_point_tp3": {
+          "type": "bullet_point",
+          "settings": {
+            "text": "Doctor-developed & Australian-made"
+          }
+        },
+        "trust_box_tp1": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_tp2": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_tp3": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
+          }
+        }
+      },
+      "block_order": [
+        "bullet_point_tp1",
+        "bullet_point_tp2",
+        "bullet_point_tp3",
+        "trust_box_tp1",
+        "trust_box_tp2",
+        "trust_box_tp3"
+      ],
+      "name": "PDP Hero",
+      "settings": {
+        "description": "The flagship Aliangé Protocol. A comprehensive 6-step clinical system designed by Dr. Alison Jamieson to deliver complete skin transformation.",
+        "atc_text": "Add to Cart"
+      }
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
     "lp_problem": {
       "type": "aliange-lp-text-block",
       "settings": {
@@ -61,7 +129,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_routine": {
@@ -183,7 +252,8 @@
       "settings": {
         "label": "The Science",
         "headline": "Engineered to Work as One System",
-        "body": "The Protocol is more than just a collection of products; it's a complete, synergistic system. Each step is designed to prepare the skin for the next, creating a powerful cascade of effects that work together to deliver superior results."
+        "body": "The Protocol is more than just a collection of products; it's a complete, synergistic system. Each step is designed to prepare the skin for the next, creating a powerful cascade of effects that work together to deliver superior results.",
+        "image_position": "right"
       }
     },
     "lp_comparison": {
@@ -192,41 +262,36 @@
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "System",
-            "them": "A collection of disconnected products",
-            "us": "A complete, synergistic system"
+            "us": "A complete, synergistic system",
+            "them": "A collection of disconnected products"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Design",
-            "them": "Guesswork and trial-and-error",
-            "us": "Doctor-designed for optimal results"
+            "us": "Doctor-designed for optimal results",
+            "them": "Guesswork and trial-and-error"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Ingredients",
-            "them": "Ineffective or conflicting ingredients",
-            "us": "High concentrations of proven actives"
+            "us": "High concentrations of proven actives",
+            "them": "Ineffective or conflicting ingredients"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Coverage",
-            "them": "Targets only one or two concerns",
-            "us": "Addresses all signs of ageing"
+            "us": "Addresses all signs of ageing",
+            "them": "Targets only one or two concerns"
           }
         },
         "r5": {
           "type": "row",
           "settings": {
-            "feature": "Results",
-            "them": "Inconsistent or disappointing results",
-            "us": "Visible, lasting results"
+            "us": "Visible, lasting results",
+            "them": "Inconsistent or disappointing results"
           }
         }
       },
@@ -240,68 +305,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "A Protocol. Not a Routine.",
-        "col_them": "The Random Routine Problem",
-        "col_us": "The Protocol Advantage"
-      }
-    },
-    "aliange_pdp_hero_TheProto": {
-      "type": "aliange-pdp-hero",
-      "blocks": {
-        "bullet_point_tp1": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Complete 6-step clinical system for total rejuvenation"
-          }
-        },
-        "bullet_point_tp2": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Addresses all signs of ageing, morning and night"
-          }
-        },
-        "bullet_point_tp3": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Doctor-developed & Australian-made"
-          }
-        },
-        "trust_box_tp1": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "truck",
-            "title": "Free Shipping",
-            "description": "On all orders worldwide"
-          }
-        },
-        "trust_box_tp2": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "shield",
-            "title": "Money Back",
-            "description": "90-day satisfaction promise"
-          }
-        },
-        "trust_box_tp3": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "drop",
-            "title": "Long Lasting",
-            "description": "Premium formula"
-          }
-        }
-      },
-      "block_order": [
-        "bullet_point_tp1",
-        "bullet_point_tp2",
-        "bullet_point_tp3",
-        "trust_box_tp1",
-        "trust_box_tp2",
-        "trust_box_tp3"
-      ],
-      "name": "PDP Hero",
-      "settings": {
-        "description": "The flagship Aliangé Protocol. A comprehensive 6-step clinical system designed by Dr. Alison Jamieson to deliver complete skin transformation.",
-        "atc_text": "Add to Cart"
+        "col_us": "The Protocol Advantage",
+        "col_them": "The Random Routine Problem"
       }
     },
     "lp_faq": {
@@ -352,7 +357,8 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
     },
     "klaviyo_all_reviews": {
@@ -371,23 +377,16 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
     }
   },
   "order": [
     "lp_hero",
+    "aliange_pdp_hero_TheProto",
     "press_ticker",
     "lp_problem",
     "lp_routine",
     "proto_synergy",
     "lp_comparison",
-    "aliange_pdp_hero_TheProto",
     "lp_faq",
     "klaviyo_all_reviews",
     "lp_cta"
