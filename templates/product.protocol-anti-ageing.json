@@ -9,189 +9,6 @@
  */
 {
   "sections": {
-    "lp_hero": {
-      "type": "aliange-lp-hero",
-      "blocks": {
-        "b1": {
-          "type": "bullet",
-          "settings": {
-            "text": "Stimulates collagen and elastin for firmer skin."
-          }
-        },
-        "b2": {
-          "type": "bullet",
-          "settings": {
-            "text": "Accelerates cell turnover to reduce wrinkles."
-          }
-        },
-        "b3": {
-          "type": "bullet",
-          "settings": {
-            "text": "Brightens and evens skin tone."
-          }
-        }
-      },
-      "block_order": [
-        "b1",
-        "b2",
-        "b3"
-      ],
-      "settings": {
-        "label": "Doctor-Designed · Evidence-Based · Australian Made",
-        "headline": "Rewind the Clock on Ageing Skin",
-        "subheadline": "A clinical-strength protocol designed for women 40+ to target wrinkles, loss of firmness, and age spots.",
-        "min_height": 620,
-        "content_width": 720,
-        "align": "left",
-        "cta_text": "Start the Anti-Ageing Protocol",
-        "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back"
-      }
-    },
-    "lp_problem": {
-      "type": "aliange-lp-text-block",
-      "settings": {
-        "label": "The Problem",
-        "headline": "Is Your Skincare Losing the Fight Against Time?",
-        "body": "<p>As skin matures, regenerative processes slow. Collagen declines, cell turnover becomes sluggish, and sun exposure causes persistent pigmentation.</p><p><strong>Collagen degradation</strong> leads to loss of firmness.</p><p><strong>Slower cell renewal</strong> results in rougher texture.</p><p><strong>Accumulated UV damage</strong> manifests as sun spots.</p>",
-        "bg": "muted",
-        "width": "narrow"
-      }
-    },
-    "lp_routine": {
-      "type": "aliange-lp-routine",
-      "blocks": {
-        "p1": {
-          "type": "product_step",
-          "settings": {
-            "name": "Brightening Serum",
-            "price": "$100",
-            "why": "Inhibits melanin and exfoliates pigmented cells for a brighter canvas.",
-            "key_active": "Oligopeptide-68 + AHAs",
-            "step": "PM",
-            "image_path": "sku-brightening-serum.png"
-          }
-        },
-        "p2": {
-          "type": "product_step",
-          "settings": {
-            "name": "Jellyfish Peptide x Antioxidant Serum",
-            "price": "$225",
-            "why": "Powerful collagen stimulation and DNA repair.",
-            "key_active": "Matrixyl® synthe’6®",
-            "step": "AM & PM",
-            "image_path": "sku-jellyfish-peptide-serum.png"
-          }
-        },
-        "p3": {
-          "type": "product_step",
-          "settings": {
-            "name": "Ultimate A Night Cream",
-            "price": "$130",
-            "why": "Micro-encapsulated retinol for cellular renewal.",
-            "key_active": "Retinol + Bakuchiol",
-            "step": "PM",
-            "image_path": "sku-ultimate-a-night-cream.png"
-          }
-        }
-      },
-      "block_order": [
-        "p1",
-        "p2",
-        "p3"
-      ],
-      "settings": {
-        "label": "The Protocol",
-        "headline": "Your 3-Step Anti-Ageing Protocol",
-        "cta_text": "Start the Anti-Ageing Protocol",
-        "cta_url": ""
-      }
-    },
-    "proto_synergy": {
-      "type": "aliange-proto-synergy",
-      "blocks": {
-        "s1": {
-          "type": "point",
-          "settings": {
-            "title": "Surface Preparation",
-            "description": "Exfoliating acids remove dead cells so peptides penetrate more effectively."
-          }
-        },
-        "s2": {
-          "type": "point",
-          "settings": {
-            "title": "Structural Rebuilding",
-            "description": "Jellyfish Peptide Serum rebuilds the dermal matrix, creating a stronger foundation."
-          }
-        },
-        "s3": {
-          "type": "point",
-          "settings": {
-            "title": "Accelerated Renewal",
-            "description": "Night Cream’s retinol works on a structurally supported canvas for superior results."
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3"
-      ],
-      "settings": {
-        "label": "The Science",
-        "headline": "Engineered to Work as One System",
-        "body": "Each step potentiates the next for multi-pathway rejuvenation."
-      }
-    },
-    "lp_comparison": {
-      "type": "aliange-lp-comparison",
-      "blocks": {
-        "r1": {
-          "type": "row",
-          "settings": {
-            "feature": "Approach",
-            "them": "Single/redundant ingredients",
-            "us": "Synergistic multi-pathway approach"
-          }
-        },
-        "r2": {
-          "type": "row",
-          "settings": {
-            "feature": "Mechanism",
-            "them": "Addresses one sign of ageing",
-            "us": "DNA repair, collagen, and cell renewal"
-          }
-        },
-        "r3": {
-          "type": "row",
-          "settings": {
-            "feature": "Quality",
-            "them": "Unknown concentrations",
-            "us": "Clinically validated concentrations"
-          }
-        },
-        "r4": {
-          "type": "row",
-          "settings": {
-            "feature": "Design",
-            "them": "Marketing-driven",
-            "us": "Doctor-designed for optimal results"
-          }
-        }
-      },
-      "block_order": [
-        "r1",
-        "r2",
-        "r3",
-        "r4"
-      ],
-      "settings": {
-        "label": "The Difference",
-        "headline": "A Protocol. Not a Routine.",
-        "col_them": "A Random Routine",
-        "col_us": "The Aliange Protocol"
-      }
-    },
     "aliange_pdp_hero_AntiAge": {
       "type": "aliange-pdp-hero",
       "blocks": {
@@ -252,6 +69,158 @@
         "atc_text": "Add to Cart"
       }
     },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Problem",
+        "headline": "Is Your Skincare Losing the Fight Against Time?",
+        "body": "<p>As skin matures, regenerative processes slow. Collagen declines, cell turnover becomes sluggish, and sun exposure causes persistent pigmentation.</p><p><strong>Collagen degradation</strong> leads to loss of firmness.</p><p><strong>Slower cell renewal</strong> results in rougher texture.</p><p><strong>Accumulated UV damage</strong> manifests as sun spots.</p>",
+        "bg": "muted",
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": "",
+        "image_position": "right"
+      }
+    },
+    "lp_routine": {
+      "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "Inhibits melanin and exfoliates pigmented cells for a brighter canvas.",
+            "key_active": "Oligopeptide-68 + AHAs",
+            "step": "PM",
+            "image_path": "sku-brightening-serum.png"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Jellyfish Peptide x Antioxidant Serum",
+            "price": "$225",
+            "why": "Powerful collagen stimulation and DNA repair.",
+            "key_active": "Matrixyl® synthe’6®",
+            "step": "AM & PM",
+            "image_path": "sku-jellyfish-peptide-serum.png"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "price": "$130",
+            "why": "Micro-encapsulated retinol for cellular renewal.",
+            "key_active": "Retinol + Bakuchiol",
+            "step": "PM",
+            "image_path": "sku-ultimate-a-night-cream.png"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 3-Step Anti-Ageing Protocol",
+        "subheadline": "",
+        "cta_text": "Start the Anti-Ageing Protocol",
+        "cta_url": ""
+      }
+    },
+    "proto_synergy": {
+      "type": "aliange-proto-synergy",
+      "blocks": {
+        "s1": {
+          "type": "point",
+          "settings": {
+            "title": "Surface Preparation",
+            "description": "Exfoliating acids remove dead cells so peptides penetrate more effectively."
+          }
+        },
+        "s2": {
+          "type": "point",
+          "settings": {
+            "title": "Structural Rebuilding",
+            "description": "Jellyfish Peptide Serum rebuilds the dermal matrix, creating a stronger foundation."
+          }
+        },
+        "s3": {
+          "type": "point",
+          "settings": {
+            "title": "Accelerated Renewal",
+            "description": "Night Cream’s retinol works on a structurally supported canvas for superior results."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step potentiates the next for multi-pathway rejuvenation.",
+        "image_position": "right"
+      }
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "us": "Synergistic multi-pathway approach",
+            "them": "Single/redundant ingredients"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "us": "DNA repair, collagen, and cell renewal",
+            "them": "Addresses one sign of ageing"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "us": "Clinically validated concentrations",
+            "them": "Unknown concentrations"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "us": "Doctor-designed for optimal results",
+            "them": "Marketing-driven"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_us": "The Aliange Protocol",
+        "col_them": "A Random Routine"
+      }
+    },
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
@@ -300,28 +269,25 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
-      }
-    },
-    "lp_cta": {
-      "type": "aliange-lp-cta",
-      "settings": {
-        "headline": "Invest in Your Skin’s Future.",
-        "subheadline": "See the results risk-free with a clinically-designed system.",
-        "cta_text": "Start Your Transformation",
-        "cta_url": "",
-        "guarantee": "90-Day Results Guarantee Or Your Money Back"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
     },
     "klaviyo_all_reviews": {
       "type": "aliange-klaviyo-reviews-all",
       "settings": {}
     },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
+    "lp_cta": {
+      "type": "aliange-lp-cta",
       "settings": {
-        "label": "As Seen In",
-        "speed": 35
+        "gradient_theme": "none",
+        "headline": "Invest in Your Skin’s Future.",
+        "subheadline": "See the results risk-free with a clinically-designed system.",
+        "cta_text": "Start Your Transformation",
+        "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
     }
   },
