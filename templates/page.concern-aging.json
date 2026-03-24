@@ -462,7 +462,7 @@
         "cta_text": "Shop the Anti-Ageing Protocol",
         "cta_url": "shopify://products/anti-ageing-protocol",
         "secondary_cta_text": "",
-        "secondary_cta_url": "",
+        "secondary_cta_url": "shopify://products/anti-ageing-protocol",
         "guarantee": "90-Day Results Guarantee"
       }
     }
