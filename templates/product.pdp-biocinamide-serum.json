@@ -166,7 +166,7 @@
         "heading": "Experience A Breakthrough In Resilience",
         "subheading": "Fortify your skin’s future with our probiotic-infused barrier serum.",
         "header_align": "left",
-        "image": "shopify://shop_images/aliange-ingredient-chondrus-crispus-red-algae-botanical.jpg",
+        "image": "shopify://shop_images/aliange-biocinamide-serum-before-after-skin-barrier-results.png",
         "button_text": "Shop Biocinamide Serum",
         "button_url": ""
       }
@@ -372,21 +372,21 @@
           "type": "step",
           "settings": {
             "title": "Apply",
-            "description": "Dispense 1-2 pumps of Biocinamide Serum onto your fingertips."
+            "description": "Dispense 1-2 pumps of Biocinamide Serum."
           }
         },
         "step3": {
           "type": "step",
           "settings": {
             "title": "Distribute",
-            "description": "Gently massage the serum onto your face, neck, and décolletage in upward strokes."
+            "description": "Gently massage the serum onto your face, neck, and décolletage in upward strokes. Any remaining serum can be applied to back of hands."
           }
         },
         "step4": {
           "type": "step",
           "settings": {
             "title": "Follow",
-            "description": "Allow the serum to absorb fully before applying your moisturiser or SPF."
+            "description": "Allow the serum to absorb fully before applying your thicker cream."
           }
         }
       },
@@ -408,42 +408,66 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Who is the Biocinamide Serum suitable for?",
-            "answer": "<p>This serum is ideal for anyone looking to improve their skin’s barrier function, reduce pore size, and achieve a more balanced complexion. It is particularly beneficial for those with combination, oily, or sensitive skin types.</p>"
+            "question": "What is Biocinamide and how does it work?",
+            "answer": "<p>Biocinamide is a <strong>niacinamide-based corrective serum</strong> designed to regulate multiple skin functions simultaneously.</p><p>Niacinamide (vitamin B3) acts as a <strong>cellular regulator</strong>, helping to:</p><ul><li><br/>Reduce inflammation<br/></li><li><br/>Strengthen the skin barrier<br/></li><li><br/>Balance oil production<br/></li><li><br/>Improve overall skin clarity<br/></li></ul><p>It works by <strong>normalising how skin behaves</strong>, rather than targeting a single concern.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this serum with other active ingredients?",
-            "answer": "<p>Yes. It pairs exceptionally well with other actives like Vitamin C, retinoids, and exfoliating acids, as it helps to strengthen the skin and mitigate potential irritation.</p>"
+            "question": "What skin concerns does Biocinamide target?",
+            "answer": "<p>Biocinamide is designed to address:</p><ul><li><br/>Redness and inflammation<br/></li><li><br/>Acne and congestion<br/></li><li><br/>Uneven skin tone and pigmentation<br/></li><li><br/>Barrier dysfunction<br/></li><li><br/>Enlarged pores and excess oil<br/></li></ul><p>It is particularly effective where skin is <strong>reactive, imbalanced, or inconsistent</strong>.</p>"
+          }
+        },
+        "question_GBrqpa": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use Biocinamide with other active ingredients?",
+            "answer": "<p>Yes—and this is where it performs best.</p><p>Niacinamide:</p><ul><li><br/>Enhances tolerance to actives like retinoids and acids<br/></li><li><br/>Reduces irritation from stronger treatments<br/></li><li><br/>Supports overall skin stability<br/></li></ul><p>This makes it an ideal <strong>foundation serum within a protocol system</strong>, not a standalone solution.</p>"
+          }
+        },
+        "question_PC3xKj": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>2–4 weeks:</strong> reduced redness, improved hydration, calmer skin<br/></li><li><br/><strong>4–8 weeks:</strong> clearer skin and more even tone<br/></li><li><br/><strong>8–12 weeks:</strong> improved skin stability and reduced recurrence of issues<br/></li></ul><p>Results reflect <strong>ongoing regulation of skin function</strong>, not quick suppression.</p>"
+          }
+        },
+        "question_kdePUT": {
+          "type": "question",
+          "settings": {
+            "question": "Can Biocinamide help with rosacea or sensitive skin?",
+            "answer": "<p>Yes.</p><p>Niacinamide is widely used in conditions involving:</p><ul><li><br/>Chronic inflammation<br/></li><li><br/>Barrier dysfunction<br/></li><li><br/>Sensitivity<br/></li></ul><p>It helps reduce inflammation and improve tolerance, making it beneficial for <strong>rosacea-prone or reactive skin types</strong>.</p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to see results?",
-            "answer": "<p>While many users notice an immediate improvement in hydration, clinical data suggests visible improvements in sebum reduction and barrier function can be seen within 28 days.</p>"
+            "question": "How does Biocinamide help with acne?",
+            "answer": "<p>Niacinamide has <strong>clinically demonstrated anti-inflammatory effects</strong> and is widely used in acne treatment. </p><p>It works by:</p><ul><li><br/>Reducing inflammatory lesions<br/></li><li><br/>Regulating sebum production<br/></li><li><br/>Supporting clearer pores<br/></li></ul><p>This helps control breakouts <strong>without stripping or irritating the skin</strong>.</p>"
           }
         },
         "q4": {
           "type": "question",
           "settings": {
-            "question": "Is this product made in Australia?",
-            "answer": "<p>Yes, all Aliangé products are proudly formulated and manufactured in Australia under the guidance of Dr. Alison Jamieson.</p>"
+            "question": "How does Biocinamide reduce redness?",
+            "answer": "<p>Niacinamide has strong <strong>anti-inflammatory properties</strong>, which help calm:</p><ul><li><br/>Redness<br/></li><li><br/>Irritation<br/></li><li><br/>Reactive skin responses<br/></li></ul><p>It has been shown to <strong>reduce skin erythema (redness) and improve skin calmness</strong> with consistent use.</p>"
           }
         },
         "q5": {
           "type": "question",
           "settings": {
-            "question": "What does ‘postbiotic’ mean?",
-            "answer": "<p>Postbiotics are beneficial compounds produced by probiotics. In skincare, they support a healthy microbiome and strengthen natural defences without using live bacteria.</p>"
+            "question": "How does Biocinamide improve the skin barrier?",
+            "answer": "<p>Barrier dysfunction is a key driver of many skin concerns.</p><p>Niacinamide helps:</p><ul><li><br/>Increase ceramide production<br/></li><li><br/>Reduce water loss<br/></li><li><br/>Strengthen the outer skin layer<br/></li></ul><p>This leads to <strong>more resilient, stable skin over time</strong></p>"
           }
         }
       },
       "block_order": [
         "q1",
         "q2",
+        "question_GBrqpa",
+        "question_PC3xKj",
+        "question_kdePUT",
         "q3",
         "q4",
         "q5"
@@ -452,7 +476,7 @@
         "heading": "Frequently Asked Questions",
         "subheading": "Everything you need to know about the Biocinamide Serum.",
         "button_text": "Shop Biocinamide Serum",
-        "button_url": ""
+        "button_url": "shopify://products/biocinamide-1"
       }
     },
     "klaviyo_product_reviews": {
@@ -462,10 +486,10 @@
     "final_cta": {
       "type": "aliange-pdp-final-cta",
       "settings": {
-        "heading": "Your Strongest, Healthiest Skin Awaits.",
-        "subheading": "Invest in the long-term health of your skin. With its clinically proven ingredients, the Biocinamide Serum is the essential step towards a resilient complexion.",
-        "button_text": "YES, I WANT HEALTHIER SKIN",
-        "button_url": "",
+        "heading": "Designed to Strengthen and Stabilise Skin Function",
+        "subheading": "A foundational serum formulated to strengthen the skin barrier and improve long-term skin health.",
+        "button_text": "Start Correcting Skin Function",
+        "button_url": "shopify://products/biocinamide-1",
         "trust_line": "Backed by our 90-Day Results Guarantee.",
         "secondary_link_text": "Learn about our clinical approach to redness & sensitivity →",
         "secondary_link_url": "/pages/concern-redness",
