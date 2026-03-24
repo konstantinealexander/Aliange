@@ -54,6 +54,13 @@
         "trust_line": "Developed by Dr Alison Jamieson, Cosmetic Physician with over 40 years of clinical experience"
       }
     },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
     "lp_biology": {
       "type": "aliange-lp-text-block",
       "blocks": {
@@ -159,17 +166,6 @@
     "lp_routine": {
       "type": "aliange-lp-routine",
       "blocks": {
-        "product_step_DKtB4G": {
-          "type": "product_step",
-          "settings": {
-            "name": "Brightening Serum",
-            "price": "$100",
-            "why": "The Brightening Serum is formulated to target uneven pigmentation, dullness, and skin discolouration through multiple biological pathways. A combination of resurfacing acids, brightening peptides, and antioxidant actives works to accelerate cell turnover, inhibit excess melanin production, and improve overall skin clarity. This helps refine skin texture, promote a more even tone, and restore visible luminosity.",
-            "key_active": "Glycolic Acid + Lactic Acid + Salicylic Acid + Oligopeptide-68 + Ascorbic Acid + Niacinamide + Licorice Root Extract",
-            "step": "PM",
-            "image_path": ""
-          }
-        },
         "p3": {
           "type": "product_step",
           "settings": {
@@ -178,6 +174,17 @@
             "why": "The Jellyfish Peptide X Antioxidant Serum is designed to support collagen production, skin regeneration, and antioxidant defence. Advanced biomimetic peptides work to stimulate structural proteins within the skin while Kakadu plum and vitamin E provide powerful antioxidant protection against environmental damage. Hydrating actives help improve skin smoothness and elasticity, leaving skin firmer, brighter, and more resilient.",
             "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Squalene + Vitamin E",
             "step": "AM/PM",
+            "image_path": ""
+          }
+        },
+        "product_step_DKtB4G": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "The Brightening Serum is formulated to target uneven pigmentation, dullness, and skin discolouration through multiple biological pathways. A combination of resurfacing acids, brightening peptides, and antioxidant actives works to accelerate cell turnover, inhibit excess melanin production, and improve overall skin clarity. This helps refine skin texture, promote a more even tone, and restore visible luminosity.",
+            "key_active": "Glycolic Acid + Lactic Acid + Salicylic Acid + Oligopeptide-68 + Ascorbic Acid + Niacinamide + Licorice Root Extract",
+            "step": "PM",
             "image_path": ""
           }
         },
@@ -194,8 +201,8 @@
         }
       },
       "block_order": [
-        "product_step_DKtB4G",
         "p3",
+        "product_step_DKtB4G",
         "p4"
       ],
       "settings": {
@@ -230,30 +237,6 @@
         "cta_url": "",
         "image": "shopify://shop_images/Screenshot_2026-03-23_at_9.44.38_pm.png",
         "image_position": "right"
-      }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
-    },
-    "lp_cta": {
-      "type": "aliange-lp-cta",
-      "settings": {
-        "gradient_theme": "none",
-        "headline": "Support Regeneration at the Cellular Level",
-        "subheadline": "At 40 and beyond, your skin has different biological needs. It requires science, not marketing.",
-        "cta_text": "Discover the Anti-Ageing Protocol",
-        "cta_url": "shopify://products/anti-ageing-protocol",
-        "secondary_cta_text": "Shop CellRevive Exosome Cream",
-        "secondary_cta_url": "/products/cellrevive-exosome-cream",
-        "guarantee": "Doctor-Developed | Australian-Made | 90-Day Guarantee"
-      }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
       }
     },
     "trust_bar": {
@@ -301,6 +284,23 @@
         "label": "Doctor Developed",
         "bg_color": "#ffffff",
         "speed": 25
+      }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "gradient_theme": "none",
+        "headline": "Support Regeneration at the Cellular Level",
+        "subheadline": "At 40 and beyond, your skin has different biological needs. It requires science, not marketing.",
+        "cta_text": "Discover the Anti-Ageing Protocol",
+        "cta_url": "shopify://products/anti-ageing-protocol",
+        "secondary_cta_text": "Shop CellRevive Exosome Cream",
+        "secondary_cta_url": "/products/cellrevive-exosome-cream",
+        "guarantee": "Doctor-Developed | Australian-Made | 90-Day Guarantee"
       }
     }
   },

@@ -15,7 +15,8 @@
         "label": "Our Story",
         "headline": "Dr. Alison Jamieson",
         "subheadline": "Aliangé is a premium Australian clinical skincare brand founded by Dr. Alison Jamieson (MBBS, FRACGP, Dip Derm), a pioneer in aesthetic medicine with over 40 years of clinical expertise. Born from decades of real-world patient outcomes. Built for results, not trends.",
-        "image": "shopify://shop_images/Untitled_33_868926e8-ff2a-4061-870e-ea3954b96e64.png",
+        "gradient_theme": "none",
+        "image": "shopify://shop_images/Untitled_62_2d7fce95-0d56-442d-947d-d16ebd849836.png",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 640,
         "content_width": 720,
@@ -48,7 +49,8 @@
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_stats": {
@@ -78,8 +80,8 @@
         "s4": {
           "type": "stat",
           "settings": {
-            "value": "100%",
-            "label": "Australian Made & Formulated"
+            "value": "1000's",
+            "label": "Of Loyal Clients"
           }
         }
       },
@@ -89,7 +91,9 @@
         "s3",
         "s4"
       ],
-      "settings": {}
+      "settings": {
+        "gradient_theme": "none"
+      }
     },
     "lp_philosophy": {
       "type": "aliange-lp-text-block",
@@ -146,7 +150,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_benefits": {
@@ -212,6 +217,7 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Experience the Frontier of Clinical Skin Regeneration.",
         "subheadline": "Explore the Aliangé Protocols today — doctor-developed, science-backed systems designed to deliver measurable, lasting results.",
         "cta_text": "Explore the Aliangé Protocols",

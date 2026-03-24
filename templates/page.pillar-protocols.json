@@ -53,6 +53,13 @@
         "trust_line": "Dr. Alison Jamieson | 40+ Years of Dermatological Expertise"
       }
     },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
     "lp_problem": {
       "type": "aliange-lp-text-block",
       "settings": {
@@ -63,6 +70,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Generated_Image_March_24_2026_-_2_15PM.jpg",
         "image_position": "right"
       }
     },
@@ -72,25 +80,22 @@
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Formulation",
-            "them": "Randomly selected products from different brands.",
-            "us": "A cohesive system formulated by a medical doctor to work synergistically."
+            "us": "A cohesive system formulated by a medical doctor to work synergistically.",
+            "them": "Randomly selected products from different brands."
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Delivery",
-            "them": "Active ingredients often clash, degrading efficacy (e.g., mixing wrong acids with retinoids).",
-            "us": "Precisely calibrated pH levels and molecular weights ensure deep dermal penetration."
+            "us": "Precisely calibrated pH levels and molecular weights ensure deep dermal penetration.",
+            "them": "Active ingredients often clash, degrading efficacy (e.g., mixing wrong acids with retinoids)."
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Objective",
-            "them": "Surface-level hydration and temporary cosmetic improvement.",
-            "us": "Cellular regeneration, structural repair, and long-term histological changes."
+            "us": "Cellular regeneration, structural repair, and long-term histological changes.",
+            "them": "Surface-level hydration and temporary cosmetic improvement."
           }
         }
       },
@@ -102,8 +107,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "Protocol vs. Routine: The 3 Core Differences",
-        "col_them": "The Standard 'Routine'",
-        "col_us": "The Aliangé Protocol"
+        "col_us": "The Aliangé Protocol",
+        "col_them": "The Standard 'Routine'"
       }
     },
     "lp_why": {
@@ -182,30 +187,6 @@
         "cta_url": "/collections/protocols"
       }
     },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
-    },
-    "lp_cta": {
-      "type": "aliange-lp-cta",
-      "settings": {
-        "gradient_theme": "none",
-        "headline": "Understand Your Skin. Treat It Precisely.",
-        "subheadline": "Healthy skin is not achieved through random products.\nIt requires understanding the biological processes affecting your skin — from barrier integrity and inflammation to pigmentation and cellular repair.\n\nThe Aliangé Skin Assessment analyses your skin concerns and matches you with a clinically designed protocol, ensuring each step works in sequence to support regeneration and long-term skin health.",
-        "cta_text": "Explore The Aliangé Protocols",
-        "cta_url": "/collections/protocols",
-        "secondary_cta_text": "Take the Skin Assessment",
-        "secondary_cta_url": "/pages/quiz",
-        "guarantee": "Doctor-Developed | 40+ Years Clinical Expertise | Australian-Made"
-      }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
-    },
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
       "blocks": {
@@ -251,6 +232,23 @@
         "label": "Doctor Developed",
         "bg_color": "#ffffff",
         "speed": 25
+      }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
+    },
+    "lp_cta": {
+      "type": "aliange-lp-cta",
+      "settings": {
+        "gradient_theme": "none",
+        "headline": "Understand Your Skin. Treat It Precisely.",
+        "subheadline": "Healthy skin is not achieved through random products.\nIt requires understanding the biological processes affecting your skin — from barrier integrity and inflammation to pigmentation and cellular repair.\n\nThe Aliangé Skin Assessment analyses your skin concerns and matches you with a clinically designed protocol, ensuring each step works in sequence to support regeneration and long-term skin health.",
+        "cta_text": "Explore The Aliangé Protocols",
+        "cta_url": "/collections/protocols",
+        "secondary_cta_text": "Take the Skin Assessment",
+        "secondary_cta_url": "/pages/quiz",
+        "guarantee": "Doctor-Developed | 40+ Years Clinical Expertise | Australian-Made"
       }
     }
   },
