@@ -377,6 +377,27 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_BmGxbB": {
+          "type": "question",
+          "settings": {
+            "question": "Can this help with acne scarring or pigmentation?",
+            "answer": "<p>Yes—particularly <strong>post-inflammatory pigmentation (PIH)</strong>.</p><p>The protocol includes:</p><ul><li><br/>Controlled exfoliation to accelerate cell turnover<br/></li><li><br/>Daily SPF to prevent UV-induced darkening<br/></li><li><br/>Anti-inflammatory support to reduce pigmentation triggers </li></ul>"
+          }
+        },
+        "question_nGPK8i": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<h2></h2><ul><li><br/><strong>1–3 weeks:</strong> reduced inflammation and fewer active breakouts<br/></li><li><br/><strong>4–6 weeks:</strong> improved clarity and reduced congestion<br/></li><li><br/><strong>8–12 weeks:</strong> visible improvement in overall skin stability and tone <br/></li></ul><p>Consistency is key—acne is a cyclical condition driven by ongoing follicular turnover.</p>"
+          }
+        },
+        "question_q9UGr6": {
+          "type": "question",
+          "settings": {
+            "question": "Will this dry out my skin like other acne products?",
+            "answer": "<p>No—this is a <strong>barrier-supportive acne protocol</strong>.</p><p>Traditional acne products often:</p><ul><li><br/>Strip lipids<br/></li><li><br/>Increase transepidermal water loss<br/></li><li><br/>Trigger rebound oil production<br/></li></ul><p>This protocol maintains hydration while treating breakouts, which is critical for <strong>long-term clearance and prevention</strong>.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
@@ -402,12 +423,15 @@
         "q4": {
           "type": "question",
           "settings": {
-            "question": "How is this different from other acne products I've tried?",
-            "answer": "<p>Our approach is unique because it's a comprehensive, multi-pathway system. Instead of relying on one ingredient, we use a combination of clinically proven actives that work together to address the various causes of acne, from excess oil to bacterial imbalance, for more reliable and lasting results.</p>"
+            "question": "How does the Acne Protocol actually clear the skin?",
+            "answer": "<p>The protocol works through <strong>layered correction</strong>, not a single mechanism:</p><ul><li><br/><strong>Exfoliation (AHA resurfacing)</strong> → clears follicular blockage and prevents comedones<br/></li><li><br/><strong>Sebum regulation (niacinamide)</strong> → reduces excess oil without stripping<br/></li><li><br/><strong>Microbiome modulation (probiotic support)</strong> → stabilises acne-driving bacteria<br/></li><li><br/><strong>Barrier repair + hydration</strong> → prevents rebound oil production and irritation<br/></li></ul><p>This approach reflects how acne develops—<strong>not just bacteria, but a dysfunction of the entire skin ecosystem</strong>.</p>"
           }
         }
       },
       "block_order": [
+        "question_BmGxbB",
+        "question_nGPK8i",
+        "question_q9UGr6",
         "q1",
         "q2",
         "q3",
