@@ -495,6 +495,24 @@
         "secondary_link_url": "/pages/concern-redness",
         "bg_color": "#f4f7f9"
       }
+    },
+    "17743709751af8e729": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_nh68Ff": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_nh68Ff"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -508,6 +526,7 @@
     "howtouse",
     "faq",
     "klaviyo_product_reviews",
-    "final_cta"
+    "final_cta",
+    "17743709751af8e729"
   ]
 }
