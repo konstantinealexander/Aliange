@@ -84,7 +84,6 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
-        "image": "shopify://shop_images/Untitled_88.png",
         "image_position": "right"
       }
     },
@@ -154,7 +153,7 @@
         "badge_1": {
           "type": "badge",
           "settings": {
-            "text": "Clinically Proven"
+            "text": "Clinically Proven Actives"
           }
         },
         "badge_2": {
@@ -178,7 +177,7 @@
         "badge_5": {
           "type": "badge",
           "settings": {
-            "text": "AHPRA Compliant"
+            "text": "Cruelty Free"
           }
         }
       },
@@ -243,11 +242,25 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_feaan3": {
+          "type": "question",
+          "settings": {
+            "question": "Are all exosome products the same?",
+            "answer": "<p>No—and this is critical.</p><p>Effectiveness depends on:</p><ul><li><br/>Source and quality of exosomes<br/></li><li><br/>Stability and formulation<br/></li><li><br/>Supporting ingredients<br/></li></ul><p>The space is still evolving, and not all products are equal in <strong>biological activity or delivery capability</strong>.</p>"
+          }
+        },
+        "question_P3DV8P": {
+          "type": "question",
+          "settings": {
+            "question": "What skin concerns does exosome cream target?",
+            "answer": "<p>Exosome-based formulations are used to address:</p><ul><li><br/>Fine lines and loss of firmness<br/></li><li><br/>Dullness and uneven texture<br/></li><li><br/>Pigmentation and post-inflammatory marks<br/></li><li><br/>Barrier dysfunction and sensitivity<br/></li></ul><p>They are particularly effective where skin shows <strong>multiple signs of ageing or damage simultaneously</strong>.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
             "question": "What are exosomes in skincare?",
-            "answer": "<p>Exosomes are microscopic extracellular vesicles that function as biological communication carriers between cells. In skincare, exosome-derived technologies support cellular communication and skin renewal processes.</p>"
+            "answer": "<p>Exosomes are <strong>nano-sized cellular messengers</strong> that carry proteins, lipids, and genetic signals between cells. </p><p>In skincare, they function as <strong>biological signalling systems</strong>, helping skin cells:</p><ul><li><br/>Communicate more effectively<br/></li><li><br/>Repair damage<br/></li><li><br/>Regulate regeneration processes</li></ul>"
           }
         },
         "q2": {
@@ -280,6 +293,8 @@
         }
       },
       "block_order": [
+        "question_feaan3",
+        "question_P3DV8P",
         "q1",
         "q2",
         "q3",
@@ -289,7 +304,6 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
-        "image": "shopify://shop_images/Untitled_88.png",
         "image_position": "right"
       }
     },
