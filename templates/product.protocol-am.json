@@ -284,7 +284,7 @@
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
-        "gradient_theme": "pm",
+        "gradient_theme": "none",
         "headline": "Invest in Your Skin's Future.",
         "subheadline": "A clinically proven doctor-designed morning system.",
         "cta_text": "Start Your 90-Day Transformation",
