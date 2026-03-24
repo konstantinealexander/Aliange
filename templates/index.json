@@ -441,7 +441,7 @@
         "richtext_pillar": {
           "type": "richtext",
           "settings": {
-            "content": "<p><a href=\"/pages/skincare-protocol-vs-protocol\">Skincare Protocol vs Protocol →</a></p><p><a href=\"/pages/best-skincare-women-over-40-australia\">The Ultimate Guide to Skincare Over 40 →</a></p><p><a href=\"/pages/concern-aging\">Anti-Ageing →</a> · <a href=\"/pages/concern-pigmentation\">Pigmentation →</a> · <a href=\"/pages/concern-breakouts\">Breakouts →</a> · <a href=\"/pages/concern-dullness\">Dullness →</a> · <a href=\"/pages/concern-redness\">Redness →</a></p>"
+            "content": "<p><a href=\"/pages/pillar-protocols\" title=\"Pillar - Protocols\">Skincare Protocol vs Protocol →</a></p><p><a href=\"/pages/pillar-over-40\" title=\"Pillar - Over 40\">The Ultimate Guide to Skincare Over 40 →</a></p><p><a href=\"/pages/made-for-mature-skin\" title=\"Concern - Aging\">Anti-Ageing →</a> · <a href=\"/pages/concern-pigmentation\" title=\"Concern - Pigmentation\">Pigmentation →</a> · <a href=\"/pages/concern-breakouts\" title=\"Concern - Breakouts\">Breakouts →</a> · <a href=\"/pages/concern-dullness\" title=\"Concern - Dullness\">Dullness →</a> · <a href=\"/pages/concern-redness\" title=\"Concern - Redness\">Redness →</a></p>"
           }
         }
       },
