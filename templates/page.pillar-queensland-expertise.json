@@ -303,8 +303,8 @@
         "gradient_theme": "none",
         "headline": "Doctor-Developed Skincare for Australian Skin.",
         "subheadline": "Discover doctor-developed skincare designed for Australian skin through decades of clinical expertise in Queensland.",
-        "cta_text": "Explore the Aliangé Protocol",
-        "cta_url": "/collections/protocols",
+        "cta_text": "Find Your Protocol",
+        "cta_url": "https://aliange.com.au/?open-quiz=true",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
