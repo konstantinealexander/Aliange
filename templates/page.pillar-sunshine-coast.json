@@ -256,18 +256,25 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_TKdC86": {
+          "type": "question",
+          "settings": {
+            "question": "Why is redness more common near the coast?",
+            "answer": "<p>Environmental triggers such as:</p><ul><li><br/>UV radiation<br/></li><li><br/>Wind exposure<br/></li><li><br/>Temperature fluctuations<br/></li></ul><p>…can increase:</p><ul><li><br/>Vascular reactivity<br/></li><li><br/>Inflammation<br/></li><li><br/>Skin sensitivity<br/></li></ul><p>This leads to <strong>chronic redness and reactive skin patterns</strong>.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Why does Sunshine Coast skin need different skincare?",
-            "answer": "<p>The Sunshine Coast has some of the highest UV indexes in the world, combined with coastal humidity, salt exposure, and heat. These environmental factors accelerate collagen loss, barrier disruption, and pigmentation — requiring skincare that supports skin function rather than just cosmetic appearance.</p>"
+            "question": "Why does skin behave differently on the Sunshine Coast?",
+            "answer": "<p>The Sunshine Coast combines <strong>high UV exposure, salt air, humidity, and wind</strong>, creating a unique set of environmental stressors.</p><p>This environment:</p><ul><li><br/>Accelerates photoageing<br/></li><li><br/>Disrupts the skin barrier<br/></li><li><br/>Increases dehydration despite humidity<br/></li></ul><p>Skin here requires <strong>continuous regulation, not passive care</strong>.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Is Aliangé only suitable for people on the Sunshine Coast?",
-            "answer": "<p>No. While developed through clinical practice on the Sunshine Coast, Aliangé formulations are designed for anyone exposed to high UV, environmental stress, or who wants a protocol-based approach to skin health. The products work for Australian skin conditions nationwide.</p>"
+            "question": "What are the most common skin concerns on the Sunshine Coast?",
+            "answer": "<p>Due to coastal exposure, the most common concerns include:</p><ul><li><br/>Pigmentation and sun damage<br/></li><li><br/>Premature ageing and loss of elasticity<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Congestion and breakouts<br/></li><li><br/>Redness and sensitivity<br/></li></ul><p>Skin is often <strong>simultaneously stressed, dehydrated, and inflamed</strong>.</p>"
           }
         },
         "q3": {
@@ -280,19 +287,20 @@
         "q4": {
           "type": "question",
           "settings": {
-            "question": "What makes a protocol different from regular skincare?",
-            "answer": "<p>A protocol is a structured sequence of products designed to work together. Each step supports a different biological function of the skin — cleansing, regulation, repair, and protection — mirroring how skin is managed in clinical environments.</p>"
+            "question": "How does salt air affect the skin?",
+            "answer": "<p>Salt particles in coastal air can:</p><ul><li><br/>Disrupt the skin barrier<br/></li><li><br/>Increase transepidermal water loss<br/></li><li><br/>Contribute to dryness and irritation<br/></li></ul><p>While ocean water can feel cleansing, repeated exposure often leaves skin <strong>dehydrated and more reactive over time</strong>.</p>"
           }
         },
         "q5": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>Most people notice improved hydration and comfort within the first few weeks. Structural improvements in collagen support and barrier resilience typically develop over 8–12 weeks of consistent protocol use.</p>"
+            "question": "What should skincare prioritise on the Sunshine Coast?",
+            "answer": "<p>Skin in this environment requires a <strong>multi-layered approach</strong>:</p><ul><li><br/>Daily SPF and antioxidant protection<br/></li><li><br/>Barrier repair and hydration<br/></li><li><br/>Controlled exfoliation<br/></li><li><br/>Cellular repair support<br/></li></ul><p>This ensures skin can <strong>withstand daily environmental stress while maintaining function</strong>.</p>"
           }
         }
       },
       "block_order": [
+        "question_TKdC86",
         "q1",
         "q2",
         "q3",
