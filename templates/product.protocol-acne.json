@@ -9,46 +9,71 @@
  */
 {
   "sections": {
-    "lp_hero": {
-      "type": "aliange-lp-hero",
+    "aliange_pdp_hero_XkHKm6": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "b1": {
-          "type": "bullet",
+        "bullet_point_H4KrEC": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Repairs & Strengthens: Fortifies your skin’s natural barrier."
+            "text": "Clinically proven UV defence"
           }
         },
-        "b2": {
-          "type": "bullet",
+        "bullet_point_HTR8JW": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Clarifies & Refines: Gently exfoliates to decongest pores."
+            "text": "Reduces visible signs of ageing by 24%"
           }
         },
-        "b3": {
-          "type": "bullet",
+        "bullet_point_8f3yhj": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Balances & Soothes: Probiotics and clinical actives calm inflammation."
+            "text": "Doctor-developed & Australian-made"
+          }
+        },
+        "trust_box_Xi4PXr": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_Pr4trY": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_efGPgL": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "b1",
-        "b2",
-        "b3"
+        "bullet_point_H4KrEC",
+        "bullet_point_HTR8JW",
+        "bullet_point_8f3yhj",
+        "trust_box_Xi4PXr",
+        "trust_box_Pr4trY",
+        "trust_box_efGPgL"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Doctor-Designed · Evidence-Based · Australian Made",
-        "headline": "Achieve Clear, Calm, and Congestion-Free Skin",
-        "subheadline": "A complete 5-step clinical system designed by Dr. Alison Jamieson to target breakouts, balance oil production, and restore skin health.",
-        "overlay_color": "rgba(26,24,20,0.45)",
-        "min_height": 620,
-        "content_width": 720,
-        "align": "left",
-        "cta_text": "Start the Acne Protocol",
-        "cta_url": "",
-        "secondary_cta_text": "",
-        "secondary_cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+        "description": "Your daily defence against premature ageing. This lightweight, non-greasy formula delivers essential hydration and broad-spectrum UV protection.",
+        "atc_text": "Add to Cart"
+      }
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
       }
     },
     "lp_problem": {
@@ -60,7 +85,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_routine": {
@@ -170,7 +196,8 @@
       "settings": {
         "label": "The Science",
         "headline": "Engineered to Work as One System",
-        "body": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity."
+        "body": "Each step enhances the efficacy of the next, guiding skin from congestion to clarity.",
+        "image_position": "right"
       }
     },
     "lp_comparison": {
@@ -179,33 +206,29 @@
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Design",
-            "them": "Guesswork and marketing",
-            "us": "Doctor-designed synergistic system"
+            "us": "Doctor-designed synergistic system",
+            "them": "Guesswork and marketing"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Focus",
-            "them": "Risk of barrier damage",
-            "us": "Focus on barrier repair"
+            "us": "Focus on barrier repair",
+            "them": "Risk of barrier damage"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Approach",
-            "them": "Symptom-focused",
-            "us": "Addresses root causes"
+            "us": "Addresses root causes",
+            "them": "Symptom-focused"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Safety",
-            "them": "Ingredient conflicts",
-            "us": "Guaranteed compatibility"
+            "us": "Guaranteed compatibility",
+            "them": "Ingredient conflicts"
           }
         }
       },
@@ -218,68 +241,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "A Protocol. Not a Routine.",
-        "col_them": "A Random Routine",
-        "col_us": "The Aliange Protocol"
-      }
-    },
-    "aliange_pdp_hero_XkHKm6": {
-      "type": "aliange-pdp-hero",
-      "blocks": {
-        "bullet_point_H4KrEC": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Clinically proven UV defence"
-          }
-        },
-        "bullet_point_HTR8JW": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Reduces visible signs of ageing by 24%"
-          }
-        },
-        "bullet_point_8f3yhj": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Doctor-developed & Australian-made"
-          }
-        },
-        "trust_box_Xi4PXr": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "truck",
-            "title": "Free Shipping",
-            "description": "On all orders worldwide"
-          }
-        },
-        "trust_box_Pr4trY": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "shield",
-            "title": "Money Back",
-            "description": "90-day satisfaction promise"
-          }
-        },
-        "trust_box_efGPgL": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "drop",
-            "title": "Long Lasting",
-            "description": "Premium formula"
-          }
-        }
-      },
-      "block_order": [
-        "bullet_point_H4KrEC",
-        "bullet_point_HTR8JW",
-        "bullet_point_8f3yhj",
-        "trust_box_Xi4PXr",
-        "trust_box_Pr4trY",
-        "trust_box_efGPgL"
-      ],
-      "name": "PDP Hero",
-      "settings": {
-        "description": "Your daily defence against premature ageing. This lightweight, non-greasy formula delivers essential hydration and broad-spectrum UV protection.",
-        "atc_text": "Add to Cart"
+        "col_us": "The Aliange Protocol",
+        "col_them": "A Random Routine"
       }
     },
     "lp_faq": {
@@ -330,12 +293,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Your Journey to Clear, Healthy Skin Starts Here.",
         "subheadline": "Invest in a doctor-designed system for balanced, beautiful skin.",
         "cta_text": "Order the Acne Protocol Now",
@@ -344,27 +313,15 @@
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
     }
   },
   "order": [
-    "lp_hero",
+    "aliange_pdp_hero_XkHKm6",
     "press_ticker",
     "lp_problem",
     "lp_routine",
     "proto_synergy",
     "lp_comparison",
-    "aliange_pdp_hero_XkHKm6",
     "lp_faq",
     "klaviyo_all_reviews",
     "lp_cta"
