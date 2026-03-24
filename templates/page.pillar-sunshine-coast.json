@@ -323,8 +323,8 @@
         "gradient_theme": "none",
         "headline": "Skincare Developed Through Decades of Coastal Clinical Experience.",
         "subheadline": "Discover the Aliangé protocol developed through decades of clinical experience on the Sunshine Coast.",
-        "cta_text": "Explore the Aliangé System",
-        "cta_url": "/collections/protocols",
+        "cta_text": "Find Your Protocol",
+        "cta_url": "https://aliange.com.au/?open-quiz=true",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
