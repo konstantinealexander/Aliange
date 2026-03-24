@@ -9,189 +9,6 @@
  */
 {
   "sections": {
-    "lp_hero": {
-      "type": "aliange-lp-hero",
-      "blocks": {
-        "b1": {
-          "type": "bullet",
-          "settings": {
-            "text": "Resurfaces and refines skin texture in one treatment."
-          }
-        },
-        "b2": {
-          "type": "bullet",
-          "settings": {
-            "text": "Rebalances the skin’s microbiome for lasting health."
-          }
-        },
-        "b3": {
-          "type": "bullet",
-          "settings": {
-            "text": "Delivers potent peptides to repair and rebuild."
-          }
-        }
-      },
-      "block_order": [
-        "b1",
-        "b2",
-        "b3"
-      ],
-      "settings": {
-        "label": "Doctor-Designed · Evidence-Based · Australian Made",
-        "headline": "The Weekly Clinical Reset for Visibly Renewed Skin",
-        "subheadline": "A professional-grade weekly treatment that deeply exfoliates, restores the microbiome, and infuses the skin with reparative peptides.",
-        "min_height": 620,
-        "content_width": 720,
-        "align": "left",
-        "cta_text": "Start the Masque Protocol",
-        "cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back"
-      }
-    },
-    "lp_problem": {
-      "type": "aliange-lp-text-block",
-      "settings": {
-        "label": "The Problem",
-        "headline": "Is Your Skincare Routine Hitting a Plateau?",
-        "body": "<p>Even consistent routines can fall short. Dead cell accumulation, a compromised microbiome, and declining cellular repair lead to dullness and accelerated ageing.</p><p><strong>Dull texture</strong> without deep exfoliation.</p><p><strong>Unbalanced ecosystem</strong> from stress and harsh products.</p><p><strong>Slowing cellular repair</strong> with age.</p>",
-        "bg": "muted",
-        "width": "narrow"
-      }
-    },
-    "lp_routine": {
-      "type": "aliange-lp-routine",
-      "blocks": {
-        "p1": {
-          "type": "product_step",
-          "settings": {
-            "name": "Transforming Exfoliator",
-            "price": "$55",
-            "why": "Dual-action exfoliation clears dead cells and prepares skin.",
-            "key_active": "AHA Blend + Jojoba Esters",
-            "step": "2-3x/week",
-            "image_path": "sku-transforming-exfoliator.png"
-          }
-        },
-        "p2": {
-          "type": "product_step",
-          "settings": {
-            "name": "Probiotic Masque",
-            "price": "$50",
-            "why": "Detoxifies pores and restores microbiome balance.",
-            "key_active": "Lactococcus Ferment",
-            "step": "2-3x/week",
-            "image_path": "sku-probiotic-masque.png"
-          }
-        },
-        "p3": {
-          "type": "product_step",
-          "settings": {
-            "name": "Jellyfish Peptide x Antioxidant Serum",
-            "price": "$225",
-            "why": "Regenerative peptides and antioxidants for maximum repair.",
-            "key_active": "Matrixyl® synthe’6®",
-            "step": "2-3x/week",
-            "image_path": "sku-jellyfish-peptide-serum.png"
-          }
-        }
-      },
-      "block_order": [
-        "p1",
-        "p2",
-        "p3"
-      ],
-      "settings": {
-        "label": "The Protocol",
-        "headline": "Your 3-Step Weekly Reset",
-        "cta_text": "Start the Masque Protocol",
-        "cta_url": ""
-      }
-    },
-    "proto_synergy": {
-      "type": "aliange-proto-synergy",
-      "blocks": {
-        "s1": {
-          "type": "point",
-          "settings": {
-            "title": "Exfoliation Unlocks Absorption",
-            "description": "Removing dead skin ensures clays, probiotics, and peptides can penetrate deeply."
-          }
-        },
-        "s2": {
-          "type": "point",
-          "settings": {
-            "title": "Detoxification Creates a Clean Slate",
-            "description": "The Masque purifies pores and resets the microbiome for optimal repair signalling."
-          }
-        },
-        "s3": {
-          "type": "point",
-          "settings": {
-            "title": "Repair Signals Target Primed Skin",
-            "description": "Peptides work at maximum efficiency on perfectly cleansed and balanced skin."
-          }
-        }
-      },
-      "block_order": [
-        "s1",
-        "s2",
-        "s3"
-      ],
-      "settings": {
-        "label": "The Science",
-        "headline": "Engineered to Work as One System",
-        "body": "Each step synergistically enhances the next for a comprehensive skin reset."
-      }
-    },
-    "lp_comparison": {
-      "type": "aliange-lp-comparison",
-      "blocks": {
-        "r1": {
-          "type": "row",
-          "settings": {
-            "feature": "Efficacy",
-            "them": "Ingredient conflicts",
-            "us": "Steps amplify each other"
-          }
-        },
-        "r2": {
-          "type": "row",
-          "settings": {
-            "feature": "Scope",
-            "them": "Incomplete care",
-            "us": "Exfoliation, microbiome, and repair"
-          }
-        },
-        "r3": {
-          "type": "row",
-          "settings": {
-            "feature": "Results",
-            "them": "Unpredictable",
-            "us": "Clinically formulated for visible results"
-          }
-        },
-        "r4": {
-          "type": "row",
-          "settings": {
-            "feature": "Logic",
-            "them": "Surface-level patching",
-            "us": "Follows natural skin processes"
-          }
-        }
-      },
-      "block_order": [
-        "r1",
-        "r2",
-        "r3",
-        "r4"
-      ],
-      "settings": {
-        "label": "The Difference",
-        "headline": "A Protocol. Not a Routine.",
-        "col_them": "Random Products",
-        "col_us": "Aliange Masque Protocol"
-      }
-    },
     "aliange_pdp_hero_Masque": {
       "type": "aliange-pdp-hero",
       "blocks": {
@@ -252,6 +69,158 @@
         "atc_text": "Add to Cart"
       }
     },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
+    "lp_problem": {
+      "type": "aliange-lp-text-block",
+      "settings": {
+        "label": "The Problem",
+        "headline": "Is Your Skincare Routine Hitting a Plateau?",
+        "body": "<p>Even consistent routines can fall short. Dead cell accumulation, a compromised microbiome, and declining cellular repair lead to dullness and accelerated ageing.</p><p><strong>Dull texture</strong> without deep exfoliation.</p><p><strong>Unbalanced ecosystem</strong> from stress and harsh products.</p><p><strong>Slowing cellular repair</strong> with age.</p>",
+        "bg": "muted",
+        "width": "narrow",
+        "cta_text": "",
+        "cta_url": "",
+        "image_position": "right"
+      }
+    },
+    "lp_routine": {
+      "type": "aliange-lp-routine",
+      "blocks": {
+        "p1": {
+          "type": "product_step",
+          "settings": {
+            "name": "Transforming Exfoliator",
+            "price": "$55",
+            "why": "Dual-action exfoliation clears dead cells and prepares skin.",
+            "key_active": "AHA Blend + Jojoba Esters",
+            "step": "2-3x/week",
+            "image_path": "sku-transforming-exfoliator.png"
+          }
+        },
+        "p2": {
+          "type": "product_step",
+          "settings": {
+            "name": "Probiotic Masque",
+            "price": "$50",
+            "why": "Detoxifies pores and restores microbiome balance.",
+            "key_active": "Lactococcus Ferment",
+            "step": "2-3x/week",
+            "image_path": "sku-probiotic-masque.png"
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Jellyfish Peptide x Antioxidant Serum",
+            "price": "$225",
+            "why": "Regenerative peptides and antioxidants for maximum repair.",
+            "key_active": "Matrixyl® synthe’6®",
+            "step": "2-3x/week",
+            "image_path": "sku-jellyfish-peptide-serum.png"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "settings": {
+        "label": "The Protocol",
+        "headline": "Your 3-Step Weekly Reset",
+        "subheadline": "",
+        "cta_text": "Start the Masque Protocol",
+        "cta_url": ""
+      }
+    },
+    "proto_synergy": {
+      "type": "aliange-proto-synergy",
+      "blocks": {
+        "s1": {
+          "type": "point",
+          "settings": {
+            "title": "Exfoliation Unlocks Absorption",
+            "description": "Removing dead skin ensures clays, probiotics, and peptides can penetrate deeply."
+          }
+        },
+        "s2": {
+          "type": "point",
+          "settings": {
+            "title": "Detoxification Creates a Clean Slate",
+            "description": "The Masque purifies pores and resets the microbiome for optimal repair signalling."
+          }
+        },
+        "s3": {
+          "type": "point",
+          "settings": {
+            "title": "Repair Signals Target Primed Skin",
+            "description": "Peptides work at maximum efficiency on perfectly cleansed and balanced skin."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "settings": {
+        "label": "The Science",
+        "headline": "Engineered to Work as One System",
+        "body": "Each step synergistically enhances the next for a comprehensive skin reset.",
+        "image_position": "right"
+      }
+    },
+    "lp_comparison": {
+      "type": "aliange-lp-comparison",
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "us": "Steps amplify each other",
+            "them": "Ingredient conflicts"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "us": "Exfoliation, microbiome, and repair",
+            "them": "Incomplete care"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "us": "Clinically formulated for visible results",
+            "them": "Unpredictable"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "us": "Follows natural skin processes",
+            "them": "Surface-level patching"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "label": "The Difference",
+        "headline": "A Protocol. Not a Routine.",
+        "col_us": "Aliange Masque Protocol",
+        "col_them": "Random Products"
+      }
+    },
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
@@ -292,28 +261,25 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
-      }
-    },
-    "lp_cta": {
-      "type": "aliange-lp-cta",
-      "settings": {
-        "headline": "Don’t Just Treat Your Skin. Transform It.",
-        "subheadline": "Unlock your skin’s true potential with a clinically-orchestrated protocol.",
-        "cta_text": "Start the Masque Protocol",
-        "cta_url": "",
-        "guarantee": "90-Day Results Guarantee Or Your Money Back"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
     },
     "klaviyo_all_reviews": {
       "type": "aliange-klaviyo-reviews-all",
       "settings": {}
     },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
+    "lp_cta": {
+      "type": "aliange-lp-cta",
       "settings": {
-        "label": "As Seen In",
-        "speed": 35
+        "gradient_theme": "none",
+        "headline": "Don’t Just Treat Your Skin. Transform It.",
+        "subheadline": "Unlock your skin’s true potential with a clinically-orchestrated protocol.",
+        "cta_text": "Start the Masque Protocol",
+        "cta_url": "",
+        "secondary_cta_text": "",
+        "secondary_cta_url": "",
+        "guarantee": "90-Day Results Guarantee Or Your Money Back"
       }
     }
   },
