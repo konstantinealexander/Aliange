@@ -66,7 +66,7 @@
       "settings": {
         "label": "The Science",
         "headline": "Why Your Skin Loses Its Youthful Firmness",
-        "body": "<p>From our mid-20s, our skin's foundational structure begins a slow, inevitable decline. The primary culprit is a gradual loss of collagen, the protein that provides skin with its strength and firmness. This depletion occurs at a rate of approximately <strong>1% per year after the age of 25</strong>, leading to the eventual formation of fine lines and wrinkles. This process is accelerated by a lifetime of sun exposure, a key factor in what scientists call \"photoageing.\"</p><p>Simultaneously, our cells' natural repair mechanisms become less efficient. Cellular senescence, a state where cells lose their ability to divide and function, begins to accumulate. These \"zombie cells\" release inflammatory signals that degrade the surrounding healthy tissue, further accelerating the ageing process.</p><p>Deep within our cells, our DNA is under constant assault from environmental stressors. This damage accumulates over time, impairing the cell's ability to produce energy and repair itself. <strong>One landmark Australian study of 903 people showed that daily SPF 15 use resulted in 24% less skin ageing.</strong></p>",
+        "body": "<p>From our mid-20s, our skin's foundational structure begins a slow, inevitable decline. The primary culprit is a gradual loss of collagen, the protein that provides skin with its strength and firmness. This depletion occurs at a rate of approximately <strong>1% per year after the age of 25</strong>, leading to the eventual formation of fine lines and wrinkles. This process is accelerated by a lifetime of sun exposure, a key factor in what scientists call \"photoageing.\" Simultaneously, our cells' natural repair mechanisms become less efficient. Cellular senescence, a state where cells lose their ability to divide and function, begins to accumulate. These \"zombie cells\" release inflammatory signals that degrade the surrounding healthy tissue, further accelerating the ageing process. Deep within our cells, our DNA is under constant assault from environmental stressors. This damage accumulates over time, impairing the cell's ability to produce energy and repair itself. <strong>One landmark Australian study of 903 people showed that daily SPF 15 use resulted in 24% less skin ageing.</strong></p>",
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
@@ -112,7 +112,6 @@
             "why": "A clinically active resurfacing and pigment-correcting serum designed to improve skin tone, clarity, and radiance.",
             "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
             "step": "PM",
-            "image": "shopify://shop_images/BrighteningSerum_a8edd9ec-1370-480a-8255-d33c7adaf078.png",
             "image_path": ""
           }
         },
