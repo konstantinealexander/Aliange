@@ -71,7 +71,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
-        "image": "shopify://shop_images/Screenshot_2026-03-24_at_11.00.22_am.png",
+        "image": "shopify://shop_images/Screenshot_2026-03-24_at_5.32.34_pm.png",
         "image_position": "right"
       }
     },
@@ -147,8 +147,7 @@
             "price": "$90",
             "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
             "key_active": "Niacinamide Sebum-Control Complex + Microbiome-Supporting Ferment (Lactococcus Lysate) + Sebum-Regulating Botanical Complex (Enantia Chlorantha + Oleanolic Acid) + Barrier Lipid Complex (Sphingolipids + Phospholipids) + Calming Technology (Bisabolol + Neuro-calming actives)",
-            "step": "Step 2 (AM/PM)",
-            "image": "shopify://shop_images/Biocinamide_2.png",
+            "step": "Step 2 AM/PM",
             "image_path": ""
           }
         },
@@ -286,10 +285,16 @@
     "trust_bar": {
       "type": "aliange-pdp-trust-bar",
       "blocks": {
-        "badge_1": {
+        "badge_XwJQJG": {
           "type": "badge",
           "settings": {
-            "text": "Clinically Proven"
+            "text": "Cruelty Free"
+          }
+        },
+        "badge_E3DqXr": {
+          "type": "badge",
+          "settings": {
+            "text": "Proven Actives & Medical Grade Formulations"
           }
         },
         "badge_2": {
@@ -309,20 +314,14 @@
           "settings": {
             "text": "90-Day Guarantee"
           }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "AHPRA Compliant"
-          }
         }
       },
       "block_order": [
-        "badge_1",
+        "badge_XwJQJG",
+        "badge_E3DqXr",
         "badge_2",
         "badge_3",
-        "badge_4",
-        "badge_5"
+        "badge_4"
       ],
       "settings": {
         "label": "Doctor Developed",
