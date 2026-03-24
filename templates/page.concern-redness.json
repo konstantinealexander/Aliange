@@ -47,8 +47,8 @@
         "min_height": 620,
         "content_width": 700,
         "align": "left",
-        "cta_text": "Find Your Solution",
-        "cta_url": "/collections/all",
+        "cta_text": "Assess Your Skin",
+        "cta_url": "https://aliange.com.au/?open-quiz=true",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "trust_line": "Developed by Dr. Alison Jamieson, Cosmetic Physician with over 40 years of clinical skin expertise."
@@ -97,7 +97,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
-        "image": "shopify://shop_images/Untitled_88.png",
+        "image": "shopify://shop_images/Untitled_58_7f73a2c4-472f-48b2-8a47-13b920b87954.png",
         "image_position": "right"
       }
     },
@@ -136,7 +136,7 @@
             "why": "A powerhouse serum that directly targets inflammation by inhibiting the NF-kB pathway, while postbiotics help to rebuild a healthy skin barrier.",
             "key_active": "Niacinamide + Lactococcus Ferment Lysate + Enantia Chlorantha Bark Extract + Oleanolic Acid + Sphingolipids + Phospholipids + Sodium Hyaluronate + Saccharide Isomerate + Bisabolol",
             "step": "Step 2 AM/PM",
-            "image": "shopify://shop_images/Biocinamide_2.png",
+            "image": "shopify://shop_images/aliange-biocinamide-serum-before-after-skin-barrier-results.png",
             "image_path": ""
           }
         },
@@ -160,7 +160,7 @@
             "why": "CellRevive Exosome Cream is a regenerative moisturiser designed to support skin renewal, hydration, and barrier repair. Formulated with advanced exosome-derived technology, it helps support cellular communication and skin regeneration while delivering essential lipids, antioxidants, and humectants to restore moisture and resilience. The formula works to improve skin smoothness, hydration, and overall skin vitality.",
             "key_active": "ENDEXOME-EXO™ + Hyaluronic Acid + Avocado Oil + Safflower Oil + Vitamin E + Sodium PCA",
             "step": "AM & PM",
-            "image": "shopify://shop_images/Untitled_88.png",
+            "image": "shopify://shop_images/aliange-cellrevive-exosome-cream-before-after-rejuvenation-results.png",
             "image_path": ""
           }
         }
@@ -289,7 +289,7 @@
         "badge_1": {
           "type": "badge",
           "settings": {
-            "text": "Clinically Proven"
+            "text": "Clinically Proven Actives"
           }
         },
         "badge_2": {
@@ -313,7 +313,7 @@
         "badge_5": {
           "type": "badge",
           "settings": {
-            "text": "AHPRA Compliant"
+            "text": "Cruelty Free"
           }
         }
       },
@@ -378,36 +378,44 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_f4GPDz": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see improvement in redness?",
+            "answer": "<h2></h2><ul><li><br/><strong>2–4 weeks:</strong> reduction in irritation and sensitivity<br/></li><li><br/><strong>4–8 weeks:</strong> visible reduction in redness<br/></li><li><br/><strong>8–12 weeks:</strong> improved skin stability and fewer flare-ups<br/></li></ul><p>Redness improves gradually as <strong>inflammation and barrier function are regulated over time</strong>.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for rosacea?",
-            "answer": "<p>Yes, this routine was specifically designed for rosacea-prone and sensitive skin. By targeting inflammation, supporting the barrier, and balancing the microbiome, it addresses the key factors involved in rosacea.</p>"
+            "question": "How can an acne protocol help rosacea or redness?",
+            "answer": "<p>Rosacea and acne share overlapping pathways:</p><ul><li><br/>Chronic inflammation<br/></li><li><br/>Microbiome imbalance<br/></li><li><br/>Barrier dysfunction<br/></li></ul><p>The Acne Protocol is designed to regulate these systems simultaneously, which is why it can <strong>visibly reduce redness and improve skin stability</strong>, not just breakouts.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "My skin is extremely sensitive. Will these products irritate it?",
-            "answer": "<p>We prioritise gentle, effective ingredients and avoid common irritants like harsh sulfates and fragrances. The Daily Devotion Cleanser is a syndet cleanser, which is much gentler on the skin barrier than traditional soaps.</p>"
+            "question": "How does this protocol calm redness?",
+            "answer": "<p>Through <strong>multi-pathway anti-inflammatory support</strong>:</p><ul><li><br/>Niacinamide reduces inflammation and visible redness<br/></li><li><br/>Barrier-repair ingredients reduce sensitivity<br/></li><li><br/>Microbiome-supportive steps reduce immune activation<br/></li></ul><p>Niacinamide specifically has been shown to <strong>ease inflammation and calm redness in conditions like rosacea</strong>. </p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results for my redness?",
-            "answer": "<p>While you should feel initial soothing effects within the first couple of weeks, visible reduction in redness typically takes 2–4 weeks as the inflammatory pathways are calmed and the skin barrier is repaired.</p>"
+            "question": "How does the protocol improve a compromised skin barrier?",
+            "answer": "<p>Barrier dysfunction is central to rosacea.</p><p>When the barrier is impaired:</p><ul><li><br/>Skin loses water<br/></li><li><br/>Becomes more reactive<br/></li><li><br/>Triggers inflammation<br/></li></ul><p>The protocol supports:</p><ul><li><br/>Ceramide production<br/></li><li><br/>Hydration<br/></li><li><br/>Reduced transepidermal water loss<br/></li></ul><p>Barrier repair has been shown to <strong>improve symptoms and sensitivity in rosacea-prone skin</strong>.</p>"
           }
         },
         "q4": {
           "type": "question",
           "settings": {
-            "question": "Can I use these products with my prescription rosacea medication?",
-            "answer": "<p>Yes, the Aliangé routine can be used to support your skin alongside most prescription treatments. However, we always recommend consulting with your prescribing doctor before introducing new products.</p>"
+            "question": "Can this help with flushing and sensitivity?",
+            "answer": "<p>Yes—by improving overall skin stability.</p><p>Redness and flushing are often driven by:</p><ul><li><br/>Barrier weakness<br/></li><li><br/>Inflammation<br/></li><li><br/>Vascular reactivity<br/></li></ul><p>By strengthening the skin and reducing inflammatory signalling, the protocol helps:</p><ul><li><br/>Decrease sensitivity<br/></li><li><br/>Improve tolerance to environmental triggers</li></ul>"
           }
         }
       },
       "block_order": [
+        "question_f4GPDz",
         "q1",
         "q2",
         "q3",
