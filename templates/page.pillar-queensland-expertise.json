@@ -47,11 +47,18 @@
         "min_height": 620,
         "content_width": 720,
         "align": "left",
-        "cta_text": "Discover the Aliangé Protocol",
-        "cta_url": "/collections/protocols",
+        "cta_text": "Assess Your Skin",
+        "cta_url": "/collections/protocolshttps://aliange.com.au/?open-quiz=true",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "trust_line": "Doctor-Developed | Queensland Origin | 40+ Years Expertise"
+      }
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
       }
     },
     "lp_problem": {
@@ -64,6 +71,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Generated_Image_March_24_2026_-_2_34PM.jpg",
         "image_position": "right"
       }
     },
@@ -77,6 +85,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
+        "image": "shopify://shop_images/Generated_Image_March_23_2026_-_9_59PM.jpg",
         "image_position": "right"
       }
     },
@@ -140,39 +149,82 @@
         "subheadline": ""
       }
     },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven Actives"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "Cruelty Free"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
+    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Development",
-            "them": "Trend-driven ingredients",
-            "us": "Doctor-formulated protocols"
+            "us": "Doctor-formulated protocols",
+            "them": "Trend-driven ingredients"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Focus",
-            "them": "Cosmetic claims",
-            "us": "Skin physiology"
+            "us": "Skin physiology",
+            "them": "Cosmetic claims"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Approach",
-            "them": "Single product focus",
-            "us": "Multi-step skin systems"
+            "us": "Multi-step skin systems",
+            "them": "Single product focus"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Outcome",
-            "them": "Short-term improvements",
-            "us": "Long-term skin function"
+            "us": "Long-term skin function",
+            "them": "Short-term improvements"
           }
         }
       },
@@ -185,8 +237,8 @@
       "settings": {
         "label": "The Comparison",
         "headline": "Clinical vs Cosmetic Skincare",
-        "col_them": "Typical Skincare",
-        "col_us": "Aliangé Clinical Approach"
+        "col_us": "Aliangé Clinical Approach",
+        "col_them": "Typical Skincare"
       }
     },
     "lp_faq": {
@@ -195,36 +247,36 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Why does Queensland skin need specialised skincare?",
-            "answer": "<p>Queensland experiences some of the highest UV radiation levels in the world, combined with humidity, coastal salt exposure, and environmental stressors. These conditions accelerate collagen degradation, increase pigmentation, and disrupt the skin barrier at higher rates than temperate climates.</p>"
+            "question": "Why does skin age faster in Queensland?",
+            "answer": "<p>Queensland has some of the <strong>highest UV levels globally</strong>, which accelerates photoageing.</p><p>Chronic UV exposure leads to:</p><ul><li><br/>Collagen breakdown<br/></li><li><br/>DNA damage in skin cells<br/></li><li><br/>Increased pigmentation<br/></li><li><br/>Loss of elasticity<br/></li></ul><p>This is why skin in high-UV environments requires <strong>ongoing correction, not just maintenance</strong>.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "What is the difference between clinical and cosmetic skincare?",
-            "answer": "<p>Clinical skincare focuses on supporting the skin's biological processes — barrier integrity, collagen production, cellular renewal. Cosmetic skincare typically focuses on surface-level improvements and marketing claims without addressing underlying skin function.</p>"
+            "question": "Why does my skin feel dehydrated even in a humid climate?",
+            "answer": "<p>Humidity does not equal hydration.</p><p>In Queensland conditions:</p><ul><li><br/>UV exposure weakens the barrier<br/></li><li><br/>Air conditioning increases transepidermal water loss<br/></li><li><br/>Heat and sweat disrupt skin balance<br/></li></ul><p>This leads to <strong>internal dehydration despite external moisture</strong>.</p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use Aliangé if I don't live in Queensland?",
-            "answer": "<p>Absolutely. While developed through Queensland clinical practice, Aliangé formulations support fundamental skin physiology that benefits anyone exposed to UV, environmental stress, or seeking a structured approach to skin health.</p>"
+            "question": "How does UV exposure impact skin on a daily basis?",
+            "answer": "<p>UV exposure causes <strong>cumulative cellular damage</strong>, even without visible sunburn.</p><p>It triggers:</p><ul><li><br/>DNA mutations in skin cells<br/></li><li><br/>Oxidative stress<br/></li><li><br/>Collagen degradation<br/></li><li><br/>Pigment production<br/></li></ul><p>This process occurs <strong>daily</strong>, making consistent protection and repair essential.</p>"
           }
         },
         "q4": {
           "type": "question",
           "settings": {
-            "question": "What qualifications does Dr Jamieson hold?",
-            "answer": "<p>Dr Alison Jamieson holds an MBBS, FRACGP, and Diploma in Dermatology, with more than 40 years of clinical expertise treating skin conditions in Queensland.</p>"
+            "question": "What should a skincare routine prioritise in Queensland?",
+            "answer": "<p>Skin in this climate requires a <strong>multi-pathway approach</strong>:</p><ul><li><br/>Daily UV protection<br/></li><li><br/>Antioxidant defence<br/></li><li><br/>Barrier repair<br/></li><li><br/>Controlled exfoliation<br/></li><li><br/>Cellular repair support<br/></li></ul><p>Single-product routines are insufficient in high-stress environments.</p>"
           }
         },
         "q5": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>Most people notice improved hydration and comfort within weeks. Structural improvements in collagen support, barrier strength, and overall skin resilience typically develop over 8–12 weeks of consistent protocol use.</p>"
+            "question": "Can I still use active ingredients in a high-UV environment?",
+            "answer": "<p>Yes—but they must be used <strong>strategically</strong>.</p><p>Actives like:</p><ul><li><br/>Retinoids<br/></li><li><br/>Exfoliating acids<br/></li></ul><p>…should be:</p><ul><li><br/>Properly introduced<br/></li><li><br/>Supported with barrier repair<br/></li><li><br/>Paired with strict SPF use<br/></li></ul><p>When structured correctly, they <strong>improve resilience rather than increase sensitivity</strong>.</p>"
           }
         }
       },
@@ -256,60 +308,6 @@
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
-    },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "AHPRA Compliant"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
       }
     }
   },
