@@ -481,10 +481,10 @@
       "type": "aliange-lp-cta",
       "settings": {
         "gradient_theme": "none",
-        "headline": "Ready to Reveal Your Radiance?",
-        "subheadline": "Experience the Aliangé difference and restore your skin's natural luminosity with our doctor-developed, science-backed approach.",
-        "cta_text": "Shop the Dullness Routine",
-        "cta_url": "/collections/all",
+        "headline": "The System That Restores Skin Behaviour",
+        "subheadline": "Formulated to correct skin at a functional level using clinically grounded, science-led formulations.",
+        "cta_text": "Shop the Protocol",
+        "cta_url": "shopify://products/the-protocol",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
