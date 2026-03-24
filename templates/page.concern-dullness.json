@@ -124,6 +124,7 @@
             "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
             "key_active": "Niacinamide Sebum-Control Complex + Microbiome-Supporting Ferment (Lactococcus Lysate) + Sebum-Regulating Botanical Complex (Enantia Chlorantha + Oleanolic Acid) + Barrier Lipid Complex (Sphingolipids + Phospholipids) + Calming Technology (Bisabolol + Neuro-calming actives)",
             "step": "AM & PM",
+            "image": "shopify://shop_images/aliange-biocinamide-serum-before-after-skin-barrier-results.png",
             "image_path": ""
           }
         },
@@ -159,6 +160,7 @@
             "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.",
             "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
             "step": "PM",
+            "image": "shopify://shop_images/aliange-brightening-serum-before-after-pigmentation-results.png",
             "image_path": ""
           }
         },
@@ -166,7 +168,7 @@
           "type": "product_step",
           "settings": {
             "name": "Ultimate A Night Cream",
-            "price": "$225",
+            "price": "$130",
             "why": "A clinically formulated night treatment designed to support skin renewal and improve visible signs of ageing. Microencapsulated retinol helps stimulate cellular turnover and collagen production while minimising irritation through controlled release. Supported by Matrixyl® peptide technology, hyaluronic acid and skin-identical moisturising factors, the formula works overnight to refine texture, improve firmness and restore smoother, more resilient skin.",
             "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Saccharide Isomerate + Sodium PCA + Chondrus Crispus (Red Algae) Extract",
             "step": "PM",
@@ -389,18 +391,46 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_kVDrna": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<h2></h2><ul><li><br/><strong>2–4 weeks:</strong> improved hydration, clarity, and texture<br/></li><li><br/><strong>8–12 weeks:</strong> visible improvements in tone and skin quality<br/></li></ul><p>Results reflect <strong>consistent use across a full skin cycle</strong>, not short-term intensity.</p>"
+          }
+        },
+        "question_DV9JGA": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
+          }
+        },
+        "question_WMAqDQ": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need to follow every step?",
+            "answer": "<p>Yes—for optimal results.</p><p>Each step has a defined role:</p><ul><li><br/>Removing steps disrupts the system’s ability to fully regulate skin function<br/></li></ul><p>However, frequency can be adjusted based on tolerance.</p>"
+          }
+        },
+        "question_wtL44e": {
+          "type": "question",
+          "settings": {
+            "question": "What skin concerns does The Protocol address?",
+            "answer": "<p>Rather than targeting a single issue, The Protocol addresses:</p><ul><li><br/>Barrier health<br/></li><li><br/>Pigmentation and uneven tone<br/></li><li><br/>Early signs of ageing<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Environmental and UV damage<br/></li></ul><p>It is designed as a <strong>foundational correction + maintenance system</strong>.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to see results?",
-            "answer": "<p>You can expect to see initial results within the first 1–2 weeks, with more significant improvements visible after 4–8 weeks. For peak results, we recommend using the routine consistently for at least 8–12 weeks.</p>"
+            "question": "Who is The Protocol designed for?",
+            "answer": "<p>The Protocol is a <strong>complete, doctor-designed anti-ageing system</strong> that targets all major mechanisms of skin ageing simultaneously.</p><p>Rather than focusing on one concern, it works across:</p><ul><li><br/>Collagen degradation<br/></li><li><br/>Pigmentation pathways<br/></li><li><br/>Cellular turnover<br/></li><li><br/>Barrier decline<br/></li><li><br/>Oxidative stress<br/></li></ul><p>It is the <strong>most comprehensive way to treat ageing skin at home</strong>.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for sensitive skin?",
-            "answer": "<p>While our products are formulated to be gentle, we always recommend patch testing before use, especially if you have sensitive skin. The Transforming Exfoliator and Brightening Serum contain AHAs, which can cause some initial tingling or redness.</p>"
+            "question": "Can I combine The Protocol with other Aliangé protocols?",
+            "answer": "<p>The Protocol is already a <strong>complete system</strong>.</p><p>However, it can be enhanced with:</p><ul><li><br/><strong>Masque Protocol</strong> for weekly resurfacing and deep correction<br/></li><li><br/><strong>Advanced Repair Protocol</strong> for intensified repair, regeneration, and targeted peri-orbital ageing support</li></ul>"
           }
         },
         "q3": {
@@ -412,6 +442,10 @@
         }
       },
       "block_order": [
+        "question_kVDrna",
+        "question_DV9JGA",
+        "question_WMAqDQ",
+        "question_wtL44e",
         "q1",
         "q2",
         "q3"
