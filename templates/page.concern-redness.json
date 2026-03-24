@@ -116,6 +116,18 @@
             "image_path": ""
           }
         },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Probiotic Masque",
+            "price": "$50",
+            "why": "This treatment masque supports a healthy skin microbiome, which is crucial for calming inflammatory conditions like rosacea and reducing overall sensitivity.",
+            "key_active": "Kaolin + Bentonite + Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Polymnia Sonchifolia Root Juice + Sodium Hyaluronate + Saccharide Isomerate + Sodium PCA + Chondrus Crispus Extract + Tocopherol (Vitamin E)",
+            "step": "2–3x per week",
+            "image": "shopify://shop_images/ProbioticMasque_2bfa746d-c0c3-4564-8c44-c2adaeb80066.png",
+            "image_path": ""
+          }
+        },
         "p2": {
           "type": "product_step",
           "settings": {
@@ -140,18 +152,6 @@
             "image_path": ""
           }
         },
-        "p4": {
-          "type": "product_step",
-          "settings": {
-            "name": "Probiotic Masque",
-            "price": "$50",
-            "why": "This treatment masque supports a healthy skin microbiome, which is crucial for calming inflammatory conditions like rosacea and reducing overall sensitivity.",
-            "key_active": "Kaolin + Bentonite + Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Polymnia Sonchifolia Root Juice + Sodium Hyaluronate + Saccharide Isomerate + Sodium PCA + Chondrus Crispus Extract + Tocopherol (Vitamin E)",
-            "step": "2–3x per week",
-            "image": "shopify://shop_images/ProbioticMasque_2bfa746d-c0c3-4564-8c44-c2adaeb80066.png",
-            "image_path": ""
-          }
-        },
         "product_step_Xkmqmq": {
           "type": "product_step",
           "settings": {
@@ -167,9 +167,9 @@
       },
       "block_order": [
         "p1",
+        "p4",
         "p2",
         "p3",
-        "p4",
         "product_step_Xkmqmq"
       ],
       "settings": {
@@ -236,7 +236,7 @@
       ],
       "settings": {
         "label": "Why It Works",
-        "headline": "Benefits of the Routine",
+        "headline": "Benefits of the Protocol",
         "subheadline": ""
       }
     },

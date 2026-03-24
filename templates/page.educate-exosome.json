@@ -41,7 +41,7 @@
         "headline": "The Science of Exosomes in Skincare",
         "subheadline": "Exosomes are microscopic extracellular vesicles naturally produced by cells. They function as biological communication carriers, transporting proteins, lipids, and signalling molecules between cells. In advanced skincare formulations, exosome-derived technologies are explored for their ability to support skin renewal and cellular communication.",
         "gradient_theme": "none",
-        "image": "shopify://shop_images/Generated_Image_March_22_2026_-_7_33PM.jpg",
+        "image": "shopify://shop_images/Generated_Image_March_24_2026_-_2_00PM.jpg",
         "overlay_color": "rgba(26,24,20,0.45)",
         "min_height": 620,
         "content_width": 720,
@@ -51,6 +51,13 @@
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "trust_line": "Doctor-Developed | Science-Backed | Australian-Made"
+      }
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
       }
     },
     "lp_problem": {
@@ -72,12 +79,12 @@
       "settings": {
         "label": "The Formulation",
         "headline": "The Aliangé CellRevive Exosome Cream",
-        "body": "<p>Aliangé's CellRevive Exosome Cream incorporates exosome-derived technology alongside hydrating and antioxidant ingredients.</p><p><strong>Exosome technology</strong> — Designed to support cellular communication and skin renewal.</p><p><strong>Hyaluronic acid</strong> — A powerful humectant capable of holding large amounts of water, helping maintain hydration within the skin.</p><p><strong>Avocado oil</strong> — Provides nourishing fatty acids that help support the skin barrier.</p><p><strong>Vitamin E</strong> — A potent antioxidant that helps protect skin from oxidative stress.</p>",
+        "body": "<p>Aliangé's CellRevive Exosome Cream incorporates exosome-derived technology alongside hydrating and antioxidant ingredients.</p><p><strong>Endexome-EXO™ Exosome technology</strong> — Designed to support cellular communication and skin renewal.</p><p><strong>Hyaluronic acid</strong> — A powerful humectant capable of holding large amounts of water, helping maintain hydration within the skin.</p><p><strong>Avocado oil</strong> — Provides nourishing fatty acids that help support the skin barrier.</p><p><strong>Vitamin E</strong> — A potent antioxidant that helps protect skin from oxidative stress.</p>",
         "bg": "white",
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
-        "image": "shopify://shop_images/Untitled_56_7af7e440-4a89-40ac-ba2a-1049cc9c840f.png",
+        "image": "shopify://shop_images/Untitled_88.png",
         "image_position": "right"
       }
     },
@@ -141,39 +148,82 @@
         "subheadline": ""
       }
     },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "AHPRA Compliant"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
+    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Mechanism",
-            "them": "Surface hydration only",
-            "us": "Supports deeper cellular communication"
+            "us": "Supports deeper cellular communication",
+            "them": "Surface hydration only"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Technology",
-            "them": "Basic emollients and humectants",
-            "us": "Exosome-derived cellular technology"
+            "us": "Exosome-derived cellular technology",
+            "them": "Basic emollients and humectants"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Formulation",
-            "them": "Marketing-driven ingredients",
-            "us": "Doctor-developed with clinical insight"
+            "us": "Doctor-developed with clinical insight",
+            "them": "Marketing-driven ingredients"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Results",
-            "them": "Temporary cosmetic improvement",
-            "us": "Long-term support for skin function"
+            "us": "Long-term support for skin function",
+            "them": "Temporary cosmetic improvement"
           }
         }
       },
@@ -186,8 +236,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "Why Exosome Technology Is Different",
-        "col_them": "Traditional Moisturisers",
-        "col_us": "Aliangé CellRevive Approach"
+        "col_us": "Aliangé CellRevive Approach",
+        "col_them": "Traditional Moisturisers"
       }
     },
     "lp_faq": {
@@ -258,60 +308,6 @@
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
-    },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "AHPRA Compliant"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
       }
     }
   },
