@@ -54,6 +54,13 @@
         "trust_line": "Developed by Dr Alison Jamieson, Cosmetic Physician with over 40 years of clinical experience"
       }
     },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
     "lp_problem": {
       "type": "aliange-lp-text-block",
       "settings": {
@@ -64,7 +71,7 @@
         "width": "narrow",
         "cta_text": "",
         "cta_url": "",
-        "image": "shopify://shop_images/Untitled_58_7f73a2c4-472f-48b2-8a47-13b920b87954.png",
+        "image": "shopify://shop_images/Screenshot_2026-03-24_at_11.00.22_am.png",
         "image_position": "right"
       }
     },
@@ -148,7 +155,7 @@
             "price": "$90",
             "why": "A protective daily moisturiser designed to defend skin against environmental stress while supporting barrier integrity and long-term skin health. Formulated with a broad-spectrum UV protection system, it helps shield the skin from UVA and UVB exposure — key contributors to premature ageing and pigmentation.",
             "key_active": "Broad-spectrum UV filter complex (UVA + UVB protection) + Matrixyl® 3000 peptide complex (Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7) + Hyaluronic acid hydration system + Centella asiatica repair extract + Vitamin E antioxidant protection",
-            "step": "AM & PM",
+            "step": "AM",
             "image_path": ""
           }
         }
@@ -271,39 +278,82 @@
         "headline": "What to Expect"
       }
     },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "AHPRA Compliant"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
+    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Approach",
-            "them": "Single ingredient (e.g., Benzoyl Peroxide only)",
-            "us": "Multi-pathway, synergistic routine"
+            "us": "Multi-pathway, synergistic routine",
+            "them": "Single ingredient (e.g., Benzoyl Peroxide only)"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Mechanism",
-            "them": "Harshly strips oil, kills all bacteria",
-            "us": "Regulates sebum, rebalances microbiome, calms inflammation"
+            "us": "Regulates sebum, rebalances microbiome, calms inflammation",
+            "them": "Harshly strips oil, kills all bacteria"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Skin Barrier",
-            "them": "Often compromises and damages the barrier",
-            "us": "Protects and strengthens the skin barrier"
+            "us": "Protects and strengthens the skin barrier",
+            "them": "Often compromises and damages the barrier"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Long-Term",
-            "them": "Can lead to a cycle of dryness and irritation",
-            "us": "Fosters long-term skin health and resilience"
+            "us": "Fosters long-term skin health and resilience",
+            "them": "Can lead to a cycle of dryness and irritation"
           }
         }
       },
@@ -316,8 +366,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "Why Aliangé Is Different",
-        "col_them": "Typical Breakout Products",
-        "col_us": "Aliangé Clinical Approach"
+        "col_us": "Aliangé Clinical Approach",
+        "col_them": "Typical Breakout Products"
       }
     },
     "lp_faq": {
@@ -332,6 +382,7 @@
         },
         "q2": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "Will my skin purge when I start this routine?",
             "answer": "<p>Some people may experience a temporary 'purging' phase as the Transforming Exfoliator accelerates cell turnover and brings underlying congestion to the surface. This is normal and typically subsides within 2–4 weeks, revealing clearer skin.</p>"
@@ -380,60 +431,6 @@
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "Backed by Our 90-Day Results Guarantee."
-      }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
-    },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "AHPRA Compliant"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
       }
     }
   },

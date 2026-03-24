@@ -54,6 +54,13 @@
         "trust_line": "Developed by Dr. Alison Jamieson, Cosmetic Physician with over 40 years of clinical skin expertise."
       }
     },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
+      }
+    },
     "lp_problem": {
       "type": "aliange-lp-text-block",
       "settings": {
@@ -100,22 +107,48 @@
         "p1": {
           "type": "product_step",
           "settings": {
-            "name": "Transforming Exfoliator",
+            "name": "Daily Devotion Cleanser",
             "price": "$55",
-            "why": "This dual-action exfoliator combines AHAs and physical exfoliants to accelerate cell turnover and reveal a brighter, smoother complexion.",
-            "key_active": "Perlite Mineral Exfoliation + Multi-Acid Resurfacing Complex (Glycolic, Lactic & Malic Acids) + Natural Fruit Acid Complex + Green Tea Antioxidant Complex + Tea Tree Clarifying Extract",
-            "step": "PM, 2–3x per week",
+            "why": "Gently cleanses without stripping the skin's delicate barrier, using syndet technology to prevent the irritation and water loss caused by harsh sulfates.",
+            "key_active": "Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate + Hydrolysed Jojoba Esters + Jojoba Esters + Sodium PCA + Sodium Lactate + Glycerin + Allantoin + Amino Acid Complex",
+            "step": "AM/PM",
+            "image": "shopify://shop_images/DailyDevotionCleanser_063abb45-3f98-481e-a3c3-f66da51cd326.png",
+            "image_path": ""
+          }
+        },
+        "product_step_8LakJg": {
+          "type": "product_step",
+          "settings": {
+            "name": "Biocinamide",
+            "price": "$90",
+            "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
+            "key_active": "Niacinamide Sebum-Control Complex + Microbiome-Supporting Ferment (Lactococcus Lysate) + Sebum-Regulating Botanical Complex (Enantia Chlorantha + Oleanolic Acid) + Barrier Lipid Complex (Sphingolipids + Phospholipids) + Calming Technology (Bisabolol + Neuro-calming actives)",
+            "step": "AM & PM",
+            "image": "shopify://shop_images/Biocinamide_2.png",
+            "image_path": ""
+          }
+        },
+        "p4": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "A protective daily moisturiser formulated to support skin hydration, barrier function, and environmental defence. A broad-spectrum UV filter system helps protect against UVA and UVB exposure, while Matrixyl® peptide technology supports collagen integrity and skin firmness. Hydrating ingredients and soothing botanical extracts help reinforce the skin barrier, leaving the complexion hydrated, calm and protected throughout the day.",
+            "key_active": "Butyl Methoxydibenzoylmethane (Avobenzone) + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Octocrylene + 4-Methylbenzylidene Camphor + Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7 + Sodium Hyaluronate + Panthenol + Centella Asiatica Extract + Tocopherol (Vitamin E)",
+            "step": "AM",
+            "image": "shopify://shop_images/DayCreamSPF15_70a74f57-454b-48cd-b7ca-5c62183042f1.png",
             "image_path": ""
           }
         },
         "p3": {
           "type": "product_step",
           "settings": {
-            "name": "Probiotic Masque",
-            "price": "$60",
-            "why": "A purifying treatment designed to rebalance the skin while supporting a healthy microbiome. Mineral clays help absorb excess oil and draw out impurities, while a probiotic and prebiotic complex works to support the skin’s microbial ecosystem, helping strengthen the barrier and calm inflammation. Hydrating ingredients such as hyaluronic acid and skin-identical moisturising factors help maintain moisture balance, leaving skin clearer, calmer, and more resilient.",
-            "key_active": "Purifying Mineral Clay Complex (Kaolin + Bentonite) + Probiotic & Prebiotic Microbiome Complex (Lactococcus Ferment + Lactobacillus + Alpha-Glucan Oligosaccharide + Yacon Root) + Hyaluronic Acid Hydration System + Marine Algae Barrier Support + Vitamin E Antioxidant Protection",
-            "step": "AM & PM",
+            "name": "Ultimate A Night Cream",
+            "price": "$225",
+            "why": "A clinically formulated night treatment designed to support skin renewal and improve visible signs of ageing. Microencapsulated retinol helps stimulate cellular turnover and collagen production while minimising irritation through controlled release. Supported by Matrixyl® peptide technology, hyaluronic acid and skin-identical moisturising factors, the formula works overnight to refine texture, improve firmness and restore smoother, more resilient skin.",
+            "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Saccharide Isomerate + Sodium PCA + Chondrus Crispus (Red Algae) Extract",
+            "step": "PM",
+            "image": "shopify://shop_images/UltimateANightCream_07aec275-5692-4d92-8b77-edad9e063fbc.png",
             "image_path": ""
           }
         },
@@ -127,6 +160,7 @@
             "why": "A regenerative antioxidant serum designed to support skin repair and hydration. Powered by Juveleven™ peptide (Acetyl Hexapeptide-51 Amide) to help protect skin cells from oxidative stress and support renewal, alongside Matrixyl® peptide technology to promote collagen integrity. Hyaluronic acid, Kakadu plum extract and skin-identical moisturising factors help restore hydration and radiance, leaving skin smoother, stronger and visibly revitalised.",
             "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™ Peptide) + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Terminalia Ferdinandiana (Kakadu Plum) + Saccharide Isomerate + Sodium PCA",
             "step": "AM & PM",
+            "image": "shopify://shop_images/JFP_67a43f12-e924-4740-b619-44a026ab2882.png",
             "image_path": ""
           }
         },
@@ -138,34 +172,25 @@
             "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.",
             "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
             "step": "PM",
-            "image_path": ""
-          }
-        },
-        "p4": {
-          "type": "product_step",
-          "settings": {
-            "name": "Cell Revive Exosome Cream",
-            "price": "$400",
-            "why": "A regenerative moisturiser formulated with ENDEXOME-EXO™ exosome technology to support skin renewal and repair. Hyaluronic acid, sodium PCA and glycerin provide deep hydration, while safflower and avocado oils with vitamin E help nourish the skin and reinforce the barrier, leaving it smoother, stronger and more resilient.",
-            "key_active": "ENDEXOME-EXO™ exosomes",
-            "step": "AM & PM",
+            "image": "shopify://shop_images/BrighteningSerum_a8edd9ec-1370-480a-8255-d33c7adaf078.png",
             "image_path": ""
           }
         }
       },
       "block_order": [
         "p1",
+        "product_step_8LakJg",
+        "p4",
         "p3",
         "product_step_e6yAr7",
-        "p2",
-        "p4"
+        "p2"
       ],
       "settings": {
         "label": "The Protocol",
         "headline": "Your Prescribed Protocol",
         "subheadline": "",
-        "cta_text": "Explore Dullness Range",
-        "cta_url": "shopify://products/masque-protocol"
+        "cta_text": "Explore the Protocol",
+        "cta_url": "shopify://products/the-protocol"
       }
     },
     "lp_benefits": {
@@ -271,39 +296,82 @@
         "headline": "What to Expect"
       }
     },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "AHPRA Compliant"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
+      }
+    },
     "lp_comparison": {
       "type": "aliange-lp-comparison",
       "blocks": {
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Focus",
-            "them": "Single ingredient focus",
-            "us": "Multi-pathway approach"
+            "us": "Multi-pathway approach",
+            "them": "Single ingredient focus"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Results",
-            "them": "Surface-level results",
-            "us": "Addresses the root causes of dullness"
+            "us": "Addresses the root causes of dullness",
+            "them": "Surface-level results"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Barrier",
-            "them": "May compromise the skin barrier",
-            "us": "Strengthens and supports the skin barrier"
+            "us": "Strengthens and supports the skin barrier",
+            "them": "May compromise the skin barrier"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Antioxidants",
-            "them": "Limited antioxidant protection",
-            "us": "Potent, broad-spectrum antioxidant defence"
+            "us": "Potent, broad-spectrum antioxidant defence",
+            "them": "Limited antioxidant protection"
           }
         }
       },
@@ -316,8 +384,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "Why Aliangé Is Different",
-        "col_them": "Typical Dullness Products",
-        "col_us": "Aliangé Clinical Approach"
+        "col_us": "Aliangé Clinical Approach",
+        "col_them": "Typical Dullness Products"
       }
     },
     "lp_faq": {
@@ -372,60 +440,6 @@
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
-      }
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
-      }
-    },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "AHPRA Compliant"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
       }
     }
   },
