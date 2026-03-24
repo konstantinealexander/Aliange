@@ -47,8 +47,8 @@
         "min_height": 620,
         "content_width": 720,
         "align": "left",
-        "cta_text": "Find Your Solution",
-        "cta_url": "/collections/all",
+        "cta_text": "Assess Your Skin",
+        "cta_url": "https://aliange.com.au/?open-quiz=true",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "trust_line": "Developed by Dr. Alison Jamieson, Cosmetic Physician with over 40 years of clinical skin expertise."
@@ -276,7 +276,7 @@
         "badge_1": {
           "type": "badge",
           "settings": {
-            "text": "Clinically Proven"
+            "text": "Clinically Proven Actives"
           }
         },
         "badge_2": {
@@ -300,7 +300,7 @@
         "badge_5": {
           "type": "badge",
           "settings": {
-            "text": "AHPRA Compliant"
+            "text": "Cruelty Free"
           }
         }
       },
@@ -365,25 +365,60 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_RCeFWe": {
+          "type": "question",
+          "settings": {
+            "question": "Will The Protocol lighten my natural skin tone?",
+            "answer": "<p>No.</p><p>The Protocol does not bleach or alter your natural skin colour.</p><p>Instead, it:</p><ul><li><br/>Reduces excess pigment<br/></li><li><br/>Normalises melanin distribution<br/></li><li><br/>Restores a more even, uniform tone<br/></li></ul><p>Niacinamide, for example, works by <strong>correcting uneven pigment rather than removing natural colour</strong></p>"
+          }
+        },
+        "question_KA4Gb6": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to improve pigmentation with The Protocol?",
+            "answer": "<ul><li><strong>4–6 weeks:</strong> improvement in clarity and tone<br/></li><li><br/><strong>8–12 weeks:</strong> visible reduction in pigmentation<br/></li><li><br/><strong>12+ weeks:</strong> more uniform, stable skin tone<br/></li></ul><p>Pigmentation improves gradually because it depends on <strong>skin turnover cycles and ongoing regulation</strong>.</p>"
+          }
+        },
+        "question_RnbQxa": {
+          "type": "question",
+          "settings": {
+            "question": "Why is SPF essential when treating pigmentation?",
+            "answer": "<p>UV exposure is the <strong>primary trigger</strong> for pigmentation.</p><p>Without daily protection:</p><ul><li><br/>Melanocytes are reactivated<br/></li><li><br/>Pigment production increases<br/></li><li><br/>Existing pigmentation darkens<br/></li></ul><p>Even the most advanced actives will not perform optimally without <strong>consistent UV protection</strong>.</p>"
+          }
+        },
+        "question_9fhXNY": {
+          "type": "question",
+          "settings": {
+            "question": "Does The Protocol help with melasma or hormonal pigmentation?",
+            "answer": "<p>It can support improvement, but results vary.</p><p>Melasma is complex and involves:</p><ul><li><br/>Hormonal signalling<br/></li><li><br/>Chronic melanocyte activation<br/></li><li><br/>UV sensitivity<br/></li></ul><p>The Protocol helps by:</p><ul><li><br/>Reducing pigment transfer<br/></li><li><br/>Improving skin stability<br/></li><li><br/>Supporting consistent turnover<br/></li></ul><p>However, melasma often requires <strong>long-term management rather than short-term correction</strong>.</p>"
+          }
+        },
+        "question_wCrnpM": {
+          "type": "question",
+          "settings": {
+            "question": "Why does pigmentation keep coming back without a system?",
+            "answer": "<p>Because the underlying triggers remain active.</p><p>Pigmentation is driven by:</p><ul><li><br/>UV exposure<br/></li><li><br/>Inflammation<br/></li><li><br/>Hormonal signalling<br/></li><li><br/>Barrier dysfunction<br/></li></ul><p>Melanocytes respond to these triggers by producing excess melanin </p><p>Without ongoing regulation, pigment will continue to recur—even if temporarily faded.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for melasma?",
-            "answer": "<p>Yes, this multi-pathway approach is designed to be effective for various types of hyperpigmentation, including the hormonal fluctuations that can trigger melasma. By targeting multiple stages of melanin production, it provides a comprehensive strategy for managing this stubborn condition.</p>"
+            "question": "How does The Protocol improve pigmentation?",
+            "answer": "<p>The Protocol targets pigmentation through <strong>multiple biological pathways</strong>, not a single mechanism.</p><p>It works by:</p><ul><li><br/>Regulating melanin transfer<br/></li><li><br/>Accelerating cellular turnover<br/></li><li><br/>Reducing inflammation<br/></li><li><br/>Protecting against UV-induced pigment stimulation<br/></li></ul><p>This multi-pathway approach is critical, as pigmentation is driven by <strong>multiple triggers, not just melanin production</strong>.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "How is Oligopeptide-68 different from Hydroquinone?",
-            "answer": "<p>Oligopeptide-68 is a modern, biomimetic peptide that works by mimicking a natural signalling molecule in your skin to safely down-regulate pigment production. Unlike hydroquinone, which is now banned in Australia for cosmetic use due to safety concerns, Oligopeptide-68 has been shown in clinical trials to be equally or even more effective without the associated risks.</p>"
+            "question": "Why is a protocol necessary to treat pigmentation effectively?",
+            "answer": "<p>Pigmentation is not just “dark spots”—it involves:</p><ul><li><br/>Overproduction of melanin<br/></li><li><br/>Transfer of pigment into surrounding skin cells<br/></li><li><br/>Inflammation and oxidative stress<br/></li><li><br/>UV-triggered reactivation<br/></li></ul><p>Single products typically target only one of these.</p><p>A protocol addresses the <strong>entire pigment pathway</strong>, which is why results are more stable and long-term.</p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "Why do I need so many products?",
-            "answer": "<p>Lasting results for pigmentation require a multi-pronged attack. Each product in the routine is formulated with specific actives that target a different stage of the pigmentation process. Using them together creates a synergistic effect that is far more powerful than any single product could be on its own.</p>"
+            "question": "How does The Protocol prevent new pigmentation from forming?",
+            "answer": "<p>The Protocol includes mechanisms that:</p><ul><li><br/>Inhibit melanin transfer to skin cells<br/></li><li><br/>Reduce inflammation that triggers pigment production<br/></li><li><br/>Protect against UV exposure<br/></li></ul><p>For example, ingredients like niacinamide are shown to <strong>reduce pigmentation by inhibiting melanosome transfer</strong>, preventing pigment from appearing on the skin surface</p>"
           }
         },
         "q4": {
@@ -395,6 +430,11 @@
         }
       },
       "block_order": [
+        "question_RCeFWe",
+        "question_KA4Gb6",
+        "question_RnbQxa",
+        "question_9fhXNY",
+        "question_wCrnpM",
         "q1",
         "q2",
         "q3",
