@@ -391,6 +391,27 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_wtL44e": {
+          "type": "question",
+          "settings": {
+            "question": "What skin concerns does The Protocol address?",
+            "answer": "<p>Rather than targeting a single issue, The Protocol addresses:</p><ul><li><br/>Barrier health<br/></li><li><br/>Pigmentation and uneven tone<br/></li><li><br/>Early signs of ageing<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Environmental and UV damage<br/></li></ul><p>It is designed as a <strong>foundational correction + maintenance system</strong>.</p>"
+          }
+        },
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Who is The Protocol designed for?",
+            "answer": "<p>The Protocol is a <strong>complete, doctor-designed anti-ageing system</strong> that targets all major mechanisms of skin ageing simultaneously.</p><p>Rather than focusing on one concern, it works across:</p><ul><li><br/>Collagen degradation<br/></li><li><br/>Pigmentation pathways<br/></li><li><br/>Cellular turnover<br/></li><li><br/>Barrier decline<br/></li><li><br/>Oxidative stress<br/></li></ul><p>It is the <strong>most comprehensive way to treat ageing skin at home</strong>.</p>"
+          }
+        },
+        "question_DV9JGA": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
+          }
+        },
         "question_wqQE7R": {
           "type": "question",
           "settings": {
@@ -412,32 +433,11 @@
             "answer": "<h2></h2><ul><li><br/><strong>2–4 weeks:</strong> improved hydration, clarity, and texture<br/></li><li><br/><strong>8–12 weeks:</strong> visible improvements in tone and skin quality<br/></li></ul><p>Results reflect <strong>consistent use across a full skin cycle</strong>, not short-term intensity.</p>"
           }
         },
-        "question_DV9JGA": {
-          "type": "question",
-          "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
-          }
-        },
         "question_WMAqDQ": {
           "type": "question",
           "settings": {
             "question": "Do I need to follow every step?",
             "answer": "<p>Yes—for optimal results.</p><p>Each step has a defined role:</p><ul><li><br/>Removing steps disrupts the system’s ability to fully regulate skin function<br/></li></ul><p>However, frequency can be adjusted based on tolerance.</p>"
-          }
-        },
-        "question_wtL44e": {
-          "type": "question",
-          "settings": {
-            "question": "What skin concerns does The Protocol address?",
-            "answer": "<p>Rather than targeting a single issue, The Protocol addresses:</p><ul><li><br/>Barrier health<br/></li><li><br/>Pigmentation and uneven tone<br/></li><li><br/>Early signs of ageing<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Environmental and UV damage<br/></li></ul><p>It is designed as a <strong>foundational correction + maintenance system</strong>.</p>"
-          }
-        },
-        "q1": {
-          "type": "question",
-          "settings": {
-            "question": "Who is The Protocol designed for?",
-            "answer": "<p>The Protocol is a <strong>complete, doctor-designed anti-ageing system</strong> that targets all major mechanisms of skin ageing simultaneously.</p><p>Rather than focusing on one concern, it works across:</p><ul><li><br/>Collagen degradation<br/></li><li><br/>Pigmentation pathways<br/></li><li><br/>Cellular turnover<br/></li><li><br/>Barrier decline<br/></li><li><br/>Oxidative stress<br/></li></ul><p>It is the <strong>most comprehensive way to treat ageing skin at home</strong>.</p>"
           }
         },
         "q2": {
@@ -456,13 +456,13 @@
         }
       },
       "block_order": [
+        "question_wtL44e",
+        "q1",
+        "question_DV9JGA",
         "question_wqQE7R",
         "question_YQVaDQ",
         "question_kVDrna",
-        "question_DV9JGA",
         "question_WMAqDQ",
-        "question_wtL44e",
-        "q1",
         "q2",
         "q3"
       ],
