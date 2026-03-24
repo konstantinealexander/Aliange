@@ -174,7 +174,7 @@
             "title": "Anti-Ageing",
             "heading_tag": "h3",
             "content": "<p>Target fine lines, loss of firmness, and visible signs of ageing with a clinical multi-pathway approach.</p>",
-            "link_url": "/pages/concern-aging",
+            "link_url": "shopify://pages/made-for-mature-skin",
             "link_text": "Explore →"
           }
         },
@@ -184,7 +184,7 @@
             "title": "Pigmentation",
             "heading_tag": "h3",
             "content": "<p>Address dark spots, melasma, and uneven skin tone with targeted brightening actives.</p>",
-            "link_url": "/pages/concern-pigmentation",
+            "link_url": "shopify://pages/concern-pigmentation",
             "link_text": "Explore →"
           }
         },
@@ -194,7 +194,7 @@
             "title": "Breakouts",
             "heading_tag": "h3",
             "content": "<p>Clarify congested pores, balance oil production, and reduce active breakouts clinically.</p>",
-            "link_url": "/pages/concern-breakouts",
+            "link_url": "shopify://pages/concern-breakouts",
             "link_text": "Explore →"
           }
         },
@@ -204,7 +204,7 @@
             "title": "Dullness",
             "heading_tag": "h3",
             "content": "<p>Restore radiance, improve skin texture, and reveal a brighter, more luminous complexion.</p>",
-            "link_url": "/pages/concern-dullness",
+            "link_url": "shopify://pages/concern-dullness",
             "link_text": "Explore →"
           }
         },
@@ -214,7 +214,7 @@
             "title": "Redness",
             "heading_tag": "h3",
             "content": "<p>Calm persistent redness, reduce irritation, and strengthen your skin barrier against reactivity.</p>",
-            "link_url": "/pages/concern-redness",
+            "link_url": "shopify://pages/concern-redness",
             "link_text": "Explore →"
           }
         }
