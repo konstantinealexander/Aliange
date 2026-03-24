@@ -104,18 +104,6 @@
     "lp_routine": {
       "type": "aliange-lp-routine",
       "blocks": {
-        "p3": {
-          "type": "product_step",
-          "settings": {
-            "name": "Brightening Serum",
-            "price": "$100",
-            "why": "A clinically active resurfacing and pigment-correcting serum designed to improve skin tone, clarity, and radiance.",
-            "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
-            "step": "PM",
-            "image": "shopify://shop_images/BrighteningSerum_24767646-5401-48eb-9df5-ccf0541d72f6.png",
-            "image_path": ""
-          }
-        },
         "p1": {
           "type": "product_step",
           "settings": {
@@ -125,6 +113,18 @@
             "key_active": "Acetyl Hexapeptide-51 Amide (Juveleven™ Peptide) + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Terminalia Ferdinandiana (Kakadu Plum) + Saccharide Isomerate + Sodium PCA",
             "step": "AM/PM",
             "image": "shopify://shop_images/Untitled_85.png",
+            "image_path": ""
+          }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Brightening Serum",
+            "price": "$100",
+            "why": "A clinically active resurfacing and pigment-correcting serum designed to improve skin tone, clarity, and radiance.",
+            "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
+            "step": "PM",
+            "image": "shopify://shop_images/BrighteningSerum_24767646-5401-48eb-9df5-ccf0541d72f6.png",
             "image_path": ""
           }
         },
@@ -142,8 +142,8 @@
         }
       },
       "block_order": [
-        "p3",
         "p1",
+        "p3",
         "p2"
       ],
       "settings": {
@@ -362,43 +362,83 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "At what age should I start using anti-ageing products?",
-            "answer": "<p>While there's no magic number, collagen production begins to decline from your mid-20s. Starting a preventative routine with SPF and antioxidants in your late 20s or early 30s is ideal. However, it's never too late to start seeing significant improvements with a clinical-grade routine.</p>"
+            "question": "What makes the Anti-Ageing Protocol different from using individual products?",
+            "answer": "<p>This protocol is designed as a <strong>complete, structured system</strong>, not a collection of standalone products.<br/><br/>Each step targets a different biological pathway of ageing—collagen degradation, pigmentation, barrier decline, and cellular turnover—so the skin is treated <strong>across a full 24-hour cycle, not in isolation</strong>.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Is this routine suitable for sensitive skin?",
-            "answer": "<p>Our <strong>microencapsulated retinol</strong> is specifically designed to deliver vitamin A gradually, helping minimise irritation while still supporting collagen renewal and skin regeneration. Most people tolerate it very well.</p><p>However, because the <strong>Brightening Serum contains active exfoliating acids</strong>, we recommend introducing it slowly. Start by using it <strong>every other night</strong>, then gradually increase to nightly use as your skin adapts.</p>"
+            "question": "What skin concerns does the Anti-Ageing Protocol address?",
+            "answer": "<p>The protocol is formulated to target the primary drivers of visible ageing:</p><ul><li><br/>Fine lines and loss of firmness<br/></li><li><br/>Uneven skin tone and pigmentation<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Collagen and elastin breakdown<br/></li><li><br/>Environmental and UV-related damage</li></ul>"
+          }
+        },
+        "question_JwcV8d": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this protocol if I’m new to active skincare?",
+            "answer": "<p>Yes. This protocol is specifically designed to <strong>guide the skin through actives in a controlled sequence</strong>.</p><p>Unlike random product use, each step is calibrated to:</p><ul><li><br/>Prepare the skin<br/></li><li><br/>Deliver actives<br/></li><li><br/>Support recovery<br/></li></ul><p>This reduces the risk of irritation commonly seen with unsupervised retinol or acid use.</p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use these products if I get cosmetic injectables?",
-            "answer": "<p>Absolutely. In fact, this routine is the perfect complement to clinical treatments. It helps to maintain and enhance the results of procedures like Botox and fillers by improving overall skin health, quality, and resilience.</p>"
+            "question": "How does the protocol actually improve ageing skin?",
+            "answer": "<p>Rather than relying on a single mechanism, the protocol works through <strong>multi-pathway correction</strong>:</p><ul><li><br/><strong>Retinoid renewal</strong> → stimulates cellular turnover and collagen production<br/></li><li><br/><strong>Peptide signalling</strong> → supports dermal structure and elasticity<br/></li><li><br/><strong>Acid resurfacing</strong> → refines texture and accelerates epidermal renewal<br/></li><li><br/><strong>Barrier repair + hydration</strong> → improves tolerance and skin function<br/></li></ul><p>This layered approach reflects how ageing occurs biologically—<strong>not as one issue, but as multiple systems declining simultaneously</strong>.</p>"
+          }
+        },
+        "question_ffXMCq": {
+          "type": "question",
+          "settings": {
+            "question": "Will this replace in-clinic treatments?",
+            "answer": "<p>This protocol is designed to:</p><ul><li><br/><strong>Enhance and maintain clinical results</strong><br/></li><li><br/>Improve skin quality between treatments<br/></li><li><br/>Reduce the rate of ongoing deterioration<br/></li></ul><p>It can significantly improve skin function, but also works synergistically with in-clinic procedures.</p>"
+          }
+        },
+        "question_V8PnB6": {
+          "type": "question",
+          "settings": {
+            "question": "Is this safe during pregnancy or breastfeeding?",
+            "answer": "<p>Some steps—particularly those containing <strong>retinoids or active exfoliants</strong>—are not recommended during pregnancy or breastfeeding.</p><p>Always consult your healthcare provider and refer to individual product guidance.</p>"
+          }
+        },
+        "question_fDHth3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I combine this with other Aliangé protocols?",
+            "answer": "<p>Yes.</p><p>The Anti-Ageing Protocol can be integrated with:</p><ul><li><br/><strong>Masque Protocol</strong> (weekly correction and resurfacing)<br/></li><li><br/><strong>Barrier or repair protocols</strong> if skin is compromised<br/></li></ul><p>Protocols are designed to <strong>layer intelligently across time</strong>, not compete.</p>"
+          }
+        },
+        "question_Nwq4bR": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need to use every step for results?",
+            "answer": "<p>For optimal outcomes, yes.</p><p>Each step performs a distinct function:</p><ul><li><br/>Removing one step reduces the system’s ability to <strong>fully correct and maintain results</strong><br/></li></ul><p>However, the protocol can be adjusted based on tolerance or lifestyle if needed.</p>"
           }
         },
         "q4": {
           "type": "question",
           "settings": {
-            "question": "Why is a multi-product routine necessary?",
-            "answer": "<p>Ageing is a complex process with multiple causes. A single product can't effectively address DNA damage, collagen loss, and cellular senescence all at once. Our multi-pathway routine ensures you are targeting each of these mechanisms for the most comprehensive and visible results.</p>"
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>2–4 weeks:</strong> improved hydration, clarity, and skin texture<br/></li><li><br/><strong>8–12 weeks:</strong> visible improvements in tone, firmness, and fine lines<br/></li><li><br/><strong>12+ weeks:</strong> structural changes in skin quality and resilience <br/></li></ul><p>Skin responds to <strong>consistent signalling over time</strong>, not short-term intensity.</p>"
           }
         },
         "q5": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>While you may notice improvements in hydration and texture within a couple of weeks, the most significant, clinically-proven results—like wrinkle reduction and improved firmness—take 8–12 weeks of consistent use. This is because it takes time for your skin to rebuild its collagen and for new, healthy cells to reach the surface.</p>"
+            "question": "Is this suitable for sensitive or reactive skin?",
+            "answer": "<p>Yes—with structured introduction.</p><p>The protocol is designed to <strong>support tolerance</strong>, not overwhelm the skin.<br/><br/>Barrier-supportive ingredients are layered alongside actives to minimise irritation.</p><p>For highly reactive skin:</p><ul><li><br/>Begin with reduced frequency (e.g. alternate nights for retinoid)<br/></li><li><br/>Always patch test prior to full use<br/></li></ul>"
           }
         }
       },
       "block_order": [
         "q1",
         "q2",
+        "question_JwcV8d",
         "q3",
+        "question_ffXMCq",
+        "question_V8PnB6",
+        "question_fDHth3",
+        "question_Nwq4bR",
         "q4",
         "q5"
       ],
