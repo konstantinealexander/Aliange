@@ -47,8 +47,8 @@
         "min_height": 620,
         "content_width": 720,
         "align": "left",
-        "cta_text": "Discover the Aliangé Protocol",
-        "cta_url": "/collections/protocols",
+        "cta_text": "Assess Your Skin",
+        "cta_url": "https://aliange.com.au/?open-quiz=true",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "trust_line": "Doctor-Developed | Sunshine Coast Origin | Australian-Made"
@@ -167,7 +167,7 @@
         "badge_1": {
           "type": "badge",
           "settings": {
-            "text": "Clinically Proven"
+            "text": "Clinically Proven Actives"
           }
         },
         "badge_2": {
@@ -191,7 +191,7 @@
         "badge_5": {
           "type": "badge",
           "settings": {
-            "text": "AHPRA Compliant"
+            "text": "Cruelty Free"
           }
         }
       },
