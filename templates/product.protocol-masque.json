@@ -318,13 +318,12 @@
     }
   },
   "order": [
-    "lp_hero",
+    "aliange_pdp_hero_Masque",
     "press_ticker",
     "lp_problem",
     "lp_routine",
     "proto_synergy",
     "lp_comparison",
-    "aliange_pdp_hero_Masque",
     "lp_faq",
     "klaviyo_all_reviews",
     "lp_cta"

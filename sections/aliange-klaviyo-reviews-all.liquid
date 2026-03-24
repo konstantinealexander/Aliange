@@ -193,14 +193,20 @@
     return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  var REVISION = '2024-10-15';
+
   function fetchAll(url, acc) {
-    return fetch(url, { headers: { 'revision': '2024-10-15' } })
+    return fetch(url, {
+      headers: {
+        'revision': REVISION,
+        'Authorization': 'Klaviyo-API-Key ' + PUBLIC_KEY
+      }
+    })
     .then(function (r) {
-      console.log('[Klaviyo Reviews] status', r.status, url);
+      if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     })
     .then(function (json) {
-      console.log('[Klaviyo Reviews] response', json);
       var rows = (json.data || []).filter(function(r){ return r.attributes; });
       acc = acc.concat(rows);
       if (json.links && json.links.next) {
@@ -210,7 +216,7 @@
     });
   }
 
-  var baseUrl = 'https://a.klaviyo.com/client/reviews/?company_id=' + PUBLIC_KEY + '&page[size]=100&sort=-created_at&revision=2024-10-15';
+  var baseUrl = 'https://a.klaviyo.com/client/reviews/?company_id=' + PUBLIC_KEY + '&page[size]=100&sort=-created_at&filter=equals(published,true)';
   fetchAll(baseUrl, [])
     .then(function (reviews) {
       if (!reviews.length) {
@@ -223,8 +229,8 @@
       nextBtn.addEventListener('click', function () { renderPage(currentPage + 1); window.scrollTo({top: container.offsetTop - 80, behavior: 'smooth'}); });
     })
     .catch(function (e) {
-      container.innerHTML = '<p class="aliange-reviews__error">Could not load reviews. Please try again later.</p>';
       console.error('Klaviyo Reviews error:', e);
+      container.innerHTML = '<p class="aliange-reviews__error">Could not load reviews. Please try again later.</p>';
     });
 })();
 </script>
