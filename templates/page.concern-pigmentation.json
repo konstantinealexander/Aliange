@@ -443,7 +443,7 @@
       "settings": {
         "label": "Questions Answered",
         "headline": "Frequently Asked Questions",
-        "image": "shopify://shop_images/Untitled_48.png",
+        "image": "shopify://shop_images/aliange-brightening-serum-before-after-pigmentation-results.png",
         "image_position": "right"
       }
     },
@@ -455,10 +455,10 @@
       "type": "aliange-lp-cta",
       "settings": {
         "gradient_theme": "none",
-        "headline": "Ready to Leave Uneven Skin Tone Behind?",
-        "subheadline": "Trust in a clinical, doctor-developed system that works with your skin's biology to deliver profound, lasting clarity. Your journey to a brighter, more even complexion starts here.",
-        "cta_text": "Shop the Pigmentation Routine",
-        "cta_url": "/collections/all",
+        "headline": "A Structured Approach to Restoring Even Skin Tone",
+        "subheadline": "Designed to regulate pigment pathways and restore clarity through a system-led, evidence-based approach.",
+        "cta_text": "Shop the Pigmentation Protocol",
+        "cta_url": "shopify://products/the-protocol",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee"
