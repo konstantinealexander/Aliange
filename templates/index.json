@@ -371,7 +371,7 @@
           "settings": {
             "style": "solid",
             "text": "ASSESS YOUR SKIN",
-            "url": "",
+            "url": "shopify://pages/quiz",
             "background": "",
             "text_color": ""
           }
