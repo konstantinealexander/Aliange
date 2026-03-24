@@ -391,6 +391,13 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_wqQE7R": {
+          "type": "question",
+          "settings": {
+            "question": "Is The Protocol suitable for sensitive skin?",
+            "answer": "<p>Yes—with appropriate introduction.</p><p>The formulations are designed to:</p><ul><li><br/>Support barrier function<br/></li><li><br/>Maintain tolerance alongside actives<br/></li></ul><p>For reactive skin:</p><ul><li><br/>Introduce active steps gradually<br/></li><li><br/>Patch test prior to use</li></ul>"
+          }
+        },
         "question_YQVaDQ": {
           "type": "question",
           "settings": {
@@ -449,6 +456,7 @@
         }
       },
       "block_order": [
+        "question_wqQE7R",
         "question_YQVaDQ",
         "question_kVDrna",
         "question_DV9JGA",
