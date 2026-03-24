@@ -48,7 +48,7 @@
         "content_width": 720,
         "align": "left",
         "cta_text": "Assess Your Skin",
-        "cta_url": "/collections/all",
+        "cta_url": "https://aliange.com.au/?open-quiz=true",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "trust_line": "Developed by Dr. Alison Jamieson, Cosmetic Physician with over 40 years of clinical skin expertise."
@@ -124,7 +124,6 @@
             "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
             "key_active": "Niacinamide Sebum-Control Complex + Microbiome-Supporting Ferment (Lactococcus Lysate) + Sebum-Regulating Botanical Complex (Enantia Chlorantha + Oleanolic Acid) + Barrier Lipid Complex (Sphingolipids + Phospholipids) + Calming Technology (Bisabolol + Neuro-calming actives)",
             "step": "AM & PM",
-            "image": "shopify://shop_images/Biocinamide_2.png",
             "image_path": ""
           }
         },
@@ -160,7 +159,6 @@
             "why": "This potent serum contains a blend of Vitamin C and AHAs to boost radiance and even out skin tone.",
             "key_active": "Multi-Acid Resurfacing Complex (Glycolic + Lactic + Salicylic + Fruit Acids) +  Oligopeptide-68 Brightening Peptide +  Pure Vitamin C (Ascorbic Acid) + Licorice Root Extract + Niacinamide",
             "step": "PM",
-            "image": "shopify://shop_images/BrighteningSerum_a8edd9ec-1370-480a-8255-d33c7adaf078.png",
             "image_path": ""
           }
         },
