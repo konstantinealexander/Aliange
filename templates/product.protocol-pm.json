@@ -9,46 +9,71 @@
  */
 {
   "sections": {
-    "lp_hero": {
-      "type": "aliange-lp-hero",
+    "aliange_pdp_hero_3ChdcY": {
+      "type": "aliange-pdp-hero",
       "blocks": {
-        "b1": {
-          "type": "bullet",
+        "bullet_point_HBxjFx": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Visibly improves skin texture and clarity."
+            "text": "Clinically proven UV defence"
           }
         },
-        "b2": {
-          "type": "bullet",
+        "bullet_point_mJk4RY": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Reduces fine lines and pigmentation."
+            "text": "Reduces visible signs of ageing by 24%"
           }
         },
-        "b3": {
-          "type": "bullet",
+        "bullet_point_FaELdR": {
+          "type": "bullet_point",
           "settings": {
-            "text": "Maximises overnight regenerative power."
+            "text": "Doctor-developed & Australian-made"
+          }
+        },
+        "trust_box_4KJg8H": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "truck",
+            "title": "Free Shipping",
+            "description": "On all orders worldwide"
+          }
+        },
+        "trust_box_G8QP3k": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "shield",
+            "title": "Money Back",
+            "description": "90-day satisfaction promise"
+          }
+        },
+        "trust_box_picreC": {
+          "type": "trust_box",
+          "settings": {
+            "icon": "drop",
+            "title": "Long Lasting",
+            "description": "Premium formula"
           }
         }
       },
       "block_order": [
-        "b1",
-        "b2",
-        "b3"
+        "bullet_point_HBxjFx",
+        "bullet_point_mJk4RY",
+        "bullet_point_FaELdR",
+        "trust_box_4KJg8H",
+        "trust_box_G8QP3k",
+        "trust_box_picreC"
       ],
+      "name": "PDP Hero",
       "settings": {
-        "label": "Doctor-Designed · Evidence-Based · Australian Made",
-        "headline": "Unlock Overnight Skin Renewal",
-        "subheadline": "A three-step system that works while you sleep to exfoliate, brighten, and regenerate your skin.",
-        "overlay_color": "rgba(26,24,20,0.45)",
-        "min_height": 620,
-        "content_width": 720,
-        "align": "left",
-        "cta_text": "Start the PM Protocol",
-        "cta_url": "",
-        "secondary_cta_text": "",
-        "secondary_cta_url": "",
-        "trust_line": "90-Day Results Guarantee Or Your Money Back"
+        "description": "Your daily defence against premature ageing. This lightweight, non-greasy formula delivers essential hydration and broad-spectrum UV protection.",
+        "atc_text": "Add to Cart"
+      }
+    },
+    "press_ticker": {
+      "type": "aliange-pdp-press-ticker",
+      "settings": {
+        "label": "As Seen In",
+        "speed": 35
       }
     },
     "lp_problem": {
@@ -60,7 +85,8 @@
         "bg": "muted",
         "width": "narrow",
         "cta_text": "",
-        "cta_url": ""
+        "cta_url": "",
+        "image_position": "right"
       }
     },
     "lp_routine": {
@@ -146,7 +172,8 @@
       "settings": {
         "label": "The Science",
         "headline": "Engineered to Work as One System",
-        "body": "Each step enhances the efficacy of the next for complete overnight renewal."
+        "body": "Each step enhances the efficacy of the next for complete overnight renewal.",
+        "image_position": "right"
       }
     },
     "lp_comparison": {
@@ -155,33 +182,29 @@
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Efficacy",
-            "them": "Ingredient conflicts",
-            "us": "Synergistic formulas enhance each step"
+            "us": "Synergistic formulas enhance each step",
+            "them": "Ingredient conflicts"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Logic",
-            "them": "No sequential logic",
-            "us": "Doctor-designed biological sequencing"
+            "us": "Doctor-designed biological sequencing",
+            "them": "No sequential logic"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Completeness",
-            "them": "Gaps in treatment",
-            "us": "Cleansing, exfoliation, and renewal"
+            "us": "Cleansing, exfoliation, and renewal",
+            "them": "Gaps in treatment"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Timing",
-            "them": "Generic application",
-            "us": "Optimised for overnight repair"
+            "us": "Optimised for overnight repair",
+            "them": "Generic application"
           }
         }
       },
@@ -194,8 +217,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "A Protocol. Not a Routine.",
-        "col_them": "A Random Routine",
-        "col_us": "The PM Protocol"
+        "col_us": "The PM Protocol",
+        "col_them": "A Random Routine"
       }
     },
     "lp_faq": {
@@ -246,12 +269,18 @@
       ],
       "settings": {
         "label": "Questions Answered",
-        "headline": "Frequently Asked Questions"
+        "headline": "Frequently Asked Questions",
+        "image_position": "right"
       }
+    },
+    "klaviyo_all_reviews": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
     },
     "lp_cta": {
       "type": "aliange-lp-cta",
       "settings": {
+        "gradient_theme": "none",
         "headline": "Don’t Just Sleep. Regenerate.",
         "subheadline": "Turn every night into profound skin renewal. Risk-free.",
         "cta_text": "Experience the PM Protocol",
@@ -259,77 +288,6 @@
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "guarantee": "90-Day Results Guarantee Or Your Money Back"
-      }
-    },
-    "aliange_pdp_hero_3ChdcY": {
-      "type": "aliange-pdp-hero",
-      "blocks": {
-        "bullet_point_HBxjFx": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Clinically proven UV defence"
-          }
-        },
-        "bullet_point_mJk4RY": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Reduces visible signs of ageing by 24%"
-          }
-        },
-        "bullet_point_FaELdR": {
-          "type": "bullet_point",
-          "settings": {
-            "text": "Doctor-developed & Australian-made"
-          }
-        },
-        "trust_box_4KJg8H": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "truck",
-            "title": "Free Shipping",
-            "description": "On all orders worldwide"
-          }
-        },
-        "trust_box_G8QP3k": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "shield",
-            "title": "Money Back",
-            "description": "90-day satisfaction promise"
-          }
-        },
-        "trust_box_picreC": {
-          "type": "trust_box",
-          "settings": {
-            "icon": "drop",
-            "title": "Long Lasting",
-            "description": "Premium formula"
-          }
-        }
-      },
-      "block_order": [
-        "bullet_point_HBxjFx",
-        "bullet_point_mJk4RY",
-        "bullet_point_FaELdR",
-        "trust_box_4KJg8H",
-        "trust_box_G8QP3k",
-        "trust_box_picreC"
-      ],
-      "name": "PDP Hero",
-      "settings": {
-        "description": "Your daily defence against premature ageing. This lightweight, non-greasy formula delivers essential hydration and broad-spectrum UV protection.",
-        "atc_text": "Add to Cart"
-      }
-    },
-    "klaviyo_all_reviews": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
-    },
-    "press_ticker": {
-      "type": "aliange-pdp-press-ticker",
-      "settings": {
-        "label": "As Seen In",
-        "speed": 35
       }
     }
   },
