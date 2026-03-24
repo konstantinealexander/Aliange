@@ -140,18 +140,6 @@
             "image_path": ""
           }
         },
-        "p3": {
-          "type": "product_step",
-          "settings": {
-            "name": "Ultimate A Night Cream",
-            "price": "$225",
-            "why": "A clinically formulated night treatment designed to support skin renewal and improve visible signs of ageing. Microencapsulated retinol helps stimulate cellular turnover and collagen production while minimising irritation through controlled release. Supported by Matrixyl® peptide technology, hyaluronic acid and skin-identical moisturising factors, the formula works overnight to refine texture, improve firmness and restore smoother, more resilient skin.",
-            "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Saccharide Isomerate + Sodium PCA + Chondrus Crispus (Red Algae) Extract",
-            "step": "PM",
-            "image": "shopify://shop_images/UltimateANightCream_07aec275-5692-4d92-8b77-edad9e063fbc.png",
-            "image_path": ""
-          }
-        },
         "product_step_e6yAr7": {
           "type": "product_step",
           "settings": {
@@ -175,15 +163,27 @@
             "image": "shopify://shop_images/BrighteningSerum_a8edd9ec-1370-480a-8255-d33c7adaf078.png",
             "image_path": ""
           }
+        },
+        "p3": {
+          "type": "product_step",
+          "settings": {
+            "name": "Ultimate A Night Cream",
+            "price": "$225",
+            "why": "A clinically formulated night treatment designed to support skin renewal and improve visible signs of ageing. Microencapsulated retinol helps stimulate cellular turnover and collagen production while minimising irritation through controlled release. Supported by Matrixyl® peptide technology, hyaluronic acid and skin-identical moisturising factors, the formula works overnight to refine texture, improve firmness and restore smoother, more resilient skin.",
+            "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 (Matrixyl® Synthe’6) + Sodium Hyaluronate (Hyaluronic Acid) + Saccharide Isomerate + Sodium PCA + Chondrus Crispus (Red Algae) Extract",
+            "step": "PM",
+            "image": "shopify://shop_images/UltimateANightCream_07aec275-5692-4d92-8b77-edad9e063fbc.png",
+            "image_path": ""
+          }
         }
       },
       "block_order": [
         "p1",
         "product_step_8LakJg",
         "p4",
-        "p3",
         "product_step_e6yAr7",
-        "p2"
+        "p2",
+        "p3"
       ],
       "settings": {
         "label": "The Protocol",
