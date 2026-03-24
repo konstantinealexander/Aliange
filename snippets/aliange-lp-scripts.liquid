@@ -12,17 +12,20 @@
         });
       }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-      document.querySelectorAll('.lp-reveal').forEach(function(el) {
+      document.querySelectorAll('.lp-reveal:not([data-lp-reveal-ready])').forEach(function(el) {
+        el.setAttribute('data-lp-reveal-ready', '');
         revealObserver.observe(el);
       });
     } else {
-      document.querySelectorAll('.lp-reveal').forEach(function(el) {
+      document.querySelectorAll('.lp-reveal:not([data-lp-reveal-ready])').forEach(function(el) {
+        el.setAttribute('data-lp-reveal-ready', '');
         el.classList.add('is-visible');
       });
     }
 
     // ── Accordion (FAQ) ────────────────────────────────────────
-    document.querySelectorAll('[data-lp-accordion]').forEach(function(accordion) {
+    document.querySelectorAll('[data-lp-accordion]:not([data-lp-accordion-ready])').forEach(function(accordion) {
+      accordion.setAttribute('data-lp-accordion-ready', '');
       accordion.querySelectorAll('[data-lp-accordion-trigger]').forEach(function(trigger) {
         trigger.addEventListener('click', function() {
           var item = trigger.closest('[data-lp-accordion-item]');
@@ -76,7 +79,8 @@
         });
       }, { threshold: 0.5 });
 
-      document.querySelectorAll('[data-lp-stat]').forEach(function(el) {
+      document.querySelectorAll('[data-lp-stat]:not([data-lp-stat-ready])').forEach(function(el) {
+        el.setAttribute('data-lp-stat-ready', '');
         el.dataset.statTarget = el.textContent;
         statObserver.observe(el);
       });
