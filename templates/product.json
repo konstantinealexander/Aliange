@@ -98,6 +98,8 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
         "container_size": "full",
         "product_info_size": 50,
         "show_sticky_add_to_cart": false,
@@ -159,10 +161,6 @@
         "content": ""
       }
     },
-    "1773201971cbba991a": {
-      "type": "aliange-klaviyo-reviews-all",
-      "settings": {}
-    },
     "faq_RMKhw3": {
       "type": "faq",
       "blocks": {
@@ -211,12 +209,35 @@
         "title": "Frequently Asked Questions",
         "content": ""
       }
+    },
+    "1773201971cbba991a": {
+      "type": "aliange-klaviyo-reviews-all",
+      "settings": {}
+    },
+    "1774370858fd3b612a": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_VALUtp": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_VALUtp"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
     "main",
     "testimonials_LmCDM6",
     "faq_RMKhw3",
-    "1773201971cbba991a"
+    "1773201971cbba991a",
+    "1774370858fd3b612a"
   ]
 }
