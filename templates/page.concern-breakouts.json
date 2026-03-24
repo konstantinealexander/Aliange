@@ -112,6 +112,7 @@
             "why": "Gently cleanses without stripping the skin's protective barrier, preventing the irritation and dehydration that can worsen breakouts.",
             "key_active": "Amino Acid Cleansing Complex (Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate) + Jojoba Conditioning Lipids + Natural Moisturising Factor Complex (Sodium PCA + PCA + Amino Acids) + Allantoin Soothing Complex",
             "step": "Step 1 (AM/PM)",
+            "image": "shopify://shop_images/DailyDevotionCleanser_063abb45-3f98-481e-a3c3-f66da51cd326.png",
             "image_path": ""
           }
         },
@@ -123,6 +124,7 @@
             "why": "Combines chemical (AHAs) and physical (Jojoba beads) exfoliation to decongest pores and remove dead skin cells, with Tea Tree Oil to target breakout-causing bacteria.",
             "key_active": "Perlite Mineral Exfoliation + Multi-Acid Resurfacing Complex (Glycolic, Lactic & Malic Acids) + Natural Fruit Acid Complex + Green Tea Antioxidant Complex + Tea Tree Clarifying Extract",
             "step": "2–3x per week (PM)",
+            "image": "shopify://shop_images/Untitled_89.png",
             "image_path": ""
           }
         },
@@ -134,6 +136,7 @@
             "why": "A detoxifying and rebalancing treatment that uses clays to absorb excess oil and prebiotics to selectively feed beneficial bacteria, restoring a healthy microbiome.",
             "key_active": "Purifying Mineral Clay Complex (Kaolin + Bentonite) + Probiotic & Prebiotic Microbiome Complex (Lactococcus Ferment + Lactobacillus + Alpha-Glucan Oligosaccharide + Yacon Root) + Hyaluronic Acid Hydration System + Marine Algae Barrier SupportVitamin E + Antioxidant Protection",
             "step": "2–3x per week",
+            "image": "shopify://shop_images/Untitled_90.png",
             "image_path": ""
           }
         },
@@ -145,6 +148,7 @@
             "why": "A powerhouse serum that regulates oil production by inhibiting the 5-alpha reductase enzyme, while rebalancing the skin's microbiome.",
             "key_active": "Niacinamide Sebum-Control Complex + Microbiome-Supporting Ferment (Lactococcus Lysate) + Sebum-Regulating Botanical Complex (Enantia Chlorantha + Oleanolic Acid) + Barrier Lipid Complex (Sphingolipids + Phospholipids) + Calming Technology (Bisabolol + Neuro-calming actives)",
             "step": "Step 2 (AM/PM)",
+            "image": "shopify://shop_images/Biocinamide_2.png",
             "image_path": ""
           }
         },
@@ -156,6 +160,7 @@
             "why": "A protective daily moisturiser designed to defend skin against environmental stress while supporting barrier integrity and long-term skin health. Formulated with a broad-spectrum UV protection system, it helps shield the skin from UVA and UVB exposure — key contributors to premature ageing and pigmentation.",
             "key_active": "Broad-spectrum UV filter complex (UVA + UVB protection) + Matrixyl® 3000 peptide complex (Palmitoyl Tripeptide-1 + Palmitoyl Tetrapeptide-7) + Hyaluronic acid hydration system + Centella asiatica repair extract + Vitamin E antioxidant protection",
             "step": "AM",
+            "image": "shopify://shop_images/DayCreamSPF15_db9ecb49-db39-46ca-8e77-41d5e4974262.png",
             "image_path": ""
           }
         }
@@ -169,7 +174,7 @@
       ],
       "settings": {
         "label": "The Protocol",
-        "headline": "Your Breakout-Clearing Routine",
+        "headline": "The Acne Protocol",
         "subheadline": "",
         "cta_text": "Shop The Acne Protocol",
         "cta_url": "shopify://products/acne-protocol"
