@@ -258,6 +258,34 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_rWq7Rn": {
+          "type": "question",
+          "settings": {
+            "question": "Is this suitable for sensitive skin?",
+            "answer": "<p>Yes.</p><p>Peptides are generally:</p><ul><li><br/>Well tolerated<br/></li><li><br/>Non-irritating<br/></li><li><br/>Suitable for barrier-compromised skin<br/></li></ul><p>This makes the serum appropriate for <strong>sensitive, ageing, or reactive skin types</strong> while still delivering active correction</p>"
+          }
+        },
+        "question_64Ex9d": {
+          "type": "question",
+          "settings": {
+            "question": "What skin concerns does this serum target?",
+            "answer": "<p>This serum is designed to address:</p><ul><li><br/>Fine lines and loss of elasticity<br/></li><li><br/>Dullness and dehydration<br/></li><li><br/>Early signs of ageing<br/></li><li><br/>Environmental and UV damage<br/></li><li><br/>Barrier decline<br/></li></ul><p>It is particularly effective where skin shows <strong>fatigue, stress, or early structural change</strong>.</p>"
+          }
+        },
+        "question_DAVcwP": {
+          "type": "question",
+          "settings": {
+            "question": "What does “DNA repair” mean in skincare?",
+            "answer": "<p>DNA repair refers to supporting the skin’s ability to <strong>recover from daily damage</strong>, particularly from UV exposure and oxidative stress.</p><p>Skin accumulates DNA damage from:</p><ul><li><br/>Sun exposure<br/></li><li><br/>Pollution<br/></li><li><br/>Inflammation<br/></li></ul><p>This serum supports <strong>cellular repair pathways</strong>, helping skin maintain healthier function and appearance over time.</p>"
+          }
+        },
+        "question_LFxY3q": {
+          "type": "question",
+          "settings": {
+            "question": "What are jellyfish peptides in skincare?",
+            "answer": "<p>Jellyfish peptides are <strong>marine-derived bioactive peptides</strong> that mimic components of human collagen and extracellular matrix.</p><p>They function as <strong>cell-signalling molecules</strong>, helping regulate:</p><ul><li><br/>Collagen production<br/></li><li><br/>Skin repair processes<br/></li><li><br/>Structural integrity<br/></li></ul><p>Marine peptides are highly biocompatible and support multiple anti-ageing pathways simultaneously</p>"
+          }
+        },
         "question_wBpQz4": {
           "type": "question",
           "settings": {
@@ -269,7 +297,7 @@
           "type": "question",
           "settings": {
             "question": "How long until I see results?",
-            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
+            "answer": "<ul><li><strong>2–4 weeks:</strong> improved hydration, glow, and skin smoothness<br/></li><li><br/><strong>6–8 weeks:</strong> improved elasticity and texture<br/></li><li><br/><strong>8–12+ weeks:</strong> visible improvements in firmness and overall skin quality<br/></li></ul><p>Results are driven by <strong>ongoing cellular signalling and repair</strong>, not instant surface effects.</p>"
           }
         },
         "q2": {
@@ -288,6 +316,10 @@
         }
       },
       "block_order": [
+        "question_rWq7Rn",
+        "question_64Ex9d",
+        "question_DAVcwP",
+        "question_LFxY3q",
         "question_wBpQz4",
         "question_hJphJb",
         "q2",
@@ -309,7 +341,7 @@
       "settings": {
         "gradient_theme": "none",
         "headline": "Advanced Peptide Technology for Skin Resilience.",
-        "subheadline": "Explore the Jellyfish Peptide X Antioxidant Serum and discover advanced peptide technology designed to support skin structure and resilience.",
+        "subheadline": "Designed to support collagen architecture, repair processes, and overall skin resilience through advanced peptide signalling.",
         "cta_text": "Shop Jellyfish Peptide Serum",
         "cta_url": "shopify://products/jellyfish-peptide-x-dna-repair",
         "secondary_cta_text": "",
