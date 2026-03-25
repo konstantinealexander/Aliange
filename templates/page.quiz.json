@@ -47,7 +47,7 @@
         "min_height": 580,
         "content_width": 720,
         "align": "left",
-        "cta_text": "Begin Skin Analysis",
+        "cta_text": "",
         "cta_url": "https://aliange.com.au/pages/quiz",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
@@ -188,7 +188,7 @@
           "settings": {
             "style": "solid",
             "text": "SHOP NOW",
-            "url": "shopify://products/the-protocol",
+            "url": "shopify://collections/protocols",
             "background": "",
             "text_color": ""
           }
