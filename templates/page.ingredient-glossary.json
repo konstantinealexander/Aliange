@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "ingredient_glossary": {
+      "type": "aliange-ingredient-glossary",
+      "settings": {
+        "cta_url": "/collections/all",
+        "cta_text": "Shop All Products"
+      }
+    }
+  },
+  "order": [
+    "ingredient_glossary"
+  ]
+}

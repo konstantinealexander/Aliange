@@ -1,0 +1,709 @@
+<style>
+  .ing-glossary * { box-sizing: border-box; }
+
+  .ing-glossary {
+    --cream: #F5F0EB;
+    --cream-warm: #F2EDE6;
+    --charcoal: #2C2C2C;
+    --text-primary: #3A3A3A;
+    --text-muted: #8B8579;
+    --border-light: rgba(0,0,0,0.06);
+    --border-medium: rgba(0,0,0,0.1);
+  }
+
+  /* HERO */
+  .ing-hero {
+    position: relative;
+    background: linear-gradient(180deg, #2A1520 0%, #3A2838 35%, #305050 65%, #285060 100%);
+    padding: 120px 24px 100px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .ing-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+  .ing-hero-inner { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }
+  .ing-section-label {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 24px;
+    display: block;
+    font-family: var(--font-body-family, 'Helvetica Neue', Arial, sans-serif);
+  }
+  .ing-hero h1 {
+    font-size: clamp(36px, 5vw, 56px);
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+  }
+  .ing-hero p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.75);
+    max-width: 560px;
+    margin: 0 auto 40px;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+  .ing-hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    padding-top: 40px;
+  }
+  .ing-hero-stat { text-align: center; }
+  .ing-hero-stat-num {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .ing-hero-stat-label {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    font-family: var(--font-body-family, 'Helvetica Neue', Arial, sans-serif);
+  }
+
+  /* DISSOLVE */
+  .ing-dissolve {
+    height: 80px;
+    background: linear-gradient(to bottom, #285060, #F5F0EB);
+  }
+
+  /* SEARCH */
+  .ing-search-wrap {
+    background: #F5F0EB;
+    padding: 40px 24px 0;
+  }
+  .ing-search-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .ing-search-input-wrap {
+    position: relative;
+    max-width: 480px;
+  }
+  .ing-search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8B8579;
+    pointer-events: none;
+    width: 16px;
+    height: 16px;
+  }
+  .ing-search-input {
+    width: 100%;
+    font-size: 15px;
+    color: #2C2C2C;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 14px 20px 14px 44px;
+    outline: none;
+    transition: border-color 0.2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    font-family: var(--font-body-family, inherit);
+  }
+  .ing-search-input::placeholder { color: #8B8579; }
+  .ing-search-input:focus { border-color: rgba(0,0,0,0.2); }
+  .ing-search-count {
+    font-size: 12px;
+    color: #8B8579;
+    margin-top: 10px;
+    letter-spacing: 0.04em;
+    font-family: var(--font-body-family, inherit);
+  }
+
+  /* FILTER BAR */
+  .ing-filter-bar-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #F5F0EB;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0 24px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+  }
+  .ing-filter-bar {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 16px 0;
+    -ms-overflow-style: none;
+    gap: 6px;
+  }
+  .ing-filter-bar::-webkit-scrollbar { display: none; }
+  .ing-filter-btn {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #8B8579;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 7px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+    font-family: var(--font-body-family, inherit);
+  }
+  .ing-filter-btn:hover { color: #2C2C2C; border-color: rgba(0,0,0,0.1); }
+  .ing-filter-btn.active { background: #2C2C2C; color: #fff; border-color: #2C2C2C; }
+
+  /* A-Z NAV */
+  .ing-az-wrapper {
+    background: #F2EDE6;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    padding: 0 24px;
+  }
+  .ing-az-nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+  }
+  .ing-az-btn {
+    font-size: 12px;
+    font-weight: 600;
+    color: #8B8579;
+    background: transparent;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+    min-width: 28px;
+    text-align: center;
+    font-family: var(--font-body-family, inherit);
+  }
+  .ing-az-btn.has-items { color: #2C2C2C; }
+  .ing-az-btn.has-items:hover { background: #2C2C2C; color: #fff; }
+  .ing-az-btn.inactive { opacity: 0.3; cursor: default; }
+
+  /* MAIN */
+  .ing-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 24px 120px;
+    background: #F5F0EB;
+  }
+
+  .ing-no-results {
+    display: none;
+    font-size: 15px;
+    color: #8B8579;
+    padding: 40px 0;
+    text-align: center;
+    font-family: var(--font-body-family, inherit);
+  }
+
+  /* LETTER SECTION */
+  .ing-letter-section { margin-bottom: 56px; }
+  .ing-letter-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.07);
+    line-height: 1;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgba(0,0,0,0.06);
+  }
+
+  /* INGREDIENT GRID */
+  .ing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+
+  /* INGREDIENT CARD */
+  .ing-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+  }
+
+  .ing-card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+  .ing-card-name-block { flex: 1; }
+  .ing-card-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2C2C2C;
+    line-height: 1.25;
+    margin-bottom: 3px;
+  }
+  .ing-card-inci {
+    font-size: 11px;
+    color: #8B8579;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    font-family: var(--font-body-family, inherit);
+  }
+
+  .ing-cat-pill {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-weight: 600;
+    margin-top: 2px;
+    font-family: var(--font-body-family, inherit);
+  }
+  .ing-cat-peptide   { background: #EDE8F8; color: #5B4A8A; }
+  .ing-cat-acid      { background: #FFF0E8; color: #9A4A20; }
+  .ing-cat-botanical { background: #E8F3E8; color: #2A5C2A; }
+  .ing-cat-hydrator  { background: #E8F4FA; color: #1A5C7A; }
+  .ing-cat-oil       { background: #F8F0E0; color: #7A5020; }
+  .ing-cat-spf       { background: #FEF8E0; color: #7A6010; }
+  .ing-cat-probiotic { background: #F0EDF8; color: #5A3A7A; }
+  .ing-cat-mineral   { background: #F0F0F0; color: #4A4A4A; }
+  .ing-cat-vitamin   { background: #FFF3E8; color: #8A4A10; }
+  .ing-cat-exosome   { background: #E8F8F8; color: #1A6A6A; }
+
+  .ing-card-desc {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #555;
+    font-family: var(--font-body-family, inherit);
+  }
+
+  .ing-found-in {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+  }
+  .ing-found-in-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #8B8579;
+    display: block;
+    width: 100%;
+    margin-bottom: 4px;
+    font-family: var(--font-body-family, inherit);
+  }
+  .ing-product-tag {
+    font-size: 10px;
+    color: #8B8579;
+    background: #F5F0EB;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 3px 8px;
+    white-space: nowrap;
+    font-family: var(--font-body-family, inherit);
+  }
+
+  /* FADE UP */
+  .ing-fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .ing-fade-up.ing-visible { opacity: 1; transform: translateY(0); }
+
+  /* CTA */
+  .ing-cta {
+    position: relative;
+    background: linear-gradient(180deg, #3A2030 0%, #405058 40%, #50A898 70%, #60B8A8 100%);
+    padding: 100px 24px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .ing-cta::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    opacity: 0.03;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+  .ing-cta-inner { position: relative; z-index: 1; max-width: 600px; margin: 0 auto; }
+  .ing-cta h2 {
+    font-size: clamp(28px, 4vw, 44px);
+    color: #fff;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  .ing-cta p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 40px;
+    line-height: 1.65;
+    font-family: var(--font-body-family, inherit);
+  }
+  .ing-cta-btn {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2C2C2C;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 18px 44px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: box-shadow 0.2s ease;
+    font-family: var(--font-body-family, inherit);
+  }
+  .ing-cta-btn:hover { box-shadow: 0 0 30px rgba(255,255,255,0.2); }
+  .ing-cta-trust {
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    margin-top: 20px;
+    display: block;
+    font-family: var(--font-body-family, inherit);
+  }
+
+  @media (max-width: 600px) {
+    .ing-hero { padding: 80px 20px 70px; }
+    .ing-hero-stats { gap: 28px; }
+    .ing-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="ing-glossary">
+
+  <!-- HERO -->
+  <div class="ing-hero">
+    <div class="ing-hero-inner">
+      <span class="ing-section-label">Aliangé — Ingredient Intelligence</span>
+      <h1>Every Ingredient.<br>Fully Explained.</h1>
+      <p>We believe you deserve to know exactly what goes on your skin and why. This glossary covers every key active, botanical, and functional ingredient across the Aliangé range — written in plain language, backed by science.</p>
+      <div class="ing-hero-stats">
+        <div class="ing-hero-stat">
+          <span class="ing-hero-stat-num">10</span>
+          <span class="ing-hero-stat-label">Formulas</span>
+        </div>
+        <div class="ing-hero-stat">
+          <span class="ing-hero-stat-num">69</span>
+          <span class="ing-hero-stat-label">Key Ingredients</span>
+        </div>
+        <div class="ing-hero-stat">
+          <span class="ing-hero-stat-num">40+</span>
+          <span class="ing-hero-stat-label">Years Clinical Expertise</span>
+        </div>
+        <div class="ing-hero-stat">
+          <span class="ing-hero-stat-num">0</span>
+          <span class="ing-hero-stat-label">Hidden Ingredients</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ing-dissolve"></div>
+
+  <!-- SEARCH -->
+  <div class="ing-search-wrap">
+    <div class="ing-search-inner">
+      <div class="ing-search-input-wrap">
+        <svg class="ing-search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input type="text" class="ing-search-input" id="ingSearchInput" placeholder="Search an ingredient (e.g. retinol, niacinamide…)" oninput="ingFilterIngredients()">
+      </div>
+      <p class="ing-search-count" id="ingSearchCount">Showing all 69 ingredients</p>
+    </div>
+  </div>
+
+  <!-- FILTER BAR -->
+  <div class="ing-filter-bar-wrapper">
+    <div class="ing-filter-bar">
+      <button class="ing-filter-btn active" onclick="ingSetFilter('all', this)">All</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('peptide', this)">Peptides &amp; Proteins</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('acid', this)">Active Acids</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('vitamin', this)">Vitamins</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('botanical', this)">Botanical Extracts</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('hydrator', this)">Hydrators</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('oil', this)">Oils &amp; Emollients</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('probiotic', this)">Probiotics &amp; Ferments</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('spf', this)">SPF Filters</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('mineral', this)">Minerals &amp; Clays</button>
+      <button class="ing-filter-btn" onclick="ingSetFilter('exosome', this)">Exosome Technology</button>
+    </div>
+  </div>
+
+  <!-- A-Z NAV -->
+  <div class="ing-az-wrapper">
+    <div class="ing-az-nav" id="ingAzNav"></div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="ing-main" id="ingMain">
+    <div class="ing-no-results" id="ingNoResults">No ingredients match your search.</div>
+  </div>
+
+  <!-- CTA -->
+  <div class="ing-cta">
+    <div class="ing-cta-inner">
+      <span class="ing-section-label">Shop the Range</span>
+      <h2>Formulated with Intention.<br>Every Ingredient Earns Its Place.</h2>
+      <p>Dr. Alison Jamieson selects each ingredient for a specific clinical purpose. No fillers. No compromises. Just formulas that work.</p>
+      <a href="{{ section.settings.cta_url }}" class="ing-cta-btn">{{ section.settings.cta_text }}</a>
+      <span class="ing-cta-trust">Doctor-Developed · Australian-Made · 90-Day Guarantee</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const ING_DATA = [
+    { name:"Acetyl Hexapeptide-51 Amide", inci:"Acetyl Hexapeptide-51 Amide", cat:"peptide", catLabel:"Peptide", catClass:"ing-cat-peptide", desc:"A synthetic peptide inspired by the extraordinary DNA-repair mechanisms of the jellyfish. It activates the skin's own nucleotide excision repair (NER) system, helping to reverse accumulated UV-induced DNA damage that drives premature ageing.", products:["Jellyfish Peptide X Serum"] },
+    { name:"Acer Saccharum (Sugar Maple) Extract", inci:"Acer Saccharum Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"Derived from the sugar maple tree, this natural AHA-bearing extract helps to gently accelerate cell turnover, refine skin texture, and brighten the complexion by dissolving the bonds between dead surface cells.", products:["Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Albizia Julibrissin Bark Extract", inci:"Albizia Julibrissin Bark Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"Sourced from the Persian Silk Tree, this extract is clinically studied for its ability to combat glycation — the cross-linking of collagen fibres by sugar molecules that makes skin rigid and prone to wrinkling.", products:["Rejuvenating Eye Cream"] },
+    { name:"Allantoin", inci:"Allantoin", cat:"hydrator", catLabel:"Soothing Agent", catClass:"ing-cat-hydrator", desc:"A naturally occurring compound found in comfrey root. It stimulates cell proliferation, accelerates skin renewal, and calms irritation — making it ideal for sensitive or compromised skin.", products:["Daily Devotion Cleanser"] },
+    { name:"Alpha-Glucan Oligosaccharide", inci:"Alpha-Glucan Oligosaccharide", cat:"probiotic", catLabel:"Prebiotic", catClass:"ing-cat-probiotic", desc:"A prebiotic oligosaccharide that selectively feeds beneficial bacteria on the skin's surface. By nurturing the skin microbiome, it helps maintain microbial balance that supports barrier integrity and defends against harmful pathogens.", products:["Probiotic Radiance Masque"] },
+    { name:"Ascorbic Acid", inci:"Ascorbic Acid", cat:"vitamin", catLabel:"Vitamin C", catClass:"ing-cat-vitamin", desc:"The purest, most potent form of Vitamin C. Inhibits melanin synthesis to fade discolouration, stimulates collagen production, and provides powerful antioxidant defence against UV- and pollution-generated free radicals.", products:["Revitalize Brightening Serum"] },
+    { name:"Bentonite", inci:"Bentonite", cat:"mineral", catLabel:"Mineral Clay", catClass:"ing-cat-mineral", desc:"A naturally occurring volcanic clay with exceptional capacity to absorb oil and draw impurities from pores. In masque formulations, it delivers a deep-cleansing effect, refining pore appearance and leaving skin clarified.", products:["Probiotic Radiance Masque"] },
+    { name:"Bisabolol", inci:"Bisabolol", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"A naturally derived terpene alcohol found in German chamomile. It reduces redness, soothes irritation, and enhances the skin's tolerance to active ingredients — a key inclusion in targeted treatment formulas.", products:["Biocinamide Serum"] },
+    { name:"Butyl Methoxydibenzoylmethane", inci:"Butyl Methoxydibenzoylmethane", cat:"spf", catLabel:"UVA Filter", catClass:"ing-cat-spf", desc:"Known as Avobenzone, one of the most effective UVA absorbers available. Provides stable, broad-spectrum UVA protection covering the full range of long-wave UV radiation responsible for photoageing and DNA damage deep in the dermis.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Butyrospermum Parkii (Shea) Butter", inci:"Butyrospermum Parkii Butter", cat:"oil", catLabel:"Emollient", catClass:"ing-cat-oil", desc:"Cold-pressed from the African shea tree, exceptionally high in fatty acids and vitamin F. Deeply nourishes and reinforces the skin's lipid barrier, preventing moisture loss and leaving skin supple.", products:["Jellyfish Peptide X Serum","Rejuvenating Eye Cream"] },
+    { name:"Camellia Sinensis (Green Tea) Leaf Extract", inci:"Camellia Sinensis Leaf Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"Rich in catechin polyphenols (particularly EGCG), green tea extract provides potent antioxidant and anti-inflammatory protection. It neutralises free radicals, calms sensitised skin, and has demonstrated photoprotective properties.", products:["Transforming Exfoliator"] },
+    { name:"Carica Papaya Fruit Extract", inci:"Carica Papaya Fruit Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"A natural source of papain, a proteolytic enzyme that gently dissolves dead surface cells by breaking down the keratin proteins that bind them. Delivers a smooth, brightened complexion without abrasion.", products:["Rejuvenating Eye Cream"] },
+    { name:"Carthamus Tinctorius (Safflower) Oil", inci:"Carthamus Tinctorius Seed Oil", cat:"oil", catLabel:"Botanical Oil", catClass:"ing-cat-oil", desc:"A lightweight, non-comedogenic oil with one of the highest concentrations of linoleic acid (omega-6). Linoleic acid is critical for ceramide synthesis and maintaining a healthy skin barrier.", products:["Exosome Cream"] },
+    { name:"Centella Asiatica Extract", inci:"Centella Asiatica Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"An ancient herb with formidable clinical evidence. Stimulates fibroblasts to boost collagen and HA production, accelerates wound healing, strengthens the barrier, and provides meaningful anti-inflammatory action.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Cetylhydroxyproline Palmitamide", inci:"Cetylhydroxyproline Palmitamide", cat:"peptide", catLabel:"Lipopeptide", catClass:"ing-cat-peptide", desc:"A ceramide-analogue lipopeptide that mimics the skin's own barrier components. It enhances cohesion within the stratum corneum, strengthens the moisture seal, and improves tolerance to external stressors.", products:["Biocinamide Serum"] },
+    { name:"Chamomilla Recutita (Matricaria) Flower Extract", inci:"Chamomilla Recutita Flower Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"German chamomile extract rich in apigenin and bisabolol. Delivers potent anti-inflammatory and skin-calming properties, relieves redness, and is gentle enough for even the most sensitive complexions.", products:["Transforming Exfoliator"] },
+    { name:"Chondrus Crispus Extract", inci:"Chondrus Crispus Extract", cat:"hydrator", catLabel:"Marine Hydrator", catClass:"ing-cat-hydrator", desc:"Extracted from Irish Moss, a red algae harvested from Atlantic coastlines. Rich in carrageenan polysaccharides, it forms a protective film providing intense hydration, smoothing texture, and soothing, anti-inflammatory benefits.", products:["Biocinamide Serum","Jellyfish Peptide X Serum","Rejuvenating Eye Cream","Revitalize Anti-Ageing Day Cream SPF 15","Revitalize Ultimate A Night Cream","Probiotic Radiance Masque"] },
+    { name:"Citrus Aurantium Dulcis (Orange) Fruit Extract", inci:"Citrus Aurantium Dulcis Fruit Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"Provides a natural source of alpha-hydroxy acids and vitamin C precursors. Brightens uneven tone, gently refines the skin's surface, and contributes antioxidant protection against environmental aggressors.", products:["Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Citrus Limon (Lemon) Fruit Extract", inci:"Citrus Limon Fruit Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"A natural source of citric acid and bioflavonoids. Contributes mild AHA exfoliation and antioxidant activity, brightens the complexion, and refines pore appearance as part of a multi-acid brightening complex.", products:["Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Cucumis Sativus (Cucumber) Fruit Extract", inci:"Cucumis Sativus Fruit Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"Contains caffeic acid and vitamin C delivering genuine anti-inflammatory and antioxidant action. Cools reactive skin, reduces puffiness, and provides a calming counterbalance to exfoliating acids.", products:["Transforming Exfoliator"] },
+    { name:"Darutoside", inci:"Darutoside", cat:"botanical", catLabel:"Botanical Active", catClass:"ing-cat-botanical", desc:"A phytol diterpene glycoside from Sigesbeckia orientalis, clinically shown to significantly reduce the depth of wrinkle folds. Works by inhibiting matrix metalloproteinases (MMPs) that break down the skin's collagen network.", products:["Rejuvenating Eye Cream"] },
+    { name:"Diethylamino Hydroxybenzoyl Hexyl Benzoate", inci:"Diethylamino Hydroxybenzoyl Hexyl Benzoate", cat:"spf", catLabel:"UVA Filter", catClass:"ing-cat-spf", desc:"Known as Uvinul A Plus, a next-generation photostable UVA filter providing stable, high-performance protection across the full UVA spectrum. Does not degrade in sunlight, ensuring consistent protection throughout the day.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Disodium Adenosine Triphosphate", inci:"Disodium Adenosine Triphosphate", cat:"hydrator", catLabel:"Cell Energiser", catClass:"ing-cat-hydrator", desc:"ATP is the primary energy currency of every cell. As a topical active, it fuels cellular processes including barrier repair, protein synthesis, and collagen production — supplying skin cells with the energy they need to function at their best.", products:["Rejuvenating Eye Cream"] },
+    { name:"Echinacea Angustifolia Leaf Extract", inci:"Echinacea Angustifolia Leaf Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"Delivers meaningful antioxidant and anti-inflammatory activity. Neutralises free radicals generated by UV exposure and supports the skin's own defence mechanisms against environmental stress.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Endexome-EXO™", inci:"Endexome-EXO™ (Exosome Complex)", cat:"exosome", catLabel:"Exosome Technology", catClass:"ing-cat-exosome", desc:"The defining ingredient of the Aliangé range. Delivers over 4 billion stem cell-derived nano-vesicles per application, carrying a payload of growth factors, signalling proteins, and genetic material (mRNA/miRNA) that instruct skin cells to repair damage and increase collagen and elastin. In a 12-week histological study, treatment resulted in significant, measurable increases in dermal collagen and elastin.", products:["Exosome Cream"] },
+    { name:"Glycerin", inci:"Glycerin", cat:"hydrator", catLabel:"Humectant", catClass:"ing-cat-hydrator", desc:"One of skincare's most validated ingredients, glycerin draws water from the environment and deeper skin layers into the stratum corneum. It also supports barrier function by filling the intercellular space between skin cells.", products:["Biocinamide Serum","Daily Devotion Cleanser","Jellyfish Peptide X Serum","Rejuvenating Eye Cream","Revitalize Anti-Ageing Day Cream SPF 15","Revitalize Brightening Serum","Revitalize Ultimate A Night Cream","Transforming Exfoliator","Probiotic Radiance Masque","Exosome Cream"] },
+    { name:"Glycolic Acid", inci:"Glycolic Acid", cat:"acid", catLabel:"AHA", catClass:"ing-cat-acid", desc:"The gold standard alpha-hydroxy acid. With the smallest molecular size of all AHAs, it penetrates most effectively, dissolving the desmosomes holding dead cells together and accelerating cell turnover. Visibly improves texture, tone, and the appearance of fine lines.", products:["Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Glycyrrhiza Glabra (Licorice) Root Extract", inci:"Glycyrrhiza Glabra Root Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"A highly regarded brightening and anti-inflammatory botanical. Its key compound, glabridin, inhibits tyrosinase — the enzyme driving melanin production — without cytotoxicity, while also calming redness and post-inflammatory hyperpigmentation.", products:["Revitalize Brightening Serum"] },
+    { name:"Hydrolyzed Adansonia Digitata Seed Protein", inci:"Hydrolyzed Adansonia Digitata Seed Protein", cat:"peptide", catLabel:"Plant Protein", catClass:"ing-cat-peptide", desc:"A hydrolysed protein from baobab seeds. The small peptide fragments formed during hydrolysis penetrate the skin's surface to strengthen the dermis, reduce expression lines, and provide a tightening, lifting effect.", products:["Rejuvenating Eye Cream"] },
+    { name:"Hydrolyzed Quinoa", inci:"Hydrolyzed Quinoa", cat:"peptide", catLabel:"Plant Protein", catClass:"ing-cat-peptide", desc:"Delivers a rich array of amino acids directly to the skin. Reinforces the intercellular matrix, improves skin elasticity, and helps repair a compromised barrier — particularly valuable in the delicate eye area.", products:["Rejuvenating Eye Cream"] },
+    { name:"Hydroxyphenyl Propamidobenzoic Acid", inci:"Hydroxyphenyl Propamidobenzoic Acid", cat:"hydrator", catLabel:"Soothing Active", catClass:"ing-cat-hydrator", desc:"A novel anti-inflammatory compound that calms reactive skin by inhibiting key mediators of the inflammatory cascade, particularly effective at reducing redness and sensitivity associated with UV exposure.", products:["Biocinamide Serum"] },
+    { name:"Jojoba Esters", inci:"Jojoba Esters", cat:"oil", catLabel:"Emollient", catClass:"ing-cat-oil", desc:"Structurally unique waxy solids that closely mimic the skin's own sebum. Provide conditioning without greasiness, improve skin feel, and offer gentle physical exfoliation in rinse-off formulas.", products:["Daily Devotion Cleanser","Transforming Exfoliator"] },
+    { name:"Kaolin", inci:"Kaolin", cat:"mineral", catLabel:"Mineral Clay", catClass:"ing-cat-mineral", desc:"The gentlest of all cosmetic clays. Absorbs excess sebum and draws out surface impurities without stripping natural oils. Leaves skin clarified and smooth — suitable even for dry or sensitive skin types.", products:["Probiotic Radiance Masque"] },
+    { name:"Lactic Acid", inci:"Lactic Acid", cat:"acid", catLabel:"AHA", catClass:"ing-cat-acid", desc:"A naturally derived alpha-hydroxy acid with a distinguished dual function: as an exfoliant it dissolves dead skin cells, and as a humectant it simultaneously attracts water and supports the Natural Moisturising Factor — making it the gentlest and most hydrating of all AHAs.", products:["Jellyfish Peptide X Serum","Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Lactobacillus", inci:"Lactobacillus", cat:"probiotic", catLabel:"Probiotic", catClass:"ing-cat-probiotic", desc:"A genus of beneficial bacteria central to the skin and gut microbiome. As a topical active, lactobacillus derivatives reinforce the microbiome-mediated barrier, reduce inflammatory responses, and support healthy skin flora.", products:["Probiotic Radiance Masque"] },
+    { name:"Lactococcus Ferment Lysate", inci:"Lactococcus Ferment Lysate", cat:"probiotic", catLabel:"Probiotic Ferment", catClass:"ing-cat-probiotic", desc:"A postbiotic — bioactive metabolites produced when lactic acid bacteria are fermented and lysed. Clinical studies show it enhances epidermal barrier function, modulates the skin's immune response, and supports recovery from UV damage.", products:["Biocinamide Serum","Probiotic Radiance Masque"] },
+    { name:"Macadamia Ternifolia Seed Oil", inci:"Macadamia Ternifolia Seed Oil", cat:"oil", catLabel:"Botanical Oil", catClass:"ing-cat-oil", desc:"Native to Australia, macadamia oil contains one of the highest known concentrations of palmitoleic acid — an omega-7 fatty acid that naturally occurs in young, healthy skin but declines significantly with age.", products:["Jellyfish Peptide X Serum","Probiotic Radiance Masque"] },
+    { name:"Malic Acid", inci:"Malic Acid", cat:"acid", catLabel:"AHA", catClass:"ing-cat-acid", desc:"A naturally occurring AHA found in apples and stone fruits. With a larger molecular structure than glycolic or lactic acid, it delivers gentler exfoliation suited to sensitive skin, working synergistically in multi-acid formulas.", products:["Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Melaleuca Alternifolia (Tea Tree) Leaf Oil", inci:"Melaleuca Alternifolia Leaf Oil", cat:"botanical", catLabel:"Essential Oil Active", catClass:"ing-cat-botanical", desc:"An Australian essential oil with well-documented antimicrobial, antifungal, and anti-inflammatory properties. Targets acne-causing bacteria (C. acnes) and controls sebum oxidation, making it a valuable active in clarifying formulations.", products:["Transforming Exfoliator"] },
+    { name:"Niacinamide", inci:"Niacinamide", cat:"vitamin", catLabel:"Vitamin B3", catClass:"ing-cat-vitamin", desc:"One of the most extensively researched actives in modern dermatology. Simultaneously inhibits melanin transfer, strengthens the ceramide-rich barrier, reduces TEWL, minimises pore appearance, and controls sebum. Exceptionally well-tolerated and synergises with virtually all other actives.", products:["Biocinamide Serum","Rejuvenating Eye Cream"] },
+    { name:"Octocrylene", inci:"Octocrylene", cat:"spf", catLabel:"UVB Filter", catClass:"ing-cat-spf", desc:"A synthetic UV filter providing broad UVB protection. Also acts as a photostabiliser for other UV filters (particularly Avobenzone), helping to maintain overall SPF efficacy throughout the day.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Oenothera Biennis (Evening Primrose) Oil", inci:"Oenothera Biennis Oil", cat:"oil", catLabel:"Botanical Oil", catClass:"ing-cat-oil", desc:"Exceptionally rich in gamma-linolenic acid (GLA), an omega-6 fatty acid with strong anti-inflammatory properties. Particularly beneficial for dry, sensitised, or eczema-prone skin, restoring barrier integrity and reducing reactive redness.", products:["Transforming Exfoliator","Probiotic Radiance Masque"] },
+    { name:"Oleanolic Acid", inci:"Oleanolic Acid", cat:"botanical", catLabel:"Plant Active", catClass:"ing-cat-botanical", desc:"A pentacyclic triterpenoid found naturally in olive and rosemary. A potent anti-inflammatory and antioxidant that inhibits enzymes involved in skin ageing and reduces sebum production.", products:["Biocinamide Serum"] },
+    { name:"Oligopeptide-68", inci:"Oligopeptide-68", cat:"peptide", catLabel:"Brightening Peptide", catClass:"ing-cat-peptide", desc:"A small synthetic peptide specifically designed to inhibit tyrosinase — the key enzyme in melanin synthesis. Targets hyperpigmentation at the source, fading dark spots while being significantly gentler than traditional brightening actives.", products:["Revitalize Brightening Serum"] },
+    { name:"Palmitoyl Tetrapeptide-7", inci:"Palmitoyl Tetrapeptide-7", cat:"peptide", catLabel:"Signal Peptide", catClass:"ing-cat-peptide", desc:"Part of the Matrixyl family, this signal peptide downregulates interleukin-6 (IL-6), a key inflammatory cytokine involved in collagen breakdown. By reducing chronic low-grade inflammation, it helps preserve the skin's structural integrity.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Palmitoyl Tripeptide-1", inci:"Palmitoyl Tripeptide-1", cat:"peptide", catLabel:"Signal Peptide", catClass:"ing-cat-peptide", desc:"The first component of Matrixyl 3000. Mimics collagen breakdown products to signal fibroblasts that repair is required, stimulating new collagen I, collagen IV, and fibronectin synthesis — measurably improving firmness and reducing wrinkle depth.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Palmitoyl Tripeptide-38", inci:"Palmitoyl Tripeptide-38", cat:"peptide", catLabel:"Matrix Peptide", catClass:"ing-cat-peptide", desc:"The active component of Matrixyl synthe'6™. Clinically shown to stimulate synthesis of six major components of the skin matrix simultaneously: collagen I, III, IV, fibronectin, hyaluronic acid, and laminin-5. Visibly reduces wrinkles and restores firmness.", products:["Jellyfish Peptide X Serum","Revitalize Ultimate A Night Cream"] },
+    { name:"Panthenol", inci:"Panthenol", cat:"vitamin", catLabel:"Pro-Vitamin B5", catClass:"ing-cat-vitamin", desc:"The provitamin of B5, converted to pantothenic acid in the skin — fundamental to the skin's energy metabolism. A powerful humectant, wound-healing agent, and anti-inflammatory that significantly improves the skin's capacity to regenerate.", products:["Biocinamide Serum","Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Perlite", inci:"Perlite", cat:"mineral", catLabel:"Natural Exfoliant", catClass:"ing-cat-mineral", desc:"A naturally occurring volcanic glass that produces fine, spherical particles when heated. Provides gentle mechanical abrasion to remove dead surface cells and refine texture — without the environmental concerns of synthetic microbeads.", products:["Transforming Exfoliator"] },
+    { name:"Persea Gratissima (Avocado) Oil", inci:"Persea Gratissima Oil", cat:"oil", catLabel:"Botanical Oil", catClass:"ing-cat-oil", desc:"Rich in oleic acid, linoleic acid, and vitamins A, D, and E. Penetrates readily to deliver deep moisturisation, barrier reinforcement, and antioxidant protection. Its vitamin A content provides mild retinoid-like cell-renewing benefits.", products:["Rejuvenating Eye Cream","Revitalize Ultimate A Night Cream","Exosome Cream"] },
+    { name:"Polymnia Sonchifolia (Yacon) Juice", inci:"Polymnia Sonchifolia Root Juice", cat:"probiotic", catLabel:"Prebiotic", catClass:"ing-cat-probiotic", desc:"Rich in fructooligosaccharides (FOS) — potent prebiotic compounds that selectively nourish beneficial skin flora. Supports microbiome balance essential for barrier health and radiance.", products:["Probiotic Radiance Masque"] },
+    { name:"Porphyridium Cruentum Extract", inci:"Porphyridium Cruentum Extract", cat:"hydrator", catLabel:"Marine Active", catClass:"ing-cat-hydrator", desc:"Derived from a red microalgae, rich in exopolysaccharides with exceptional water-binding capacity. Forms a protective film that locks in moisture, soothes sensitised skin, and provides antioxidant defence.", products:["Rejuvenating Eye Cream"] },
+    { name:"Retinol", inci:"Retinol", cat:"vitamin", catLabel:"Vitamin A", catClass:"ing-cat-vitamin", desc:"The gold standard of anti-ageing actives with decades of clinical evidence. Converts to retinoic acid in the skin, accelerating cell turnover, stimulating collagen synthesis, and reducing hyperpigmentation. The most evidence-backed approach to treating established wrinkles.", products:["Revitalize Ultimate A Night Cream"] },
+    { name:"Rosa Canina (Rosehip) Seed Oil", inci:"Rosa Canina Seed Oil", cat:"oil", catLabel:"Botanical Oil", catClass:"ing-cat-oil", desc:"Naturally rich in trans-retinoic acid (vitamin A), essential fatty acids, and lycopene. Supports skin cell renewal, fades scarring and pigmentation, and softens fine lines. One of skincare's most celebrated regenerative botanicals.", products:["Revitalize Ultimate A Night Cream","Transforming Exfoliator"] },
+    { name:"Rosmarinus Officinalis (Rosemary) Leaf Extract", inci:"Rosmarinus Officinalis Leaf Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"An exceptionally rich source of rosmarinic acid and carnosic acid — two of nature's most potent antioxidants. Neutralises free radicals, provides mild antimicrobial action, and acts as an effective natural preservative.", products:["Revitalize Anti-Ageing Day Cream SPF 15"] },
+    { name:"Saccharide Isomerate", inci:"Saccharide Isomerate", cat:"hydrator", catLabel:"Biomimetic Hydrator", catClass:"ing-cat-hydrator", desc:"A plant-derived carbohydrate complex analogous to the skin's own Natural Moisturising Factor. Forms a genuine covalent bond with skin proteins, providing lasting hydration for up to 72 hours even after washing — not just a temporary surface effect.", products:["Biocinamide Serum","Jellyfish Peptide X Serum","Revitalize Ultimate A Night Cream","Probiotic Radiance Masque"] },
+    { name:"Saccharum Officinarum (Sugar Cane) Extract", inci:"Saccharum Officinarum Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"A natural source of glycolic acid — the smallest and most bioavailable AHA. Provides gentle yet effective exfoliation, improving skin tone, smoothing texture, and enhancing penetration of other actives.", products:["Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Salicylic Acid", inci:"Salicylic Acid", cat:"acid", catLabel:"BHA", catClass:"ing-cat-acid", desc:"The definitive beta-hydroxy acid. Oil-soluble, it penetrates through sebum and into pores, exfoliating the follicle lining from within. Uniquely effective at clearing congestion and preventing breakouts, with anti-inflammatory properties that soothe acne-associated redness.", products:["Revitalize Brightening Serum"] },
+    { name:"Sodium Hyaluronate", inci:"Sodium Hyaluronate", cat:"hydrator", catLabel:"Humectant", catClass:"ing-cat-hydrator", desc:"The sodium salt form of hyaluronic acid — a smaller molecule that penetrates more effectively than high-MW HA. Capable of binding up to 1,000× its weight in water, delivering intense hydration that visibly plumps skin and softens fine lines.", products:["Biocinamide Serum","Jellyfish Peptide X Serum","Rejuvenating Eye Cream","Revitalize Anti-Ageing Day Cream SPF 15","Revitalize Ultimate A Night Cream","Probiotic Radiance Masque","Exosome Cream"] },
+    { name:"Sodium Hyaluronate Crosspolymer", inci:"Sodium Hyaluronate Crosspolymer", cat:"hydrator", catLabel:"Humectant", catClass:"ing-cat-hydrator", desc:"A cross-linked form of hyaluronic acid that persists on the skin longer than standard HA. Forms a water-retaining film providing sustained hydration and improved skin viscoelasticity, plumping the appearance of wrinkles more durably over time.", products:["Revitalize Ultimate A Night Cream"] },
+    { name:"Sodium PCA", inci:"Sodium PCA", cat:"hydrator", catLabel:"NMF Component", catClass:"ing-cat-hydrator", desc:"The sodium salt of pyrrolidone carboxylic acid — one of the most abundant components of the skin's own Natural Moisturising Factor. An extremely effective humectant, highly compatible with skin biology.", products:["Biocinamide Serum","Daily Devotion Cleanser","Jellyfish Peptide X Serum","Rejuvenating Eye Cream","Revitalize Anti-Ageing Day Cream SPF 15","Revitalize Brightening Serum","Revitalize Ultimate A Night Cream","Probiotic Radiance Masque","Exosome Cream"] },
+    { name:"Squalane", inci:"Squalane", cat:"oil", catLabel:"Emollient", catClass:"ing-cat-oil", desc:"The stable, hydrogenated form of squalene (now derived from sugarcane or olive). Skin-identical, lightweight, non-comedogenic. Provides superb emolliency, antioxidant protection, and barrier reinforcement without any greasy feel.", products:["Rejuvenating Eye Cream"] },
+    { name:"Squalene", inci:"Squalene", cat:"oil", catLabel:"Emollient", catClass:"ing-cat-oil", desc:"A naturally occurring lipid and key component of human sebum that declines after age 25. Softens and smooths the skin surface, provides antioxidant action, and helps restore the skin's natural lipid balance.", products:["Jellyfish Peptide X Serum","Revitalize Ultimate A Night Cream","Probiotic Radiance Masque"] },
+    { name:"Tartaric Acid", inci:"Tartaric Acid", cat:"acid", catLabel:"AHA", catClass:"ing-cat-acid", desc:"A naturally occurring AHA from grapes and tamarind, contributing gentle exfoliation and antioxidant activity to multi-acid brightening formulas. Its larger molecular size makes it the gentlest of the AHAs included, broadening suitability across skin types.", products:["Revitalize Brightening Serum"] },
+    { name:"Terminalia Ferdinandiana (Kakadu Plum) Fruit Extract", inci:"Terminalia Ferdinandiana Fruit Extract", cat:"botanical", catLabel:"Australian Botanical", catClass:"ing-cat-botanical", desc:"Native to the Northern Territory and Western Australia, the Kakadu Plum holds the highest recorded natural concentration of Vitamin C of any fruit on Earth — up to 100× that of an orange. Delivers exceptional antioxidant protection, inhibits melanin synthesis, and stimulates collagen production.", products:["Jellyfish Peptide X Serum"] },
+    { name:"Theobroma Grandiflorum (Cupuacu) Seed Butter", inci:"Theobroma Grandiflorum Seed Butter", cat:"oil", catLabel:"Emollient Butter", catClass:"ing-cat-oil", desc:"From the Amazonian cupuacu tree, this butter has a remarkable capacity to absorb water — up to 400% of its own weight. Provides deep, sustained hydration while replenishing the skin's lipid matrix, leaving skin soft, supple, and protected.", products:["Revitalize Ultimate A Night Cream"] },
+    { name:"Tocopherol / Tocopheryl Acetate", inci:"Tocopherol / Tocopheryl Acetate", cat:"vitamin", catLabel:"Vitamin E", catClass:"ing-cat-vitamin", desc:"The primary fat-soluble antioxidant in skin. Provides essential protection against oxidative stress from UV and pollution, supports barrier lipid integrity, and works synergistically with Vitamin C for enhanced photoprotection.", products:["Jellyfish Peptide X Serum","Revitalize Anti-Ageing Day Cream SPF 15","Probiotic Radiance Masque","Exosome Cream"] },
+    { name:"Vaccinium Myrtillus (Bilberry) Fruit Extract", inci:"Vaccinium Myrtillus Fruit Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"A natural source of AHAs and anthocyanin antioxidants. Contributes gentle exfoliation, potent antioxidant defence through anthocyanins, and improved microcirculation.", products:["Revitalize Brightening Serum","Transforming Exfoliator"] },
+    { name:"Zingiber Officinale (Ginger) Root Extract", inci:"Zingiber Officinale Root Extract", cat:"botanical", catLabel:"Botanical", catClass:"ing-cat-botanical", desc:"Rich in gingerols and shogaols — potent antioxidant and anti-inflammatory compounds. Neutralises free radicals, calms inflammation, improves microcirculation in the dermis, and has demonstrated tyrosinase-inhibiting properties.", products:["Biocinamide Serum"] }
+  ];
+
+  let ingActiveFilter = 'all';
+  let ingSearchTerm = '';
+
+  function ingGetFiltered() {
+    return ING_DATA.filter(function(ing) {
+      var matchFilter = ingActiveFilter === 'all' || ing.cat === ingActiveFilter;
+      var matchSearch = !ingSearchTerm ||
+        ing.name.toLowerCase().indexOf(ingSearchTerm) > -1 ||
+        ing.inci.toLowerCase().indexOf(ingSearchTerm) > -1 ||
+        ing.desc.toLowerCase().indexOf(ingSearchTerm) > -1;
+      return matchFilter && matchSearch;
+    });
+  }
+
+  function ingRender() {
+    var filtered = ingGetFiltered();
+    var main = document.getElementById('ingMain');
+    var noResults = document.getElementById('ingNoResults');
+    var count = document.getElementById('ingSearchCount');
+
+    count.textContent = (ingSearchTerm || ingActiveFilter !== 'all')
+      ? 'Showing ' + filtered.length + ' ingredient' + (filtered.length !== 1 ? 's' : '')
+      : 'Showing all ' + ING_DATA.length + ' ingredients';
+
+    Array.from(main.querySelectorAll('.ing-letter-section')).forEach(function(el) { el.remove(); });
+
+    if (filtered.length === 0) {
+      noResults.style.display = 'block';
+      ingRenderAZ({});
+      return;
+    }
+    noResults.style.display = 'none';
+
+    var grouped = {};
+    filtered.forEach(function(ing) {
+      var letter = ing.name[0].toUpperCase();
+      if (!grouped[letter]) grouped[letter] = [];
+      grouped[letter].push(ing);
+    });
+
+    Object.keys(grouped).sort().forEach(function(letter) {
+      var section = document.createElement('div');
+      section.className = 'ing-letter-section ing-fade-up';
+      section.id = 'ing-letter-' + letter;
+
+      var cards = grouped[letter].map(function(ing) {
+        var products = ing.products.map(function(p) {
+          return '<span class="ing-product-tag">' + p + '</span>';
+        }).join('');
+        return '<div class="ing-card" data-cat="' + ing.cat + '">' +
+          '<div class="ing-card-header">' +
+            '<div class="ing-card-name-block">' +
+              '<div class="ing-card-name">' + ing.name + '</div>' +
+              '<div class="ing-card-inci">' + ing.inci + '</div>' +
+            '</div>' +
+            '<span class="ing-cat-pill ' + ing.catClass + '">' + ing.catLabel + '</span>' +
+          '</div>' +
+          '<p class="ing-card-desc">' + ing.desc + '</p>' +
+          '<div class="ing-found-in">' +
+            '<span class="ing-found-in-label">Found in</span>' +
+            products +
+          '</div>' +
+        '</div>';
+      }).join('');
+
+      section.innerHTML = '<div class="ing-letter-heading">' + letter + '</div>' +
+        '<div class="ing-grid">' + cards + '</div>';
+
+      main.appendChild(section);
+    });
+
+    requestAnimationFrame(function() {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('ing-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.05 });
+      main.querySelectorAll('.ing-fade-up').forEach(function(el) { observer.observe(el); });
+    });
+
+    ingRenderAZ(grouped);
+  }
+
+  function ingRenderAZ(grouped) {
+    var nav = document.getElementById('ingAzNav');
+    nav.innerHTML = '';
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach(function(letter) {
+      var btn = document.createElement('button');
+      btn.className = 'ing-az-btn' + (grouped[letter] ? ' has-items' : ' inactive');
+      btn.textContent = letter;
+      if (grouped[letter]) {
+        btn.onclick = function() {
+          var el = document.getElementById('ing-letter-' + letter);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+      }
+      nav.appendChild(btn);
+    });
+  }
+
+  window.ingSetFilter = function(cat, btn) {
+    ingActiveFilter = cat;
+    document.querySelectorAll('.ing-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    ingRender();
+  };
+
+  window.ingFilterIngredients = function() {
+    ingSearchTerm = document.getElementById('ingSearchInput').value.toLowerCase().trim();
+    ingRender();
+  };
+
+  ingRender();
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Ingredient Glossary",
+  "tag": "div",
+  "class": "aliange-ingredient-glossary",
+  "settings": [
+    {
+      "type": "url",
+      "id": "cta_url",
+      "label": "CTA URL",
+      "default": "/collections/all"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Shop All Products"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ingredient Glossary"
+    }
+  ]
+}
+{% endschema %}
