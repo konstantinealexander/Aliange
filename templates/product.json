@@ -219,6 +219,7 @@
     },
     "1773201971cbba991a": {
       "type": "aliange-klaviyo-reviews-all",
+      "disabled": true,
       "settings": {}
     }
   },
