@@ -29,7 +29,7 @@
   }
   #pdp-hero-{{ section.id }} .hero-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: var(--pdp-space-xl);
     max-width: 1200px;
     margin: 0 auto;
@@ -37,7 +37,7 @@
   }
   @media (min-width: 768px) {
     #pdp-hero-{{ section.id }} .hero-grid {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       gap: 48px;
     }
   }
