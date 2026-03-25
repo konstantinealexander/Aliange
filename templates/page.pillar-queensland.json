@@ -143,33 +143,29 @@
         "r1": {
           "type": "row",
           "settings": {
-            "feature": "Development",
-            "them": "Trend-driven ingredients",
-            "us": "Doctor-formulated protocols"
+            "us": "Doctor-formulated protocols",
+            "them": "Trend-driven ingredients"
           }
         },
         "r2": {
           "type": "row",
           "settings": {
-            "feature": "Claims",
-            "them": "Cosmetic marketing claims",
-            "us": "Evidence-anchored formulations"
+            "us": "Evidence-anchored formulations",
+            "them": "Cosmetic marketing claims"
           }
         },
         "r3": {
           "type": "row",
           "settings": {
-            "feature": "Approach",
-            "them": "Single product focus",
-            "us": "Multi-step skin systems"
+            "us": "Multi-step skin systems",
+            "them": "Single product focus"
           }
         },
         "r4": {
           "type": "row",
           "settings": {
-            "feature": "Results",
-            "them": "Short-term improvements",
-            "us": "Long-term skin function"
+            "us": "Long-term skin function",
+            "them": "Short-term improvements"
           }
         }
       },
@@ -182,8 +178,8 @@
       "settings": {
         "label": "The Difference",
         "headline": "What Makes Aliangé Different",
-        "col_them": "Typical Skincare",
-        "col_us": "Aliangé Clinical Approach"
+        "col_us": "Aliangé Clinical Approach",
+        "col_them": "Typical Skincare"
       }
     },
     "lp_faq": {
