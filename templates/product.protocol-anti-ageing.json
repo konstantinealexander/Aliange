@@ -97,8 +97,8 @@
           "settings": {
             "name": "Brightening Serum",
             "price": "$100",
-            "why": "Inhibits melanin and exfoliates pigmented cells for a brighter canvas.",
-            "key_active": "Oligopeptide-68 + AHAs",
+            "why": "Multi-pathway depigmentation system combining melanogenesis inhibition, controlled chemical exfoliation, and antioxidant activity to reduce epidermal pigment deposition and improve optical skin uniformity.",
+            "key_active": "Oligopeptide-68 + Niacinamide + Ascorbic Acid + Glycolic Acid + Lactic Acid + Tartaric Acid + Malic Acid + Licorice Root Extract",
             "step": "PM",
             "image_path": "sku-brightening-serum.png"
           }
@@ -108,8 +108,8 @@
           "settings": {
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
-            "why": "Powerful collagen stimulation and DNA repair.",
-            "key_active": "Matrixyl® synthe’6®",
+            "why": "Peptide-driven dermal signalling system designed to stimulate extracellular matrix synthesis, reduce oxidative stress–induced cellular damage, and improve dermal structural integrity and hydration.",
+            "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Tocopherol",
             "step": "AM & PM",
             "image_path": "sku-jellyfish-peptide-serum.png"
           }
@@ -119,8 +119,8 @@
           "settings": {
             "name": "Ultimate A Night Cream",
             "price": "$130",
-            "why": "Micro-encapsulated retinol for cellular renewal.",
-            "key_active": "Retinol + Bakuchiol",
+            "why": "Nocturnal epidermal renewal system utilising microencapsulated retinol for controlled release and reduced irritation, combined with peptide signalling and lipid replenishment to stimulate keratinocyte turnover, enhance collagen synthesis, and restore barrier function.",
+            "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 + Sodium Hyaluronate + Shea Butter + Avocado Oil + Red Algae Extract",
             "step": "PM",
             "image_path": "sku-ultimate-a-night-cream.png"
           }

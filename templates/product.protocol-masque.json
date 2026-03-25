@@ -97,8 +97,8 @@
           "settings": {
             "name": "Transforming Exfoliator",
             "price": "$55",
-            "why": "Dual-action exfoliation clears dead cells and prepares skin.",
-            "key_active": "AHA Blend + Jojoba Esters",
+            "why": "Dual-modality exfoliation system combining keratolytic alpha hydroxy acids with controlled mechanical abrasion to disrupt corneodesmosomes, accelerate desquamation, and promote epidermal turnover while mitigating inflammatory response via botanical modulators.",
+            "key_active": "Glycolic Acid + Lactic Acid + Malic Acid + Perlite + Jojoba Esters + Green Tea Extract + Chamomile Extract + Evening Primrose Oil + Rosehip Oil",
             "step": "2-3x/week",
             "image_path": "sku-transforming-exfoliator.png"
           }
@@ -108,8 +108,8 @@
           "settings": {
             "name": "Probiotic Masque",
             "price": "$50",
-            "why": "Detoxifies pores and restores microbiome balance.",
-            "key_active": "Lactococcus Ferment",
+            "why": "Microbiome-modulating treatment combining absorbent clays with pro- and prebiotic complexes to reduce pathogenic load, regulate cutaneous immune response, and restore barrier function in inflammatory skin conditions.",
+            "key_active": "Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Kaolin + Bentonite + Rosehip Oil + Sodium Hyaluronate",
             "step": "2-3x/week",
             "image_path": "sku-probiotic-masque.png"
           }
@@ -119,8 +119,8 @@
           "settings": {
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
-            "why": "Regenerative peptides and antioxidants for maximum repair.",
-            "key_active": "Matrixyl® synthe’6®",
+            "why": "Peptide-driven dermal signalling system designed to stimulate extracellular matrix synthesis, reduce oxidative stress–induced cellular damage, and improve dermal structural integrity and hydration.",
+            "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Tocopherol",
             "step": "2-3x/week",
             "image_path": "sku-jellyfish-peptide-serum.png"
           }

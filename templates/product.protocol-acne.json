@@ -97,8 +97,8 @@
           "settings": {
             "name": "Daily Devotion Cleanser",
             "price": "$55",
-            "why": "Gently purifies without stripping essential moisture.",
-            "key_active": "Coconut Surfactants",
+            "why": "Amino acid–based cleansing system designed to remove surface lipids, debris, and particulate matter while preserving corneocyte cohesion and maintaining stratum corneum hydration through humectant and barrier-supportive components.",
+            "key_active": "Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate + Hydrolysed Jojoba Esters + Allantoin + Amino Acids + Sodium PCA",
             "step": "AM & PM",
             "image_path": "sku-daily-devotion-cleanser.png"
           }
@@ -108,8 +108,8 @@
           "settings": {
             "name": "Transforming Exfoliator",
             "price": "$55",
-            "why": "Dual-action exfoliation clears dead cells to prevent congestion.",
-            "key_active": "AHA Blend",
+            "why": "Dual-modality exfoliation system combining keratolytic alpha hydroxy acids with controlled mechanical abrasion to disrupt corneodesmosomes, accelerate desquamation, and promote epidermal turnover while mitigating inflammatory response via botanical modulators.",
+            "key_active": "Glycolic Acid + Lactic Acid + Malic Acid + Perlite + Jojoba Esters + Green Tea Extract + Chamomile Extract + Evening Primrose Oil + Rosehip Oil",
             "step": "2-3x/week",
             "image_path": "sku-transforming-exfoliator.png"
           }
@@ -119,8 +119,8 @@
           "settings": {
             "name": "Probiotic Masque",
             "price": "$50",
-            "why": "Detoxifies, balances the microbiome, and calms inflammation.",
-            "key_active": "Lactococcus Ferment",
+            "why": "Microbiome-modulating treatment combining absorbent clays with pro- and prebiotic complexes to reduce pathogenic load, regulate cutaneous immune response, and restore barrier function in inflammatory skin conditions.",
+            "key_active": "Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Kaolin + Bentonite + Rosehip Oil + Sodium Hyaluronate",
             "step": "2-3x/week",
             "image_path": "sku-probiotic-masque.png"
           }
@@ -130,8 +130,8 @@
           "settings": {
             "name": "Biocinamide Serum",
             "price": "$90",
-            "why": "Rebuilds barrier, regulates sebum, minimises pores.",
-            "key_active": "Niacinamide",
+            "why": "Barrier-regulating and sebostatic formulation targeting epidermal lipid synthesis, inflammatory signalling, and microbiome modulation to restore homeostasis in dysregulated skin states.",
+            "key_active": "Niacinamide + Lactococcus Ferment Lysate + Sphingolipids + Phospholipids + Oleanolic Acid + Sodium Hyaluronate",
             "step": "AM & PM",
             "image_path": "sku-biocinamide-serum.png"
           }
@@ -141,8 +141,8 @@
           "settings": {
             "name": "Day Cream SPF 15",
             "price": "$90",
-            "why": "Non-comedogenic hydration and UV protection.",
-            "key_active": "Matrixyl 3000",
+            "why": "Broad-spectrum photoprotective formulation combining UV filters with peptide-mediated dermal support and humectant-driven hydration to reduce photo-induced collagen degradation and maintain barrier integrity.",
+            "key_active": "Octocrylene + Butyl Methoxydibenzoylmethane + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Palmitoyl Tetrapeptide-7 + Palmitoyl Oligopeptide + Centella Asiatica Extract + Sodium Hyaluronate + Tocopherol",
             "step": "AM",
             "image_path": "sku-day-cream-spf15.png"
           }

@@ -97,8 +97,8 @@
           "settings": {
             "name": "Daily Devotion Cleanser",
             "price": "$55",
-            "why": "Removes makeup, sunscreen, and pollutants without stripping.",
-            "key_active": "Coconut Surfactants",
+            "why": "Amino acid–based cleansing system designed to remove surface lipids, debris, and particulate matter while preserving corneocyte cohesion and maintaining stratum corneum hydration through humectant and barrier-supportive components.",
+            "key_active": "Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate + Hydrolysed Jojoba Esters + Allantoin + Amino Acids + Sodium PCA",
             "step": "PM",
             "image_path": "sku-daily-devotion-cleanser.png"
           }
@@ -108,8 +108,8 @@
           "settings": {
             "name": "Brightening Serum",
             "price": "$100",
-            "why": "Exfoliating and brightening powerhouse targeting pigmentation.",
-            "key_active": "Oligopeptide-68 + AHAs",
+            "why": "Multi-pathway depigmentation system combining melanogenesis inhibition, controlled chemical exfoliation, and antioxidant activity to reduce epidermal pigment deposition and improve optical skin uniformity.",
+            "key_active": "Oligopeptide-68 + Niacinamide + Ascorbic Acid + Glycolic Acid + Lactic Acid + Tartaric Acid + Malic Acid + Licorice Root Extract",
             "step": "PM",
             "image_path": "sku-brightening-serum.png"
           }
@@ -119,8 +119,8 @@
           "settings": {
             "name": "Ultimate A Night Cream",
             "price": "$130",
-            "why": "Micro-encapsulated Retinol accelerates renewal and collagen production.",
-            "key_active": "Retinol + Bakuchiol",
+            "why": "Nocturnal epidermal renewal system utilising microencapsulated retinol for controlled release and reduced irritation, combined with peptide signalling and lipid replenishment to stimulate keratinocyte turnover, enhance collagen synthesis, and restore barrier function.",
+            "key_active": "Microencapsulated Retinol + Palmitoyl Tripeptide-38 + Sodium Hyaluronate + Shea Butter + Avocado Oil + Red Algae Extract",
             "step": "PM",
             "image_path": "sku-ultimate-a-night-cream.png"
           }

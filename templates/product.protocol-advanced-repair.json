@@ -97,8 +97,8 @@
           "settings": {
             "name": "Rejuvenating Eye & Lip Cream",
             "price": "$225",
-            "why": "Delivers concentrated peptides and firming agents to the most ageing-prone areas.",
-            "key_active": "Baobab Seed Protein",
+            "why": "Periocular and perioral treatment targeting glycation, dermal matrix degradation, and fluid retention through peptide signalling, barrier lipid replenishment, and hydration.",
+            "key_active": "Niacinamide + Albizia Julibrissin Bark Extract + Darutoside + Sodium Hyaluronate + Squalane + Shea Butter",
             "step": "AM & PM",
             "image_path": "sku-rejuvenating-eye-lip-cream.png"
           }
@@ -108,8 +108,8 @@
           "settings": {
             "name": "CellRevive Exosome Cream",
             "price": "$400",
-            "why": "Advanced exosome technology instructs cells to behave more youthfully.",
-            "key_active": "Endexome-EXO™ API",
+            "why": "Exosome-mediated signalling system designed to support intercellular communication, promote tissue repair pathways, and enhance dermal regeneration while maintaining hydration and lipid balance.",
+            "key_active": "Exosomes + Sodium Hyaluronate + Sodium PCA + Avocado Oil + Safflower Oil + Tocopherol",
             "step": "AM & PM",
             "image_path": "sku-cellrevive-exosome-cream.png"
           }

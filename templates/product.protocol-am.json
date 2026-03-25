@@ -97,8 +97,8 @@
           "settings": {
             "name": "Daily Devotion Cleanser",
             "price": "$55",
-            "why": "Gentle cleansing prepares skin for actives.",
-            "key_active": "Coconut Surfactants",
+            "why": "Amino acid–based cleansing system designed to remove surface lipids, debris, and particulate matter while preserving corneocyte cohesion and maintaining stratum corneum hydration through humectant and barrier-supportive components.",
+            "key_active": "Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate + Hydrolysed Jojoba Esters + Allantoin + Amino Acids + Sodium PCA",
             "step": "AM",
             "image_path": "sku-daily-devotion-cleanser.png"
           }
@@ -108,8 +108,8 @@
           "settings": {
             "name": "Biocinamide Serum",
             "price": "$90",
-            "why": "Strengthens barrier, reduces redness, refines pores.",
-            "key_active": "Niacinamide",
+            "why": "Barrier-regulating and sebostatic formulation targeting epidermal lipid synthesis, inflammatory signalling, and microbiome modulation to restore homeostasis in dysregulated skin states.",
+            "key_active": "Niacinamide + Lactococcus Ferment Lysate + Sphingolipids + Phospholipids + Oleanolic Acid + Sodium Hyaluronate",
             "step": "AM",
             "image_path": "sku-biocinamide-serum.png"
           }
@@ -119,8 +119,8 @@
           "settings": {
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
-            "why": "Antioxidant protection and collagen stimulation.",
-            "key_active": "Matrixyl® synthe'6®",
+            "why": "Peptide-driven dermal signalling system designed to stimulate extracellular matrix synthesis, reduce oxidative stress–induced cellular damage, and improve dermal structural integrity and hydration.",
+            "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Tocopherol",
             "step": "AM",
             "image_path": "sku-jellyfish-peptide-serum.png"
           }
@@ -130,8 +130,8 @@
           "settings": {
             "name": "Day Cream SPF 15",
             "price": "$90",
-            "why": "Locks in actives and provides UV protection.",
-            "key_active": "Matrixyl 3000®",
+            "why": "Broad-spectrum photoprotective formulation combining UV filters with peptide-mediated dermal support and humectant-driven hydration to reduce photo-induced collagen degradation and maintain barrier integrity.",
+            "key_active": "Octocrylene + Butyl Methoxydibenzoylmethane + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Palmitoyl Tetrapeptide-7 + Palmitoyl Oligopeptide + Centella Asiatica Extract + Sodium Hyaluronate + Tocopherol",
             "step": "AM",
             "image_path": "sku-day-cream-spf15.png"
           }
