@@ -171,6 +171,7 @@
         "concern_aging": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Untitled_66_0f7f34ae-cc41-4399-a00b-84121c6ca57e.png",
             "title": "Anti-Ageing",
             "heading_tag": "h3",
             "content": "<p>Target fine lines, loss of firmness, and visible signs of ageing with a clinical multi-pathway approach.</p>",
@@ -181,6 +182,7 @@
         "concern_pigmentation": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Untitled_65_f52391a1-56d4-4020-b0e2-0084c11cc810.png",
             "title": "Pigmentation",
             "heading_tag": "h3",
             "content": "<p>Address dark spots, melasma, and uneven skin tone with targeted brightening actives.</p>",
@@ -191,6 +193,7 @@
         "concern_breakouts": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Untitled_63_6c4c065d-629c-4171-85ec-404abcb7c510.png",
             "title": "Breakouts",
             "heading_tag": "h3",
             "content": "<p>Clarify congested pores, balance oil production, and reduce active breakouts clinically.</p>",
@@ -201,6 +204,7 @@
         "concern_dullness": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Generated_Image_March_24_2026_-_11_58AM.jpg",
             "title": "Dullness",
             "heading_tag": "h3",
             "content": "<p>Restore radiance, improve skin texture, and reveal a brighter, more luminous complexion.</p>",
@@ -211,6 +215,7 @@
         "concern_redness": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Untitled_64_61439b75-52b6-4a62-ae6d-05692f6f1e6b.png",
             "title": "Redness",
             "heading_tag": "h3",
             "content": "<p>Calm persistent redness, reduce irritation, and strengthen your skin barrier against reactivity.</p>",
@@ -441,7 +446,7 @@
         "richtext_pillar": {
           "type": "richtext",
           "settings": {
-            "content": "<p><a href=\"/pages/pillar-protocols\" title=\"Pillar - Protocols\">Skincare Protocol vs Protocol →</a></p><p><a href=\"/pages/pillar-over-40\" title=\"Pillar - Over 40\">The Ultimate Guide to Skincare Over 40 →</a></p><p><a href=\"/pages/made-for-mature-skin\" title=\"Concern - Aging\">Anti-Ageing →</a> · <a href=\"/pages/concern-pigmentation\" title=\"Concern - Pigmentation\">Pigmentation →</a> · <a href=\"/pages/concern-breakouts\" title=\"Concern - Breakouts\">Breakouts →</a> · <a href=\"/pages/concern-dullness\" title=\"Concern - Dullness\">Dullness →</a> · <a href=\"/pages/concern-redness\" title=\"Concern - Redness\">Redness →</a></p>"
+            "content": "<p><a href=\"/pages/pillar-protocols\" title=\"Pillar - Protocols\">Skincare Protocol vs Routine →</a></p><p><a href=\"/pages/pillar-over-40\" title=\"Pillar - Over 40\">The Ultimate Guide to Skincare Over 40 →</a></p><p><a href=\"/pages/made-for-mature-skin\" title=\"Concern - Aging\">Anti-Ageing →</a> · <a href=\"/pages/concern-pigmentation\" title=\"Concern - Pigmentation\">Pigmentation →</a> · <a href=\"/pages/concern-breakouts\" title=\"Concern - Breakouts\">Breakouts →</a> · <a href=\"/pages/concern-dullness\" title=\"Concern - Dullness\">Dullness →</a> · <a href=\"/pages/concern-redness\" title=\"Concern - Redness\">Redness →</a></p>"
           }
         }
       },
