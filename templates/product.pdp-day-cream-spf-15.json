@@ -99,53 +99,6 @@
         "speed": 35
       }
     },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "Broad-Spectrum SPF 15"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
-      }
-    },
     "doctor_note": {
       "type": "aliange-pdp-doctor-note",
       "settings": {
@@ -216,6 +169,53 @@
         "image": "shopify://shop_images/aliange-ingredient-echinacea-echinacea-angustifolia-botanical.jpg",
         "button_text": "Shop Day Cream SPF 15",
         "button_url": ""
+      }
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Broad-Spectrum SPF 15"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
       }
     },
     "comparison": {
@@ -291,6 +291,7 @@
       "settings": {
         "heading": "Ditch The Generic Creams",
         "subheading": "Standard luxury creams provide moisture. We provide cellular instructions.",
+        "logo_asset": "",
         "aliange_label": "Aliangé Day Cream",
         "competitor_label": "Other \"Luxury\" Creams"
       }
@@ -453,8 +454,27 @@
         "button_url": ""
       }
     },
+    "177443401383bc6e75": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_3bV8tx": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_3bV8tx"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "klaviyo_product_reviews": {
       "type": "aliange-klaviyo-reviews-product",
+      "disabled": true,
       "settings": {}
     },
     "final_cta": {
@@ -481,6 +501,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "177443401383bc6e75",
     "klaviyo_product_reviews",
     "final_cta"
   ]
