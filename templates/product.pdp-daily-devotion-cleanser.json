@@ -108,53 +108,6 @@
         "quote": "Never cleanse with hot water, as it can strip the skin of its natural oils and lead to dehydration and sensitivity. Always be gentle; your skin is a delicate organ, not a surface to be scrubbed."
       }
     },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Soap-Free Syndet"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "pH Balanced"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Barrier-Friendly Cleanse",
-        "bg_color": "#ffffff",
-        "speed": 25
-      }
-    },
     "benefits": {
       "type": "aliange-pdp-benefits",
       "blocks": {
@@ -216,6 +169,53 @@
         "image": "shopify://shop_images/aliange-ingredient-allantoin-comfrey-botanical.jpg",
         "button_text": "Shop Daily Devotion Cleanser",
         "button_url": ""
+      }
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Soap-Free Syndet"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "pH Balanced"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Barrier-Friendly Cleanse",
+        "bg_color": "#ffffff",
+        "speed": 25
       }
     },
     "comparison": {
@@ -291,6 +291,7 @@
       "settings": {
         "heading": "Soap vs. Science",
         "subheading": "Traditional cleansers strip your barrier. We respect it.",
+        "logo_asset": "",
         "aliange_label": "Daily Devotion Cleanser",
         "competitor_label": "Generic SLS Cleanser"
       }
@@ -303,7 +304,7 @@
           "settings": {
             "gallery": "general",
             "custom_name": "",
-            "bg_color": "transparent",
+            "bg_color": "rgba(0,0,0,0)",
             "top_space": 10,
             "bottom_space": 10,
             "left_space": 0,
@@ -502,6 +503,24 @@
         "secondary_link_url": "/pages/skincare-protocol-vs-protocol",
         "bg_color": "#f4f7f9"
       }
+    },
+    "1774433972331bef2c": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_8NRrcj": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_8NRrcj"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -515,6 +534,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "1774433972331bef2c",
     "klaviyo_product_reviews",
     "final_cta"
   ]
