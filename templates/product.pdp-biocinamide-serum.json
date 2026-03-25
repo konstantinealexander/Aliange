@@ -513,6 +513,24 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "1774424527fd6470bb": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_Vfkc6T": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_Vfkc6T"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -525,6 +543,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "1774424527fd6470bb",
     "klaviyo_product_reviews",
     "final_cta",
     "17743709751af8e729"
