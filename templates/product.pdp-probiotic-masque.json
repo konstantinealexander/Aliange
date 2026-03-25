@@ -89,7 +89,7 @@
       ],
       "settings": {
         "description": "A revolutionary microbiome treatment masque, clinically formulated by Dr. Alison Jamieson to detoxify, balance, and deeply nourish your skin for a visibly radiant and calm complexion.",
-        "atc_text": "Experience Balanced Skin — $50"
+        "atc_text": "Balance Your Biome"
       }
     },
     "press_ticker": {
@@ -454,24 +454,6 @@
         "button_url": ""
       }
     },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "disabled": true,
-      "settings": {}
-    },
-    "final_cta": {
-      "type": "aliange-pdp-final-cta",
-      "settings": {
-        "heading": "Your Healthiest Skin Awaits.",
-        "subheading": "Invest in the long-term balance of your skin's microbiome.",
-        "button_text": "Add to Cart — $50",
-        "button_url": "",
-        "trust_line": "90-Day Money-Back Guarantee.",
-        "secondary_link_text": "Learn about our clinical approach to breakouts →",
-        "secondary_link_url": "/pages/concern-breakouts",
-        "bg_color": "#f4f7f9"
-      }
-    },
     "1774434161baa3c622": {
       "type": "apps",
       "blocks": {
@@ -488,6 +470,24 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "disabled": true,
+      "settings": {}
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Your Healthiest Skin Awaits.",
+        "subheading": "Invest in the long-term balance of your skin's microbiome.",
+        "button_text": "Add to Cart — $50",
+        "button_url": "",
+        "trust_line": "90-Day Money-Back Guarantee.",
+        "secondary_link_text": "Learn about our clinical approach to breakouts →",
+        "secondary_link_url": "/pages/concern-breakouts",
+        "bg_color": "#f4f7f9"
       }
     }
   },
