@@ -404,48 +404,80 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How often should I use this masque?",
-            "answer": "<p>For optimal results, 2-3 times per week. This helps maintain a balanced microbiome and keeps skin consistently calm.</p>"
+            "question": "What is the Probiotic Masque?",
+            "answer": "<p>The Probiotic Masque is Aliangé's intensive weekly treatment that combines microbiome science with traditional clay detoxification. It contains Lactococcus Ferment Lysate (a postbiotic that reduces transepidermal water loss by 18%), Alpha-Glucan Oligosaccharide (a prebiotic that feeds beneficial skin bacteria), Kaolin and Bentonite clays (for pore purification), and Rosehip and Evening Primrose Oils (essential fatty acids and anti-inflammatory support). Clinical testing showed 25.9% increase in skin radiance, 23% decrease in skin permeability, and optimised hydration within 30 days.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Is it suitable for Rosacea or Acne?",
-            "answer": "<p>Yes, absolutely. Focused on calming inflammation and supporting the skin barrier. It’s excellent for stressed skin.</p>"
+            "question": "What is the difference between prebiotics and postbiotics?",
+            "answer": "<ul><li><strong>Postbiotics</strong> (Lactococcus Ferment Lysate) are the bioactive compounds produced by beneficial bacteria — essentially the functional output of probiotic activity. They communicate directly with the skin's immune system to calm inflammation, strengthen barrier function, and support antimicrobial defence. They are shelf-stable and deliver consistent, predictable biological benefits.</li><li><strong>Prebiotics</strong> (Alpha-Glucan Oligosaccharide) are nutrient compounds that selectively feed and support the growth of beneficial bacteria already living on your skin. By nourishing the good bacteria, they help suppress the overgrowth of pathogenic organisms that drive inflammation and breakouts.</li></ul><p>The Probiotic Masque contains both — feeding the healthy microbiome while simultaneously delivering its immune-calming benefits.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Will this masque dry out my skin?",
-            "answer": "<p>No. Balanced with nourishing botanical oils to ensure your skin is left soft and supple, never tight.</p>"
+            "question": "How do the clays work?",
+            "answer": "<p>Kaolin and Bentonite are naturally occurring mineral clays with a negative ionic charge that attracts and binds to positively charged impurities, toxins, and excess oil deep within the pores. As the masque dries over 15–20 minutes, the clays draw these impurities to the surface while absorbing excess sebum. This is particularly effective after exfoliation (which opens pores), which is why the Probiotic Masque follows the Transforming Exfoliator in the Masque Protocol. Unlike harsh acne-targeted clay masks, this formula balances its purifying action with Rosehip Oil, Evening Primrose Oil, and postbiotic hydration — so it detoxifies without dehydrating.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "What is the prebiotic trio?",
-            "answer": "<p>Prebiotics feed good bacteria, probiotics act as live good bacteria, and postbiotics signal skin to become stronger.</p>"
+            "question": "What skin concerns does the Probiotic Masque address?",
+            "answer": "<ul><li><strong>Congestion and breakouts</strong> — Clay purification draws out pore-blocking debris while postbiotics rebalance the microbiome that keeps acne-causing bacteria in check</li><li><strong>Dullness</strong> — 25.9% increase in skin radiance measured in clinical testing</li><li><strong>Dehydration</strong> — Postbiotic Lactococcus Ferment Lysate reduces water loss by 18%, and Rosehip Oil provides essential fatty acids for barrier support</li><li><strong>Sensitivity and redness</strong> — Anti-inflammatory action from postbiotics and Evening Primrose Oil (gamma-linolenic acid) calms reactive skin</li><li><strong>Barrier dysfunction</strong> — 23% decrease in skin permeability strengthens the barrier against irritant penetration</li></ul>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other products?",
-            "answer": "<p>Yes. Designed as a complementary step. Simply follow with your usual serums and moisturisers after rinsing.</p>"
+            "question": "How do I use the Probiotic Masque?",
+            "answer": "<p>Apply an even layer to clean skin (ideally after using the Transforming Exfoliator). Avoid the eye area. Leave for 15–20 minutes — you will feel the masque tighten as the clays dry and draw out impurities. Rinse with warm water, using gentle circular motions to loosen the clay. Follow with the Jellyfish Peptide X Antioxidant Serum (in the Masque Protocol) or your regular PM serum and moisturiser. Use 2–3 times per week.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use it as an overnight spot treatment?",
+            "answer": "<p>Yes. For individual blemishes, apply a small amount of the Probiotic Masque directly to the spot before bed and leave overnight. The clay draws out the congestion while the postbiotics calm the inflammation. Rinse in the morning. This targeted approach is effective for emerging blemishes that need intensive treatment without applying a full-face masque.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Probiotic Masque suitable for dry or sensitive skin?",
+            "answer": "<p>Yes. Unlike many clay masques that leave the skin feeling stripped and tight, the Probiotic Masque is formulated with hydrating and anti-inflammatory ingredients that counterbalance the clay's oil-absorbing action. Rosehip Oil provides omega-3 and omega-6 fatty acids, Evening Primrose Oil delivers gamma-linolenic acid (an anti-inflammatory), and the postbiotic Lactococcus Ferment Lysate actively reduces water loss by 18%. For very dry or sensitive skin, start with once per week and a shorter application time (10 minutes), increasing as tolerated.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Immediately after first use:</strong> Visibly cleaner pores, smoother texture, and a brighter complexion. Many clients report an immediate \"glow\" after their first masque session.</li><li><strong>Weeks 1–2:</strong> Reduced breakout frequency and improved skin clarity. The microbiome begins to rebalance.</li><li><strong>Weeks 2–4:</strong> 25.9% increase in radiance and measurably improved hydration as the postbiotic and prebiotic ingredients establish a healthier microbial ecosystem. Optimal hydration reached within 30 days.</li><li><strong>Weeks 4–8:</strong> Sustained improvement in clarity, radiance, and breakout resistance as the microbiome stabilises and barrier function strengthens.</li></ul>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How long does a jar last?",
+            "answer": "<p>The 50ml jar lasts approximately 2–3 months with 2–3 treatments per week, making it the most affordable product in the Aliangé range at $50. It is a core step in both the Acne Protocol and the Masque Protocol.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

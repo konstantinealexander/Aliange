@@ -254,6 +254,89 @@
         "secondary_cta_url": "/pages/quiz",
         "guarantee": "Doctor-Developed | 40+ Years Clinical Expertise | Australian-Made"
       }
+    },
+    "lp_faq": {
+      "type": "aliange-lp-faq",
+      "blocks": {
+        "faq_q1": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between a protocol and a routine?",
+            "answer": "<p>A routine is a collection of products used in sequence — typically assembled by the consumer from different brands, with no guarantee that the ingredients, pH levels, or delivery systems are compatible. A protocol is a medically-inspired, structured treatment system where every product is specifically formulated to work synergistically with the others. The order matters. The concentrations are calibrated. The pH levels are compatible. Each step prepares the skin for the next. Dr. Jamieson designed Aliangé as a protocol system because, after 40+ years of clinical practice, she observed that structured, multi-pathway treatment consistently outperforms random product assembly.</p>"
+          }
+        },
+        "faq_q2": {
+          "type": "question",
+          "settings": {
+            "question": "What is \"Frankenstein skincare\" and why is it a problem?",
+            "answer": "<p>\"Frankenstein skincare\" is the practice of assembling a routine from multiple brands, trends, and individual product recommendations without understanding how those products interact. Common problems include:</p><ul><li><strong>Ingredient inactivation</strong> — Products formulated at different pH levels can neutralise each other's active ingredients (e.g., Vitamin C at pH 3 mixed with Niacinamide at pH 6)</li><li><strong>Barrier disruption</strong> — Layering incompatible actives can increase transepidermal water loss, triggering micro-inflammation and inflammageing</li><li><strong>Penetration interference</strong> — Incorrect layering order can prevent actives from reaching their target depth</li><li><strong>Irritation cascading</strong> — Multiple aggressive actives without calibrated buffer steps can compound irritation beyond what any single product would cause</li></ul><p>The result is unpredictable outcomes, wasted investment, and potential skin damage from products that are individually excellent but collectively incompatible.</p>"
+          }
+        },
+        "faq_q3": {
+          "type": "question",
+          "settings": {
+            "question": "How does a protocol avoid these problems?",
+            "answer": "<p>Every Aliangé protocol is designed as an integrated system:</p><ul><li><strong>pH calibration</strong> — Each product is formulated at the optimal pH for its active ingredients, and the sequence is ordered to maintain pH compatibility between steps</li><li><strong>Concentration balance</strong> — Active ingredient concentrations are calibrated to be therapeutic without being excessive when layered with other products in the system</li><li><strong>Delivery sequencing</strong> — Lighter, water-based formulas are applied first (serums), followed by heavier, lipid-based formulas (creams) that seal in the actives and provide an occlusive layer</li><li><strong>Synergistic formulation</strong> — Each step is designed to enhance the next: the cleanser prepares the barrier, the Biocinamide Serum strengthens it for active tolerance, the serums deliver targeted correction, and the creams seal and extend</li></ul>"
+          }
+        },
+        "faq_q4": {
+          "type": "question",
+          "settings": {
+            "question": "What are the three phases of an Aliangé protocol?",
+            "answer": "<p>Every Aliangé protocol follows a three-phase structure:</p><ol><li><strong>Phase 1: Prepare & Purify</strong> — Cleansing with the Daily Devotion Cleanser removes impurities without compromising the barrier, creating a clean, pH-balanced canvas for active ingredients.</li><li><strong>Phase 2: Stimulate & Communicate</strong> — Active serums (Biocinamide, Brightening, Jellyfish Peptide, CellRevive Exosome) deliver targeted biological signals — barrier repair, pigment regulation, collagen stimulation, DNA repair, cellular regeneration.</li><li><strong>Phase 3: Protect & Fortify</strong> — Day Cream SPF 15 (AM) shields against environmental damage while continuing peptide treatment. Ultimate A Night Cream (PM) drives overnight renewal and seals in the active ingredients from Phase 2.</li></ol><p>This structure ensures that every product is working at maximum efficacy because the skin has been properly prepared and protected at each stage.</p>"
+          }
+        },
+        "faq_q5": {
+          "type": "question",
+          "settings": {
+            "question": "Why can't I just buy the best individual products from different brands?",
+            "answer": "<p>Because \"best\" is relative to the system the product operates within. A highly-rated Vitamin C serum from one brand may be formulated at a pH that deactivates the Niacinamide serum from another brand. A potent retinol cream may overwhelm a barrier that has been stripped by a cleanser from a different line. Individual product quality is necessary but not sufficient — what matters is how products perform together, in sequence, on your specific skin. A protocol eliminates compatibility guesswork by pre-solving these interactions at the formulation level.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "What evidence supports the protocol approach over individual products?",
+            "answer": "<p>The protocol approach is grounded in dermatological science: skin is a biological system with interconnected pathways, and treating multiple pathways simultaneously produces better outcomes than treating them individually. Aliangé's clinical data demonstrates this systemic benefit:</p><ul><li><strong>41% wrinkle reduction in 8 weeks</strong> from the combined peptide and retinoid system</li><li><strong>87.3% improvement in facial ageing</strong> from exosome-driven cellular regeneration</li><li><strong>5.5x ceramide boost</strong> from the barrier-repair foundation that enables other actives to work</li><li><strong>105% Collagen I increase</strong> from multi-peptide stimulation</li></ul><p>These results reflect the cumulative, synergistic effect of products designed to amplify each other — which is the fundamental advantage of a protocol over a collection of individual products.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How is the Aliangé protocol different from other \"systems\" or \"sets\" on the market?",
+            "answer": "<p>Many brands package existing products as a \"system\" or \"set\" without fundamentally changing the formulations to work synergistically. The Aliangé protocol is different because:</p><ul><li>Every product was formulated simultaneously, by the same doctor (Dr. Jamieson), with the other products in mind</li><li>Ingredient concentrations are calibrated for layered use, not standalone application</li><li>The sequence is clinically determined, not arbitrarily ordered</li><li>Each step has a specific biological purpose (barrier preparation, active delivery, protection/sealing) that depends on the preceding step</li><li>The system is backed by a 90-day results guarantee — because the formulator is confident in how the products perform together</li></ul>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Do I have to use every product in a protocol?",
+            "answer": "<p>For optimal results, yes. Each step targets a different biological pathway and prepares the skin for the next step. However, the Aliangé system is designed to allow progression: you can start with the Essential Protocol (3 steps) and add products over time as your skin adapts and your budget allows. Even the 3-step Essential Protocol follows the protocol structure (Prepare, Stimulate/Protect, Renew) and delivers measurable results (41% wrinkle reduction). The full Protocol simply addresses more pathways for more comprehensive outcomes.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Is a protocol approach necessary for everyone, or just for people with \"problem\" skin?",
+            "answer": "<p>A protocol approach benefits everyone. Healthy skin is maintained by biological systems — barrier function, cell turnover, collagen production, immune regulation, microbiome balance — that all decline with age and environmental exposure. A protocol supports these systems proactively, preventing decline rather than just reacting to problems after they appear. This is the same principle behind exercise, nutrition, and preventive medicine — structured, consistent support for biological systems produces better outcomes than waiting until something breaks and trying to fix it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     }
   },
   "order": [
@@ -264,6 +347,7 @@
     "lp_why",
     "lp_routine",
     "trust_bar",
+    "lp_faq",
     "klaviyo_all_reviews",
     "lp_cta"
   ]

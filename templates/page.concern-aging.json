@@ -359,88 +359,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "What makes the Anti-Ageing Protocol different from using individual products?",
-            "answer": "<p>This protocol is designed as a <strong>complete, structured system</strong>, not a collection of standalone products.<br/><br/>Each step targets a different biological pathway of ageing—collagen degradation, pigmentation, barrier decline, and cellular turnover—so the skin is treated <strong>across a full 24-hour cycle, not in isolation</strong>.</p>"
+            "question": "Why does skin age, and what can actually be done about it?",
+            "answer": "<p>Skin ageing is the result of multiple biological processes happening simultaneously — not a single problem with a single solution. From your mid-20s, collagen production declines by approximately 1% per year. Cellular turnover slows (from 28 days in your 20s to 45–60 days by your 50s). Senescent \"zombie\" cells accumulate and release inflammatory signals. DNA damage from UV and environmental exposure compounds. Glycation (sugar molecules cross-linking with collagen) stiffens the dermal matrix. And oestrogen decline after 40 reduces sebum and hyaluronic acid production. Effective anti-ageing treatment must address all of these pathways simultaneously — which is why Dr. Jamieson designed Aliangé as a multi-pathway protocol system rather than a collection of individual products.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "What skin concerns does the Anti-Ageing Protocol address?",
-            "answer": "<p>The protocol is formulated to target the primary drivers of visible ageing:</p><ul><li><br/>Fine lines and loss of firmness<br/></li><li><br/>Uneven skin tone and pigmentation<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Collagen and elastin breakdown<br/></li><li><br/>Environmental and UV-related damage</li></ul>"
+            "question": "What is the difference between chronological ageing and photoageing?",
+            "answer": "<p>Chronological ageing is the natural, genetically determined decline in skin function over time — it happens to everyone regardless of lifestyle. Photoageing is the additional, accelerated ageing caused by UV radiation, and it accounts for up to 80% of visible facial ageing. Photoageing degrades collagen and elastin, stimulates melanocyte overactivity, generates DNA-damaging free radicals, and weakens the barrier. In Queensland, where UV exposure is constant and intense, photoageing is the dominant factor. An Australian clinical study showed that daily SPF 15 use alone resulted in 24% less visible skin ageing — demonstrating how significant UV-driven damage is and how much of it is preventable.</p>"
           }
         },
-        "question_JwcV8d": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use this protocol if I’m new to active skincare?",
-            "answer": "<p>Yes. This protocol is specifically designed to <strong>guide the skin through actives in a controlled sequence</strong>.</p><p>Unlike random product use, each step is calibrated to:</p><ul><li><br/>Prepare the skin<br/></li><li><br/>Deliver actives<br/></li><li><br/>Support recovery<br/></li></ul><p>This reduces the risk of irritation commonly seen with unsupervised retinol or acid use.</p>"
+            "question": "At what age should I start using anti-ageing products?",
+            "answer": "<p>Prevention is far more effective than correction. Collagen loss begins in the mid-20s at 1% per year — by the time wrinkles are visible, significant structural damage has already accumulated. The ideal time to start an anti-ageing protocol is in your late 20s to early 30s, before visible signs appear. The Essential Protocol (cleanser, SPF, night cream) is an appropriate starting point for younger skin. For those in their 40s and beyond, a more comprehensive approach like The Protocol or the Anti-Ageing Protocol is recommended to address damage that has already occurred while preventing further decline.</p>"
           }
         },
-        "q3": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How does the protocol actually improve ageing skin?",
-            "answer": "<p>Rather than relying on a single mechanism, the protocol works through <strong>multi-pathway correction</strong>:</p><ul><li><br/><strong>Retinoid renewal</strong> → stimulates cellular turnover and collagen production<br/></li><li><br/><strong>Peptide signalling</strong> → supports dermal structure and elasticity<br/></li><li><br/><strong>Acid resurfacing</strong> → refines texture and accelerates epidermal renewal<br/></li><li><br/><strong>Barrier repair + hydration</strong> → improves tolerance and skin function<br/></li></ul><p>This layered approach reflects how ageing occurs biologically—<strong>not as one issue, but as multiple systems declining simultaneously</strong>.</p>"
+            "question": "What is collagen and why does losing it cause wrinkles?",
+            "answer": "<p>Collagen is the primary structural protein in the skin's dermis — it provides the scaffolding that keeps skin firm, plump, and smooth. Collagen fibres are arranged in a dense mesh that supports the epidermis above it. When collagen degrades (from UV damage, natural ageing, inflammation, and glycation), this mesh weakens and the skin above it begins to fold and crease — creating wrinkles. By age 50, the average person has lost 25–30% of their dermal collagen. Aliangé addresses this through multiple collagen-stimulating pathways: Matrixyl® synthe'6™ (105% Collagen I increase), Matrixyl 3000® (41% wrinkle reduction in 8 weeks), micro-encapsulated Retinol (cell renewal), and exosome signalling (87.3% facial ageing improvement).</p>"
           }
         },
-        "question_ffXMCq": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Will this replace in-clinic treatments?",
-            "answer": "<p>This protocol is designed to:</p><ul><li><br/><strong>Enhance and maintain clinical results</strong><br/></li><li><br/>Improve skin quality between treatments<br/></li><li><br/>Reduce the rate of ongoing deterioration<br/></li></ul><p>It can significantly improve skin function, but also works synergistically with in-clinic procedures.</p>"
+            "question": "What are senescent cells and why do they matter?",
+            "answer": "<p>Senescent cells are damaged cells that have stopped dividing but refuse to die. Instead of being cleared by the immune system, they accumulate and release a cocktail of inflammatory signals called the senescence-associated secretory phenotype (SASP). These signals accelerate ageing in surrounding healthy cells — creating a vicious cycle where ageing begets more ageing. The Jellyfish Peptide X Antioxidant Serum reduces senescent cells by 64.5%, and the CellRevive Exosome Cream achieves a statistically significant senescent cell reduction (p=0.02). By clearing these dysfunctional cells, the skin's regenerative capacity improves.</p>"
           }
         },
-        "question_V8PnB6": {
+        "faq_q6": {
           "type": "question",
           "settings": {
-            "question": "Is this safe during pregnancy or breastfeeding?",
-            "answer": "<p>Some steps—particularly those containing <strong>retinoids or active exfoliants</strong>—are not recommended during pregnancy or breastfeeding.</p><p>Always consult your healthcare provider and refer to individual product guidance.</p>"
+            "question": "Can topical products really make a difference, or do I need procedures?",
+            "answer": "<p>Topical products and clinical procedures address different aspects of ageing, and they are most powerful when combined. Procedures (laser, peels, injectables) can produce dramatic, rapid results but are episodic — they treat the damage that exists at that moment. A clinical protocol provides the daily, sustained biological support that maintains and extends those results while addressing the ongoing processes of ageing every day. Clinical data from Aliangé's products shows measurable structural changes: 105% Collagen I increase, 41% wrinkle reduction in 8 weeks, 87.3% improvement in facial ageing, 256% increase in collagen and elastin synthesis. These are not surface-level cosmetic effects — they are documented structural changes.</p>"
           }
         },
-        "question_fDHth3": {
+        "faq_q7": {
           "type": "question",
           "settings": {
-            "question": "Can I combine this with other Aliangé protocols?",
-            "answer": "<p>Yes.</p><p>The Anti-Ageing Protocol can be integrated with:</p><ul><li><br/><strong>Masque Protocol</strong> (weekly correction and resurfacing)<br/></li><li><br/><strong>Barrier or repair protocols</strong> if skin is compromised<br/></li></ul><p>Protocols are designed to <strong>layer intelligently across time</strong>, not compete.</p>"
+            "question": "What is the recommended Aliangé routine for ageing skin?",
+            "answer": "<p>Dr. Jamieson recommends the following products for comprehensive anti-ageing:</p><ol><li><strong>Jellyfish Peptide X Antioxidant Serum</strong> — DNA repair and collagen stimulation (AM & PM)</li><li><strong>Ultimate A Night Cream</strong> — Cellular renewal and matrix rebuilding (PM)</li><li><strong>CellRevive Exosome Cream</strong> — Cellular regeneration and senescence reduction (AM & PM)</li><li><strong>Day Cream SPF 15</strong> — UV protection and peptide treatment (AM)</li><li><strong>Rejuvenating Eye & Lip Cream</strong> — Targeted orbital and lip area treatment (AM & PM)</li></ol><p>For the complete system, The Protocol (6-step) provides the full foundation plus targeted correction. The Anti-Ageing Protocol (3-step) offers the most concentrated corrective actives. The Advanced Repair Protocol adds the highest tier of regenerative technology.</p>"
           }
         },
-        "question_Nwq4bR": {
+        "faq_q8": {
           "type": "question",
           "settings": {
-            "question": "Do I need to use every step for results?",
-            "answer": "<p>For optimal outcomes, yes.</p><p>Each step performs a distinct function:</p><ul><li><br/>Removing one step reduces the system’s ability to <strong>fully correct and maintain results</strong><br/></li></ul><p>However, the protocol can be adjusted based on tolerance or lifestyle if needed.</p>"
+            "question": "What results can I expect and when?",
+            "answer": "<ul><li><strong>Weeks 1–4:</strong> Improved hydration, smoother texture, visible radiance. The skin \"wakes up\" as barrier function strengthens and cellular turnover accelerates.</li><li><strong>Weeks 4–8:</strong> Fine lines soften, skin tone becomes more even, firmness begins to improve. 41% wrinkle reduction measured at 8 weeks.</li><li><strong>Weeks 8–12:</strong> Significant structural improvement — measurably firmer skin, reduced wrinkle depth, more uniform pigmentation. 87.3% improvement in facial ageing.</li><li><strong>12+ weeks:</strong> Continued cumulative improvement. Ageing is an ongoing process, and sustained multi-pathway treatment produces sustained results.</li></ul><p>All Aliangé products are backed by a 90-day results guarantee.</p>"
           }
         },
-        "q4": {
+        "faq_q9": {
           "type": "question",
           "settings": {
-            "question": "How long does it take to see results?",
-            "answer": "<ul><li><strong>2–4 weeks:</strong> improved hydration, clarity, and skin texture<br/></li><li><br/><strong>8–12 weeks:</strong> visible improvements in tone, firmness, and fine lines<br/></li><li><br/><strong>12+ weeks:</strong> structural changes in skin quality and resilience <br/></li></ul><p>Skin responds to <strong>consistent signalling over time</strong>, not short-term intensity.</p>"
+            "question": "Is it too late to start if I'm already seeing significant signs of ageing?",
+            "answer": "<p>No. The skin retains its capacity to repair and regenerate at every age — it simply needs the right signals and support. The Aliangé system works by stimulating the skin's own biological processes: fibroblast activation for new collagen, accelerated cell turnover for surface renewal, senescent cell reduction, and barrier repair. These processes do not stop working because of age — they slow down, but they can be reactivated with the right protocol. Clients in their 50s, 60s, and beyond see meaningful improvement. The extent of improvement depends on consistency and the comprehensiveness of the protocol used.</p>"
           }
         },
-        "q5": {
+        "faq_q10": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive or reactive skin?",
-            "answer": "<p>Yes—with structured introduction.</p><p>The protocol is designed to <strong>support tolerance</strong>, not overwhelm the skin.<br/><br/>Barrier-supportive ingredients are layered alongside actives to minimise irritation.</p><p>For highly reactive skin:</p><ul><li><br/>Begin with reduced frequency (e.g. alternate nights for retinoid)<br/></li><li><br/>Always patch test prior to full use<br/></li></ul>"
+            "question": "Can I use anti-ageing products alongside cosmetic injectables?",
+            "answer": "<p>Yes. Aliangé products work on different biological mechanisms than injectable treatments. Botulinum toxin relaxes muscles; fillers add volume; energy-based devices stimulate collagen through controlled injury. Aliangé's peptides, retinoids, exosomes, and antioxidants stimulate the skin's own regenerative processes through biological signalling. These approaches are complementary — many of Dr. Jamieson's clinical patients use both. Allow 48 hours after injectable treatments before applying active products to the treated areas.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "question_JwcV8d",
-        "q3",
-        "question_ffXMCq",
-        "question_V8PnB6",
-        "question_fDHth3",
-        "question_Nwq4bR",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

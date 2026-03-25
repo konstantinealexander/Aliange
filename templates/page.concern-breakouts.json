@@ -378,89 +378,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "What makes the Acne Protocol different from traditional acne treatments?",
-            "answer": "<p>Most acne routines focus on <strong>aggressive oil stripping or antibacterial action alone</strong>.</p><p>This protocol is designed as a <strong>multi-pathway system</strong>, targeting:</p><ul><li><br/>Follicular congestion (comedogenesis)<br/></li><li><br/>Inflammation<br/></li><li><br/>Microbiome imbalance<br/></li><li><br/>Barrier dysfunction<br/></li></ul><p>By addressing all four simultaneously, the skin is treated as a <strong>biological system</strong>, not just a breakout.</p>"
+            "question": "What actually causes breakouts?",
+            "answer": "<p>Breakouts are not caused by \"dirty skin\" or poor hygiene — they result from a convergence of four biological factors:</p><ol><li><strong>Excess sebum production</strong> — Hormones (particularly androgens acting through the 5-alpha reductase enzyme) stimulate sebaceous glands to produce more oil than the pores can manage</li><li><strong>Follicular hyperkeratinisation</strong> — Dead skin cells accumulate and compact within the pore, creating a plug that traps oil beneath the surface</li><li><strong>Bacterial overgrowth</strong> — <em>Cutibacterium acnes</em> thrives in the oxygen-depleted, oil-rich environment within blocked pores, triggering an inflammatory immune response</li><li><strong>Chronic inflammation</strong> — The immune response to bacterial overgrowth produces redness, swelling, and further barrier damage that perpetuates the cycle</li></ol><p>Most breakout treatments only address one or two of these factors, which is why results are often temporary.</p>"
           }
         },
-        "q3": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "What types of acne is this protocol suitable for?",
-            "answer": "<p>Best suited for:</p><ul><li><br/>Mild to moderate acne (comedonal + inflammatory)<br/></li><li><br/>Hormonal breakouts with congestion<br/></li><li><br/>Post-inflammatory pigmentation (PIH)<br/></li><li><br/>Acne with dehydration or barrier impairment <br/></li></ul><p>Not designed for severe cystic acne requiring medical intervention.</p>"
+            "question": "Why do harsh acne products often make things worse?",
+            "answer": "<p>Stripping cleansers, drying treatments, and aggressive exfoliation damage the skin's barrier — the very structure that keeps the skin balanced and bacteria in check. Research shows that SLS-based cleansers reduce skin ceramides by 22% in just 3 days. When the barrier is compromised:</p><ul><li>The skin compensates by producing more oil (rebound sebum), feeding more breakouts</li><li>The microbiome is disrupted, allowing <em>C. acnes</em> to overgrow</li><li>Inflammation increases, turning minor congestion into painful, visible blemishes</li><li>The skin becomes sensitised, unable to tolerate the very products meant to treat it</li></ul><p>This is the acne treatment paradox — the harsher the approach, the worse the long-term outcome.</p>"
           }
         },
-        "q4": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "How does the Acne Protocol actually clear the skin?",
-            "answer": "<p>The protocol works through <strong>layered correction</strong>, not a single mechanism:</p><ul><li><br/><strong>Exfoliation (AHA resurfacing)</strong> → clears follicular blockage and prevents comedones<br/></li><li><br/><strong>Sebum regulation (niacinamide)</strong> → reduces excess oil without stripping<br/></li><li><br/><strong>Microbiome modulation (probiotic support)</strong> → stabilises acne-driving bacteria<br/></li><li><br/><strong>Barrier repair + hydration</strong> → prevents rebound oil production and irritation<br/></li></ul><p>This approach reflects how acne develops—<strong>not just bacteria, but a dysfunction of the entire skin ecosystem</strong>.</p>"
+            "question": "What is the role of the microbiome in acne?",
+            "answer": "<p>Your skin hosts a complex ecosystem of beneficial bacteria that regulate immune function, produce antimicrobial compounds, and maintain pH balance. When this ecosystem (the microbiome) is disrupted — by harsh products, antibiotics, or environmental stress — opportunistic organisms like <em>C. acnes</em> can overgrow, triggering the inflammatory immune response that creates visible breakouts. Restoring microbiome balance is essential for sustained acne resolution. The Aliangé Acne Protocol uses postbiotic Lactococcus Ferment Lysate and prebiotic Alpha-Glucan Oligosaccharide (in the Probiotic Masque and Biocinamide Serum) to rebalance the bacterial ecosystem.</p>"
           }
         },
-        "question_BqNQET": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "Can I use this alongside prescription acne treatments?",
-            "answer": "<p>In many cases, yes—but it should be <strong>strategically integrated</strong>.</p><p>The protocol complements treatments by:</p><ul><li><br/>Supporting barrier recovery<br/></li><li><br/>Reducing irritation from prescriptions<br/></li><li><br/>Improving overall skin function<br/></li></ul><p>If using prescription actives (e.g. retinoids, antibiotics), adjust frequency accordingly.</p>"
+            "question": "What is the difference between hormonal acne and other types?",
+            "answer": "<p>Hormonal acne is driven primarily by androgen hormones (particularly DHT, produced by the 5-alpha reductase enzyme) that stimulate sebaceous glands to produce excessive oil. It typically presents along the jawline, chin, and lower cheeks, often worsening around menstruation. Non-hormonal acne is driven more by congestion, environmental factors, and microbiome imbalance and tends to appear more broadly across the face. The Aliangé Acne Protocol addresses both types: Biocinamide Serum with Enantia Chlorantha Bark Extract and Oleanolic Acid regulates sebum production by 29%, while the Probiotic Masque and Transforming Exfoliator address congestion and microbiome imbalance.</p>"
           }
         },
-        "question_tdxTA6": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Can I use this protocol if I have sensitive or reactive skin?",
-            "answer": "<p>Yes—with structured use.</p><p>The protocol is designed to:</p><ul><li><br/>Balance actives with barrier support<br/></li><li><br/>Minimise irritation through controlled frequency<br/></li></ul><p>For sensitive skin:</p><ul><li><br/>Start exfoliation 1–2x per week<br/></li><li><br/>Introduce actives gradually</li></ul>"
+            "question": "Can I treat acne without drying out my skin?",
+            "answer": "<p>Yes — this is a core principle of the Aliangé approach. The Acne Protocol is built on the understanding that healthy, hydrated skin clears breakouts faster and more sustainably than compromised, dehydrated skin. Every product in the system is designed to treat acne while supporting the barrier: the Daily Devotion Cleanser preserves ceramides, the Biocinamide Serum delivers a 5.5x ceramide boost and 18% TEWL reduction, the Transforming Exfoliator contains soothing Chamomile and Evening Primrose Oil alongside its actives, and the Probiotic Masque hydrates while it detoxifies.</p>"
           }
         },
-        "question_pHLQGB": {
+        "faq_q6": {
           "type": "question",
           "settings": {
-            "question": "Is SPF really necessary if I have acne?",
-            "answer": "<p>Yes—this is non-negotiable.</p><p>UV exposure:</p><ul><li><br/>Worsens inflammation<br/></li><li><br/>Deepens pigmentation after breakouts<br/></li><li><br/>Slows healing<br/></li></ul><p>Daily SPF is essential to prevent <strong>persistent acne marks and uneven tone</strong>.</p>"
+            "question": "What about acne scarring and dark marks?",
+            "answer": "<p>Breakouts leave two types of marks: post-inflammatory hyperpigmentation (PIH — flat dark marks) and textural scarring (atrophic — depressed or raised marks). The Aliangé system addresses both:</p><ul><li><strong>PIH:</strong> The Brightening Serum (Oligopeptide-68, AHAs) accelerates the fading of dark marks by inhibiting melanin production and speeding cell turnover. Niacinamide in the Biocinamide Serum blocks melanin transfer.</li><li><strong>Textural scarring:</strong> The Jellyfish Peptide X Antioxidant Serum (105% Collagen I increase) and CellRevive Exosome Cream (87.3% facial ageing improvement) stimulate collagen production that helps fill and remodel depressed scars over time.</li></ul>"
           }
         },
-        "question_BmGxbB": {
+        "faq_q7": {
           "type": "question",
           "settings": {
-            "question": "Can this help with acne scarring or pigmentation?",
-            "answer": "<p>Yes—particularly <strong>post-inflammatory pigmentation (PIH)</strong>.</p><p>The protocol includes:</p><ul><li><br/>Controlled exfoliation to accelerate cell turnover<br/></li><li><br/>Daily SPF to prevent UV-induced darkening<br/></li><li><br/>Anti-inflammatory support to reduce pigmentation triggers </li></ul>"
+            "question": "What is the recommended Aliangé routine for breakout-prone skin?",
+            "answer": "<p>Dr. Jamieson recommends:</p><ol><li><strong>Daily Devotion Cleanser</strong> — Barrier-respecting daily cleansing (AM & PM)</li><li><strong>Biocinamide Serum</strong> — Sebum regulation, barrier support, microbiome balance (AM & PM)</li><li><strong>Transforming Exfoliator</strong> — Pore clearing and antimicrobial action with 5% Tea Tree Oil (2–3x weekly)</li><li><strong>Probiotic Masque</strong> — Microbiome rebalancing and pore purification (2–3x weekly)</li><li><strong>Day Cream SPF 15</strong> — UV protection for healing skin and PIH prevention (AM)</li></ol>"
           }
         },
-        "question_q9UGr6": {
+        "faq_q8": {
           "type": "question",
           "settings": {
-            "question": "Will this dry out my skin like other acne products?",
-            "answer": "<p>No—this is a <strong>barrier-supportive acne protocol</strong>.</p><p>Traditional acne products often:</p><ul><li><br/>Strip lipids<br/></li><li><br/>Increase transepidermal water loss<br/></li><li><br/>Trigger rebound oil production<br/></li></ul><p>This protocol maintains hydration while treating breakouts, which is critical for <strong>long-term clearance and prevention</strong>.</p>"
+            "question": "Will my skin purge when I start treating breakouts?",
+            "answer": "<p>Some clients experience a brief adjustment period during the first 1–3 weeks, where existing congestion beneath the skin surface comes to a head faster than it would naturally. This is not new acne — it is the accelerated clearance of blockages that were already forming. AHAs and cell-turnover accelerators bring these pre-existing congestion points to the surface more quickly. Purging is temporary (1–3 weeks), affects areas where you typically break out, and resolves as the congestion clears. If new breakouts appear in areas where you do not normally experience them, reduce product frequency.</p>"
           }
         },
-        "q2": {
+        "faq_q9": {
           "type": "question",
-          "disabled": true,
           "settings": {
-            "question": "Will my skin purge when I start this routine?",
-            "answer": "<p>Some people may experience a temporary 'purging' phase as the Transforming Exfoliator accelerates cell turnover and brings underlying congestion to the surface. This is normal and typically subsides within 2–4 weeks, revealing clearer skin.</p>"
+            "question": "Can I use the breakout routine alongside prescription acne treatments?",
+            "answer": "<p>Yes. The Aliangé Acne Protocol is designed to complement prescription treatments by providing the barrier support, microbiome balance, and hydration that prescriptions often compromise. If using prescription retinoids, you may wish to reduce or alternate the Transforming Exfoliator to avoid over-exfoliation. If using topical antibiotics, the Probiotic Masque helps maintain microbiome health alongside antibiotic treatment. Always inform your prescribing doctor of the products you are using.</p>"
           }
         },
-        "question_nGPK8i": {
+        "faq_q10": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<h2></h2><ul><li><br/><strong>1–3 weeks:</strong> reduced inflammation and fewer active breakouts<br/></li><li><br/><strong>4–6 weeks:</strong> improved clarity and reduced congestion<br/></li><li><br/><strong>8–12 weeks:</strong> visible improvement in overall skin stability and tone <br/></li></ul><p>Consistency is key—acne is a cyclical condition driven by ongoing follicular turnover.</p>"
+            "question": "Why do breakouts keep coming back?",
+            "answer": "<p>Because most treatments address the symptom (the visible blemish) without correcting the four underlying biological drivers: excess sebum, dead cell buildup, bacterial overgrowth, and chronic inflammation. Stripping cleansers damage the barrier. Spot treatments kill bacteria without restoring the microbiome. Drying products trigger rebound oil production. Without addressing all four pathways simultaneously and continuously, the cycle restarts as soon as treatment stops. The Aliangé Acne Protocol breaks this cycle by treating the system, not just the symptom.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q3",
-        "q4",
-        "question_BqNQET",
-        "question_tdxTA6",
-        "question_pHLQGB",
-        "question_BmGxbB",
-        "question_q9UGr6",
-        "q2",
-        "question_nGPK8i"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

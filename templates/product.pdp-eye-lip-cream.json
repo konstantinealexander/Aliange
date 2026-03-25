@@ -404,48 +404,88 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "Can I use this on sensitive skin?",
-            "answer": "<p>Yes, formulated to be gentle enough for all skin types. We always recommend patch testing first.</p>"
+            "question": "What is the Rejuvenating Eye & Lip Cream?",
+            "answer": "<p>The Rejuvenating Eye & Lip Cream is Aliangé's specialised treatment for the most delicate and age-vulnerable areas of the face — the orbital contour and lip border. The skin around the eyes is 40% thinner than the rest of the face, has fewer oil glands, and is subject to constant micro-movements from blinking and expressions. This makes it the first area to show visible ageing. The cream combines clinically validated peptides and proteins — including Beautifeye™ (Albizia Julibrissin Bark Extract), Hydrolyzed Quinoa, Pullulan, and Porphyridium Cruentum Extract — delivering 61% orbital droop reduction, 91% fold height reduction, 34% crow's feet reduction, and a 256% increase in collagen and elastin synthesis.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "How long until I see a lift?",
-            "answer": "<p>Immediate tightening is noticeable, but significant wrinkle and circle reduction is typically seen after 4-8 weeks.</p>"
+            "question": "What makes the eye area different from the rest of the face?",
+            "answer": "<p>The periorbital skin is uniquely vulnerable for several reasons:</p><ul><li>It is approximately <strong>40% thinner</strong> than facial skin elsewhere</li><li>It contains <strong>fewer sebaceous glands</strong>, making it more prone to dehydration</li><li>It undergoes <strong>over 10,000 blinks per day</strong>, creating constant mechanical stress</li><li>It has <strong>less structural support</strong> from underlying fat and collagen, making it more susceptible to gravity</li><li>It is one of the <strong>first areas to show glycation damage</strong> — the cross-linking of sugar molecules with collagen that causes stiffness and loss of elasticity</li></ul><p>These unique characteristics mean that standard facial moisturisers and serums are not optimised for this area. The Rejuvenating Eye & Lip Cream is specifically formulated with the right molecular sizes, concentrations, and ingredients for this delicate skin.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other eye products?",
-            "answer": "<p>This is a comprehensive treatment. We recommend using it as your primary eye cream for best results.</p>"
+            "question": "What is Beautifeye™ and how does it lift the eyelid?",
+            "answer": "<p>Beautifeye™ is a clinically validated extract of Albizia Julibrissin bark that specifically targets upper eyelid drooping — one of the most ageing visible changes in the face. It works by improving the contractile properties and elasticity of the skin around the upper eyelid, effectively reducing the hooded, heavy-lidded appearance that develops with age. Clinical testing demonstrated a 61% reduction in orbital droop and a 91% reduction in fold height. This is one of very few topical ingredients clinically proven to address eyelid ptosis (drooping) without surgery.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "Can I use it on my eyelids?",
-            "answer": "<p>Yes, it'sSpecifically formulated to lift and tighten sagging upper eyelid skin.</p>"
+            "question": "How does the cream reduce crow's feet?",
+            "answer": "<p>Crow's feet form from the combination of repeated micro-movements (smiling, squinting), collagen loss, and dehydration in the periorbital area. The cream addresses all three: Porphyridium Cruentum Extract (red microalgae) provides deep hydration and wrinkle-reducing benefits, Niacinamide strengthens barrier function and elasticity, and the overall formulation stimulates a 256% increase in collagen and elastin synthesis — rebuilding the structural matrix that keeps the skin smooth and resilient. Clinical testing showed 34% crow's feet wrinkle depth reduction.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Is it tested on animals?",
-            "answer": "<p>No, Aliangé is a cruelty-free brand. We do not test any products on animals.</p>"
+            "question": "What does Hydrolyzed Quinoa do?",
+            "answer": "<p>Hydrolyzed Quinoa is a complete protein containing all 8 essential amino acids, which are the building blocks for skin repair and structural protein synthesis. In the Eye & Lip Cream, it specifically targets under-eye puffiness by strengthening the vascular and lymphatic structures in the thin periorbital skin. It also provides a firming, tightening effect that helps reduce the appearance of bags and swelling — particularly visible in the morning.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "What is the tightening effect I feel when I apply it?",
+            "answer": "<p>That immediate tightening sensation comes from Pullulan, a natural polysaccharide derived from fermentation. Pullulan forms a transparent, elastic film on the skin surface that provides an instant lifting and smoothing effect while the deeper-acting peptides work on structural repair beneath. This dual-action — immediate cosmetic improvement plus long-term structural change — means you see a visible difference from the first application while building towards permanent improvement over weeks and months.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How do I apply it correctly?",
+            "answer": "<p>Use 1/4 pump per application. Dot the cream along the orbital bone (the bony ridge around the eye socket) and along the lip border. Gently pat — do not rub or drag — using your ring finger (which applies the least pressure). Work from the inner corner of the eye outward along the lower orbital bone, and from the outer corner inward along the upper orbital bone. For the lips, pat along the border where fine lines radiate outward. Apply morning and evening, before your Day Cream or Night Cream.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use it on the lip lines (barcode lines)?",
+            "answer": "<p>Yes — this is precisely what it is designed for. The lip border develops fine vertical lines (sometimes called \"barcode lines\" or \"lipstick lines\") due to the same thin skin and repetitive motion dynamics as the eye area. The cream's 256% increase in collagen and elastin synthesis helps rebuild the structural matrix around the lip border, while Pullulan provides an immediate smoothing effect. Apply by patting along the lip contour with your ring finger.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Immediately:</strong> Visible tightening and smoothing from Pullulan film formation.</li><li><strong>Weeks 1–2:</strong> Improved hydration and reduced puffiness around the eyes. The under-eye area appears less hollow and less swollen.</li><li><strong>Weeks 4–8:</strong> Measurable reduction in crow's feet depth and visible improvement in upper eyelid position. Lip lines begin to soften.</li><li><strong>Weeks 8–12:</strong> 61% orbital droop reduction, 91% fold height reduction, and 34% crow's feet reduction achieved in clinical testing. 256% collagen and elastin synthesis increase producing visible structural rejuvenation.</li></ul>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "How long does a tube last?",
+            "answer": "<p>The 50ml tube lasts approximately 3 months with twice-daily use (1/4 pump per application). At $225, it is a targeted investment in the area of the face that ages first and is most difficult to correct without surgical intervention.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

@@ -436,48 +436,88 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for oily or acne-prone skin?",
-            "answer": "<p>Absolutely. It effectively removes excess oil and impurities without stripping the skin, which can often trigger more oil production.</p>"
+            "question": "What is the Daily Devotion Cleanser?",
+            "answer": "<p>The Daily Devotion Cleanser is the foundation step of every Aliangé protocol — a syndet-based (synthetic detergent) cleanser that removes makeup, sunscreen, oil, and environmental impurities while actively preserving the skin's barrier. Unlike conventional cleansers that use Sodium Lauryl Sulphate (SLS) — which can reduce skin ceramides by 22% in just 3 days — the Daily Devotion Cleanser uses Sodium Cocoyl Isethionate, a gentle coconut-derived surfactant that cleanses effectively at the skin's natural pH without disrupting the lipid matrix. You cleanse your face approximately 730 times per year — this product ensures that every single one of those touches protects rather than damages.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this to remove my makeup?",
-            "answer": "<p>Yes, it is designed to remove makeup, sunscreen, and daily grime. For waterproof makeup, we recommend a double cleanse.</p>"
+            "question": "Why does the type of cleanser matter so much?",
+            "answer": "<p>Your cleanser is the most frequently used product in your routine — twice daily, 365 days a year. If that cleanser strips the barrier, every subsequent product is fighting an uphill battle. Research shows that SLS-based cleansers reduce ceramides (the lipids that hold the barrier together) by 22% in 3 days, and increase transepidermal water loss by 37%. A compromised barrier leads to dehydration, sensitivity, breakouts, inflammation, and accelerated ageing. Choosing a barrier-respecting cleanser is not a luxury — it is the single most impactful foundation decision in any skincare protocol. Dr. Jamieson designed the Daily Devotion Cleanser to be the first step precisely because everything that follows depends on barrier integrity.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "What is a 'syndet' cleanser?",
-            "answer": "<p>'Syndet' is short for 'synthetic detergent'. Unlike traditional soap, it is pH-balanced to match your skin's natural acidity.</p>"
+            "question": "What is syndet technology?",
+            "answer": "<p>Syndet stands for \"synthetic detergent\" — a class of cleansing agents formulated to work at the skin's natural pH (around 5.5) rather than the alkaline pH of traditional soap-based cleansers. The key surfactant in the Daily Devotion Cleanser is Sodium Cocoyl Isethionate (SCI), a coconut-derived molecule that effectively binds to oil, makeup, and debris without disrupting the ceramide structure of the barrier. Syndet technology is the gold standard in dermatological cleansing — it is what Dr. Jamieson recommends to every patient, regardless of skin type or concern.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "Will this make my skin feel tight and dry?",
-            "answer": "<p>Not at all. The formula is specifically designed to prevent that 'squeaky clean' feeling, which is a sign of a stripped barrier.</p>"
+            "question": "What are the key ingredients?",
+            "answer": "<ul><li><strong>Sodium Cocoyl Isethionate</strong> — Gentle coconut-derived surfactant that cleanses without stripping ceramides</li><li><strong>Sodium Cocoyl Glutamate</strong> — Amino acid-based secondary surfactant for thorough but mild cleansing</li><li><strong>Sodium PCA</strong> — A component of the skin's Natural Moisturising Factor (NMF) that holds 250x its weight in water, 1.5x more effective at hydrating than Glycerin</li><li><strong>Hydrolysed Jojoba Esters</strong> — Mimics human sebum composition, providing lipid replenishment during cleansing</li><li><strong>Allantoin</strong> — Promotes cell proliferation and provides a mild keratolytic (skin-smoothing) effect</li><li><strong>Macadamia Glycerides</strong> — Lipid-compatible emollients that maintain hydration during cleansing</li><li><strong>Amino acids</strong> — Contribute to the skin's Natural Moisturising Factor for long-term hydration support</li></ul>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Is this product made in Australia?",
-            "answer": "<p>Yes, all Aliangé products are proudly formulated and made in Australia under the expert guidance of Dr. Alison Jamieson.</p>"
+            "question": "Will it remove makeup and sunscreen effectively?",
+            "answer": "<p>Yes. The dual-surfactant system (Sodium Cocoyl Isethionate + Sodium Cocoyl Glutamate) effectively binds to and removes makeup, sunscreen, sebum, and environmental pollutants. For heavy or waterproof makeup, massage the cleanser into dry skin for 30–60 seconds before adding water and rinsing — this allows the surfactants more contact time with oil-based products. The cleanser is formulated to be thorough without needing a double-cleanse step, although it can serve as the second cleanse in a double-cleansing routine if preferred.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Daily Devotion Cleanser suitable for acne-prone skin?",
+            "answer": "<p>Yes — it is a core step in the Acne Protocol. Acne-prone skin is particularly vulnerable to barrier damage from harsh cleansers, which triggers rebound oil production and disrupts the microbiome that keeps acne-causing bacteria in check. The Daily Devotion Cleanser's non-stripping formula maintains the skin's ceramide structure and natural pH, which supports a healthy microbial balance and reduces the inflammatory cycle that drives breakouts. The formula is non-comedogenic and does not contain pore-blocking ingredients.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use it if I have very dry or sensitive skin?",
+            "answer": "<p>Yes. The Daily Devotion Cleanser was specifically formulated to be the one cleanser suitable for every skin type. Sodium PCA and Hydrolysed Jojoba Esters provide active hydration during cleansing, and Allantoin soothes and promotes cell renewal. Clients with eczema, rosacea, and extreme sensitivity can use this cleanser without triggering flares — it is barrier-supportive by design, not by marketing claim. Many clients with dry or sensitive skin report that switching to this cleanser alone produces a noticeable improvement in comfort, hydration, and reactivity within the first week.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "How do I use the Daily Devotion Cleanser?",
+            "answer": "<p>Wet your face with lukewarm water. Apply a small amount of cleanser to your fingertips and massage gently in circular motions for 30–60 seconds, covering the entire face, jawline, and neck. Rinse thoroughly with lukewarm water. Use morning and evening. Avoid very hot water, which can further disrupt the barrier. For makeup removal, apply to dry skin first, massage, then add water and rinse.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How long does a bottle last?",
+            "answer": "<p>The 200ml bottle lasts approximately 2–3 months with twice-daily use, making it one of the most affordable products in the Aliangé range at $55. At roughly $0.90 per day for twice-daily cleansing with a clinically formulated, barrier-protective product, it represents one of the highest-value investments in your skin's health.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Why is this cleanser in every Aliangé protocol?",
+            "answer": "<p>Because barrier integrity is the prerequisite for every other skin function. Collagen stimulation, pigment correction, cell renewal, hydration, and inflammation control all depend on a healthy, intact barrier. If the first step in your routine compromises that barrier, every active ingredient that follows is working against damage caused by your own cleanser. The Daily Devotion Cleanser ensures that the foundation is always solid — which is why Dr. Jamieson made it the universal first step across every protocol.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

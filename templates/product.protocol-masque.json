@@ -224,40 +224,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>Improved texture after the first use. Profound regenerative benefits after 90 days.</p>"
+            "question": "What is the Masque Protocol?",
+            "answer": "<p>The Masque Protocol is Aliangé's 3-step weekly intensive treatment designed to accelerate skin transformation beyond what daily routines can achieve. Used 2–3 times per week, it combines the Transforming Exfoliator, Probiotic Masque, and Jellyfish Peptide X Antioxidant Serum to deliver deep exfoliation, microbiome detoxification, and advanced peptide repair in a single treatment session. Think of it as a clinical-grade facial you can perform at home — resurfacing the skin, rebalancing the microbiome, and amplifying cellular repair.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other products?",
-            "answer": "<p>Yes, this is a weekly booster. Replace your usual serums on treatment nights.</p>"
+            "question": "What are the three steps and how do I use them?",
+            "answer": "<ol><li><strong>Step 1: Transforming Exfoliator (1–2 minutes)</strong> — Massage into damp skin for 30–60 seconds, then leave for 1–2 minutes. The dual-action formula combines AHAs (Glycolic, Lactic, Malic acids) for chemical exfoliation with Jojoba Esters and Perlite for gentle physical resurfacing. Tea Tree Oil (5%) provides antimicrobial action. Rinse thoroughly.</li><li><strong>Step 2: Probiotic Masque (15–20 minutes)</strong> — Apply an even layer to freshly exfoliated skin. Kaolin and Bentonite clays draw out impurities from newly opened pores while Lactococcus Ferment Lysate and Alpha-Glucan Oligosaccharide rebalance the microbiome. Leave for 15–20 minutes, then rinse with warm water.</li><li><strong>Step 3: Jellyfish Peptide X Antioxidant Serum</strong> — Apply to clean, freshly treated skin. The exfoliation and detoxification in steps 1 and 2 create optimal conditions for peptide absorption — Juveleven™ repairs DNA damage while Matrixyl® synthe'6™ stimulates collagen production directly in the newly prepared dermal pathways.</li></ol>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Clinical-grade. Patch-test and reduce to once per week if needed.</p>"
+            "question": "How often should I use the Masque Protocol?",
+            "answer": "<p>2–3 times per week for optimal results. This frequency provides enough exfoliation and microbiome support to maintain accelerated skin improvement without over-treating. If you are new to active exfoliation, start with once per week for the first 2 weeks, then increase to twice weekly as your skin adapts. Your skin should feel smoother and brighter after each session — if it feels tight or irritated, reduce frequency.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How long does the protocol last?",
-            "answer": "<p>With 2-3 treatments per week, approximately 2-3 months.</p>"
+            "question": "When should I do the Masque Protocol in my routine?",
+            "answer": "<p>The Masque Protocol replaces your regular PM routine on the evenings you use it. Perform it in the evening so the skin can recover overnight, and always apply SPF the following morning (AHAs increase photosensitivity). On non-Masque evenings, use your standard PM Protocol (Daily Devotion Cleanser, Brightening Serum, Ultimate A Night Cream). The Masque Protocol and PM Protocol complement each other — the weekly intensive treatment amplifies what the nightly routine maintains.</p>"
+          }
+        },
+        "faq_q5": {
+          "type": "question",
+          "settings": {
+            "question": "How is this different from daily exfoliation with the Brightening Serum?",
+            "answer": "<p>The Brightening Serum provides daily, low-level chemical exfoliation designed for consistent nightly use. The Masque Protocol delivers deeper, more intensive resurfacing that you would not want to do every day. The Transforming Exfoliator uses a more concentrated AHA blend plus physical exfoliation to remove deeper layers of congestion and dead cells. The Probiotic Masque then detoxifies pores and rebalances the microbiome at a level that daily products cannot reach. And the Jellyfish Peptide Serum penetrates more deeply into freshly exfoliated skin. Together, they provide a periodic \"reset\" that accelerates the results of your daily protocol.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "What results can I expect from the Masque Protocol?",
+            "answer": "<ul><li><strong>After first treatment:</strong> Immediately smoother, brighter skin. Pores appear visibly cleaner. Skin feels refreshed and decongested.</li><li><strong>Weeks 1–2 (2–3 treatments):</strong> Noticeable improvement in texture and radiance. Surface congestion begins to clear. A 25.9% increase in skin radiance was measured in clinical testing of the Probiotic Masque.</li><li><strong>Weeks 2–4 (4–8 treatments):</strong> Visibly refined pores, improved tone, and reduced breakout frequency. The microbiome begins to stabilise, reducing inflammatory breakouts.</li><li><strong>Weeks 4–8:</strong> Enhanced efficacy of your daily protocol products, as freshly exfoliated skin absorbs actives more effectively. Cumulative improvement in brightness, evenness, and firmness.</li></ul>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Can the Masque Protocol help with acne?",
+            "answer": "<p>Yes — it is a powerful complement to the Acne Protocol. The Transforming Exfoliator contains 5% Tea Tree Oil (clinically proven as effective as Benzoyl Peroxide against acne-causing bacteria) and AHAs that clear pore-blocking dead cells. The Probiotic Masque's clay blend draws out congestion while postbiotics rebalance the microbiome — directly addressing the bacterial dysbiosis that drives inflammatory acne. Using the Masque Protocol 2–3 times weekly alongside the daily Acne Protocol provides both sustained management and periodic deep clearing.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Masque Protocol suitable for sensitive skin?",
+            "answer": "<p>Yes, with gradual introduction. Start with the Transforming Exfoliator once per week with a shorter massage time (15–20 seconds) and reduced sit time (30 seconds). The Probiotic Masque is inherently soothing — Lactococcus Ferment Lysate calms inflammation while the clay detoxifies gently. If your skin tolerates the first 2–3 sessions well, gradually increase exfoliator contact time and protocol frequency. The postbiotic and prebiotic ingredients in the masque actively strengthen the skin's tolerance over time, meaning sensitivity typically decreases with consistent use.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How long do the products last?",
+            "answer": "<p>At 2–3 treatments per week, each product in the Masque Protocol lasts approximately 2–3 months. The Transforming Exfoliator (200ml, $55) and Probiotic Masque (50ml, $50) are the most affordable products in the Aliangé range, making the Masque Protocol a cost-effective way to accelerate results. The Jellyfish Peptide X Antioxidant Serum (50ml, $225) is typically already part of your daily AM routine, so the Masque Protocol simply makes use of a product you already own.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Can I combine the Masque Protocol with other Aliangé protocols?",
+            "answer": "<p>Absolutely — the Masque Protocol is designed as an enhancement to any other Aliangé protocol. It pairs naturally with:</p><ul><li><strong>The Protocol</strong> — adds weekly intensive resurfacing to the complete 6-step daily system</li><li><strong>Acne Protocol</strong> — provides deeper pore clearing and microbiome reset</li><li><strong>Anti-Ageing Protocol</strong> — accelerates cell turnover and improves peptide absorption</li><li><strong>AM/PM Protocols</strong> — amplifies the results of daily protection and nightly correction</li></ul><p>The Masque Protocol is the periodic \"boost\" that takes daily maintenance to the next level.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

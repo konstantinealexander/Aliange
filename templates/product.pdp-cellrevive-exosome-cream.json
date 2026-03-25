@@ -404,48 +404,96 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "What are exosomes and how do they work?",
-            "answer": "<p>Nano-sized vesicles used for cellular communication. Our technology delivers growth factors and genetic signals that tell your skin to regenerate.</p>"
+            "question": "What are exosomes and how do they work in skincare?",
+            "answer": "<p>Exosomes are microscopic extracellular vesicles — essentially biological communication carriers that cells use to send instructions to other cells. They carry proteins, lipids, and genetic information that direct cellular behaviour including repair, regeneration, and inflammation control. In skincare, exosomes signal skin cells to behave as they did when younger — stimulating collagen production, accelerating tissue repair, and reducing the accumulation of senescent (ageing) cells. The CellRevive Exosome Cream delivers 4 billion exosomes per dose via the proprietary Endexome-EXO™ API, making it one of the most concentrated topical exosome formulations available.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "How is this different from a 'stem cell' cream?",
-            "answer": "<p>Stem cell creams often use plant extracts. CellRevive uses refined messengers (exosomes) that deliver regenerative instructions directly to human skin cells.</p>"
+            "question": "How is the CellRevive Exosome Cream different from a regular moisturiser?",
+            "answer": "<p>A moisturiser hydrates the skin's surface. The CellRevive Exosome Cream works at a fundamentally different level — it communicates with your skin cells, instructing them to repair, regenerate, and produce structural proteins. Clinical testing demonstrated 87.3% improvement in facial ageing signs, with 100% of participants showing histologically confirmed increases in both collagen and elastin. It also achieved a statistically significant reduction in senescent cells (p=0.02). While the cream does provide surface hydration through Sodium Hyaluronate (which holds 1,000x its weight in water), Avocado Oil, and Safflower Oil, its primary function is biological signalling — making it a regenerative treatment, not a cosmetic moisturiser.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with retinol?",
-            "answer": "<p>Yes. Apply after antioxidant serums and before or after your retinoid. Its nourishing base helps buffer potential irritation.</p>"
+            "question": "What clinical evidence supports the CellRevive Exosome Cream?",
+            "answer": "<p>The Endexome-EXO™ API used in CellRevive has been clinically tested with significant results:</p><ul><li><strong>87.3% improvement</strong> in overall facial ageing signs</li><li><strong>Statistically significant reduction</strong> in senescent (zombie) cells (p=0.02)</li><li><strong>100% of participants</strong> showed histologically confirmed increases in collagen and elastin fibre density</li><li><strong>Visible improvement</strong> in skin texture, firmness, hydration, and radiance</li></ul><p>These are not self-reported survey results — they include histological analysis (microscopic examination of skin tissue), which is the gold standard for confirming structural changes in the skin.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>Radiance improves quickly, but clinical histological changes in collagen are best seen over a consistent 12-week period.</p>"
+            "question": "Does the Exosome Cream stimulate collagen production?",
+            "answer": "<p>Yes. The exosomes in CellRevive signal fibroblasts — the cells responsible for producing collagen and elastin — to increase their activity. Clinical histology confirmed that 100% of participants experienced increased collagen and elastin fibre density after using the cream. This is not temporary plumping or surface-level hydration — it is measurable structural protein production within the dermal layer, which translates to genuinely firmer, more resilient skin over time.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Is it safe for all skin types?",
-            "answer": "<p>Formulated for all skin types including sensitive. We recommend a small patch test for any highly active treatment.</p>"
+            "question": "What are senescent cells and why does reducing them matter?",
+            "answer": "<p>Senescent cells are sometimes called \"zombie cells\" — they are damaged cells that have stopped dividing but haven't been cleared by the body. Instead of contributing to skin health, they accumulate and release inflammatory signals (known as the SAAP — senescence-associated secretory phenotype) that accelerate ageing in surrounding healthy cells. This creates a cascade effect where ageing skin produces more ageing signals. The CellRevive Exosome Cream achieved a statistically significant reduction in senescent cells, which helps interrupt this cascade and allows the skin's healthy cells to function more effectively.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "How does the Exosome Cream help with pigmentation?",
+            "answer": "<p>Exosomes support pigmentation correction indirectly through two mechanisms. First, by reducing chronic low-grade inflammation (a key trigger for melanin overproduction), they help prevent new pigmentation from forming. Second, by accelerating cellular repair and turnover, they help the skin shed existing pigmented cells more efficiently. For targeted pigmentation correction, the CellRevive Exosome Cream works best when combined with the Brightening Serum (which directly inhibits melanin production) or as part of The Protocol.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How should I use the CellRevive Exosome Cream in my routine?",
+            "answer": "<p>Apply CellRevive after your serums and before your Day Cream SPF 15 (AM) or Ultimate A Night Cream (PM). The exosomes work best when applied to clean, serum-prepped skin — the serums deliver active ingredients while the exosome cream amplifies the skin's biological response to those actives. Use one pump (approximately 4 billion exosomes) and press gently into the skin. It can be used morning and evening.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Exosome Cream safe for daily use?",
+            "answer": "<p>Yes. Exosomes are biological messengers that work with the skin's natural signalling systems — they do not force unnatural processes or overload the skin. Daily use maintains consistent cellular communication, which produces the best long-term outcomes. Clinical testing confirmed safety and tolerability across all participants with no adverse reactions reported.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Are all exosome skincare products the same?",
+            "answer": "<p>No. The efficacy of exosome products depends on three critical factors: the source of the exosomes (stem cell-derived vs. plant-derived), the concentration per dose, and the delivery system that ensures they reach target cells intact. The CellRevive Exosome Cream uses the Endexome-EXO™ API, which delivers 4 billion stem cell-derived exosomes per dose in a lipid-compatible base of Avocado Oil, Safflower Oil, and Vitamin E that supports absorption and stability. Many commercial \"exosome\" products contain far lower concentrations or use plant-derived vesicles with limited signalling capability.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Weeks 1–4:</strong> Improved hydration, smoother texture, and a visible glow as the skin's surface repair processes accelerate and barrier function improves.</li><li><strong>Weeks 4–8:</strong> Noticeable improvement in skin firmness and elasticity as new collagen and elastin production takes effect in the dermal layer.</li><li><strong>Weeks 8–12:</strong> Measurable structural improvement — firmer skin, reduced fine lines, more even tone, and a visibly healthier complexion. Clinical testing showed 87.3% improvement in facial ageing.</li><li><strong>12+ weeks:</strong> Continued regenerative improvement as sustained exosome signalling produces cumulative biological change.</li></ul><p>The CellRevive Exosome Cream is backed by Aliangé's 90-day results guarantee.</p>"
+          }
+        },
+        "faq_q11": {
+          "type": "question",
+          "settings": {
+            "question": "Does the Exosome Cream contain stem cells?",
+            "answer": "<p>No. The CellRevive Exosome Cream contains exosomes — the communication vesicles released by stem cells — not stem cells themselves. Exosomes carry the repair and regeneration instructions without the regulatory and safety complexities associated with live stem cell application. This means you receive the regenerative signalling benefits of stem cell activity in a stable, safe, topical format.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10",
+        "faq_q11"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

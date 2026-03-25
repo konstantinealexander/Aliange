@@ -305,6 +305,89 @@
         "secondary_cta_url": "/products/cellrevive-exosome-cream",
         "guarantee": "Doctor-Developed | Australian-Made | 90-Day Guarantee"
       }
+    },
+    "lp_faq": {
+      "type": "aliange-lp-faq",
+      "blocks": {
+        "faq_q1": {
+          "type": "question",
+          "settings": {
+            "question": "Why does skin change so significantly after 40?",
+            "answer": "<p>After 40, several biological shifts converge to accelerate visible ageing:</p><ul><li><strong>Cumulative collagen loss</strong> — At 1% per year from your mid-20s, you have lost 15–20% of your dermal collagen by age 40. The decline accelerates further after menopause.</li><li><strong>Cell turnover slows to 45–60 days</strong> — more than double the 28-day cycle of younger skin, causing dullness, texture changes, and slower healing.</li><li><strong>Oestrogen decline</strong> reduces sebum production, hyaluronic acid levels, and collagen synthesis — leading to thinner, drier skin that loses elasticity faster.</li><li><strong>Senescent cell accumulation</strong> increases, releasing inflammatory signals that accelerate ageing in surrounding tissue.</li><li><strong>Decades of UV damage</strong> become visible as photoageing compounds — pigmentation, loss of firmness, and deep wrinkles that reflect years of cumulative sun exposure.</li></ul><p>This convergence is why many women notice a dramatic shift in their skin around age 40 — it is not a single change but multiple biological declines reaching a tipping point simultaneously.</p>"
+          }
+        },
+        "faq_q2": {
+          "type": "question",
+          "settings": {
+            "question": "What should skincare prioritise after 40?",
+            "answer": "<p>Dr. Jamieson recommends that over-40 skincare address five biological priorities:</p><ol><li><strong>Collagen stimulation</strong> — Active ingredients that signal fibroblasts to produce new structural proteins (Matrixyl® synthe'6™ delivers 105% Collagen I increase)</li><li><strong>Cellular renewal</strong> — Accelerating the slowed turnover cycle with Retinol and AHAs to maintain fresh, functional surface cells</li><li><strong>DNA repair and senescence reduction</strong> — Clearing accumulated damage with Juveleven™ (64.5% senescent cell reduction) and exosome technology (87.3% facial ageing improvement)</li><li><strong>Barrier fortification</strong> — Replenishing the ceramides and lipids that decline with oestrogen loss (Biocinamide Serum delivers 5.5x ceramide boost)</li><li><strong>UV protection</strong> — Preventing further photoageing damage (90% of visible skin ageing is attributable to UV exposure)</li></ol>"
+          }
+        },
+        "faq_q3": {
+          "type": "question",
+          "settings": {
+            "question": "Is it too late to start a proper protocol at 40, 50, or 60?",
+            "answer": "<p>No. The skin retains regenerative capacity at every age — it does not stop producing collagen or renewing cells, it simply does so more slowly and less efficiently. The right protocol provides the biological signals needed to reactivate these processes. Clinical data from Aliangé products demonstrates measurable structural improvement regardless of starting point: 105% Collagen I increase, 41% wrinkle reduction in 8 weeks, 87.3% improvement in facial ageing, 256% collagen and elastin synthesis increase. The extent of visible improvement depends on consistency and the comprehensiveness of the protocol — but it is never too late to see meaningful change.</p>"
+          }
+        },
+        "faq_q4": {
+          "type": "question",
+          "settings": {
+            "question": "What is the recommended Aliangé routine for skin over 40?",
+            "answer": "<p>Dr. Jamieson recommends a comprehensive approach for mature skin:</p><ol><li><strong>Transforming Exfoliator</strong> — 2–3x weekly to accelerate the slowed cell turnover cycle</li><li><strong>CellRevive Exosome Cream</strong> — 4 billion exosomes per dose for cellular regeneration and senescence reduction (AM & PM)</li><li><strong>Jellyfish Peptide X Antioxidant Serum</strong> — DNA repair (Juveleven™) and collagen stimulation (Matrixyl® synthe'6™) (AM & PM)</li><li><strong>Ultimate A Night Cream</strong> — Micro-encapsulated Retinol for sustained overnight cell renewal (PM)</li><li><strong>Biocinamide Serum</strong> — Barrier fortification with 5.5x ceramide boost to compensate for oestrogen-driven lipid decline (AM & PM)</li><li><strong>Rejuvenating Eye & Lip Cream</strong> — Targeted orbital and lip treatment where ageing is most visible (AM & PM)</li><li><strong>Day Cream SPF 15</strong> — Daily UV protection with collagen-stimulating Matrixyl 3000® (AM)</li></ol><p>For a simpler entry, the Anti-Ageing Protocol (3-step) or Essential Protocol (3-step) provide an effective starting point that can be expanded over time.</p>"
+          }
+        },
+        "faq_q5": {
+          "type": "question",
+          "settings": {
+            "question": "How does menopause affect the skin?",
+            "answer": "<p>Menopause triggers a significant decline in oestrogen, which has wide-reaching effects on skin biology:</p><ul><li><strong>Collagen loss accelerates</strong> — up to 30% of dermal collagen can be lost in the first 5 years after menopause</li><li><strong>Sebum production decreases</strong>, leading to drier, thinner skin</li><li><strong>Hyaluronic acid production drops</strong>, reducing the skin's water-binding capacity</li><li><strong>The barrier weakens</strong> as lipid production declines, increasing sensitivity and dehydration</li><li><strong>Wound healing slows</strong> as cellular repair processes become less efficient</li></ul><p>These changes make a structured protocol more important than ever. The Biocinamide Serum (ceramide restoration), CellRevive Exosome Cream (cellular regeneration), and Ultimate A Night Cream (accelerated renewal) directly address the biological consequences of oestrogen decline.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Should I use Retinol after 40?",
+            "answer": "<p>Yes — Retinol is one of the most evidence-based ingredients for mature skin. It accelerates cell turnover (compensating for the age-related slowdown), stimulates collagen production, and improves pigmentation. The Ultimate A Night Cream's micro-encapsulated delivery (9x longer half-life) and 4:1 Bakuchiol ratio make it more tolerable than most Retinol products, which is particularly important for mature skin that tends to be drier and more sensitive due to oestrogen decline. Start gradually (2x per week, building to nightly) and ensure you are using the Biocinamide Serum for barrier support.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "What about the eye area after 40?",
+            "answer": "<p>The periorbital area is where ageing becomes most visible after 40 — upper eyelid drooping, crow's feet, under-eye hollowing, and fine lines around the lips. Standard facial products are not optimised for this area. The Rejuvenating Eye & Lip Cream is specifically formulated with clinically validated ingredients for this delicate skin: Beautifeye™ for upper eyelid lifting (61% droop reduction), Hydrolyzed Quinoa for puffiness reduction, Pullulan for immediate tightening, and Porphyridium Cruentum for hydration and wrinkle reduction. Combined with the CellRevive Exosome Cream (256% collagen and elastin synthesis increase), it provides the most advanced non-surgical treatment for orbital ageing.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Can I still benefit from clinical treatments alongside a protocol?",
+            "answer": "<p>Absolutely — and this is often the optimal approach for skin over 40. Clinical procedures (laser resurfacing, microneedling, chemical peels, injectables) provide periodic intensive intervention, while the daily protocol provides the sustained biological support that maintains and extends those results. Many of Dr. Jamieson's clinical patients use both approaches together. The Aliangé protocol also helps prepare the skin for clinical treatments (stronger barrier, better hydration, more active cell renewal) and accelerates recovery afterward (exosome signalling, peptide-driven repair, antioxidant protection).</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How does UV exposure at 40+ differ from when I was younger?",
+            "answer": "<p>The UV damage is the same — but your skin's ability to repair it is diminished. At 25, DNA repair mechanisms are efficient, collagen production is robust, and cell turnover clears damaged cells quickly. At 40+, all of these processes have slowed. This means that the same amount of UV exposure produces more lasting damage — less is repaired, more accumulates, and the visible effects appear faster. This is why 90% of visible skin ageing is attributable to UV exposure, and why daily SPF becomes even more critical with age. The Day Cream SPF 15, combined with the Jellyfish Peptide Serum's DNA repair peptides (Juveleven™ — 13.7% DNA damage repair in 6 hours), provides both protection and active repair.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9"
+      ],
+      "settings": {
+        "label": "Questions Answered",
+        "headline": "Frequently Asked Questions"
+      }
     }
   },
   "order": [
@@ -315,6 +398,7 @@
     "lp_routine",
     "lp_approach",
     "trust_bar",
+    "lp_faq",
     "klaviyo_all_reviews",
     "lp_cta"
   ]

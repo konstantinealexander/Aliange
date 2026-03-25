@@ -256,56 +256,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "question_TKdC86": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "Why is redness more common near the coast?",
-            "answer": "<p>Environmental triggers such as:</p><ul><li><br/>UV radiation<br/></li><li><br/>Wind exposure<br/></li><li><br/>Temperature fluctuations<br/></li></ul><p>…can increase:</p><ul><li><br/>Vascular reactivity<br/></li><li><br/>Inflammation<br/></li><li><br/>Skin sensitivity<br/></li></ul><p>This leads to <strong>chronic redness and reactive skin patterns</strong>.</p>"
+            "question": "Why is Sunshine Coast skin different from skin in other regions?",
+            "answer": "<p>The Sunshine Coast presents a unique convergence of environmental stressors that create specific skin challenges found in few other places. Year-round high UV radiation (among the highest globally), persistent coastal wind, salt air exposure, subtropical humidity, and the contrast between outdoor heat and indoor air conditioning create a constantly shifting assault on the skin's barrier and repair mechanisms. Dr. Alison Jamieson has treated Sunshine Coast skin for over 40 years from her clinical practice in the region — her observations of these specific environmental challenges directly shaped the formulation philosophy behind every Aliangé product.</p>"
           }
         },
-        "q1": {
-          "type": "question",
-          "settings": {
-            "question": "Why does skin behave differently on the Sunshine Coast?",
-            "answer": "<p>The Sunshine Coast combines <strong>high UV exposure, salt air, humidity, and wind</strong>, creating a unique set of environmental stressors.</p><p>This environment:</p><ul><li><br/>Accelerates photoageing<br/></li><li><br/>Disrupts the skin barrier<br/></li><li><br/>Increases dehydration despite humidity<br/></li></ul><p>Skin here requires <strong>continuous regulation, not passive care</strong>.</p>"
-          }
-        },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
             "question": "What are the most common skin concerns on the Sunshine Coast?",
-            "answer": "<p>Due to coastal exposure, the most common concerns include:</p><ul><li><br/>Pigmentation and sun damage<br/></li><li><br/>Premature ageing and loss of elasticity<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Congestion and breakouts<br/></li><li><br/>Redness and sensitivity<br/></li></ul><p>Skin is often <strong>simultaneously stressed, dehydrated, and inflamed</strong>.</p>"
+            "answer": "<p>Through decades of clinical practice, Dr. Jamieson consistently sees four recurring concerns in Sunshine Coast patients:</p><ol><li><strong>Persistent pigmentation</strong> — The combination of intense UV and outdoor lifestyle means melanocytes are chronically overstimulated. Pigmentation here is more stubborn and more likely to recur than in lower-UV regions, requiring multi-pathway management rather than single-product treatment.</li><li><strong>Chronic dehydration</strong> — Despite subtropical humidity, the combination of UV-damaged barriers, salt air exposure, wind, and air conditioning leaves skin persistently dehydrated beneath the surface.</li><li><strong>Redness and inflammation</strong> — Coastal environmental triggers (UV, wind, salt, temperature fluctuation) maintain a state of low-grade chronic inflammation that manifests as redness, sensitivity, and reactive flushing.</li><li><strong>Accelerated ageing</strong> — Daily photoageing from UV, combined with oxidative stress from environmental exposure, accelerates collagen and elastin breakdown well beyond what chronological ageing alone would produce.</li></ol>"
           }
         },
-        "q3": {
-          "type": "question",
-          "settings": {
-            "question": "What qualifications does Dr Jamieson have?",
-            "answer": "<p>Dr Alison Jamieson holds an MBBS (Bachelor of Medicine and Surgery), FRACGP (Fellow of the Royal Australian College of General Practitioners), and a Diploma in Dermatology, with more than 40 years of clinical medical experience.</p>"
-          }
-        },
-        "q4": {
+        "faq_q3": {
           "type": "question",
           "settings": {
             "question": "How does salt air affect the skin?",
-            "answer": "<p>Salt particles in coastal air can:</p><ul><li><br/>Disrupt the skin barrier<br/></li><li><br/>Increase transepidermal water loss<br/></li><li><br/>Contribute to dryness and irritation<br/></li></ul><p>While ocean water can feel cleansing, repeated exposure often leaves skin <strong>dehydrated and more reactive over time</strong>.</p>"
+            "answer": "<p>Salt air is a significant and often underestimated environmental stressor for coastal skin. Salt crystals settle on the skin surface and draw moisture out through osmosis, increasing transepidermal water loss. Salt deposits can also disrupt the skin's natural lipid barrier, creating micro-gaps that allow irritants to penetrate and moisture to escape. Over time, chronic salt exposure contributes to barrier weakening, dehydration, increased sensitivity, and a roughened skin texture. This is compounded on the Sunshine Coast by wind (which accelerates surface evaporation) and UV (which is already damaging the barrier independently). Barrier repair through ceramide restoration and lipid replenishment — as delivered by the Biocinamide Serum — is essential for anyone living in a coastal environment.</p>"
           }
         },
-        "q5": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "What should skincare prioritise on the Sunshine Coast?",
-            "answer": "<p>Skin in this environment requires a <strong>multi-layered approach</strong>:</p><ul><li><br/>Daily SPF and antioxidant protection<br/></li><li><br/>Barrier repair and hydration<br/></li><li><br/>Controlled exfoliation<br/></li><li><br/>Cellular repair support<br/></li></ul><p>This ensures skin can <strong>withstand daily environmental stress while maintaining function</strong>.</p>"
+            "question": "Why is skin often dry even near the ocean?",
+            "answer": "<p>Proximity to the ocean does not hydrate the skin — it can do the opposite. Three factors are at work:</p><ol><li><strong>Salt air dehydration</strong> — Salt draws moisture from the skin and disrupts the lipid barrier</li><li><strong>Wind exposure</strong> — Coastal wind accelerates surface evaporation and increases transepidermal water loss</li><li><strong>Barrier damage</strong> — UV, salt, and wind collectively weaken the barrier, which is the structure responsible for retaining moisture. Once the barrier is compromised, skin cannot hold hydration regardless of environmental humidity</li></ol><p>Research shows that harsh cleansing (common after beach exposure) can reduce skin ceramides by 22%, compounding the dehydration cycle. The solution is not heavier moisturisers — it is barrier repair. The Daily Devotion Cleanser preserves ceramides during cleansing, and the Biocinamide Serum rebuilds the lipid matrix with a 5.5x ceramide boost and 18% TEWL reduction.</p>"
+          }
+        },
+        "faq_q5": {
+          "type": "question",
+          "settings": {
+            "question": "Why is pigmentation harder to treat on the Sunshine Coast?",
+            "answer": "<p>Pigmentation on the Sunshine Coast faces a unique challenge: the trigger never stops. In temperate climates, UV exposure varies significantly by season, giving pigmentation treatments a window of reduced stimulation during which they can make progress. On the Sunshine Coast, UV is consistently high year-round, meaning melanocytes are constantly being restimulated even while treatment is trying to suppress them. This is why single-ingredient brightening products (like Vitamin C serums or standalone AHA treatments) often produce disappointing results here — they cannot overcome the constant UV trigger on their own. Effective treatment requires simultaneous UV blockade (SPF), melanin production inhibition (Oligopeptide-68, 16x more potent than hydroquinone), melanin transfer inhibition (Niacinamide), accelerated cell turnover (AHAs, Retinol), and inflammation control (postbiotics, peptides).</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Is ocean swimming good or bad for the skin?",
+            "answer": "<p>Both — depending on duration and aftercare. Short-term ocean exposure can have mild antimicrobial benefits (salt water has natural antiseptic properties) and some people find it temporarily calming for conditions like mild eczema. However, prolonged or frequent ocean exposure without proper aftercare is dehydrating: salt deposits on the skin surface draw out moisture, UV exposure during swimming is intensified by water reflection, and many people follow ocean swimming with hot showers and harsh cleansers that further strip the barrier. If you swim regularly, gentle post-swim cleansing (Daily Devotion Cleanser) followed by immediate barrier repair (Biocinamide Serum) and hydration is essential to prevent cumulative damage.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Why are breakouts common in subtropical coastal environments?",
+            "answer": "<p>The Sunshine Coast's subtropical climate creates conditions that promote congestion and breakouts through multiple pathways:</p><ul><li><strong>Heat increases sebum production</strong> — sebaceous glands are more active in warmer temperatures</li><li><strong>Humidity promotes bacterial growth</strong> — the warm, moist environment on the skin surface encourages <em>Cutibacterium acnes</em> proliferation</li><li><strong>Sunscreen residue accumulates</strong> — frequent SPF application (necessary for UV protection) can occlude pores if not properly cleansed</li><li><strong>Sweat mixes with oil and dead cells</strong> — creating a congestion matrix that blocks pores</li><li><strong>Salt deposits</strong> can irritate follicular openings and trap debris</li></ul><p>The instinctive response — stripping cleansers and aggressive exfoliation — makes it worse by damaging the barrier and triggering rebound oil production. The Aliangé Acne Protocol is designed for exactly this environment: barrier-respecting cleansing, controlled exfoliation with Tea Tree Oil (as effective as Benzoyl Peroxide), microbiome rebalancing, and sebum regulation (29% reduction) without barrier compromise.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Why does redness seem more common in coastal areas?",
+            "answer": "<p>Coastal environments maintain a state of constant environmental provocation for the skin. UV radiation, wind, salt, temperature fluctuation between outdoor heat and indoor air conditioning, and even the reflective UV amplification from water and sand create a persistent low-grade inflammatory state. When the skin is constantly defending against these triggers, the NF-kB inflammatory pathway becomes chronically upregulated — meaning the skin never fully returns to a calm baseline. Over time, this chronic inflammation manifests as persistent redness, reactive flushing, and increased sensitivity. Addressing this requires not just soothing products (which offer temporary relief) but sustained barrier repair, microbiome rebalancing, and inflammatory pathway modulation — all of which are built into the Aliangé protocols.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "What should Sunshine Coast skincare routines prioritise?",
+            "answer": "<p>Dr. Jamieson's protocols were developed specifically for this environment. An effective Sunshine Coast routine must address four priorities:</p><ol><li><strong>Protection</strong> — Daily SPF is the non-negotiable foundation. UV is the dominant environmental stressor here and drives pigmentation, ageing, inflammation, and DNA damage simultaneously.</li><li><strong>Barrier repair</strong> — Ceramide restoration and gentle cleansing to counteract the constant assault of salt, wind, UV, and environmental stress. The barrier is what stands between healthy skin and environmental damage.</li><li><strong>Active regulation</strong> — Calibrated actives (peptides, Niacinamide, Retinol, AHAs) that address the specific concerns generated by coastal living — pigmentation, collagen loss, sebum imbalance, and inflammation.</li><li><strong>Antioxidant defence</strong> — Free radical damage from UV and environmental oxidative stress is constant on the Sunshine Coast. Antioxidants like Kakadu Plum Extract (100x more Vitamin C than oranges) neutralise this damage before it cascades into visible ageing.</li></ol>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Why do generic skincare routines fail on the Sunshine Coast?",
+            "answer": "<p>Because they were not formulated for this level of environmental stress. Most skincare brands develop and test their products in moderate climates — the UV exposure, salt air, humidity patterns, and wind conditions of the Sunshine Coast are not accounted for. Common failures include:</p><ul><li><strong>Moisturisers that don't protect</strong> — hydrating without SPF or antioxidant defence in a high-UV environment</li><li><strong>Cleansers that strip the barrier</strong> — using harsh surfactants on skin that is already barrier-compromised from environmental exposure</li><li><strong>Brightening products that can't keep up</strong> — single-pathway pigmentation treatments overwhelmed by constant UV reactivation</li><li><strong>Anti-ageing products that ignore photoageing</strong> — addressing chronological ageing without addressing the UV-driven collagen and elastin destruction that dominates in this climate</li></ul><p>Aliangé was born from Dr. Jamieson's Sunshine Coast practice — every formulation decision reflects what she observed working (and failing) on the skin she treated every day for over four decades. The protocols are not adapted for this environment — they were created for it.</p>"
           }
         }
       },
       "block_order": [
-        "question_TKdC86",
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

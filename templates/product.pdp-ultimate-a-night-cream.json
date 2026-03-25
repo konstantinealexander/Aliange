@@ -404,48 +404,88 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "What makes this different from other retinol?",
-            "answer": "<p>Scientific combination of micro-encapsulated Retinol and Bakuchiol. This pairing delivers results with significantly less irritation.</p>"
+            "question": "What is the Ultimate A Night Cream?",
+            "answer": "<p>The Ultimate A Night Cream is Aliangé's overnight cellular renewal treatment — a rich, lipid-based cream that combines micro-encapsulated Retinol, Bakuchiol, and Matrixyl® synthe'6™ in a deeply hydrating base of Cupuaçu Butter, Shea Butter, and Avocado Oil. It is the most active product in the Aliangé range, designed to drive the skin's most intensive repair work during the overnight period when cell division peaks and regenerative processes are most active. Clinical testing showed 20% wrinkle reduction and 59% hyperpigmentation improvement.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Will I experience redness?",
-            "answer": "<p>Some initial sensitivity or mild flaking can occur as skin adapts. The formula includes Amazonian butters specifically to help counteract this.</p>"
+            "question": "What is micro-encapsulated Retinol and why does it matter?",
+            "answer": "<p>Standard Retinol breaks down rapidly on contact with air, light, and skin enzymes, delivering a burst of activity followed by quick degradation. Micro-encapsulation wraps the Retinol molecule in a protective shell that releases it gradually over several hours. This technology delivers a 9x longer half-life compared to standard Retinol, meaning the active ingredient works continuously through the night rather than depleting within the first hour. The result is sustained cellular renewal with lower peak irritation — more effect, less sensitivity.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Is it suitable for sensitive skin?",
-            "answer": "<p>Yes, many sensitive types tolerate this well due to the Bakuchiol inclusion. We always recommend patch testing first.</p>"
+            "question": "What is Bakuchiol and how does it complement Retinol?",
+            "answer": "<p>Bakuchiol is a plant-derived ingredient (from <em>Psoralea corylifolia</em>) that activates the same retinoid receptors as Retinol but through a different molecular pathway. A study published in the British Journal of Dermatology demonstrated that Bakuchiol produced equivalent anti-ageing results to Retinol (wrinkle reduction, pigmentation improvement) with significantly better tolerability — less dryness, less peeling, less irritation. The Ultimate A Night Cream uses a 4:1 Bakuchiol-to-Retinol ratio, which means the skin receives retinoid-pathway stimulation from two different sources, amplifying the effect while the Bakuchiol's superior tolerance profile reduces the side effects typically associated with Retinol use.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>Texture improves in weeks, but significant wrinkle and pigmentation reduction is best seen after 8-12 weeks of consistent use.</p>"
+            "question": "What does Matrixyl® synthe'6™ do in this formula?",
+            "answer": "<p>Matrixyl® synthe'6™ (Palmitoyl Tripeptide-38) is a peptide that signals fibroblasts to produce six key structural components of the skin's extracellular matrix: Collagen I, Collagen III, Collagen IV, Fibronectin, Hyaluronic Acid, and Laminin 5. This means the Night Cream doesn't just stimulate generic collagen production — it directs the synthesis of the specific structural proteins that maintain skin firmness, elasticity, and hydration. Combined with Retinol's cell renewal activity, this creates overnight conditions for both surface renewal and deep structural rebuilding.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Can I use it with other products?",
-            "answer": "<p>Yes, apply after water-based serums. Avoid using in the same protocol as strong exfoliants like high-concentration AHAs.</p>"
+            "question": "Why is the cream base so rich?",
+            "answer": "<p>The Night Cream's lipid-rich base serves two purposes. First, it provides an occlusive layer that reduces overnight transepidermal water loss, keeping the skin deeply hydrated during the 6–8 hours of sleep. Second, the specific lipids are chosen for active skin benefits:</p><ul><li><strong>Cupuaçu Butter</strong> — absorbs 440% its weight in water, providing exceptional hydration capacity</li><li><strong>Shea Butter</strong> — rich in fatty acids and vitamins that nourish and soften the skin</li><li><strong>Avocado Oil</strong> — contains phytosterols that support barrier repair and reduce inflammation</li><li><strong>Sodium Hyaluronate Crosspolymer</strong> — creates a mesh-like hydration network that maintains moisture levels throughout the night</li></ul><p>This rich base also slows the release of active ingredients, extending their contact time with the skin.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "How do I introduce the Night Cream if I'm new to Retinol?",
+            "answer": "<p>Follow this introduction schedule:</p><ul><li><strong>Weeks 1–2:</strong> Apply twice per week (e.g., Monday and Thursday evenings)</li><li><strong>Weeks 3–4:</strong> Apply every other night</li><li><strong>Week 5 onward:</strong> Apply nightly</li></ul><p>If you experience dryness or mild flaking during the introduction period, this is normal — it indicates the Retinol is accelerating cell turnover. Continue at your current frequency and ensure you are using the Biocinamide Serum (for barrier support) and the Daily Devotion Cleanser (to avoid additional barrier stress). If redness or irritation persists beyond 48 hours, reduce frequency. The micro-encapsulated delivery and 4:1 Bakuchiol ratio make this Night Cream more tolerable than most Retinol products, but gradual introduction is still recommended.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "What results can I expect?",
+            "answer": "<ul><li><strong>Weeks 1–2:</strong> Smoother skin texture in the morning. The skin feels softer, more hydrated, and plumper upon waking due to the rich lipid base and overnight hydration.</li><li><strong>Weeks 2–4:</strong> Improved radiance and early brightening as accelerated cell turnover brings fresher cells to the surface. Fine lines begin to soften.</li><li><strong>Weeks 4–8:</strong> Visible wrinkle reduction and measurable improvement in pigmentation. The skin's overall tone becomes more even and luminous.</li><li><strong>Weeks 8–12:</strong> Peak clinical results — 20% wrinkle reduction and 59% hyperpigmentation improvement. Skin firmness and elasticity are visibly improved as collagen stimulation from Matrixyl® synthe'6™ reaches full effect.</li></ul>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Ultimate A Night Cream safe during pregnancy?",
+            "answer": "<p>No — the Ultimate A Night Cream contains Retinol, which is advised against during pregnancy and breastfeeding. If you are pregnant, planning to become pregnant, or breastfeeding, discontinue use and consult your prescribing doctor. During pregnancy, you can continue using the other products in the Aliangé range (particularly the Biocinamide Serum, Jellyfish Peptide Serum, and Day Cream SPF 15) while substituting the Night Cream with the CellRevive Exosome Cream for overnight treatment.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the Night Cream with prescription retinoids?",
+            "answer": "<p>If you are using a prescription retinoid (such as tretinoin/Retin-A), the Ultimate A Night Cream provides additional Retinol that may be excessive when combined. Consider alternating: use your prescription retinoid on some nights and the Ultimate A Night Cream on others. This allows you to benefit from the Night Cream's additional active ingredients (Bakuchiol, Matrixyl® synthe'6™, Cupuaçu Butter) without doubling up on retinoid exposure. Discuss with your prescribing doctor.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Why should I use this instead of a regular night cream?",
+            "answer": "<p>A regular night cream hydrates the skin while you sleep. The Ultimate A Night Cream transforms it. The micro-encapsulated Retinol drives sustained cell renewal all night. Bakuchiol amplifies the retinoid effect through a separate pathway. Matrixyl® synthe'6™ directs fibroblasts to build six specific structural proteins. And the lipid base of Cupuaçu, Shea, and Avocado doesn't just moisturise — it creates optimal conditions for active ingredient delivery while actively repairing the barrier. A regular night cream maintains. This cream rebuilds.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

@@ -224,48 +224,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>Improved brightness within weeks. Fine line reduction after 90 days.</p>"
+            "question": "What is the PM Protocol?",
+            "answer": "<p>The PM Protocol is Aliangé's 3-step evening system designed to harness the skin's natural overnight repair cycle. It includes Daily Devotion Cleanser, Brightening Serum, and Ultimate A Night Cream — delivering deep cleansing, pigment correction, accelerated cell turnover, and collagen stimulation during the hours when the skin is most biologically receptive. With 25+ active ingredients across three products, the PM Protocol drives the corrective, regenerative work that transforms skin structure over time. Visible brightening begins within 4 weeks.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other products?",
-            "answer": "<p>Complete evening system. No additional actives in PM. Use SPF in the morning.</p>"
+            "question": "Why is the evening routine focused on correction and renewal?",
+            "answer": "<p>The skin operates on a circadian rhythm. During the day, it prioritises defence — protecting against UV, pollution, and environmental stress. At night, the skin shifts into repair mode: cell division increases, blood flow to the skin rises (delivering more nutrients), and DNA repair processes accelerate. The PM Protocol is designed to work with this biology, delivering the most potent corrective actives — Retinol, AHAs, and pigment-inhibiting peptides — when the skin is primed to use them. Applying these ingredients at night also avoids the photosensitivity concerns associated with daytime use of retinoids and exfoliating acids.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Contains AHAs and Retinol. Start with alternate nights and introduce gradually.</p>"
+            "question": "What are the three steps and what does each one do?",
+            "answer": "<ol><li><strong>Daily Devotion Cleanser</strong> — Removes the day's accumulation of makeup, sunscreen, oil, pollution, and environmental debris using gentle syndet technology. Sodium Cocoyl Isethionate cleanses without stripping the barrier, while Allantoin provides cell-proliferating and soothing support. A thoroughly cleansed canvas is essential for active ingredient penetration.</li><li><strong>Brightening Serum</strong> — Targets pigmentation through Oligopeptide-68 (16x more potent than hydroquinone at inhibiting tyrosinase), while a calibrated AHA blend (Glycolic, Lactic, Malic, Tartaric acids) accelerates the removal of pigmented surface cells. Niacinamide at 4% intercepts melanin transfer. Clinical results showed 87% of participants reported more uniform skin tone.</li><li><strong>Ultimate A Night Cream</strong> — Drives overnight cellular renewal with micro-encapsulated Retinol (9x longer half-life for sustained release throughout the night), Bakuchiol (a natural retinol alternative proven equivalent in a British Journal of Dermatology study, but better tolerated), and Matrixyl® synthe'6™ for collagen stimulation. Cupuaçu Butter absorbs 440% its weight in water, delivering deep overnight hydration. Clinical results: 20% wrinkle reduction, 59% hyperpigmentation improvement.</li></ol>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "Is this safe during pregnancy?",
-            "answer": "<p>Contains Retinol; not recommended during pregnancy or breastfeeding.</p>"
+            "question": "How is the PM Protocol different from the AM Protocol?",
+            "answer": "<p>The AM Protocol protects and defends. The PM Protocol corrects and rebuilds. The AM Protocol uses antioxidants, barrier support, and SPF to shield the skin during the day. The PM Protocol uses retinoids, AHAs, and pigment-inhibiting peptides to actively repair damage, accelerate cell turnover, and reverse signs of ageing overnight. Together, they form a complete 24-hour skin management system — which is The Protocol (6-step). Individually, each half delivers targeted results: protection by day, transformation by night.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "How long does the protocol last?",
-            "answer": "<p>Approximately 3 months with nightly use.</p>"
+            "question": "How long does the PM Protocol take to apply?",
+            "answer": "<p>Approximately 3–5 minutes. Cleanse for 30–60 seconds, apply the Brightening Serum and allow 60 seconds to absorb, then apply the Ultimate A Night Cream. No rinsing, no complicated multi-step masking. The routine is designed to be simple enough for nightly consistency — because results come from sustained use, not occasional treatment.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Will the Brightening Serum and Retinol together be too strong for my skin?",
+            "answer": "<p>Not when introduced gradually. The Brightening Serum's AHA blend is calibrated at therapeutic but tolerable concentrations, and the Ultimate A Night Cream's Retinol is micro-encapsulated for slow, sustained release (9x longer half-life than standard Retinol) rather than a concentrated burst. The inclusion of Bakuchiol at a 4:1 ratio with Retinol further improves tolerance. For new users, start with the PM Protocol 3 nights per week, increasing to nightly use over 2–4 weeks as your skin adapts. If you experience any tightness or sensitivity, reduce frequency — do not stop entirely.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<ul><li><strong>Weeks 1–2:</strong> Smoother texture and a brighter morning complexion as AHAs accelerate surface cell turnover and dead cells are shed more efficiently.</li><li><strong>Weeks 2–4:</strong> Visibly more even skin tone as Oligopeptide-68 and Niacinamide begin interrupting melanin production and transfer. Fine lines begin to soften.</li><li><strong>Weeks 4–8:</strong> Measurable improvement in pigmentation, wrinkle depth, and overall luminosity. Retinol-driven cell renewal is now producing consistently fresher, more uniform skin.</li><li><strong>Weeks 8–12:</strong> Significant structural improvement — 20% wrinkle reduction and 59% hyperpigmentation improvement in clinical testing. Skin appears visibly younger, firmer, and more radiant.</li></ul><p>Backed by Aliangé's 90-day results guarantee.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the PM Protocol safe during pregnancy or breastfeeding?",
+            "answer": "<p>The PM Protocol contains Retinol (in the Ultimate A Night Cream) and AHAs (in the Brightening Serum), which are generally advised against during pregnancy and breastfeeding. If you are pregnant, planning to become pregnant, or breastfeeding, consult your prescribing doctor before using these products. During pregnancy, the AM Protocol (which does not contain retinoids or AHAs) can typically be used safely.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the PM Protocol with prescription retinoids?",
+            "answer": "<p>If you are already using a prescription retinoid (such as tretinoin), you may want to alternate it with the Ultimate A Night Cream rather than layering both. Using the Brightening Serum on the same night as a prescription retinoid may increase the risk of irritation. A common approach is to use your prescription retinoid on some nights and the PM Protocol on others. Always discuss product combinations with your prescribing doctor.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need to use SPF the next morning if I use the PM Protocol?",
+            "answer": "<p>Yes — this is critical. Both AHAs and Retinol increase the skin's photosensitivity for 24–48 hours after application. Without daily SPF the following morning, UV exposure will counteract the benefits of the PM Protocol and can worsen pigmentation. The AM Protocol's Day Cream SPF 15 provides the necessary protection. If you are not using the full AM Protocol, ensure you apply a broad-spectrum SPF of at least 15 every morning after using the PM Protocol.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

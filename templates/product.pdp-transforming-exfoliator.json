@@ -404,48 +404,88 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Potent but balanced with Chamomile. We recommend patch testing first and starting with once per week usage.</p>"
+            "question": "What is the Transforming Exfoliator?",
+            "answer": "<p>The Transforming Exfoliator is Aliangé's dual-action resurfacing treatment that combines chemical exfoliation (AHA blend of Glycolic, Lactic, and Malic acids) with gentle physical exfoliation (Jojoba Esters and Perlite micro-spheres) in a single formula. It also contains 5% Tea Tree Oil — clinically proven to be as effective as Benzoyl Peroxide against acne-causing bacteria (confirmed in a 2023 systematic review) — plus Green Tea (EGCG antioxidant), Chamomile (bisabolol for soothing), and Evening Primrose Oil (GLA for inflammation regulation). Used 2–3 times per week, it accelerates cell turnover, clears pore congestion, and refines skin texture.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this if I have acne?",
-            "answer": "<p>Yes, chemical exfoliation unclogs pores while Tea Tree Oil provides antimicrobial action against breakouts.</p>"
+            "question": "Why does the skin need exfoliation?",
+            "answer": "<p>In your 20s, skin cells turn over approximately every 28 days — old cells shed naturally and are replaced by fresh ones. By your 50s, this cycle slows to 45–60 days, meaning dead cells accumulate on the surface for twice as long. This buildup causes dullness, rough texture, clogged pores, trapped pigmentation, and reduced absorption of active skincare ingredients. Exfoliation accelerates the removal of these dead cells, revealing the fresher, more even skin beneath and creating optimal conditions for your serums and treatments to penetrate effectively.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Will this make my skin red or peel?",
-            "answer": "<p>A slight pinkness is normal and subsides quickly. It is not designed to cause visible peeling or irritation.</p>"
+            "question": "What is the difference between chemical and physical exfoliation?",
+            "answer": "<p>Chemical exfoliation (AHAs) dissolves the bonds between dead cells without friction — the acids loosen and release dead keratinocytes from the skin surface. Physical exfoliation uses gentle particles (Jojoba Esters and Perlite) to manually sweep dead cells away through light massage. The Transforming Exfoliator combines both approaches because they work on different types of buildup: AHAs dissolve the \"glue\" holding dead cells in place, while physical particles remove the loosened debris and clear pore-blocking congestion that acids alone may not dislodge. This dual action is more thorough than either method alone.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How is it different from a face scrub?",
-            "answer": "<p>Most scrubs only offer physical action with jagged particles. We use a dual-approach: AHAs loosen cells, and smooth beads sweep them away.</p>"
+            "question": "How does the AHA blend work?",
+            "answer": "<p>The formula contains three complementary AHAs:</p><ul><li><strong>Glycolic Acid</strong> — The smallest AHA (76 Daltons molecular weight), which allows it to penetrate deeper into the epidermis than any other acid. Provides the most thorough chemical exfoliation.</li><li><strong>Lactic Acid</strong> — A larger molecule that works at the surface, with the added benefit of humectant properties — it hydrates while it exfoliates.</li><li><strong>Malic Acid</strong> — An antioxidant acid that supports the exfoliating action of Glycolic and Lactic acids while providing additional free radical protection.</li></ul><p>This multi-acid approach provides exfoliation across different depths of the epidermis, creating more even resurfacing than a single-acid formula.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Do I need sunscreen after use?",
-            "answer": "<p>Absolutely. AHAs make skin more sensitive to the sun. Apply broad-spectrum SPF every morning to protect your newly revealed skin.</p>"
+            "question": "How does 5% Tea Tree Oil help acne-prone skin?",
+            "answer": "<p>Tea Tree Oil at 5% concentration has been clinically shown to be as effective as Benzoyl Peroxide against <em>Cutibacterium acnes</em> — the bacterium responsible for inflammatory acne — but without the excessive drying, peeling, and barrier damage that Benzoyl Peroxide causes. A 2023 systematic review confirmed this equivalence. Tea Tree Oil's antimicrobial action reduces bacterial colonisation in pores while its anti-inflammatory properties calm the redness and swelling associated with active breakouts. Combined with the AHA blend that clears the dead cell buildup trapping bacteria in pores, it provides a dual clearance mechanism.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "How do I use the Transforming Exfoliator?",
+            "answer": "<p>Apply to damp skin and massage in gentle circular motions for 30–60 seconds, covering the face while avoiding the eye area. Leave on for an additional 1–2 minutes to allow the AHAs time to work. Rinse thoroughly with lukewarm water. Use 2–3 times per week in the evening. Follow with the Probiotic Masque (if performing the Masque Protocol) or your regular PM routine. Always apply SPF the following morning, as AHAs increase photosensitivity.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use it every day?",
+            "answer": "<p>No — the Transforming Exfoliator is formulated as a 2–3 times weekly treatment, not a daily product. Daily use of dual-action exfoliation would over-strip the barrier, potentially causing irritation, sensitivity, and inflammation. The 2–3 times weekly frequency provides optimal cell turnover acceleration without compromising barrier integrity. For daily exfoliation, use the Brightening Serum, which delivers a gentler, daily-appropriate level of AHA activity.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Transforming Exfoliator suitable for sensitive skin?",
+            "answer": "<p>Yes, with adjusted frequency and contact time. Start with once per week, using a shorter massage time (15–20 seconds) and reduced sit time (30 seconds). The Chamomile (bisabolol) and Evening Primrose Oil (gamma-linolenic acid) in the formula provide anti-inflammatory and soothing support. The Jojoba Esters are smooth, spherical particles — not sharp or abrasive like walnut shell or apricot kernel scrubs — making the physical exfoliation inherently gentle. Increase frequency gradually as your skin tolerates.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Will the Transforming Exfoliator help with dullness?",
+            "answer": "<p>Yes — dullness is primarily caused by the accumulation of dead, light-scattering cells on the skin surface. By accelerating the removal of this layer, the Transforming Exfoliator reveals the fresher, more reflective skin beneath, producing an immediate visible improvement in brightness and radiance after just one use. With consistent use (2–3 times weekly), the skin maintains a faster turnover rate, preventing the dead cell buildup that causes dullness from recurring.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "How long does a bottle last?",
+            "answer": "<p>The 200ml bottle lasts approximately 2–3 months at 2–3 treatments per week, making it one of the most affordable treatments in the Aliangé range at $55. It is a core component of both the Acne Protocol and the Masque Protocol.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

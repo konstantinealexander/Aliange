@@ -224,48 +224,80 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>Improved hydration and texture within weeks; visible fine line improvements by 90 days.</p>"
+            "question": "What is the Essential Protocol?",
+            "answer": "<p>The Essential Protocol is Aliangé's 3-step foundational system — the simplest, most accessible entry point into protocol-based skincare. It includes Daily Devotion Cleanser, Day Cream SPF 15, and Ultimate A Night Cream, delivering the three non-negotiable pillars of effective skincare: barrier-respecting cleansing, daily UV protection, and overnight cellular renewal. With 12 active ingredients across three products and clinical testing showing 41% wrinkle reduction in 8 weeks, the Essential Protocol proves that a structured approach does not need to be complex to be powerful.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other products?",
-            "answer": "<p>Yes. This is your foundation. Add serums after cleansing and before moisturiser.</p>"
+            "question": "Who is the Essential Protocol designed for?",
+            "answer": "<p>The Essential Protocol is ideal for:</p><ul><li><strong>Skincare beginners</strong> — Anyone transitioning from basic moisturisers to a structured, results-driven system</li><li><strong>Minimalists</strong> — Clients who want maximum impact from the fewest possible steps</li><li><strong>Young adults (20s–30s)</strong> — Those focused on prevention rather than correction, who want to protect their skin before visible ageing begins</li><li><strong>Protocol newcomers</strong> — Anyone curious about the Aliangé system who wants to start with the core foundation before adding targeted serums later</li></ul><p>It is the starting point from which any other Aliangé protocol can be built.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Yes. Encapsulated retinol minimises irritation. Patch test if reactive.</p>"
+            "question": "What are the three steps?",
+            "answer": "<ol><li><strong>Daily Devotion Cleanser ($55)</strong> — Syndet technology (Sodium Cocoyl Isethionate) that cleanses without stripping. Preserves the barrier's ceramide structure while removing impurities, makeup, and sunscreen. Sodium PCA holds 250x its weight in water to maintain hydration.</li><li><strong>Day Cream SPF 15 ($90, AM)</strong> — Broad-spectrum UV protection that blocks 93% of UVB rays, combined with Matrixyl 3000® peptides (Palmitoyl Tetrapeptide-7 and Palmitoyl Oligopeptide) that stimulate collagen while protecting. Centella Asiatica supports wound healing and collagen stimulation. Sodium Hyaluronate holds 1,000x its weight in water.</li><li><strong>Ultimate A Night Cream ($130, PM)</strong> — Micro-encapsulated Retinol (9x longer half-life for sustained overnight release) drives cellular renewal. Bakuchiol at a 4:1 ratio provides retinol-equivalent results with better tolerance. Matrixyl® synthe'6™ stimulates six key components of the dermal matrix. Cupuaçu Butter absorbs 440% its weight in water for deep overnight hydration.</li></ol>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "What skin types is this for?",
-            "answer": "<p>Normal, combination, and dry skin types.</p>"
+            "question": "How is the Essential Protocol different from a basic cleanser-moisturiser routine?",
+            "answer": "<p>A basic routine hydrates and protects the surface. The Essential Protocol goes further — it actively drives biological change. The Day Cream doesn't just shield against UV; its Matrixyl 3000® peptides stimulate collagen production (41% wrinkle reduction in 8 weeks). The Night Cream doesn't just hydrate overnight; its micro-encapsulated Retinol accelerates cell turnover and its Matrixyl® synthe'6™ rebuilds the dermal matrix. And the cleanser doesn't just remove dirt; its syndet technology preserves the ceramide barrier that ordinary cleansers destroy. Every step is doing double duty — maintaining the surface while transforming the structure beneath it.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Do I need a higher SPF?",
-            "answer": "<p>SPF 15 for daily use. Use SPF 50+ for extended outdoor exposure.</p>"
+            "question": "Can I build on the Essential Protocol later?",
+            "answer": "<p>Yes — this is exactly how the Essential Protocol is designed to work. It provides the foundational layer (cleansing, protection, renewal) upon which additional targeted products can be added:</p><ul><li><strong>Add the Biocinamide Serum</strong> → for barrier reinforcement, oil regulation, and redness control</li><li><strong>Add the Brightening Serum</strong> → for pigmentation correction and accelerated exfoliation (PM)</li><li><strong>Add the Jellyfish Peptide X Antioxidant Serum</strong> → for DNA repair, collagen stimulation, and antioxidant defence</li><li><strong>Add the CellRevive Exosome Cream</strong> → for advanced cellular regeneration</li></ul><p>As you add products, you naturally progress toward The Protocol (6-step) or other targeted protocols. The Essential Protocol is never wasted — it is always the foundation.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Essential Protocol effective enough on its own?",
+            "answer": "<p>Yes. The three products in the Essential Protocol contain 12 active ingredients addressing cleansing, UV protection, collagen stimulation, cellular renewal, hydration, and barrier support. Clinical testing showed 41% wrinkle reduction at 8 weeks — from the Day Cream and Night Cream alone. The Essential Protocol is the minimum effective system for measurable skin improvement. Additional products amplify and accelerate results, but the Essential Protocol delivers genuine, clinically validated change on its own.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How do I introduce the Retinol Night Cream if I've never used retinoids?",
+            "answer": "<p>Start slowly. Apply the Ultimate A Night Cream twice per week for the first two weeks (for example, Monday and Thursday nights). If your skin tolerates it well — no persistent redness, peeling, or tightness — increase to every other night for weeks 3–4, then nightly from week 5 onward. The micro-encapsulated Retinol in the formula releases gradually (9x longer half-life than standard Retinol), and the 4:1 Bakuchiol ratio improves tolerance further. Most clients can transition to nightly use within 4–6 weeks.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is SPF 15 enough protection for Australian conditions?",
+            "answer": "<p>SPF 15 blocks 93% of UVB rays and is the level validated in a 4.5-year Australian clinical study that showed 24% less visible skin ageing with daily use. For everyday activities — commuting, office work, errands — SPF 15 applied as part of a daily protocol provides meaningful, consistent protection. For extended outdoor exposure (beach, sport, gardening), additional high-SPF sunscreen should be reapplied every 2 hours. The most important factor in sun protection is consistency — an SPF 15 applied every single day outperforms an SPF 50 used occasionally.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How long do the products last?",
+            "answer": "<p>With daily use, each product lasts approximately 2–3 months:</p><ul><li>Daily Devotion Cleanser (200ml): 2–3 months</li><li>Day Cream SPF 15 (50ml): 2–3 months</li><li>Ultimate A Night Cream (50ml): 2–3 months</li></ul><p>The Essential Protocol is the most affordable entry point in the Aliangé range at $275 for the three products — significantly less than the cost of a single clinical facial, with results that compound over months of daily use. Backed by Aliangé's 90-day results guarantee.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9"
       ],
       "settings": {
         "label": "Questions Answered",

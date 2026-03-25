@@ -236,40 +236,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>Texture and hydration within weeks; wrinkle reduction after 90 days.</p>"
+            "question": "What is the AM Protocol?",
+            "answer": "<p>The AM Protocol is Aliangé's 4-step morning system designed to prepare, protect, and defend your skin for the day ahead. It includes Daily Devotion Cleanser, Biocinamide Serum, Jellyfish Peptide X Antioxidant Serum, and Day Cream SPF 15 — delivering barrier reinforcement, DNA repair, antioxidant defence, and UV protection in a calibrated sequence. Each morning step is formulated to shield the skin against the environmental stressors it will face throughout the day — UV radiation, pollution, oxidative stress, and dehydration.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Yes, formulated for all skin types including sensitive.</p>"
+            "question": "What are the four steps and what does each one do?",
+            "answer": "<ol><li><strong>Daily Devotion Cleanser</strong> — Removes overnight oil and metabolic waste using gentle syndet technology (Sodium Cocoyl Isethionate) without stripping the barrier. Hydrolysed Jojoba Esters and Sodium PCA (which holds 250x its weight in water) ensure the skin starts the day hydrated and prepared for active ingredients.</li><li><strong>Biocinamide Serum</strong> — Strengthens the barrier with 5% Niacinamide (5.5x ceramide boost, 18% TEWL reduction) and postbiotic Lactococcus Ferment Lysate. This creates a resilient foundation that protects against environmental irritants while regulating oil production for a balanced, shine-free base throughout the day.</li><li><strong>Jellyfish Peptide X Antioxidant Serum</strong> — Delivers proactive defence with Juveleven™ (DNA repair — 13.7% damage reduction in 6 hours), Matrixyl® synthe'6™ (105% Collagen I increase), and Kakadu Plum Extract (100x more Vitamin C than oranges for antioxidant protection). This step actively neutralises free radical damage as it occurs during the day.</li><li><strong>Day Cream SPF 15</strong> — Seals the routine with broad-spectrum UV protection (blocks 93% of UVB rays) while Matrixyl 3000® peptides continue stimulating collagen throughout the day. An Australian study showed daily SPF 15 use resulted in 24% less visible skin ageing.</li></ol>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "What skin types is this for?",
-            "answer": "<p>All types, especially those concerned with ageing and environmental damage.</p>"
+            "question": "Why does the morning routine focus on protection rather than correction?",
+            "answer": "<p>During the day, your skin is under constant assault — UV radiation, pollution, blue light, temperature fluctuation, and oxidative stress. The morning is not the time for aggressive corrective actives like retinoids or high-concentration AHAs, which increase photosensitivity. Instead, the AM Protocol is designed to defend and fortify: barrier reinforcement (Biocinamide), antioxidant neutralisation of free radicals (Kakadu Plum), DNA damage repair as it happens (Juveleven™), and UV blockade (SPF 15). The heavy corrective work is reserved for the PM Protocol, when the skin is in its natural repair phase.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How long does the protocol last?",
-            "answer": "<p>Approximately 3 months with daily use.</p>"
+            "question": "How is the AM Protocol different from The Protocol?",
+            "answer": "<p>The AM Protocol is the morning half of The Protocol. If you already own The Protocol (6-step system), you are already performing the AM Protocol each morning. The AM Protocol is also available as a standalone purchase for clients who want a complete, science-backed morning system and either already have a PM routine they are happy with, or who want to start with daytime protection before adding evening correction later.</p>"
+          }
+        },
+        "faq_q5": {
+          "type": "question",
+          "settings": {
+            "question": "How long does the AM Protocol take to apply?",
+            "answer": "<p>Approximately 3–5 minutes. The Daily Devotion Cleanser takes 30–60 seconds, the Biocinamide Serum absorbs in under a minute, the Jellyfish Peptide Serum layers smoothly over it, and the Day Cream SPF 15 acts as your final moisturiser and sun protection — eliminating the need for a separate SPF step. The routine is designed to be efficient and layerable, with each product absorbing quickly without pilling or heaviness.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Can I wear makeup over the AM Protocol?",
+            "answer": "<p>Yes. The Day Cream SPF 15 is lightweight and non-greasy, designed to sit comfortably under makeup. The Biocinamide Serum regulates oil production (29% sebum reduction), which helps maintain a balanced, shine-free base throughout the day. Allow each layer 30–60 seconds to absorb before applying the next product, and let the Day Cream set for 2–3 minutes before applying makeup.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Is the AM Protocol suitable for oily or acne-prone skin?",
+            "answer": "<p>Yes. The Biocinamide Serum actively regulates sebum production (49% reduction in active sebaceous glands) without drying, while the Daily Devotion Cleanser's syndet technology removes overnight oil without stripping barrier-protective ceramides. The Day Cream SPF 15 is formulated to be lightweight and non-comedogenic. Oily skin still needs protection, hydration, and antioxidant defence — the AM Protocol delivers all three without adding congestion or shine.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Do I still need a separate SPF?",
+            "answer": "<p>No. The Day Cream SPF 15 provides broad-spectrum UV protection and is the final step of the AM Protocol. SPF 15 blocks 93% of UVB rays, and an Australian clinical study showed it reduced visible skin ageing by 24% with daily use. However, if you will be outdoors for extended periods (beach, sport, gardening), consider reapplying sunscreen every 2 hours as you would with any SPF product. Australia receives 15% more UV radiation than the Northern Hemisphere — daily protection is non-negotiable.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results from the AM Protocol?",
+            "answer": "<ul><li><strong>Immediately:</strong> Skin feels cleaner, more hydrated, and protected from the first use. The routine creates a noticeably smoother, more radiant base.</li><li><strong>Weeks 1–4:</strong> Improved skin texture, reduced oiliness, and a visible glow as the barrier strengthens (5.5x ceramide boost) and antioxidant protection reduces daily oxidative stress.</li><li><strong>Weeks 4–8:</strong> Reduced fine lines, improved firmness, and more even tone as collagen stimulation (Matrixyl 3000® and Matrixyl® synthe'6™) takes visible effect. DNA repair peptides reduce the accumulation of UV-induced cellular damage.</li><li><strong>Weeks 8–12:</strong> Measurable structural improvement — 41% wrinkle reduction demonstrated at 8 weeks in clinical testing. The skin is visibly healthier, more resilient, and better protected.</li></ul><p>Backed by Aliangé's 90-day results guarantee.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the AM Protocol on its own, or do I need the PM Protocol too?",
+            "answer": "<p>The AM Protocol delivers meaningful results on its own — barrier protection, antioxidant defence, collagen stimulation, and UV blockade are impactful regardless of what you do in the evening. However, the full benefits of the Aliangé system come from combining the AM Protocol (protection and defence) with the PM Protocol (correction and renewal). The skin's repair processes are most active at night, so adding corrective ingredients like Retinol and AHAs in the evening amplifies the results significantly.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

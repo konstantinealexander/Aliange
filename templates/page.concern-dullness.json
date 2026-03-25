@@ -391,80 +391,80 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "question_wtL44e": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "What skin concerns does The Protocol address?",
-            "answer": "<p>Rather than targeting a single issue, The Protocol addresses:</p><ul><li><br/>Barrier health<br/></li><li><br/>Pigmentation and uneven tone<br/></li><li><br/>Early signs of ageing<br/></li><li><br/>Dehydration and dullness<br/></li><li><br/>Environmental and UV damage<br/></li></ul><p>It is designed as a <strong>foundational correction + maintenance system</strong>.</p>"
+            "question": "What causes dull skin?",
+            "answer": "<p>Dullness is primarily caused by the accumulation of dead skin cells on the surface. In your 20s, the epidermis turns over approximately every 28 days — old cells shed naturally and are replaced by fresh, light-reflective ones. By your 50s, this cycle slows to 45–60 days, meaning dead cells sit on the surface for twice as long. This accumulated layer scatters and absorbs light rather than reflecting it, creating the flat, matte, lifeless appearance we perceive as dullness. Additional contributing factors include dehydration (dry cells shrink and create uneven surface texture), oxidative stress (free radicals damage cell membranes), impaired barrier function, and reduced microcirculation.</p>"
           }
         },
-        "q1": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Who is The Protocol designed for?",
-            "answer": "<p>The Protocol is a <strong>complete, doctor-designed anti-ageing system</strong> that targets all major mechanisms of skin ageing simultaneously.</p><p>Rather than focusing on one concern, it works across:</p><ul><li><br/>Collagen degradation<br/></li><li><br/>Pigmentation pathways<br/></li><li><br/>Cellular turnover<br/></li><li><br/>Barrier decline<br/></li><li><br/>Oxidative stress<br/></li></ul><p>It is the <strong>most comprehensive way to treat ageing skin at home</strong>.</p>"
+            "question": "Why does dullness get worse with age?",
+            "answer": "<p>Several biological changes converge as we age:</p><ul><li><strong>Cell turnover slows dramatically</strong> — from 28 days to 45–60 days, doubling the thickness of the dead cell layer</li><li><strong>Collagen decline</strong> (1% per year from mid-20s) reduces the skin's plumpness and light-reflective capacity</li><li><strong>Sebum production decreases</strong> (especially after 40 with oestrogen decline), leaving the surface dryer and less luminous</li><li><strong>Barrier function weakens</strong>, leading to chronic dehydration that further dulls the surface</li><li><strong>Oxidative damage accumulates</strong> from years of UV exposure, pollution, and metabolic stress, damaging cells and reducing their vitality</li></ul><p>Addressing dullness effectively requires targeting all of these mechanisms — not just one.</p>"
           }
         },
-        "question_DV9JGA": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
+            "question": "What is the difference between dullness and dehydration?",
+            "answer": "<p>They are closely related but distinct. Dehydration is a lack of water in the skin, caused by barrier compromise and increased transepidermal water loss. Dullness is a lack of surface radiance, caused primarily by dead cell accumulation and textural irregularity. Dehydration contributes to dullness (dry cells reflect light poorly), but dullness can also occur in well-hydrated skin if cell turnover is slow and dead cells are accumulating. The Aliangé approach addresses both: exfoliation removes the dead cell layer, while barrier repair (ceramide restoration) and humectants (Sodium Hyaluronate, Sodium PCA) restore hydration.</p>"
           }
         },
-        "question_wqQE7R": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "Is The Protocol suitable for sensitive skin?",
-            "answer": "<p>Yes—with appropriate introduction.</p><p>The formulations are designed to:</p><ul><li><br/>Support barrier function<br/></li><li><br/>Maintain tolerance alongside actives<br/></li></ul><p>For reactive skin:</p><ul><li><br/>Introduce active steps gradually<br/></li><li><br/>Patch test prior to use</li></ul>"
+            "question": "How do antioxidants help with dullness?",
+            "answer": "<p>Oxidative stress from UV radiation, pollution, and metabolic processes generates free radicals that damage cell membranes, proteins, and DNA. This damage impairs cellular function and vitality, contributing to the tired, lifeless appearance of dull skin. Antioxidants neutralise free radicals before they cause this damage. The Jellyfish Peptide X Antioxidant Serum contains Kakadu Plum Extract — an Australian native superfruit with the highest natural Vitamin C concentration in the world (100x more than oranges) — providing potent antioxidant protection that restores cellular vitality and visible radiance.</p>"
           }
         },
-        "question_YQVaDQ": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Can I use The Protocol long-term?",
-            "answer": "<p>Yes—this is designed for <strong>ongoing use</strong>.</p><p>It functions as:</p><ul><li><br/>A long-term maintenance system<br/></li><li><br/>A baseline for skin health<br/></li><li><br/>A foundation to layer more advanced protocols onto</li></ul>"
+            "question": "What is the recommended Aliangé routine for dull skin?",
+            "answer": "<p>Dr. Jamieson recommends a 5-product approach targeting all the mechanisms of dullness:</p><ol><li><strong>Transforming Exfoliator ($55)</strong> — 2–3x weekly for AHA-driven cell turnover acceleration (Glycolic Acid at 76 Daltons for deep penetration)</li><li><strong>Brightening Serum ($100)</strong> — Daily PM for continuous pigment correction and gentle exfoliation with Oligopeptide-68, AHAs, and Vitamin C</li><li><strong>Jellyfish Peptide X Antioxidant Serum ($225)</strong> — AM & PM for antioxidant defence (Kakadu Plum) and collagen stimulation (Matrixyl® synthe'6™)</li><li><strong>Biocinamide Serum ($90)</strong> — AM & PM for barrier repair (5.5x ceramide boost) and hydration support</li><li><strong>Day Cream SPF 15 ($90)</strong> — AM for UV protection that prevents the oxidative damage causing dullness</li></ol>"
           }
         },
-        "question_kVDrna": {
+        "faq_q6": {
           "type": "question",
           "settings": {
-            "question": "How long does it take to see results?",
-            "answer": "<h2></h2><ul><li><br/><strong>2–4 weeks:</strong> improved hydration, clarity, and texture<br/></li><li><br/><strong>8–12 weeks:</strong> visible improvements in tone and skin quality<br/></li></ul><p>Results reflect <strong>consistent use across a full skin cycle</strong>, not short-term intensity.</p>"
+            "question": "How quickly can dullness be improved?",
+            "answer": "<p>Dullness is one of the most responsive skin concerns because it is largely a surface-level issue:</p><ul><li><strong>After first exfoliation:</strong> Immediately visible improvement in brightness and smoothness. The removal of dead cells reveals fresher, more light-reflective skin beneath.</li><li><strong>Weeks 1–2:</strong> Consistently smoother texture and improved morning radiance as regular exfoliation and antioxidant protection establish a faster turnover baseline.</li><li><strong>Weeks 2–4:</strong> Noticeable luminosity and glow. Skin tone becomes more even as AHAs and Oligopeptide-68 address uneven pigmentation contributing to dullness.</li><li><strong>Weeks 4–8:</strong> Deeper radiance as collagen stimulation and barrier repair improve the skin's structure and hydration capacity. Skin reflects light more uniformly.</li><li><strong>Weeks 8–12:</strong> Full routine benefits — the skin has established a consistently faster turnover rate, stronger barrier, and higher antioxidant defence, producing sustained, visible radiance.</li></ul>"
           }
         },
-        "question_WMAqDQ": {
+        "faq_q7": {
           "type": "question",
           "settings": {
-            "question": "Do I need to follow every step?",
-            "answer": "<p>Yes—for optimal results.</p><p>Each step has a defined role:</p><ul><li><br/>Removing steps disrupts the system’s ability to fully regulate skin function<br/></li></ul><p>However, frequency can be adjusted based on tolerance.</p>"
+            "question": "Why doesn't moisturiser alone fix dullness?",
+            "answer": "<p>Because moisturiser addresses hydration, not cell turnover. If the surface is covered in a thick layer of dead, accumulated keratinocytes, adding moisture to those cells makes them slightly plumper but does not make them reflective or radiant. It is like polishing a dusty mirror — you need to remove the dust (dead cells) first, then the glass (new skin) beneath can reflect light properly. Exfoliation removes the dead layer, while antioxidants and peptides improve the quality and vitality of the new cells coming to the surface. Moisturisation supports this process but cannot substitute for it.</p>"
           }
         },
-        "q2": {
+        "faq_q8": {
           "type": "question",
           "settings": {
-            "question": "Can I combine The Protocol with other Aliangé protocols?",
-            "answer": "<p>The Protocol is already a <strong>complete system</strong>.</p><p>However, it can be enhanced with:</p><ul><li><br/><strong>Masque Protocol</strong> for weekly resurfacing and deep correction<br/></li><li><br/><strong>Advanced Repair Protocol</strong> for intensified repair, regeneration, and targeted peri-orbital ageing support</li></ul>"
+            "question": "Is exfoliation safe for sensitive skin types with dullness?",
+            "answer": "<p>Yes, with appropriate product selection and gradual introduction. The Transforming Exfoliator's Jojoba Esters and Perlite provide smooth, spherical physical exfoliation (not sharp or abrasive), while Chamomile and Evening Primrose Oil soothe the skin during treatment. Start with once per week and a shorter contact time. The Brightening Serum's daily AHA concentration is calibrated for nightly tolerance. For very sensitive skin, begin with the Biocinamide Serum alone (to strengthen the barrier for 2–4 weeks), then introduce exfoliating products gradually. A stronger barrier tolerates exfoliation better.</p>"
           }
         },
-        "q3": {
+        "faq_q9": {
           "type": "question",
           "settings": {
-            "question": "Do I really need to use all the recommended products?",
-            "answer": "<p>For the best results, we recommend using the complete routine as outlined. Each product has been carefully selected to target a different aspect of dullness, and they work together to deliver comprehensive results.</p>"
+            "question": "Does dullness indicate something is wrong with my skin?",
+            "answer": "<p>Not necessarily — dullness is extremely common and is a natural consequence of ageing cell turnover. However, it can also indicate underlying issues worth addressing: barrier dysfunction (impaired moisture retention), chronic dehydration, nutritional deficiency, or excessive oxidative stress. By treating dullness with a multi-pathway approach (exfoliation, antioxidants, barrier repair, hydration), you are simultaneously addressing the surface symptom and the potential underlying contributors. If dullness is accompanied by unusual dryness, persistent redness, or sudden changes in skin texture, consult a dermatologist.</p>"
           }
         }
       },
       "block_order": [
-        "question_wtL44e",
-        "q1",
-        "question_DV9JGA",
-        "question_wqQE7R",
-        "question_YQVaDQ",
-        "question_kVDrna",
-        "question_WMAqDQ",
-        "q2",
-        "q3"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9"
       ],
       "settings": {
         "label": "Questions Answered",

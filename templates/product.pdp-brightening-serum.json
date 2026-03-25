@@ -405,48 +405,88 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Potent, but formulated to be less irritating than many alternatives. We recommend patch testing first if your skin is particularly reactive.</p>"
+            "question": "What is the Brightening Serum?",
+            "answer": "<p>The Brightening Serum is Aliangé's targeted pigmentation correction and exfoliation serum. It combines Oligopeptide-68 — a peptide-based melanin inhibitor with 16x greater tyrosinase inhibition than hydroquinone (in-vitro) — with a calibrated AHA blend (Glycolic, Lactic, Malic, and Tartaric acids), Niacinamide at 4%, Ascorbic Acid (Vitamin C), and Licorice Root Extract. Together, these ingredients target all 5 stages of the pigmentation process: trigger, signal, production, transfer, and expression. Clinical results showed 87% of participants reported more uniform skin tone, with visible brightening beginning within 4 weeks.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "How is this different from other serums?",
-            "answer": "<p>Most serums only target one or two stages of pigmentation. This targets all five pathways simultaneously for more complete results.</p>"
+            "question": "How is Oligopeptide-68 different from hydroquinone?",
+            "answer": "<p>Oligopeptide-68 is a synthetic peptide that inhibits tyrosinase — the enzyme responsible for converting tyrosine into melanin — with 16x greater potency than hydroquinone in vitro. Unlike hydroquinone (which is banned in Australia, the EU, and Japan due to safety concerns including ochronosis — paradoxical darkening — with prolonged use), Oligopeptide-68 is safe for all skin tones and long-term use. A 12-week clinical trial demonstrated that it outperformed 4% hydroquinone for pigmentation improvement. It works by regulating melanin production, not destroying melanocytes — meaning it corrects uneven pigment without compromising the skin's natural protective mechanisms.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use this serum with retinol?",
-            "answer": "<p>Yes, it pairs perfectly with our Ultimate A Night Cream. Apply the serum first, allow to absorb, then apply your night cream.</p>"
+            "question": "What does the AHA blend do?",
+            "answer": "<p>The AHA blend (Glycolic, Lactic, Malic, and Tartaric acids) accelerates the removal of pigmented surface cells by dissolving the bonds between dead keratinocytes. Glycolic Acid has the smallest molecular weight of any AHA (76 Daltons), allowing it to penetrate deeper into the epidermis for more thorough exfoliation. Lactic Acid adds hydrating properties alongside its exfoliating action. The multi-acid approach provides a broader spectrum of exfoliation across different skin layers than any single acid alone. This accelerated turnover means existing pigmentation is shed faster while the peptide ingredients prevent new pigment from forming beneath.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to see results?",
-            "answer": "<p>Clinical data shows more uniform tone in 4 weeks, with 87% of users reporting improvement at 8 weeks.</p>"
+            "question": "Does the Brightening Serum help with acne marks (PIH)?",
+            "answer": "<p>Yes. Post-inflammatory hyperpigmentation (PIH) — the dark marks left after breakouts — is one of the most responsive forms of pigmentation to this serum. The AHA blend accelerates the turnover of darkened surface cells, Oligopeptide-68 prevents new melanin production in the affected area, and Niacinamide at 4% blocks the transfer of remaining melanin to surrounding keratinocytes. PIH typically responds faster than other forms of pigmentation, with visible improvement often apparent within 4–6 weeks. For active acne combined with PIH, pair the Brightening Serum with the Biocinamide Serum.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Is it safe to use during pregnancy?",
-            "answer": "<p>Generally considered safe, but always consult with your doctor before introducing new actives during pregnancy.</p>"
+            "question": "Will the Brightening Serum lighten my natural skin tone?",
+            "answer": "<p>No. The Brightening Serum normalises uneven melanin distribution — it does not bleach or suppress your genetically determined skin colour. Oligopeptide-68 regulates the overproduction and uneven transfer of melanin in areas of hyperpigmentation. Your natural baseline skin tone is maintained; what changes is the contrast between pigmented patches and surrounding skin. This is safe and appropriate for all skin tones, including darker Fitzpatrick types.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "When should I apply the Brightening Serum?",
+            "answer": "<p>Apply the Brightening Serum in the evening (PM only) after cleansing with the Daily Devotion Cleanser and applying the Biocinamide Serum (if using). The AHA blend increases photosensitivity, so evening application ensures the skin processes these actives overnight. Always apply a broad-spectrum SPF the following morning — without daily sun protection, UV exposure will reactivate melanin production and counteract the serum's brightening effects. Within The Protocol, the Brightening Serum is Step 3 of the PM routine.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Weeks 1–2:</strong> Smoother skin texture and a brighter morning complexion as AHAs accelerate surface cell turnover.</li><li><strong>Weeks 2–4:</strong> First visible improvement in skin tone uniformity. Superficial pigmentation (recent sun spots, mild PIH) begins to fade. The most significant brightening begins here.</li><li><strong>Weeks 4–8:</strong> Measurable improvement in pigmentation depth and evenness. 87% of participants in clinical testing reported more uniform skin tone. Deeper pigmentation shows meaningful fading.</li><li><strong>Weeks 8–12:</strong> Significant visible correction in established pigmentation, sun damage, and uneven tone. Peak results from the 12-week Oligopeptide-68 clinical trial protocol.</li></ul>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Brightening Serum suitable for sensitive skin?",
+            "answer": "<p>Yes, with gradual introduction. Start by using the serum every second or third evening. The AHA concentration is calibrated to be therapeutic without being aggressive, and the Niacinamide and Licorice Root Extract in the formula both have anti-inflammatory properties that help mitigate potential irritation. Increase frequency to nightly as your skin tolerates. If you experience any stinging or redness that persists beyond 5 minutes of application, reduce frequency.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the Brightening Serum with Retinol?",
+            "answer": "<p>Yes — this is exactly how it is used within The Protocol's PM routine. The Brightening Serum is applied first (for exfoliation and pigment inhibition), followed by the Ultimate A Night Cream (containing Retinol for cellular renewal). The micro-encapsulated Retinol in the Night Cream releases gradually, reducing the risk of irritation from combining it with AHAs. However, if you are new to both ingredients, introduce them separately: start with the Brightening Serum alone for 2 weeks, then add the Night Cream on alternate nights.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Brightening Serum safe during pregnancy?",
+            "answer": "<p>The Brightening Serum contains AHAs, which are generally advised against during pregnancy. Consult your prescribing doctor before use if you are pregnant, planning to become pregnant, or breastfeeding.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

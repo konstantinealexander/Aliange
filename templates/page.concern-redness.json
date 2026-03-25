@@ -378,48 +378,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "question_f4GPDz": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long does it take to see improvement in redness?",
-            "answer": "<h2></h2><ul><li><br/><strong>2–4 weeks:</strong> reduction in irritation and sensitivity<br/></li><li><br/><strong>4–8 weeks:</strong> visible reduction in redness<br/></li><li><br/><strong>8–12 weeks:</strong> improved skin stability and fewer flare-ups<br/></li></ul><p>Redness improves gradually as <strong>inflammation and barrier function are regulated over time</strong>.</p>"
+            "question": "What causes persistent redness in the skin?",
+            "answer": "<p>Persistent redness is the visible expression of chronic, low-grade inflammation. When the skin's immune system is constantly activated — by barrier compromise, microbiome disruption, environmental triggers, or inflammatory signalling pathways like NF-kB — blood vessels in the dermis dilate and remain dilated. This produces the sustained redness, flushing, and sensitivity that characterises conditions like rosacea, reactive skin, and non-specific facial redness. Unlike temporary redness from exercise or heat (which resolves quickly), chronic redness indicates an underlying inflammatory state that requires systemic treatment, not just soothing topicals.</p>"
           }
         },
-        "q1": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "How can an acne protocol help rosacea or redness?",
-            "answer": "<p>Rosacea and acne share overlapping pathways:</p><ul><li><br/>Chronic inflammation<br/></li><li><br/>Microbiome imbalance<br/></li><li><br/>Barrier dysfunction<br/></li></ul><p>The Acne Protocol is designed to regulate these systems simultaneously, which is why it can <strong>visibly reduce redness and improve skin stability</strong>, not just breakouts.</p>"
+            "question": "What is the difference between redness and rosacea?",
+            "answer": "<p>Rosacea is a diagnosed inflammatory skin condition with specific subtypes (erythematotelangiectatic, papulopustular, phymatous, and ocular) and clinical criteria. Non-specific redness or \"reactive skin\" shares many of the same underlying drivers — barrier dysfunction, microbiome imbalance, and chronic inflammation — but may not meet full rosacea diagnostic criteria. The Aliangé approach addresses the biological mechanisms common to both: barrier repair, microbiome rebalancing, and inflammatory pathway modulation. Whether your redness has been formally diagnosed as rosacea or is classified as sensitivity/reactivity, the treatment principles are the same.</p>"
           }
         },
-        "q2": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "How does this protocol calm redness?",
-            "answer": "<p>Through <strong>multi-pathway anti-inflammatory support</strong>:</p><ul><li><br/>Niacinamide reduces inflammation and visible redness<br/></li><li><br/>Barrier-repair ingredients reduce sensitivity<br/></li><li><br/>Microbiome-supportive steps reduce immune activation<br/></li></ul><p>Niacinamide specifically has been shown to <strong>ease inflammation and calm redness in conditions like rosacea</strong>. </p>"
+            "question": "Why does barrier damage cause redness?",
+            "answer": "<p>The skin's barrier is a lipid-rich structure that prevents irritants, allergens, and pathogens from penetrating the skin. When the barrier is compromised (by harsh cleansers, environmental stress, or inflammation), these substances penetrate more easily and trigger immune responses that manifest as redness, stinging, burning, and flushing. Research shows that SLS-based cleansers increase transepidermal water loss by 37% in just 3 days — a direct measure of barrier destruction. The Aliangé approach prioritises barrier repair as the foundation of redness treatment: the Daily Devotion Cleanser preserves ceramides, the Biocinamide Serum delivers a 5.5x ceramide boost and 18% TEWL reduction, and the Day Cream SPF 15 provides protective occlusion.</p>"
           }
         },
-        "q3": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How does the protocol improve a compromised skin barrier?",
-            "answer": "<p>Barrier dysfunction is central to rosacea.</p><p>When the barrier is impaired:</p><ul><li><br/>Skin loses water<br/></li><li><br/>Becomes more reactive<br/></li><li><br/>Triggers inflammation<br/></li></ul><p>The protocol supports:</p><ul><li><br/>Ceramide production<br/></li><li><br/>Hydration<br/></li><li><br/>Reduced transepidermal water loss<br/></li></ul><p>Barrier repair has been shown to <strong>improve symptoms and sensitivity in rosacea-prone skin</strong>.</p>"
+            "question": "How does the microbiome contribute to redness?",
+            "answer": "<p>The skin's microbiome — the community of beneficial bacteria living on its surface — plays a critical role in immune regulation. When this community is disrupted, the immune system receives inappropriate activation signals that produce chronic inflammation and redness. Research has shown that people with rosacea have distinctly altered microbiome profiles compared to those with healthy skin. The Probiotic Masque (Lactococcus Ferment Lysate postbiotic + Alpha-Glucan Oligosaccharide prebiotic) and Biocinamide Serum (Lactococcus Ferment Lysate) support microbiome restoration, helping to re-establish the immune balance that keeps redness in check.</p>"
           }
         },
-        "q4": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Can this help with flushing and sensitivity?",
-            "answer": "<p>Yes—by improving overall skin stability.</p><p>Redness and flushing are often driven by:</p><ul><li><br/>Barrier weakness<br/></li><li><br/>Inflammation<br/></li><li><br/>Vascular reactivity<br/></li></ul><p>By strengthening the skin and reducing inflammatory signalling, the protocol helps:</p><ul><li><br/>Decrease sensitivity<br/></li><li><br/>Improve tolerance to environmental triggers</li></ul>"
+            "question": "What triggers redness flare-ups?",
+            "answer": "<p>Common triggers include UV exposure, heat, wind, alcohol, spicy food, stress, hot water, harsh skincare products, and temperature fluctuations (such as moving between air-conditioned spaces and outdoor heat). In coastal Australian environments, salt air and high UV add additional constant triggers. The Aliangé approach does not just soothe individual flare-ups — it reduces the skin's baseline inflammatory state and strengthens the barrier so that triggers produce less severe responses. Over 4–8 weeks of consistent use, many clients find that previously problematic triggers produce noticeably less redness.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Can Niacinamide really help with redness?",
+            "answer": "<p>Yes — Niacinamide is one of the most clinically validated ingredients for redness reduction. At the 5% concentration used in the Biocinamide Serum, it:</p><ul><li>Down-regulates NF-kB inflammatory pathway activity, reducing the production of pro-inflammatory cytokines</li><li>Increases ceramide synthesis by 4.1–5.5%, strengthening the barrier against trigger penetration</li><li>Reduces transepidermal water loss by 18%, improving the skin's resilience</li><li>Supports microbiome balance through postbiotic Lactococcus Ferment Lysate</li></ul><p>These are not surface-soothing effects — Niacinamide modulates the inflammatory processes that cause redness at a cellular level.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "What is the recommended Aliangé routine for redness-prone skin?",
+            "answer": "<p>Dr. Jamieson recommends:</p><ol><li><strong>Daily Devotion Cleanser</strong> — Barrier-preserving cleansing that does not trigger flushing (AM & PM)</li><li><strong>Biocinamide Serum</strong> — Anti-inflammatory, barrier-strengthening, microbiome-supportive foundation (AM & PM)</li><li><strong>Day Cream SPF 15</strong> — UV protection (a major redness trigger) plus anti-inflammatory Centella Asiatica (AM)</li><li><strong>Probiotic Masque</strong> — Microbiome rebalancing and calming clay treatment (2–3x weekly)</li></ol><p>For clients with redness plus ageing concerns, the Jellyfish Peptide X Antioxidant Serum can be added (its antioxidant and DNA-repair properties are well-tolerated by redness-prone skin). Introduce any additional products one at a time, allowing 1–2 weeks between additions.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take for redness to improve?",
+            "answer": "<ul><li><strong>Weeks 1–2:</strong> Skin feels calmer and less reactive. Tightness and stinging reduce as barrier-stripping products are replaced with barrier-supportive ones.</li><li><strong>Weeks 2–4:</strong> Visible reduction in baseline redness as the barrier strengthens and inflammatory signalling decreases.</li><li><strong>Weeks 4–8:</strong> Significant improvement in flushing frequency and redness severity. The skin tolerates environmental triggers with less reaction.</li><li><strong>Weeks 8–12:</strong> Sustained, measurable improvement. The skin's inflammatory baseline has been lowered — meaning it takes more provocation to trigger a visible flare.</li></ul>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Why do most redness products only work temporarily?",
+            "answer": "<p>Because they address the symptom (visible redness) without treating the system that produces it. Cooling gels, redness-reducing serums, and green-tinted products provide temporary visual relief but do not repair the barrier, rebalance the microbiome, or down-regulate inflammatory pathways. Once the soothing product is removed or environmental triggers return, redness reappears because nothing has changed biologically. The Aliangé approach works differently: sustained barrier repair, microbiome restoration, and inflammatory pathway modulation create lasting change in the skin's underlying condition.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use active ingredients if I have redness-prone skin?",
+            "answer": "<p>Yes, with strategic selection and gradual introduction. Niacinamide, peptides, and postbiotics are inherently well-tolerated and actively beneficial for redness-prone skin. AHAs and Retinol can be introduced slowly (starting with the lowest frequency and building up) once the barrier has been strengthened with 2–4 weeks of Biocinamide Serum use. The key is to establish barrier integrity first, then layer in corrective actives gradually — not to avoid active ingredients entirely, which leaves the underlying causes of redness untreated.</p>"
           }
         }
       },
       "block_order": [
-        "question_f4GPDz",
-        "q1",
-        "q2",
-        "q3",
-        "q4"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

@@ -212,48 +212,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>Initial improvements in weeks. Full exosome regenerative effects after 90 days.</p>"
+            "question": "What is the Advanced Repair Protocol?",
+            "answer": "<p>The Advanced Repair Protocol is Aliangé's most targeted regenerative system — a 2-step protocol combining the Rejuvenating Eye & Lip Cream and CellRevive Exosome Cream. It is designed for clients over 40 who want to address the two most visible markers of advanced ageing: orbital area decline (drooping eyelids, crow's feet, under-eye hollowing) and overall cellular ageing (senescent cells, collagen loss, reduced regenerative capacity). Clinical testing demonstrated 61% orbital droop reduction, 34% crow's feet reduction, 256% increase in collagen and elastin synthesis, and 87.3% improvement in facial ageing.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other products?",
-            "answer": "<p>Yes. This is the core regenerative step. Apply after cleansing and before SPF.</p>"
+            "question": "Who is the Advanced Repair Protocol designed for?",
+            "answer": "<p>This protocol is specifically designed for:</p><ul><li><strong>Clients aged 40+</strong> experiencing visible signs of advanced ageing around the eyes, lips, and across the face</li><li><strong>Post-procedure support</strong> — clients recovering from clinical treatments (laser, peels, microneedling) who want to accelerate cellular repair</li><li><strong>Clients seeking regenerative results</strong> beyond what serums and creams typically deliver</li><li><strong>Anyone already using The Protocol</strong> who wants to add the most advanced tier of Aliangé's technology for maximum results</li></ul><p>It is an enhancement protocol — designed to be added to your existing daily system, not to replace it.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Both products are gentle yet effective. Patch-test first.</p>"
+            "question": "What does the Rejuvenating Eye & Lip Cream do?",
+            "answer": "<p>The Rejuvenating Eye & Lip Cream is a specialised treatment for the orbital area and lip contour — the thinnest, most delicate skin on the face, and typically the first area to show visible ageing. It contains:</p><ul><li><strong>Albizia Julibrissin Bark Extract (Beautifeye™)</strong> — Clinically proven to lift the upper eyelid, reducing the hooded, drooping appearance that develops with age (61% orbital droop reduction)</li><li><strong>Hydrolyzed Quinoa</strong> — A complete protein with 8 essential amino acids that reduces puffiness and strengthens the delicate under-eye skin</li><li><strong>Pullulan</strong> — A natural polysaccharide that provides an immediate tightening effect on application</li><li><strong>Porphyridium Cruentum Extract</strong> — Red microalgae-derived ingredient for deep hydration and wrinkle reduction</li><li><strong>Niacinamide</strong> — Supports barrier function and elasticity in this fragile area</li></ul><p>Clinical results: 61% orbital droop reduction, 91% fold height reduction, 34% crow's feet wrinkle depth reduction.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "What skin types is this for?",
-            "answer": "<p>Mature skin (45+) with advanced ageing concerns.</p>"
+            "question": "What does the CellRevive Exosome Cream do?",
+            "answer": "<p>The CellRevive Exosome Cream delivers 4 billion stem cell-derived exosomes per dose via the proprietary Endexome-EXO™ API. These exosomes are biological messengers that instruct skin cells to behave more youthfully — stimulating collagen and elastin production, accelerating tissue repair, and reducing the accumulation of senescent (non-functioning) cells. Clinical testing showed 87.3% improvement in facial ageing signs, with 100% of participants demonstrating histologically confirmed increases in collagen and elastin fibre density. It also achieved a statistically significant reduction in senescent cells (p=0.02) — meaning it addresses ageing at the cellular level, not just the surface.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "What are exosomes?",
-            "answer": "<p>Microscopic vesicles from stem cells that instruct skin cells to repair and produce more collagen.</p>"
+            "question": "How do the two products work together?",
+            "answer": "<p>The Rejuvenating Eye & Lip Cream targets the specific structural challenges of the orbital area — drooping, crow's feet, puffiness, and fold depth — using specialised peptides and proteins designed for the thinnest skin on the face. The CellRevive Exosome Cream works across the entire face at a deeper biological level, signalling cells to increase collagen and elastin production and reduce senescent cell accumulation. Together, they provide both targeted correction (eyes and lips) and systemic regeneration (full face), addressing advanced ageing from two complementary angles.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "How do I use the Advanced Repair Protocol in my routine?",
+            "answer": "<p>Apply both products after your serums and before your Day Cream (AM) or Night Cream (PM):</p><ol><li><strong>Rejuvenating Eye & Lip Cream</strong> — Use 1/4 pump and gently pat around the eye contour (orbital bone) and lip border. Do not pull or drag the skin.</li><li><strong>CellRevive Exosome Cream</strong> — Use one pump and press gently into the face and neck.</li></ol><p>Then continue with your Day Cream SPF 15 (AM) or Ultimate A Night Cream (PM). Both products can be used morning and evening for maximum results.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Weeks 1–2:</strong> Immediate tightening sensation from Pullulan in the Eye & Lip Cream. Improved hydration and smoother texture across the face from the Exosome Cream.</li><li><strong>Weeks 4–8:</strong> Visible reduction in crow's feet depth and under-eye puffiness. The upper eyelid begins to appear more lifted. Facial skin feels noticeably firmer as new collagen production takes effect. Clinical testing showed significant results emerging from week 4.</li><li><strong>Weeks 8–12:</strong> 61% orbital droop reduction, 34% crow's feet reduction, and 87.3% improvement in overall facial ageing in clinical testing. 256% increase in collagen and elastin synthesis. Skin appears structurally younger — not just surface-refreshed.</li><li><strong>12+ weeks:</strong> Continued cumulative improvement as sustained exosome signalling and peptide activity produce ongoing regenerative change.</li></ul>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Advanced Repair Protocol suitable for sensitive skin?",
+            "answer": "<p>Yes. Both products are designed for sensitive areas — the Eye & Lip Cream was specifically formulated for the thinnest, most reactive skin on the face. Exosomes work through the skin's own natural signalling systems, which makes them inherently well-tolerated. Neither product contains AHAs, retinoids, or other potentially irritating actives. Clients with sensitive skin can use the Advanced Repair Protocol from day one without gradual introduction.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How long do the products last?",
+            "answer": "<p>With twice-daily use (morning and evening):</p><ul><li>Rejuvenating Eye & Lip Cream (50ml): approximately 3 months (1/4 pump per use)</li><li>CellRevive Exosome Cream (50ml): approximately 2–3 months (1 pump per use)</li></ul><p>Both products are backed by Aliangé's 90-day results guarantee.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the Advanced Repair Protocol without other Aliangé products?",
+            "answer": "<p>Yes, both products can be integrated into any existing skincare routine. However, their results are amplified when used within the Aliangé system — the Biocinamide Serum strengthens the barrier for optimal exosome absorption, the Jellyfish Peptide Serum provides complementary collagen stimulation via different peptide pathways, and the Daily Devotion Cleanser ensures the skin is properly prepared without barrier compromise. The Advanced Repair Protocol is most powerful when layered onto The Protocol or Essential Protocol as a targeted enhancement.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

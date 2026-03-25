@@ -189,48 +189,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "Is Aliangé only for people living in Queensland?",
-            "answer": "<p>No. While developed through decades of Queensland clinical practice, Aliangé formulations are suitable for anyone exposed to high UV, environmental stress, or seeking a structured, clinical approach to skincare. The protocols work for Australian skin conditions nationwide.</p>"
+            "question": "Why does skin age faster in Queensland?",
+            "answer": "<p>Queensland receives some of the highest UV radiation levels on Earth. UV exposure is the single greatest external driver of skin ageing — responsible for up to 80% of visible facial ageing (a process called photoageing). Daily cumulative UV exposure breaks down collagen and elastin fibres, stimulates melanocyte overactivity, generates free radicals that damage cellular DNA, and weakens the skin's barrier function. Queenslanders experience this exposure year-round, not just in summer — meaning the ageing process is constant and compounding. Dr. Alison Jamieson has treated Queensland skin for over 40 years, and this deep clinical understanding of UV-driven ageing directly informed the formulation of every Aliangé product.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Why is a protocol better than individual products?",
-            "answer": "<p>A protocol addresses multiple aspects of skin physiology simultaneously. Each step supports a different biological function — cleansing, regulation, repair, and protection — creating a synergistic effect that individual products cannot achieve alone.</p>"
+            "question": "What are the most common skin concerns in Queensland?",
+            "answer": "<p>Dr. Jamieson's four decades of clinical practice on the Sunshine Coast have identified five recurring concerns in Queensland skin:</p><ol><li><strong>Pigmentation</strong> — Constant UV stimulation drives melanocyte overactivity, causing sunspots, melasma, and uneven tone that is more persistent and harder to treat than in lower-UV regions</li><li><strong>Premature ageing</strong> — Accelerated collagen degradation from daily UV exposure leads to earlier onset of fine lines, wrinkles, and loss of firmness</li><li><strong>Dehydration</strong> — Despite humidity, the combination of UV damage, air conditioning, and barrier disruption leaves skin chronically dehydrated</li><li><strong>Acne and congestion</strong> — Heat, humidity, and increased sebum production create an environment conducive to pore blockage and bacterial overgrowth</li><li><strong>Redness and sensitivity</strong> — Environmental stress (UV, heat, wind) triggers chronic low-grade inflammation and barrier compromise</li></ol>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "What makes Queensland UV different?",
-            "answer": "<p>Queensland consistently records some of the highest UV indexes globally. This extreme ultraviolet exposure accelerates collagen degradation, increases pigmentation, and causes barrier disruption at rates significantly higher than temperate climates.</p>"
+            "question": "Why is dehydration so common despite Queensland's humidity?",
+            "answer": "<p>This is one of the most misunderstood aspects of Queensland skin. Humidity alone does not hydrate the skin — the skin's barrier does. When the barrier is compromised by UV damage, environmental stress, and harsh cleansing products (many Queenslanders use stripping cleansers to combat sweat and oil), transepidermal water loss increases regardless of how humid the air is. Research shows that harsh surfactants like SLS can reduce skin ceramides by 22% in a single wash. Add air conditioning (which dramatically lowers ambient humidity indoors) and the result is skin that appears oily on the surface but is dehydrated at a deeper level. This is why barrier repair — not simply adding more moisturiser — is essential for Queensland skin.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "Are the products suitable for sensitive skin?",
-            "answer": "<p>Yes. The protocol was developed through treating sensitive, reactive, and environmentally stressed skin. The approach prioritises barrier support and gradual improvement rather than aggressive cosmetic intervention.</p>"
+            "question": "How does daily UV exposure impact the skin long-term?",
+            "answer": "<p>Every unprotected UV exposure event — even brief ones — sets off a cascade of damage:</p><ul><li><strong>DNA mutations</strong> accumulate in skin cells, increasing the risk of dysfunctional behaviour and senescence</li><li><strong>Collagen and elastin fibres</strong> are broken down by UV-generated matrix metalloproteinases (MMPs), leading to structural weakening</li><li><strong>Melanocytes</strong> are stimulated to produce excess pigment, creating sunspots and uneven tone</li><li><strong>Free radicals</strong> are generated, causing oxidative stress that damages cell membranes and proteins</li><li><strong>The barrier</strong> is weakened, increasing water loss and sensitivity</li></ul><p>In Queensland, where UV exposure is a daily certainty, these processes compound year after year. An Australian study found that daily SPF 15 use alone resulted in 24% less visible skin ageing — demonstrating how significant UV protection is, and how much damage accumulates without it.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>Most people notice improved hydration and texture within the first few weeks. Deeper structural improvements in collagen support, barrier strength, and overall resilience typically develop over 8–12 weeks of consistent use.</p>"
+            "question": "Why is pigmentation more severe and persistent in Queensland?",
+            "answer": "<p>Queensland's UV intensity means melanocytes are stimulated far more frequently and intensely than in temperate climates. This chronic stimulation can lead to a state of melanocyte \"hyperactivity\" where the cells continue producing excess melanin even after individual UV events have passed. It also means that pigmentation treatments are working against a stronger, more constant trigger — which is why single-product brightening approaches often fail in Queensland. Effective pigmentation management here requires a multi-pathway approach: UV blockade (SPF), melanin production inhibition (Oligopeptide-68), melanin transfer inhibition (Niacinamide), accelerated cell turnover (AHAs, Retinol), and inflammation control (postbiotics, peptides). This is exactly what The Protocol delivers.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Why do breakouts occur more frequently in tropical and subtropical climates?",
+            "answer": "<p>The combination of heat, humidity, and increased sebum production creates a perfect environment for breakouts:</p><ul><li><strong>Sebaceous glands</strong> produce more oil in warmer temperatures, increasing pore congestion</li><li><strong>Sweat mixes with oil and dead cells</strong>, creating blockages that trap <em>Cutibacterium acnes</em> bacteria</li><li><strong>Humidity promotes bacterial proliferation</strong> on the skin surface</li><li><strong>Sunscreen and makeup residue</strong> can further occlude pores if not properly cleansed</li></ul><p>Many Queenslanders respond by using harsh, stripping cleansers — which damages the barrier, disrupts the microbiome, and triggers rebound oil production that makes breakouts worse. The Aliangé Acne Protocol addresses this cycle with barrier-respecting cleansing (Daily Devotion Cleanser), controlled exfoliation (Transforming Exfoliator), microbiome rebalancing (Probiotic Masque), and oil regulation (Biocinamide Serum).</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Why does barrier support matter so much in Queensland?",
+            "answer": "<p>The barrier is Queensland skin's first and most important line of defence against every environmental stressor — UV, heat, humidity, wind, air conditioning, salt air, and pollution. When the barrier is compromised, every other skin concern worsens: dehydration accelerates, inflammation increases, pigmentation becomes harder to control, acne flares, and sensitivity intensifies. Dr. Jamieson's clinical experience taught her that barrier health is the prerequisite for treating any other skin concern in a Queensland environment. This is why every Aliangé protocol begins with barrier support — the Daily Devotion Cleanser preserves ceramides during cleansing, and the Biocinamide Serum rebuilds the lipid matrix with a 5.5x ceramide boost and 18% TEWL reduction.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "What should a Queensland skincare routine prioritise?",
+            "answer": "<p>Based on Dr. Jamieson's 40+ years of treating Queensland skin, an effective routine must prioritise four pillars:</p><ol><li><strong>Daily UV protection</strong> — Non-negotiable. SPF is the single most impactful step for preventing photoageing, pigmentation, and DNA damage.</li><li><strong>Antioxidant defence</strong> — Free radical damage from UV is constant in Queensland. Antioxidants like Kakadu Plum Extract (100x more Vitamin C than oranges) neutralise oxidative stress before it damages cells.</li><li><strong>Barrier repair and maintenance</strong> — Ceramide restoration, postbiotic support, and gentle cleansing to maintain the barrier against constant environmental assault.</li><li><strong>Active regulation</strong> — Peptides for collagen stimulation, Niacinamide for sebum and pigment control, and controlled exfoliation for cell turnover.</li></ol><p>This is precisely the framework behind Aliangé's protocols — they were built for Queensland skin because they were developed from Queensland clinical practice.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Can active ingredients be used safely in high-UV environments?",
+            "answer": "<p>Yes, with the right approach. Some actives — particularly AHAs and Retinol — increase photosensitivity, which is a valid concern in Queensland's UV climate. However, these ingredients are most effective when used in the evening (as in The Protocol's PM routine), giving the skin overnight to process them before daytime UV exposure. When combined with consistent daily SPF (Day Cream SPF 15 in the AM routine), the benefits of these actives far outweigh the photosensitivity risk. The key is not to avoid actives, but to time them correctly and protect the skin during the day. Dr. Jamieson specifically designed her protocols with AM/PM separation for this reason.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Why do many skincare routines fail in Queensland?",
+            "answer": "<p>Because they were not designed for constant environmental stress. Most skincare routines are developed in temperate climates and tested on skin that is not subject to Queensland's year-round UV intensity, heat, humidity, and coastal exposure. Products that work well in Melbourne or London may be insufficient — or even counterproductive — in Brisbane or the Sunshine Coast. Common failures include: moisturisers without adequate SPF, cleansers that strip the barrier in humid conditions, brightening products that cannot overcome constant UV-driven pigmentation, and anti-ageing products that address chronological ageing but ignore photoageing. Aliangé was formulated by a Queensland doctor, for Queensland conditions — which is why it addresses the specific environmental challenges that other brands overlook.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

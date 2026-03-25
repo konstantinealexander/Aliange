@@ -403,48 +403,88 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "Is SPF 15 enough for daily use in Australia?",
-            "answer": "<p>For everyday incidental sun exposure, SPF 15 is sufficient and provides excellent protection, blocking 93% of UVB rays. Dr. Jamieson recommends a higher SPF for prolonged, direct sun exposure.</p>"
+            "question": "What is the Day Cream SPF 15?",
+            "answer": "<p>The Day Cream SPF 15 is Aliangé's daily protective moisturiser — the final step of the AM Protocol. It combines broad-spectrum UV protection (blocking 93% of UVB rays) with Matrixyl 3000® peptides that actively stimulate collagen while protecting, Centella Asiatica for wound healing and collagen support, Sodium Hyaluronate for deep hydration (holds 1,000x its weight in water), and Echinacea and Rosemary extracts for antioxidant and anti-inflammatory benefits. Clinical testing showed 41% wrinkle reduction in 8 weeks from the Matrixyl 3000® peptide complex — making this a treatment that protects, not just a protector that moisturises.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Will this cream feel heavy or greasy on my skin?",
-            "answer": "<p>Not at all. This cream was specifically formulated to be lightweight and non-greasy. It absorbs quickly, leaving a smooth finish that works beautifully under makeup.</p>"
+            "question": "Why is SPF 15 the right level for a daily moisturiser?",
+            "answer": "<p>SPF 15 blocks 93% of UVB rays and is the protection level validated in a landmark 4.5-year Australian clinical study that demonstrated 24% less visible skin ageing with daily use. The key insight from sun protection research is that consistency matters more than peak SPF — an SPF 15 applied every single day outperforms an SPF 50 used occasionally. By incorporating SPF 15 into a daily moisturiser, compliance becomes automatic rather than an extra step you might skip. For extended outdoor exposure (beach, sport, gardening), reapply every 2 hours or add a higher-SPF sunscreen on top.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use this if I have sensitive or rosacea-prone skin?",
-            "answer": "<p>Yes. It includes soothing Centella Asiatica, Echinacea, and Rosemary to help calm redness and irritation. We recommend patch testing first if your skin is particularly reactive.</p>"
+            "question": "What is Matrixyl 3000® and what does it do?",
+            "answer": "<p>Matrixyl 3000® is a peptide complex consisting of Palmitoyl Tetrapeptide-7 and Palmitoyl Oligopeptide — two signalling peptides that stimulate fibroblasts to produce new collagen and reduce the inflammatory processes that accelerate skin ageing. Clinical testing showed 41% wrinkle reduction in 8 weeks. Unlike most SPF moisturisers that simply protect and hydrate, the Day Cream SPF 15 is actively treating the skin throughout the day — stimulating collagen synthesis, reducing inflammation, and rebuilding the dermal matrix while also shielding against UV damage.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "When will I start to see anti-ageing results?",
-            "answer": "<p>While hydrating and protective benefits are immediate, Matrixyl 3000 is clinically proven to show significant wrinkle reduction within 8 weeks of consistent daily use.</p>"
+            "question": "Why is UV protection particularly important in Australia?",
+            "answer": "<p>Australia receives approximately 15% more UV radiation than equivalent latitudes in the Northern Hemisphere, due to the thinner ozone layer over the Southern Hemisphere and the Earth's orbital proximity to the sun during the Australian summer. UV is the single greatest external driver of skin ageing — responsible for up to 80% of visible facial ageing through a process called photoageing. It degrades collagen and elastin, stimulates melanocyte overactivity (causing pigmentation), generates DNA-damaging free radicals, and weakens the skin's barrier. Daily SPF is the most impactful single step you can take for long-term skin health — which is why Dr. Jamieson made it a non-negotiable component of every Aliangé protocol.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Do I need a separate moisturiser with this product?",
-            "answer": "<p>For most skin types, this cream provides all the hydration you need for the day. It combines your daily moisturiser and sun protection in one elegant step.</p>"
+            "question": "Is the Day Cream SPF 15 lightweight enough for oily skin?",
+            "answer": "<p>Yes. The formula is designed to be lightweight and non-greasy, absorbing quickly without leaving a heavy or shiny residue. It layers comfortably under makeup and does not contribute to pore congestion. For oily skin, the Biocinamide Serum applied underneath (Step 2 of the AM Protocol) provides 29% sebum reduction, creating a balanced, matte-leaning base that the Day Cream sits on without adding shine.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Does it leave a white cast?",
+            "answer": "<p>No. The formula is designed to absorb without leaving a visible white residue. It is suitable for all skin tones and can be worn under makeup or on its own as a daily moisturiser.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "What does Centella Asiatica do in this formula?",
+            "answer": "<p>Centella Asiatica (also known as Gotu Kola or Cica) is a botanical ingredient with extensive clinical evidence for wound healing, collagen stimulation, and anti-inflammatory action. In the Day Cream, it works synergistically with the Matrixyl 3000® peptides — while the peptides signal fibroblasts to produce new collagen, Centella Asiatica supports the structural organisation of that collagen and helps repair micro-damage from daily environmental exposure. It also provides calming benefits for sensitive or reactive skin.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the Day Cream SPF 15 as my only moisturiser?",
+            "answer": "<p>Yes — in the morning. The Day Cream SPF 15 provides hydration (Sodium Hyaluronate), barrier protection (broad-spectrum UV filters), collagen stimulation (Matrixyl 3000®), anti-inflammatory support (Echinacea, Rosemary), and wound healing support (Centella Asiatica). It is a complete AM finishing step. For the evening, you need a different product — the Ultimate A Night Cream — because nighttime is the period for corrective actives like Retinol that are not appropriate for daytime use, and because you do not need SPF at night.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "How do I apply it?",
+            "answer": "<p>Apply the Day Cream SPF 15 as the final step of your AM Protocol, after your serums have absorbed. Use approximately a 5-cent piece amount and apply evenly across the face, neck, and décolletage. Allow 2–3 minutes for the product to set before applying makeup. For best results, apply after the Biocinamide Serum and Jellyfish Peptide X Antioxidant Serum.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "How long does a jar last?",
+            "answer": "<p>The 50ml jar lasts approximately 2–3 months with daily morning use at $90, representing a cost of roughly $1–$1.50 per day for combined UV protection, peptide treatment, antioxidant defence, and hydration. Backed by Aliangé's 90-day results guarantee.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
