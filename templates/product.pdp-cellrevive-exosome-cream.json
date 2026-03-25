@@ -291,6 +291,7 @@
       "settings": {
         "heading": "The Future vs. The Past",
         "subheading": "Standard luxury creams provide moisture. We provide cellular instructions.",
+        "logo_asset": "",
         "aliange_label": "CellRevive Exosome",
         "competitor_label": "Generic \"Luxury\" Cream"
       }
@@ -455,6 +456,7 @@
     },
     "klaviyo_product_reviews": {
       "type": "aliange-klaviyo-reviews-product",
+      "disabled": true,
       "settings": {}
     },
     "final_cta": {
@@ -469,6 +471,24 @@
         "secondary_link_url": "/pages/concern-aging",
         "bg_color": "#f4f7f9"
       }
+    },
+    "1774433948a2242d8d": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_xgHMVN": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_xgHMVN"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -481,6 +501,7 @@
     "ingredients",
     "howtouse",
     "faq",
+    "1774433948a2242d8d",
     "klaviyo_product_reviews",
     "final_cta"
   ]
