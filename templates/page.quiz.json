@@ -105,7 +105,7 @@
         "text_alignment": "center",
         "subheading": "<em>DESIGNED BY A DOCTOR</em>",
         "title": "Dr. Alison Jamieson",
-        "content": "<h3>MBBS, FRACGP, Dip Derm</h3><p>With over 40 years treating Australian skin, Dr. Alison developed each Aliangé protocol to address the root cause of skin concerns — not just the surface. Your quiz result is based on the same clinical reasoning she applies in practice.</p>",
+        "content": "<p class=\"h3\">MBBS, FRACGP, Dip Derm</p><p>With over 40 years treating Australian skin, Dr. Alison developed each Aliangé protocol to address the root cause of skin concerns — not just the surface. Your quiz result is based on the same clinical reasoning she applies in practice.</p>",
         "button_1_text": "About Dr. Alison",
         "button_1_link": "shopify://pages/about-us",
         "button_1_style": "solid",

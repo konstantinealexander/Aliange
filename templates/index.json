@@ -156,7 +156,7 @@
         "text_alignment": "center",
         "subheading": "<em>MEET THE DOCTOR</em>",
         "title": "Dr. Alison Jamieson",
-        "content": "<h3>MBBS, FRACGP, Dip Derm<br/><strong>40+ Years </strong>Experience treating Australian skin</h3>",
+        "content": "<p class=\"h3\">MBBS, FRACGP, Dip Derm<br/><strong>40+ Years </strong>Experience treating Australian skin</p>",
         "button_1_text": "About Aliangé",
         "button_1_link": "shopify://pages/about-us",
         "button_1_style": "solid",

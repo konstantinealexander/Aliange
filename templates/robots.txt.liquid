@@ -1,6 +1,13 @@
 {% for group in robots.default_groups %}
-  {% assign robots_group = group %}
-  {{ robots_group }}
+  {{- group.user_agent -}}
+
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}
+
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
 {% endfor %}
 
 # AI Search Crawlers — allow for GEO / llms.txt indexing
@@ -37,5 +44,3 @@ Allow: /
 # Explicitly allow both llms files
 Allow: /llms.txt
 Allow: /llms-full.txt
-
-Sitemap: {{ shop.url }}/sitemap.xml
