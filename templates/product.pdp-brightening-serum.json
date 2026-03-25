@@ -455,6 +455,24 @@
         "button_url": ""
       }
     },
+    "177443046019562452": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_Q4QQxH": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_Q4QQxH"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "klaviyo_product_reviews": {
       "type": "aliange-klaviyo-reviews-product",
       "disabled": true,
@@ -472,51 +490,6 @@
         "secondary_link_url": "/pages/concern-pigmentation",
         "bg_color": "#f4f7f9"
       }
-    },
-    "177443046019562452": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_reviews_average_rating_YzRD6C": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
-        "klaviyo_reviews_product_reviews_summary_wLYQCh": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews-summary/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        },
-        "klaviyo_reviews_product_reviews_list_dGRmHz": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews-list/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        },
-        "klaviyo_reviews_product_reviews_4aEEy4": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        },
-        "klaviyo_reviews_featured_reviews_carousel_kapb3V": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/featured-reviews-carousel/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        },
-        "klaviyo_reviews_all_reviews_6AkwFN": {
-          "type": "shopify://apps/klaviyo-reviews/blocks/all-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "klaviyo_reviews_average_rating_YzRD6C",
-        "klaviyo_reviews_product_reviews_summary_wLYQCh",
-        "klaviyo_reviews_product_reviews_list_dGRmHz",
-        "klaviyo_reviews_product_reviews_4aEEy4",
-        "klaviyo_reviews_featured_reviews_carousel_kapb3V",
-        "klaviyo_reviews_all_reviews_6AkwFN"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
     }
   },
   "order": [
@@ -529,8 +502,8 @@
     "ingredients",
     "howtouse",
     "faq",
+    "177443046019562452",
     "klaviyo_product_reviews",
-    "final_cta",
-    "177443046019562452"
+    "final_cta"
   ]
 }
