@@ -48,7 +48,7 @@
         "content_width": 720,
         "align": "left",
         "cta_text": "Begin Skin Analysis",
-        "cta_url": "#start-quiz-btn",
+        "cta_url": "https://aliange.com.au/pages/quiz",
         "secondary_cta_text": "",
         "secondary_cta_url": "",
         "trust_line": "Doctor-Developed | Science-Backed | Takes 2 Minutes"
