@@ -42,13 +42,13 @@
 
     {%- comment -%}
       Aliangé section CSS — loaded only on pages that use those sections.
-      PDP styles: product pages. LP styles: page and collection templates.
+      PDP styles: product pages. LP styles: page, collection, and product templates (protocol PDPs use LP sections).
     {%- endcomment -%}
     {%- if request.page_type == 'product' -%}
       <link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
       <noscript><link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}"></noscript>
     {%- endif -%}
-    {%- if request.page_type == 'page' or request.page_type == 'collection' -%}
+    {%- if request.page_type == 'page' or request.page_type == 'collection' or request.page_type == 'product' -%}
       <link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
       <noscript><link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}"></noscript>
     {%- endif -%}
