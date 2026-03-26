@@ -88,8 +88,8 @@
         "faq_3"
       ],
       "settings": {
-        "description": "A concentrated, doctor-developed treatment that visibly reverses orbital drooping, smooths lip lines, and fades dark circles for a complete rejuvenation.",
-        "atc_text": "ADD TO CART - $225"
+        "description": "A concentrated treatment that visibly reverses orbital drooping, smooths lip lines, and fades dark circles for a complete rejuvenation.",
+        "atc_text": "ADD TO CART"
       }
     },
     "press_ticker": {
@@ -166,7 +166,7 @@
         "heading": "Eye & Lip Lift",
         "subheading": "Reverse signs of fatigue and ageing on your most expressive features.",
         "header_align": "left",
-        "image": "shopify://shop_images/aliange-ingredient-persian-silk-tree-albizia-julibrissin-botanical.jpg",
+        "image": "shopify://shop_images/Untitled_47.png",
         "button_text": "Shop Eye & Lip Cream",
         "button_url": ""
       }
@@ -398,7 +398,8 @@
       ],
       "settings": {
         "heading": "The Rejuvenation Protocol",
-        "subheading": "Steps to lift and define your expressive areas."
+        "subheading": "Steps to lift and define your expressive areas.",
+        "image": "shopify://shop_images/Generated_Image_March_26_2026_-_8_44PM.jpg"
       }
     },
     "faq": {
@@ -494,24 +495,6 @@
         "button_url": ""
       }
     },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "disabled": true,
-      "settings": {}
-    },
-    "final_cta": {
-      "type": "aliange-pdp-final-cta",
-      "settings": {
-        "heading": "Experience the Doctor-Developed Difference.",
-        "subheading": "Invest in a targeted treatment for your most expressive features.",
-        "button_text": "YES, I WANT TO REJUVENATE MY EYES & LIPS",
-        "button_url": "",
-        "trust_line": "90-Day Results Guarantee.",
-        "secondary_link_text": "Learn about our clinical approach to ageing →",
-        "secondary_link_url": "/pages/concern-aging",
-        "bg_color": "#f4f7f9"
-      }
-    },
     "1774434111bca905f6": {
       "type": "apps",
       "blocks": {
@@ -528,6 +511,24 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "disabled": true,
+      "settings": {}
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Experience the Doctor-Developed Difference.",
+        "subheading": "Invest in a targeted treatment for your most expressive features.",
+        "button_text": "YES, I WANT TO REJUVENATE MY EYES & LIPS",
+        "button_url": "",
+        "trust_line": "90-Day Results Guarantee.",
+        "secondary_link_text": "Learn about our clinical approach to ageing →",
+        "secondary_link_url": "/pages/concern-aging",
+        "bg_color": "#f4f7f9"
       }
     }
   },
