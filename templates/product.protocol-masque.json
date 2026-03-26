@@ -99,7 +99,7 @@
             "price": "$55",
             "why": "Dual-modality exfoliation system combining keratolytic alpha hydroxy acids with controlled mechanical abrasion to disrupt corneodesmosomes, accelerate desquamation, and promote epidermal turnover while mitigating inflammatory response via botanical modulators.",
             "key_active": "Glycolic Acid + Lactic Acid + Malic Acid + Perlite + Jojoba Esters + Green Tea Extract + Chamomile Extract + Evening Primrose Oil + Rosehip Oil",
-            "step": "2-3x/week",
+            "step": "",
             "image_path": "sku-transforming-exfoliator.png"
           }
         },
@@ -110,7 +110,7 @@
             "price": "$50",
             "why": "Microbiome-modulating treatment combining absorbent clays with pro- and prebiotic complexes to reduce pathogenic load, regulate cutaneous immune response, and restore barrier function in inflammatory skin conditions.",
             "key_active": "Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Kaolin + Bentonite + Rosehip Oil + Sodium Hyaluronate",
-            "step": "2-3x/week",
+            "step": "",
             "image_path": "sku-probiotic-masque.png"
           }
         },
@@ -121,7 +121,7 @@
             "price": "$225",
             "why": "Peptide-driven dermal signalling system designed to stimulate extracellular matrix synthesis, reduce oxidative stress–induced cellular damage, and improve dermal structural integrity and hydration.",
             "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Tocopherol",
-            "step": "2-3x/week",
+            "step": "",
             "image_path": "sku-jellyfish-peptide-serum.png"
           }
         }
