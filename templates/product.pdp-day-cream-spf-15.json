@@ -88,7 +88,7 @@
         "faq_3"
       ],
       "settings": {
-        "description": "A lightweight, anti-ageing day cream with broad-spectrum SPF 15 protection, developed by Dr. Alison Jamieson to hydrate, rejuvenate and defend your skin against the Australian sun.",
+        "description": "A lightweight, anti-ageing day cream with broad-spectrum SPF 15 protection, developed to hydrate, rejuvenate and defend your skin against the Australian sun.",
         "atc_text": "Add to Cart"
       }
     },
@@ -97,53 +97,6 @@
       "settings": {
         "label": "As Seen In",
         "speed": 35
-      }
-    },
-    "trust_bar": {
-      "type": "aliange-pdp-trust-bar",
-      "blocks": {
-        "badge_1": {
-          "type": "badge",
-          "settings": {
-            "text": "Clinically Proven"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Doctor Developed"
-          }
-        },
-        "badge_3": {
-          "type": "badge",
-          "settings": {
-            "text": "Australian Made"
-          }
-        },
-        "badge_4": {
-          "type": "badge",
-          "settings": {
-            "text": "Broad-Spectrum SPF 15"
-          }
-        },
-        "badge_5": {
-          "type": "badge",
-          "settings": {
-            "text": "90-Day Guarantee"
-          }
-        }
-      },
-      "block_order": [
-        "badge_1",
-        "badge_2",
-        "badge_3",
-        "badge_4",
-        "badge_5"
-      ],
-      "settings": {
-        "label": "Doctor Developed",
-        "bg_color": "#ffffff",
-        "speed": 25
       }
     },
     "doctor_note": {
@@ -216,6 +169,53 @@
         "image": "shopify://shop_images/aliange-ingredient-echinacea-echinacea-angustifolia-botanical.jpg",
         "button_text": "Shop Day Cream SPF 15",
         "button_url": ""
+      }
+    },
+    "trust_bar": {
+      "type": "aliange-pdp-trust-bar",
+      "blocks": {
+        "badge_1": {
+          "type": "badge",
+          "settings": {
+            "text": "Clinically Proven"
+          }
+        },
+        "badge_2": {
+          "type": "badge",
+          "settings": {
+            "text": "Doctor Developed"
+          }
+        },
+        "badge_3": {
+          "type": "badge",
+          "settings": {
+            "text": "Australian Made"
+          }
+        },
+        "badge_4": {
+          "type": "badge",
+          "settings": {
+            "text": "Broad-Spectrum SPF 15"
+          }
+        },
+        "badge_5": {
+          "type": "badge",
+          "settings": {
+            "text": "90-Day Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "badge_1",
+        "badge_2",
+        "badge_3",
+        "badge_4",
+        "badge_5"
+      ],
+      "settings": {
+        "label": "Doctor Developed",
+        "bg_color": "#ffffff",
+        "speed": 25
       }
     },
     "comparison": {
@@ -291,6 +291,7 @@
       "settings": {
         "heading": "Ditch The Generic Creams",
         "subheading": "Standard luxury creams provide moisture. We provide cellular instructions.",
+        "logo_asset": "",
         "aliange_label": "Aliangé Day Cream",
         "competitor_label": "Other \"Luxury\" Creams"
       }
