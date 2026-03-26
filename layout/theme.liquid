@@ -17,8 +17,7 @@
       <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
     {%- endif -%}
 
-    {%- comment -%}Preconnect for Shopify-hosted fonts{%- endcomment -%}
-    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    {%- comment -%}Preconnect for Shopify-hosted fonts removed to satisfy Lighthouse unused preconnect warning{%- endcomment -%}
 
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>

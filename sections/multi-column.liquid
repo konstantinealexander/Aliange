@@ -80,7 +80,7 @@
                 -%}
 
                 {%- if add_link -%}
-                  <a href="{{ block.settings.link_url }}" class="multi-column__media overflow-hidden">
+                  <a href="{{ block.settings.link_url }}" class="multi-column__media overflow-hidden" aria-label="{{ block.settings.title | escape | default: 'View details' }}">
                     {{- media_content -}}
                   </a>
                 {%- else -%}

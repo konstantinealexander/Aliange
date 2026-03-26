@@ -7117,7 +7117,13 @@ shopify-account::part(signed-out-avatar) {
 .tap-area:before {
   content: "";
   position: absolute;
-  inset: -.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 48px;
+  min-height: 48px;
+  width: 100%;
+  height: 100%;
 }
 
 @media print {
