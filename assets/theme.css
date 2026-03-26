@@ -720,21 +720,26 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 }
 
 .page-dots > * {
-  width: var(--dot-size);
-  height: var(--dot-size);
+  min-width: 44px;
+  min-height: 44px;
   border-radius: var(--rounded-full);
   place-content: center;
   display: grid;
+  position: relative;
 }
 
 .page-dots > *:after {
   content: "";
-  border-radius: inherit;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  border-radius: var(--rounded-full);
   opacity: .4;
   background: currentColor;
   transition: opacity .25s, background .25s;
   position: absolute;
-  inset: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .page-dots > *[aria-current="true"]:after {
