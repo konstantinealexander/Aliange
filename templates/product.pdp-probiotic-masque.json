@@ -166,7 +166,7 @@
         "heading": "Restore Your Skin's Harmony",
         "subheading": "A weekly scientific reset button for your skin's microbiome.",
         "header_align": "left",
-        "image": "shopify://shop_images/aliange-ingredient-rosehip-rosa-canina-botanical.jpg",
+        "image": "shopify://shop_images/246339098_572906243767233_5600253848148217590_n_18204936577107300_d217337a-7ceb-4a59-bce6-34c67b720250.jpg",
         "button_text": "Shop Probiotic Masque",
         "button_url": ""
       }
@@ -404,6 +404,13 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
+        "question_XPq4WB": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use the Probiotic Masque as an after shave?",
+            "answer": "<p>Yes- it is one of the best aftershaves you can use. It soothes, stops any irritation and stops bleeding post shaving for men. </p>"
+          }
+        },
         "faq_q1": {
           "type": "question",
           "settings": {
@@ -469,6 +476,7 @@
         }
       },
       "block_order": [
+        "question_XPq4WB",
         "faq_q1",
         "faq_q2",
         "faq_q3",
