@@ -161,6 +161,10 @@
             {%- endfor -%}
           ],
         {%- endif -%}
+        "founder": {
+          "@type": "Person",
+          "name": "Dr Alison Jamieson"
+        },
         "url": {{ shop.url | append: page.url | json }},
         "contactPoint": [{
           "@type": "ContactPoint",
@@ -173,6 +177,25 @@
     ]
   </script>
 {%- endif -%}
+
+{%- comment -%}LocalBusiness Schema: Aliangé physical presence on the Sunshine Coast.{%- endcomment -%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": {{ shop.name | json }},
+    "url": {{ shop.url | json }},
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Maroochydore",
+      "addressRegion": "QLD",
+      "addressCountry": "AU"
+    },
+    "areaServed": "Sunshine Coast, Queensland, Australia",
+    "priceRange": "$$$",
+    "telephone": "{{ shop.phone }}"
+  }
+</script>
 
 {%- comment -%}
   FAQPage Schema: Triggers if the page has a metafield 'custom.faq_json' containing a valid JSON array of questions/answers.

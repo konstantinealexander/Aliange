@@ -8,10 +8,17 @@
   assign seo_description = page_description | default: shop.description | default: shop.name
 
   if request.page_type == 'index'
-    assign seo_title = 'Aliangé | Doctor-Led Skincare Protocols | Australian Made'
-    assign seo_description = 'Developed by Dr Alison Jamieson. Medical-grade skincare protocols designed for Queensland sun. Evidence-based. Australian made.'
+    assign seo_title = 'Aliangé — Doctor-Led Skincare Protocols | Australian Made'
+    assign seo_description = 'Doctor-formulated skincare protocols that deliver histological skin change. Shop the Aliangé clinical range — Australian made.'
   elsif request.page_type == 'product'
-    assign seo_title = product.title | append: ' — ' | append: product.metafields.custom.seo_benefit | default: product.vendor | append: ' | Aliangé'
+    assign seo_benefit = product.metafields.custom.seo_benefit
+    if seo_benefit != blank
+      assign seo_title = product.title | append: ' — ' | append: seo_benefit | append: ' | Aliangé'
+      assign seo_description = seo_benefit
+    else
+      assign seo_title = product.title | append: ' | Aliangé'
+      assign seo_description = product.description | strip_html | truncate: 155
+    endif
   elsif request.page_type == 'collection'
     assign seo_title = collection.title | append: ' — Medical-Grade Skincare Australia | Aliangé'
     case collection.handle
@@ -29,7 +36,13 @@
         assign seo_description = 'Give the gift of clinical skincare with an Aliangé digital gift card. The perfect present for those seeking doctor-led, evidence-based skin regeneration.'
     endcase
   elsif request.page_type == 'article'
-    assign seo_title = article.title | append: ' — Skincare Science | Aliangé'
+    assign seo_title = article.title | append: ' | Aliangé'
+  elsif request.page_type == 'page'
+    case page.handle
+      when 'quiz'
+        assign seo_title = 'Skincare Quiz — Find Your Perfect Routine | Aliangé'
+        assign seo_description = 'Not sure where to start? Take the Aliangé skincare quiz to find your personalised clinical protocol. Doctor-led recommendations for your skin type and concerns.'
+    endcase
   endif
 -%}
 
