@@ -405,88 +405,72 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "faq_q1": {
+        "q1": {
           "type": "question",
           "settings": {
-            "question": "What is the Biocinamide Serum?",
-            "answer": "<p>The Biocinamide Serum is Aliangé's daily barrier-regulating serum built on two core technologies: 5% Niacinamide (Vitamin B3) and Lactococcus Ferment Lysate, a clinically validated postbiotic. Together, they address the barrier dysfunction that underlies virtually every common skin concern — from acne and redness to dehydration and premature ageing. Clinical testing demonstrated a 5.5x ceramide boost, 18% reduction in transepidermal water loss (TEWL), 29% sebum reduction, and a 49% decrease in active sebaceous glands. It is the most versatile product in the Aliangé range — foundational to every protocol.</p>"
+            "question": "What is Biocinamide and how does it work?",
+            "answer": "<p>Biocinamide is a <strong>niacinamide-based corrective serum</strong> designed to regulate multiple skin functions simultaneously.</p><p>Niacinamide (vitamin B3) acts as a <strong>cellular regulator</strong>, helping to:</p><ul><li><br/>Reduce inflammation<br/></li><li><br/>Strengthen the skin barrier<br/></li><li><br/>Balance oil production<br/></li><li><br/>Improve overall skin clarity<br/></li></ul><p>It works by <strong>normalising how skin behaves</strong>, rather than targeting a single concern.</p>"
           }
         },
-        "faq_q2": {
+        "q2": {
           "type": "question",
           "settings": {
-            "question": "What skin concerns does the Biocinamide Serum treat?",
-            "answer": "<p>The Biocinamide Serum addresses a wide spectrum of concerns because it works on the barrier — the biological foundation that determines how every other skin function performs:</p><ul><li><strong>Acne and breakouts</strong> — 29% sebum reduction and 49% decrease in active sebaceous glands reduces the oil that feeds <em>Cutibacterium acnes</em> overgrowth</li><li><strong>Redness and rosacea</strong> — Niacinamide down-regulates inflammatory cytokines and the NF-kB pathway, calming chronic redness at the source</li><li><strong>Pigmentation and uneven tone</strong> — Niacinamide inhibits melanin transfer from melanocytes to keratinocytes, reducing the visible expression of pigment</li><li><strong>Dehydration and sensitivity</strong> — 5.5x ceramide boost and 18% TEWL reduction restore the barrier's ability to retain moisture and resist irritants</li><li><strong>Barrier dysfunction</strong> — Sphingolipids and Phospholipids directly replenish the skin's lipid matrix</li><li><strong>Pore size</strong> — Sebum regulation and reduced congestion lead to visibly refined pores</li></ul>"
+            "question": "What skin concerns does Biocinamide target?",
+            "answer": "<p>Biocinamide is designed to address:</p><ul><li><br/>Redness and inflammation<br/></li><li><br/>Acne and congestion<br/></li><li><br/>Uneven skin tone and pigmentation<br/></li><li><br/>Barrier dysfunction<br/></li><li><br/>Enlarged pores and excess oil<br/></li></ul><p>It is particularly effective where skin is <strong>reactive, imbalanced, or inconsistent</strong>.</p>"
           }
         },
-        "faq_q3": {
+        "question_GBrqpa": {
           "type": "question",
           "settings": {
-            "question": "How does Niacinamide at 5% work in the skin?",
-            "answer": "<p>Niacinamide (Vitamin B3) is one of the most extensively researched skincare ingredients. At a 5% concentration — the clinically validated therapeutic dose — it:</p><ul><li><strong>Stimulates ceramide synthesis</strong> by up to 5.5x, rebuilding the skin's lipid barrier that prevents water loss and irritant penetration</li><li><strong>Regulates sebum production</strong> by 29%, without drying — it normalises oil output rather than suppressing it</li><li><strong>Inhibits melanin transfer</strong> by interfering with the melanosome transport pathway, reducing the visible expression of hyperpigmentation</li><li><strong>Down-regulates inflammation</strong> by modulating NF-kB and pro-inflammatory cytokine activity, which reduces redness, sensitivity, and breakout severity</li><li><strong>Increases skin elasticity</strong> by supporting collagen cross-linking and dermal protein stability</li></ul><p>This multi-target mechanism is why Niacinamide appears in dermatological literature as effective for acne, rosacea, pigmentation, ageing, and barrier repair simultaneously.</p>"
+            "question": "Can I use Biocinamide with other active ingredients?",
+            "answer": "<p>Yes—and this is where it performs best.</p><p>Niacinamide:</p><ul><li><br/>Enhances tolerance to actives like retinoids and acids<br/></li><li><br/>Reduces irritation from stronger treatments<br/></li><li><br/>Supports overall skin stability<br/></li></ul><p>This makes it an ideal <strong>foundation serum within a protocol system</strong>, not a standalone solution.</p>"
           }
         },
-        "faq_q4": {
-          "type": "question",
-          "settings": {
-            "question": "What is a postbiotic and why is it in this serum?",
-            "answer": "<p>A postbiotic is a bioactive compound produced by beneficial bacteria during fermentation — essentially the functional output of probiotic activity, without the living organisms. The Lactococcus Ferment Lysate in the Biocinamide Serum is a postbiotic that communicates directly with the skin's immune system and microbiome. It strengthens the skin's antimicrobial defence, supports the growth of beneficial bacteria, and calms inflammatory signalling. Unlike live probiotics (which are unstable in topical formulations), postbiotics are shelf-stable and deliver consistent, predictable biological benefits. Clinical research has shown that postbiotics can reduce TEWL by 18% — a direct measure of barrier improvement.</p>"
-          }
-        },
-        "faq_q5": {
-          "type": "question",
-          "settings": {
-            "question": "How does the serum help with acne without drying the skin?",
-            "answer": "<p>This is the critical distinction. Most acne treatments work by stripping oil from the skin — which damages the barrier, disrupts the microbiome, and triggers rebound sebum production that makes acne worse over time. The Biocinamide Serum takes the opposite approach: it regulates sebum production at the glandular level (49% reduction in active sebaceous glands) while simultaneously strengthening the barrier (5.5x ceramide boost) and supporting the microbiome (postbiotic Lactococcus Ferment Lysate). The result is less oil, fewer breakouts, and healthier, more hydrated skin — not the tight, flaky dryness that comes with conventional acne products.</p>"
-          }
-        },
-        "faq_q6": {
-          "type": "question",
-          "settings": {
-            "question": "How does the Biocinamide Serum reduce redness?",
-            "answer": "<p>Redness is driven by chronic inflammatory signalling — the NF-kB pathway produces pro-inflammatory cytokines that cause blood vessel dilation and immune activation in the skin. Niacinamide at 5% directly modulates this pathway, reducing the production of inflammatory mediators. At the same time, the ceramide boost (4.1–5.5% increase in ceramide synthesis) strengthens the barrier against environmental triggers that provoke flushing. The postbiotic component further calms the skin by supporting microbiome balance, which reduces the immune-triggered flare-ups common in rosacea and reactive skin types. Clinical improvements in redness are typically visible within 2–4 weeks of consistent use.</p>"
-          }
-        },
-        "faq_q7": {
-          "type": "question",
-          "settings": {
-            "question": "Can the Biocinamide Serum help with pigmentation?",
-            "answer": "<p>Yes. Niacinamide is one of the few ingredients clinically shown to reduce pigmentation through a safe, non-irritating mechanism. It works by inhibiting the transfer of melanosomes (pigment packages) from melanocytes to the surrounding keratinocytes — meaning it doesn't stop your skin from making pigment (which is a protective function), but it prevents that pigment from being distributed and expressed visibly in the upper layers of the skin. For targeted pigmentation correction, the Biocinamide Serum pairs optimally with the Brightening Serum (which contains Oligopeptide-68, a direct melanin production inhibitor) for a dual-pathway approach.</p>"
-          }
-        },
-        "faq_q8": {
-          "type": "question",
-          "settings": {
-            "question": "How does the serum improve the skin barrier?",
-            "answer": "<p>The Biocinamide Serum repairs the barrier through three complementary mechanisms:</p><ol><li><strong>Ceramide stimulation</strong> — Niacinamide increases the skin's own ceramide production by up to 5.5x. Ceramides are the lipids that hold the barrier together like mortar between bricks — without them, the barrier leaks moisture and lets irritants through.</li><li><strong>Lipid replenishment</strong> — Sphingolipids and Phospholipids in the formula directly supply barrier-building lipids, providing immediate structural support while the skin ramps up its own production.</li><li><strong>Microbiome support</strong> — The postbiotic Lactococcus Ferment Lysate helps maintain a healthy bacterial ecosystem on the skin surface, which serves as the barrier's first line of immune defence.</li></ol><p>The clinical result: 18% reduction in transepidermal water loss, meaning the skin retains significantly more moisture.</p>"
-          }
-        },
-        "faq_q9": {
+        "question_PC3xKj": {
           "type": "question",
           "settings": {
             "question": "How long does it take to see results?",
-            "answer": "<ul><li><strong>Weeks 1–2:</strong> Skin feels calmer, more hydrated, and less reactive. Oil production begins to normalise. This is the barrier responding to ceramide and lipid support.</li><li><strong>Weeks 2–4:</strong> Visible reduction in redness and pore size. Breakouts begin to decrease in frequency and severity. Skin texture becomes smoother and more refined.</li><li><strong>Weeks 4–8:</strong> Significant improvement in overall skin balance. Pigmentation begins to fade as melanin transfer is consistently inhibited. The barrier is measurably stronger.</li><li><strong>Weeks 8–12:</strong> Sustained clarity, balance, and resilience. The skin's inflammatory baseline is lower, meaning it tolerates environmental stress and active ingredients better than before.</li></ul>"
+            "answer": "<ul><li><strong>2–4 weeks:</strong> reduced redness, improved hydration, calmer skin<br/></li><li><br/><strong>4–8 weeks:</strong> clearer skin and more even tone<br/></li><li><br/><strong>8–12 weeks:</strong> improved skin stability and reduced recurrence of issues<br/></li></ul><p>Results reflect <strong>ongoing regulation of skin function</strong>, not quick suppression.</p>"
           }
         },
-        "faq_q10": {
+        "question_kdePUT": {
           "type": "question",
           "settings": {
-            "question": "Can I use the Biocinamide Serum with other active ingredients?",
-            "answer": "<p>Yes — and this is one of its greatest strengths. Niacinamide is one of the most compatible active ingredients in skincare. The Biocinamide Serum can be safely layered with:</p><ul><li><strong>Retinol</strong> (Ultimate A Night Cream) — Niacinamide improves retinol tolerance by strengthening the barrier</li><li><strong>AHAs</strong> (Brightening Serum, Transforming Exfoliator) — Niacinamide calms potential irritation from acid exfoliation</li><li><strong>Vitamin C</strong> (Kakadu Plum in the Jellyfish Peptide Serum) — contrary to a persistent skincare myth, Niacinamide and Vitamin C are perfectly compatible at the pH levels used in modern formulations</li><li><strong>Peptides</strong> — Niacinamide supports peptide absorption by improving skin hydration and barrier permeability</li><li><strong>Exosomes</strong> (CellRevive Exosome Cream) — the strengthened barrier enhances exosome stability and cellular communication</li></ul><p>Within The Protocol, the Biocinamide Serum is always applied after cleansing and before other actives — it is the foundation upon which everything else performs better.</p>"
+            "question": "Can Biocinamide help with rosacea or sensitive skin?",
+            "answer": "<p>Yes.</p><p>Niacinamide is widely used in conditions involving:</p><ul><li><br/>Chronic inflammation<br/></li><li><br/>Barrier dysfunction<br/></li><li><br/>Sensitivity<br/></li></ul><p>It helps reduce inflammation and improve tolerance, making it beneficial for <strong>rosacea-prone or reactive skin types</strong>.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "How does Biocinamide help with acne?",
+            "answer": "<p>Niacinamide has <strong>clinically demonstrated anti-inflammatory effects</strong> and is widely used in acne treatment. </p><p>It works by:</p><ul><li><br/>Reducing inflammatory lesions<br/></li><li><br/>Regulating sebum production<br/></li><li><br/>Supporting clearer pores<br/></li></ul><p>This helps control breakouts <strong>without stripping or irritating the skin</strong>.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "How does Biocinamide reduce redness?",
+            "answer": "<p>Niacinamide has strong <strong>anti-inflammatory properties</strong>, which help calm:</p><ul><li><br/>Redness<br/></li><li><br/>Irritation<br/></li><li><br/>Reactive skin responses<br/></li></ul><p>It has been shown to <strong>reduce skin erythema (redness) and improve skin calmness</strong> with consistent use.</p>"
+          }
+        },
+        "q5": {
+          "type": "question",
+          "settings": {
+            "question": "How does Biocinamide improve the skin barrier?",
+            "answer": "<p>Barrier dysfunction is a key driver of many skin concerns.</p><p>Niacinamide helps:</p><ul><li><br/>Increase ceramide production<br/></li><li><br/>Reduce water loss<br/></li><li><br/>Strengthen the outer skin layer<br/></li></ul><p>This leads to <strong>more resilient, stable skin over time</strong></p>"
           }
         }
       },
       "block_order": [
-        "faq_q1",
-        "faq_q2",
-        "faq_q3",
-        "faq_q4",
-        "faq_q5",
-        "faq_q6",
-        "faq_q7",
-        "faq_q8",
-        "faq_q9",
-        "faq_q10"
+        "q1",
+        "q2",
+        "question_GBrqpa",
+        "question_PC3xKj",
+        "question_kdePUT",
+        "q3",
+        "q4",
+        "q5"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",

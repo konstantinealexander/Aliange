@@ -82,6 +82,14 @@
             "menu_title": ""
           }
         },
+        "links_BkaAfL": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-account-main-menu",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
         "links_J6nX89": {
           "type": "links",
           "settings": {
@@ -101,6 +109,7 @@
       },
       "block_order": [
         "links_6EyjXA",
+        "links_BkaAfL",
         "links_J6nX89",
         "links"
       ],
