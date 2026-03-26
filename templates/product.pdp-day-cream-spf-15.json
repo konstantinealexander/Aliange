@@ -166,7 +166,7 @@
         "heading": "Advanced Daily Protection & Repair",
         "subheading": "A multi-action formula designed to defend against environmental damage while visibly rejuvenating the skin.",
         "header_align": "left",
-        "image": "shopify://shop_images/aliange-ingredient-echinacea-echinacea-angustifolia-botanical.jpg",
+        "image": "shopify://shop_images/DayCreamSPF15_70a74f57-454b-48cd-b7ca-5c62183042f1.png",
         "button_text": "Shop Day Cream SPF 15",
         "button_url": ""
       }
@@ -372,14 +372,14 @@
           "type": "step",
           "settings": {
             "title": "Apply Serums",
-            "description": "Apply any treatment serums and allow them to fully absorb."
+            "description": "Apply any treatment serums (Biocinamide/Brightening Serum) and allow them to fully absorb."
           }
         },
         "step3": {
           "type": "step",
           "settings": {
             "title": "Apply Day Cream",
-            "description": "Dispense 1–2 pumps and gently massage onto your face, neck, and décolletage using upward strokes."
+            "description": "Dispense 1–2 pumps and gently massage onto your face, neck, and décolletage. Any left over apply to back of hands."
           }
         },
         "step4": {
@@ -501,9 +501,9 @@
     "final_cta": {
       "type": "aliange-pdp-final-cta",
       "settings": {
-        "heading": "Your Future Skin Will Thank You",
-        "subheading": "Don’t wait for the signs of ageing to appear. Invest in clinically proven protection today and enjoy a firmer, smoother, more youthful complexion for years to come.",
-        "button_text": "Protect My Skin Now",
+        "heading": "Preserve Skin Function. Prevent Premature Ageing.",
+        "subheading": "UV exposure accelerates collagen degradation and barrier impairment. Daily SPF is essential to maintain skin integrity, hydration, and visible firmness.",
+        "button_text": "Protect Skin Daily →",
         "button_url": "",
         "trust_line": "90-Day Results Guarantee Or Your Money Back",
         "secondary_link_text": "The ultimate guide to skincare over 40 →",
