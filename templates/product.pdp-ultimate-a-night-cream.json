@@ -89,7 +89,7 @@
       ],
       "settings": {
         "description": "Experience advanced retinol, precisely delivered.\n\nUltimate A Night Cream utilises microencapsulated retinol to support overnight skin renewal, helping improve the appearance of fine lines, uneven tone, and texture while maintaining barrier integrity.",
-        "atc_text": "SHOP NOW & TRANSFORM — $130"
+        "atc_text": "SHOP NOW & TRANSFORM"
       }
     },
     "press_ticker": {
@@ -115,7 +115,7 @@
           "type": "benefit",
           "settings": {
             "title": "Reduces Visible Wrinkles",
-            "description": "Retinol and Bakuchiol work synergistically to smooth fine lines and reduce wrinkle depth by 20% in 12 weeks."
+            "description": "Retinol works to smooth fine lines and reduce wrinkle depth by 20% in 12 weeks."
           }
         },
         "b2": {
@@ -129,7 +129,7 @@
           "type": "benefit",
           "settings": {
             "title": "Rejuvenates Without Irritation",
-            "description": "Experience retinol power without common side effects; Bakuchiol ensures significant tolerance compared to standard Vitamin A."
+            "description": "Microencapsulated retinol supports gradual delivery, helping minimise irritation while maintaining efficacy."
           }
         },
         "b4": {
@@ -214,13 +214,6 @@
     "comparison": {
       "type": "aliange-pdp-comparison",
       "blocks": {
-        "r1": {
-          "type": "comparison_row",
-          "settings": {
-            "aliange_value": "Microencapsulated Retinol",
-            "competitor_value": "High (Retinol Burn)"
-          }
-        },
         "r2": {
           "type": "comparison_row",
           "settings": {
@@ -272,7 +265,6 @@
         }
       },
       "block_order": [
-        "r1",
         "r2",
         "r3",
         "r4",
@@ -299,15 +291,6 @@
             "name": "Micro-retinol",
             "bullets": "Accelerates turnover|9x more stable|Deeper penetration|Minimal irritation",
             "evidence": "Advanced technology allows it to penetrate deeper while significantly reducing risk of 'retinol burn'."
-          }
-        },
-        "i2": {
-          "type": "ingredient",
-          "settings": {
-            "category": "Natural Alternative",
-            "name": "Bakuchiol",
-            "bullets": "Matched retinol's efficacy|Significantly better tolerated|Anti-inflammatory|Fights pigmentation",
-            "evidence": "Landmark study in British Journal of Dermatology found Bakuchiol matched retinol's efficacy."
           }
         },
         "i3": {
@@ -340,7 +323,6 @@
       },
       "block_order": [
         "i1",
-        "i2",
         "i3",
         "i4",
         "i5"
