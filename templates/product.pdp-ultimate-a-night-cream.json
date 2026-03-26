@@ -347,21 +347,21 @@
           "type": "step",
           "settings": {
             "title": "Apply Serums",
-            "description": "Apply your Aliangé Brightening or Jellyfish Serum and allow it to fully absorb."
+            "description": "Apply your Aliangé Brightening Serum and allow it to fully absorb."
           }
         },
         "step3": {
           "type": "step",
           "settings": {
             "title": "Target",
-            "description": "Apply a pea-sized amount of Ultimate A to your face, neck, and décolletage."
+            "description": "Apply the Ultimate A to your face, neck, and décolletage. Any left over can be applied to back of hands."
           }
         },
         "step4": {
           "type": "step",
           "settings": {
             "title": "Build Tolerance",
-            "description": "Use 2x weekly to start, increasing frequency once skin adapts."
+            "description": "Use 2x weekly to start, increasing frequency as skin adapts."
           }
         }
       },
@@ -391,13 +391,6 @@
           "settings": {
             "question": "What is micro-encapsulated Retinol and why does it matter?",
             "answer": "<p>Standard Retinol breaks down rapidly on contact with air, light, and skin enzymes, delivering a burst of activity followed by quick degradation. Micro-encapsulation wraps the Retinol molecule in a protective shell that releases it gradually over several hours. This technology delivers a 9x longer half-life compared to standard Retinol, meaning the active ingredient works continuously through the night rather than depleting within the first hour. The result is sustained cellular renewal with lower peak irritation — more effect, less sensitivity.</p>"
-          }
-        },
-        "faq_q3": {
-          "type": "question",
-          "settings": {
-            "question": "What is Bakuchiol and how does it complement Retinol?",
-            "answer": "<p>Bakuchiol is a plant-derived ingredient (from <em>Psoralea corylifolia</em>) that activates the same retinoid receptors as Retinol but through a different molecular pathway. A study published in the British Journal of Dermatology demonstrated that Bakuchiol produced equivalent anti-ageing results to Retinol (wrinkle reduction, pigmentation improvement) with significantly better tolerability — less dryness, less peeling, less irritation. The Ultimate A Night Cream uses a 4:1 Bakuchiol-to-Retinol ratio, which means the skin receives retinoid-pathway stimulation from two different sources, amplifying the effect while the Bakuchiol's superior tolerance profile reduces the side effects typically associated with Retinol use.</p>"
           }
         },
         "faq_q4": {
@@ -453,7 +446,6 @@
       "block_order": [
         "faq_q1",
         "faq_q2",
-        "faq_q3",
         "faq_q4",
         "faq_q5",
         "faq_q6",
