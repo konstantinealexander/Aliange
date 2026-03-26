@@ -224,29 +224,29 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "aliange_value": "SPF + Peptide Treatment",
-            "competitor_value": "SPF Protection Only"
+            "aliange_value": "4 Billion Exosomes",
+            "competitor_value": "Surface Hydration"
           }
         },
         "r2": {
           "type": "comparison_row",
           "settings": {
-            "aliange_value": "41% Wrinkle Reduction",
-            "competitor_value": "No Clinical Data"
+            "aliange_value": "Instructs DNA Repair",
+            "competitor_value": "Temporary Plumping"
           }
         },
         "r3": {
           "type": "comparison_row",
           "settings": {
-            "aliange_value": "24% Less Visible Ageing",
-            "competitor_value": "No Long-Term Proof"
+            "aliange_value": "100% Boost Confirmed",
+            "competitor_value": "Negligible Change"
           }
         },
         "r4": {
           "type": "comparison_row",
           "settings": {
-            "aliange_value": "Stimulates Collagen Daily",
-            "competitor_value": "Surface Hydration Only"
+            "aliange_value": "Clears Senescence",
+            "competitor_value": "No Effect"
           }
         },
         "r5": {
@@ -259,15 +259,15 @@
         "r6": {
           "type": "comparison_row",
           "settings": {
-            "aliange_value": "Lightweight, No White Cast",
-            "competitor_value": "Heavy or Waxy Residue"
+            "aliange_value": "Deep Nano-Delivery",
+            "competitor_value": "Sits On Layer"
           }
         },
         "r7": {
           "type": "comparison_row",
           "settings": {
-            "aliange_value": "Centella Asiatica Repair",
-            "competitor_value": "Generic Botanical Blend"
+            "aliange_value": "Structural Change",
+            "competitor_value": "Wash-off Effect"
           }
         },
         "r8": {
@@ -398,7 +398,8 @@
       ],
       "settings": {
         "heading": "Daily Application Protocol",
-        "subheading": "Follow these steps to maximise the regenerative benefits of your Day Cream SPF 15."
+        "subheading": "Follow these steps to maximise the regenerative benefits of your Day Cream SPF 15.",
+        "image": "shopify://shop_images/Generated_Image_March_26_2026_-_9_09PM.jpg"
       }
     },
     "faq": {

@@ -89,7 +89,7 @@
       ],
       "settings": {
         "description": "Harnessing the regenerative power of the immortal jellyfish, this advanced serum is clinically proven to reduce senescent 'zombie' cells and repair DNA damage for visibly younger, firmer skin.",
-        "atc_text": "SHOP NOW — $225"
+        "atc_text": "SHOP NOW"
       }
     },
     "press_ticker": {
@@ -372,7 +372,7 @@
           "type": "step",
           "settings": {
             "title": "Apply",
-            "description": "Dispense 1-2 pumps"
+            "description": "Dispense 1-2 pumps of the Jellyfish Peptide x Antioxidant Serum"
           }
         },
         "step3": {
@@ -398,7 +398,8 @@
       ],
       "settings": {
         "heading": "DNA Repair Protocol",
-        "subheading": "Follow these steps to reclaim your skin's youthful vitality."
+        "subheading": "Follow these steps to reclaim your skin's youthful vitality.",
+        "image": "shopify://shop_images/IMG_3383.jpg"
       }
     },
     "faq": {
