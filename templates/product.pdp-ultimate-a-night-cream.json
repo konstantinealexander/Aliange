@@ -105,7 +105,7 @@
         "doctor_name": "Dr. Alison Jamieson",
         "credentials": "MBBS, FRACGP, Dip Derm — 40+ Years in Cosmetic Medicine",
         "doctor_image": "shopify://shop_images/dr-alison-jamieson-founder-portrait-aliange-skincare.png",
-        "quote": "When first introducing retinol, I recommend starting with twice-weekly application for the first two weeks, then gradually increasing to nightly use as your skin builds tolerance. This adaptivity ensures maximum long-term benefits."
+        "quote": "When introducing retinol, begin with twice-weekly application for the first 2 weeks, then increase frequency as tolerated toward nightly use. This graduated approach supports skin adaptation while maintaining barrier integrity and optimising long-term outcomes."
       }
     },
     "benefits": {
@@ -166,7 +166,7 @@
         "heading": "Reverse Wrinkles Overnight",
         "subheading": "Experience the power of gold-standard rejuvenation without compromise.",
         "header_align": "left",
-        "image": "shopify://shop_images/aliange-ingredient-shea-butter-butyrospermum-parkii-botanical.jpg",
+        "image": "shopify://shop_images/UltimateANightCream_043cd5c7-72ad-4f77-8dc8-6d5eb4763af4.png",
         "button_text": "Shop Ultimate A Night Cream",
         "button_url": ""
       }
@@ -178,12 +178,6 @@
           "type": "badge",
           "settings": {
             "text": "Micro-Encapsulated Retinol"
-          }
-        },
-        "badge_2": {
-          "type": "badge",
-          "settings": {
-            "text": "Bakuchiol Infused"
           }
         },
         "badge_3": {
@@ -207,7 +201,6 @@
       },
       "block_order": [
         "badge_1",
-        "badge_2",
         "badge_3",
         "badge_4",
         "badge_5"
@@ -224,7 +217,7 @@
         "r1": {
           "type": "comparison_row",
           "settings": {
-            "aliange_value": "Minimal (Bakuchiol)",
+            "aliange_value": "Microencapsulated Retinol",
             "competitor_value": "High (Retinol Burn)"
           }
         },
