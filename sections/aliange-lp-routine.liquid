@@ -165,8 +165,15 @@
     </div>
 
     {%- if section.settings.cta_text != blank -%}
+      {%- if section.settings.cta_url != blank -%}
+        {%- assign _lp_routine_href = section.settings.cta_url -%}
+      {%- elsif product -%}
+        {%- assign _lp_routine_href = '/cart/' | append: product.selected_or_first_available_variant.id | append: ':1' -%}
+      {%- else -%}
+        {%- assign _lp_routine_href = '/collections/all' -%}
+      {%- endif -%}
       <div class="lp-protocol-cta lp-reveal">
-        <a href="{{ section.settings.cta_url | default: '/collections/all' }}" class="lp-btn">
+        <a href="{{ _lp_routine_href }}" class="lp-btn">
           {{ section.settings.cta_text }}
         </a>
       </div>
