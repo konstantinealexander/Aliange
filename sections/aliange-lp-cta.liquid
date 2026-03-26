@@ -72,10 +72,13 @@
 
 {%- if section.settings.cta_url != blank -%}
   {%- assign _cta_href = section.settings.cta_url -%}
+  {%- assign _cta_skip_cart = false -%}
 {%- elsif product != blank -%}
   {%- assign _cta_href = '/cart/' | append: product.selected_or_first_available_variant.id | append: ':1' -%}
+  {%- assign _cta_skip_cart = true -%}
 {%- else -%}
   {%- assign _cta_href = '/collections/all' -%}
+  {%- assign _cta_skip_cart = false -%}
 {%- endif -%}
 
 <section id="lp-cta-{{ section.id }}" aria-label="Call to action">
@@ -87,7 +90,14 @@
     {%- endif -%}
 
     <div class="lp-cta-actions">
-      <a href="{{ _cta_href }}" class="lp-btn lp-btn--white">
+      <a
+        href="{{ _cta_href }}"
+        class="lp-btn lp-btn--white"
+        {%- if _cta_skip_cart -%}
+          data-lp-checkout="true"
+          data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+        {%- endif -%}
+      >
         {{ section.settings.cta_text | default: 'Shop Now' }}
       </a>
       {%- if section.settings.secondary_cta_text != blank -%}
@@ -104,6 +114,30 @@
     {%- endif -%}
   </div>
 </section>
+
+<script>
+  if (!window._aliangeLpCheckoutHandlerRegistered) {
+    window._aliangeLpCheckoutHandlerRegistered = true;
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('[data-lp-checkout="true"]');
+      if (!btn) return;
+      e.preventDefault();
+      var variantId = btn.getAttribute('data-variant-id');
+      if (!variantId) return;
+      btn.style.opacity = '0.7';
+      btn.style.pointerEvents = 'none';
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: variantId, quantity: 1 })
+      }).then(function() {
+        window.location.href = '/checkout';
+      }).catch(function() {
+        window.location.href = btn.getAttribute('href');
+      });
+    });
+  }
+</script>
 
 {% render 'aliange-lp-scripts' %}
 

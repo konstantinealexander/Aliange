@@ -248,48 +248,88 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>4-8 weeks for significant improvements. Full benefits at the 90-day mark.</p>"
+            "question": "What is the Acne Protocol?",
+            "answer": "<p>The Acne Protocol is a 5-step clinical system designed by Dr. Alison Jamieson to treat acne at its biological roots — not just the visible breakouts. It targets the four key drivers of acne simultaneously: excess sebum production, pore congestion, microbiome imbalance, and barrier dysfunction. The system includes Daily Devotion Cleanser, Transforming Exfoliator, Probiotic Masque, Biocinamide Serum, and Day Cream SPF 15 — each addressing a different pathway so that breakouts are resolved systemically rather than suppressed temporarily.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>Yes. The protocol focuses on barrier repair. We recommend a patch test.</p>"
+            "question": "What makes this different from typical acne products?",
+            "answer": "<p>Most acne products rely on harsh, stripping formulas that dry out the skin in an attempt to eliminate oil. This approach damages the barrier, triggers rebound sebum production, and disrupts the skin's microbiome — often making acne worse over time. Research shows that harsh surfactants like SLS can reduce skin ceramides by 22%, weakening the very barrier that protects against bacterial overgrowth. The Acne Protocol takes the opposite approach: it regulates oil production (29% sebum reduction in 28 days), rebalances the microbiome with postbiotics, clears congestion with targeted exfoliation, and repairs the barrier throughout — breaking the cycle rather than perpetuating it.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use other actives with this?",
-            "answer": "<p>We recommend the protocol exclusively for the first 90 days.</p>"
+            "question": "What types of acne does it treat?",
+            "answer": "<p>The Acne Protocol is effective for:</p><ul><li><strong>Mild to moderate inflammatory acne</strong> — papules, pustules, and comedones</li><li><strong>Hormonal acne</strong> — breakouts driven by androgen-stimulated sebum overproduction and 5-alpha reductase enzyme activity</li><li><strong>Congestion-driven breakouts</strong> — blackheads, whiteheads, and clogged pores from dead cell accumulation</li><li><strong>Post-inflammatory hyperpigmentation (PIH)</strong> — the dark marks and discolouration left behind after breakouts resolve</li></ul><p>For severe cystic or nodular acne, this protocol can be used alongside prescription treatments with guidance from your prescribing doctor.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "What skin types is this for?",
-            "answer": "<p>Acne-prone, oily, combination, and congested skin.</p>"
+            "question": "How does each product in the protocol work?",
+            "answer": "<ol><li><strong>Daily Devotion Cleanser</strong> — Uses syndet technology (Sodium Cocoyl Isethionate) to remove excess oil and impurities without stripping the barrier. Unlike SLS-based cleansers, it preserves the skin's ceramide structure and natural pH, preventing the rebound oil production that feeds breakouts.</li><li><strong>Transforming Exfoliator (2–3x weekly)</strong> — Dual-action formula combining AHAs (Glycolic, Lactic, Malic acids) with physical exfoliants (Jojoba Esters, Perlite) to clear pore congestion. Contains 5% Tea Tree Oil, clinically proven to be as effective as Benzoyl Peroxide against acne-causing bacteria but without the excessive drying.</li><li><strong>Probiotic Masque (2–3x weekly)</strong> — Kaolin and Bentonite clays draw out impurities while Lactococcus Ferment Lysate and Alpha-Glucan Oligosaccharide rebalance the skin's microbiome. A healthy microbiome suppresses the overgrowth of Cutibacterium acnes that drives inflammatory breakouts.</li><li><strong>Biocinamide Serum</strong> — 5% Niacinamide reduces sebum production by 29% and decreases active sebaceous glands by 49%. Postbiotic Lactococcus Ferment Lysate strengthens the barrier with a 5.5x ceramide boost, while Enantia Chlorantha Bark Extract and Oleanolic Acid provide additional oil regulation.</li><li><strong>Day Cream SPF 15</strong> — Protects healing skin from UV-induced post-inflammatory hyperpigmentation while Matrixyl 3000® peptides support ongoing repair. SPF is critical for acne-prone skin because UV exposure darkens PIH marks and can trigger further inflammation.</li></ol>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "How long does the protocol last?",
-            "answer": "<p>Approximately 3 months with recommended use.</p>"
+            "question": "Will this protocol dry out my skin?",
+            "answer": "<p>No. This is one of the most important differences between the Acne Protocol and conventional acne treatments. Every product in the system is designed to support the skin's barrier while treating breakouts. The cleanser preserves ceramides. The Biocinamide Serum delivers an 18% reduction in transepidermal water loss. Even the exfoliator and masque are formulated with hydrating and soothing ingredients. Healthy, hydrated skin clears breakouts faster than compromised, dehydrated skin — and it is far less likely to produce the rebound oil that restarts the cycle.</p>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Weeks 1–2:</strong> Reduced oiliness and surface congestion. Skin begins to feel calmer and more balanced as the microbiome starts to rebalance and the barrier strengthens.</li><li><strong>Weeks 2–4:</strong> Noticeable decrease in active breakouts. Existing blemishes begin resolving faster. Skin texture becomes smoother.</li><li><strong>Weeks 4–8:</strong> Significant reduction in breakout frequency and severity. PIH marks begin to fade. Pores appear visibly refined.</li><li><strong>Weeks 8–12:</strong> Clearer, more balanced skin with markedly reduced congestion and inflammation. Post-inflammatory marks continue to lighten.</li><li><strong>12+ weeks:</strong> Sustained clarity and balance as the microbiome, barrier, and sebum production reach a healthier baseline.</li></ul><p>The protocol is backed by Aliangé's 90-day results guarantee.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Will I experience purging?",
+            "answer": "<p>Some clients experience a brief adjustment period during the first 1–3 weeks, particularly if they have significant underlying congestion. This is not a worsening of acne — it is the accelerated clearance of existing blockages that were already forming beneath the surface. The AHAs in the Transforming Exfoliator speed up cell turnover, which can bring these pre-existing blockages to the surface faster. This is temporary and is a sign that the protocol is working. If purging persists beyond 4 weeks, reduce frequency of the exfoliating products.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Acne Protocol suitable for sensitive or reactive skin?",
+            "answer": "<p>Yes. Start with the Daily Devotion Cleanser and Biocinamide Serum daily — these are inherently calming and barrier-supportive. Introduce the Transforming Exfoliator once per week and the Probiotic Masque once per week, gradually increasing to 2–3 times weekly as your skin tolerates it. The entire system is free from SLS, harsh surfactants, and drying alcohols. Dr. Jamieson designed this protocol to work with the skin's biology, not against it — which makes it fundamentally suitable for even reactive skin types.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this alongside prescription acne medication?",
+            "answer": "<p>Yes. The Acne Protocol is designed to complement prescription treatments such as topical retinoids, antibiotics, or oral medications. It supports barrier integrity and microbiome balance — two areas that prescription treatments often compromise. If you are using prescription retinoids, you may wish to reduce or alternate the Transforming Exfoliator to avoid over-exfoliation. Always inform your prescribing doctor of the products you are using.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Does the protocol help with acne scarring? Why does acne keep coming back with other treatments?",
+            "answer": "<p>The Acne Protocol primarily addresses active breakouts, congestion, and post-inflammatory hyperpigmentation (PIH) — the dark marks left after blemishes. For deeper textural scarring (atrophic or ice-pick scars), the protocol can improve surrounding skin quality but may not fully resolve structural scarring. For enhanced results on scarring, consider adding the Jellyfish Peptide X Antioxidant Serum (for collagen stimulation) or CellRevive Exosome Cream (for cellular regeneration) to support dermal repair.</p><p>As for why acne keeps returning with other treatments: most treatments only address the symptom (the breakout) without correcting the underlying causes. Acne is driven by a convergence of four factors: excess sebum, pore congestion, bacterial overgrowth, and inflammation — all connected to barrier health and microbiome balance. Stripping cleansers damage the barrier. Harsh spot treatments kill bacteria indiscriminately, disrupting the microbiome. Without addressing all four pathways simultaneously, the cycle restarts as soon as treatment stops. The Acne Protocol breaks this cycle by correcting the underlying biology.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "label": "Questions Answered",

@@ -312,48 +312,104 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>While many users notice a difference in their skin's texture and hydration within the first few weeks, the most significant results, such as a reduction in fine lines and pigmentation, will become visible after 90 days of consistent use.</p>"
+            "question": "What is The Protocol?",
+            "answer": "<p>The Protocol is Aliangé's complete, 6-step clinical skincare system designed by Dr. Alison Jamieson to target all major mechanisms of skin ageing simultaneously. Rather than addressing one concern at a time, The Protocol works across five biological pathways — collagen degradation, pigmentation, cellular turnover, barrier decline, and oxidative stress — delivering 41% wrinkle reduction in just 8 weeks. It is the most comprehensive way to treat ageing skin at home, built on the same multi-pathway principles Dr. Jamieson has used in clinical practice for over 40 years.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other products?",
-            "answer": "<p>This protocol is designed to be a complete system. While you can incorporate other products, we recommend using the protocol as directed for at least 90 days to experience the full benefits.</p>"
+            "question": "Who is The Protocol designed for?",
+            "answer": "<p>The Protocol is designed for anyone seeking a complete, results-driven anti-ageing system — particularly clients with moderate to advanced signs of ageing, or those whose skin is showing multiple concerns at once such as lines, pigmentation, dullness, and loss of firmness. It is equally suited to clients in their 30s who want to prevent ageing proactively, and those in their 50s and beyond who want to reverse visible damage. If you are ready to commit to a structured approach rather than piecing together individual products, The Protocol is built for you.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>While the products in this protocol are formulated to be gentle, we recommend patch-testing before use if you have sensitive skin. The Ultimate A Night Cream contains retinol, which can cause irritation in some individuals.</p>"
+            "question": "What are the six steps and what does each one do?",
+            "answer": "<p>Each step in The Protocol targets a different biological pathway:</p><ol><li><strong>Daily Devotion Cleanser</strong> — Prepares the skin using syndet technology (Sodium Cocoyl Isethionate) that cleanses without stripping the barrier, so actives in subsequent steps can penetrate effectively.</li><li><strong>Biocinamide Serum</strong> — Reinforces barrier function with 5% Niacinamide and postbiotic Lactococcus Ferment Lysate, delivering a 5.5x ceramide boost and 18% reduction in transepidermal water loss.</li><li><strong>Brightening Serum (PM)</strong> — Targets pigmentation through Oligopeptide-68 (16x more effective than hydroquinone at melanin inhibition) and a calibrated AHA blend to accelerate cellular turnover.</li><li><strong>Jellyfish Peptide X Antioxidant Serum</strong> — Repairs DNA damage and stimulates collagen using Juveleven™ (13.7% DNA damage repair in 6 hours) and Matrixyl® synthe'6™ (105% increase in Collagen I production), plus Kakadu Plum Extract for antioxidant defence.</li><li><strong>Day Cream SPF 15 (AM)</strong> — Protects against UV-driven ageing with Matrixyl 3000® peptides that continue supporting collagen throughout the day. An Australian study showed daily SPF 15 use resulted in 24% less visible skin ageing.</li><li><strong>Ultimate A Night Cream (PM)</strong> — Drives overnight cellular renewal with micro-encapsulated Retinol (9x longer half-life for sustained release) and Bakuchiol, delivering 20% wrinkle reduction and 59% hyperpigmentation improvement.</li></ol>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "What skin types is this for?",
-            "answer": "<p>This protocol is suitable for most skin types, particularly those concerned with ageing, fine lines, wrinkles, and pigmentation.</p>"
+            "question": "What makes The Protocol different from other anti-ageing routines?",
+            "answer": "<p>Most skincare routines treat one or two concerns with products that were never designed to work together. The Protocol is fundamentally different — it is a calibrated, multi-pathway system where each step is formulated to complement the next. The cleanser prepares the barrier for active penetration. The Biocinamide Serum strengthens the barrier so it can tolerate potent actives. The peptides, retinoids, and exfoliants each target distinct ageing mechanisms without competing or cancelling each other out. This is what Dr. Jamieson calls a Protocol, not a routine — a structured, medically-inspired treatment system that treats the skin as a biological whole.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "How long does the protocol last?",
-            "answer": "<p>With daily use as directed, the products in this protocol should last for approximately 3 months.</p>"
+            "question": "What ageing concerns does The Protocol address?",
+            "answer": "<p>The Protocol targets all major visible signs of ageing:</p><ul><li><strong>Fine lines and wrinkles</strong> — via retinoid-driven cell renewal and peptide-stimulated collagen synthesis</li><li><strong>Loss of firmness and elasticity</strong> — via fibroblast activation and extracellular matrix support</li><li><strong>Uneven skin tone and pigmentation</strong> — via melanin transfer inhibition and accelerated turnover</li><li><strong>Dehydration and dullness</strong> — via ceramide restoration, hyaluronic acid, and barrier repair</li><li><strong>Barrier dysfunction</strong> — via postbiotic support, lipid replenishment, and non-stripping cleansing</li><li><strong>Environmental and UV-induced damage</strong> — via DNA repair peptides, antioxidants, and daily SPF protection</li></ul>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Weeks 1–4:</strong> Improved hydration, smoother texture, and a visible glow as barrier function strengthens and cellular turnover accelerates.</li><li><strong>Weeks 4–8:</strong> Noticeable improvement in skin tone, reduction in fine lines, and more even pigmentation as collagen stimulation and melanin regulation take effect.</li><li><strong>Weeks 8–12:</strong> Measurable structural improvement — firmer skin, reduced wrinkle depth, and significantly more uniform complexion. Clinical testing showed 41% wrinkle reduction at 8 weeks.</li><li><strong>12+ weeks:</strong> Cumulative, ongoing improvement as the skin's biological processes continue to respond to sustained multi-pathway stimulation.</li></ul><p>The Protocol is backed by a 90-day results guarantee — if you don't love your results, you get your money back.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need to use every step?",
+            "answer": "<p>Yes. Each step targets a different ageing pathway, and each product is formulated to prepare the skin for the next. Removing a step doesn't just reduce that one benefit — it can compromise the effectiveness of the entire system. For example, skipping the Biocinamide Serum means the barrier isn't reinforced, which can lead to irritation from actives in subsequent steps. The Protocol works because it is complete.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "Is The Protocol suitable for sensitive skin?",
+            "answer": "<p>Yes. The Protocol is designed to be introduced gradually, allowing your skin to build tolerance over time. Start by using the Brightening Serum and Ultimate A Night Cream on alternate nights rather than every night, and increase frequency as your skin adapts. The Biocinamide Serum and Daily Devotion Cleanser are inherently calming and barrier-supportive, which helps sensitive skin tolerate the more active steps. Dr. Jamieson developed this system to be effective for the widest range of skin types — including the sensitive, sun-exposed skin she has treated throughout her career on the Sunshine Coast.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "What is the AM and PM routine?",
+            "answer": "<p><strong>AM Protocol (4 steps):</strong></p><ol><li>Daily Devotion Cleanser</li><li>Biocinamide Serum</li><li>Jellyfish Peptide X Antioxidant Serum</li><li>Day Cream SPF 15</li></ol><p><strong>PM Protocol (4 steps):</strong></p><ol><li>Daily Devotion Cleanser</li><li>Biocinamide Serum</li><li>Brightening Serum</li><li>Ultimate A Night Cream</li></ol><p>The AM routine focuses on protection and defence. The PM routine focuses on renewal and repair — the time when skin is most biologically active.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Can I combine The Protocol with other Aliangé protocols?",
+            "answer": "<p>The Protocol is already a complete system, but it can be enhanced with targeted additions:</p><ul><li><strong>CellRevive Exosome Cream</strong> — Add before your Day Cream or Night Cream for advanced cellular regeneration via 4 billion exosomes per dose.</li><li><strong>Rejuvenating Eye & Lip Cream</strong> — Add for targeted treatment around the delicate eye and lip areas.</li><li><strong>Transforming Exfoliator</strong> — Use 2–3 times per week for deeper physical and chemical resurfacing.</li><li><strong>Probiotic Masque</strong> — Use 2–3 times per week for intensive microbiome support and detoxification.</li></ul>"
+          }
+        },
+        "faq_q11": {
+          "type": "question",
+          "settings": {
+            "question": "Is The Protocol safe during pregnancy or breastfeeding?",
+            "answer": "<p>The Protocol contains Retinol (in the Ultimate A Night Cream) and certain AHAs (in the Brightening Serum), which are generally advised against during pregnancy and breastfeeding. If you are pregnant or breastfeeding, consult your prescribing doctor before use. The remaining products in the system — Daily Devotion Cleanser, Biocinamide Serum, Jellyfish Peptide X Antioxidant Serum, and Day Cream SPF 15 — can typically be used safely, but medical advice should always be sought first.</p>"
+          }
+        },
+        "faq_q12": {
+          "type": "question",
+          "settings": {
+            "question": "Why is a protocol necessary for ageing skin?",
+            "answer": "<p>Ageing is not a single problem — it is the result of multiple biological failures happening simultaneously. Collagen breaks down. Pigmentation becomes irregular. The barrier weakens. Cellular turnover slows. Oxidative damage accumulates. Treating just one of these pathways leaves the others unchecked, which is why most skincare routines deliver limited or temporary results. A protocol treats the skin as a system, addressing every pathway in a calibrated sequence. This is the approach Dr. Jamieson has used in clinical practice for over 40 years — and The Protocol brings that same methodology home.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10",
+        "faq_q11",
+        "faq_q12"
       ],
       "settings": {
         "label": "Questions Answered",
@@ -369,8 +425,8 @@
       "type": "aliange-lp-cta",
       "settings": {
         "gradient_theme": "none",
-        "headline": "",
-        "subheadline": "",
+        "headline": "Invest in a Complete System.",
+        "subheadline": "A doctor-designed, 6-step protocol targeting every mechanism of skin ageing — morning and night.",
         "cta_text": "Start The Protocol",
         "cta_url": "",
         "secondary_cta_text": "",

@@ -167,19 +167,53 @@
     {%- if section.settings.cta_text != blank -%}
       {%- if section.settings.cta_url != blank -%}
         {%- assign _lp_routine_href = section.settings.cta_url -%}
+        {%- assign _lp_routine_skip_cart = false -%}
       {%- elsif product -%}
         {%- assign _lp_routine_href = '/cart/' | append: product.selected_or_first_available_variant.id | append: ':1' -%}
+        {%- assign _lp_routine_skip_cart = true -%}
       {%- else -%}
         {%- assign _lp_routine_href = '/collections/all' -%}
+        {%- assign _lp_routine_skip_cart = false -%}
       {%- endif -%}
       <div class="lp-protocol-cta lp-reveal">
-        <a href="{{ _lp_routine_href }}" class="lp-btn">
+        <a
+          href="{{ _lp_routine_href }}"
+          class="lp-btn"
+          {%- if _lp_routine_skip_cart -%}
+            data-lp-checkout="true"
+            data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+          {%- endif -%}
+        >
           {{ section.settings.cta_text }}
         </a>
       </div>
     {%- endif -%}
   </div>
 </section>
+
+<script>
+  if (!window._aliangeLpCheckoutHandlerRegistered) {
+    window._aliangeLpCheckoutHandlerRegistered = true;
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('[data-lp-checkout="true"]');
+      if (!btn) return;
+      e.preventDefault();
+      var variantId = btn.getAttribute('data-variant-id');
+      if (!variantId) return;
+      btn.style.opacity = '0.7';
+      btn.style.pointerEvents = 'none';
+      fetch('/cart/add.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: variantId, quantity: 1 })
+      }).then(function() {
+        window.location.href = '/checkout';
+      }).catch(function() {
+        window.location.href = btn.getAttribute('href');
+      });
+    });
+  }
+</script>
 
 {% render 'aliange-lp-scripts' %}
 
