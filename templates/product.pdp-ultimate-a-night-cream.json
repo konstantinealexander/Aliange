@@ -88,7 +88,7 @@
         "faq_3"
       ],
       "settings": {
-        "description": "Experience the future of retinol. Our groundbreaking Ultimate A Night Cream combines clinically-proven Bakuchiol with micro-encapsulated Retinol to visibly reduce wrinkles and pigmentation while you sleep.",
+        "description": "Experience advanced retinol, precisely delivered.\n\nUltimate A Night Cream utilises microencapsulated retinol to support overnight skin renewal, helping improve the appearance of fine lines, uneven tone, and texture while maintaining barrier integrity.",
         "atc_text": "SHOP NOW & TRANSFORM — $130"
       }
     },
@@ -494,24 +494,6 @@
         "button_url": ""
       }
     },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "disabled": true,
-      "settings": {}
-    },
-    "final_cta": {
-      "type": "aliange-pdp-final-cta",
-      "settings": {
-        "heading": "Your Journey to Visibly Younger Skin Starts Tonight",
-        "subheading": "Wake up to a smoother, clearer, and more youthful complexion.",
-        "button_text": "ADD TO CART - 90-DAY GUARANTEE",
-        "button_url": "",
-        "trust_line": "Love your results in 90 days, or your money back.",
-        "secondary_link_text": "Learn about our clinical approach to ageing →",
-        "secondary_link_url": "/pages/concern-aging",
-        "bg_color": "#f4f7f9"
-      }
-    },
     "1774434222eb82b827": {
       "type": "apps",
       "blocks": {
@@ -528,6 +510,24 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "disabled": true,
+      "settings": {}
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Your Journey to Visibly Younger Skin Starts Tonight",
+        "subheading": "Wake up to a smoother, clearer, and more youthful complexion.",
+        "button_text": "ADD TO CART - 90-DAY GUARANTEE",
+        "button_url": "",
+        "trust_line": "Love your results in 90 days, or your money back.",
+        "secondary_link_text": "Learn about our clinical approach to ageing →",
+        "secondary_link_url": "/pages/concern-aging",
+        "bg_color": "#f4f7f9"
       }
     }
   },
