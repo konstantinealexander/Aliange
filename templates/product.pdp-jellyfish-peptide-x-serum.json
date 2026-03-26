@@ -405,48 +405,88 @@
     "faq": {
       "type": "aliange-pdp-faq",
       "blocks": {
-        "q1": {
+        "faq_q1": {
           "type": "question",
           "settings": {
-            "question": "How is this different from other anti-ageing serums?",
-            "answer": "<p>Focuses on DNA repair, a foundational aspect of skin ageing. By targeting cellular health with the Juveleven™ peptide, it goes beyond surface-level treatments.</p>"
+            "question": "What are jellyfish peptides and why are they used in skincare?",
+            "answer": "<p>The Jellyfish Peptide X Antioxidant Serum features Acetyl Hexapeptide-51 Amide, known as Juveleven™ — a peptide inspired by the biological mechanisms of the immortal jellyfish (<em>Turritopsis dohrnii</em>), the only known organism capable of reversing its own ageing process. Research published in PNAS identified the specific DNA-repair genes responsible for this ability. Juveleven™ is a lab-synthesised peptide that mimics these repair mechanisms, activating the skin's own DNA-damage response to protect and repair cellular genetic material. This is not a cosmetic ingredient — it is a biological repair tool.</p>"
           }
         },
-        "q2": {
+        "faq_q2": {
           "type": "question",
           "settings": {
-            "question": "Is the 'jellyfish peptide' actually from jellyfish?",
-            "answer": "<p>No. It is a 100% lab-synthesised, vegan ingredient. It's bio-inspired by the Turritopsis dohrnii jellyfish’s repair mechanisms.</p>"
+            "question": "How does the serum repair DNA damage?",
+            "answer": "<p>Every day, your skin cells sustain DNA damage from UV radiation, pollution, and oxidative stress. Over time, this accumulated damage leads to cellular dysfunction, senescence, and visible ageing. Juveleven™ (Acetyl Hexapeptide-51 Amide) activates the skin's natural DNA-repair pathways, helping cells identify and correct genetic damage before it becomes permanent. Clinical testing demonstrated 13.7% DNA damage repair within just 6 hours of application, and a 64.5% reduction in senescent (non-functioning) cells. This means the serum actively reverses cellular damage, not just prevents future harm.</p>"
           }
         },
-        "q3": {
+        "faq_q3": {
           "type": "question",
           "settings": {
-            "question": "Can I use this serum with retinol?",
-            "answer": "<p>Absolutely. It pairs exceptionally well with Retinoids at night to support the skin's natural repair cycle.</p>"
+            "question": "How does it stimulate collagen production?",
+            "answer": "<p>The serum contains Palmitoyl Tripeptide-38, known as Matrixyl® synthe'6™ — one of the most clinically validated collagen-stimulating peptides available. It works by signalling fibroblasts (the cells that produce structural proteins) to synthesise six key components of the skin's extracellular matrix: Collagen I, Collagen III, Collagen IV, Fibronectin, Hyaluronic Acid, and Laminin 5. Clinical testing showed a 105% increase in Collagen I production and a 31% reduction in wrinkle volume. This dual-action — DNA repair plus collagen stimulation — addresses ageing at both the cellular and structural level simultaneously.</p>"
           }
         },
-        "q4": {
+        "faq_q4": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>DNA repair benefits begin within hours, while wrinkle reduction and collagen improvements become pronounced over 4-8 weeks.</p>"
+            "question": "What makes this different from other peptide serums?",
+            "answer": "<p>Most peptide serums contain one type of peptide targeting one mechanism — typically collagen stimulation. The Jellyfish Peptide X Antioxidant Serum is a multi-pathway formula that combines three distinct biological actions:</p><ol><li><strong>DNA repair</strong> (Juveleven™) — corrects accumulated genetic damage at the cellular level</li><li><strong>Collagen stimulation</strong> (Matrixyl® synthe'6™) — rebuilds the dermal structure with six extracellular matrix components</li><li><strong>Antioxidant protection</strong> (Kakadu Plum Extract) — prevents future oxidative damage</li></ol><p>This triple-action approach means the serum addresses the past (existing damage), the present (structural decline), and the future (ongoing environmental assault) simultaneously. It also contains Sodium Hyaluronate and Squalene for hydration and barrier support.</p>"
           }
         },
-        "q5": {
+        "faq_q5": {
           "type": "question",
           "settings": {
-            "question": "Can I use this if I have sensitive skin?",
-            "answer": "<p>Yes, this formula was designed to be both potent and gentle. Squalene and Sodium Hyaluronate are excellent for soothing sensitive skin.</p>"
+            "question": "What specific skin concerns does it address?",
+            "answer": "<p>The Jellyfish Peptide X Antioxidant Serum targets:</p><ul><li><strong>Fine lines and wrinkles</strong> — 31% wrinkle volume reduction through collagen stimulation and matrix rebuilding</li><li><strong>Loss of firmness</strong> — 105% Collagen I increase restores dermal density and structural integrity</li><li><strong>Dullness and uneven texture</strong> — DNA repair and antioxidant protection restore cellular vitality and radiance</li><li><strong>Dehydration</strong> — Sodium Hyaluronate (holds 1,000x its weight in water) and Squalene provide deep, lasting hydration</li><li><strong>Environmental damage</strong> — Kakadu Plum neutralises free radicals; Juveleven™ repairs UV-induced DNA mutations</li><li><strong>Cellular ageing</strong> — 64.5% reduction in senescent cells restores the skin's functional capacity</li></ul>"
+          }
+        },
+        "faq_q6": {
+          "type": "question",
+          "settings": {
+            "question": "Is the serum derived from actual jellyfish?",
+            "answer": "<p>No. The peptide Acetyl Hexapeptide-51 Amide (Juveleven™) is entirely lab-synthesised. It was inspired by research into the immortal jellyfish's DNA-repair mechanisms, but the ingredient itself is produced through peptide synthesis — no jellyfish are harvested or harmed. The serum is vegan-friendly and cruelty-free, consistent with all Aliangé products.</p>"
+          }
+        },
+        "faq_q7": {
+          "type": "question",
+          "settings": {
+            "question": "How should I use the Jellyfish Peptide Serum in my routine?",
+            "answer": "<p>Apply the serum to clean skin after the Biocinamide Serum (if using) and before your Day Cream SPF 15 (AM) or Ultimate A Night Cream (PM). It can be used both morning and evening. In the morning, it provides antioxidant protection and DNA defence against daytime UV and environmental exposure. In the evening, it supports the skin's natural overnight repair processes with collagen-stimulating and DNA-repair peptides. Within The Protocol, it is Step 4 — applied after barrier preparation and before protection/renewal.</p>"
+          }
+        },
+        "faq_q8": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<ul><li><strong>Within hours:</strong> DNA repair processes activate — clinical testing showed 13.7% DNA damage repair within 6 hours of first application. This is not visible but represents immediate biological activity.</li><li><strong>Weeks 1–4:</strong> Improved hydration, smoother texture, and a visible radiance as antioxidant protection reduces oxidative stress and cellular function improves.</li><li><strong>Weeks 4–8:</strong> Measurable reduction in fine lines and wrinkle depth. Skin feels firmer and more resilient as new collagen production reaches visible levels.</li><li><strong>Weeks 8–12:</strong> Significant structural improvement — 31% wrinkle volume reduction and 105% Collagen I increase in clinical testing. Skin appears visibly younger, firmer, and more luminous.</li><li><strong>12+ weeks:</strong> Cumulative and sustained improvement as ongoing DNA repair and collagen stimulation compound over time.</li></ul><p>Backed by Aliangé's 90-day results guarantee.</p>"
+          }
+        },
+        "faq_q9": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Jellyfish Peptide Serum suitable for sensitive skin?",
+            "answer": "<p>Yes. Peptides are among the best-tolerated active ingredients in skincare because they work through the skin's own signalling systems rather than forcing chemical reactions. Juveleven™ and Matrixyl® synthe'6™ are both clinically tested for safety and tolerability. The serum's base of Sodium Hyaluronate and Squalene provides additional soothing hydration. Clients with sensitive skin can use this serum from day one without gradual introduction — it is inherently gentle while being biologically potent.</p>"
+          }
+        },
+        "faq_q10": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use this serum with other active ingredients?",
+            "answer": "<p>Yes. The Jellyfish Peptide X Antioxidant Serum is compatible with all major active ingredients including Niacinamide, Retinol, AHAs, Vitamin C, and exosome products. Within The Protocol, it is specifically designed to layer with the Biocinamide Serum (before) and the Day Cream or Night Cream (after). Its peptide and antioxidant ingredients do not compete with or inactivate other actives, making it one of the most versatile serums in the Aliangé range.</p>"
           }
         }
       },
       "block_order": [
-        "q1",
-        "q2",
-        "q3",
-        "q4",
-        "q5"
+        "faq_q1",
+        "faq_q2",
+        "faq_q3",
+        "faq_q4",
+        "faq_q5",
+        "faq_q6",
+        "faq_q7",
+        "faq_q8",
+        "faq_q9",
+        "faq_q10"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
