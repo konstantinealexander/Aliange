@@ -89,7 +89,7 @@
       ],
       "settings": {
         "description": "Experience a clinical-strength, dual-action exfoliation that instantly smooths texture, refines pores, and unveils a luminous, revitalised complexion. Developed by Dr. Alison Jamieson to bring the results of a professional treatment to your home.",
-        "atc_text": "Shop Now & Reveal Your Radiance — $55"
+        "atc_text": "Shop Now & Reveal Your Radiance"
       }
     },
     "press_ticker": {
@@ -166,7 +166,7 @@
         "heading": "Reveal Your Brightest Skin",
         "subheading": "Experience the clinical power of dual-action renewal.",
         "header_align": "center",
-        "image": "shopify://shop_images/aliange-ingredient-chamomile-matricaria-chamomilla-botanical.jpg",
+        "image": "shopify://shop_images/Untitled_89.png",
         "button_text": "Shop Transforming Exfoliator",
         "button_url": ""
       }
@@ -386,7 +386,7 @@
           "type": "step",
           "settings": {
             "title": "Rinse",
-            "description": "Rinse thoroughly with lukewarm water and pat dry before serums."
+            "description": "Rinse thoroughly with lukewarm water and pat dry before serums or Probiotic Masque"
           }
         }
       },
@@ -398,7 +398,8 @@
       ],
       "settings": {
         "heading": "The Transformation Protocol",
-        "subheading": "Follow these steps for clinical-grade resurfacing at home."
+        "subheading": "Follow these steps for clinical-grade resurfacing at home.",
+        "image": "shopify://shop_images/Generated_Image_March_26_2026_-_8_51PM.jpg"
       }
     },
     "faq": {
@@ -494,24 +495,6 @@
         "button_url": ""
       }
     },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "disabled": true,
-      "settings": {}
-    },
-    "final_cta": {
-      "type": "aliange-pdp-final-cta",
-      "settings": {
-        "heading": "Ready for Your Transformation?",
-        "subheading": "Your skin's clinical-grade renewal is just one step away.",
-        "button_text": "Add to Bag - $55",
-        "button_url": "",
-        "trust_line": "90-Day Money-Back Results Guarantee.",
-        "secondary_link_text": "Learn about our clinical approach to dullness →",
-        "secondary_link_url": "/pages/concern-dullness",
-        "bg_color": "#f4f7f9"
-      }
-    },
     "1774434183df0e5e71": {
       "type": "apps",
       "blocks": {
@@ -528,6 +511,24 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "disabled": true,
+      "settings": {}
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Ready for Your Transformation?",
+        "subheading": "Your skin's clinical-grade renewal is just one step away.",
+        "button_text": "Add to Bag",
+        "button_url": "",
+        "trust_line": "90-Day Money-Back Results Guarantee.",
+        "secondary_link_text": "Learn about our clinical approach to dullness →",
+        "secondary_link_url": "/pages/concern-dullness",
+        "bg_color": "#f4f7f9"
       }
     }
   },

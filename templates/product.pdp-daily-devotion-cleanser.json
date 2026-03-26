@@ -89,7 +89,7 @@
       ],
       "settings": {
         "description": "Experience a revolutionary syndet clean, scientifically formulated by Dr. Alison Jamieson to purify your skin while preserving its delicate ceramide barrier. This is the daily devotion your skin deserves.",
-        "atc_text": "ADD TO CART - $55"
+        "atc_text": "ADD TO CART"
       }
     },
     "press_ticker": {
@@ -166,7 +166,7 @@
         "heading": "Cleansing Without Compromise",
         "subheading": "Why your cleanser is the most important 730 touches your skin receives each year.",
         "header_align": "left",
-        "image": "shopify://shop_images/aliange-ingredient-allantoin-comfrey-botanical.jpg",
+        "image": "shopify://shop_images/DailyDevotionCleanser_063abb45-3f98-481e-a3c3-f66da51cd326.png",
         "button_text": "Shop Daily Devotion Cleanser",
         "button_url": ""
       }
@@ -404,7 +404,7 @@
           "type": "step",
           "settings": {
             "title": "Lather",
-            "description": "Dispense 1-2 pumps into wet hands and create a creamy foam."
+            "description": "Dispense 1-2 pumps into wet hands and create a lather."
           }
         },
         "step3": {
@@ -430,7 +430,8 @@
       ],
       "settings": {
         "heading": "The Devotion Protocol",
-        "subheading": "Follow these steps for a smarter, safer clean."
+        "subheading": "Follow these steps for a smarter, safer clean.",
+        "image": "shopify://shop_images/Generated_Image_March_26_2026_-_8_57PM.jpg"
       }
     },
     "faq": {
@@ -526,24 +527,6 @@
         "button_url": ""
       }
     },
-    "klaviyo_product_reviews": {
-      "type": "aliange-klaviyo-reviews-product",
-      "disabled": true,
-      "settings": {}
-    },
-    "final_cta": {
-      "type": "aliange-pdp-final-cta",
-      "settings": {
-        "heading": "Invest in Your Skin's Future. Start with a Smarter Cleanse.",
-        "subheading": "You are 730 cleanses away from your best skin yet.",
-        "button_text": "YES, I WANT HEALTHIER SKIN",
-        "button_url": "",
-        "trust_line": "90-Day Money-Back Guarantee.",
-        "secondary_link_text": "Why protocol matters: Protocol vs Random Products →",
-        "secondary_link_url": "/pages/skincare-protocol-vs-protocol",
-        "bg_color": "#f4f7f9"
-      }
-    },
     "1774433972331bef2c": {
       "type": "apps",
       "blocks": {
@@ -560,6 +543,24 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
+      }
+    },
+    "klaviyo_product_reviews": {
+      "type": "aliange-klaviyo-reviews-product",
+      "disabled": true,
+      "settings": {}
+    },
+    "final_cta": {
+      "type": "aliange-pdp-final-cta",
+      "settings": {
+        "heading": "Skin Outcomes Begin with Correct Cleansing",
+        "subheading": "Cleansing is the first step in maintaining barrier integrity, removing surface debris, and preparing the skin for active ingredient absorption.",
+        "button_text": "Begin Your Cleansing Protocol →",
+        "button_url": "",
+        "trust_line": "90-Day Money-Back Guarantee.",
+        "secondary_link_text": "Why protocol matters: Protocol vs Random Products →",
+        "secondary_link_url": "/pages/skincare-protocol-vs-protocol",
+        "bg_color": "#f4f7f9"
       }
     }
   },
