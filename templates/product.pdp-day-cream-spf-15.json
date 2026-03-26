@@ -372,7 +372,7 @@
           "type": "step",
           "settings": {
             "title": "Apply Serums",
-            "description": "Apply any treatment serums (Biocinamide/Brightening Serum) and allow them to fully absorb."
+            "description": "Apply any treatment serums (Biocinamide) and allow to fully absorb."
           }
         },
         "step3": {
