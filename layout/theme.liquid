@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
 
+    {%- comment -%}Render-critical CSS first — discovered and downloaded before anything else{%- endcomment -%}
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
     {%- render 'seo-meta-tags' -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
@@ -14,10 +17,8 @@
       <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
     {%- endif -%}
 
-    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
+    {%- comment -%}Preconnect for Shopify-hosted fonts{%- endcomment -%}
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"></noscript>
 
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
@@ -27,14 +28,53 @@
       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
-    {%- comment -%}Aliangé section CSS — loaded async once here to eliminate duplicate inline styles{%- endcomment -%}
-    <link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}"></noscript>
-    <link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}"></noscript>
+    {%- comment -%}
+      Google Fonts (Source Serif 4, Schibsted Grotesk, Instrument Serif) are used by
+      aliange-pdp-styles and aliange-lp-styles — only load on pages that need them.
+      Skipping on homepage saves ~3 network requests and ~200KB on Slow 4G.
+    {%- endcomment -%}
+    {%- unless request.page_type == 'index' or request.page_type == 'cart' or request.page_type == 'password' -%}
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" media="print" onload="this.media='all'">
+      <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Schibsted+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"></noscript>
+    {%- endunless -%}
+
+    {%- comment -%}
+      Aliangé section CSS — loaded only on pages that use those sections.
+      PDP styles: product pages. LP styles: page and collection templates.
+    {%- endcomment -%}
+    {%- if request.page_type == 'product' -%}
+      <link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
+      <noscript><link rel="stylesheet" href="{{ 'aliange-pdp-styles.css' | asset_url }}"></noscript>
+    {%- endif -%}
+    {%- if request.page_type == 'page' or request.page_type == 'collection' -%}
+      <link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}" media="print" onload="this.media='all'">
+      <noscript><link rel="stylesheet" href="{{ 'aliange-lp-styles.css' | asset_url }}"></noscript>
+    {%- endif -%}
 
     {%- comment -%}Preload LCP hero image to improve Largest Contentful Paint{%- endcomment -%}
-    {%- if request.page_type == 'product' and product.featured_image -%}
+    {%- if request.page_type == 'index' -%}
+      {%- assign _hero_section = sections['slideshow'] -%}
+      {%- if _hero_section.blocks.size > 0 -%}
+        {%- assign _first_block_id = _hero_section.block_order | first -%}
+        {%- assign _first_block = _hero_section.blocks[_first_block_id] -%}
+        {%- if _first_block.type == 'image' and _first_block.settings.image != blank -%}
+          {%- comment -%}Mobile image takes priority on small screens{%- endcomment -%}
+          {%- if _first_block.settings.mobile_image != blank -%}
+            <link rel="preload" as="image"
+              imagesrcset="{{ _first_block.settings.mobile_image | image_url: width: 800 }} 800w, {{ _first_block.settings.mobile_image | image_url: width: 1000 }} 1000w, {{ _first_block.settings.mobile_image | image_url: width: 1200 }} 1200w"
+              imagesizes="(max-width: 699px) 100vw"
+              media="(max-width: 699px)"
+              fetchpriority="high">
+          {%- endif -%}
+          <link rel="preload" as="image"
+            imagesrcset="{{ _first_block.settings.image | image_url: width: 800 }} 800w, {{ _first_block.settings.image | image_url: width: 1200 }} 1200w, {{ _first_block.settings.image | image_url: width: 1800 }} 1800w, {{ _first_block.settings.image | image_url: width: 2400 }} 2400w"
+            imagesizes="100vw"
+            fetchpriority="high">
+        {%- endif -%}
+      {%- endif -%}
+    {%- elsif request.page_type == 'product' and product.featured_image -%}
       <link rel="preload" as="image" href="{{ product.featured_image | image_url: width: 800 }}" fetchpriority="high">
     {%- endif -%}
 
@@ -62,8 +102,6 @@
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
 
     {{ content_for_header }}
-
-    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
   </head>
 
   {% liquid
