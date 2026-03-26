@@ -50,6 +50,17 @@
                       width="{{ block.settings.mobile_image.width }}"
                       height="{{ block.settings.mobile_image.height }}"
                   >
+                {%- elsif forloop.first -%}
+                  {%- comment -%}
+                    LCP slide with no dedicated mobile image: hard-cap at 800w on mobile.
+                    Without this a 360px × 2.75 DPR device selects the 1200w image (~1 MB+)
+                    instead of 800w (~300 KB), adding ~4 s to LCP on Slow 4G.
+                    Must match the href="...800" preload in theme.liquid.
+                  {%- endcomment -%}
+                  <source
+                      media="(max-width: 699px)"
+                      srcset="{{ block.settings.image | image_url: width: 800 }}"
+                  >
                 {%- endif -%}
 
                 {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, fetchpriority: fetch_priority, sizes: '100vw', widths: '800,1200,1800,2400,2800,3200' -}}

@@ -60,17 +60,28 @@
         {%- assign _first_block_id = _hero_section.block_order | first -%}
         {%- assign _first_block = _hero_section.blocks[_first_block_id] -%}
         {%- if _first_block.type == 'image' and _first_block.settings.image != blank -%}
-          {%- comment -%}Mobile image takes priority on small screens{%- endcomment -%}
+          {%- comment -%}
+            Mobile preload: single href at 800w so high-DPR phones (2.75×) don't
+            select 1200w+. Must match the <source media="(max-width:699px)"> in
+            slideshow.liquid — if the URLs differ the browser downloads both.
+          {%- endcomment -%}
           {%- if _first_block.settings.mobile_image != blank -%}
             <link rel="preload" as="image"
               imagesrcset="{{ _first_block.settings.mobile_image | image_url: width: 800 }} 800w, {{ _first_block.settings.mobile_image | image_url: width: 1000 }} 1000w, {{ _first_block.settings.mobile_image | image_url: width: 1200 }} 1200w"
-              imagesizes="(max-width: 699px) 100vw"
+              imagesizes="100vw"
+              media="(max-width: 699px)"
+              fetchpriority="high">
+          {%- else -%}
+            <link rel="preload" as="image"
+              href="{{ _first_block.settings.image | image_url: width: 800 }}"
               media="(max-width: 699px)"
               fetchpriority="high">
           {%- endif -%}
+          {%- comment -%}Desktop: responsive srcset, separate from mobile preload{%- endcomment -%}
           <link rel="preload" as="image"
-            imagesrcset="{{ _first_block.settings.image | image_url: width: 800 }} 800w, {{ _first_block.settings.image | image_url: width: 1200 }} 1200w, {{ _first_block.settings.image | image_url: width: 1800 }} 1800w, {{ _first_block.settings.image | image_url: width: 2400 }} 2400w"
+            imagesrcset="{{ _first_block.settings.image | image_url: width: 1200 }} 1200w, {{ _first_block.settings.image | image_url: width: 1800 }} 1800w, {{ _first_block.settings.image | image_url: width: 2400 }} 2400w"
             imagesizes="100vw"
+            media="(min-width: 700px)"
             fetchpriority="high">
         {%- endif -%}
       {%- endif -%}
