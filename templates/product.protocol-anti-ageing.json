@@ -160,7 +160,7 @@
           "type": "point",
           "settings": {
             "title": "Accelerated Renewal",
-            "description": "Night Cream’s retinol works on a structurally supported canvas for superior results."
+            "description": "Microencapsulated retinol delivers controlled, time-released Vitamin A to support skin renewal with reduced irritation."
           }
         }
       },
@@ -173,6 +173,7 @@
         "label": "The Science",
         "headline": "Engineered to Work as One System",
         "body": "Each step potentiates the next for multi-pathway rejuvenation.",
+        "image": "shopify://shop_images/Generated_Image_March_27_2026_-_11_37AM.jpg",
         "image_position": "right"
       }
     },
@@ -224,96 +225,64 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "faq_q1": {
+        "question_hBpjWG": {
           "type": "question",
           "settings": {
-            "question": "What is the Anti-Ageing Protocol?",
-            "answer": "<p>The Anti-Ageing Protocol is a targeted 3-step system designed by Dr. Alison Jamieson specifically for women experiencing visible signs of ageing — particularly fine lines, loss of firmness, and uneven pigmentation. It combines three of Aliangé's most potent active products — Brightening Serum, Jellyfish Peptide X Antioxidant Serum, and Ultimate A Night Cream — to deliver concentrated anti-ageing correction through complementary biological pathways. Clinical testing showed 41% wrinkle reduction in 8 weeks.</p>"
+            "question": "What order do I use my products in this protocol?",
+            "answer": "<p><strong>After cleansing, apply Brightening Serum and allow it to fully absorb. Follow with Jellyfish Peptide Serum, then complete the protocol with Ultimate A Night Cream.</strong></p>"
           }
         },
-        "faq_q2": {
+        "question_R89jWe": {
           "type": "question",
           "settings": {
-            "question": "How is this different from The Protocol (6-step system)?",
-            "answer": "<p>The Anti-Ageing Protocol is a focused subset of The Protocol, concentrating on the three most potent corrective steps. It is ideal for clients who already have a cleanser, SPF, and barrier support they are happy with, or who want to add targeted anti-ageing actives to their existing routine. The full Protocol includes cleansing, barrier repair, and daily protection — if you want the complete system, The Protocol is the better choice. If you want concentrated anti-ageing correction, this is designed for you.</p>"
+            "question": "Can this protocol be used on sensitive or reactive skin?",
+            "answer": "<p>Yes, with adjustment. Frequency and intensity of active steps can be <strong>modified during the adaptation phase</strong> to support tolerance while maintaining efficacy.</p>"
           }
         },
-        "faq_q3": {
+        "q1": {
           "type": "question",
           "settings": {
-            "question": "What specific concerns does the Anti-Ageing Protocol address?",
-            "answer": "<p>This protocol targets the three primary hallmarks of ageing skin:</p><ul><li><strong>Fine lines and wrinkles</strong> — Micro-encapsulated Retinol (9x longer half-life) drives cell renewal while Matrixyl® synthe'6™ stimulates a 105% increase in Collagen I production, rebuilding the dermal matrix from within.</li><li><strong>Loss of firmness and elasticity</strong> — Jellyfish-derived peptides activate fibroblasts to produce new collagen and elastin, while Bakuchiol works synergistically with Retinol to restore skin structure.</li><li><strong>Pigmentation and uneven tone</strong> — Oligopeptide-68 inhibits melanin production at the source (16x more effectively than hydroquinone), while AHAs accelerate the removal of existing pigmented cells.</li></ul>"
+            "question": "What does the Anti-Ageing Protocol target?",
+            "answer": "<p>The protocol addresses <strong>multi-factorial skin ageing</strong>, including collagen decline, reduced cellular turnover, barrier impairment, and pigment irregularity—rather than treating a single concern in isolation.</p>"
           }
         },
-        "faq_q4": {
+        "q2": {
           "type": "question",
           "settings": {
-            "question": "How do the three products work together?",
-            "answer": "<p>Each product in the Anti-Ageing Protocol is formulated to prepare the skin for the next:</p><ol><li><strong>Brightening Serum (PM, Step 1)</strong> — Exfoliates the surface layer with a calibrated AHA blend (Glycolic, Lactic, Malic, Tartaric acids) and inhibits new pigment formation with Oligopeptide-68. This removes the barrier of dead, pigmented cells, allowing deeper actives to penetrate more effectively.</li><li><strong>Jellyfish Peptide X Antioxidant Serum (AM & PM, Step 2)</strong> — Delivers DNA-repair peptides (Juveleven™) and collagen-stimulating peptides (Matrixyl® synthe'6™) into the freshly exfoliated skin. Kakadu Plum Extract provides antioxidant protection against further environmental damage.</li><li><strong>Ultimate A Night Cream (PM, Step 3)</strong> — Seals in the active peptides with a rich, lipid-based matrix of Shea Butter, Avocado Oil, and Cupuacu Butter (which absorbs 400% its weight in water), while micro-encapsulated Retinol continues driving cellular renewal through the night.</li></ol><p>This layered approach is what distinguishes a protocol from a routine — each step amplifies the next.</p>"
+            "question": "How does this protocol support collagen?",
+            "answer": "<p>The protocol incorporates actives that <strong>support collagen synthesis and reduce degradation</strong>, helping improve skin density, firmness, and the appearance of fine lines over time.</p>"
           }
         },
-        "faq_q5": {
+        "q3": {
           "type": "question",
           "settings": {
-            "question": "Who is the Anti-Ageing Protocol best suited for?",
-            "answer": "<p>This protocol is designed for:</p><ul><li>Women aged 40+ experiencing visible lines, firmness loss, or age spots</li><li>Anyone noticing that their skin no longer responds to basic moisturisers or single-product treatments</li><li>Clients who want clinical-grade correction without cosmetic procedures</li><li>Clients who already use a cleanser and SPF they like, and want to add a targeted active system</li></ul><p>If you are under 40 and primarily concerned with prevention rather than correction, the AM or Essential Protocol may be more appropriate.</p>"
+            "question": "Why is a protocol necessary for anti-ageing?",
+            "answer": "<p>Ageing occurs across multiple biological pathways. A protocol ensures <strong>simultaneous, structured intervention</strong>—optimising outcomes across texture, tone, hydration, and firmness.</p>"
           }
         },
-        "faq_q6": {
+        "q4": {
           "type": "question",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>The Anti-Ageing Protocol follows a biological timeline:</p><ul><li><strong>Weeks 1–2:</strong> Improved skin texture and radiance as AHAs accelerate surface cell turnover.</li><li><strong>Weeks 2–4:</strong> Smoother skin, reduced dullness, and early improvement in pigmentation as Oligopeptide-68 begins inhibiting melanin transfer.</li><li><strong>Weeks 4–8:</strong> Visible reduction in fine lines and wrinkle depth. Clinical testing demonstrated 41% wrinkle reduction at 8 weeks. Skin firmness begins to improve as new collagen is laid down.</li><li><strong>Weeks 8–12:</strong> Significant structural improvement — firmer, more resilient skin with measurably more even tone. Collagen I production increases by up to 105%.</li><li><strong>12+ weeks:</strong> Continued cumulative improvement. Ageing is an ongoing biological process, and sustained use produces sustained results.</li></ul>"
+            "question": "What role does retinol play in this protocol?",
+            "answer": "<p>Retinol supports <strong>cellular turnover and dermal renewal</strong>, helping improve the appearance of fine lines, pigmentation, and overall skin texture when used consistently.</p>"
           }
         },
-        "faq_q7": {
+        "q5": {
           "type": "question",
           "settings": {
-            "question": "Is the Anti-Ageing Protocol suitable for sensitive skin?",
-            "answer": "<p>Yes. Begin by using the Brightening Serum every second or third evening, and apply the Ultimate A Night Cream on alternate nights. As your skin builds tolerance (typically within 2–4 weeks), you can increase to nightly use. The Jellyfish Peptide X Antioxidant Serum is well-tolerated by sensitive skin types and can be used from day one. If you experience any redness or tightness, reduce frequency — do not stop entirely, as consistent low-frequency use is more effective than intermittent high-frequency use.</p>"
-          }
-        },
-        "faq_q8": {
-          "type": "question",
-          "settings": {
-            "question": "Can I use this protocol alongside cosmetic injectables?",
-            "answer": "<p>Yes. The Anti-Ageing Protocol works on different biological mechanisms than injectables. Botulinum toxin relaxes muscles; dermal fillers add volume. This protocol stimulates your skin's own collagen production, accelerates cell renewal, and regulates pigmentation at a cellular level. Many of Dr. Jamieson's clinical patients use both approaches together for comprehensive results. Allow 48 hours after injectable treatments before applying actives to treated areas.</p>"
-          }
-        },
-        "faq_q9": {
-          "type": "question",
-          "settings": {
-            "question": "Can beginners use the Anti-Ageing Protocol?",
-            "answer": "<p>Yes, with a gradual introduction. If you have not used retinoids or AHAs before, your skin needs time to adapt. Start with the Jellyfish Peptide X Antioxidant Serum daily (it is gentle and well-tolerated), introduce the Brightening Serum 2–3 nights per week, and add the Ultimate A Night Cream on alternate nights. Over 4–6 weeks, increase frequency to nightly use. This structured introduction avoids irritation while allowing your skin to acclimate to active ingredients.</p>"
-          }
-        },
-        "faq_q10": {
-          "type": "question",
-          "settings": {
-            "question": "Do I need SPF with this protocol?",
-            "answer": "<p>Absolutely. The Brightening Serum contains AHAs and the Ultimate A Night Cream contains Retinol — both increase photosensitivity. Without daily SPF protection, UV exposure will counteract the benefits of these actives and can worsen pigmentation. If you do not already have a daily SPF, Aliangé's Day Cream SPF 15 is specifically formulated to complement these products, with Matrixyl 3000® peptides that continue supporting collagen throughout the day.</p>"
-          }
-        },
-        "faq_q11": {
-          "type": "question",
-          "settings": {
-            "question": "Why use a protocol instead of a single anti-ageing product?",
-            "answer": "<p>Because ageing is not a single problem. It involves simultaneous collagen degradation, pigmentation dysregulation, slowed cellular turnover, and oxidative damage — each driven by different biological mechanisms. A single product, no matter how advanced, can only address one or two of these pathways. The Anti-Ageing Protocol targets all of them in a calibrated sequence, which is why it delivers measurable structural change rather than temporary cosmetic improvement. This is the same multi-pathway philosophy Dr. Jamieson has applied in clinical practice for over 40 years.</p>"
+            "question": "How long does it take to see visible results?",
+            "answer": "<p>Initial improvements in hydration and texture may be observed within <strong>4–6 weeks</strong>, with more significant changes in firmness, tone, and fine lines developing over <strong>8–12 weeks</strong>.</p>"
           }
         }
       },
       "block_order": [
-        "faq_q1",
-        "faq_q2",
-        "faq_q3",
-        "faq_q4",
-        "faq_q5",
-        "faq_q6",
-        "faq_q7",
-        "faq_q8",
-        "faq_q9",
-        "faq_q10",
-        "faq_q11"
+        "question_hBpjWG",
+        "question_R89jWe",
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
       ],
       "settings": {
         "label": "Questions Answered",
