@@ -158,6 +158,17 @@
             "image_path": "sku-biocinamide-serum.png"
           }
         },
+        "p5": {
+          "type": "product_step",
+          "settings": {
+            "name": "Day Cream SPF 15",
+            "price": "$90",
+            "why": "Broad-spectrum photoprotective formulation combining UV filters with peptide-mediated dermal support and humectant-driven hydration to reduce photo-induced collagen degradation and maintain barrier integrity.",
+            "key_active": "ctocrylene + Butyl Methoxydibenzoylmethane + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Palmitoyl Tetrapeptide-7 + Palmitoyl Oligopeptide + Centella Asiatica Extract + Sodium Hyaluronate + Tocopherol",
+            "step": "AM",
+            "image_path": "sku-day-cream-spf15.png"
+          }
+        },
         "p3": {
           "type": "product_step",
           "settings": {
@@ -180,17 +191,6 @@
             "image_path": "sku-jellyfish-peptide-serum.png"
           }
         },
-        "p5": {
-          "type": "product_step",
-          "settings": {
-            "name": "Day Cream SPF 15",
-            "price": "$90",
-            "why": "Broad-spectrum photoprotective formulation combining UV filters with peptide-mediated dermal support and humectant-driven hydration to reduce photo-induced collagen degradation and maintain barrier integrity.",
-            "key_active": "ctocrylene + Butyl Methoxydibenzoylmethane + Diethylamino Hydroxybenzoyl Hexyl Benzoate + Palmitoyl Tetrapeptide-7 + Palmitoyl Oligopeptide + Centella Asiatica Extract + Sodium Hyaluronate + Tocopherol",
-            "step": "AM",
-            "image_path": "sku-day-cream-spf15.png"
-          }
-        },
         "p6": {
           "type": "product_step",
           "settings": {
@@ -206,9 +206,9 @@
       "block_order": [
         "p1",
         "p2",
+        "p5",
         "p3",
         "p4",
-        "p5",
         "p6"
       ],
       "settings": {
