@@ -174,8 +174,8 @@
           "settings": {
             "name": "Jellyfish Peptide x Antioxidant Serum",
             "price": "$225",
-            "why": "This advanced serum provides powerful anti-ageing and antioxidant benefits, helping to repair and protect the skin.",
-            "key_active": "Matrixyl® synthe'6®",
+            "why": "Peptide-driven dermal signalling system designed to stimulate extracellular matrix synthesis, reduce oxidative stress–induced cellular damage, and improve dermal structural integrity and hydration.",
+            "key_active": "Acetyl Hexapeptide-51 Amide + Palmitoyl Tripeptide-38 + Kakadu Plum Extract + Sodium Hyaluronate + Tocopherol",
             "step": "AM & PM",
             "image_path": "sku-jellyfish-peptide-serum.png"
           }
@@ -313,18 +313,18 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
-        "question_xqyUYU": {
-          "type": "question",
-          "settings": {
-            "question": "What results should I expect to see?",
-            "answer": "<p>With consistent use, the skin typically appears:</p><ul><li><br/>more <strong>refined and even in tone</strong><br/></li><li><br/>improved in <strong>hydration and texture</strong><br/></li><li><br/>more <strong>resilient, with stronger barrier function</strong><br/></li><li><br/>visibly <strong>smoother, with a reduction in the appearance of fine lines and wrinkles</strong><br/></li><li><br/><strong>plumper and more supported</strong>, reflecting improved skin density and collagen function<br/></li></ul><p>Over time, this contributes to a more <strong>youthful, balanced, and healthy-looking complexion</strong>.</p>"
-          }
-        },
         "question_8TxzWx": {
           "type": "question",
           "settings": {
             "question": "Who is The Protocol for?",
             "answer": "<p>The Protocol is suitable for individuals seeking a <strong>structured, evidence-based approach to skin correction and maintenance</strong>.</p><p>It is particularly appropriate for:</p><ul><li><br/>skin showing early to advanced signs of ageing<br/></li><li><br/>compromised or inconsistent skin function<br/></li><li><br/>those not achieving results from isolated or unstructured product use<br/></li></ul><p>The protocol can be <strong>adjusted based on skin tolerance and condition</strong>, making it suitable across a range of skin types.</p>"
+          }
+        },
+        "question_xqyUYU": {
+          "type": "question",
+          "settings": {
+            "question": "What results should I expect to see?",
+            "answer": "<p>With consistent use, the skin typically appears:</p><ul><li><br/>more <strong>refined and even in tone</strong><br/></li><li><br/>improved in <strong>hydration and texture</strong><br/></li><li><br/>more <strong>resilient, with stronger barrier function</strong><br/></li><li><br/>visibly <strong>smoother, with a reduction in the appearance of fine lines and wrinkles</strong><br/></li><li><br/><strong>plumper and more supported</strong>, reflecting improved skin density and collagen function<br/></li></ul><p>Over time, this contributes to a more <strong>youthful, balanced, and healthy-looking complexion</strong>.</p>"
           }
         },
         "question_RPfGNr": {
@@ -378,8 +378,8 @@
         }
       },
       "block_order": [
-        "question_xqyUYU",
         "question_8TxzWx",
+        "question_xqyUYU",
         "question_RPfGNr",
         "q1",
         "q2",
