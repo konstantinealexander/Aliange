@@ -107,7 +107,7 @@
           "type": "product_step",
           "settings": {
             "name": "Probiotic Masque",
-            "price": "$50",
+            "price": "$60",
             "why": "Microbiome-modulating treatment combining absorbent clays with pro- and prebiotic complexes to reduce pathogenic load, regulate cutaneous immune response, and restore barrier function in inflammatory skin conditions.",
             "key_active": "Lactococcus Ferment Lysate + Lactobacillus + Alpha-Glucan Oligosaccharide + Kaolin + Bentonite + Rosehip Oil + Sodium Hyaluronate",
             "step": "",
@@ -173,6 +173,7 @@
         "label": "The Science",
         "headline": "Engineered to Work as One System",
         "body": "Each step synergistically enhances the next for a comprehensive skin reset.",
+        "image": "shopify://shop_images/wiissa-7.jpg",
         "image_position": "right"
       }
     },
