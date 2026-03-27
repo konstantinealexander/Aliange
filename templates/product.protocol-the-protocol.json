@@ -316,22 +316,29 @@
         "q1": {
           "type": "question",
           "settings": {
-            "question": "How long before I see results?",
-            "answer": "<p>While many users notice a difference in their skin's texture and hydration within the first few weeks, the most significant results, such as a reduction in fine lines and pigmentation, will become visible after 90 days of consistent use.</p>"
+            "question": "How is this different from using individual products?",
+            "answer": "<p>Individual products act in isolation. The Protocol ensures <strong>correct sequencing, ingredient compatibility, and cumulative efficacy</strong>, allowing the skin to respond more consistently and effectively.</p>"
+          }
+        },
+        "question_68PF4e": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
           }
         },
         "q2": {
           "type": "question",
           "settings": {
-            "question": "Can I use this with other products?",
-            "answer": "<p>This protocol is designed to be a complete system. While you can incorporate other products, we recommend using the protocol as directed for at least 90 days to experience the full benefits.</p>"
+            "question": "What order should I apply the products in?",
+            "answer": "<p>AM: Cleanse, Biocinamide, Jellyfish Peptide, Day Cream SPF 15 </p><p>PM: Cleanse, Brightening Serum, Jellyfish Peptide, Ultimate A Night Cream </p>"
           }
         },
         "q3": {
           "type": "question",
           "settings": {
-            "question": "Is this suitable for sensitive skin?",
-            "answer": "<p>While the products in this protocol are formulated to be gentle, we recommend patch-testing before use if you have sensitive skin. The Ultimate A Night Cream contains retinol, which can cause irritation in some individuals.</p>"
+            "question": "Is this suitable for sensitive or reactive skin?",
+            "answer": "<p>Yes. The Protocol is designed to <strong>support barrier function and improve tolerance over time</strong>. Frequency and active steps may be adjusted during the initial adaptation phase.</p>"
           }
         },
         "q4": {
@@ -344,13 +351,14 @@
         "q5": {
           "type": "question",
           "settings": {
-            "question": "How long does the protocol last?",
-            "answer": "<p>With daily use as directed, the products in this protocol should last for approximately 3 months.</p>"
+            "question": "How long before I see results?",
+            "answer": "<p>Skin function begins improving immediately, but visible changes typically occur over <strong>4–12 weeks</strong>, depending on skin condition, consistency, and adherence to the protocol.</p>"
           }
         }
       },
       "block_order": [
         "q1",
+        "question_68PF4e",
         "q2",
         "q3",
         "q4",
