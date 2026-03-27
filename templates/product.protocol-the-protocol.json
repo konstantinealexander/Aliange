@@ -313,6 +313,27 @@
     "lp_faq": {
       "type": "aliange-lp-faq",
       "blocks": {
+        "question_xqyUYU": {
+          "type": "question",
+          "settings": {
+            "question": "What results should I expect to see?",
+            "answer": "<p>With consistent use, the skin typically appears:</p><ul><li><br/>more <strong>refined and even in tone</strong><br/></li><li><br/>improved in <strong>hydration and texture</strong><br/></li><li><br/>more <strong>resilient, with stronger barrier function</strong><br/></li><li><br/>visibly <strong>smoother, with a reduction in the appearance of fine lines and wrinkles</strong><br/></li><li><br/><strong>plumper and more supported</strong>, reflecting improved skin density and collagen function<br/></li></ul><p>Over time, this contributes to a more <strong>youthful, balanced, and healthy-looking complexion</strong>.</p>"
+          }
+        },
+        "question_8TxzWx": {
+          "type": "question",
+          "settings": {
+            "question": "Who is The Protocol for?",
+            "answer": "<p>The Protocol is suitable for individuals seeking a <strong>structured, evidence-based approach to skin correction and maintenance</strong>.</p><p>It is particularly appropriate for:</p><ul><li><br/>skin showing early to advanced signs of ageing<br/></li><li><br/>compromised or inconsistent skin function<br/></li><li><br/>those not achieving results from isolated or unstructured product use<br/></li></ul><p>The protocol can be <strong>adjusted based on skin tolerance and condition</strong>, making it suitable across a range of skin types.</p>"
+          }
+        },
+        "question_RPfGNr": {
+          "type": "question",
+          "settings": {
+            "question": "What concerns does The Protocol target?",
+            "answer": "<p>The Protocol is designed to address <strong>multi-factorial skin ageing and dysfunction</strong>, including:</p><ul><li><br/>fine lines and loss of firmness<br/></li><li><br/>uneven skin tone and pigmentation<br/></li><li><br/>dehydration and barrier impairment<br/></li><li><br/>congestion and inflammatory activity<br/></li></ul><p>Rather than targeting a single concern, it supports <strong>overall skin function</strong>, which underpins visible improvement across multiple areas.</p>"
+          }
+        },
         "q1": {
           "type": "question",
           "settings": {
@@ -320,18 +341,18 @@
             "answer": "<p>Individual products act in isolation. The Protocol ensures <strong>correct sequencing, ingredient compatibility, and cumulative efficacy</strong>, allowing the skin to respond more consistently and effectively.</p>"
           }
         },
-        "question_68PF4e": {
-          "type": "question",
-          "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
-          }
-        },
         "q2": {
           "type": "question",
           "settings": {
             "question": "What order should I apply the products in?",
             "answer": "<p>AM: Cleanse, Biocinamide, Jellyfish Peptide, Day Cream SPF 15 </p><p>PM: Cleanse, Brightening Serum, Jellyfish Peptide, Ultimate A Night Cream </p>"
+          }
+        },
+        "question_68PF4e": {
+          "type": "question",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>While you may notice improvements in hydration and texture within a few weeks, the most significant results take 8–12 weeks of consistent use.</p>"
           }
         },
         "q3": {
@@ -357,9 +378,12 @@
         }
       },
       "block_order": [
+        "question_xqyUYU",
+        "question_8TxzWx",
+        "question_RPfGNr",
         "q1",
-        "question_68PF4e",
         "q2",
+        "question_68PF4e",
         "q3",
         "q4",
         "q5"
