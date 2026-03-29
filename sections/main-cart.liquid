@@ -24,6 +24,11 @@
               {%- render 'free-shipping-bar' -%}
             {%- endif -%}
           </div>
+
+          <!-- Trust Banner -->
+          <div style="background:#FDF8EE;border:1px solid rgba(184,140,20,0.2);border-radius:8px;padding:10px 14px;text-align:center;font-size:13px;line-height:1.5;">
+            Trusted by thousands of Australian women — developed by <strong>Dr. Alison Jamieson</strong> — a cosmetic physician with 40+ years' experience
+          </div>
         </div>
 
         <form action="{{ routes.cart_url }}" method="POST" class="cart-page">
@@ -167,11 +172,6 @@
                   {%- assign update_button = 'cart.general.update_cart' | t -%}
                   {%- render 'button', type: 'submit', content: update_button, style: 'outline' -%}
                 </noscript>
-
-                <!-- Trust Banner -->
-                <div style="background:#FDF8EE;border:1px solid rgba(184,140,20,0.2);border-radius:8px;padding:10px 14px;text-align:center;font-size:13px;line-height:1.5;">
-                  Trusted by thousands of Australian women — developed by <strong>Dr. Alison Jamieson</strong> — a cosmetic physician with 40+ years' experience
-                </div>
 
                 <!-- Guarantee Strip -->
                 <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:#F4F7F9;border-radius:8px;">
